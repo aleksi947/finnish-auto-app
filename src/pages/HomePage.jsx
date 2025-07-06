@@ -24,7 +24,7 @@ function HomePage() {
 
   return (
     <div style={{ padding: 20 }}>
-      <h1>🌟 Добро пожаловать!</h1>
+      <h1>👋 Добро пожаловать на финскую платформу!</h1>
       
       {user ? (
         <div style={{ marginBottom: 20, padding: 10, backgroundColor: "#f0f0f0", borderRadius: 5 }}>
