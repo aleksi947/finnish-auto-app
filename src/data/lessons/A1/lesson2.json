@@ -1,0 +1,95 @@
+{
+  "id": 2,
+  "level": "A1",
+  "title": "Приветствие и прощание",
+  "premium": false,
+  "goal": {
+    "ru": "Научиться здороваться и прощаться",
+    "fi": "Oppia tervehtimään ja hyvästelemään"
+  },
+  "topic": {
+    "ru": "Приветствие и прощание",
+    "fi": "Tervehdys ja hyvästit"
+  },
+  "vocabulary": [
+    {
+      "fi": "Hei",
+      "translations": {
+        "ru": "Здравствуйте",
+        "en": "Hello"
+      }
+    },
+    {
+      "fi": "Moi moi",
+      "translations": {
+        "ru": "Пока",
+        "en": "Bye"
+      }
+    },
+    {
+      "fi": "Hyvää huomenta",
+      "translations": {
+        "ru": "Доброе утро",
+        "en": "Good morning"
+      }
+    }
+  ],
+  "grammar": {
+    "title": {
+      "ru": "Формы приветствий и прощаний",
+      "fi": "Tervehdykset ja hyvästit"
+    },
+    "examples": [
+      {
+        "fi": "Hei!",
+        "translations": {
+          "ru": "Здравствуйте!",
+          "en": "Hello!"
+        }
+      },
+      {
+        "fi": "Moi moi!",
+        "translations": {
+          "ru": "Пока!",
+          "en": "Bye!"
+        }
+      }
+    ]
+  },
+  "speaking": [
+    {
+      "question": {
+        "ru": "Скажи \"Доброе утро\" и попрощайся",
+        "fi": "Sano 'Hyvää huomenta' ja hyvästele"
+      },
+      "answer_example": "Hyvää huomenta! Moi moi!"
+    }
+  ],
+  "listening": {
+    "audioUrl": "https://example.com/audio/lesson2.mp3",
+    "tasks": [
+      {
+        "question": {
+          "ru": "Что сказали в аудио?",
+          "fi": "Mitä sanottiin äänitteessä?"
+        },
+        "options": [
+          {
+            "text": {
+              "ru": "Доброе утро",
+              "fi": "Hyvää huomenta"
+            },
+            "correct": true
+          },
+          {
+            "text": {
+              "ru": "Пока",
+              "fi": "Moi moi"
+            },
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

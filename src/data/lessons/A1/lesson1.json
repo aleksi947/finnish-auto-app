@@ -1,0 +1,95 @@
+{
+  "id": 1,
+  "level": "A1",
+  "title": "Знакомство",
+  "premium": false,
+  "goal": {
+    "ru": "Поздороваться и представиться на финском",
+    "fi": "Tervehtiä ja esitellä itsensä suomeksi"
+  },
+  "topic": {
+    "ru": "Знакомство",
+    "fi": "Tuttavuus"
+  },
+  "vocabulary": [
+    {
+      "fi": "Moi",
+      "translations": {
+        "ru": "Привет",
+        "en": "Hi"
+      }
+    },
+    {
+      "fi": "Minä olen",
+      "translations": {
+        "ru": "Я есть",
+        "en": "I am"
+      }
+    },
+    {
+      "fi": "Mikä sinun nimesi on?",
+      "translations": {
+        "ru": "Как тебя зовут?",
+        "en": "What is your name?"
+      }
+    }
+  ],
+  "grammar": {
+    "title": {
+      "ru": "Как сказать имя",
+      "fi": "Kuinka sanoa nimi"
+    },
+    "examples": [
+      {
+        "fi": "Minä olen Alex.",
+        "translations": {
+          "ru": "Я Алекс.",
+          "en": "I am Alex."
+        }
+      },
+      {
+        "fi": "Mikä sinun nimesi on?",
+        "translations": {
+          "ru": "Как тебя зовут?",
+          "en": "What is your name?"
+        }
+      }
+    ]
+  },
+  "speaking": [
+    {
+      "question": {
+        "ru": "Представьтесь и спросите имя собеседника",
+        "fi": "Esittele itsesi ja kysy toisen nimi"
+      },
+      "answer_example": "Minä olen Alex. Mikä sinun nimesi on?"
+    }
+  ],
+  "listening": {
+    "audioUrl": "https://example.com/audio/lesson1.mp3",
+    "tasks": [
+      {
+        "question": {
+          "ru": "Что сказал человек?",
+          "fi": "Mitä henkilö sanoi?"
+        },
+        "options": [
+          {
+            "text": {
+              "ru": "Меня зовут Алекс",
+              "fi": "Minä olen Alex"
+            },
+            "correct": true
+          },
+          {
+            "text": {
+              "ru": "Как тебя зовут?",
+              "fi": "Mikä sinun nimesi on"
+            },
+            "correct": false
+          }
+        ]
+      }
+    ]
+  }
+}

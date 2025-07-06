@@ -1,0 +1,41 @@
+# ───── Logs ─────
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ───── Dependencies ─────
+node_modules
+
+# ───── Build output ─────
+dist
+dist-ssr
+
+# ───── Environment configs ─────
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# ───── Firebase secrets ─────
+serviceAccountKey.json
+upload-lessons/serviceAccountKey.json
+upload-lessons/.env
+
+# ───── Editor config files ─────
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ───── Misc ─────
+*.local

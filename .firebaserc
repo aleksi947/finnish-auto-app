@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "finnish-auto-new",
+    "new": "finnish-auto-new"
+  },
+  "targets": {},
+  "etags": {}
+}

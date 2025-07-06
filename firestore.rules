@@ -1,0 +1,20 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Разрешаем чтение уроков всем пользователям
+    match /lessons/{lessonId} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.token.admin == true;
+    }
+    
+    // Правила для пользователей
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Правила для подписок - пользователь может читать и писать только свои подписки
+    match /subscriptions/{subscriptionId} {
+      allow read, write: if request.auth != null && request.auth.uid == subscriptionId;
+    }
+  }
+} 

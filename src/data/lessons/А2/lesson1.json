@@ -1,0 +1,88 @@
+{
+  "id": 1,
+  "level": "A2",
+  "title": "Покупки в магазине",
+  "premium": true,
+  "goal": {
+    "ru": "Научиться делать покупки на финском языке",
+    "fi": "Oppia asioimaan kaupassa suomeksi"
+  },
+  "topic": {
+    "ru": "Магазин и покупки",
+    "fi": "Kauppa ja ostokset"
+  },
+  "vocabulary": [
+    {
+      "fi": "kauppa",
+      "translations": {
+        "ru": "магазин",
+        "en": "shop"
+      }
+    },
+    {
+      "fi": "osta",
+      "translations": {
+        "ru": "покупать",
+        "en": "buy"
+      }
+    }
+  ],
+  "grammar": {
+    "title": {
+      "ru": "Фразы для покупок",
+      "fi": "Ostostilanteiden fraasit"
+    },
+    "examples": [
+      {
+        "fi": "Paljonko tämä maksaa?",
+        "translations": {
+          "ru": "Сколько это стоит?",
+          "en": "How much does this cost?"
+        }
+      },
+      {
+        "fi": "Haluaisin ostaa tämän.",
+        "translations": {
+          "ru": "Я хотел бы купить это.",
+          "en": "I would like to buy this."
+        }
+      }
+    ]
+  },
+  "speaking": [
+    {
+      "question": {
+        "ru": "Попросите продавца цену товара",
+        "fi": "Kysy myyjältä tuotteen hinta"
+      },
+      "answer_example": "Paljonko tämä maksaa?"
+    }
+  ],
+  "listening": {
+    "audioUrl": "https://example.com/audio/lessonA2-1.mp3",
+    "tasks": [
+      {
+        "question": {
+          "ru": "Что сказал продавец?",
+          "fi": "Mitä myyjä sanoi?"
+        },
+        "options": [
+          {
+            "text": {
+              "ru": "Сколько это стоит?",
+              "fi": "Paljonko tämä maksaa?"
+            },
+            "correct": false
+          },
+          {
+            "text": {
+              "ru": "Это стоит десять евро.",
+              "fi": "Se maksaa kymmenen euroa."
+            },
+            "correct": true
+          }
+        ]
+      }
+    ]
+  }
+}
