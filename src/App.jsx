@@ -30,6 +30,8 @@ import LessonEditPage from "./pages/LessonEditPage";
 import LessonEditorPage from "./pages/admin/LessonEditorPage";
 import LessonCreatePage from "./pages/admin/LessonCreatePage";
 
+import LessonGuard from "./components/LessonGuard";
+
 console.log("🔥 Firestore подключён:", db);
 console.log("🔥 Firebase подключён:", auth);
 
@@ -44,59 +46,64 @@ function App() {
         <Route path="/lessons" element={<LessonsPage />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/" element={<HomePage />} />
-        <Route path="/lesson/:lessonId" element={<LessonOverview />} />
-        <Route
-          path="/lesson/:lessonId/vocabulary"
-          element={<VocabularyPage />}
-        />
-        <Route
-          path="/lesson/:lessonId/grammar"
-          element={<LessonGrammarPage />}
-        />
-        <Route
-          path="/lesson/:lessonId/grammar/:sectionId"
-          element={<LessonGrammarSectionsPage />}
-        />
-        <Route
-          path="/lesson/:lessonId/grammar/:sectionId/exercise/:exerciseId"
-          element={<ExercisePage />}
-        />
-        <Route
-          path="/lesson/:lessonId/listening"
-          element={<LessonListeningPage />}
-        />
-        <Route
-          path="/lesson/:lessonId/listening/exercise/:taskId"
-          element={<ListeningExercisePage />}
-        />
-        <Route
-          path="/lesson/:lessonId/speaking/exercise/:taskId"
-          element={<LessonSpeakingExercisePage />}
-        />
-        <Route
-          path="/lesson/:lessonId/speaking"
-          element={<LessonSpeakingPage />}
-        />
-        <Route
-          path="/lesson/:lessonId/writing/exercise/:taskId"
-          element={<LessonWritingExercisePage />}
-        />
-        <Route
-          path="/lesson/:lessonId/writing"
-          element={<LessonWritingPage />}
-        />
-        <Route
-          path="/lesson/:lessonId/reading"
-          element={<LessonReadingPage />}
-        />
-        <Route
-          path="/lesson/:lessonId/reading/exercise/:taskId"
-          element={<LessonReadingExercisePage />}
-        />
-        <Route
-          path="/lesson/:lessonId/vocabulary/:blockId"
-          element={<VocabularyBlockPage />}
-        />
+        
+        {/* Защищенные маршруты уроков */}
+        <Route element={<LessonGuard />}>
+          <Route path="/lesson/:lessonId" element={<LessonOverview />} />
+          <Route
+            path="/lesson/:lessonId/vocabulary"
+            element={<VocabularyPage />}
+          />
+          <Route
+            path="/lesson/:lessonId/grammar"
+            element={<LessonGrammarPage />}
+          />
+          <Route
+            path="/lesson/:lessonId/grammar/:sectionId"
+            element={<LessonGrammarSectionsPage />}
+          />
+          <Route
+            path="/lesson/:lessonId/grammar/:sectionId/exercise/:exerciseId"
+            element={<ExercisePage />}
+          />
+          <Route
+            path="/lesson/:lessonId/listening"
+            element={<LessonListeningPage />}
+          />
+          <Route
+            path="/lesson/:lessonId/listening/exercise/:taskId"
+            element={<ListeningExercisePage />}
+          />
+          <Route
+            path="/lesson/:lessonId/speaking/exercise/:taskId"
+            element={<LessonSpeakingExercisePage />}
+          />
+          <Route
+            path="/lesson/:lessonId/speaking"
+            element={<LessonSpeakingPage />}
+          />
+          <Route
+            path="/lesson/:lessonId/writing/exercise/:taskId"
+            element={<LessonWritingExercisePage />}
+          />
+          <Route
+            path="/lesson/:lessonId/writing"
+            element={<LessonWritingPage />}
+          />
+          <Route
+            path="/lesson/:lessonId/reading"
+            element={<LessonReadingPage />}
+          />
+          <Route
+            path="/lesson/:lessonId/reading/exercise/:taskId"
+            element={<LessonReadingExercisePage />}
+          />
+          <Route
+            path="/lesson/:lessonId/vocabulary/:blockId"
+            element={<VocabularyBlockPage />}
+          />
+        </Route>
+
         <Route path="/admin/lessons" element={<LessonAdminPage />} />
         <Route
           path="/admin/lesson/:level/:lessonId"
