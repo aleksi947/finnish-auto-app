@@ -24,7 +24,7 @@ function HomePage() {
         <div className="relative z-10 flex h-full items-center justify-center px-4 sm:px-6 pt-20 pb-8">
           <div className="max-w-4xl text-center w-full">
             <h1 className="mb-4 sm:mb-6 text-2xl sm:text-[36px] md:text-5xl lg:text-6xl xl:text-7xl font-normal not-italic text-white leading-tight sm:leading-normal">
-              Финский до автоматизма 🇫🇮
+              Финский до фанатизма 🇫🇮
             </h1>
             <p className="mx-auto mb-6 sm:mb-10 max-w-2xl text-base sm:text-lg md:text-xl lg:text-2xl text-white/95 px-2">
               Погружение в язык каждый день — просто и эффективно

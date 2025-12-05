@@ -28,7 +28,7 @@ upload-lessons/.env
 stripe-test/serviceAccountKey.json
 stripe-test/.env
 stripe-test/functions/node_modules
-stripe-test/functions/.env
+stripe-test/functions/.envд
 
 # ───── Editor config files ─────
 .vscode/*
