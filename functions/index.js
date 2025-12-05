@@ -2,9 +2,10 @@ const functions = require("firebase-functions");
 const admin = require("firebase-admin");
 const stripe = require("stripe")(functions.config().stripe.secret);
 const cors = require("cors");
-const corsHandler = cors({ origin: true });
 
 admin.initializeApp();
+
+const corsHandler = cors({ origin: true });
 
 // ✅ СОЗДАНИЕ Checkout-сессии
 exports.startCheckoutSession = functions.https.onRequest((req, res) => {
@@ -26,14 +27,15 @@ exports.startCheckoutSession = functions.https.onRequest((req, res) => {
           },
         ],
         metadata: { uid },
-        success_url: "http://localhost:5173/success",
-        cancel_url: "http://localhost:5173/profile",
+        success_url: "https://finnish-auto-new.web.app/success",
+        cancel_url: "https://finnish-auto-new.web.app/profile",
       });
 
       res.json({ url: session.url });
     } catch (error) {
       console.error("❌ Ошибка создания Checkout Session:", error);
-      res.status(400).send(error.message || "Unknown error");
+      const message = error.raw?.message || error.message || "Неизвестная ошибка";
+      res.status(400).send(message);
     }
   });
 });
@@ -71,10 +73,10 @@ exports.stopSubscription = functions.https.onRequest((req, res) => {
   });
 });
 
-// ✅ WEBHOOK
-exports.stripeWebhook = functions.https.onRequest((req, res) => {
-  const sig = req.headers["stripe-signature"];
+// ✅ WEBHOOK с поддержкой rawBody
+exports.stripeWebhook = functions.https.onRequest(async (req, res) => {
   const endpointSecret = functions.config().stripe.webhook_secret;
+  const sig = req.headers["stripe-signature"];
 
   let event;
   try {
@@ -91,7 +93,8 @@ exports.stripeWebhook = functions.https.onRequest((req, res) => {
 
     if (uid) {
       const ref = admin.firestore().collection("subscriptions").doc(uid);
-      ref.set({ active: true, subscriptionId }, { merge: true });
+      await ref.set({ active: true, subscriptionId }, { merge: true });
+      console.log(`✅ Подписка записана: ${uid}`);
     }
   }
 

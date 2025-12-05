@@ -10,6 +10,11 @@ service cloud.firestore {
     // Правила для пользователей
     match /users/{userId} {
       allow read, write: if request.auth != null && request.auth.uid == userId;
+      
+      // Правила для прогресса пользователя (вложенная коллекция)
+      match /progress/{lessonId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
     }
     
     // Правила для подписок - пользователь может читать и писать только свои подписки

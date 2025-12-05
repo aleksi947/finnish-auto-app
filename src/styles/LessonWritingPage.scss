@@ -1,0 +1,24 @@
+.writing-layout {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .writing-main {
+        flex: 1;
+    }
+
+    .writing-sidebar {
+        min-width: 280px;
+        max-width: 320px;
+        flex-shrink: 0;
+
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+    }
+}

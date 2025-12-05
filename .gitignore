@@ -25,6 +25,10 @@ dist-ssr
 serviceAccountKey.json
 upload-lessons/serviceAccountKey.json
 upload-lessons/.env
+stripe-test/serviceAccountKey.json
+stripe-test/.env
+stripe-test/functions/node_modules
+stripe-test/functions/.env
 
 # ───── Editor config files ─────
 .vscode/*

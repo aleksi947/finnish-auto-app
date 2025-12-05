@@ -1,0 +1,25 @@
+.vocabulary-layout {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    padding: 20px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .vocabulary-main {
+        flex: 1;
+    }
+
+    .vocabulary-sidebar {
+        min-width: 280px;
+        max-width: 320px;
+        flex-shrink: 0;
+
+        @media (max-width: 768px) {
+            width: 100%;
+        }
+    }
+}

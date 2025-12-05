@@ -1,0 +1,65 @@
+.lessons-page {
+    padding: 30px;
+    font-family: "Segoe UI", sans-serif;
+    max-width: 800px;
+    margin: auto;
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 30px;
+        color: #222;
+    }
+
+    .level-block {
+        background: #f8faff;
+        border-left: 4px solid #0077cc;
+        padding: 18px 22px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        box-shadow: 0 2px 4px rgba(0, 119, 204, 0.08);
+        transition: all 0.3s ease;
+
+        .level-title {
+            color: #0077cc;
+            font-size: 20px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .lesson-list {
+            overflow: hidden;
+            max-height: 0;
+            transition: max-height 0.4s ease;
+        }
+
+        .lesson-list.open {
+            max-height: 1000px;
+            /* достаточно большое значение */
+            margin-top: 10px;
+        }
+
+        ul {
+            padding: 0;
+            list-style: none;
+
+            li {
+                margin: 6px 0;
+                font-size: 16px;
+
+                a {
+                    color: #005fa3;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+
+                span {
+                    color: gray;
+                }
+            }
+        }
+    }
+}
