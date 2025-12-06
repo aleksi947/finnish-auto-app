@@ -9,6 +9,7 @@ import LoginPage from "./pages/LoginPage";
 import HomePage from "./pages/HomePage";
 import LessonsPage from "./pages/LessonsPage";
 import ProfilePage from "./pages/ProfilePage";
+import SubscriptionPage from "./pages/SubscriptionPage";
 import LessonOverview from "./pages/LessonOverview";
 import SpeakingBlock from "./components/SpeakingBlock";
 import ListeningBlock from "./components/ListeningBlock";
@@ -45,6 +46,7 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/lessons" element={<LessonsPage />} />
         <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/subscription" element={<SubscriptionPage />} />
         <Route path="/" element={<HomePage />} />
         
         {/* Защищенные маршруты уроков */}

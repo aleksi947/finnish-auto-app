@@ -103,10 +103,10 @@ export default function Navigation() {
             <Link to="/profile" className="text-white/90 transition-colors hover:text-white">
               Профиль
             </Link>
-            {/* Если у тебя есть страница подписки — раскомментируй и укажи правильный путь */}
-            {/* <Link to="/subscriptions" className="text-white/90 transition-colors hover:text-white">
+            
+            <Link to="/subscription" className="text-white/90 transition-colors hover:text-white">
               Подписка
-            </Link> */}
+            </Link>
           </div>
 
           <div className="flex items-center gap-4">
@@ -209,13 +209,13 @@ export default function Navigation() {
             >
               Профиль
             </Link>
-            {/* <Link
-              to="/subscriptions"
+            <Link
+              to="/subscription"
               className="py-2 text-white/90 transition-colors hover:text-white"
               onClick={() => setIsMenuOpen(false)}
             >
               Подписка
-            </Link> */}
+            </Link>
             <div className="mt-2 flex items-center gap-2 border-t border-white/20 pt-4">
               <button className="text-white transition-colors">RU</button>
               <span className="text-white/50">/</span>
