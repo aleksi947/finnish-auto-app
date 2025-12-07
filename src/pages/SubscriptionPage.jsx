@@ -12,22 +12,19 @@ import { useSubscription } from "../hooks/useSubscription";
 // Получаем URL функции из переменных окружения
 const startUrl = import.meta.env.VITE_FUNCTIONS_START_CHECKOUT;
 
-// ID цен (можно вынести в конфиг, но пока оставим здесь)
-// Для ежемесячной подписки ID берется дефолтный на бэкенде, если не передан,
-// но мы можем явно передать null, чтобы использовался дефолтный, или прописать его, если знаем.
-// Поскольку мы не знаем ID ежемесячной подписки, мы передадим null, и бэкенд возьмет его из конфига.
+// ID цен
 const MONTHLY_PRICE_ID = null; 
 const ONE_TIME_PRICE_ID = "price_1SbRYLG13irHLXe7P0GM2nvC";
 
 export default function SubscriptionPage() {
   const navigate = useNavigate();
-  const { hasSubscription, loading: subLoading, user } = useSubscription();
+  // Добавляем subscriptionData
+  const { hasSubscription, subscriptionData, loading: subLoading, user } = useSubscription();
   const [isLoading, setIsLoading] = useState(false);
 
   const handleSubscribe = async (type) => {
     if (!user) {
       toast.error("Пожалуйста, войдите или зарегистрируйтесь");
-      // Можно открыть модалку входа, но проще перенаправить или показать тост
       return;
     }
 
@@ -46,7 +43,7 @@ export default function SubscriptionPage() {
       if (type === 'monthly') {
         payload = {
           mode: 'subscription',
-          priceId: MONTHLY_PRICE_ID // null -> бэкенд возьмет дефолтный из конфига
+          priceId: MONTHLY_PRICE_ID 
         };
       } else {
         payload = {
@@ -64,7 +61,6 @@ export default function SubscriptionPage() {
       );
 
       toast.dismiss();
-      // Перенаправление на Stripe Checkout
       window.location.href = res.data.url;
 
     } catch (error) {
@@ -75,15 +71,69 @@ export default function SubscriptionPage() {
     }
   };
 
+  // Вспомогательная функция для текста кнопки
+  const getButtonText = (cardType) => {
+    if (isLoading) return <Loader2 className="animate-spin" />;
+    
+    if (!hasSubscription) {
+        return cardType === 'monthly' ? "Оформить подписку" : "Оплатить разово";
+    }
+
+    // Умная логика определения типа подписки
+    let currentType = subscriptionData?.type;
+    
+    if (!currentType) {
+        // Если поле type не задано (старые записи или ошибка вебхука)
+        if (subscriptionData?.subscriptionId) {
+            currentType = 'monthly';
+        } else if (subscriptionData?.validUntil) {
+            currentType = 'one_time';
+        } else {
+            // Фолбэк на monthly, если совсем ничего не понятно, но active=true
+            currentType = 'monthly';
+        }
+    }
+
+    if (currentType === cardType) {
+        return "Уже активно";
+    } else {
+        return "У вас уже есть доступ";
+    }
+  };
+
+  // Вспомогательная функция для стиля карточки
+  const getCardStyle = (cardType) => {
+     const baseStyle = "border-2 rounded-2xl p-6 transition-all flex flex-col h-full bg-gray-50/50";
+     
+     if (!hasSubscription) {
+         return `${baseStyle} border-gray-200 hover:border-blue-400`;
+     }
+
+     // Умная логика определения типа подписки (дублируем, можно вынести в отдельную функцию)
+     let currentType = subscriptionData?.type;
+     if (!currentType) {
+         if (subscriptionData?.subscriptionId) {
+             currentType = 'monthly';
+         } else if (subscriptionData?.validUntil) {
+             currentType = 'one_time';
+         } else {
+             currentType = 'monthly';
+         }
+     }
+     
+     if (currentType === cardType) {
+         return `${baseStyle} border-green-500 bg-green-50`;
+     } else {
+         return `${baseStyle} border-gray-200 opacity-60`;
+     }
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#EAF5FF] to-[#CDE8FF]">
-      {/* Navigation */}
       <Navigation />
 
-      {/* Main Content */}
       <div className="pt-24 pb-12 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          {/* Back Button */}
           <button
             onClick={() => navigate("/")}
             className="flex items-center gap-2 px-5 py-2.5 rounded-xl border-2 border-[#1E64F0] text-[#1E64F0] hover:bg-[#1E64F0] hover:text-white transition-all mb-6 cursor-pointer"
@@ -92,9 +142,7 @@ export default function SubscriptionPage() {
             <span>Назад</span>
           </button>
 
-          {/* White Container */}
           <div className="bg-white rounded-3xl shadow-lg border-2 border-[#3C84F8] p-8 sm:p-10 md:p-12">
-            {/* Header Section */}
             <div className="mb-10">
               <div className="flex items-center gap-3 mb-3">
                 <span className="text-4xl leading-none">💎</span>
@@ -105,7 +153,6 @@ export default function SubscriptionPage() {
               </p>
             </div>
 
-            {/* Benefits List */}
             <div className="space-y-5 mb-12">
               <div className="flex items-center gap-4">
                 <span className="text-2xl leading-none flex-shrink-0">📖</span>
@@ -127,12 +174,9 @@ export default function SubscriptionPage() {
               </div>
             </div>
 
-            {/* Pricing Cards */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* Subscription Card */}
-              <div className={`border-2 rounded-2xl p-6 transition-all flex flex-col h-full bg-gray-50/50 ${
-                hasSubscription ? "border-green-500 opacity-70" : "border-gray-200 hover:border-blue-400"
-              }`}>
+              {/* Subscription Card (Monthly) */}
+              <div className={getCardStyle('monthly')}>
                 <div className="flex items-center gap-2 mb-6">
                   <span className="text-2xl leading-none">💳</span>
                   <h3 className="text-2xl leading-none font-semibold">Подписка</h3>
@@ -151,14 +195,12 @@ export default function SubscriptionPage() {
                   disabled={isLoading || subLoading || hasSubscription}
                   className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 text-lg rounded-xl mt-6 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  {isLoading ? <Loader2 className="animate-spin" /> : hasSubscription ? "Уже активно" : "Оформить подписку"}
+                  {getButtonText('monthly')}
                 </Button>
               </div>
 
               {/* One-time Payment Card */}
-              <div className={`border-2 rounded-2xl p-6 transition-all flex flex-col h-full bg-gray-50/50 ${
-                hasSubscription ? "border-green-500 opacity-70" : "border-gray-200 hover:border-blue-400"
-              }`}>
+              <div className={getCardStyle('one_time')}>
                 <div className="flex items-center gap-2 mb-6">
                   <span className="text-2xl leading-none">💰</span>
                   <h3 className="text-2xl leading-none font-semibold">Разовый платёж</h3>
@@ -176,7 +218,7 @@ export default function SubscriptionPage() {
                   disabled={isLoading || subLoading || hasSubscription}
                   className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 text-lg rounded-xl mt-6 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  {isLoading ? <Loader2 className="animate-spin" /> : hasSubscription ? "Уже активно" : "Оплатить разово"}
+                  {getButtonText('one_time')}
                 </Button>
               </div>
             </div>

@@ -184,7 +184,7 @@ function ProfilePage() {
                   </p>
                   {hasSubscription && (
                     <p className="text-sm text-gray-500 mt-1">
-                       Тип: {subscriptionData?.type === 'monthly' ? 'Ежемесячная подписка' : 'Разовый доступ'}
+                       Тип: {subscriptionData?.type === 'monthly' ? 'Ежемесячная подписка' : (subscriptionData?.type === 'one_time' ? 'Разовый доступ' : 'Неопределен')}
                     </p>
                   )}
                 </div>
