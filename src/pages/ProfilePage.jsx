@@ -4,7 +4,7 @@ import { doc, collection, getDocs } from "firebase/firestore";
 import { onAuthStateChanged, getIdToken } from "firebase/auth";
 import Navigation from "../components/Navigation";
 import { Button } from "../components/ui/button";
-import { User, Mail, CheckCircle, Clock, BarChart3, Info, Pen } from "lucide-react";
+import { User, Mail, CheckCircle, Clock, BarChart3, Info, Pen, Loader2 } from "lucide-react";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
@@ -13,9 +13,9 @@ import { useSubscription } from "../hooks/useSubscription";
 
 const stopUrl = import.meta.env.VITE_FUNCTIONS_STOP_SUBSCRIPTION;
 const startUrl = import.meta.env.VITE_FUNCTIONS_START_CHECKOUT;
-// Добавляем URL для возобновления (предполагаем, что ты добавишь переменную в .env, или я захардкожу путь пока что)
-// Лучше использовать тот же домен, что и stopUrl, просто меняем endpoint
-const resumeUrl = stopUrl.replace("stopSubscription", "resumeSubscription");
+const resumeUrl = import.meta.env.VITE_FUNCTIONS_STOP_SUBSCRIPTION?.replace("stopSubscription", "resumeSubscription") || "";
+
+const ONE_TIME_PRICE_ID = "price_1SbRYLG13irHLXe7P0GM2nvC";
 
 function ProfilePage() {
   // Используем наш обновленный хук (теперь он real-time!)
@@ -23,6 +23,7 @@ function ProfilePage() {
   
   const [lessonsCompleted, setLessonsCompleted] = useState(0);
   const [isLoadingStats, setIsLoadingStats] = useState(true);
+  const [paymentLoading, setPaymentLoading] = useState(false); // Локальный стейт для загрузки оплаты
   const navigate = useNavigate();
 
   // Загрузка статистики уроков
@@ -96,8 +97,40 @@ function ProfilePage() {
     }
   };
 
+  // Переход на страницу подписки (для ежемесячной)
   const handleSubscribe = () => {
     navigate("/subscription");
+  };
+
+  // Прямая покупка разового доступа
+  const handleOneTimePayment = async () => {
+    if (!user) return toast.error("❗ Войдите в аккаунт.");
+    
+    setPaymentLoading(true);
+    try {
+      const idToken = await getIdToken(user, true);
+      const payload = {
+          mode: 'payment',
+          priceId: ONE_TIME_PRICE_ID
+      };
+
+      toast.loading("Перенаправляем на оплату...");
+      
+      const res = await axios.post(
+        startUrl,
+        payload,
+        { headers: { Authorization: `Bearer ${idToken}` } }
+      );
+
+      toast.dismiss();
+      window.location.href = res.data.url;
+    } catch (error) {
+      console.error("Ошибка при создании платежа:", error);
+      toast.dismiss();
+      toast.error("Не удалось перейти к оплате. Попробуйте позже.");
+    } finally {
+        setPaymentLoading(false);
+    }
   };
 
   // Форматирование даты окончания подписки
@@ -255,12 +288,23 @@ function ProfilePage() {
               )}
 
               {!hasSubscription && (
-                <Button
-                  onClick={handleSubscribe}
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-6 text-lg rounded-xl flex items-center justify-center gap-2 flex-1"
-                >
-                  🔥 Оформить подписку
-                </Button>
+                <>
+                    <Button
+                    onClick={handleSubscribe}
+                    className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-6 text-lg rounded-xl flex items-center justify-center gap-2 flex-1"
+                    >
+                    🔥 Оформить подписку
+                    </Button>
+                    
+                    <Button
+                    onClick={handleOneTimePayment}
+                    disabled={paymentLoading}
+                    variant="outline"
+                    className="border-2 border-blue-500 text-blue-600 hover:bg-blue-50 hover:text-blue-700 hover:border-blue-600 px-6 py-6 text-lg rounded-xl bg-white flex-1"
+                    >
+                    {paymentLoading ? <Loader2 className="animate-spin" /> : "💰 Разовый платёж"}
+                    </Button>
+                </>
               )}
             </div>
 
