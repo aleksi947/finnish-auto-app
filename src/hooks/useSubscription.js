@@ -21,12 +21,26 @@ export function useSubscription() {
         
         // Подписываемся на изменения документа в реальном времени
         unsubscribeDoc = onSnapshot(ref, (snap) => {
-          if (snap.exists() && snap.data().active === true) {
-            setHasSubscription(true);
-            setSubscriptionData(snap.data());
+          if (snap.exists()) {
+            const data = snap.data();
+            let isActive = data.active === true;
+
+            // ДОПОЛНИТЕЛЬНАЯ ПРОВЕРКА ДЛЯ РАЗОВЫХ ПЛАТЕЖЕЙ
+            // Если это разовый платеж и срок истек -> считаем неактивной
+            if (isActive && data.type === 'one_time' && data.validUntil) {
+              const now = new Date();
+              const validUntilDate = data.validUntil.toDate ? data.validUntil.toDate() : new Date(data.validUntil);
+              
+              if (validUntilDate < now) {
+                isActive = false;
+              }
+            }
+
+            setHasSubscription(isActive);
+            setSubscriptionData(data);
           } else {
             setHasSubscription(false);
-            setSubscriptionData(snap.exists() ? snap.data() : null);
+            setSubscriptionData(null);
           }
           setLoading(false);
         }, (error) => {
