@@ -1,10 +1,79 @@
+import { useState } from "react";
 import Navigation from "../components/Navigation";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Loader2 } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { useNavigate } from "react-router-dom";
+import { auth } from "../firebase";
+import { getIdToken } from "firebase/auth";
+import axios from "axios";
+import toast from "react-hot-toast";
+import { useSubscription } from "../hooks/useSubscription";
+
+// Получаем URL функции из переменных окружения
+const startUrl = import.meta.env.VITE_FUNCTIONS_START_CHECKOUT;
+
+// ID цен (можно вынести в конфиг, но пока оставим здесь)
+// Для ежемесячной подписки ID берется дефолтный на бэкенде, если не передан,
+// но мы можем явно передать null, чтобы использовался дефолтный, или прописать его, если знаем.
+// Поскольку мы не знаем ID ежемесячной подписки, мы передадим null, и бэкенд возьмет его из конфига.
+const MONTHLY_PRICE_ID = null; 
+const ONE_TIME_PRICE_ID = "price_1SbRYLG13irHLXe7P0GM2nvC";
 
 export default function SubscriptionPage() {
   const navigate = useNavigate();
+  const { hasSubscription, loading: subLoading, user } = useSubscription();
+  const [isLoading, setIsLoading] = useState(false);
+
+  const handleSubscribe = async (type) => {
+    if (!user) {
+      toast.error("Пожалуйста, войдите или зарегистрируйтесь");
+      // Можно открыть модалку входа, но проще перенаправить или показать тост
+      return;
+    }
+
+    if (hasSubscription) {
+      toast.success("У вас уже есть активная подписка!");
+      navigate("/profile");
+      return;
+    }
+
+    setIsLoading(true);
+    try {
+      const idToken = await getIdToken(user, true);
+      
+      let payload = {};
+      
+      if (type === 'monthly') {
+        payload = {
+          mode: 'subscription',
+          priceId: MONTHLY_PRICE_ID // null -> бэкенд возьмет дефолтный из конфига
+        };
+      } else {
+        payload = {
+          mode: 'payment',
+          priceId: ONE_TIME_PRICE_ID
+        };
+      }
+
+      toast.loading("Перенаправляем на оплату...");
+      
+      const res = await axios.post(
+        startUrl,
+        payload,
+        { headers: { Authorization: `Bearer ${idToken}` } }
+      );
+
+      toast.dismiss();
+      // Перенаправление на Stripe Checkout
+      window.location.href = res.data.url;
+
+    } catch (error) {
+      console.error("Ошибка при создании платежа:", error);
+      toast.dismiss();
+      toast.error("Не удалось перейти к оплате. Попробуйте позже.");
+      setIsLoading(false);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#EAF5FF] to-[#CDE8FF]">
@@ -61,7 +130,9 @@ export default function SubscriptionPage() {
             {/* Pricing Cards */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Subscription Card */}
-              <div className="border-2 border-gray-200 rounded-2xl p-6 hover:border-blue-400 transition-colors flex flex-col h-full bg-gray-50/50">
+              <div className={`border-2 rounded-2xl p-6 transition-all flex flex-col h-full bg-gray-50/50 ${
+                hasSubscription ? "border-green-500 opacity-70" : "border-gray-200 hover:border-blue-400"
+              }`}>
                 <div className="flex items-center gap-2 mb-6">
                   <span className="text-2xl leading-none">💳</span>
                   <h3 className="text-2xl leading-none font-semibold">Подписка</h3>
@@ -75,13 +146,19 @@ export default function SubscriptionPage() {
                     Автопродление, можно отменить
                   </p>
                 </div>
-                <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 text-lg rounded-xl mt-6 cursor-pointer">
-                  Оформить подписку
+                <Button 
+                  onClick={() => handleSubscribe('monthly')}
+                  disabled={isLoading || subLoading || hasSubscription}
+                  className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 text-lg rounded-xl mt-6 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {isLoading ? <Loader2 className="animate-spin" /> : hasSubscription ? "Уже активно" : "Оформить подписку"}
                 </Button>
               </div>
 
               {/* One-time Payment Card */}
-              <div className="border-2 border-gray-200 rounded-2xl p-6 hover:border-blue-400 transition-colors flex flex-col h-full bg-gray-50/50">
+              <div className={`border-2 rounded-2xl p-6 transition-all flex flex-col h-full bg-gray-50/50 ${
+                hasSubscription ? "border-green-500 opacity-70" : "border-gray-200 hover:border-blue-400"
+              }`}>
                 <div className="flex items-center gap-2 mb-6">
                   <span className="text-2xl leading-none">💰</span>
                   <h3 className="text-2xl leading-none font-semibold">Разовый платёж</h3>
@@ -94,8 +171,12 @@ export default function SubscriptionPage() {
                     Доступ на месяц ко всем урокам. Можно продлить позже
                   </p>
                 </div>
-                <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 text-lg rounded-xl mt-6 cursor-pointer">
-                  Оплатить разово
+                <Button 
+                  onClick={() => handleSubscribe('one_time')}
+                  disabled={isLoading || subLoading || hasSubscription}
+                  className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 text-lg rounded-xl mt-6 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {isLoading ? <Loader2 className="animate-spin" /> : hasSubscription ? "Уже активно" : "Оплатить разово"}
                 </Button>
               </div>
             </div>
@@ -105,4 +186,3 @@ export default function SubscriptionPage() {
     </div>
   );
 }
-

@@ -5,6 +5,7 @@ import { auth, db } from "../firebase";
 
 export function useSubscription() {
   const [hasSubscription, setHasSubscription] = useState(false);
+  const [subscriptionData, setSubscriptionData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [user, setUser] = useState(null);
 
@@ -15,13 +16,21 @@ export function useSubscription() {
         try {
           const ref = doc(db, "subscriptions", currentUser.uid);
           const snap = await getDoc(ref);
-          setHasSubscription(snap.exists() && snap.data().active === true);
+          if (snap.exists() && snap.data().active === true) {
+            setHasSubscription(true);
+            setSubscriptionData(snap.data());
+          } else {
+            setHasSubscription(false);
+            setSubscriptionData(null);
+          }
         } catch (error) {
           console.error("Ошибка проверки подписки:", error);
           setHasSubscription(false);
+          setSubscriptionData(null);
         }
       } else {
         setHasSubscription(false);
+        setSubscriptionData(null);
       }
       setLoading(false);
     });
@@ -29,6 +38,5 @@ export function useSubscription() {
     return () => unsub();
   }, []);
 
-  return { hasSubscription, loading, user };
+  return { hasSubscription, subscriptionData, loading, user };
 }
-

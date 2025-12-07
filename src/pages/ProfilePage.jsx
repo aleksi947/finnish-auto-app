@@ -9,59 +9,47 @@ import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { getLessonProgress } from "../services/progressService";
+import { useSubscription } from "../hooks/useSubscription";
 
 const stopUrl = import.meta.env.VITE_FUNCTIONS_STOP_SUBSCRIPTION;
 const startUrl = import.meta.env.VITE_FUNCTIONS_START_CHECKOUT;
 
 function ProfilePage() {
-  const [user, setUser] = useState(null);
-  const [hasSubscription, setHasSubscription] = useState(null);
-  const [subscriptionData, setSubscriptionData] = useState(null);
+  // Используем наш обновленный хук
+  const { user, hasSubscription, subscriptionData, loading: subLoading } = useSubscription();
+  
   const [lessonsCompleted, setLessonsCompleted] = useState(0);
   const [isLoadingStats, setIsLoadingStats] = useState(true);
   const navigate = useNavigate();
 
+  // Загрузка статистики уроков
   useEffect(() => {
-    const unsub = onAuthStateChanged(auth, async (currentUser) => {
-      setUser(currentUser);
+    if (!user) return;
+    
+    const fetchStats = async () => {
       setIsLoadingStats(true);
-      if (currentUser) {
-        try {
-          const subRef = doc(db, "subscriptions", currentUser.uid);
-          const subSnap = await getDoc(subRef);
-          const subData = subSnap.exists() ? subSnap.data() : null;
-          setHasSubscription(subData?.active === true);
-          setSubscriptionData(subData);
-
-          // Загружаем статистику прогресса
-          const lessonsSnap = await getDocs(collection(db, "lessons"));
-          const lessons = lessonsSnap.docs.map((d) => d.id);
-          
-          const progressPromises = lessons.map(async (lessonId) => {
-            const progress = await getLessonProgress(currentUser.uid, lessonId);
-            return progress?.status === "completed";
-          });
-          
-          const completedResults = await Promise.all(progressPromises);
-          const completedCount = completedResults.filter(Boolean).length;
-          setLessonsCompleted(completedCount);
-        } catch (err) {
-          console.error("❌ Ошибка чтения данных:", err);
-          setHasSubscription(false);
-          setSubscriptionData(null);
-          setLessonsCompleted(0);
-        } finally {
-          setIsLoadingStats(false);
-        }
-      } else {
-        setHasSubscription(false);
-        setSubscriptionData(null);
+      try {
+        const lessonsSnap = await getDocs(collection(db, "lessons"));
+        const lessons = lessonsSnap.docs.map((d) => d.id);
+        
+        const progressPromises = lessons.map(async (lessonId) => {
+          const progress = await getLessonProgress(user.uid, lessonId);
+          return progress?.status === "completed";
+        });
+        
+        const completedResults = await Promise.all(progressPromises);
+        const completedCount = completedResults.filter(Boolean).length;
+        setLessonsCompleted(completedCount);
+      } catch (err) {
+        console.error("Ошибка загрузки статистики:", err);
         setLessonsCompleted(0);
+      } finally {
         setIsLoadingStats(false);
       }
-    });
-    return () => unsub();
-  }, []);
+    };
+
+    fetchStats();
+  }, [user]);
 
   const handleLogout = async () => {
     await auth.signOut();
@@ -81,58 +69,49 @@ function ProfilePage() {
         { headers: { Authorization: `Bearer ${idToken}` } }
       );
       toast.success("📅 Подписка отменена, действует до конца периода.");
-      setHasSubscription(false);
-      // Обновляем данные подписки
-      const subRef = doc(db, "subscriptions", user.uid);
-      const subSnap = await getDoc(subRef);
-      setSubscriptionData(subSnap.exists() ? subSnap.data() : null);
+      // Обновление состояния произойдет автоматически через хук useSubscription, 
+      // но может потребоваться перезагрузка страницы для мгновенного эффекта
+      window.location.reload();
     } catch (err) {
       console.error("Ошибка отмены подписки:", err);
       toast.error("❌ Не удалось отменить подписку");
     }
   };
 
-  const handleSubscribe = async () => {
-    if (!user) return toast.error("❗ Войдите в аккаунт.");
-    try {
-      const idToken = await getIdToken(user, true);
-      toast.loading("⏳ Перенаправляем в Stripe...");
-      const res = await axios.post(
-        startUrl,
-        {},
-        { headers: { Authorization: `Bearer ${idToken}` } }
-      );
-      toast.dismiss();
-      toast.success("✅ Перенаправление...");
-      window.location.href = res.data.url;
-    } catch (err) {
-      toast.dismiss();
-      console.error("Ошибка запуска Stripe Checkout:", err);
-      toast.error("❌ Ошибка оформления подписки");
-    }
+  const handleSubscribe = () => {
+    // Перенаправляем на новую страницу подписки
+    navigate("/subscription");
   };
 
-  // Форматирование даты окончания подписки (если есть)
+  // Форматирование даты окончания подписки
   const formatValidUntil = () => {
-    if (!subscriptionData?.validUntil && !subscriptionData?.endDate) {
-      return "—";
+    if (!subscriptionData) return "—";
+
+    // Если это подписка с автопродлением, она может не иметь validUntil в базе, 
+    // но мы можем показать "Активна (автопродление)"
+    if (subscriptionData.type === 'monthly') {
+        return "Автопродление";
     }
+    
     const date = subscriptionData.validUntil || subscriptionData.endDate;
+    
+    if (!date) return "—";
+
     if (date?.toDate) {
       return date.toDate().toLocaleDateString("ru-RU");
     }
     if (date instanceof Date) {
       return date.toLocaleDateString("ru-RU");
     }
-    return date;
+    return date; // Если строка
   };
 
-  // Получение имени пользователя (если есть в профиле)
+  // Получение имени пользователя
   const getUserName = () => {
     return user?.displayName || user?.email?.split("@")[0] || "Пользователь";
   };
 
-  if (!user) {
+  if (!user && !subLoading) {
     return (
       <div className="min-h-screen bg-gradient-to-b from-[#EAF5FF] to-[#CDE8FF]">
         <Navigation />
@@ -177,7 +156,7 @@ function ProfilePage() {
               <div className="flex items-center gap-4">
                 <Mail className="w-6 h-6 text-gray-500 flex-shrink-0" />
                 <p className="text-lg text-gray-800">
-                  <span className="font-semibold">Email:</span> {user.email}
+                  <span className="font-semibold">Email:</span> {user?.email}
                 </p>
               </div>
 
@@ -194,14 +173,21 @@ function ProfilePage() {
                     </div>
                   )}
                 </div>
-                <p className="text-lg text-gray-800">
-                  <span className="font-semibold">Статус подписки:</span>{" "}
-                  {hasSubscription === null
-                    ? "Загрузка..."
-                    : hasSubscription
-                    ? "Активна"
-                    : "Неактивна"}
-                </p>
+                <div>
+                  <p className="text-lg text-gray-800">
+                    <span className="font-semibold">Статус подписки:</span>{" "}
+                    {subLoading
+                      ? "Загрузка..."
+                      : hasSubscription
+                      ? <span className="text-green-600 font-medium">Активна</span>
+                      : "Неактивна"}
+                  </p>
+                  {hasSubscription && (
+                    <p className="text-sm text-gray-500 mt-1">
+                       Тип: {subscriptionData?.type === 'monthly' ? 'Ежемесячная подписка' : 'Разовый доступ'}
+                    </p>
+                  )}
+                </div>
               </div>
 
               {/* Valid Until */}
@@ -209,7 +195,10 @@ function ProfilePage() {
                 <div className="flex items-center gap-4">
                   <Clock className="w-6 h-6 text-gray-500 flex-shrink-0" />
                   <p className="text-lg text-gray-800">
-                    <span className="font-semibold">Действует до:</span> {formatValidUntil()}
+                    <span className="font-semibold">
+                        {subscriptionData?.type === 'monthly' ? 'Статус продления:' : 'Действует до:'}
+                    </span>{" "}
+                    {formatValidUntil()}
                   </p>
                 </div>
               )}
@@ -219,7 +208,6 @@ function ProfilePage() {
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
               <Button
                 onClick={() => {
-                  // Логика изменения профиля
                   toast.info("Функция изменения профиля будет реализована");
                 }}
                 className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-6 text-lg rounded-xl flex items-center justify-center gap-2"
@@ -227,7 +215,9 @@ function ProfilePage() {
                 <Pen className="w-5 h-5" />
                 Изменить профиль
               </Button>
-              {hasSubscription && (
+              
+              {/* Кнопка отмены показывается только для ежемесячной подписки */}
+              {hasSubscription && subscriptionData?.type === 'monthly' && (
                 <Button
                   onClick={handleCancelSubscription}
                   variant="outline"
@@ -236,6 +226,7 @@ function ProfilePage() {
                   Отменить подписку
                 </Button>
               )}
+
               {!hasSubscription && (
                 <Button
                   onClick={handleSubscribe}
@@ -257,7 +248,7 @@ function ProfilePage() {
                 </p>
               </div>
 
-              {/* Learning Time - можно добавить реальную статистику позже */}
+              {/* Learning Time */}
               <div className="flex items-center gap-4">
                 <Info className="w-6 h-6 text-gray-500 flex-shrink-0" />
                 <p className="text-lg text-gray-800">
