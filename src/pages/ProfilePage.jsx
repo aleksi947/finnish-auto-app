@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { db, auth } from "../firebase";
-import { doc, getDoc, collection, getDocs } from "firebase/firestore";
+import { doc, collection, getDocs } from "firebase/firestore";
 import { onAuthStateChanged, getIdToken } from "firebase/auth";
 import Navigation from "../components/Navigation";
 import { Button } from "../components/ui/button";
@@ -15,7 +15,7 @@ const stopUrl = import.meta.env.VITE_FUNCTIONS_STOP_SUBSCRIPTION;
 const startUrl = import.meta.env.VITE_FUNCTIONS_START_CHECKOUT;
 
 function ProfilePage() {
-  // Используем наш обновленный хук
+  // Используем наш обновленный хук (теперь он real-time!)
   const { user, hasSubscription, subscriptionData, loading: subLoading } = useSubscription();
   
   const [lessonsCompleted, setLessonsCompleted] = useState(0);
@@ -68,10 +68,8 @@ function ProfilePage() {
         {},
         { headers: { Authorization: `Bearer ${idToken}` } }
       );
-      toast.success("📅 Подписка отменена, действует до конца периода.");
-      // Обновление состояния произойдет автоматически через хук useSubscription, 
-      // но может потребоваться перезагрузка страницы для мгновенного эффекта
-      window.location.reload();
+      toast.success("📅 Подписка отменена. Доступ сохранится до конца периода.");
+      // Перезагрузка больше не нужна, так как useSubscription обновится сам!
     } catch (err) {
       console.error("Ошибка отмены подписки:", err);
       toast.error("❌ Не удалось отменить подписку");
@@ -79,7 +77,6 @@ function ProfilePage() {
   };
 
   const handleSubscribe = () => {
-    // Перенаправляем на новую страницу подписки
     navigate("/subscription");
   };
 
@@ -87,9 +84,11 @@ function ProfilePage() {
   const formatValidUntil = () => {
     if (!subscriptionData) return "—";
 
-    // Если это подписка с автопродлением, она может не иметь validUntil в базе, 
-    // но мы можем показать "Активна (автопродление)"
+    // Если это подписка с автопродлением
     if (subscriptionData.type === 'monthly') {
+        if (subscriptionData.canceledAtPeriodEnd) {
+            return "Отменена (доступ до конца периода)";
+        }
         return "Автопродление";
     }
     
@@ -103,7 +102,19 @@ function ProfilePage() {
     if (date instanceof Date) {
       return date.toLocaleDateString("ru-RU");
     }
-    return date; // Если строка
+    return date;
+  };
+
+  // Текст статуса подписки
+  const getSubscriptionStatusText = () => {
+      if (subLoading) return "Загрузка...";
+      
+      if (!hasSubscription) return "Неактивна";
+
+      if (subscriptionData?.canceledAtPeriodEnd) {
+          return <span className="text-orange-600 font-medium">Отменена</span>;
+      }
+      return <span className="text-green-600 font-medium">Активна</span>;
   };
 
   // Получение имени пользователя
@@ -131,20 +142,14 @@ function ProfilePage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#EAF5FF] to-[#CDE8FF]">
-      {/* Navigation */}
       <Navigation />
 
-      {/* Main Content */}
       <div className="pt-24 pb-12 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          {/* Profile Card */}
           <div className="bg-white rounded-3xl shadow-lg border-2 border-[#3C84F8] p-8 sm:p-10 md:p-12">
-            {/* Main Title */}
             <h1 className="text-4xl mb-10 text-gray-800">Профиль</h1>
 
-            {/* Profile Information */}
             <div className="space-y-5 mb-8">
-              {/* Name */}
               <div className="flex items-center gap-4">
                 <User className="w-6 h-6 text-gray-500 flex-shrink-0" />
                 <p className="text-lg text-gray-800">
@@ -152,7 +157,6 @@ function ProfilePage() {
                 </p>
               </div>
 
-              {/* Email */}
               <div className="flex items-center gap-4">
                 <Mail className="w-6 h-6 text-gray-500 flex-shrink-0" />
                 <p className="text-lg text-gray-800">
@@ -160,11 +164,10 @@ function ProfilePage() {
                 </p>
               </div>
 
-              {/* Subscription Status */}
               <div className="flex items-center gap-4">
                 <div className="flex-shrink-0">
                   {hasSubscription ? (
-                    <div className="bg-green-500 rounded-md p-1">
+                    <div className={`rounded-md p-1 ${subscriptionData?.canceledAtPeriodEnd ? "bg-orange-500" : "bg-green-500"}`}>
                       <CheckCircle className="w-4 h-4 text-white" strokeWidth={3} />
                     </div>
                   ) : (
@@ -176,11 +179,7 @@ function ProfilePage() {
                 <div>
                   <p className="text-lg text-gray-800">
                     <span className="font-semibold">Статус подписки:</span>{" "}
-                    {subLoading
-                      ? "Загрузка..."
-                      : hasSubscription
-                      ? <span className="text-green-600 font-medium">Активна</span>
-                      : "Неактивна"}
+                    {getSubscriptionStatusText()}
                   </p>
                   {hasSubscription && (
                     <p className="text-sm text-gray-500 mt-1">
@@ -190,13 +189,12 @@ function ProfilePage() {
                 </div>
               </div>
 
-              {/* Valid Until */}
               {hasSubscription && (
                 <div className="flex items-center gap-4">
                   <Clock className="w-6 h-6 text-gray-500 flex-shrink-0" />
                   <p className="text-lg text-gray-800">
                     <span className="font-semibold">
-                        {subscriptionData?.type === 'monthly' ? 'Статус продления:' : 'Действует до:'}
+                        {subscriptionData?.type === 'monthly' && !subscriptionData?.canceledAtPeriodEnd ? 'Статус продления:' : 'Действует до:'}
                     </span>{" "}
                     {formatValidUntil()}
                   </p>
@@ -204,7 +202,6 @@ function ProfilePage() {
               )}
             </div>
 
-            {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
               <Button
                 onClick={() => {
@@ -216,8 +213,8 @@ function ProfilePage() {
                 Изменить профиль
               </Button>
               
-              {/* Кнопка отмены показывается только для ежемесячной подписки */}
-              {hasSubscription && subscriptionData?.type === 'monthly' && (
+              {/* Кнопка отмены показывается только если подписка ЕЖЕМЕСЯЧНАЯ и НЕ ОТМЕНЕНА */}
+              {hasSubscription && subscriptionData?.type === 'monthly' && !subscriptionData?.canceledAtPeriodEnd && (
                 <Button
                   onClick={handleCancelSubscription}
                   variant="outline"
@@ -237,9 +234,7 @@ function ProfilePage() {
               )}
             </div>
 
-            {/* User Statistics */}
             <div className="space-y-5">
-              {/* Lessons Completed */}
               <div className="flex items-center gap-4">
                 <BarChart3 className="w-6 h-6 text-gray-500 flex-shrink-0" />
                 <p className="text-lg text-gray-800">
@@ -248,7 +243,6 @@ function ProfilePage() {
                 </p>
               </div>
 
-              {/* Learning Time */}
               <div className="flex items-center gap-4">
                 <Info className="w-6 h-6 text-gray-500 flex-shrink-0" />
                 <p className="text-lg text-gray-800">
@@ -257,7 +251,6 @@ function ProfilePage() {
               </div>
             </div>
 
-            {/* Logout Button */}
             <div className="mt-8 pt-8 border-t border-gray-200">
               <Button
                 onClick={handleLogout}

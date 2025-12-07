@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { onAuthStateChanged } from "firebase/auth";
-import { doc, getDoc } from "firebase/firestore";
+import { doc, onSnapshot } from "firebase/firestore";
 import { auth, db } from "../firebase";
 
 export function useSubscription() {
@@ -10,32 +10,43 @@ export function useSubscription() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    const unsub = onAuthStateChanged(auth, async (currentUser) => {
+    let unsubscribeDoc = () => {};
+
+    const unsubscribeAuth = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
+      
       if (currentUser) {
-        try {
-          const ref = doc(db, "subscriptions", currentUser.uid);
-          const snap = await getDoc(ref);
+        setLoading(true);
+        const ref = doc(db, "subscriptions", currentUser.uid);
+        
+        // Подписываемся на изменения документа в реальном времени
+        unsubscribeDoc = onSnapshot(ref, (snap) => {
           if (snap.exists() && snap.data().active === true) {
             setHasSubscription(true);
             setSubscriptionData(snap.data());
           } else {
             setHasSubscription(false);
-            setSubscriptionData(null);
+            setSubscriptionData(snap.exists() ? snap.data() : null);
           }
-        } catch (error) {
-          console.error("Ошибка проверки подписки:", error);
+          setLoading(false);
+        }, (error) => {
+          console.error("Ошибка подписки на данные:", error);
           setHasSubscription(false);
           setSubscriptionData(null);
-        }
+          setLoading(false);
+        });
       } else {
         setHasSubscription(false);
         setSubscriptionData(null);
+        setLoading(false);
+        unsubscribeDoc(); // Отписываемся, если вышли
       }
-      setLoading(false);
     });
 
-    return () => unsub();
+    return () => {
+      unsubscribeAuth();
+      unsubscribeDoc();
+    };
   }, []);
 
   return { hasSubscription, subscriptionData, loading, user };
