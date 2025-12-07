@@ -20,7 +20,9 @@ export default function SubscriptionPage() {
   const navigate = useNavigate();
   // Добавляем subscriptionData
   const { hasSubscription, subscriptionData, loading: subLoading, user } = useSubscription();
-  const [isLoading, setIsLoading] = useState(false);
+  
+  // Храним тип загрузки: 'monthly' | 'one_time' | null
+  const [loadingType, setLoadingType] = useState(null);
 
   const handleSubscribe = async (type) => {
     if (!user) {
@@ -34,7 +36,7 @@ export default function SubscriptionPage() {
       return;
     }
 
-    setIsLoading(true);
+    setLoadingType(type);
     try {
       const idToken = await getIdToken(user, true);
       
@@ -67,13 +69,14 @@ export default function SubscriptionPage() {
       console.error("Ошибка при создании платежа:", error);
       toast.dismiss();
       toast.error("Не удалось перейти к оплате. Попробуйте позже.");
-      setIsLoading(false);
+      setLoadingType(null);
     }
   };
 
   // Вспомогательная функция для текста кнопки
   const getButtonText = (cardType) => {
-    if (isLoading) return <Loader2 className="animate-spin" />;
+    // Показываем спиннер ТОЛЬКО на той кнопке, которую нажали
+    if (loadingType === cardType) return <Loader2 className="animate-spin" />;
     
     if (!hasSubscription) {
         return cardType === 'monthly' ? "Оформить подписку" : "Оплатить разово";
@@ -83,13 +86,11 @@ export default function SubscriptionPage() {
     let currentType = subscriptionData?.type;
     
     if (!currentType) {
-        // Если поле type не задано (старые записи или ошибка вебхука)
         if (subscriptionData?.subscriptionId) {
             currentType = 'monthly';
         } else if (subscriptionData?.validUntil) {
             currentType = 'one_time';
         } else {
-            // Фолбэк на monthly, если совсем ничего не понятно, но active=true
             currentType = 'monthly';
         }
     }
@@ -109,7 +110,6 @@ export default function SubscriptionPage() {
          return `${baseStyle} border-gray-200 hover:border-blue-400`;
      }
 
-     // Умная логика определения типа подписки (дублируем, можно вынести в отдельную функцию)
      let currentType = subscriptionData?.type;
      if (!currentType) {
          if (subscriptionData?.subscriptionId) {
@@ -192,7 +192,8 @@ export default function SubscriptionPage() {
                 </div>
                 <Button 
                   onClick={() => handleSubscribe('monthly')}
-                  disabled={isLoading || subLoading || hasSubscription}
+                  // Блокируем, если идет любая загрузка или есть подписка
+                  disabled={loadingType !== null || subLoading || hasSubscription}
                   className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 text-lg rounded-xl mt-6 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {getButtonText('monthly')}
@@ -215,7 +216,8 @@ export default function SubscriptionPage() {
                 </div>
                 <Button 
                   onClick={() => handleSubscribe('one_time')}
-                  disabled={isLoading || subLoading || hasSubscription}
+                  // Блокируем, если идет любая загрузка или есть подписка
+                  disabled={loadingType !== null || subLoading || hasSubscription}
                   className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 text-lg rounded-xl mt-6 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {getButtonText('one_time')}
