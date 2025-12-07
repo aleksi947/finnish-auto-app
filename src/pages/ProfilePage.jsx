@@ -13,6 +13,9 @@ import { useSubscription } from "../hooks/useSubscription";
 
 const stopUrl = import.meta.env.VITE_FUNCTIONS_STOP_SUBSCRIPTION;
 const startUrl = import.meta.env.VITE_FUNCTIONS_START_CHECKOUT;
+// Добавляем URL для возобновления (предполагаем, что ты добавишь переменную в .env, или я захардкожу путь пока что)
+// Лучше использовать тот же домен, что и stopUrl, просто меняем endpoint
+const resumeUrl = stopUrl.replace("stopSubscription", "resumeSubscription");
 
 function ProfilePage() {
   // Используем наш обновленный хук (теперь он real-time!)
@@ -69,10 +72,27 @@ function ProfilePage() {
         { headers: { Authorization: `Bearer ${idToken}` } }
       );
       toast.success("📅 Подписка отменена. Доступ сохранится до конца периода.");
-      // Перезагрузка больше не нужна, так как useSubscription обновится сам!
     } catch (err) {
       console.error("Ошибка отмены подписки:", err);
       toast.error("❌ Не удалось отменить подписку");
+    }
+  };
+
+  const handleResumeSubscription = async () => {
+    if (!user) return toast.error("❗ Войдите в аккаунт.");
+    if (!window.confirm("Возобновить подписку? Списания продолжатся в обычном режиме.")) return;
+
+    try {
+      const idToken = await getIdToken(user, true);
+      await axios.post(
+        resumeUrl,
+        {},
+        { headers: { Authorization: `Bearer ${idToken}` } }
+      );
+      toast.success("✅ Подписка успешно возобновлена!");
+    } catch (err) {
+      console.error("Ошибка возобновления подписки:", err);
+      toast.error("❌ Не удалось возобновить подписку");
     }
   };
 
@@ -213,7 +233,7 @@ function ProfilePage() {
                 Изменить профиль
               </Button>
               
-              {/* Кнопка отмены показывается только если подписка ЕЖЕМЕСЯЧНАЯ и НЕ ОТМЕНЕНА */}
+              {/* Кнопка отмены (только если активна и не отменена) */}
               {hasSubscription && subscriptionData?.type === 'monthly' && !subscriptionData?.canceledAtPeriodEnd && (
                 <Button
                   onClick={handleCancelSubscription}
@@ -221,6 +241,16 @@ function ProfilePage() {
                   className="border-2 border-red-500 text-red-600 hover:bg-red-50 hover:text-red-700 hover:border-red-600 px-6 py-6 text-lg rounded-xl bg-white"
                 >
                   Отменить подписку
+                </Button>
+              )}
+
+              {/* Кнопка ВОЗОБНОВЛЕНИЯ (только если отменена) */}
+              {hasSubscription && subscriptionData?.type === 'monthly' && subscriptionData?.canceledAtPeriodEnd && (
+                <Button
+                  onClick={handleResumeSubscription}
+                  className="bg-green-600 hover:bg-green-700 text-white px-6 py-6 text-lg rounded-xl flex items-center justify-center gap-2"
+                >
+                  🔄 Возобновить подписку
                 </Button>
               )}
 

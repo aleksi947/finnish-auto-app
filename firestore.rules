@@ -1,13 +1,15 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    // Разрешаем чтение уроков всем пользователям
+
+    // 1. УРОКИ
+    // Читать могут только авторизованные пользователи
     match /lessons/{lessonId} {
-      allow read: if true;
+      allow read: if request.auth != null;
       allow write: if request.auth != null && request.auth.token.admin == true;
     }
     
-    // Правила для пользователей
+    // 2. ПОЛЬЗОВАТЕЛИ
     match /users/{userId} {
       allow read, write: if request.auth != null && request.auth.uid == userId;
       
@@ -17,9 +19,14 @@ service cloud.firestore {
       }
     }
     
-    // Правила для подписок - пользователь может читать и писать только свои подписки
-    match /subscriptions/{subscriptionId} {
-      allow read, write: if request.auth != null && request.auth.uid == subscriptionId;
+    // 3. ПОДПИСКИ (Критически важно!)
+    match /subscriptions/{userId} {
+      // Читать может только владелец подписки
+      allow read: if request.auth != null && request.auth.uid == userId;
+      
+      // ПИСАТЬ ЗАПРЕЩЕНО ВСЕМ С КЛИЕНТА
+      // Изменять подписку может только сервер (Cloud Functions), который игнорирует эти правила
+      allow write: if false;
     }
   }
-} 
+}

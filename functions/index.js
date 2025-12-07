@@ -98,6 +98,47 @@ exports.stopSubscription = functions.https.onRequest((req, res) => {
   });
 });
 
+// ✅ ВОЗОБНОВЛЕНИЕ подписки
+exports.resumeSubscription = functions.https.onRequest((req, res) => {
+  corsHandler(req, res, async () => {
+    const idToken = req.headers.authorization?.split("Bearer ")[1];
+    if (!idToken) return res.status(401).send("Unauthorized");
+
+    try {
+      const decodedToken = await admin.auth().verifyIdToken(idToken);
+      const uid = decodedToken.uid;
+
+      const subRef = admin.firestore().collection("subscriptions").doc(uid);
+      const docSnap = await subRef.get();
+
+      if (!docSnap.exists) return res.status(404).send("Подписка не найдена");
+
+      const { subscriptionId, canceledAtPeriodEnd } = docSnap.data();
+      
+      if (!subscriptionId) {
+        return res.status(400).send("Невозможно возобновить: отсутствует ID подписки.");
+      }
+
+      if (!canceledAtPeriodEnd) {
+        return res.status(400).send("Подписка уже активна и не была отменена.");
+      }
+
+      // Возобновляем в Stripe
+      await stripe.subscriptions.update(subscriptionId, {
+        cancel_at_period_end: false,
+      });
+
+      // Обновляем Firestore
+      await subRef.set({ canceledAtPeriodEnd: false }, { merge: true });
+
+      res.status(200).send("Подписка возобновлена");
+    } catch (error) {
+      console.error("❌ Ошибка возобновления подписки:", error.message);
+      res.status(500).send("Internal Server Error");
+    }
+  });
+});
+
 // ✅ WEBHOOK с поддержкой rawBody
 exports.stripeWebhook = functions.https.onRequest(async (req, res) => {
   const endpointSecret = functions.config().stripe.webhook_secret;

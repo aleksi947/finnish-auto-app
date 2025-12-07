@@ -11,6 +11,9 @@ import { useSubscription } from "../hooks/useSubscription";
 
 // Получаем URL функции из переменных окружения
 const startUrl = import.meta.env.VITE_FUNCTIONS_START_CHECKOUT;
+// URL для возобновления (предполагаем тот же базовый путь, что и stopUrl, но endpoint resumeSubscription)
+// В идеале вынести это в отдельный файл конфига API
+const resumeUrl = import.meta.env.VITE_FUNCTIONS_STOP_SUBSCRIPTION?.replace("stopSubscription", "resumeSubscription") || "";
 
 // ID цен
 const MONTHLY_PRICE_ID = null; 
@@ -18,10 +21,9 @@ const ONE_TIME_PRICE_ID = "price_1SbRYLG13irHLXe7P0GM2nvC";
 
 export default function SubscriptionPage() {
   const navigate = useNavigate();
-  // Добавляем subscriptionData
   const { hasSubscription, subscriptionData, loading: subLoading, user } = useSubscription();
   
-  // Храним тип загрузки: 'monthly' | 'one_time' | null
+  // Храним тип загрузки: 'monthly' | 'one_time' | 'resume' | null
   const [loadingType, setLoadingType] = useState(null);
 
   const handleSubscribe = async (type) => {
@@ -30,7 +32,8 @@ export default function SubscriptionPage() {
       return;
     }
 
-    if (hasSubscription) {
+    // Если подписка уже активна и не отменена, перенаправляем в профиль
+    if (hasSubscription && !subscriptionData?.canceledAtPeriodEnd) {
       toast.success("У вас уже есть активная подписка!");
       navigate("/profile");
       return;
@@ -73,10 +76,33 @@ export default function SubscriptionPage() {
     }
   };
 
+  const handleResume = async () => {
+    if (!user) return;
+    if (!window.confirm("Возобновить подписку? Списания продолжатся в обычном режиме.")) return;
+
+    setLoadingType('resume');
+    try {
+      const idToken = await getIdToken(user, true);
+      await axios.post(
+        resumeUrl,
+        {},
+        { headers: { Authorization: `Bearer ${idToken}` } }
+      );
+      toast.success("✅ Подписка успешно возобновлена!");
+      // После успешного возобновления состояние обновится через хук useSubscription
+    } catch (err) {
+      console.error("Ошибка возобновления подписки:", err);
+      toast.error("❌ Не удалось возобновить подписку");
+    } finally {
+      setLoadingType(null);
+    }
+  };
+
   // Вспомогательная функция для текста кнопки
   const getButtonText = (cardType) => {
-    // Показываем спиннер ТОЛЬКО на той кнопке, которую нажали
-    if (loadingType === cardType) return <Loader2 className="animate-spin" />;
+    if (loadingType === cardType || (cardType === 'monthly' && loadingType === 'resume')) {
+        return <Loader2 className="animate-spin" />;
+    }
     
     if (!hasSubscription) {
         return cardType === 'monthly' ? "Оформить подписку" : "Оплатить разово";
@@ -84,18 +110,16 @@ export default function SubscriptionPage() {
 
     // Умная логика определения типа подписки
     let currentType = subscriptionData?.type;
-    
     if (!currentType) {
-        if (subscriptionData?.subscriptionId) {
-            currentType = 'monthly';
-        } else if (subscriptionData?.validUntil) {
-            currentType = 'one_time';
-        } else {
-            currentType = 'monthly';
-        }
+        if (subscriptionData?.subscriptionId) currentType = 'monthly';
+        else if (subscriptionData?.validUntil) currentType = 'one_time';
+        else currentType = 'monthly';
     }
 
     if (currentType === cardType) {
+        if (cardType === 'monthly' && subscriptionData?.canceledAtPeriodEnd) {
+            return "Возобновить подписку";
+        }
         return "Уже активно";
     } else {
         return "У вас уже есть доступ";
@@ -112,20 +136,60 @@ export default function SubscriptionPage() {
 
      let currentType = subscriptionData?.type;
      if (!currentType) {
-         if (subscriptionData?.subscriptionId) {
-             currentType = 'monthly';
-         } else if (subscriptionData?.validUntil) {
-             currentType = 'one_time';
-         } else {
-             currentType = 'monthly';
-         }
+         if (subscriptionData?.subscriptionId) currentType = 'monthly';
+         else if (subscriptionData?.validUntil) currentType = 'one_time';
+         else currentType = 'monthly';
      }
      
      if (currentType === cardType) {
+         // Если это отмененная подписка - делаем рамку оранжевой
+         if (cardType === 'monthly' && subscriptionData?.canceledAtPeriodEnd) {
+             return `${baseStyle} border-orange-500 bg-orange-50`;
+         }
          return `${baseStyle} border-green-500 bg-green-50`;
      } else {
          return `${baseStyle} border-gray-200 opacity-60`;
      }
+  };
+
+  // Обработчик клика по кнопке (разный для разных состояний)
+  const handleButtonClick = (cardType) => {
+      // Если это кнопка ежемесячной подписки И она отменена -> вызываем возобновление
+      if (cardType === 'monthly' && hasSubscription && subscriptionData?.canceledAtPeriodEnd) {
+          handleResume();
+          return;
+      }
+      // Иначе обычная подписка
+      handleSubscribe(cardType);
+  };
+
+  // Проверка disabled
+  const isButtonDisabled = (cardType) => {
+      if (loadingType !== null || subLoading) return true;
+      
+      // Если подписки нет - кнопки активны
+      if (!hasSubscription) return false;
+
+      // Если есть подписка
+      let currentType = subscriptionData?.type;
+      if (!currentType) {
+          if (subscriptionData?.subscriptionId) currentType = 'monthly';
+          else if (subscriptionData?.validUntil) currentType = 'one_time';
+          else currentType = 'monthly';
+      }
+
+      // Если это ТА САМАЯ карточка, которая куплена
+      if (currentType === cardType) {
+          // Если это Monthly и она отменена -> кнопку НЕ блокируем (чтобы можно было возобновить)
+          if (cardType === 'monthly' && subscriptionData?.canceledAtPeriodEnd) {
+              return false;
+          }
+          // Иначе (активна и не отменена) -> блокируем ("Уже активно")
+          return true;
+      }
+
+      // Если это ДРУГАЯ карточка -> блокируем
+      return true;
   };
 
   return (
@@ -187,14 +251,19 @@ export default function SubscriptionPage() {
                     <span className="text-xl text-gray-600">/мес.</span>
                   </div>
                   <p className="text-gray-600 leading-snug">
-                    Автопродление, можно отменить
+                    {hasSubscription && subscriptionData?.type === 'monthly' && subscriptionData?.canceledAtPeriodEnd 
+                        ? "Отменена (доступ до конца периода)"
+                        : "Автопродление, можно отменить"}
                   </p>
                 </div>
                 <Button 
-                  onClick={() => handleSubscribe('monthly')}
-                  // Блокируем, если идет любая загрузка или есть подписка
-                  disabled={loadingType !== null || subLoading || hasSubscription}
-                  className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 text-lg rounded-xl mt-6 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+                  onClick={() => handleButtonClick('monthly')}
+                  disabled={isButtonDisabled('monthly')}
+                  className={`w-full py-6 text-lg rounded-xl mt-6 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed ${
+                      hasSubscription && subscriptionData?.canceledAtPeriodEnd && subscriptionData?.type === 'monthly'
+                      ? "bg-green-600 hover:bg-green-700 text-white" // Стиль для кнопки возобновления
+                      : "bg-blue-600 hover:bg-blue-700 text-white"
+                  }`}
                 >
                   {getButtonText('monthly')}
                 </Button>
@@ -215,9 +284,8 @@ export default function SubscriptionPage() {
                   </p>
                 </div>
                 <Button 
-                  onClick={() => handleSubscribe('one_time')}
-                  // Блокируем, если идет любая загрузка или есть подписка
-                  disabled={loadingType !== null || subLoading || hasSubscription}
+                  onClick={() => handleButtonClick('one_time')}
+                  disabled={isButtonDisabled('one_time')}
                   className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 text-lg rounded-xl mt-6 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {getButtonText('one_time')}
