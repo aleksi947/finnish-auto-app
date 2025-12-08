@@ -253,7 +253,7 @@ function MultipleChoiceGroup({ exercise, section, currentQuestionIndex, onQuesti
               onClick={() => handleAnswer(i)}
               disabled={selected !== null}
               className={`
-                w-full h-[72px] bg-white rounded-2xl border-2 flex items-center gap-4 px-5 py-4
+                w-full min-h-[72px] bg-white rounded-2xl border-2 flex items-center gap-4 px-5 py-4
                 transition-all duration-200
                 ${selected === null 
                   ? 'border-[#D1D5DB] hover:border-[#9CA3AF] cursor-pointer' 
