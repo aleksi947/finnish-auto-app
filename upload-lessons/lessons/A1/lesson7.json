@@ -1,0 +1,5207 @@
+{
+  "id": "A1-7",
+  "level": "A1",
+  "title": "Урок 7",
+  "premium": true,
+  "goal": {
+    "ru": "",
+    "fi": ""
+  },
+  "vocabulary": {
+    "common-1": {
+      "title": "Общие — блок 1",
+      "words": [
+        {
+          "fi": "loma",
+          "translations": {
+            "ru": "отпуск"
+          },
+          "example": {
+            "fi": "Tänään alkaa Lauran loma.",
+            "ru": "Сегодня начинается отпуск Лауры."
+          },
+          "audio": "/audio/A1-7/common/loma.mp3"
+        },
+        {
+          "fi": "matka",
+          "translations": {
+            "ru": "поездка"
+          },
+          "example": {
+            "fi": "Kesälomamatka.",
+            "ru": "Летняя поездка."
+          },
+          "audio": "/audio/A1-7/common/matka.mp3"
+        },
+        {
+          "fi": "matkustaa",
+          "translations": {
+            "ru": "путешествовать"
+          },
+          "example": {
+            "fi": "He matkustavat ensin junalla Turkuun.",
+            "ru": "Сначала они путешествуют на поезде в Турку."
+          },
+          "audio": "/audio/A1-7/common/matkustaa.mp3"
+        },
+        {
+          "fi": "juna",
+          "translations": {
+            "ru": "поезд"
+          },
+          "example": {
+            "fi": "He matkustavat ensin junalla Turkuun.",
+            "ru": "Сначала они путешествуют на поезде в Турку."
+          },
+          "audio": "/audio/A1-7/common/juna.mp3"
+        },
+        {
+          "fi": "nousta",
+          "translations": {
+            "ru": "подниматься, садиться (в транспорт)"
+          },
+          "example": {
+            "fi": "Turussa he nousevat suureen valkoiseen laivaan kello 10.",
+            "ru": "В Турку они садятся на большой белый корабль в 10 часов."
+          },
+          "audio": "/audio/A1-7/common/nousta.mp3"
+        },
+        {
+          "fi": "laiva",
+          "translations": {
+            "ru": "корабль"
+          },
+          "example": {
+            "fi": "Turussa he nousevat suureen valkoiseen laivaan kello 10.",
+            "ru": "В Турку они садятся на большой белый корабль в 10 часов."
+          },
+          "audio": "/audio/A1-7/common/laiva.mp3"
+        },
+        {
+          "fi": "herkullinen",
+          "translations": {
+            "ru": "вкусный"
+          },
+          "example": {
+            "fi": "Laura ja Mikko syövät herkullista lounasta ravintolassa.",
+            "ru": "Лаура и Микко едят вкусный обед в ресторане."
+          },
+          "audio": "/audio/A1-7/common/herkullinen.mp3"
+        },
+        {
+          "fi": "lounas",
+          "translations": {
+            "ru": "обед"
+          },
+          "example": {
+            "fi": "Laura ja Mikko syövät herkullista lounasta ravintolassa.",
+            "ru": "Лаура и Микко едят вкусный обед в ресторане."
+          },
+          "audio": "/audio/A1-7/common/lounas.mp3"
+        },
+        {
+          "fi": "katsella",
+          "translations": {
+            "ru": "наблюдать, смотреть"
+          },
+          "example": {
+            "fi": "Sitten he katselevat kaunista merta.",
+            "ru": "Потом они смотрят на красивое море."
+          },
+          "audio": "/audio/A1-7/common/katsella.mp3"
+        },
+        {
+          "fi": "meri",
+          "translations": {
+            "ru": "море"
+          },
+          "example": {
+            "fi": "Sitten he katselevat kaunista merta.",
+            "ru": "Потом они смотрят на красивое море."
+          },
+          "audio": "/audio/A1-7/common/meri.mp3"
+        },
+        {
+          "fi": "tanssia",
+          "translations": {
+            "ru": "танцевать"
+          },
+          "example": {
+            "fi": "He tanssivat baarissa pienellä tanssilattialla.",
+            "ru": "Они танцуют в баре на маленьком танцполе."
+          },
+          "audio": "/audio/A1-7/common/tanssia.mp3"
+        },
+        {
+          "fi": "baari",
+          "translations": {
+            "ru": "бар"
+          },
+          "example": {
+            "fi": "He tanssivat baarissa pienellä tanssilattialla.",
+            "ru": "Они танцуют в баре на маленьком танцполе."
+          },
+          "audio": "/audio/A1-7/common/baari.mp3"
+        },
+        {
+          "fi": "tanssilattia",
+          "translations": {
+            "ru": "танцпол"
+          },
+          "example": {
+            "fi": "He tanssivat baarissa pienellä tanssilattialla.",
+            "ru": "Они танцуют в баре на маленьком танцполе."
+          },
+          "audio": "/audio/A1-7/common/tanssilattia.mp3"
+        },
+        {
+          "fi": "saapua",
+          "translations": {
+            "ru": "прибывать"
+          },
+          "example": {
+            "fi": "Kello 18 laiva saapuu Maarianhaminaan.",
+            "ru": "В 18 часов корабль прибывает в Мариехамн."
+          },
+          "audio": "/audio/A1-7/common/saapua.mp3"
+        },
+        {
+          "fi": "pääkaupunki",
+          "translations": {
+            "ru": "столица"
+          },
+          "example": {
+            "fi": "Maarianhamina on Ahvenanmaan pääkaupunki.",
+            "ru": "Мариехамн — столица Аландских островов."
+          },
+          "audio": "/audio/A1-7/common/paakaupunki.mp3"
+        },
+        {
+          "fi": "pyöräillä",
+          "translations": {
+            "ru": "ездить на велосипеде"
+          },
+          "example": {
+            "fi": "Lomalla Mikko ja Laura pyöräilevät noin 40 km joka päivä.",
+            "ru": "В отпуске Микко и Лаура катаются на велосипеде около 40 км каждый день."
+          },
+          "audio": "/audio/A1-7/common/pyorailla.mp3"
+        },
+        {
+          "fi": "noin",
+          "translations": {
+            "ru": "примерно, около"
+          },
+          "example": {
+            "fi": "He pyöräilevät noin 40 km joka päivä.",
+            "ru": "Они катаются на велосипеде около 40 км каждый день."
+          },
+          "audio": "/audio/A1-7/common/noin.mp3"
+        },
+        {
+          "fi": "km",
+          "translations": {
+            "ru": "километр"
+          },
+          "example": {
+            "fi": "He pyöräilevät noin 40 km joka päivä.",
+            "ru": "Они катаются на велосипеде около 40 км каждый день."
+          },
+          "audio": "/audio/A1-7/common/km.mp3"
+        },
+        {
+          "fi": "joka päivä",
+          "translations": {
+            "ru": "каждый день"
+          },
+          "example": {
+            "fi": "He pyöräilevät noin 40 km joka päivä.",
+            "ru": "Они катаются на велосипеде около 40 км каждый день."
+          },
+          "audio": "/audio/A1-7/common/joka_paiva.mp3"
+        },
+        {
+          "fi": "saari",
+          "translations": {
+            "ru": "остров"
+          },
+          "example": {
+            "fi": "He ajavat saarelta saarelle nopealla veneellä tai lossilla.",
+            "ru": "Они едут с острова на остров на быстрой лодке или пароме."
+          },
+          "audio": "/audio/A1-7/common/saari.mp3"
+        },
+        {
+          "fi": "nopea",
+          "translations": {
+            "ru": "быстрый"
+          },
+          "example": {
+            "fi": "He ajavat nopealla veneellä.",
+            "ru": "Они едут на быстрой лодке."
+          },
+          "audio": "/audio/A1-7/common/nopea.mp3"
+        }
+      ]
+    },
+    "common-2": {
+      "title": "Общие — блок 2",
+      "words": [
+        {
+          "fi": "vene",
+          "translations": {
+            "ru": "лодка"
+          },
+          "example": {
+            "fi": "He ajavat nopealla veneellä.",
+            "ru": "Они едут на быстрой лодке."
+          },
+          "audio": "/audio/A1-7/common/vene.mp3"
+        },
+        {
+          "fi": "tai",
+          "translations": {
+            "ru": "или"
+          },
+          "example": {
+            "fi": "He ajavat nopealla veneellä tai lossilla.",
+            "ru": "Они едут на быстрой лодке или пароме."
+          },
+          "audio": "/audio/A1-7/common/tai.mp3"
+        },
+        {
+          "fi": "lossi",
+          "translations": {
+            "ru": "паром"
+          },
+          "example": {
+            "fi": "He ajavat nopealla veneellä tai lossilla.",
+            "ru": "Они едут на быстрой лодке или пароме."
+          },
+          "audio": "/audio/A1-7/common/lossi.mp3"
+        },
+        {
+          "fi": "linna",
+          "translations": {
+            "ru": "замок"
+          },
+          "example": {
+            "fi": "He käyvät vanhassa linnassa.",
+            "ru": "Они посещают старый замок."
+          },
+          "audio": "/audio/A1-7/common/linna.mp3"
+        },
+        {
+          "fi": "museo",
+          "translations": {
+            "ru": "музей"
+          },
+          "example": {
+            "fi": "He käyvät myös museolaivassa.",
+            "ru": "Они также посещают музейный корабль."
+          },
+          "audio": "/audio/A1-7/common/museo.mp3"
+        },
+        {
+          "fi": "teltta",
+          "translations": {
+            "ru": "палатка"
+          },
+          "example": {
+            "fi": "En halua nukkua märässä teltassa.",
+            "ru": "Я не хочу спать в мокрой палатке."
+          },
+          "audio": "/audio/A1-7/common/teltta.mp3"
+        },
+        {
+          "fi": "itse",
+          "translations": {
+            "ru": "сам"
+          },
+          "example": {
+            "fi": "He tekevät ruokaa itse.",
+            "ru": "Они готовят еду сами."
+          },
+          "audio": "/audio/A1-7/common/itse.mp3"
+        },
+        {
+          "fi": "palata",
+          "translations": {
+            "ru": "возвращаться"
+          },
+          "example": {
+            "fi": "Kun Laura ja Mikko palaavat Maarianhaminaan, sataa vettä.",
+            "ru": "Когда Лаура и Микко возвращаются в Мариехамн, идет дождь."
+          },
+          "audio": "/audio/A1-7/common/palata.mp3"
+        },
+        {
+          "fi": "kamala",
+          "translations": {
+            "ru": "ужасный"
+          },
+          "example": {
+            "fi": "Kamala ilma!",
+            "ru": "Ужасная погода!"
+          },
+          "audio": "/audio/A1-7/common/kamala.mp3"
+        },
+        {
+          "fi": "niin",
+          "translations": {
+            "ru": "так, да, действительно"
+          },
+          "example": {
+            "fi": "Niin on.",
+            "ru": "Да, действительно."
+          },
+          "audio": "/audio/A1-7/common/niin.mp3"
+        },
+        {
+          "fi": "märkä",
+          "translations": {
+            "ru": "мокрый"
+          },
+          "example": {
+            "fi": "En halua nukkua märässä teltassa.",
+            "ru": "Я не хочу спать в мокрой палатке."
+          },
+          "audio": "/audio/A1-7/common/marka.mp3"
+        },
+        {
+          "fi": "mennään",
+          "translations": {
+            "ru": "пойдём"
+          },
+          "example": {
+            "fi": "No, mennään sitten hotelliin.",
+            "ru": "Ну, пойдём тогда в отель."
+          },
+          "audio": "/audio/A1-7/common/mennaan.mp3"
+        },
+        {
+          "fi": "hotelli",
+          "translations": {
+            "ru": "отель"
+          },
+          "example": {
+            "fi": "Menemmekö tuohon pieneen hotelliin?",
+            "ru": "Пойдём в тот маленький отель?"
+          },
+          "audio": "/audio/A1-7/common/hotelli.mp3"
+        },
+        {
+          "fi": "idea",
+          "translations": {
+            "ru": "идея"
+          },
+          "example": {
+            "fi": "Hyvä idea.",
+            "ru": "Хорошая идея."
+          },
+          "audio": "/audio/A1-7/common/idea.mp3"
+        },
+        {
+          "fi": "toinen",
+          "translations": {
+            "ru": "другой"
+          },
+          "example": {
+            "fi": "Mutta täällä on toinenkin hotelli.",
+            "ru": "Но здесь есть и другой отель."
+          },
+          "audio": "/audio/A1-7/common/toinen.mp3"
+        },
+        {
+          "fi": "-kin",
+          "translations": {
+            "ru": "тоже, также"
+          },
+          "example": {
+            "fi": "Mutta täällä on toinenkin hotelli.",
+            "ru": "Но здесь есть и другой отель."
+          },
+          "audio": "/audio/A1-7/common/kin.mp3"
+        },
+        {
+          "fi": "sauna",
+          "translations": {
+            "ru": "сауна"
+          },
+          "example": {
+            "fi": "Tässä hotellissa on sauna ja uima-allaskin!",
+            "ru": "В этом отеле есть сауна и даже бассейн!"
+          },
+          "audio": "/audio/A1-7/common/sauna.mp3"
+        },
+        {
+          "fi": "uima-allas",
+          "translations": {
+            "ru": "бассейн"
+          },
+          "example": {
+            "fi": "Tässä hotellissa on sauna ja uima-allaskin!",
+            "ru": "В этом отеле есть сауна и даже бассейн!"
+          },
+          "audio": "/audio/A1-7/common/uima_allas.mp3"
+        },
+        {
+          "fi": "varmasti",
+          "translations": {
+            "ru": "точно, обязательно"
+          },
+          "example": {
+            "fi": "Se on varmasti hyvä.",
+            "ru": "Это точно хороший отель."
+          },
+          "audio": "/audio/A1-7/common/varmasti.mp3"
+        },
+        {
+          "fi": "oikein",
+          "translations": {
+            "ru": "очень, правильно"
+          },
+          "example": {
+            "fi": "Hotelli on oikein mukava.",
+            "ru": "Отель очень уютный."
+          },
+          "audio": "/audio/A1-7/common/oikein.mp3"
+        },
+        {
+          "fi": "mukava",
+          "translations": {
+            "ru": "приятный, удобный"
+          },
+          "example": {
+            "fi": "Hotelli on oikein mukava.",
+            "ru": "Отель очень уютный."
+          },
+          "audio": "/audio/A1-7/common/mukava.mp3"
+        },
+        {
+          "fi": "ihana",
+          "translations": {
+            "ru": "прекрасный"
+          },
+          "example": {
+            "fi": "On ihanaa nukkua oikeassa pehmeässä sängyssä.",
+            "ru": "Приятно спать в настоящей мягкой кровати."
+          },
+          "audio": "/audio/A1-7/common/ihana.mp3"
+        },
+        {
+          "fi": "oikea",
+          "translations": {
+            "ru": "правильный, настоящий"
+          },
+          "example": {
+            "fi": "On ihanaa nukkua oikeassa pehmeässä sängyssä.",
+            "ru": "Приятно спать в настоящей мягкой кровати."
+          },
+          "audio": "/audio/A1-7/common/oikea.mp3"
+        },
+        {
+          "fi": "kala",
+          "translations": {
+            "ru": "рыба"
+          },
+          "example": {
+            "fi": "He syövät kalaravintolassa.",
+            "ru": "Они едят в рыбном ресторане."
+          },
+          "audio": "/audio/A1-7/common/kala.mp3"
+        },
+        {
+          "fi": "ravintola",
+          "translations": {
+            "ru": "ресторан"
+          },
+          "example": {
+            "fi": "He syövät uudessa kalaravintolassa.",
+            "ru": "Они едят в новом ресторане."
+          },
+          "audio": "/audio/A1-7/common/ravintola.mp3"
+        }
+      ]
+    },
+    "pikkusanat": {
+      "title": "Маленькие слова",
+      "words": [
+        {
+          "fi": "noin",
+          "translations": {
+            "ru": "около, примерно"
+          },
+          "example": {
+            "fi": "Lomalla he pyöräilevät noin 40 km joka päivä.",
+            "ru": "В отпуске они катаются на велосипеде около 40 км каждый день."
+          },
+          "audio": "/audio/A1-7/vocabulary/pikkusanat/noin.mp3"
+        },
+        {
+          "fi": "tai",
+          "translations": {
+            "ru": "или"
+          },
+          "example": {
+            "fi": "He ajavat saarelta saarelle veneellä tai lossilla.",
+            "ru": "Они едут с острова на остров на лодке или пароме."
+          },
+          "audio": "/audio/A1-7/vocabulary/pikkusanat/tai.mp3"
+        },
+        {
+          "fi": "itse",
+          "translations": {
+            "ru": "сам, самостоятельно"
+          },
+          "example": {
+            "fi": "He tekevät ruokaa itse.",
+            "ru": "Они готовят еду сами."
+          },
+          "audio": "/audio/A1-7/vocabulary/pikkusanat/itse.mp3"
+        },
+        {
+          "fi": "-kin",
+          "translations": {
+            "ru": "тоже, также, даже"
+          },
+          "example": {
+            "fi": "Tässä hotellissa on sauna ja uima-allaskin!",
+            "ru": "В этом отеле есть сауна и даже бассейн!"
+          },
+          "audio": "/audio/A1-7/vocabulary/pikkusanat/kin.mp3"
+        },
+        {
+          "fi": "oikein",
+          "translations": {
+            "ru": "очень, действительно"
+          },
+          "example": {
+            "fi": "Hotelli on oikein mukava.",
+            "ru": "Отель очень уютный."
+          },
+          "audio": "/audio/A1-7/vocabulary/pikkusanat/oikein.mp3"
+        },
+        {
+          "fi": "varmasti",
+          "translations": {
+            "ru": "точно, наверняка"
+          },
+          "example": {
+            "fi": "Se on varmasti hyvä.",
+            "ru": "Это точно хороший отель."
+          },
+          "audio": "/audio/A1-7/vocabulary/pikkusanat/varmasti.mp3"
+        }
+      ]
+    },
+    "hotelli": {
+      "title": "В отеле",
+      "words": [
+        {
+          "fi": "varata",
+          "translations": {
+            "ru": "забронировать"
+          },
+          "example": {
+            "fi": "Haluaisin varata huoneen nimellä Lahtinen.",
+            "ru": "Я хотел бы забронировать номер на имя Лахтинен."
+          },
+          "audio": "/audio/A1-7/vocabulary/hotelli/varata.mp3"
+        },
+        {
+          "fi": "varaus",
+          "translations": {
+            "ru": "бронирование"
+          },
+          "example": {
+            "fi": "Meillä on varaus nimellä Lahtinen.",
+            "ru": "У нас есть бронирование на имя Лахтинен."
+          },
+          "audio": "/audio/A1-7/vocabulary/hotelli/varaus.mp3"
+        },
+        {
+          "fi": "yhden hengen huone",
+          "translations": {
+            "ru": "одноместный номер"
+          },
+          "example": "",
+          "audio": "/audio/A1-7/vocabulary/hotelli/yhden_hengen_huone.mp3"
+        },
+        {
+          "fi": "kahden hengen huone",
+          "translations": {
+            "ru": "двухместный номер"
+          },
+          "example": "",
+          "audio": "/audio/A1-7/vocabulary/hotelli/kahden_hengen_huone.mp3"
+        },
+        {
+          "fi": "lisävuode",
+          "translations": {
+            "ru": "дополнительная кровать"
+          },
+          "example": "",
+          "audio": "/audio/A1-7/vocabulary/hotelli/lisavuode.mp3"
+        },
+        {
+          "fi": "viipyä",
+          "translations": {
+            "ru": "оставаться, пробыть"
+          },
+          "example": {
+            "fi": "He viipyvät Ahvenanmaalla 8 päivää.",
+            "ru": "Они остаются на Аландских островах 8 дней."
+          },
+          "audio": "/audio/A1-7/vocabulary/hotelli/viipya.mp3"
+        },
+        {
+          "fi": "yöpytä",
+          "translations": {
+            "ru": "ночевать"
+          },
+          "example": {
+            "fi": "Tänään emme yövy teltassa vaan hotellissa.",
+            "ru": "Сегодня мы не ночуем в палатке, а в отеле."
+          },
+          "audio": "/audio/A1-7/vocabulary/hotelli/yopyta.mp3"
+        },
+        {
+          "fi": "kuulua hintaan",
+          "translations": {
+            "ru": "входить в стоимость"
+          },
+          "example": {
+            "fi": "Huoneen hintaan kuuluu aamiainen.",
+            "ru": "В стоимость номера входит завтрак."
+          },
+          "audio": "/audio/A1-7/vocabulary/hotelli/kuulua_hintaan.mp3"
+        },
+        {
+          "fi": "luovuttaa huone",
+          "translations": {
+            "ru": "освободить номер"
+          },
+          "example": {
+            "fi": "Huone täytyy luovuttaa kello 12.",
+            "ru": "Номер нужно освободить в 12 часов."
+          },
+          "audio": "/audio/A1-7/vocabulary/hotelli/luovuttaa_huone.mp3"
+        },
+        {
+          "fi": "vapaa",
+          "translations": {
+            "ru": "свободный"
+          },
+          "example": "",
+          "audio": "/audio/A1-7/vocabulary/hotelli/vapaa.mp3"
+        },
+        {
+          "fi": "henki",
+          "translations": {
+            "ru": "человек (в смысле количество)"
+          },
+          "example": "",
+          "audio": "/audio/A1-7/vocabulary/hotelli/henki.mp3"
+        },
+        {
+          "fi": "hetkinen",
+          "translations": {
+            "ru": "минуточку"
+          },
+          "example": "",
+          "audio": "/audio/A1-7/vocabulary/hotelli/hetkinen.mp3"
+        },
+        {
+          "fi": "tarkistaa",
+          "translations": {
+            "ru": "проверить"
+          },
+          "example": "",
+          "audio": "/audio/A1-7/vocabulary/hotelli/tarkistaa.mp3"
+        },
+        {
+          "fi": "tarjous",
+          "translations": {
+            "ru": "предложение, акция"
+          },
+          "example": "",
+          "audio": "/audio/A1-7/vocabulary/hotelli/tarjous.mp3"
+        },
+        {
+          "fi": "aamiainen",
+          "translations": {
+            "ru": "завтрак"
+          },
+          "example": "",
+          "audio": "/audio/A1-7/vocabulary/hotelli/aamiainen.mp3"
+        },
+        {
+          "fi": "hinta",
+          "translations": {
+            "ru": "цена"
+          },
+          "example": "",
+          "audio": "/audio/A1-7/vocabulary/hotelli/hinta.mp3"
+        },
+        {
+          "fi": "henkilötiedot",
+          "translations": {
+            "ru": "личные данные"
+          },
+          "example": "",
+          "audio": "/audio/A1-7/vocabulary/hotelli/henkilotiedot.mp3"
+        },
+        {
+          "fi": "kerros",
+          "translations": {
+            "ru": "этаж"
+          },
+          "example": "",
+          "audio": "/audio/A1-7/vocabulary/hotelli/kerros.mp3"
+        },
+        {
+          "fi": "avain",
+          "translations": {
+            "ru": "ключ"
+          },
+          "example": "",
+          "audio": "/audio/A1-7/vocabulary/hotelli/avain.mp3"
+        },
+        {
+          "fi": "täytyä",
+          "translations": {
+            "ru": "быть должным, нужно"
+          },
+          "example": "",
+          "audio": "/audio/A1-7/vocabulary/hotelli/taytya.mp3"
+        },
+        {
+          "fi": "vastaanotto",
+          "translations": {
+            "ru": "ресепшен"
+          },
+          "example": "",
+          "audio": "/audio/A1-7/vocabulary/hotelli/vastaanotto.mp3"
+        },
+        {
+          "fi": "hotellivirkailija",
+          "translations": {
+            "ru": "сотрудник отеля"
+          },
+          "example": "",
+          "audio": "/audio/A1-7/vocabulary/hotelli/hotellivirkailija.mp3"
+        }
+      ]
+    }
+  },
+  "grammar": {
+    "sections": [
+      {
+        "id": "Milla matkustat",
+        "title": {
+          "ru": "Как вы путешествуете",
+          "fi": "Milla matkustat"
+        },
+        "explanationStructured": {
+          "title": {
+            "ru": "Millä sinä matkustat?"
+          },
+          "intro": {
+            "ru": "**Millä sinä matkustat?** — *На чём ты едешь / путешествуешь?*\n\nВ финском языке, чтобы сказать, **на чём вы едете**, нужно использовать падеж **adessiivi** (окончание **-lla / -llä**).\n\nОбычно такие фразы строятся с глаголами **mennä**, **ajaa**, **matkustaa**, **lähteä**, **tulla**."
+          },
+          "conjugationTables": [
+            {
+              "title": {
+                "ru": "🚗 Примеры с глаголами"
+              },
+              "columns": [
+                "Глагол",
+                "Финский",
+                "Перевод"
+              ],
+              "rows": [
+                {
+                  "base": "ехать",
+                  "example": "Minä menen **autolla**.",
+                  "translation": {
+                    "ru": "Я еду на машине."
+                  }
+                },
+                {
+                  "base": "ехать (водить)",
+                  "example": "Me ajamme **polkupyörällä**.",
+                  "translation": {
+                    "ru": "Мы едем на велосипеде."
+                  }
+                },
+                {
+                  "base": "путешествовать",
+                  "example": "He matkustavat **junalla**.",
+                  "translation": {
+                    "ru": "Они путешествуют на поезде."
+                  }
+                },
+                {
+                  "base": "отправляться",
+                  "example": "Katja lähtee lomalle **lentokoneella**.",
+                  "translation": {
+                    "ru": "Катя уезжает в отпуск на самолёте."
+                  }
+                },
+                {
+                  "base": "приходить",
+                  "example": "Tuletko sinä **taksilla**?",
+                  "translation": {
+                    "ru": "Ты приедешь на такси?"
+                  }
+                }
+              ]
+            },
+            {
+              "title": {
+                "ru": "🛻 Виды транспорта (с окончанием -lla/-llä)"
+              },
+              "columns": [
+                "Финский",
+                "Перевод"
+              ],
+              "rows": [
+                {
+                  "example": "autolla",
+                  "translation": {
+                    "ru": "на машине"
+                  }
+                },
+                {
+                  "example": "bussilla",
+                  "translation": {
+                    "ru": "на автобусе"
+                  }
+                },
+                {
+                  "example": "taksilla",
+                  "translation": {
+                    "ru": "на такси"
+                  }
+                },
+                {
+                  "example": "raitiovaunulla",
+                  "translation": {
+                    "ru": "на трамвае"
+                  }
+                },
+                {
+                  "example": "rekka-autolla",
+                  "translation": {
+                    "ru": "на грузовике"
+                  }
+                },
+                {
+                  "example": "moottoripyörällä",
+                  "translation": {
+                    "ru": "на мотоцикле"
+                  }
+                },
+                {
+                  "example": "polkupyörällä",
+                  "translation": {
+                    "ru": "на велосипеде"
+                  }
+                },
+                {
+                  "example": "metrolla",
+                  "translation": {
+                    "ru": "на метро"
+                  }
+                },
+                {
+                  "example": "junalla",
+                  "translation": {
+                    "ru": "на поезде"
+                  }
+                },
+                {
+                  "example": "pakettiautolla",
+                  "translation": {
+                    "ru": "на фургоне"
+                  }
+                },
+                {
+                  "example": "helikopterilla",
+                  "translation": {
+                    "ru": "на вертолёте"
+                  }
+                },
+                {
+                  "example": "veneellä",
+                  "translation": {
+                    "ru": "на лодке"
+                  }
+                },
+                {
+                  "example": "laivalla",
+                  "translation": {
+                    "ru": "на корабле"
+                  }
+                },
+                {
+                  "example": "lentokoneella",
+                  "translation": {
+                    "ru": "на самолёте"
+                  }
+                }
+              ]
+            }
+          ],
+          "important": {
+            "title": {
+              "ru": "🚶‍♂️ Исключение"
+            },
+            "body": {
+              "ru": "Если вы идёте **пешком**, то используется форма **kävellen** (от глагола **kävellä**):\n\n**Minä menen kävellen.** — Я иду пешком.\n\n📌 **Подсказка:** Чтобы сказать *на чём*, добавь **-lla / -llä** к транспорту: **autolla**, **junalla**, **laivalla** и т.д."
+            }
+          }
+        },
+        "exercises": [
+          {
+            "id": "ex-matkustaminen-valitse",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "🚌 Выберите правильную форму слова с окончанием -lla/-llä (на чём путешествуют)."
+            },
+            "questions": [
+              {
+                "question": "Minä menen ___ (auto).",
+                "options": [
+                  "auto",
+                  "auton",
+                  "autolla"
+                ],
+                "answer": 2
+              },
+              {
+                "question": "Me matkustamme ___ (bussi).",
+                "options": [
+                  "bussi",
+                  "bussilla",
+                  "bussin"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Tuletko ___ (taksi)?",
+                "options": [
+                  "taksi",
+                  "taksilla",
+                  "taksin"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "He ajavat ___ (polkupyörä).",
+                "options": [
+                  "polkupyörä",
+                  "polkupyörällä",
+                  "polkupyörän"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Minä menen ___ keskustaan (metro).",
+                "options": [
+                  "metrolla",
+                  "metro",
+                  "metron"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "He matkustavat usein ___ (juna).",
+                "options": [
+                  "juna",
+                  "junalla",
+                  "junan"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Isä ajaa ___ (pakettiauto).",
+                "options": [
+                  "pakettiauto",
+                  "pakettiautolla",
+                  "pakettiauton"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Minä en matkusta koskaan ___ (helikopteri).",
+                "options": [
+                  "helikopterilla",
+                  "helikopterin",
+                  "helikopteri"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Matti menee saareen ___ (vene).",
+                "options": [
+                  "vene",
+                  "veneellä",
+                  "veneen"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Me lähdemme lomalle ___ (laiva).",
+                "options": [
+                  "laiva",
+                  "laivalla",
+                  "laivan"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "He matkustavat Italiaan ___ (lentokone).",
+                "options": [
+                  "lentokoneella",
+                  "lentokone",
+                  "lentokoneen"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Hän ajaa töihin ___ (moottoripyörä).",
+                "options": [
+                  "moottoripyörä",
+                  "moottoripyörän",
+                  "moottoripyörällä"
+                ],
+                "answer": 2
+              },
+              {
+                "question": "Rekka kuljettaa tavaraa ___ (rekka-auto).",
+                "options": [
+                  "rekka-autolla",
+                  "rekka-auto",
+                  "rekka-auton"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Menetkö keskustaan ___ (raitiovaunu)?",
+                "options": [
+                  "raitiovaunu",
+                  "raitiovaunulla",
+                  "raitiovaunun"
+                ],
+                "answer": 1
+              }
+            ]
+          },
+          {
+            "id": "ex-matkustaminen-kirjoita",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "📝 Напишите слово в форме с окончанием -lla/-llä (на чём путешествуют)."
+            },
+            "items": [
+              {
+                "sentence": "Minä menen ___ (auto).",
+                "answer": "autolla"
+              },
+              {
+                "sentence": "Me matkustamme ___ (bussi).",
+                "answer": "bussilla"
+              },
+              {
+                "sentence": "Tuletko ___ (taksi)?",
+                "answer": "taksilla"
+              },
+              {
+                "sentence": "He ajavat ___ (polkupyörä).",
+                "answer": "polkupyörällä"
+              },
+              {
+                "sentence": "Minä menen ___ keskustaan (metro).",
+                "answer": "metrolla"
+              },
+              {
+                "sentence": "He matkustavat usein ___ (juna).",
+                "answer": "junalla"
+              },
+              {
+                "sentence": "Isä ajaa ___ (pakettiauto).",
+                "answer": "pakettiautolla"
+              },
+              {
+                "sentence": "Minä en matkusta koskaan ___ (helikopteri).",
+                "answer": "helikopterilla"
+              },
+              {
+                "sentence": "Matti menee saareen ___ (vene).",
+                "answer": "veneellä"
+              },
+              {
+                "sentence": "Me lähdemme lomalle ___ (laiva).",
+                "answer": "laivalla"
+              },
+              {
+                "sentence": "He matkustavat Italiaan ___ (lentokone).",
+                "answer": "lentokoneella"
+              },
+              {
+                "sentence": "Hän ajaa töihin ___ (moottoripyörä).",
+                "answer": "moottoripyörällä"
+              },
+              {
+                "sentence": "Rekka kuljettaa tavaraa ___ (rekka-auto).",
+                "answer": "rekka-autolla"
+              },
+              {
+                "sentence": "Menetkö keskustaan ___ (raitiovaunu)?",
+                "answer": "raitiovaunulla"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Sanatyypit",
+        "title": {
+          "ru": "Типы слов",
+          "fi": "Sanatyypit"
+        },
+        "explanationStructured": {
+          "title": {
+            "ru": "📘 Общее объяснение"
+          },
+          "intro": {
+            "ru": "В финском языке слова изменяются по падежам. У каждого слова есть **основа**, к которой добавляются окончания. Эти окончания показывают, **где** что-то находится, **куда** направляется или **откуда** происходит.\n\nСлова делятся на **типы** (например: -nen, -i, -e, -si). Тип определяется по словарной форме (окончанию слова). Каждый тип изменяется по-разному: у одних слов **меняется гласная** (i → e), у других появляется **-de-** (uusi → uuden), а в некоторых действует **чередование согласных** (kauppa → kaupan).\n\nВ следующих блоках вы увидите примеры разных типов слов и их склонения по падежам. Сравнивайте примеры и обращайте внимание на вопросы (*kuka? mikä? missä? mihin?* и др.), которые помогают выбрать правильный падеж."
+          }
+        },
+        "exercises": [
+          {
+            "id": "e",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "e-sanat (Слова, оканчивающиеся на -е)"
+              },
+              "conjugationTables": [
+                {
+                  "title": {
+                    "ru": "Пример: vene (лодка)"
+                  },
+                  "columns": [
+                    "Падеж",
+                    "Форма",
+                    "Пример + Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "person": "NOM\n(kuka? mikä? / кто? что?)",
+                      "form": "vene",
+                      "note": {
+                        "ru": "Vene on uusi. – Лодка новая."
+                      }
+                    },
+                    {
+                      "person": "PART\n(ketä? mitä? / кого? что?)",
+                      "form": "venettä",
+                      "note": {
+                        "ru": "Ostan venettä. – Покупаю лодку."
+                      }
+                    },
+                    {
+                      "person": "GEN\n(kenen? minkä? / чей? чего?)",
+                      "form": "veneen",
+                      "note": {
+                        "ru": "Veneen väri on sininen. – Цвет лодки синий."
+                      }
+                    },
+                    {
+                      "person": "ILL\n(mihin? / куда?)",
+                      "form": "veneeseen",
+                      "note": {
+                        "ru": "Menen veneeseen. – Я иду в лодку."
+                      }
+                    },
+                    {
+                      "person": "INE\n(missä? / где?)",
+                      "form": "veneessä",
+                      "note": {
+                        "ru": "Olen veneessä. – Я в лодке."
+                      }
+                    },
+                    {
+                      "person": "ELA\n(mistä? / откуда?)",
+                      "form": "veneestä",
+                      "note": {
+                        "ru": "Tulen veneestä. – Я выхожу из лодки."
+                      }
+                    },
+                    {
+                      "person": "ALL\n(mille? / на что? к чему?)",
+                      "form": "veneelle",
+                      "note": {
+                        "ru": "Menemme veneelle. – Мы идём к лодке."
+                      }
+                    },
+                    {
+                      "person": "ADE\n(millä? / на чём? где?)",
+                      "form": "veneellä",
+                      "note": {
+                        "ru": "Olen veneellä. – Я на лодке."
+                      }
+                    },
+                    {
+                      "person": "ABL\n(miltä? / откуда? с чего?)",
+                      "form": "veneeltä",
+                      "note": {
+                        "ru": "Tulen veneeltä. – Я иду от лодки."
+                      }
+                    },
+                    {
+                      "person": "MON NOM\n(ketkä? mitkä? / кто? какие?)",
+                      "form": "veneet",
+                      "note": {
+                        "ru": "Veneet ovat kauniita. – Лодки красивые."
+                      }
+                    }
+                  ]
+                }
+              ],
+              "important": {
+                "title": {
+                  "ru": "💡 Правило"
+                },
+                "body": {
+                  "ru": "Если финское слово оканчивается на **-e**, оно всегда e-санатyyppi."
+                }
+              },
+              "summary": {
+                "title": {
+                  "ru": "👉 Другие слова"
+                },
+                "body": {
+                  "ru": "perhe (семья), huone (комната), kappale (глава, кусок), lause (предложение), lentokone (самолёт), terve (здоровый), tuore (свежий), virhe (ошибка)..."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "✏️ Дополните слово правильным окончанием, чтобы поставить его в нужный падеж.\n\n📌 Подсказки:\n- Partitiivi (кого? что?) → venettä (добавляется -ttä).\n- Genetiivi (чей? чего?) → veneen (двойное ee + n).\n"
+            },
+            "items": [
+              {
+                "sentence": "(kuka? mikä? / кто? что?) Ven___ on uusi",
+                "answer": "e",
+                "translation": "Лодка новая.",
+                "feedbackCorrect": "✅ Верно! В именительном (NOM) форма остаётся без окончания: vene.",
+                "feedbackWrong": "❌ Ошибка. В именительном падеже слово не меняется: vene."
+              },
+              {
+                "sentence": "Ostan kaksi vene___. (ketä? mitä? / кого? что?)",
+                "answer": "ttä",
+                "translation": "Я покупаю две лодки.",
+                "feedbackCorrect": "✅ Отлично! В партитиве у e-слов прибавляется -ttä: venettä.",
+                "feedbackWrong": "❌ Неверно. Здесь нужен партитив (ketä? mitä?): venettä."
+              },
+              {
+                "sentence": "Vene___ väri on sininen. (kenen? minkä? / чей? чего?)",
+                "answer": "en",
+                "translation": "Цвет лодки синий.",
+                "feedbackCorrect": "✅ Молодец! В генитиве у e-слов появляется удвоенное ee + n: veneen.",
+                "feedbackWrong": "❌ Ошибка. В генитиве: veneen."
+              },
+              {
+                "sentence": "Menen vene___. (mihin? / куда?)",
+                "answer": "eseen",
+                "translation": "Я иду в лодку.",
+                "feedbackCorrect": "✅ Верно! В illatiivi у e-слов → eeseen: veneeseen.",
+                "feedbackWrong": "❌ Неправильно. Illatiivi (куда?) требует удвоенного e + seen: veneeseen."
+              },
+              {
+                "sentence": "Olen vene___. (missä? / где?)",
+                "answer": "essä",
+                "translation": "Я в лодке.",
+                "feedbackCorrect": "✅ Отлично! Inessiivi (где?) у e-слов образуется с -essä: veneessä.",
+                "feedbackWrong": "❌ Ошибка. Здесь inessiivi: veneessä."
+              },
+              {
+                "sentence": "Tulen vene___. (mistä? / откуда?)",
+                "answer": "estä",
+                "translation": "Я выхожу из лодки.",
+                "feedbackCorrect": "✅ Молодец! Elatiivi (откуда?) у e-слов с -estä: veneestä.",
+                "feedbackWrong": "❌ Неверно. В elatiivi: veneestä."
+              },
+              {
+                "sentence": "Menemme vene___. (mille? / на что? к чему?)",
+                "answer": "elle",
+                "translation": "Мы идём к лодке.",
+                "feedbackCorrect": "✅ Верно! Allatiivi (mille?) образуется с -elle: veneelle.",
+                "feedbackWrong": "❌ Ошибка. Здесь allatiivi: veneelle."
+              },
+              {
+                "sentence": "Olen vene___. (millä? / на чём? где?)",
+                "answer": "ellä",
+                "translation": "Я на лодке.",
+                "feedbackCorrect": "✅ Отлично! Adessiivi (millä?) образуется с -ellä: veneellä.",
+                "feedbackWrong": "❌ Неверно. В adessiivi: veneellä."
+              },
+              {
+                "sentence": "Tulen vene___. (miltä? / откуда? с чего?)",
+                "answer": "eltä",
+                "translation": "Я иду от лодки.",
+                "feedbackCorrect": "✅ Молодец! Ablatiivi (miltä?) у e-слов: veneeltä.",
+                "feedbackWrong": "❌ Ошибка. Здесь ablatiivi: veneeltä."
+              },
+              {
+                "sentence": "Vene___ ovat kauniita. (ketkä? mitkä? / кто? какие?)",
+                "answer": "et",
+                "translation": "Лодки красивые.",
+                "feedbackCorrect": "✅ Верно! Множественное число образуется добавлением -et: veneet.",
+                "feedbackWrong": "❌ Ошибка. В множественном числе: veneet."
+              }
+            ]
+          },
+          {
+            "id": "nen",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Слова, оканчивающиеся на -nen. Пример: valkoinen (белый)"
+              },
+              "conjugationTables": [
+                {
+                  "title": {
+                    "ru": "Пример: valkoinen (белый)"
+                  },
+                  "columns": [
+                    "Падеж",
+                    "Форма",
+                    "Пример + Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "person": "NOM\n(mikä? / какой?)",
+                      "form": "valkoinen",
+                      "note": {
+                        "ru": "Talo on valkoinen. – Дом белый."
+                      }
+                    },
+                    {
+                      "person": "PART\n(minkälaista? / какой? чего?)",
+                      "form": "valkoista",
+                      "note": {
+                        "ru": "Ostan valkoista maalia. – Покупаю белую краску."
+                      }
+                    },
+                    {
+                      "person": "GEN\n(minkä? / какого?)",
+                      "form": "valkoisen",
+                      "note": {
+                        "ru": "Näen valkoisen auton. – Я вижу белую машину."
+                      }
+                    },
+                    {
+                      "person": "ILL\n(mihin? / в какой?)",
+                      "form": "valkoiseen",
+                      "note": {
+                        "ru": "Menen valkoiseen huoneeseen. – Я иду в белую комнату."
+                      }
+                    },
+                    {
+                      "person": "INE\n(missä? / в каком?)",
+                      "form": "valkoisessa",
+                      "note": {
+                        "ru": "Olen valkoisessa talossa. – Я в белом доме."
+                      }
+                    },
+                    {
+                      "person": "ELA\n(mistä? / из какого?)",
+                      "form": "valkoisesta",
+                      "note": {
+                        "ru": "Tulen valkoisesta huoneesta. – Я выхожу из белой комнаты."
+                      }
+                    },
+                    {
+                      "person": "ALL\n(mille? / к какому?)",
+                      "form": "valkoiselle",
+                      "note": {
+                        "ru": "Menemme valkoiselle talolle. – Мы идём к белому дому."
+                      }
+                    },
+                    {
+                      "person": "ADE\n(millä? / на каком?)",
+                      "form": "valkoisella",
+                      "note": {
+                        "ru": "Seison valkoisella lattialla. – Я стою на белом полу."
+                      }
+                    },
+                    {
+                      "person": "ABL\n(miltä? / с какого?)",
+                      "form": "valkoiselta",
+                      "note": {
+                        "ru": "Tulen valkoiselta pöydältä. – Я иду от белого стола."
+                      }
+                    },
+                    {
+                      "person": "MON NOM\n(mitkä? / какие?)",
+                      "form": "valkoiset",
+                      "note": {
+                        "ru": "Valkoiset talot ovat kauniita. – Белые дома красивые."
+                      }
+                    }
+                  ]
+                }
+              ],
+              "important": {
+                "title": {
+                  "ru": "💡 Правило"
+                },
+                "body": {
+                  "ru": "Если слово оканчивается на **-nen**, оно всегда относится к nen-санатyyppi."
+                }
+              },
+              "summary": {
+                "title": {
+                  "ru": "👉 Другие слова"
+                },
+                "body": {
+                  "ru": "punainen (красный), englantilainen (англичанин), helsinkiläinen (житель Хельсинки), ihminen (человек), iloinen (радостный), toinen (другой), Korhonen (фамилия)..."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "✏️ Допишите правильное окончание для слов на **-nen** в разных падежах.\nПример: valkoinen → valkoise**ssa** (в белом)."
+            },
+            "items": [
+              {
+                "sentence": "Talo on valkoi___. (mikä?)",
+                "answer": "nen",
+                "translation": "Дом белый.",
+                "feedbackCorrect": "✅ Верно! Nominatiivi: valkoinen (без изменений).",
+                "feedbackWrong": "❌ Ошибка. В именительном падеже слово остаётся: valkoinen."
+              },
+              {
+                "sentence": "Kaksi valkoi___ taloa. (minkälaista?)",
+                "answer": "sta",
+                "translation": "Два белых дома.",
+                "feedbackCorrect": "✅ Отлично! Partitiivi: valkoinen → valkoista.",
+                "feedbackWrong": "❌ Нет. Здесь нужен partitiivi: valkoista."
+              },
+              {
+                "sentence": "Näen valkoi___ auto. (minkä?)",
+                "answer": "sen",
+                "translation": "Я вижу белую машину.",
+                "feedbackCorrect": "✅ Верно! Genetiivi: valkoinen → valkoisen.",
+                "feedbackWrong": "❌ Ошибка. Правильная форма: valkoisen."
+              },
+              {
+                "sentence": "Menen valkoi___ huoneeseen. (mihin?)",
+                "answer": "seen",
+                "translation": "Я иду в белую комнату.",
+                "feedbackCorrect": "✅ Отлично! Illatiivi: valkoinen → valkoiseen (удвоение e + n).",
+                "feedbackWrong": "❌ Неверно. В illatiivi нужно valkoiseen."
+              },
+              {
+                "sentence": "Olen valkoi___ talossa. (missä?)",
+                "answer": "sessa",
+                "translation": "Я в белом доме.",
+                "feedbackCorrect": "✅ Молодец! Inessiivi: valkoinen → valkoisessa.",
+                "feedbackWrong": "❌ Ошибка. Здесь должна быть форма valkoisessa."
+              },
+              {
+                "sentence": "Tulen valkoi___ huoneesta. (mistä?)",
+                "answer": "sesta",
+                "translation": "Я выхожу из белой комнаты.",
+                "feedbackCorrect": "✅ Верно! Elatiivi: valkoinen → valkoisesta.",
+                "feedbackWrong": "❌ Нет. Правильно valkoisesta."
+              },
+              {
+                "sentence": "Menemme valkoi___ talolle. (mille?)",
+                "answer": "selle",
+                "translation": "Мы идём к белому дому.",
+                "feedbackCorrect": "✅ Отлично! Allatiivi: valkoinen → valkoiselle.",
+                "feedbackWrong": "❌ Ошибка. Нужно valkoiselle."
+              },
+              {
+                "sentence": "Seison valkoi___ lattialla. (millä?)",
+                "answer": "sella",
+                "translation": "Я стою на белом полу.",
+                "feedbackCorrect": "✅ Верно! Adessiivi: valkoinen → valkoisella.",
+                "feedbackWrong": "❌ Нет. Правильно valkoisella."
+              },
+              {
+                "sentence": "Tulen valkoi___ terassilta. (miltä?)",
+                "answer": "selta",
+                "translation": "Я иду от белой террасы.",
+                "feedbackCorrect": "✅ Отлично! Ablatiivi: valkoinen → valkoiselta.",
+                "feedbackWrong": "❌ Ошибка. Здесь ablatiivi: valkoiselta."
+              },
+              {
+                "sentence": "___ talot ovat kauniita. (mitkä?)",
+                "answer": "Valkoiset",
+                "translation": "Белые дома красивые.",
+                "feedbackCorrect": "✅ Молодец! Monikko nominatiivi: valkoiset.",
+                "feedbackWrong": "❌ Неверно. Во множественном числе: valkoiset."
+              }
+            ]
+          },
+          {
+            "id": "i-i",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Слова, оканчивающиеся на -i. Пример: hotelli (отель)"
+              },
+              "conjugationTables": [
+                {
+                  "title": {
+                    "ru": "Пример: hotelli (отель)"
+                  },
+                  "columns": [
+                    "Падеж",
+                    "Форма",
+                    "Пример + Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "person": "NOM\n(mikä? / что?)",
+                      "form": "hotelli",
+                      "note": {
+                        "ru": "Hotelli on uusi. – Отель новый."
+                      }
+                    },
+                    {
+                      "person": "PART\n(mitä? / чего?)",
+                      "form": "hotellia",
+                      "note": {
+                        "ru": "Siellä on kaksi hotellia. – Там есть два отеля."
+                      }
+                    },
+                    {
+                      "person": "GEN\n(minkä? / чего?)",
+                      "form": "hotellin",
+                      "note": {
+                        "ru": "Hotellin huone. – Комната отеля."
+                      }
+                    },
+                    {
+                      "person": "ILL\n(mihin? / куда?)",
+                      "form": "hotelliin",
+                      "note": {
+                        "ru": "Menen hotelliin. – Я иду в отель."
+                      }
+                    },
+                    {
+                      "person": "INE\n(missä? / где?)",
+                      "form": "hotellissa",
+                      "note": {
+                        "ru": "Olen hotellissa. – Я в отеле."
+                      }
+                    },
+                    {
+                      "person": "ELA\n(mistä? / откуда?)",
+                      "form": "hotellista",
+                      "note": {
+                        "ru": "Tulen hotellista. – Я выхожу из отеля."
+                      }
+                    },
+                    {
+                      "person": "ALL\n(mille? / к чему?)",
+                      "form": "hotellille",
+                      "note": {
+                        "ru": "Menemme hotellille. – Мы идём к отелю."
+                      }
+                    },
+                    {
+                      "person": "ADE\n(millä? / где? на чём?)",
+                      "form": "hotellilla",
+                      "note": {
+                        "ru": "Odotan hotellilla. – Я жду у отеля."
+                      }
+                    },
+                    {
+                      "person": "ABL\n(miltä? / откуда? с чего?)",
+                      "form": "hotellilta",
+                      "note": {
+                        "ru": "Tulen hotellilta. – Я иду от отеля."
+                      }
+                    },
+                    {
+                      "person": "MON NOM\n(mitkä? / какие?)",
+                      "form": "hotellit",
+                      "note": {
+                        "ru": "Hotellit ovat kalliita. – Отели дорогие."
+                      }
+                    }
+                  ]
+                }
+              ],
+              "important": {
+                "title": {
+                  "ru": "💡 Правило"
+                },
+                "body": {
+                  "ru": "У слов на **-i** (иностранного происхождения и часть финских слов) в форме основа сохраняет **-i**, например hotelli → hotellin, hotellissa."
+                }
+              },
+              "summary": {
+                "title": {
+                  "ru": "👉 Другие слова"
+                },
+                "body": {
+                  "ru": "koti (дом), kaupunki (город), tori (рынок), posti (почта), pankki (банк), turisti (турист), kahvi (кофе), orkesteri (оркестр), Ruotsi (Швеция), paperi (бумага)...\n\n⚠️ **Заметь:** У части слов встречается k-p-t чередование: esim. pankki → pankin (банка), pankissa (в банке)..."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "🏨 Допишите правильное окончание для слова **hotelli** в разных падежах.\nПример: hotelli → hotell**issa** (в отеле)."
+            },
+            "items": [
+              {
+                "sentence": "Hotell__ on uusi.",
+                "answer": "i",
+                "translation": "Отель новый.",
+                "feedbackCorrect": "✅ Верно! NOM — hotelli (основа + -i).",
+                "feedbackWrong": "❌ Ошибка. В именительном числе просто hotelli."
+              },
+              {
+                "sentence": "Siellä on kaksi hotelli__.",
+                "answer": "a",
+                "translation": "Там есть два отеля.",
+                "feedbackCorrect": "✅ Отлично! PART — hotellia (после числительных, кроме yksi → партитив).",
+                "feedbackWrong": "❌ Неверно. Нужно hotellia (партитив)."
+              },
+              {
+                "sentence": "Hotelli__ huone on iso.",
+                "answer": "n",
+                "translation": "Комната отеля большая.",
+                "feedbackCorrect": "✅ Правильно! GEN — hotellin (окончание -in).",
+                "feedbackWrong": "❌ Ошибка. Нужно hotellin."
+              },
+              {
+                "sentence": "Menen hotelli__.",
+                "answer": "in",
+                "translation": "Я иду в отель.",
+                "feedbackCorrect": "✅ Верно! ILL — hotelliin (куда? → illatiivi, удвоение гласной).",
+                "feedbackWrong": "❌ Ошибка. Здесь hotelliin."
+              },
+              {
+                "sentence": "Olen hotelli__.",
+                "answer": "ssa",
+                "translation": "Я в отеле.",
+                "feedbackCorrect": "✅ Отлично! INE — hotellissa (где? → inessiivi).",
+                "feedbackWrong": "❌ Неверно. Нужно hotellissa."
+              },
+              {
+                "sentence": "Tulen hotelli__.",
+                "answer": "sta",
+                "translation": "Я выхожу из отеля.",
+                "feedbackCorrect": "✅ Верно! ELA — hotellista (откуда? → elatiivi).",
+                "feedbackWrong": "❌ Ошибка. Нужно hotellista."
+              },
+              {
+                "sentence": "Menemme hotelli__.",
+                "answer": "lle",
+                "translation": "Мы идём к отелю.",
+                "feedbackCorrect": "✅ Отлично! ALL — hotellille (куда? → allatiivi).",
+                "feedbackWrong": "❌ Нет. Нужно hotellille."
+              },
+              {
+                "sentence": "Odotan hotelli__.",
+                "answer": "lla",
+                "translation": "Я жду у отеля.",
+                "feedbackCorrect": "✅ Верно! ADE — hotellilla (где? → adessiivi).",
+                "feedbackWrong": "❌ Ошибка. Нужно hotellilla."
+              },
+              {
+                "sentence": "Tulen hotelli__.",
+                "answer": "lta",
+                "translation": "Я иду от отеля.",
+                "feedbackCorrect": "✅ Отлично! ABL — hotellilta (откуда? → ablatiivi).",
+                "feedbackWrong": "❌ Неверно. Нужно hotellilta."
+              },
+              {
+                "sentence": "Hotellit ovat kalliita.",
+                "answer": "t",
+                "translation": "Отели дорогие.",
+                "feedbackCorrect": "✅ Верно! MON NOM — hotellit (множественное число).",
+                "feedbackWrong": "❌ Ошибка. Нужно hotellit."
+              }
+            ]
+          },
+          {
+            "id": "i-e_1",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Слова, оканчивающиеся на -i. Тип слов: i → e (суффикс меняется на -e-)"
+              },
+              "conjugationTables": [
+                {
+                  "title": {
+                    "ru": "Пример: suuri (большой)"
+                  },
+                  "columns": [
+                    "Падеж",
+                    "Форма",
+                    "Пример + Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "person": "NOM\n(mikä? / какой?)",
+                      "form": "suuri",
+                      "note": {
+                        "ru": "Talo on suuri. – Дом большой."
+                      }
+                    },
+                    {
+                      "person": "PART\n(mitä? / чего?)",
+                      "form": "suurta",
+                      "note": {
+                        "ru": "Rakennan suurta taloa. – Я строю большой дом."
+                      }
+                    },
+                    {
+                      "person": "GEN\n(minkä? / какого? чего? чей?)",
+                      "form": "suuren",
+                      "note": {
+                        "ru": "Suuren juhlan tapahtuma – Событие большого праздника"
+                      }
+                    },
+                    {
+                      "person": "ILL\n(mihin? / куда?)",
+                      "form": "suureen",
+                      "note": {
+                        "ru": "Menen suureen huoneeseen. – Я иду в большую комнату."
+                      }
+                    },
+                    {
+                      "person": "INE\n(missä? / где?)",
+                      "form": "suuressa",
+                      "note": {
+                        "ru": "Olen suuressa kaupungissa. – Я в большом городе."
+                      }
+                    },
+                    {
+                      "person": "ELA\n(mistä? / откуда?)",
+                      "form": "suuresta",
+                      "note": {
+                        "ru": "Tulen suuresta koulusta. – Я выхожу из большой школы."
+                      }
+                    },
+                    {
+                      "person": "ALL\n(mille? / к чему?)",
+                      "form": "suurelle",
+                      "note": {
+                        "ru": "Menemme suurelle torille. – Мы идём на большую площадь."
+                      }
+                    },
+                    {
+                      "person": "ADE\n(millä? / на чём? где?)",
+                      "form": "suurella",
+                      "note": {
+                        "ru": "Seison suurella sillalla. – Я стою на большом мосту."
+                      }
+                    },
+                    {
+                      "person": "ABL\n(miltä? / откуда?)",
+                      "form": "suurelta",
+                      "note": {
+                        "ru": "Tulen suurelta pihalta. – Я иду с большого двора."
+                      }
+                    },
+                    {
+                      "person": "MON NOM\n(mitkä? / какие?)",
+                      "form": "suuret",
+                      "note": {
+                        "ru": "Suuret talot ovat kauniita. – Большие дома красивые."
+                      }
+                    }
+                  ]
+                }
+              ],
+              "important": {
+                "title": {
+                  "ru": "💡 Правило"
+                },
+                "body": {
+                  "ru": "Если слово оканчивается на **-i**, оно может относиться к разным типам. У этой группы в косвенных формах **-i → -e** (например: suuri → suuren, suuressa). Это нужно запомнить."
+                }
+              },
+              "summary": {
+                "title": {
+                  "ru": "👉 Другие слова"
+                },
+                "body": {
+                  "ru": "kieli (язык), meri (море), nuori (молодой), pieni (маленький), saari (остров), vuori (гора)..."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "✏️ Допишите правильное окончание для слова, которое оканчивается на -i (тип i → e). \n\n📌 Правило: \n- В падежах и во множественном числе **-i меняется на -e**, затем добавляется нужное окончание.  \n\nПример: suuri → suuren (GEN), suureen (ILL), suuret (MON NOM)."
+            },
+            "items": [
+              {
+                "sentence": "Talo on suur___. (mikä?)",
+                "answer": "i",
+                "translation": "Дом большой.",
+                "feedbackCorrect": "✅ Верно! NOM: suuri → talo on suuri.",
+                "feedbackWrong": "❌ Ошибка. В именительном падеже форма без изменений: suuri."
+              },
+              {
+                "sentence": "Rakennan suur___ taloa. (mitä?)",
+                "answer": "ta",
+                "translation": "Я строю большой дом.",
+                "feedbackCorrect": "✅ Отлично! PART: suuri → suurta (меняется i → e перед t).",
+                "feedbackWrong": "❌ Нет. В партитиве i → e + ta: suurta."
+              },
+              {
+                "sentence": "Näen suur___ auton. (minkä?)",
+                "answer": "en",
+                "translation": "Я вижу большую машину.",
+                "feedbackCorrect": "✅ Молодец! GEN: suuri → suuren (i → e + n).",
+                "feedbackWrong": "❌ Ошибка. В генетиве i → e: suuren."
+              },
+              {
+                "sentence": "Menen suur___ huoneeseen. (mihin?)",
+                "answer": "een",
+                "translation": "Я иду в большую комнату.",
+                "feedbackCorrect": "✅ Верно! ILL: suuri → suureen (i → e + en).",
+                "feedbackWrong": "❌ Ошибка. В illatiivi форма suureen."
+              },
+              {
+                "sentence": "Olen suur___ kaupungissa. (missä?)",
+                "answer": "essa",
+                "translation": "Я в большом городе.",
+                "feedbackCorrect": "✅ Отлично! INE: suuri → suuressa (i → e + ssa).",
+                "feedbackWrong": "❌ Нет. В inessiivi правильная форма suuressa."
+              },
+              {
+                "sentence": "Tulen suur___ koulusta. (mistä?)",
+                "answer": "esta",
+                "translation": "Я выхожу из большой школы.",
+                "feedbackCorrect": "✅ Верно! ELA: suuri → suuresta (i → e + sta).",
+                "feedbackWrong": "❌ Ошибка. В elatiivi i → e: suuresta."
+              },
+              {
+                "sentence": "Menemme suur___ torille. (mille?)",
+                "answer": "elle",
+                "translation": "Мы идём на большую площадь.",
+                "feedbackCorrect": "✅ Молодец! ALL: suuri → suurelle (i → e + lle).",
+                "feedbackWrong": "❌ Ошибка. В allatiivi правильная форма suurelle."
+              },
+              {
+                "sentence": "Seison suur___ sillalla. (millä?)",
+                "answer": "ella",
+                "translation": "Я стою на большом мосту.",
+                "feedbackCorrect": "✅ Отлично! ADE: suuri → suurella (i → e + lla).",
+                "feedbackWrong": "❌ Нет. В adessiivi используется suurella."
+              },
+              {
+                "sentence": "Tulen suur___ pihalta. (miltä?)",
+                "answer": "elta",
+                "translation": "Я иду с большого двора.",
+                "feedbackCorrect": "✅ Верно! ABL: suuri → suurelta (i → e + lta).",
+                "feedbackWrong": "❌ Ошибка. В ablatiivi правильная форма suurelta."
+              },
+              {
+                "sentence": "Suur___ talot ovat kauniita. (mitkä?)",
+                "answer": "et",
+                "translation": "Большие дома красивые.",
+                "feedbackCorrect": "✅ Молодец! MON NOM: suuri → suuret (i → e + t).",
+                "feedbackWrong": "❌ Ошибка. Во множественном числе i → e: suuret."
+              }
+            ]
+          },
+          {
+            "id": "i-e_2",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Слова, оканчивающиеся на -i. Тип слов: i → e (вариант 2, пример: nimi – имя)"
+              },
+              "conjugationTables": [
+                {
+                  "title": {
+                    "ru": "Пример: nimi (имя)"
+                  },
+                  "columns": [
+                    "Падеж",
+                    "Форма",
+                    "Пример + Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "person": "NOM\n(mikä? / что?)",
+                      "form": "nimi",
+                      "note": {
+                        "ru": "Nimi on kaunis. – Имя красивое."
+                      }
+                    },
+                    {
+                      "person": "PART\n(mitä? / чего?)",
+                      "form": "nimeä",
+                      "note": {
+                        "ru": "Kirjoitan nimeä. – Я пишу имя."
+                      }
+                    },
+                    {
+                      "person": "GEN\n(minkä? / чего?)",
+                      "form": "nimen",
+                      "note": {
+                        "ru": "Nimen alku on A. – Начало имени — A."
+                      }
+                    },
+                    {
+                      "person": "ILL\n(mihin? / куда?)",
+                      "form": "nimeen",
+                      "note": {
+                        "ru": "Lisään sen nimeen. – Я добавляю это в имя."
+                      }
+                    },
+                    {
+                      "person": "INE\n(missä? / где?)",
+                      "form": "nimessä",
+                      "note": {
+                        "ru": "Se on nimessä. – Это в имени."
+                      }
+                    },
+                    {
+                      "person": "ELA\n(mistä? / откуда?)",
+                      "form": "nimestä",
+                      "note": {
+                        "ru": "Luen sen nimestä. – Я читаю это из имени."
+                      }
+                    },
+                    {
+                      "person": "ALL\n(mille? / к чему?)",
+                      "form": "nimelle",
+                      "note": {
+                        "ru": "Kirjoitan nimelle Anna kortin. – Я пишу открытку на имя Анна."
+                      }
+                    },
+                    {
+                      "person": "ADE\n(millä? / чем?)",
+                      "form": "nimellä",
+                      "note": {
+                        "ru": "Allekirjoitan nimelläni. – Я подписываюсь своим именем."
+                      }
+                    },
+                    {
+                      "person": "ABL\n(miltä? / откуда? с чего?)",
+                      "form": "nimeltä",
+                      "note": {
+                        "ru": "Tunnen hänet nimeltä. – Я знаю его по имени."
+                      }
+                    },
+                    {
+                      "person": "MON NOM\n(mitkä? / какие?)",
+                      "form": "nimet",
+                      "note": {
+                        "ru": "Nimet ovat pitkiä. – Имена длинные."
+                      }
+                    }
+                  ]
+                }
+              ],
+              "summary": {
+                "title": {
+                  "ru": "👉 Другие слова"
+                },
+                "body": {
+                  "ru": "järvi (озеро), onni (счастье), talvi (зима), tähti (звезда), joki (река), mäki (холм)...\n\n⚠️ **Заметь:** У некоторых слов действует k-p-t чередование: esim. lehti (лист) → lehden (листа), lehdessä (в листе), lehdet (листы)."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "✏️ Допишите правильное окончание для слова, которое оканчивается на -i (тип i → e  (вариант 2, пример: nimi – имя))."
+            },
+            "items": [
+              {
+                "sentence": "___ on kaunis. (nimi, NOM)",
+                "answer": "Nimi",
+                "translation": "Имя красивое.",
+                "feedbackCorrect": "✅ Верно! В форме NOM слово остаётся без изменений: nimi.",
+                "feedbackWrong": "❌ Ошибка. В именительном падеже (NOM) пишем просто nimi."
+              },
+              {
+                "sentence": "Kirjoitan nim___. (PART)",
+                "answer": "eä",
+                "translation": "Я пишу имя.",
+                "feedbackCorrect": "✅ Отлично! В PART i → e + ä: nimeä.",
+                "feedbackWrong": "❌ Неверно. В партитиве: nimeä."
+              },
+              {
+                "sentence": "Nim__ alku on A. (GEN)",
+                "answer": "en",
+                "translation": "Начало имени — A.",
+                "feedbackCorrect": "✅ Правильно! В GEN i → e + n: nimen.",
+                "feedbackWrong": "❌ Ошибка. Правильная форма: nimen."
+              },
+              {
+                "sentence": "Lisään sen nim___. (ILL)",
+                "answer": "een",
+                "translation": "Я добавляю это в имя.",
+                "feedbackCorrect": "✅ Молодец! В ILL i → e + en: nimeen.",
+                "feedbackWrong": "❌ Ошибка. В illatiivi правильно: nimeen."
+              },
+              {
+                "sentence": "Se on nim___. (INE)",
+                "answer": "essä",
+                "translation": "Это в имени.",
+                "feedbackCorrect": "✅ Верно! В INE i → e + ssa: nimessä.",
+                "feedbackWrong": "❌ Нет. Нужно nimessä."
+              },
+              {
+                "sentence": "Luen sen nim___. (ELA)",
+                "answer": "estä",
+                "translation": "Я читаю это из имени.",
+                "feedbackCorrect": "✅ Отлично! В ELA i → e + sta: nimestä.",
+                "feedbackWrong": "❌ Ошибка. Правильная форма: nimestä."
+              },
+              {
+                "sentence": "Kirjoitan nim___. (ALL)",
+                "answer": "elle",
+                "translation": "Я пишу на имя (Анна открытку).",
+                "feedbackCorrect": "✅ Молодец! В ALL i → e + lle: nimelle.",
+                "feedbackWrong": "❌ Нет. Здесь правильно: nimelle."
+              },
+              {
+                "sentence": "Allekirjoitan nim___. (ADE)",
+                "answer": "ellä",
+                "translation": "Я подписываюсь своим именем.",
+                "feedbackCorrect": "✅ Верно! В ADE i → e + llä: nimellä.",
+                "feedbackWrong": "❌ Ошибка. Нужно nimellä."
+              },
+              {
+                "sentence": "Tunnen hänet nim___. (ABL)",
+                "answer": "eltä",
+                "translation": "Я знаю его по имени.",
+                "feedbackCorrect": "✅ Отлично! В ABL i → e + ltä: nimeltä.",
+                "feedbackWrong": "❌ Ошибка. Правильная форма: nimeltä."
+              },
+              {
+                "sentence": "___ ovat pitkiä. (MON NOM)",
+                "answer": "Nimet",
+                "translation": "Имена длинные.",
+                "feedbackCorrect": "✅ Верно! В MON NOM i → e + t: nimet.",
+                "feedbackWrong": "❌ Нет. Правильная форма: nimet."
+              }
+            ]
+          },
+          {
+            "id": "si",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Слова, оканчивающиеся на -si (пример: uusi – новый)"
+              },
+              "conjugationTables": [
+                {
+                  "title": {
+                    "ru": "Пример: uusi (новый)"
+                  },
+                  "columns": [
+                    "Падеж",
+                    "Форма",
+                    "Пример + Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "person": "NOM\n(mikä? / какой?)",
+                      "form": "uusi",
+                      "note": {
+                        "ru": "Talo on uusi. – Дом новый."
+                      }
+                    },
+                    {
+                      "person": "PART\n(mitä? / чего?)",
+                      "form": "uutta",
+                      "note": {
+                        "ru": "Tarvitsen kaksi uutta takkia. – Мне нужны две новые куртки."
+                      }
+                    },
+                    {
+                      "person": "GEN\n(minkä? / какого?)",
+                      "form": "uuden",
+                      "note": {
+                        "ru": "Uuden talon ikkuna on iso. – Окно нового дома большое."
+                      }
+                    },
+                    {
+                      "person": "ILL\n(mihin? / куда?)",
+                      "form": "uuteen",
+                      "note": {
+                        "ru": "Menen uuteen kouluun. – Я иду в новую школу."
+                      }
+                    },
+                    {
+                      "person": "INE\n(missä? / где?)",
+                      "form": "uudessa",
+                      "note": {
+                        "ru": "Olen uudessa huoneessa. – Я в новой комнате."
+                      }
+                    },
+                    {
+                      "person": "ELA\n(mistä? / из чего?)",
+                      "form": "uudesta",
+                      "note": {
+                        "ru": "Tulen uudesta talosta. – Я выхожу из нового дома."
+                      }
+                    },
+                    {
+                      "person": "ALL\n(mille? / к чему?)",
+                      "form": "uudelle",
+                      "note": {
+                        "ru": "Menemme uudelle torille. – Мы идём на новую площадь."
+                      }
+                    },
+                    {
+                      "person": "ADE\n(millä? / на чём?)",
+                      "form": "uudella",
+                      "note": {
+                        "ru": "Odotan uudella asemalla. – Я жду на новом вокзале."
+                      }
+                    },
+                    {
+                      "person": "ABL\n(miltä? / откуда?)",
+                      "form": "uudelta",
+                      "note": {
+                        "ru": "Tulen uudelta sillalta. – Я иду с нового моста."
+                      }
+                    },
+                    {
+                      "person": "MON NOM\n(mitkä? / какие?)",
+                      "form": "uudet",
+                      "note": {
+                        "ru": "Uudet kirjat ovat kiinnostavia. – Новые книги интересные."
+                      }
+                    }
+                  ]
+                }
+              ],
+              "important": {
+                "title": {
+                  "ru": "💡 Правило"
+                },
+                "body": {
+                  "ru": "В словах на **-si** при склонении **-si → -de-** (uusi → uuden, uudessa). Это особенность данного типа слов."
+                }
+              },
+              "summary": {
+                "title": {
+                  "ru": "👉 Другие слова"
+                },
+                "body": {
+                  "ru": "vuosi (год), kuukausi (месяц), käsi (рука), vesi (вода), susi (волк), viisi (пять), kuusi (шесть / ель)..."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "✏️ Допишите правильное окончание для слов на -si.\n📌 В падежах -si меняется на -de- + окончание.\nПример: uusi → uuden, uudessa, uudet."
+            },
+            "items": [
+              {
+                "sentence": "Talo on uu___. (NOM)",
+                "answer": "si",
+                "translation": "Дом новый.",
+                "feedbackCorrect": "✅ Верно! В именительном падеже слово остаётся без изменений: uusi.",
+                "feedbackWrong": "❌ Ошибка. NOM остаётся как в словаре: uusi."
+              },
+              {
+                "sentence": "Tarvitsen kaksi uu___. (PART)",
+                "answer": "tta",
+                "translation": "Мне нужны две новые куртки.",
+                "feedbackCorrect": "✅ Отлично! PART: uusi → uutta.",
+                "feedbackWrong": "❌ Неверно. В партитиве окончание -tta: uutta."
+              },
+              {
+                "sentence": "___ talon ikkuna on iso. (GEN)",
+                "answer": "uuden",
+                "translation": "Окно нового дома большое.",
+                "feedbackCorrect": "✅ Верно! GEN: uusi → uuden.",
+                "feedbackWrong": "❌ Ошибка. Здесь нужна форма GEN: uuden."
+              },
+              {
+                "sentence": "Menen uu___. (ILL)",
+                "answer": "teen",
+                "translation": "Я иду в новую школу.",
+                "feedbackCorrect": "✅ Молодец! ILL: uusi → uuteen.",
+                "feedbackWrong": "❌ Неверно. В illatiivi: uuteen."
+              },
+              {
+                "sentence": "Olen uu___. (INE)",
+                "answer": "dessa",
+                "translation": "Я в новой комнате.",
+                "feedbackCorrect": "✅ Отлично! INE: uusi → uudessa.",
+                "feedbackWrong": "❌ Ошибка. Нужно uudessa."
+              },
+              {
+                "sentence": "Tulen uu___. (ELA)",
+                "answer": "desta",
+                "translation": "Я выхожу из нового дома.",
+                "feedbackCorrect": "✅ Верно! ELA: uusi → uudesta.",
+                "feedbackWrong": "❌ Нет. Здесь окончание -desta: uudesta."
+              },
+              {
+                "sentence": "Menemme uu___. (ALL)",
+                "answer": "delle",
+                "translation": "Мы идём на новую площадь.",
+                "feedbackCorrect": "✅ Отлично! ALL: uusi → uudelle.",
+                "feedbackWrong": "❌ Ошибка. ALL образуется как uudelle."
+              },
+              {
+                "sentence": "Odotan uu___. (ADE)",
+                "answer": "della",
+                "translation": "Я жду на новом вокзале.",
+                "feedbackCorrect": "✅ Верно! ADE: uusi → uudella.",
+                "feedbackWrong": "❌ Неверно. Нужно uudella."
+              },
+              {
+                "sentence": "Tulen uu___. (ABL)",
+                "answer": "delta",
+                "translation": "Я иду с нового моста.",
+                "feedbackCorrect": "✅ Отлично! ABL: uusi → uudelta.",
+                "feedbackWrong": "❌ Ошибка. Здесь окончание -delta: uudelta."
+              },
+              {
+                "sentence": "Uu___ kirjat ovat kiinnostavia. (MON NOM)",
+                "answer": "det",
+                "translation": "Новые книги интересные.",
+                "feedbackCorrect": "✅ Верно! MON NOM: uusi → uudet.",
+                "feedbackWrong": "❌ Неверно. Здесь правильная форма uudet."
+              }
+            ]
+          },
+          {
+            "id": "kpt",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "📘 K-p-t-vaihtelu (чередование согласных)"
+              },
+              "intro": {
+                "ru": "В финском языке в некоторых словах согласные **k, p, t** изменяются в зависимости от падежа. Это называется **чередование согласных**. У слова есть **сильная основа (vahva)** и **слабая основа (heikko)**.\n\n**Где используется сильная форма?** → в **номинативе** (основная форма), **партитиве** и **иллативе**.\n\n**Где используется слабая форма?** → во всех других падежах (генетив, инессив, элатив, адессив и т.д.).\n\n**Пример:** kauppa (магазин)"
+              },
+              "conjugationTables": [
+                {
+                  "title": {
+                    "ru": "Пример: kauppa (магазин)"
+                  },
+                  "columns": [
+                    "Падеж",
+                    "Форма",
+                    "Пример + Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "person": "NOM\n(mikä? / что?)",
+                      "form": "kauppa",
+                      "note": {
+                        "ru": "Kauppa on iso. – Магазин большой."
+                      }
+                    },
+                    {
+                      "person": "PART\n(mitä? / чего?)",
+                      "form": "kauppaa",
+                      "note": {
+                        "ru": "Rakastan kauppaa. – Я люблю магазин."
+                      }
+                    },
+                    {
+                      "person": "GEN\n(minkä? / чей?)",
+                      "form": "kaupan",
+                      "note": {
+                        "ru": "Kaupan tuote on hyvä. – Товар магазина хороший."
+                      }
+                    },
+                    {
+                      "person": "ILL\n(mihin? / куда?)",
+                      "form": "kauppaan",
+                      "note": {
+                        "ru": "Menen kauppaan. – Я иду в магазин."
+                      }
+                    },
+                    {
+                      "person": "INE\n(missä? / где?)",
+                      "form": "kaupassa",
+                      "note": {
+                        "ru": "Olen kaupassa. – Я в магазине."
+                      }
+                    },
+                    {
+                      "person": "ELA\n(mistä? / откуда?)",
+                      "form": "kaupasta",
+                      "note": {
+                        "ru": "Tulen kaupasta. – Я иду из магазина."
+                      }
+                    },
+                    {
+                      "person": "ALL\n(mille? / к чему?)",
+                      "form": "kaupalle",
+                      "note": {
+                        "ru": "Menemme kaupalle. – Мы идём к магазину."
+                      }
+                    },
+                    {
+                      "person": "ADE\n(millä? / где?)",
+                      "form": "kaupalla",
+                      "note": {
+                        "ru": "Odotan kaupalla. – Я жду у магазина."
+                      }
+                    },
+                    {
+                      "person": "ABL\n(miltä? / откуда?)",
+                      "form": "kaupalta",
+                      "note": {
+                        "ru": "Tulen kaupalta. – Я иду от магазина."
+                      }
+                    },
+                    {
+                      "person": "MON NOM\n(mitkä? / какие?)",
+                      "form": "kaupat",
+                      "note": {
+                        "ru": "Kaupat ovat kalliita. – Магазины дорогие."
+                      }
+                    }
+                  ]
+                },
+                {
+                  "title": {
+                    "ru": "🔄 Сильная (vahva) ↔ Слабая (heikko)"
+                  },
+                  "columns": [
+                    "Сильная",
+                    "Слабая"
+                  ],
+                  "rows": [
+                    {
+                      "form": "kk",
+                      "ending": "k"
+                    },
+                    {
+                      "form": "pp",
+                      "ending": "p"
+                    },
+                    {
+                      "form": "tt",
+                      "ending": "t"
+                    },
+                    {
+                      "form": "k",
+                      "ending": "∅ (исчезает)"
+                    },
+                    {
+                      "form": "p",
+                      "ending": "v"
+                    },
+                    {
+                      "form": "t",
+                      "ending": "d"
+                    },
+                    {
+                      "form": "nk",
+                      "ending": "ng"
+                    },
+                    {
+                      "form": "mp",
+                      "ending": "mm"
+                    },
+                    {
+                      "form": "nt",
+                      "ending": "nn"
+                    },
+                    {
+                      "form": "lt",
+                      "ending": "ll"
+                    },
+                    {
+                      "form": "rt",
+                      "ending": "rr"
+                    }
+                  ]
+                }
+              ],
+              "important": {
+                "title": {
+                  "ru": "💡 Правило"
+                },
+                "body": {
+                  "ru": "В **номинативе**, **партитиве** и **иллативе** используется **сильная форма (vahva)**.\n\nВ других падежах → **слабая форма (heikko)**."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "✏️ Допишите пропущенную согласную (pp или p) в слове.\n📌 Сильная форма (pp) используется в NOM, PART, ILL, MON NOM. \n📌 Слабая форма (p) — во всех других падежах."
+            },
+            "items": [
+              {
+                "sentence": "kau___a on iso. (NOM, mikä?)",
+                "answer": "pp",
+                "translation": "Магазин большой.",
+                "feedbackCorrect": "✅ Верно! В номинативе используется сильная форма → kauppa.",
+                "feedbackWrong": "❌ Ошибка. В NOM всегда сильная форма: kauppa."
+              },
+              {
+                "sentence": "Kaksi kau___aa. (PART, mitä?)",
+                "answer": "pp",
+                "translation": "Два магазина.",
+                "feedbackCorrect": "✅ Отлично! В партитиве сохраняется сильная форма → kauppaa.",
+                "feedbackWrong": "❌ Неверно. В PART тоже сильная форма: kauppaa."
+              },
+              {
+                "sentence": "Tuote on kau___n. (GEN, minkä?)",
+                "answer": "p",
+                "translation": "Товар магазина хороший.",
+                "feedbackCorrect": "✅ Молодец! В генетиве слабая форма → kaupan.",
+                "feedbackWrong": "❌ Ошибка. В GEN слабая форма: kaupan."
+              },
+              {
+                "sentence": "Menen kau___aan. (ILL, mihin?)",
+                "answer": "pp",
+                "translation": "Я иду в магазин.",
+                "feedbackCorrect": "✅ Верно! В иллати́ви используется сильная форма → kauppaan.",
+                "feedbackWrong": "❌ Неверно. В ILL сильная форма: kauppaan."
+              },
+              {
+                "sentence": "Olen kau___assa. (INE, missä?)",
+                "answer": "p",
+                "translation": "Я в магазине.",
+                "feedbackCorrect": "✅ Отлично! В инесси́ви слабая форма → kaupassa.",
+                "feedbackWrong": "❌ Ошибка. В INE слабая форма: kaupassa."
+              },
+              {
+                "sentence": "Tulen kau___asta. (ELA, mistä?)",
+                "answer": "p",
+                "translation": "Я иду из магазина.",
+                "feedbackCorrect": "✅ Молодец! В элати́ви слабая форма → kaupasta.",
+                "feedbackWrong": "❌ Нет. В ELA слабая форма: kaupasta."
+              },
+              {
+                "sentence": "Menemme kau___alle. (ALL, mille?)",
+                "answer": "p",
+                "translation": "Мы идём к магазину.",
+                "feedbackCorrect": "✅ Верно! В аллати́ви слабая форма → kaupalle.",
+                "feedbackWrong": "❌ Ошибка. В ALL слабая форма: kaupalle."
+              },
+              {
+                "sentence": "Odotan kau___alla. (ADE, millä?)",
+                "answer": "p",
+                "translation": "Я жду у магазина.",
+                "feedbackCorrect": "✅ Отлично! В адесси́ви слабая форма → kaupalla.",
+                "feedbackWrong": "❌ Неверно. В ADE слабая форма: kaupalla."
+              },
+              {
+                "sentence": "Tulen kau___lta. (ABL, miltä?)",
+                "answer": "p",
+                "translation": "Я иду от магазина.",
+                "feedbackCorrect": "✅ Молодец! В аблати́ви слабая форма → kaupalta.",
+                "feedbackWrong": "❌ Ошибка. В ABL слабая форма: kaupalta."
+              },
+              {
+                "sentence": "Kau___at ovat kalliita. (MON NOM, mitkä?)",
+                "answer": "p",
+                "translation": "Магазины дорогие.",
+                "feedbackCorrect": "✅ Верно! В множественном числе снова слабая форма → kaupat.",
+                "feedbackWrong": "❌ Ошибка. В MON NOM слабая форма: kaupat."
+              }
+            ]
+          },
+          {
+            "id": "ex-e-sanatyypit-kaikki-padezhit",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "📘 Выберите правильную форму слова на -e в указанном падеже."
+            },
+            "questions": [
+              {
+                "question": "ADE: Mies ajaa ___ . (vene)",
+                "options": [
+                  "veneen",
+                  "vene",
+                  "veneellä"
+                ],
+                "answer": 2
+              },
+              {
+                "question": "PART: Ostan ___ . (vene)",
+                "options": [
+                  "venettä",
+                  "veneellä",
+                  "veneen"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Hän nostaa sen  ___ (vene)",
+                "options": [
+                  "veneen",
+                  "veneessä",
+                  "veneestä"
+                ],
+                "answer": 2
+              },
+              {
+                "question": "Mennään ___! (vene)",
+                "options": [
+                  "veneellä",
+                  "veneeseen",
+                  "veneen"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Kala on ___ . (vene)",
+                "options": [
+                  "veneessä",
+                  "veneestä",
+                  "veneen"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Hän hyppää pois ___ . (vene)",
+                "options": [
+                  "venettä",
+                  "veneestä",
+                  "veneen"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Tämä kuuluu ___ . (perhe)",
+                "options": [
+                  "perheelle",
+                  "perheestä",
+                  "perheessä"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Asun ___ kanssa. (perhe)",
+                "options": [
+                  "perheellä",
+                  "perheen",
+                  "perheestä"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Hän saa lahjan ___ . (perhe)",
+                "options": [
+                  "perheeltä",
+                  "perheellä",
+                  "perheeseen"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Asunnossa on kolme ___ . (huone)",
+                "options": [
+                  "huoneessa",
+                  "huoneen",
+                  "huoneetta"
+                ],
+                "answer": 2
+              },
+              {
+                "question": "Tämä on ___ . (virhe)",
+                "options": [
+                  "virhe",
+                  "virheen",
+                  "virheestä"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Näen vain osan ___ . (huone)",
+                "options": [
+                  "huonetta",
+                  "huoneen",
+                  "huoneessa"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "He tulevat juuri ___ . (huone)",
+                "options": [
+                  "huoneesta",
+                  "huoneelta",
+                  "huoneella"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Tässä ovat kaikki ___ . (kappale)",
+                "options": [
+                  "kappaleet",
+                  "kappaletta",
+                  "kappaleen"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Tämä on ___ osa. (lause)",
+                "options": [
+                  "lauseen",
+                  "lauseessa",
+                  "lauseella"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Hän ei ymmärrä ___ . (virhe)",
+                "options": [
+                  "virheen",
+                  "virhettä",
+                  "virheestä"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Näen monta ___ . (lentokone)",
+                "options": [
+                  "lentokonetta",
+                  "lentokoneiden",
+                  "lentokoneella"
+                ],
+                "answer": 0
+              }
+            ]
+          },
+          {
+            "id": "ex-e-sanatyypit-kirjoita",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "✍️ Напишите слово на -e в правильной форме (в указанном падеже)."
+            },
+            "items": [
+              {
+                "sentence": "ADE: Mies ajaa ___ . (vene)",
+                "answer": "veneellä"
+              },
+              {
+                "sentence": "PART: Ostan ___ . (vene)",
+                "answer": "venettä"
+              },
+              {
+                "sentence": "ELA: Hän nostaa sen ___ . (vene)",
+                "answer": "veneestä"
+              },
+              {
+                "sentence": "ILL: Mennään ___! (vene)",
+                "answer": "veneeseen"
+              },
+              {
+                "sentence": "INE: Kala on ___ . (vene)",
+                "answer": "veneessä"
+              },
+              {
+                "sentence": "ELA: Hän hyppää pois ___ . (vene)",
+                "answer": "veneestä"
+              },
+              {
+                "sentence": "ALL: Tämä kuuluu ___ . (perhe)",
+                "answer": "perheelle"
+              },
+              {
+                "sentence": "GEN: Asun ___ kanssa. (perhe)",
+                "answer": "perheen"
+              },
+              {
+                "sentence": "ABL: Hän saa lahjan ___ . (perhe)",
+                "answer": "perheeltä"
+              },
+              {
+                "sentence": "PART MON: Asunnossa on kolme ___ . (huone)",
+                "answer": "huonetta"
+              },
+              {
+                "sentence": "NOM: Tämä on ___ . (virhe)",
+                "answer": "virhe"
+              },
+              {
+                "sentence": "PART: Näen vain osan ___ . (huone)",
+                "answer": "huonetta"
+              },
+              {
+                "sentence": "ABL: He tulevat juuri ___ . (huone)",
+                "answer": "huoneelta"
+              },
+              {
+                "sentence": "MON NOM: Tässä ovat kaikki ___ . (kappale)",
+                "answer": "kappaleet"
+              },
+              {
+                "sentence": "GEN: Tämä on ___ osa. (lause)",
+                "answer": "lauseen"
+              },
+              {
+                "sentence": "PART: Hän ei ymmärrä ___ . (virhe)",
+                "answer": "virhettä"
+              },
+              {
+                "sentence": "PART: Näen monta ___ . (lentokone)",
+                "answer": "lentokonetta"
+              }
+            ]
+          },
+          {
+            "id": "ex-nen-sanatyypit-padezhit",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "🌈 Выберите правильную форму слова на -nen в нужном падеже."
+            },
+            "questions": [
+              {
+                "question": "Mikä on ___ koiran nimi? (iloinen)",
+                "options": [
+                  "iloisen",
+                  "iloisessa",
+                  "iloiselta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Menen ___ taloon. (punainen)",
+                "options": [
+                  "punaisessa",
+                  "punaiselle",
+                  "punaiseen"
+                ],
+                "answer": 2
+              },
+              {
+                "question": "Hän on ___ luokassa. (suomalainen)",
+                "options": [
+                  "suomalaisessa",
+                  "suomalaiselta",
+                  "suomalaisen"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Tulemme nyt ___ talosta. (toinen)",
+                "options": [
+                  "toiselta",
+                  "toisesta",
+                  "toiseen"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Kirje lähtee ___ opiskelijalle. (englantilainen)",
+                "options": [
+                  "englantilainen",
+                  "englantilaiselle",
+                  "englantilaiselta"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Rahat ovat ___ pöydällä. (valkoinen)",
+                "options": [
+                  "valkoisessa",
+                  "valkoiselta",
+                  "valkoisella"
+                ],
+                "answer": 2
+              },
+              {
+                "question": "Saan viestin ___ ystävältä. (suomalainen)",
+                "options": [
+                  "suomalaisesta",
+                  "suomalaiselta",
+                  "suomalaisessa"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Nämä ovat ___ autot. (punainen)",
+                "options": [
+                  "punaisien",
+                  "punaiset",
+                  "punaisia"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Näen yhden ___ opiskelijan. (englantilainen)",
+                "options": [
+                  "englantilaisen",
+                  "englantilaisessa",
+                  "englantilaiselta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "___ mielipide on tärkeä. (ihminen)",
+                "options": [
+                  "ihmisen",
+                  "ihmiselle",
+                  "ihmisessä"
+                ],
+                "answer": 0
+              }
+            ]
+          },
+          {
+            "id": "ex-nen-sanatyypit-kirjoita",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "✍️ Напишите слово на -nen в правильной форме (вместо пропуска)."
+            },
+            "items": [
+              {
+                "sentence": "Mikä on ___ koiran nimi? (iloinen)",
+                "answer": "iloisen"
+              },
+              {
+                "sentence": "Menen ___ taloon. (punainen)",
+                "answer": "punaiseen"
+              },
+              {
+                "sentence": "Hän on ___ luokassa. (suomalainen)",
+                "answer": "suomalaisessa"
+              },
+              {
+                "sentence": "Tulemme nyt ___ talosta. (toinen)",
+                "answer": "toisesta"
+              },
+              {
+                "sentence": "Kirje lähtee ___ opiskelijalle. (englantilainen)",
+                "answer": "englantilaiselle"
+              },
+              {
+                "sentence": "Rahat ovat ___ pöydällä. (valkoinen)",
+                "answer": "valkoisella"
+              },
+              {
+                "sentence": "Saan viestin ___ ystävältä. (suomalainen)",
+                "answer": "suomalaiselta"
+              },
+              {
+                "sentence": "Nämä ovat ___ autot. (punainen)",
+                "answer": "punaiset"
+              },
+              {
+                "sentence": "Näen yhden ___ opiskelijan. (englantilainen)",
+                "answer": "englantilaisen"
+              },
+              {
+                "sentence": "___ mielipide on tärkeä. (ihminen)",
+                "answer": "ihmisen"
+              }
+            ]
+          },
+          {
+            "id": "ex-i-e-sanatyypit",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "🔤 Выберите правильную форму слова, где -i меняется на -e при склонении."
+            },
+            "questions": [
+              {
+                "question": "GEN: Tämä on ___ merkitys. (nimi)",
+                "options": [
+                  "nimi",
+                  "nimen",
+                  "nimellä"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "ILL: Menen ___ . (järvi)",
+                "options": [
+                  "järvelle",
+                  "järven",
+                  "järveen"
+                ],
+                "answer": 2
+              },
+              {
+                "question": "INE: Kalat uivat ___ . (joki)",
+                "options": [
+                  "jokeessa",
+                  "joessa",
+                  "jokeen"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "GEN: ___ valo on kirkas. (tähti)",
+                "options": [
+                  "tähden",
+                  "tähen",
+                  "tähdessä"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "ILL: Nousen ___ . (mäki)",
+                "options": [
+                  "mäkeen",
+                  "mäessä",
+                  "mäelle"
+                ],
+                "answer": 0
+              }
+            ]
+          },
+          {
+            "id": "ex-i-i-sanatyypit",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "🏨 Выберите правильную форму слова, где -i остаётся при склонении."
+            },
+            "questions": [
+              {
+                "question": "GEN: Tämä on ___ ovi. (hotelli)",
+                "options": [
+                  "hotellin",
+                  "hotellinissa",
+                  "hotellista"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "ILL: Menemme ___ . (posti)",
+                "options": [
+                  "postiin",
+                  "postista",
+                  "postissa"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "INE: Raha on ___ . (pankki)",
+                "options": [
+                  "pankissa",
+                  "pankista",
+                  "pankille"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "ALL: Mennään ___ . (tori)",
+                "options": [
+                  "toria",
+                  "torille",
+                  "torilla"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "GEN: ___ nimi on Helsinki. (kaupunki)",
+                "options": [
+                  "kaupungin",
+                  "kaupunkin",
+                  "kaupungista"
+                ],
+                "answer": 0
+              }
+            ]
+          },
+          {
+            "id": "ex-i-e-sanatyypit-kirjoita",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "✍️ Напишите правильную форму слова, где -i превращается в -e при склонении."
+            },
+            "items": [
+              {
+                "sentence": "Tämä on ___ merkitys. (nimi)",
+                "answer": "nimen"
+              },
+              {
+                "sentence": "Menen ___ . (järvi)",
+                "answer": "järveen"
+              },
+              {
+                "sentence": "Kalat uivat ___ . (joki)",
+                "answer": "joessa"
+              },
+              {
+                "sentence": "___ valo on kirkas. (tähti)",
+                "answer": "tähden"
+              },
+              {
+                "sentence": "Nousen ___ . (mäki)",
+                "answer": "mäkeen"
+              }
+            ]
+          },
+          {
+            "id": "ex-i-i-sanatyypit-kirjoita",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "✍️ Напишите правильную форму слова, где -i остаётся без изменения при склонении."
+            },
+            "items": [
+              {
+                "sentence": "Tämä on ___ ovi. (hotelli)",
+                "answer": "hotellin"
+              },
+              {
+                "sentence": "Menemme ___ . (posti)",
+                "answer": "postiin"
+              },
+              {
+                "sentence": "Raha on ___ . (pankki)",
+                "answer": "pankissa"
+              },
+              {
+                "sentence": "Mennään ___ . (tori)",
+                "answer": "torille"
+              },
+              {
+                "sentence": "___ nimi on Helsinki. (kaupunki)",
+                "answer": "kaupungin"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "tasks": [
+      {
+        "id": "a1-7-mc-ex1",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-7/listening/ex1/Hän menee raitiovaunulla Kaivopuistoon.mp3",
+            "options": [
+              "Hän menee raitiovaunulla Kaivopuistossa.",
+              "Hän menee raitiovaunulla Kaivopuistoon.",
+              "Hän menee raitiovaunulla Kaivopuistosta."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex1/He matkustavat laivalla Helsingistä Turkuun.mp3",
+            "options": [
+              "He matkustavat laivalla Helsingistä Turussa.",
+              "He matkustavat laivalla Helsingistä Turusta.",
+              "He matkustavat laivalla Helsingistä Turkuun."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex1/Hän palaa kotiin Euroopasta lentokoneella.mp3",
+            "options": [
+              "Hän palaa kotiin Eurooppaan lentokoneella.",
+              "Hän palaa kotiin Euroopasta lentokoneen.",
+              "Hän palaa kotiin Euroopasta lentokoneella."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex1/Hän menee nopeasti lentoasemalta hotelliin taksilla.mp3",
+            "options": [
+              "Hän menee nopeasti lentoasemalta hotelliin taksilla.",
+              "Hän menee nopeasti lentoasemalle hotelliin taksilla.",
+              "Hän menee nopeasti lentoasemalta hotelliin taksissa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex1/Lapset ajavat polkupyörällä leikkipuistoon.mp3",
+            "options": [
+              "Lapset ajavat polkupyörällä leikkipuistossa.",
+              "Lapset ajavat polkupyörällä leikkipuistosta.",
+              "Lapset ajavat polkupyörällä leikkipuistoon."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex1/Opettaja tulee kurssille bussilla numero 67.mp3",
+            "options": [
+              "Opettaja tulee kurssilla bussilla numero 67.",
+              "Opettaja tulee kurssille bussin numero 67.",
+              "Opettaja tulee kurssille bussilla numero 67."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex1/Käymme kaupassa veneellä.mp3",
+            "options": [
+              "Käymme kaupassa veneellä.",
+              "Käymme kaupassa veneellässä.",
+              "Käymme kaupassa veneen."
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "a1-7-mc-ex2",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-7/listening/ex2/Tämän japanilaisen tietokoneen hinta on 695 euroa.mp3",
+            "options": [
+              "Tämän japanilainen tietokoneen hinta on 695 euroa.",
+              "Tämän japanilaisen tietokoneen hinta on 695 euroa.",
+              "Tämä japanilainen tietokone hinta on 695 euroa."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex2/He istuvat viihtyisässä olohuoneessa.mp3",
+            "options": [
+              "He istuvat viihtyisässä olohuoneen.",
+              "He istuvat viihtyisä olohuoneessa.",
+              "He istuvat viihtyisässä olohuoneessa."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex2/Tällä isolla perheellä on kaksi autoa.mp3",
+            "options": [
+              "Tällä iso perhe on kaksi autoa.",
+              "Tällä isolla perheellä on kaksi autoa.",
+              "Tällä isolla perheellä on kaksi auton."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex2/Asumme suuressa suomalaisessa kaupungissa.mp3",
+            "options": [
+              "Asumme suuri suomalainen kaupungissa.",
+              "Asumme suuressa suomalaisessa kaupungissa.",
+              "Asumme suuressa suomalaisessa kaupungin."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex2/Istun punaisella sohvalla.mp3",
+            "options": [
+              "Istun punaisella sohvalla.",
+              "Istun punaisella sohva.",
+              "Istun punaisessa sohvalla."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex2/Voitko auttaa tuota vanhaa naista.mp3",
+            "options": [
+              "Voitko auttaa tuo vanha nainen?",
+              "Voitko auttaa tuota vanhaa naista?",
+              "Voitko auttaa tuota vanha naista?"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex2/Amerikkalaiset turistit tulevat Suomeen elokuussa.mp3",
+            "options": [
+              "Amerikkalaiset turistit tulevat Suomi elokuussa.",
+              "Amerikkalainen turistit tulevat Suomeen elokuussa.",
+              "Amerikkalaiset turistit tulevat Suomeen elokuussa."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex2/Missä kaupungissa Mikko asuu Hän asuu São Paulossa.mp3",
+            "options": [
+              "Missä kaupungissa Mikko asuu? Hän asuu São Pauloon.",
+              "Missä kaupungissa Mikko asuu? Hän asuu São Paulo.",
+              "Missä kaupungissa Mikko asuu? Hän asuu São Paulossa."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex2/Keittiössä on neljä tuolia.mp3",
+            "options": [
+              "Keittiössä on neljä tuolia.",
+              "Keittiö on neljä tuolia.",
+              "Keittiössä on neljä tuolit."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex2/Tanssikurssilla on monta nuorta tyttöä mutta vain yksi poika.mp3",
+            "options": [
+              "Tanssikurssilla on monta nuorta tyttöä, mutta vain yksi poika.",
+              "Tanssikurssilla on monta nuori tyttö, mutta vain yksi poika.",
+              "Tanssikurssilla on monta nuorta tyttö, mutta vain yksi poika."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex2/Teemu muuttaa pieneen opiskelija-asuntoon syksyllä.mp3",
+            "options": [
+              "Teemu muuttaa pieni opiskelija-asunto syksyllä.",
+              "Teemu muuttaa pieneen opiskelija-asunnossa syksyllä.",
+              "Teemu muuttaa pieneen opiskelija-asuntoon syksyllä."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex2/Menemme kesälomalle pienelle saarelle Kreikkaan.mp3",
+            "options": [
+              "Menemme kesälomalla pienellä saarella Kreikkaan.",
+              "Menemme kesälomalle pienelle saarelle Kreikkaan.",
+              "Menemme kesälomalle pienelle saari Kreikkaan."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex2/Ihanaa Tänään sataa lunta Minä rakastan talvea.mp3",
+            "options": [
+              "Ihanaa Tänään sataa lunta Minä rakastan talvi.",
+              "Ihanaa! Tänään sataa lunta! Minä rakastan talvea.",
+              "Ihanaa Tänään sataa lunta Minä rakastan talvessa."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex2/Talvella suomalaiset järvet ovat jäässä.mp3",
+            "options": [
+              "Talvella suomalaiset järvet ovat jäässä.",
+              "Talvella suomalainen järvet ovat jäässä.",
+              "Talvella suomalaiset järvet on jäässä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex2/Tässä ranskalaisessa lehdessä on artikkeli Suomesta.mp3",
+            "options": [
+              "Tässä ranskalainen lehti on artikkeli Suomesta.",
+              "Tässä ranskalaisessa lehdessä on artikkeli Suomesta.",
+              "Tässä ranskalaisessa lehdessä on artikkeli Suomi."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex2/Yhdessä vuodessa on 365 päivää.mp3",
+            "options": [
+              "Yhdessä vuodessa on 365 päivässä.",
+              "Yhdessä vuodessa on 365 päivää.",
+              "Yhdessä vuodessa on 365 päivä."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex2/Saunasta me menemme uimaan kylmään veteen.mp3",
+            "options": [
+              "Saunasta me menemme uimaan kylmään veteen.",
+              "Saunassa me menemme uimaan kylmä vesiin.",
+              "Saunasta me menemme uimaan kylmässä vedessä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex2/Vuodessa on 12 kuukautta.mp3",
+            "options": [
+              "Vuodessa on 12 kuukaudet.",
+              "Vuodessa on 12 kuukautta.",
+              "Vuodessa on 12 kuukaudessa."
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": "a1-7-mc-ex3",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-7/listening/ex3/Lomalla he uivat sinisessä meressä.mp3",
+            "options": [
+              "Lomalla he uivat sininen meri.",
+              "Lomalla he uivat sinisessä meren.",
+              "Lomalla he uivat sinisessä meressä."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex3/He nukkuvat tässä punaisessa teltassa.mp3",
+            "options": [
+              "He nukkuvat tässä punaisessa teltassa.",
+              "He nukkuvat tässä punainen teltassa.",
+              "He nukkuvat tässä punaisessa teltta."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex3/Teltta on pienellä saarella.mp3",
+            "options": [
+              "Teltta on pienellä saarella.",
+              "Teltta on pienessä saarella.",
+              "Teltta on pieni saarella."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex3/Heillä on uudet keltaiset pyörät.mp3",
+            "options": [
+              "Heillä on uudet keltaiset pyörät.",
+              "Heillä on uudet keltaiset pyörä.",
+              "Heillä on uudet keltainen pyörät."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex3/He matkustavat nopealla veneellä.mp3",
+            "options": [
+              "He matkustavat nopea veneellä.",
+              "He matkustavat nopealla veneellä.",
+              "He matkustavat nopealla veneen."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex3/Hän ei halua yöpyä isossa hotellissa.mp3",
+            "options": [
+              "Hän ei halua yöpyä isossa hotellissa.",
+              "Hän ei halua yöpyä isossa hotellin.",
+              "Hän ei halua yöpyä iso hotellissa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex3/Tämän pienen hotellin nimi on Friidshotel.mp3",
+            "options": [
+              "Tämä pieni hotelli nimi on Friidshotel.",
+              "Tämän pienen hotellin nimi on Friidshotel.",
+              "Tämän pienen hotelli nimi on Friidshotel."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex3/Heidän mukavassa huoneessa on kolme ikkunaa.mp3",
+            "options": [
+              "Heidän mukava huone on kolme ikkunaa.",
+              "Heidän mukavassa huoneessa on kolme ikkuna.",
+              "Heidän mukavassa huoneessa on kolme ikkunaa."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex3/He syövät ihanassa uudessa kalaravintolassa.mp3",
+            "options": [
+              "He syövät ihana uusi kalaravintola.",
+              "He syövät ihanassa uudessa kalaravintolan.",
+              "He syövät ihanassa uudessa kalaravintolassa."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex3/Tavallisesti brasilialaiset turistit eivät matkusta Suomeen.mp3",
+            "options": [
+              "Tavallisesti brasilialaiset turistit eivät matkusta Suomeen.",
+              "Tavallisesti brasilialaiset turistit eivät matkustaa Suomeen.",
+              "Tavallisesti brasilialainen turistit ei matkusta Suomeen."
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "a1-7-mc-ex4",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-7/listening/ex4/Turistit matkustavat Turkuun.mp3",
+            "options": [
+              "Turistit matkustavat Turkuun.",
+              "Turistit matkustavat Turussa.",
+              "Turistit matkustavat Turusta."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex4/He katsovat Turun bussin ikkunasta.mp3",
+            "options": [
+              "He katsovat Turku bussin ikkunasta.",
+              "He katsovat Turussa bussin ikkunasta.",
+              "He katsovat Turun bussin ikkunasta."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex4/Turussa on vanha linna.mp3",
+            "options": [
+              "Turussa on vanha linna.",
+              "Turussa on vanhan linna.",
+              "Turussa on vanha linnassa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex4/Turun linna on valkoinen.mp3",
+            "options": [
+              "Turku linna on valkoinen.",
+              "Turussa linna on valkoinen.",
+              "Turun linna on valkoinen."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex4/Menen tuohon kauppaan.mp3",
+            "options": [
+              "Menen tuossa kaupassa.",
+              "Menen tuohon kaupassa.",
+              "Menen tuohon kauppaan."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex4/Kaupan nimi on Suklaapuoti.mp3",
+            "options": [
+              "Kauppa nimi on Suklaapuoti.",
+              "Kaupan nimi on Suklaapuoti.",
+              "Kaupan nimi on Suklaapuodissa."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex4/Rakastan tätä kauppaa.mp3",
+            "options": [
+              "Rakastan tätä kauppaa.",
+              "Rakastan tämä kauppa.",
+              "Rakastan tätä kaupassa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex4/Tässä kaupassa on ihanaa suklaata.mp3",
+            "options": [
+              "Tässä kauppa on ihanaa suklaata.",
+              "Tässä kaupassa on ihana suklaata.",
+              "Tässä kaupassa on ihanaa suklaata."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex4/Etsin halpaa hotellia.mp3",
+            "options": [
+              "Etsin halpaan hotelliin.",
+              "Etsin halpa hotelli.",
+              "Etsin halpaa hotellia."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex4/Tämän halvan hotellin nimi on Arena.mp3",
+            "options": [
+              "Tämän halpa hotellin nimi on Arena.",
+              "Tämän halvan hotellin nimi on Arena.",
+              "Tämä halpa hotelli nimi on Arena."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex4/Me menemme halpaan hotelliin.mp3",
+            "options": [
+              "Me menemme halpaan hotelliin.",
+              "Me menemme halpaa hotellia.",
+              "Me menemme halpa hotelli."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex4/Halvassa hotellissa ei ole ravintolaa.mp3",
+            "options": [
+              "Halva hotelli ei ole ravintolaa.",
+              "Halvassa hotellissa ei ole ravintola.",
+              "Halvassa hotellissa ei ole ravintolaa."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex4/Matkustan ranskalaiseen kaupunkiin.mp3",
+            "options": [
+              "Matkustan ranskalaiseen kaupunkiin.",
+              "Matkustan ranskalainen kaupunkiin.",
+              "Matkustan ranskalaisessa kaupunki."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex4/Tässä isossa kaupungissa on metro.mp3",
+            "options": [
+              "Tässä iso kaupungissa on metro.",
+              "Tässä isossa kaupungissa on metro.",
+              "Tässä isossa kaupunki on metro."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex4/Rakastan tätä ranskalaista kaupunkia.mp3",
+            "options": [
+              "Rakastan tätä ranskalaista kaupunkia.",
+              "Rakastan tämä ranskalaista kaupunki.",
+              "Rakastan tätä ranskalaista kaupunkiin."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex4/Kaupungin nimi on Pariisi.mp3",
+            "options": [
+              "Kaupunki nimi on Pariisi.",
+              "Kaupungin nimi on Pariisissa.",
+              "Kaupungin nimi on Pariisi."
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "a1-7-mc-ex5",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Olemme nyt pienessä kaupungissa aurinkoisella Rantakadulla.mp3",
+            "options": [
+              "Olemme nyt pienessä kaupungissa aurinkoinen Rantakadulla.",
+              "Olemme nyt pienessä kaupungissa aurinkoisella Rantakadulla.",
+              "Olemme nyt pienessä kaupungissa aurinkoisella Rantakatu."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Tällä kadulla suuressa kerrostalossa asuu rouva Wigren.mp3",
+            "options": [
+              "Tällä kadulla suuressa kerrostalo asuu rouva Wigren.",
+              "Tällä kadulla suuressa kerrostalossa asuu rouva Wigren.",
+              "Tällä kadulla suurissa kerrostalossa asuu rouva Wigren."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Hänen uudessa asunnossa on 4 huonetta.mp3",
+            "options": [
+              "Hänen uusi asunnossa on 4 huonetta.",
+              "Hänen uudessa asunto on 4 huonetta.",
+              "Hänen uudessa asunnossa on 4 huonetta."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Pienessä eteisessä on matala pöytä.mp3",
+            "options": [
+              "Pieni eteinen on matala pöytä.",
+              "Pienessä eteisessä on matalassa pöydässä.",
+              "Pienessä eteisessä on matala pöytä."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Makuuhuoneessa on sänky, 2 yöpöytää ja korkea vaatekaappi.mp3",
+            "options": [
+              "Makuuhuoneessa on sänky ja 2 yöpöytää korkea vaatekaappi.",
+              "Makuuhuoneessa on sänky, 2 yöpöytää ja korkea vaatekaappi.",
+              "Makuuhuoneessa on sänky, 2 yöpöytää ja korkeassa vaatekaappi."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Korkeassa kaapissa ovat rouva Wigrenin vaatteet.mp3",
+            "options": [
+              "Korkea kaappi ovat rouva Wigrenin vaatteet.",
+              "Korkeassa kaappi ovat rouva Wigrenin vaatteet.",
+              "Korkeassa kaapissa ovat rouva Wigrenin vaatteet."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Aamulla rouva Wigren menee makuuhuoneesta kylpyhuoneeseen ja käy kylvyssä.mp3",
+            "options": [
+              "Aamulla rouva Wigren menee makuuhuoneesta kylpyhuoneessa ja käy kylpy.",
+              "Aamulla rouva Wigren menee makuuhuoneen kylpyhuoneeseen ja käy kylpyssä.",
+              "Aamulla rouva Wigren menee makuuhuoneesta kylpyhuoneeseen ja käy kylvyssä."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Tänään hän käy kukkakaupassa Hän ostaa 20 punaista ruusua ja vie ne sohvapöydälle olohuoneeseen.mp3",
+            "options": [
+              "Tänään hän käy kukkakaupassa. Hän ostaa 20 punaista ruusua ja vie ne sohvapöydälle olohuoneeseen.",
+              "Tänään hän käy kukkakaupaan. Hän ostaa 20 punaista ruusua ja vie ne sohvapöydällä olohuoneessa.",
+              "Tänään hän käy kukkakaupassa. Hän ostaa 20 punaista ruusuja ja vie ne sohvapöytään olohuoneeseen."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Olohuoneessa on myös sohva ja kaksi nojatuolia.mp3",
+            "options": [
+              "Olohuoneessa on myös sohva ja kaksi nojatuoli.",
+              "Olohuoneessa on myös sohvassa ja kaksi nojatuolia.",
+              "Olohuoneessa on myös sohva ja kaksi nojatuolia."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Lattialla on iso itämainen matto.mp3",
+            "options": [
+              "Lattialla on iso itämainen matto.",
+              "Lattialla on isossa itämainen matto.",
+              "Lattialla on iso itämainen matolla."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Olohuoneesta voi mennä ulos terassille.mp3",
+            "options": [
+              "Olohuoneesta voi mennä ulos terassissa.",
+              "Olohuoneesta voi mennä ulos terassille.",
+              "Olohuoneesta voi mennä ulos terassi."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Kun rouva Wigren seisoo terassilla hän näkee alas Rantakadulle.mp3",
+            "options": [
+              "Kun rouva Wigren seisoo terassi, hän näkee alas Rantakadulle.",
+              "Kun rouva Wigren seisoo terassissa, hän näkee alas Rantakadulle.",
+              "Kun rouva Wigren seisoo terassilla, hän näkee alas Rantakadulle."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Kadulla on monta pientä kauppaa ja kioskia.mp3",
+            "options": [
+              "Kadulla on monta pieni kauppaa ja kioskia.",
+              "Kadulla on monta pientä kauppa ja kioskia.",
+              "Kadulla on monta pientä kauppaa ja kioskia."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Nuo nuoret tytöt menevät vaatekauppaan.mp3",
+            "options": [
+              "Nuo nuoret tytöt menevät vaatekaupaan.",
+              "Nuo nuori tytöt menevät vaatekaupassa.",
+              "Nuo nuoret tytöt menevät vaatekauppaan."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Tässä toisessa vaatekaupassa on halvat hinnat.mp3",
+            "options": [
+              "Tässä toisessa vaatekaupassa on halpa hinnat.",
+              "Tässä toisessa vaatekauppa on halvat hinnat.",
+              "Tässä toisessa vaatekaupassa on halvat hinnat."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Joskus sunnuntaisin rouva Wigren syö aamupalaa terassilla.mp3",
+            "options": [
+              "Joskus sunnuntaisin rouva Wigren syö aamupalaa terassi.",
+              "Joskus sunnuntaisin rouva Wigren syö aamupalaa terassissa.",
+              "Joskus sunnuntaisin rouva Wigren syö aamupalaa terassilla."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Aurinkoisella Rantakadulla ihmiset istuvat auringossa rannalla ja syövät jäätelöä.mp3",
+            "options": [
+              "Aurinkoisella Rantakadulla ihmiset istuvat auringossa rannassa ja syövät jäätelöä.",
+              "Aurinkoinen Rantakatu ihmiset istuvat auringossa rannalla ja syövät jäätelöä.",
+              "Aurinkoisella Rantakadulla ihmiset istuvat auringossa rannalla ja syövät jäätelöä."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Lapset uivat lämpimässä vedessä.mp3",
+            "options": [
+              "Lapset uivat lämpimässä veteen.",
+              "Lapset uivat lämpimä vesi.",
+              "Lapset uivat lämpimässä vedessä."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Tänään postissa on kirje rouva Wigrenille Pitkässä kirjeessä lapsenlapset kirjoittavat että he tulevat viikonloppuna.mp3",
+            "options": [
+              "Tänään postissa on kirje rouva Wigreniltä. Pitkässä kirjeessä lapsenlapset kirjoittaa, että he tulevat viikonloppuna.",
+              "Tänään postissa on kirje rouva Wigrenille. Pitkässä kirjeessä lapsenlapset kirjoittavat, että he tulevat viikonloppuna.",
+              "Tänään postissa on kirje rouva Wigrenille. Pitkässä kirjeessä lapsenlapset kirjoittavat että hän tulee viikonloppuna."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Lauantaina rouva Wigren ja lapsenlapset lähtevät veneellä pienelle saarelle.mp3",
+            "options": [
+              "Lauantaina rouva Wigren ja lapsenlapset lähtevät veneellä pienelle saarelle.",
+              "Lauantaina rouva Wigren ja lapsenlapset lähtevät veneellä pienellä saarella.",
+              "Lauantaina rouva Wigren ja lapsenlapset lähtevät veneellä pienelle saarella."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Viikonloppuna he käyvät saunassa ja uivat paljon.mp3",
+            "options": [
+              "Viikonloppuna he käyvät saunassa ja uivat paljo.",
+              "Viikonloppuna he käyvät saunassa ja uida paljon.",
+              "Viikonloppuna he käyvät saunassa ja uivat paljon."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-7/listening/ex5/Sunnuntai-iltana he palaavat taas rouva Wigrenin kotiin.mp3",
+            "options": [
+              "Sunnuntai-iltana he palaavat taas rouva Wigren kotiin.",
+              "Sunnuntai-iltana he palaavat taas rouva Wigrenin kodissa.",
+              "Sunnuntai-iltana he palaavat taas rouva Wigrenin kotiin."
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    ]
+  },
+  "writing": [
+    {
+      "id": "a1-7-write-ex1",
+      "type": "translation-sequence",
+      "description": "✍️ Переведите каждую фразу на финский язык.",
+      "items": [
+        {
+          "prompt": "Он едет на трамвае в Каивопуисто.",
+          "answer": [
+            "Hän menee raitiovaunulla Kaivopuistoon."
+          ]
+        },
+        {
+          "prompt": "Они путешествуют на пароме из Хельсинки в Турку.",
+          "answer": [
+            "He matkustavat laivalla Helsingistä Turkuun."
+          ]
+        },
+        {
+          "prompt": "Он возвращается домой из Европы на самолёте.",
+          "answer": [
+            "Hän palaa kotiin Euroopasta lentokoneella."
+          ]
+        },
+        {
+          "prompt": "Он быстро едет из аэропорта в отель на такси.",
+          "answer": [
+            "Hän menee nopeasti lentoasemalta hotelliin taksilla."
+          ]
+        },
+        {
+          "prompt": "Дети едут в парк на велосипеде.",
+          "answer": [
+            "Lapset ajavat polkupyörällä leikkipuistoon."
+          ]
+        },
+        {
+          "prompt": "Учитель приезжает на курс на автобусе номер 67.",
+          "answer": [
+            "Opettaja tulee kurssille bussilla numero 67."
+          ]
+        },
+        {
+          "prompt": "Мы ходим в магазин на лодке.",
+          "answer": [
+            "Käymme kaupassa veneellä."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-7-write-ex2",
+      "type": "translation-sequence",
+      "description": "✍️ Переведите каждую фразу на финский язык.",
+      "items": [
+        {
+          "prompt": "Цена этого финского компьютера — 695 евро.",
+          "answer": [
+            "Tämän suomalaisen tietokoneen hinta on 695 euroa."
+          ]
+        },
+        {
+          "prompt": "Они сидят в уютной гостиной.",
+          "answer": [
+            "He istuvat viihtyisässä olohuoneessa."
+          ]
+        },
+        {
+          "prompt": "У этой большой семьи два автомобиля.",
+          "answer": [
+            "Tällä isolla perheellä on kaksi autoa."
+          ]
+        },
+        {
+          "prompt": "Мы живём в большом финском городе.",
+          "answer": [
+            "Asumme suuressa suomalaisessa kaupungissa.",
+            "Me asumme suuressa suomalaisessa kaupungissa."
+          ]
+        },
+        {
+          "prompt": "Я сижу на красном диване.",
+          "answer": [
+            "Istun punaisella sohvalla.",
+            "Minä istun punaisella sohvalla."
+          ]
+        },
+        {
+          "prompt": "Можешь помочь той пожилой женщине?",
+          "answer": [
+            "Voitko auttaa tuota vanhaa naista?"
+          ]
+        },
+        {
+          "prompt": "Американские туристы приезжают в Финляндию в августе.",
+          "answer": [
+            "Amerikkalaiset turistit tulevat Suomeen elokuussa."
+          ]
+        },
+        {
+          "prompt": "В каком городе ты живёшь? Он живёт в Хельсинки.",
+          "answer": [
+            "Missä kaupungissa sinä asut? Hän asuu Helsingissä."
+          ]
+        },
+        {
+          "prompt": "На кухне четыре стула.",
+          "answer": [
+            "Keittiössä on neljä tuolia."
+          ]
+        },
+        {
+          "prompt": "На курсе танцев много молодых девушек.",
+          "answer": [
+            "Tanssikurssilla on monta nuorta tyttöä."
+          ]
+        },
+        {
+          "prompt": "Я переезжаю в маленькую студенческую квартиру осенью.",
+          "answer": [
+            "Muutan pieneen opiskelija-asuntoon syksyllä.",
+            "Minä muutan pieneen opiskelija-asuntoon syksyllä."
+          ]
+        },
+        {
+          "prompt": "Мы едем на летние каникулы на маленький остров.",
+          "answer": [
+            "Menemme kesälomalle pienelle saarelle.",
+            "Me menemme kesälomalle pienelle saarelle."
+          ]
+        },
+        {
+          "prompt": "Я люблю зиму.",
+          "answer": [
+            "Minä rakastan talvea.",
+            "Rakastan talvea."
+          ]
+        },
+        {
+          "prompt": "Зимой финские озёра покрываются льдом.",
+          "answer": [
+            "Talvella suomalaiset järvet ovat jäässä."
+          ]
+        },
+        {
+          "prompt": "В этом журнале есть статья о Финляндии.",
+          "answer": [
+            "Tässä lehdessä on artikkeli Suomesta."
+          ]
+        },
+        {
+          "prompt": "В одном году 365 дней.",
+          "answer": [
+            "Yhdessä vuodessa on 365 päivää."
+          ]
+        },
+        {
+          "prompt": "Из сауны мы идём купаться в холодную воду.",
+          "answer": [
+            "Saunasta me menemme uimaan kylmään veteen."
+          ]
+        },
+        {
+          "prompt": "В году 12 месяцев.",
+          "answer": [
+            "Vuodessa on 12 kuukautta."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-7-write-ex3",
+      "type": "translation-sequence",
+      "description": "✍️ Переведите каждую фразу на финский язык.",
+      "items": [
+        {
+          "prompt": "Во время отпуска они плавают в синем море.",
+          "answer": [
+            "Lomalla he uivat sinisessä meressä."
+          ]
+        },
+        {
+          "prompt": "Они спят в этой красной палатке.",
+          "answer": [
+            "He nukkuvat tässä punaisessa teltassa."
+          ]
+        },
+        {
+          "prompt": "Палатка находится на маленьком острове.",
+          "answer": [
+            "Teltta on pienellä saarella."
+          ]
+        },
+        {
+          "prompt": "У них новые жёлтые велосипеды.",
+          "answer": [
+            "Heillä on uudet keltaiset pyörät."
+          ]
+        },
+        {
+          "prompt": "Они путешествуют на быстрой лодке.",
+          "answer": [
+            "He matkustavat nopealla veneellä."
+          ]
+        },
+        {
+          "prompt": "Он не хочет ночевать в большом отеле.",
+          "answer": [
+            "Hän ei halua yöpyä isossa hotellissa."
+          ]
+        },
+        {
+          "prompt": "В их уютной комнате три окна.",
+          "answer": [
+            "Heidän mukavassa huoneessa on kolme ikkunaa."
+          ]
+        },
+        {
+          "prompt": "Они едят в новом рыбном ресторане.",
+          "answer": [
+            "He syövät uudessa kalaravintolassa."
+          ]
+        },
+        {
+          "prompt": "Обычно бразильские туристы не путешествуют в Финляндию.",
+          "answer": [
+            "Tavallisesti brasilialaiset turistit eivät matkusta Suomeen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-7-write-ex4",
+      "type": "translation-sequence",
+      "description": "✍️ Переведите каждую фразу на финский язык.",
+      "items": [
+        {
+          "prompt": "Туристы путешествуют в Турку.",
+          "answer": [
+            "Turistit matkustavat Turkuun."
+          ]
+        },
+        {
+          "prompt": "Они смотрят в окно туркского автобуса.",
+          "answer": [
+            "He katsovat Turun bussin ikkunasta."
+          ]
+        },
+        {
+          "prompt": "В Турку есть старый замок.",
+          "answer": [
+            "Turussa on vanha linna."
+          ]
+        },
+        {
+          "prompt": "Замок Турку белый.",
+          "answer": [
+            "Turun linna on valkoinen."
+          ]
+        },
+        {
+          "prompt": "Я иду в тот магазин.",
+          "answer": [
+            "Menen tuohon kauppaan."
+          ]
+        },
+        {
+          "prompt": "Название магазина — Suklaapuoti.",
+          "answer": [
+            "Kaupan nimi on Suklaapuoti."
+          ]
+        },
+        {
+          "prompt": "Я люблю этот магазин.",
+          "answer": [
+            "Rakastan tätä kauppaa."
+          ]
+        },
+        {
+          "prompt": "В этом магазине вкусный шоколад.",
+          "answer": [
+            "Tässä kaupassa on ihanaa suklaata."
+          ]
+        },
+        {
+          "prompt": "Я ищу дешёвый отель.",
+          "answer": [
+            "Etsin halpaa hotellia."
+          ]
+        },
+        {
+          "prompt": "Название этого дешёвого отеля — Arena.",
+          "answer": [
+            "Tämän halvan hotellin nimi on Arena."
+          ]
+        },
+        {
+          "prompt": "Мы идём в дешёвый отель.",
+          "answer": [
+            "Me menemme halpaan hotelliin.",
+            "Menemme halpaan hotelliin."
+          ]
+        },
+        {
+          "prompt": "В дешёвом отеле нет ресторана.",
+          "answer": [
+            "Halvassa hotellissa ei ole ravintolaa."
+          ]
+        },
+        {
+          "prompt": "Я путешествую во французский город.",
+          "answer": [
+            "Matkustan ranskalaiseen kaupunkiin."
+          ]
+        },
+        {
+          "prompt": "В этом большом городе есть метро.",
+          "answer": [
+            "Tässä isossa kaupungissa on metro."
+          ]
+        },
+        {
+          "prompt": "Я люблю этот французский город.",
+          "answer": [
+            "Rakastan tätä ranskalaista kaupunkia."
+          ]
+        },
+        {
+          "prompt": "Название города — Париж.",
+          "answer": [
+            "Kaupungin nimi on Pariisi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-7-write-ex5",
+      "type": "translation-sequence",
+      "description": "✍️ Переведите каждую фразу на финский язык.",
+      "items": [
+        {
+          "prompt": "Я в маленьком городе.",
+          "answer": [
+            "Olen pienessä kaupungissa."
+          ]
+        },
+        {
+          "prompt": "На этой улице большой дом.",
+          "answer": [
+            "Tällä kadulla on suuri talo."
+          ]
+        },
+        {
+          "prompt": "В моей новой квартире четыре комнаты.",
+          "answer": [
+            "Minun uudessa asunnossa on neljä huonetta."
+          ]
+        },
+        {
+          "prompt": "В прихожей низкий стол.",
+          "answer": [
+            "Eteisessä on matala pöytä."
+          ]
+        },
+        {
+          "prompt": "В спальне кровать и две тумбочки.",
+          "answer": [
+            "Makuuhuoneessa on sänky ja kaksi yöpöytää."
+          ]
+        },
+        {
+          "prompt": "В шкафу одежда.",
+          "answer": [
+            "Kaapissa ovat vaatteet."
+          ]
+        },
+        {
+          "prompt": "Я иду в ванную и принимаю ванну.",
+          "answer": [
+            "Menen kylpyhuoneeseen ja käyn kylvyssä.",
+            "Minä menen kylpyhuoneeseen ja käyn kylvyssä."
+          ]
+        },
+        {
+          "prompt": "Я хожу в цветочный магазин и покупаю красные розы.",
+          "answer": [
+            "Käyn kukkakaupassa ja ostan punaisia ruusuja."
+          ]
+        },
+        {
+          "prompt": "Я несу цветы на журнальный столик.",
+          "answer": [
+            "Vien kukat sohvapöydälle."
+          ]
+        },
+        {
+          "prompt": "В гостиной диван и кресла.",
+          "answer": [
+            "Olohuoneessa on sohva ja nojatuolit."
+          ]
+        },
+        {
+          "prompt": "На полу ковёр.",
+          "answer": [
+            "Lattialla on matto."
+          ]
+        },
+        {
+          "prompt": "Я выхожу на террасу.",
+          "answer": [
+            "Menen ulos terassille.",
+            "Minä menen ulos terassille."
+          ]
+        },
+        {
+          "prompt": "Я смотрю вниз на улицу.",
+          "answer": [
+            "Näen alas kadulle.",
+            "Minä näen alas kadulle."
+          ]
+        },
+        {
+          "prompt": "На улице много маленьких магазинов.",
+          "answer": [
+            "Kadulla on monta pientä kauppaa."
+          ]
+        },
+        {
+          "prompt": "Молодые девушки идут в магазин одежды.",
+          "answer": [
+            "Nuoret tytöt menevät vaatekauppaan."
+          ]
+        },
+        {
+          "prompt": "В этом другом магазине дешёвые цены.",
+          "answer": [
+            "Tässä toisessa kaupassa on halvat hinnat."
+          ]
+        },
+        {
+          "prompt": "Я ем завтрак на террасе.",
+          "answer": [
+            "Syön aamupalaa terassilla.",
+            "Minä syön aamupalaa terassilla."
+          ]
+        },
+        {
+          "prompt": "Я сижу на солнце и ем мороженое.",
+          "answer": [
+            "Istun auringossa ja syön jäätelöä.",
+            "Minä istun auringossa ja syön jäätelöä."
+          ]
+        },
+        {
+          "prompt": "Дети купаются в тёплой воде.",
+          "answer": [
+            "Lapset uivat lämpimässä vedessä."
+          ]
+        },
+        {
+          "prompt": "В письме дети пишут, что они приедут на выходных.",
+          "answer": [
+            "Kirjeessä lapset kirjoittavat, että he tulevat viikonloppuna."
+          ]
+        },
+        {
+          "prompt": "Они едут на лодке на маленький остров.",
+          "answer": [
+            "He menevät veneellä pienelle saarelle."
+          ]
+        },
+        {
+          "prompt": "Мы ходим в сауну и много купаемся.",
+          "answer": [
+            "Käymme saunassa ja uimme paljon."
+          ]
+        },
+        {
+          "prompt": "В воскресенье мы возвращаемся домой.",
+          "answer": [
+            "Sunnuntaina palaamme kotiin."
+          ]
+        }
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "a1-7-speaking-1",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински (транспорт)",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex1/Han_menee_raitiovaunulla_Kaivopuistoon.mp3",
+          "prompt": "Скажите по-фински фразу: «Он/она едет на трамвае в Кайвопуисто.»",
+          "answer": [
+            "Hän menee raitiovaunulla Kaivopuistoon."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex1/He_matkustavat_laivalla_Helsingista_Turkuun.mp3",
+          "prompt": "Скажите по-фински фразу: «Они путешествуют на корабле из Хельсинки в Турку.»",
+          "answer": [
+            "He matkustavat laivalla Helsingistä Turkuun."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex1/Han_palaa_kotiin_Euroopasta_lentokoneella.mp3",
+          "prompt": "Скажите по-фински фразу: «Он/она возвращается домой из Европы на самолёте.»",
+          "answer": [
+            "Hän palaa kotiin Euroopasta lentokoneella."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex1/Han_menee_nopeasti_lentoasemalta_hotelliin_taksilla.mp3",
+          "prompt": "Скажите по-фински фразу: «Он/она быстро едет из аэропорта в отель на такси.»",
+          "answer": [
+            "Hän menee nopeasti lentoasemalta hotelliin taksilla."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex1/Lapset_ajavat_polkupyoralla_leikkipuistoon.mp3",
+          "prompt": "Скажите по-фински фразу: «Дети едут на велосипедах в игровую площадку.»",
+          "answer": [
+            "Lapset ajavat polkupyörällä leikkipuistoon."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex1/Opettaja_tulee_kurssille_bussilla_numero_67.mp3",
+          "prompt": "Скажите по-фински фразу: «Учитель приходит на курс на автобусе номер 67.»",
+          "answer": [
+            "Opettaja tulee kurssille bussilla numero 67."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex1/Kaymme_kaupassa_veneella.mp3",
+          "prompt": "Скажите по-фински фразу: «Мы ходим в магазин на лодке.»",
+          "answer": [
+            "Käymme kaupassa veneellä.",
+            "Me käymme kaupassa veneellä."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-7-speaking-2",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински (в городе и в быту)",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex2/Taman_suomalaisen_tietokoneen_hinta_on_695_euroa.mp3",
+          "prompt": "Скажите по-фински фразу: «Цена этого финского компьютера — 695 евро.»",
+          "answer": [
+            "Tämän suomalaisen tietokoneen hinta on 695 euroa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex2/He_istuvat_viihtyisassa_olohuoneessa.mp3",
+          "prompt": "Скажите по-фински фразу: «Они сидят в уютной гостиной.»",
+          "answer": [
+            "He istuvat viihtyisässä olohuoneessa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex2/Talla_isolla_perheella_on_kaksi_autoa.mp3",
+          "prompt": "Скажите по-фински фразу: «У этой большой семьи есть две машины.»",
+          "answer": [
+            "Tällä isolla perheellä on kaksi autoa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex2/Asumme_suuressa_suomalaisessa_kaupungissa.mp3",
+          "prompt": "Скажите по-фински фразу: «Мы живём в большом финском городе.»",
+          "answer": [
+            "Asumme suuressa suomalaisessa kaupungissa.",
+            "Me asumme suuressa suomalaisessa kaupungissa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex2/Istun_punaisella_sohvalla.mp3",
+          "prompt": "Скажите по-фински фразу: «Я сижу на красном диване.»",
+          "answer": [
+            "Istun punaisella sohvalla.",
+            "Minä istun punaisella sohvalla."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex2/Voitko_auttaa_tuota_vanhaa_naista.mp3",
+          "prompt": "Скажите по-фински фразу: «Можешь помочь той пожилой женщине?»",
+          "answer": [
+            "Voitko auttaa tuota vanhaa naista?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex2/Amerikkalaiset_turistit_tulevat_Suomeen_elokuussa.mp3",
+          "prompt": "Скажите по-фински фразу: «Американские туристы приезжают в Финляндию в августе.»",
+          "answer": [
+            "Amerikkalaiset turistit tulevat Suomeen elokuussa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex2/Missa_kaupungissa_sina_asut_Han_asuu_Helsingissa.mp3",
+          "prompt": "Скажите по-фински фразу: «В каком городе ты живёшь? Он живёт в Хельсинки.»",
+          "answer": [
+            "Missä kaupungissa sinä asut? Hän asuu Helsingissä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex2/Keittiossa_on_nelja_tuolia.mp3",
+          "prompt": "Скажите по-фински фразу: «На кухне четыре стула.»",
+          "answer": [
+            "Keittiössä on neljä tuolia."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex2/Tanssikurssilla_on_monta_nuorta_tyttoa.mp3",
+          "prompt": "Скажите по-фински фразу: «На танцевальном курсе много молодых девушек.»",
+          "answer": [
+            "Tanssikurssilla on monta nuorta tyttöä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex2/Muutan_pieneen_opiskelija_asuntoon_syksylla.mp3",
+          "prompt": "Скажите по-фински фразу: «Я переезжаю в маленькую студенческую квартиру осенью.»",
+          "answer": [
+            "Muutan pieneen opiskelija-asuntoon syksyllä.",
+            "Minä muutan pieneen opiskelija-asuntoon syksyllä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex2/Menemme_kesalomalle_pienelle_saarelle.mp3",
+          "prompt": "Скажите по-фински фразу: «Мы едем на летние каникулы на маленький остров.»",
+          "answer": [
+            "Menemme kesälomalle pienelle saarelle.",
+            "Me menemme kesälomalle pienelle saarelle."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex2/Mina_rakastan_talvea.mp3",
+          "prompt": "Скажите по-фински фразу: «Я люблю зиму.»",
+          "answer": [
+            "Minä rakastan talvea.",
+            "Rakastan talvea."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex2/Talvella_suomalaiset_jarvet_ovat_jaassa.mp3",
+          "prompt": "Скажите по-фински фразу: «Зимой финские озёра покрыты льдом.»",
+          "answer": [
+            "Talvella suomalaiset järvet ovat jäässä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex2/Tassa_lehdessa_on_artikkeli_Suomesta.mp3",
+          "prompt": "Скажите по-фински фразу: «В этом журнале есть статья о Финляндии.»",
+          "answer": [
+            "Tässä lehdessä on artikkeli Suomesta."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex2/Yhdessa_vuodessa_on_365_paivaa.mp3",
+          "prompt": "Скажите по-фински фразу: «В одном году 365 дней.»",
+          "answer": [
+            "Yhdessä vuodessa on 365 päivää."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex2/Saunasta_me_menemme_uimaan_kylmaan_veteen.mp3",
+          "prompt": "Скажите по-фински фразу: «Из сауны мы идём купаться в холодную воду.»",
+          "answer": [
+            "Saunasta me menemme uimaan kylmään veteen.",
+            "Me menemme saunasta uimaan kylmään veteen."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex2/Vuodessa_on_12_kuukautta.mp3",
+          "prompt": "Скажите по-фински фразу: «В году 12 месяцев.»",
+          "answer": [
+            "Vuodessa on 12 kuukautta."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-7-speaking-3",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински (отдых и путешествия)",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex3/Lomalla_he_uivat_sinisessa_meressa.mp3",
+          "prompt": "Скажите по-фински фразу: «На каникулах они плавают в синем море.»",
+          "answer": [
+            "Lomalla he uivat sinisessä meressä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex3/He_nukkuvat_tassa_punaisessa_teltassa.mp3",
+          "prompt": "Скажите по-фински фразу: «Они спят в этой красной палатке.»",
+          "answer": [
+            "He nukkuvat tässä punaisessa teltassa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex3/Teltta_on_pienella_saarella.mp3",
+          "prompt": "Скажите по-фински фразу: «Палатка на маленьком острове.»",
+          "answer": [
+            "Teltta on pienellä saarella."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex3/Heilla_on_uudet_keltaiset_pyorat.mp3",
+          "prompt": "Скажите по-фински фразу: «У них новые жёлтые велосипеды.»",
+          "answer": [
+            "Heillä on uudet keltaiset pyörät."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex3/He_matkustavat_nopealla_veneella.mp3",
+          "prompt": "Скажите по-фински фразу: «Они путешествуют на быстрой лодке.»",
+          "answer": [
+            "He matkustavat nopealla veneellä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex3/Han_ei_halua_yopya_isossa_hotellissa.mp3",
+          "prompt": "Скажите по-фински фразу: «Он/она не хочет ночевать в большом отеле.»",
+          "answer": [
+            "Hän ei halua yöpyä isossa hotellissa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex3/Heidan_mukavassa_huoneessa_on_kolme_ikkunaa.mp3",
+          "prompt": "Скажите по-фински фразу: «В их уютной комнате три окна.»",
+          "answer": [
+            "Heidän mukavassa huoneessa on kolme ikkunaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex3/He_syovat_uudessa_kalaravintolassa.mp3",
+          "prompt": "Скажите по-фински фразу: «Они едят в новом рыбном ресторане.»",
+          "answer": [
+            "He syövät uudessa kalaravintolassa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex3/Tavallisesti_brasilialaiset_turistit_eivat_matkusta_Suomeen.mp3",
+          "prompt": "Скажите по-фински фразу: «Обычно бразильские туристы не путешествуют в Финляндию.»",
+          "answer": [
+            "Tavallisesti brasilialaiset turistit eivät matkusta Suomeen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-7-speaking-4",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински (темы: Turku, Kauppa, Halpa, Kaupunki)",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex4/Turistit_matkustavat_Turkuun.mp3",
+          "prompt": "Скажите по-фински фразу: «Туристы путешествуют в Турку.»",
+          "answer": [
+            "Turistit matkustavat Turkuun."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex4/He_katsovat_Turun_bussin_ikkunasta.mp3",
+          "prompt": "Скажите по-фински фразу: «Они смотрят из окна туркского автобуса.»",
+          "answer": [
+            "He katsovat Turun bussin ikkunasta."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex4/Turussa_on_vanha_linna.mp3",
+          "prompt": "Скажите по-фински фразу: «В Турку есть старый замок.»",
+          "answer": [
+            "Turussa on vanha linna."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex4/Turun_linna_on_valkoinen.mp3",
+          "prompt": "Скажите по-фински фразу: «Замок Турку белый.»",
+          "answer": [
+            "Turun linna on valkoinen."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex4/Menen_tuohon_kauppaan.mp3",
+          "prompt": "Скажите по-фински фразу: «Я иду в тот магазин.»",
+          "answer": [
+            "Menen tuohon kauppaan.",
+            "Minä menen tuohon kauppaan."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex4/Kaupan_nimi_on_Suklaapuoti.mp3",
+          "prompt": "Скажите по-фински фразу: «Название магазина — Suklaapuoti.»",
+          "answer": [
+            "Kaupan nimi on Suklaapuoti."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex4/Rakastan_tata_kauppaa.mp3",
+          "prompt": "Скажите по-фински фразу: «Я люблю этот магазин.»",
+          "answer": [
+            "Rakastan tätä kauppaa.",
+            "Minä rakastan tätä kauppaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex4/Tassa_kaupassa_on_ihanaa_suklaata.mp3",
+          "prompt": "Скажите по-фински фразу: «В этом магазине есть вкусный шоколад.»",
+          "answer": [
+            "Tässä kaupassa on ihanaa suklaata."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex4/Etsin_halpaa_hotellia.mp3",
+          "prompt": "Скажите по-фински фразу: «Я ищу дешёвый отель.»",
+          "answer": [
+            "Etsin halpaa hotellia.",
+            "Minä etsin halpaa hotellia."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex4/Taman_halvan_hotellin_nimi_on_Arena.mp3",
+          "prompt": "Скажите по-фински фразу: «Название этого дешёвого отеля — Arena.»",
+          "answer": [
+            "Tämän halvan hotellin nimi on Arena."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex4/Me_menemme_halpaan_hotelliin.mp3",
+          "prompt": "Скажите по-фински фразу: «Мы идём в дешёвый отель.»",
+          "answer": [
+            "Me menemme halpaan hotelliin.",
+            "Menemme halpaan hotelliin."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex4/Halvassa_hotellissa_ei_ole_ravintolaa.mp3",
+          "prompt": "Скажите по-фински фразу: «В дешёвом отеле нет ресторана.»",
+          "answer": [
+            "Halvassa hotellissa ei ole ravintolaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex4/Matkustan_ranskalaiseen_kaupunkiin.mp3",
+          "prompt": "Скажите по-фински фразу: «Я путешествую во французский город.»",
+          "answer": [
+            "Matkustan ranskalaiseen kaupunkiin.",
+            "Minä matkustan ranskalaiseen kaupunkiin."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex4/Tassa_isossa_kaupungissa_on_metro.mp3",
+          "prompt": "Скажите по-фински фразу: «В этом большом городе есть метро.»",
+          "answer": [
+            "Tässä isossa kaupungissa on metro."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex4/Rakastan_tata_ranskalaista_kaupunkia.mp3",
+          "prompt": "Скажите по-фински фразу: «Я люблю этот французский город.»",
+          "answer": [
+            "Rakastan tätä ranskalaista kaupunkia.",
+            "Minä rakastan tätä ranskalaista kaupunkia."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex4/Kaupungin_nimi_on_Pariisi.mp3",
+          "prompt": "Скажите по-фински фразу: «Название города — Париж.»",
+          "answer": [
+            "Kaupungin nimi on Pariisi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-7-speaking-5",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински (дом, улица, отдых)",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Olen_pienessa_kaupungissa.mp3",
+          "prompt": "Скажите по-фински фразу: «Я в маленьком городе.»",
+          "answer": [
+            "Olen pienessä kaupungissa.",
+            "Minä olen pienessä kaupungissa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Talla_kadulla_on_suuri_talo.mp3",
+          "prompt": "Скажите по-фински фразу: «На этой улице большой дом.»",
+          "answer": [
+            "Tällä kadulla on suuri talo."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Minun_uudessa_asunnossa_on_nelja_huonetta.mp3",
+          "prompt": "Скажите по-фински фразу: «В моей новой квартире четыре комнаты.»",
+          "answer": [
+            "Minun uudessa asunnossa on neljä huonetta."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Eteisessa_on_matala_poyta.mp3",
+          "prompt": "Скажите по-фински фразу: «В прихожей низкий стол.»",
+          "answer": [
+            "Eteisessä on matala pöytä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Makuuhuoneessa_on_sanky_ja_kaksi_yopoytaa.mp3",
+          "prompt": "Скажите по-фински фразу: «В спальне кровать и две тумбочки.»",
+          "answer": [
+            "Makuuhuoneessa on sänky ja kaksi yöpöytää."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Kaapissa_ovat_vaatteet.mp3",
+          "prompt": "Скажите по-фински фразу: «В шкафу одежда.»",
+          "answer": [
+            "Kaapissa ovat vaatteet."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Menen_kylpyhuoneeseen_ja_kayn_kylvyssa.mp3",
+          "prompt": "Скажите по-фински фразу: «Я иду в ванную и принимаю ванну.»",
+          "answer": [
+            "Menen kylpyhuoneeseen ja käyn kylvyssä.",
+            "Minä menen kylpyhuoneeseen ja käyn kylvyssä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Kayn_kukkakaupassa_ja_ostan_punaisia_ruusuja.mp3",
+          "prompt": "Скажите по-фински фразу: «Я хожу в цветочный магазин и покупаю красные розы.»",
+          "answer": [
+            "Käyn kukkakaupassa ja ostan punaisia ruusuja.",
+            "Minä käyn kukkakaupassa ja ostan punaisia ruusuja."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Vien_kukat_sohvapoydalle.mp3",
+          "prompt": "Скажите по-фински фразу: «Я несу цветы на журнальный столик.»",
+          "answer": [
+            "Vien kukat sohvapöydälle.",
+            "Minä vien kukat sohvapöydälle."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Olohuoneessa_on_sohva_ja_nojatuolit.mp3",
+          "prompt": "Скажите по-фински фразу: «В гостиной диван и кресла.»",
+          "answer": [
+            "Olohuoneessa on sohva ja nojatuolit."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Lattialla_on_matto.mp3",
+          "prompt": "Скажите по-фински фразу: «На полу ковёр.»",
+          "answer": [
+            "Lattialla on matto."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Menen_ulos_terassille.mp3",
+          "prompt": "Скажите по-фински фразу: «Я выхожу на террасу.»",
+          "answer": [
+            "Menen ulos terassille.",
+            "Minä menen ulos terassille."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Naen_alas_kadulle.mp3",
+          "prompt": "Скажите по-фински фразу: «Я смотрю вниз на улицу.»",
+          "answer": [
+            "Näen alas kadulle.",
+            "Minä näen alas kadulle."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Kadulla_on_monta_pienta_kauppaa.mp3",
+          "prompt": "Скажите по-фински фразу: «На улице много маленьких магазинов.»",
+          "answer": [
+            "Kadulla on monta pientä kauppaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Nuoret_tytot_menevat_vaatekauppaan.mp3",
+          "prompt": "Скажите по-фински фразу: «Молодые девушки идут в магазин одежды.»",
+          "answer": [
+            "Nuoret tytöt menevät vaatekauppaan."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Tassa_toisessa_kaupassa_on_halvat_hinnat.mp3",
+          "prompt": "Скажите по-фински фразу: «В этом другом магазине низкие цены.»",
+          "answer": [
+            "Tässä toisessa kaupassa on halvat hinnat."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Syon_aamupalaa_terassilla.mp3",
+          "prompt": "Скажите по-фински фразу: «Я завтракаю на террасе.»",
+          "answer": [
+            "Syön aamupalaa terassilla.",
+            "Minä syön aamupalaa terassilla."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Istun_auringossa_ja_syon_jaateloa.mp3",
+          "prompt": "Скажите по-фински фразу: «Я сижу на солнце и ем мороженое.»",
+          "answer": [
+            "Istun auringossa ja syön jäätelöä.",
+            "Minä istun auringossa ja syön jäätelöä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Lapset_uivat_lampimassa_vedessa.mp3",
+          "prompt": "Скажите по-фински фразу: «Дети купаются в тёплой воде.»",
+          "answer": [
+            "Lapset uivat lämpimässä vedessä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Kirjeessa_lapset_kirjoittavat_etta_he_tulevat_viikonloppuna.mp3",
+          "prompt": "Скажите по-фински фразу: «В письме дети пишут, что приедут на выходных.»",
+          "answer": [
+            "Kirjeessä lapset kirjoittavat, että he tulevat viikonloppuna."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/He_menevat_veneella_pienelle_saarelle.mp3",
+          "prompt": "Скажите по-фински фразу: «Они едут на лодке на маленький остров.»",
+          "answer": [
+            "He menevät veneellä pienelle saarelle."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Kaymme_saunassa_ja_uimme_paljon.mp3",
+          "prompt": "Скажите по-фински фразу: «Мы ходим в сауну и много плаваем.»",
+          "answer": [
+            "Käymme saunassa ja uimme paljon.",
+            "Me käymme saunassa ja uimme paljon."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-7/speaking/ex5/Sunnuntaina_palaamme_kotiin.mp3",
+          "prompt": "Скажите по-фински фразу: «В воскресенье мы возвращаемся домой.»",
+          "answer": [
+            "Sunnuntaina palaamme kotiin.",
+            "Me palaamme kotiin sunnuntaina."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "read6",
+      "title": "Loma Kreikassa",
+      "explanation": {
+        "description": "✈️ Прочитайте текст об отпуске в Греции.",
+        "text": "<p><b>✈ Loma Kreikassa</b></p><p>Tänään alkaa Pekan loma. Pekka ja hänen perheensä lähtevät lomalle Kreikkaan.</p><p>He menevät ensin taksilla Kokkolan rautatieasemalle. Juna lähtee laiturilta yksi. Heillä on vaunu numero seitsemän, ensimmäinen kerros. Työntekijä tarkistaa junassa liput. Matka Helsinkiin kestää noin neljä ja puoli tuntia. Junassa Pekka juo kahvia ja lapset lukevat kirjaa.</p><p>Helsingissä he käyttävät HSL-sovellusta ja ostavat liput. Se on todella kätevää. He menevät paikallisjunalla lentokentälle. Lentokone lähtee kello kaksi iltapäivällä. Lento kestää kolme ja puoli tuntia.</p><p>Ateenassa on lämmin ja aurinko paistaa. He menevät taksilla hotelliin. Hotelli on lähellä merta ja siellä on uima-allas.</p><p><b>Pekka:</b> Onpa kaunis paikka!<br><b>Vaimo:</b> Niin on. Mennäänkö heti uimaan?<br><b>Pekka:</b> Mennään, mutta ensin haluan syödä jotain.<br><b>Vaimo:</b> Hyvä idea. Tuossa on ravintola.</p><p>Loman aikana Pekka ja hänen perheensä uivat meressä, käyvät museossa ja tekevät ostoksia. He tekevät myös laivaretken pienelle saarelle ja syövät kreikkalaista ruokaa. Illalla he kävelevät vanhassa kaupungissa ja katsovat auringonlaskua.</p><p>Loma kestää kaksi viikkoa. Sitten he palaavat lentokoneella Helsinkiin ja junalla takaisin Kokkolaan.</p>"
+      },
+      "tasks": [
+        {
+          "id": "read6",
+          "type": "multiple-choice",
+          "questions": [
+            {
+              "question": "Minne Pekka ja hänen perheensä menevät lomalle?",
+              "options": [
+                "Italiaan",
+                "Kreikkaan",
+                "Espanjaan"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Millä he menevät ensin Kokkolan rautatieasemalle?",
+              "options": [
+                "Bussilla",
+                "Taksilla",
+                "Polkupyörällä"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Kuinka kauan kestää matka junalla Helsinkiin?",
+              "options": [
+                "Kolme tuntia",
+                "Neljä ja puoli tuntia",
+                "Viisi tuntia"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Millä he menevät lentokentälle Helsingissä?",
+              "options": [
+                "Bussilla",
+                "Paikallisjunalla",
+                "Taksilla"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Kuinka kauan kestää lento Kreikkaan?",
+              "options": [
+                "Kaksi tuntia",
+                "Kolme ja puoli tuntia",
+                "Neljä tuntia"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mikä on hotellin sijainti?",
+              "options": [
+                "Keskustassa",
+                "Lähellä merta",
+                "Vuorilla"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä he tekevät loman aikana?",
+              "options": [
+                "Vain uivat",
+                "Vain käyvät museossa",
+                "Uivat, käyvät museossa ja tekevät ostoksia"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Kuinka kauan kestää loma?",
+              "options": [
+                "Yksi viikko",
+                "Kaksi viikkoa",
+                "Kolme viikkoa"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mikä on junan laiturin numero?",
+              "options": [
+                "Laituri yksi",
+                "Laituri kaksi",
+                "Laituri kolme"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Mitä Pekka tekee junassa?",
+              "options": [
+                "Lukee kirjaa",
+                "Juo kahvia",
+                "Nukkuu"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä lapset tekevät junassa?",
+              "options": [
+                "Katsovat ikkunasta",
+                "Lukevat kirjaa",
+                "Pelaavat"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Milloin lentokone lähtee?",
+              "options": [
+                "Aamulla",
+                "Kello kaksi iltapäivällä",
+                "Illalla"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mikä on sää Ateenassa?",
+              "options": [
+                "Kylmä ja sateinen",
+                "Lämmin ja aurinkoinen",
+                "Tuulinen"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä Pekka sanoo hotellista?",
+              "options": [
+                "Onpa kaunis paikka!",
+                "On kallis",
+                "On pieni"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Mitä vaimo ehdottaa heti he saapuvat?",
+              "options": [
+                "Mennäänkö heti uimaan?",
+                "Mennäänkö syömään?",
+                "Mennäänkö nukkumaan?"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Mitä Pekka haluaa tehdä ennen uimista?",
+              "options": [
+                "Syödä jotain",
+                "Nukkua",
+                "Käydä kaupassa"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Mitä he tekevät lisäksi loman aikana?",
+              "options": [
+                "Vain uivat",
+                "Laivaretki pienelle saarelle",
+                "Vain käyvät museossa"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä ruokaa he syövät?",
+              "options": [
+                "Suomalaista ruokaa",
+                "Kreikkalaista ruokaa",
+                "Italialaista ruokaa"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä he tekevät illalla?",
+              "options": [
+                "Katsovat televisiota",
+                "Kävelevät vanhassa kaupungissa",
+                "Nukkuvat"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä he katsovat illalla?",
+              "options": [
+                "Televisiota",
+                "Auringonlaskua",
+                "Elokuvaa"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Millä he palaavat takaisin?",
+              "options": [
+                "Vain lentokoneella",
+                "Lentokoneella Helsinkiin ja junalla Kokkolaan",
+                "Vain junalla"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "read7",
+      "title": "Hotelli Helsingissä",
+      "explanation": {
+        "description": "🏨 Прочитайте рассказ о поездке Матти в Хельсинки и его пребывании в отеле.",
+        "text": "<p><b>🏨 Hotelli Helsingissä</b></p><p><b>Kertomus</b><br>Matti matkustaa junalla Kokkolasta Helsinkiin työmatkalle. Hän on varannut hotellihuoneen keskustasta. Junamatkan jälkeen hän menee raitiovaunulla hotelliin.</p><p><b>Vastaanotossa</b></p><p><b>Virkailija:</b> Hei, tervetuloa! Miten voin auttaa?<br><b>Matti:</b> Hei. Minulla on varaus nimellä Matti Virtanen.<br><b>Virkailija:</b> Kiitos. Saisinko henkilötunnuksen tai passin?<br><b>Matti:</b> Kyllä, tässä on henkilökortti.<br><b>Virkailija:</b> Kiitos. Haluatteko maksaa kortilla vai käteisellä?<br><b>Matti:</b> Maksan kortilla.<br><b>Virkailija:</b> Hyvä. Varaus on voimassa kaksi yötä, eikö niin?<br><b>Matti:</b> Kyllä. Onko huoneessa wifi ja ilmastointi?<br><b>Virkailija:</b> On. Wifi on ilmainen. Tässä on salasana.<br><b>Matti:</b> Haluaisin huoneen kylpyammeen kanssa.<br><b>Virkailija:</b> Katsotaanpa... Meillä on huone kylpyammeen kanssa ja näkymällä kadulle, tai huone ilman kylpyammetta ja näkymällä merelle.<br><b>Matti:</b> Otan huoneen kylpyammeen kanssa.<br><b>Virkailija:</b> Hienoa. Valmistelen teille huoneen kylpyammeen kanssa.<br><b>Matti:</b> Kiitos. Mihin aikaan on aamiainen?<br><b>Virkailija:</b> Aamiainen on kello seitsemän ja kymmenen välillä.<br><b>Matti:</b> Hyvä. Onko hissiä?<br><b>Virkailija:</b> On, hissi on oikealla. Tässä on avainkortti, huoneenne on kolmannessa kerroksessa.</p><p><b>Kertomus jatkuu</b><br>Matti menee hissillä ylös ja avaa huoneen oven. Huoneessa on sänky, työpöytä ja pieni televisio. Ikkunasta näkyy kaupunki. Matti asettaa laukun pöydälle, tarkistaa wifin ja menee suihkuun.</p>"
+      },
+      "tasks": [
+        {
+          "id": "read7",
+          "type": "multiple-choice",
+          "questions": [
+            {
+              "question": "Miksi Matti matkustaa Helsinkiin?",
+              "options": [
+                "Lomalle",
+                "Työmatkalle",
+                "Opiskelemaan"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mistä kaupungista Matti matkustaa?",
+              "options": [
+                "Kokkolasta",
+                "Turusta",
+                "Tampereelta"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Millä Matti menee hotelliin juna-asemalta?",
+              "options": [
+                "Taksilla",
+                "Raitiovaunulla",
+                "Bussilla"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mikä on Matin varauksen nimi?",
+              "options": [
+                "Matti Virtanen",
+                "Matti Korhonen",
+                "Matti Nieminen"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Mitä virkailija pyytää Matilta?",
+              "options": [
+                "Passin tai henkilötunnuksen",
+                "Puhelinnumeron",
+                "Sähköpostiosoitteen"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Miten Matti maksaa?",
+              "options": [
+                "Käteisellä",
+                "Kortilla",
+                "Laskulla"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Kuinka kauan Matti majoittuu hotellissa?",
+              "options": [
+                "Yhden yön",
+                "Kaksi yötä",
+                "Kolme yötä"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Onko wifi maksullinen vai ilmainen?",
+              "options": [
+                "Maksullinen",
+                "Ilmainen",
+                "Ei ole wifiä"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Millaisen huoneen Matti haluaa?",
+              "options": [
+                "Kylpyammeen kanssa",
+                "Näkymä on merelle",
+                "Balkonin kanssa"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Mikä vaihtoehto virkailija tarjoaa?",
+              "options": [
+                "Huone kylpyammeen kanssa tai ilman",
+                "Huone parvekkeella tai ilman",
+                "Huone kylpyammeen kanssa ja näkymä kadulle tai huone ilman kylpyammetta ja näkymä merelle"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Mihin aikaan on aamiainen?",
+              "options": [
+                "Kello 6-9",
+                "Kello 7-10",
+                "Kello 8-11"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Missä hissi sijaitsee?",
+              "options": [
+                "Vasemmalla",
+                "Oikealla",
+                "Suoraan eteenpäin"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Missä kerroksessa Matin huone on?",
+              "options": [
+                "Toisessa",
+                "Kolmannessa",
+                "Neljännessä"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä Matti näkee ikkunasta?",
+              "options": [
+                "Meren",
+                "Kaupungin",
+                "Metsän"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä huoneessa on?",
+              "options": [
+                "Vain sänky",
+                "Sänky, työpöytä ja televisio",
+                "Sänky ja televisio"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä Matti tekee ensimmäiseksi huoneessa?",
+              "options": [
+                "Menee suihkuun",
+                "Asettaa laukun pöydälle",
+                "Katsoo televisiota"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä Matti tekee viimeksi?",
+              "options": [
+                "Tarkistaa wifin",
+                "Menee suihkuun",
+                "Avaa television"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -74,8 +74,23 @@ export default function Navigation() {
       navigate("/profile");
     } catch (err) {
       console.error(err);
-      // Firebase возвращает код ошибки — можно показать его пользователю
-      toast.error(err?.message || "Ошибка авторизации");
+      
+      let errorMessage = "Ошибка авторизации";
+      const errorCode = err.code;
+
+      if (errorCode === "auth/invalid-credential" || errorCode === "auth/user-not-found" || errorCode === "auth/wrong-password") {
+        errorMessage = "Неверный email или пароль";
+      } else if (errorCode === "auth/email-already-in-use") {
+        errorMessage = "Такой email уже зарегистрирован";
+      } else if (errorCode === "auth/too-many-requests") {
+        errorMessage = "Слишком много попыток. Попробуйте позже";
+      } else if (errorCode === "auth/weak-password") {
+        errorMessage = "Пароль слишком простой (минимум 6 символов)";
+      } else if (errorCode === "auth/invalid-email") {
+        errorMessage = "Некорректный формат email";
+      }
+
+      toast.error(errorMessage);
     }
   };
 

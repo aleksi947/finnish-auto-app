@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "level": "A1",
+    "title": "Знакомство",
+    "premium": false,
+    "goal": {
+      "ru": "Поздороваться и представиться на финском",
+      "fi": "Tervehtiä ja esitellä itsensä suomeksi"
+    },
+    "topic": {
+      "ru": "Знакомство",
+      "fi": "Tuttavuus"
+    },
+    "vocabulary": [
+      { "fi": "Hei!", "translations": { "ru": "Привет!", "en": "Hi!" } },
+      { "fi": "ja", "translations": { "ru": "и", "en": "and" } },
+      {
+        "fi": "Tervetuloa!",
+        "translations": { "ru": "Добро пожаловать!", "en": "Welcome!" }
+      },
+      { "fi": "Moi!", "translations": { "ru": "Привет!", "en": "Hi!" } },
+      {
+        "fi": "Anteeksi!",
+        "translations": { "ru": "Извините!", "en": "Sorry!" }
+      },
+      { "fi": "onko", "translations": { "ru": "есть ли", "en": "is there" } },
+      { "fi": "täällä", "translations": { "ru": "здесь", "en": "here" } },
+      {
+        "fi": "suomen kurssi",
+        "translations": { "ru": "курс финского", "en": "Finnish course" }
+      },
+      { "fi": "joo", "translations": { "ru": "да", "en": "yes" } },
+      {
+        "fi": "Kuka sinä olet?",
+        "translations": { "ru": "Кто ты?", "en": "Who are you?" }
+      },
+      { "fi": "minä", "translations": { "ru": "я", "en": "I" } },
+      { "fi": "olla", "translations": { "ru": "быть", "en": "to be" } },
+      { "fi": "entä", "translations": { "ru": "а", "en": "and" } },
+      { "fi": "sinä", "translations": { "ru": "ты", "en": "you" } },
+      {
+        "fi": "Hauska tutustua!",
+        "translations": {
+          "ru": "Приятно познакомиться!",
+          "en": "Nice to meet you!"
+        }
+      },
+      {
+        "fi": "Kiitos samoin!",
+        "translations": {
+          "ru": "Спасибо, взаимно!",
+          "en": "Thanks, same to you!"
+        }
+      },
+      {
+        "fi": "Mitä sinulle kuuluu?",
+        "translations": { "ru": "Как у тебя дела?", "en": "How are you?" }
+      },
+      {
+        "fi": "Minulle kuuluu hyvää.",
+        "translations": { "ru": "У меня всё хорошо.", "en": "I'm doing well." }
+      },
+      {
+        "fi": "Entä sinulle?",
+        "translations": { "ru": "А у тебя?", "en": "And you?" }
+      },
+      {
+        "fi": "Ihan hyvää, kiitos.",
+        "translations": {
+          "ru": "Всё хорошо, спасибо.",
+          "en": "I'm fine, thanks."
+        }
+      },
+      { "fi": "hän", "translations": { "ru": "он/она", "en": "he/she" } },
+      {
+        "fi": "Kuinka vanha sinä olet?",
+        "translations": { "ru": "Сколько тебе лет?", "en": "How old are you?" }
+      },
+      {
+        "fi": "opettaja",
+        "translations": { "ru": "учитель", "en": "teacher" }
+      },
+      { "fi": "tulla", "translations": { "ru": "приходить", "en": "to come" } },
+      {
+        "fi": "Huomenta!",
+        "translations": { "ru": "Доброе утро!", "en": "Good morning!" }
+      },
+      {
+        "fi": "Mikä sinun nimi on?",
+        "translations": { "ru": "Как тебя зовут?", "en": "What's your name?" }
+      },
+      {
+        "fi": "Minun nimi on...",
+        "translations": { "ru": "Меня зовут...", "en": "My name is..." }
+      },
+      {
+        "fi": "Miten se kirjoitetaan?",
+        "translations": { "ru": "Как это пишется?", "en": "How is it written?" }
+      },
+      { "fi": "etunimi", "translations": { "ru": "имя", "en": "first name" } },
+      { "fi": "sukunimi", "translations": { "ru": "фамилия", "en": "surname" } }
+    ],
+    "grammar": {
+      "title": { "ru": "Как сказать имя", "fi": "Kuinka sanoa nimi" },
+      "examples": [
+        {
+          "fi": "Minä olen Alex.",
+          "translations": { "ru": "Я Алекс.", "en": "I am Alex." }
+        }
+      ]
+    },
+    "speaking": [],
+    "listening": {
+      "audioUrl": "",
+      "tasks": []
+    }
+  },
+  {
+    "id": 2,
+    "level": "A1",
+    "title": "Приветствие и прощание",
+    "premium": true,
+    "goal": {
+      "ru": "Научиться здороваться и прощаться",
+      "fi": "Oppia tervehtimään ja hyvästelemään"
+    },
+    "topic": {
+      "ru": "Приветствие и прощание",
+      "fi": "Tervehdys ja hyvästit"
+    },
+    "vocabulary": [
+      { "fi": "Hei", "translations": { "ru": "Здравствуйте", "en": "Hello" } },
+      { "fi": "Moi moi", "translations": { "ru": "Пока", "en": "Bye" } }
+    ],
+    "grammar": {
+      "title": { "ru": "", "fi": "" },
+      "examples": []
+    },
+    "speaking": [],
+    "listening": {
+      "audioUrl": "",
+      "tasks": []
+    }
+  },
+  {
+    "id": 3,
+    "level": "A2",
+    "title": "Покупки в магазине",
+    "premium": true,
+    "goal": {
+      "ru": "Научиться делать покупки на финском языке",
+      "fi": "Oppia asioimaan kaupassa suomeksi"
+    },
+    "topic": {
+      "ru": "Магазин и покупки",
+      "fi": "Kauppa ja ostokset"
+    },
+    "vocabulary": [
+      { "fi": "kauppa", "translations": { "ru": "магазин", "en": "shop" } },
+      { "fi": "osta", "translations": { "ru": "покупать", "en": "buy" } }
+    ],
+    "grammar": {
+      "title": { "ru": "Фразы для покупок", "fi": "Ostostilanteiden fraasit" },
+      "examples": [
+        {
+          "fi": "Paljonko tämä maksaa?",
+          "translations": {
+            "ru": "Сколько это стоит?",
+            "en": "How much does this cost?"
+          }
+        }
+      ]
+    },
+    "speaking": [],
+    "listening": {
+      "audioUrl": "",
+      "tasks": []
+    }
+  },
+  {
+    "id": 4,
+    "level": "B1",
+    "title": "В ресторане",
+    "premium": true,
+    "goal": {
+      "ru": "Научиться делать заказ и понимать меню",
+      "fi": "Oppia tilaamaan ja ymmärtämään ruokalistaa"
+    },
+    "topic": {
+      "ru": "Ресторан",
+      "fi": "Ravintola"
+    },
+    "vocabulary": [
+      {
+        "fi": "ravintola",
+        "translations": { "ru": "ресторан", "en": "restaurant" }
+      },
+      { "fi": "ruokalista", "translations": { "ru": "меню", "en": "menu" } }
+    ],
+    "grammar": {
+      "title": {
+        "ru": "Как вежливо заказать",
+        "fi": "Kuinka tilata kohteliaasti"
+      },
+      "examples": [
+        {
+          "fi": "Saisinko kahvia?",
+          "translations": {
+            "ru": "Можно мне кофе?",
+            "en": "Could I get some coffee?"
+          }
+        }
+      ]
+    },
+    "listening": {
+      "audioUrl": "",
+      "tasks": []
+    },
+    "speaking": [
+      {
+        "question": "Сделайте заказ в ресторане",
+        "options": [
+          "Haluaisin lohta ja perunoita.",
+          "Saisinko ruokalistan, kiitos."
+        ]
+      }
+    ]
+  }
+]

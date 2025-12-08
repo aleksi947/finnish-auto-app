@@ -1,0 +1,85 @@
+{
+  "grammar": {
+    "sections": [
+      {
+        "id": "example-section",
+        "title": {
+          "ru": "Пример раздела грамматики",
+          "fi": "Esimerkki kielioppi osio"
+        },
+        "explanation": {
+          "ru": "Объяснение грамматического правила..."
+        },
+        "examples": [
+          {
+            "fi": "Esimerkki lause",
+            "translations": {
+              "ru": "Пример предложения"
+            }
+          }
+        ],
+        "exercises": [
+          {
+            "id": "exercise-1",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanation": {
+              "ru": "Это упражнение будет отображаться в многошаговом режиме"
+            },
+            "items": [
+              {
+                "sentence": "Minä ___ opiskelija.",
+                "answer": "olen",
+                "translation": "Я студент."
+              }
+            ]
+          },
+          {
+            "id": "exercise-2", 
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanation": {
+              "ru": "Это тоже многошаговое упражнение"
+            },
+            "items": [
+              {
+                "sentence": "Sinä ___ ystäväni.",
+                "answer": "olet", 
+                "translation": "Ты мой друг."
+              }
+            ]
+          },
+          {
+            "id": "exercise-3",
+            "type": "multiple-choice",
+            "multiStep": false,
+            "explanation": {
+              "ru": "Это упражнение будет отображаться как обычная ссылка"
+            },
+            "questions": [
+              {
+                "question": "Выберите правильную форму глагола",
+                "options": ["olen", "olet", "on"],
+                "answer": 0
+              }
+            ]
+          },
+          {
+            "id": "exercise-4",
+            "type": "translation",
+            "multiStep": false,
+            "explanation": {
+              "ru": "И это тоже обычная ссылка"
+            },
+            "items": [
+              {
+                "sentence": "Переведите: Я студент",
+                "answer": "Minä olen opiskelija"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

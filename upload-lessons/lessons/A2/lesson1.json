@@ -1,0 +1,35 @@
+{
+  "id": "A2-1",
+  "level": "A2",
+  "title": "Покупки в магазине",
+  "premium": true,
+  "goal": {
+    "ru": "Научиться делать покупки на финском языке",
+    "fi": "Oppia asioimaan kaupassa suomeksi"
+  },
+  "topic": {
+    "ru": "Магазин и покупки",
+    "fi": "Kauppa ja ostokset"
+  },
+  "vocabulary": [
+    { "fi": "kauppa", "translations": { "ru": "магазин", "en": "shop" } },
+    { "fi": "osta", "translations": { "ru": "покупать", "en": "buy" } }
+  ],
+  "grammar": {
+    "title": { "ru": "Фразы для покупок", "fi": "Ostostilanteiden fraasit" },
+    "examples": [
+      {
+        "fi": "Paljonko tämä maksaa?",
+        "translations": {
+          "ru": "Сколько это стоит?",
+          "en": "How much does this cost?"
+        }
+      }
+    ]
+  },
+  "speaking": [],
+  "listening": {
+    "audioUrl": "",
+    "tasks": []
+  }
+}

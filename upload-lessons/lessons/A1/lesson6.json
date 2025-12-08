@@ -1,0 +1,4939 @@
+{
+  "id": "A1-6",
+  "level": "A1",
+  "title": "Урок 6",
+  "premium": true,
+  "goal": {
+    "ru": "",
+    "fi": ""
+  },
+  "topic": {
+    "ru": "",
+    "fi": ""
+  },
+  "vocabulary": {
+    "common-1": {
+      "title": "Общие — блок 1",
+      "words": [
+        {
+          "fi": "valokuva",
+          "translations": {
+            "ru": "фотография",
+            "en": "photo"
+          },
+          "example": {
+            "fi": "Tässä on valokuva perheestä.",
+            "ru": "Вот фотография семьи."
+          },
+          "audio": "/audio/A1-6/common/valokuva.mp3"
+        },
+        {
+          "fi": "seinä",
+          "translations": {
+            "ru": "стена",
+            "en": "wall"
+          },
+          "example": {
+            "fi": "Kuva on seinällä.",
+            "ru": "Картина на стене."
+          },
+          "audio": "/audio/A1-6/common/seinä.mp3"
+        },
+        {
+          "fi": "aika",
+          "translations": {
+            "ru": "время",
+            "en": "time"
+          },
+          "example": {
+            "fi": "Onko sinulla aikaa?",
+            "ru": "У тебя есть время?"
+          },
+          "audio": "/audio/A1-6/common/aika.mp3"
+        },
+        {
+          "fi": "aurinkoinen",
+          "translations": {
+            "ru": "солнечный",
+            "en": "sunny"
+          },
+          "example": {
+            "fi": "Tänään on aurinkoinen päivä.",
+            "ru": "Сегодня солнечный день."
+          },
+          "audio": "/audio/A1-6/common/aurinkoinen.mp3"
+        },
+        {
+          "fi": "tie",
+          "translations": {
+            "ru": "дорога",
+            "en": "road"
+          },
+          "example": {
+            "fi": "Tie on pitkä.",
+            "ru": "Дорога длинная."
+          },
+          "audio": "/audio/A1-6/common/tie.mp3"
+        },
+        {
+          "fi": "lounas",
+          "translations": {
+            "ru": "обед",
+            "en": "lunch"
+          },
+          "example": {
+            "fi": "Syön lounasta koulussa.",
+            "ru": "Я обедаю в школе."
+          },
+          "audio": "/audio/A1-6/common/lounas.mp3"
+        },
+        {
+          "fi": "ikkuna",
+          "translations": {
+            "ru": "окно",
+            "en": "window"
+          },
+          "example": {
+            "fi": "Avaan ikkunan.",
+            "ru": "Я открываю окно."
+          },
+          "audio": "/audio/A1-6/common/ikkuna.mp3"
+        },
+        {
+          "fi": "piha",
+          "translations": {
+            "ru": "двор",
+            "en": "yard"
+          },
+          "example": {
+            "fi": "Lapset leikkivät pihalla.",
+            "ru": "Дети играют во дворе."
+          },
+          "audio": "/audio/A1-6/common/piha.mp3"
+        },
+        {
+          "fi": "pakettiauto",
+          "translations": {
+            "ru": "фургон",
+            "en": "van"
+          },
+          "example": {
+            "fi": "Pakettiauto on kadulla.",
+            "ru": "Фургон стоит на улице."
+          },
+          "audio": "/audio/A1-6/common/pakettiauto.mp3"
+        },
+        {
+          "fi": "nostaa",
+          "translations": {
+            "ru": "поднимать",
+            "en": "to lift"
+          },
+          "example": {
+            "fi": "Hän nostaa laatikon.",
+            "ru": "Он поднимает коробку."
+          },
+          "audio": "/audio/A1-6/common/nostaa.mp3"
+        },
+        {
+          "fi": "laatikko",
+          "translations": {
+            "ru": "коробка",
+            "en": "box"
+          },
+          "example": {
+            "fi": "Laatikko on pöydällä.",
+            "ru": "Коробка на столе."
+          },
+          "audio": "/audio/A1-6/common/laatikko.mp3"
+        },
+        {
+          "fi": "katu",
+          "translations": {
+            "ru": "улица",
+            "en": "street"
+          },
+          "example": {
+            "fi": "Asun rauhallisella kadulla.",
+            "ru": "Я живу на тихой улице."
+          },
+          "audio": "/audio/A1-6/common/katu.mp3"
+        },
+        {
+          "fi": "nainen",
+          "translations": {
+            "ru": "женщина",
+            "en": "woman"
+          },
+          "example": {
+            "fi": "Nainen istuu tuolilla.",
+            "ru": "Женщина сидит на стуле."
+          },
+          "audio": "/audio/A1-6/common/nainen.mp3"
+        },
+        {
+          "fi": "kantaa",
+          "translations": {
+            "ru": "нести",
+            "en": "to carry"
+          },
+          "example": {
+            "fi": "Poika kantaa kassia.",
+            "ru": "Мальчик несёт сумку."
+          },
+          "audio": "/audio/A1-6/common/kantaa.mp3"
+        },
+        {
+          "fi": "sisään",
+          "translations": {
+            "ru": "внутрь",
+            "en": "inside"
+          },
+          "example": {
+            "fi": "Mene sisään!",
+            "ru": "Иди внутрь!"
+          },
+          "audio": "/audio/A1-6/common/sisään.mp3"
+        },
+        {
+          "fi": "nähdä",
+          "translations": {
+            "ru": "видеть",
+            "en": "to see"
+          },
+          "example": {
+            "fi": "Näen ystävän koulussa.",
+            "ru": "Я вижу друга в школе."
+          },
+          "audio": "/audio/A1-6/common/nähdä.mp3"
+        },
+        {
+          "fi": "tapahtua",
+          "translations": {
+            "ru": "происходить",
+            "en": "to happen"
+          },
+          "example": {
+            "fi": "Mitä tapahtuu?",
+            "ru": "Что происходит?"
+          },
+          "audio": "/audio/A1-6/common/tapahtua.mp3"
+        }
+      ]
+    },
+    "common-2": {
+      "title": "Общие — блок 2",
+      "words": [
+        {
+          "fi": "tässä",
+          "translations": {
+            "ru": "здесь",
+            "en": "here"
+          },
+          "example": {
+            "fi": "Kirja on tässä.",
+            "ru": "Книга здесь."
+          },
+          "audio": "/audio/A1-6/common/tässä.mp3"
+        },
+        {
+          "fi": "naapuri",
+          "translations": {
+            "ru": "сосед",
+            "en": "neighbor"
+          },
+          "example": {
+            "fi": "Naapuri on mukava.",
+            "ru": "Сосед приятный."
+          },
+          "audio": "/audio/A1-6/common/naapuri.mp3"
+        },
+        {
+          "fi": "apu",
+          "translations": {
+            "ru": "помощь",
+            "en": "help"
+          },
+          "example": {
+            "fi": "Tarvitsen apua.",
+            "ru": "Мне нужна помощь."
+          },
+          "audio": "/audio/A1-6/common/apu.mp3"
+        },
+        {
+          "fi": "viedä",
+          "translations": {
+            "ru": "нести, отвозить",
+            "en": "to take, to carry"
+          },
+          "example": {
+            "fi": "Vien roskat ulos.",
+            "ru": "Я выношу мусор."
+          },
+          "audio": "/audio/A1-6/common/viedä.mp3"
+        },
+        {
+          "fi": "tämä",
+          "translations": {
+            "ru": "это",
+            "en": "this"
+          },
+          "example": {
+            "fi": "Tämä on minun kotini.",
+            "ru": "Это мой дом."
+          },
+          "audio": "/audio/A1-6/common/tämä.mp3"
+        },
+        {
+          "fi": "voida",
+          "translations": {
+            "ru": "мочь",
+            "en": "can, to be able to"
+          },
+          "example": {
+            "fi": "Voitko auttaa minua?",
+            "ru": "Можешь помочь мне?"
+          },
+          "audio": "/audio/A1-6/common/voida.mp3"
+        },
+        {
+          "fi": "tuo",
+          "translations": {
+            "ru": "тот",
+            "en": "that"
+          },
+          "example": {
+            "fi": "Tuo auto on punainen.",
+            "ru": "Та машина красная."
+          },
+          "audio": "/audio/A1-6/common/tuo.mp3"
+        },
+        {
+          "fi": "se",
+          "translations": {
+            "ru": "он / она / оно (неодуш.)",
+            "en": "it"
+          },
+          "example": {
+            "fi": "Se on kaunis talo.",
+            "ru": "Это красивый дом."
+          },
+          "audio": "/audio/A1-6/common/se.mp3"
+        },
+        {
+          "fi": "ottaa",
+          "translations": {
+            "ru": "брать",
+            "en": "to take"
+          },
+          "example": {
+            "fi": "Otan kahvia.",
+            "ru": "Я беру кофе."
+          },
+          "audio": "/audio/A1-6/common/ottaa.mp3"
+        },
+        {
+          "fi": "nämä",
+          "translations": {
+            "ru": "эти",
+            "en": "these"
+          },
+          "example": {
+            "fi": "Nämä kirjat ovat uusia.",
+            "ru": "Эти книги новые."
+          },
+          "audio": "/audio/A1-6/common/nämä.mp3"
+        },
+        {
+          "fi": "käydä",
+          "translations": {
+            "ru": "посещать, ходить",
+            "en": "to visit, to go"
+          },
+          "example": {
+            "fi": "Käyn kaupassa.",
+            "ru": "Я хожу в магазин."
+          },
+          "audio": "/audio/A1-6/common/käydä.mp3"
+        },
+        {
+          "fi": "kellari",
+          "translations": {
+            "ru": "подвал",
+            "en": "basement"
+          },
+          "example": {
+            "fi": "Kellari on kylmä.",
+            "ru": "Подвал холодный."
+          },
+          "audio": "/audio/A1-6/common/kellari.mp3"
+        },
+        {
+          "fi": "ylös",
+          "translations": {
+            "ru": "вверх",
+            "en": "up"
+          },
+          "example": {
+            "fi": "Mene ylös portaita.",
+            "ru": "Иди вверх по лестнице."
+          },
+          "audio": "/audio/A1-6/common/ylös.mp3"
+        },
+        {
+          "fi": "okei",
+          "translations": {
+            "ru": "окей",
+            "en": "okay"
+          },
+          "example": {
+            "fi": "Okei, ymmärrän.",
+            "ru": "Окей, я понимаю."
+          },
+          "audio": "/audio/A1-6/common/okei.mp3"
+        },
+        {
+          "fi": "ovi",
+          "translations": {
+            "ru": "дверь",
+            "en": "door"
+          },
+          "example": {
+            "fi": "Ovi on auki.",
+            "ru": "Дверь открыта."
+          },
+          "audio": "/audio/A1-6/common/ovi.mp3"
+        },
+        {
+          "fi": "auki",
+          "translations": {
+            "ru": "открытый",
+            "en": "open"
+          },
+          "example": {
+            "fi": "Kauppa on auki.",
+            "ru": "Магазин открыт."
+          },
+          "audio": "/audio/A1-6/common/auki.mp3"
+        }
+      ]
+    },
+    "adjektiivit": {
+      "title": "Прилагательные",
+      "words": [
+        {
+          "fi": "korkea",
+          "translations": {
+            "ru": "высокий"
+          },
+          "example": {
+            "fi": "Talo on korkea.",
+            "ru": "Дом высокий."
+          },
+          "audio": "/audio/A1-6/vocabulary/adjektiivit/korkea.mp3"
+        },
+        {
+          "fi": "matala",
+          "translations": {
+            "ru": "низкий"
+          },
+          "example": {
+            "fi": "Rakennus on matala.",
+            "ru": "Здание низкое."
+          },
+          "audio": "/audio/A1-6/vocabulary/adjektiivit/matala.mp3"
+        },
+        {
+          "fi": "leveä",
+          "translations": {
+            "ru": "широкий"
+          },
+          "example": {
+            "fi": "Tämä katu on leveä.",
+            "ru": "Эта улица широкая."
+          },
+          "audio": "/audio/A1-6/vocabulary/adjektiivit/levea.mp3"
+        },
+        {
+          "fi": "kapea",
+          "translations": {
+            "ru": "узкий"
+          },
+          "example": {
+            "fi": "Tie on kapea.",
+            "ru": "Дорога узкая."
+          },
+          "audio": "/audio/A1-6/vocabulary/adjektiivit/kapea.mp3"
+        },
+        {
+          "fi": "pehmeä",
+          "translations": {
+            "ru": "мягкий"
+          },
+          "example": {
+            "fi": "Tämä tyyny on pehmeä.",
+            "ru": "Эта подушка мягкая."
+          },
+          "audio": "/audio/A1-6/vocabulary/adjektiivit/pehmea.mp3"
+        },
+        {
+          "fi": "kova",
+          "translations": {
+            "ru": "жесткий / твердый"
+          },
+          "example": {
+            "fi": "Tuoli on kova.",
+            "ru": "Стул твердый."
+          },
+          "audio": "/audio/A1-6/vocabulary/adjektiivit/kova.mp3"
+        },
+        {
+          "fi": "viihtyisä",
+          "translations": {
+            "ru": "уютный"
+          },
+          "example": {
+            "fi": "Ravintola on viihtyisä.",
+            "ru": "Ресторан уютный."
+          },
+          "audio": "/audio/A1-6/vocabulary/adjektiivit/viihtyisa.mp3"
+        },
+        {
+          "fi": "kodikas",
+          "translations": {
+            "ru": "домашний / уютный"
+          },
+          "example": {
+            "fi": "Meidän koti on kodikas.",
+            "ru": "Наш дом уютный."
+          },
+          "audio": "/audio/A1-6/vocabulary/adjektiivit/kodikas.mp3"
+        },
+        {
+          "fi": "siisti",
+          "translations": {
+            "ru": "чистый / опрятный"
+          },
+          "example": {
+            "fi": "Huone on siisti.",
+            "ru": "Комната чистая."
+          },
+          "audio": "/audio/A1-6/vocabulary/adjektiivit/siisti.mp3"
+        },
+        {
+          "fi": "sotkuinen",
+          "translations": {
+            "ru": "грязный / в беспорядке"
+          },
+          "example": {
+            "fi": "Keittiö on sotkuinen.",
+            "ru": "Кухня в беспорядке."
+          },
+          "audio": "/audio/A1-6/vocabulary/adjektiivit/sotkuinen.mp3"
+        }
+      ]
+    },
+    "pikkusanat": {
+      "title": "Маленькие слова и противоположности",
+      "words": [
+        {
+          "fi": "usein",
+          "translations": {
+            "ru": "часто"
+          },
+          "example": {
+            "fi": "Emma istuu usein matolla ja lukee kirjaa.",
+            "ru": "Эмма часто сидит на ковре и читает книгу."
+          },
+          "audio": "/audio/A1-6/vocabulary/pikkusanat/usein.mp3"
+        },
+        {
+          "fi": "jo",
+          "translations": {
+            "ru": "уже"
+          },
+          "example": {
+            "fi": "Me menemme jo ylös.",
+            "ru": "Мы уже поднимаемся наверх."
+          },
+          "audio": "/audio/A1-6/vocabulary/pikkusanat/jo.mp3"
+        },
+        {
+          "fi": "aika",
+          "translations": {
+            "ru": "довольно / весьма"
+          },
+          "example": {
+            "fi": "Huone on aika pieni.",
+            "ru": "Комната довольно маленькая."
+          },
+          "audio": "/audio/A1-6/vocabulary/pikkusanat/aika.mp3"
+        },
+        {
+          "fi": "ylös",
+          "translations": {
+            "ru": "вверх"
+          },
+          "example": {
+            "fi": "Kiipeän portaita ylös.",
+            "ru": "Я поднимаюсь по лестнице вверх."
+          },
+          "audio": "/audio/A1-6/vocabulary/pikkusanat/ylos.mp3"
+        },
+        {
+          "fi": "alas",
+          "translations": {
+            "ru": "вниз"
+          },
+          "example": {
+            "fi": "Tulen alas portaita.",
+            "ru": "Я спускаюсь вниз по лестнице."
+          },
+          "audio": "/audio/A1-6/vocabulary/pikkusanat/alas.mp3"
+        },
+        {
+          "fi": "auki",
+          "translations": {
+            "ru": "открыт"
+          },
+          "example": {
+            "fi": "Ovi on auki.",
+            "ru": "Дверь открыта."
+          },
+          "audio": "/audio/A1-6/vocabulary/pikkusanat/auki.mp3"
+        },
+        {
+          "fi": "kiinni",
+          "translations": {
+            "ru": "закрыт"
+          },
+          "example": {
+            "fi": "Ikkuna on kiinni.",
+            "ru": "Окно закрыто."
+          },
+          "audio": "/audio/A1-6/vocabulary/pikkusanat/kiinni.mp3"
+        }
+      ]
+    },
+    "huoneet": {
+      "title": "Комнаты",
+      "words": [
+        {
+          "fi": "keittiö",
+          "translations": {
+            "ru": "кухня"
+          },
+          "audio": "/audio/A1-6/vocabulary/huoneet/keittio.mp3"
+        },
+        {
+          "fi": "makuuhuone",
+          "translations": {
+            "ru": "спальня"
+          },
+          "audio": "/audio/A1-6/vocabulary/huoneet/makuuhuone.mp3"
+        },
+        {
+          "fi": "työhuone",
+          "translations": {
+            "ru": "кабинет"
+          },
+          "audio": "/audio/A1-6/vocabulary/huoneet/tyohuone.mp3"
+        },
+        {
+          "fi": "lastenhuone",
+          "translations": {
+            "ru": "детская комната"
+          },
+          "audio": "/audio/A1-6/vocabulary/huoneet/lastenhuone.mp3"
+        },
+        {
+          "fi": "olohuone",
+          "translations": {
+            "ru": "гостиная"
+          },
+          "audio": "/audio/A1-6/vocabulary/huoneet/olohuone.mp3"
+        },
+        {
+          "fi": "kylpyhuone",
+          "translations": {
+            "ru": "ванная"
+          },
+          "audio": "/audio/A1-6/vocabulary/huoneet/kylpyhuone.mp3"
+        },
+        {
+          "fi": "vessa",
+          "translations": {
+            "ru": "туалет"
+          },
+          "audio": "/audio/A1-6/vocabulary/huoneet/vessa.mp3"
+        },
+        {
+          "fi": "eteinen",
+          "translations": {
+            "ru": "прихожая"
+          },
+          "audio": "/audio/A1-6/vocabulary/huoneet/eteinen.mp3"
+        },
+        {
+          "fi": "vaatehuone",
+          "translations": {
+            "ru": "гардеробная"
+          },
+          "audio": "/audio/A1-6/vocabulary/huoneet/vaatehuone.mp3"
+        },
+        {
+          "fi": "vierashuone",
+          "translations": {
+            "ru": "гостевая комната"
+          },
+          "audio": "/audio/A1-6/vocabulary/huoneet/vierashuone.mp3"
+        },
+        {
+          "fi": "parveke",
+          "translations": {
+            "ru": "балкон"
+          },
+          "audio": "/audio/A1-6/vocabulary/huoneet/parveke.mp3"
+        },
+        {
+          "fi": "terassi",
+          "translations": {
+            "ru": "терраса"
+          },
+          "audio": "/audio/A1-6/vocabulary/huoneet/terassi.mp3"
+        },
+        {
+          "fi": "sauna",
+          "translations": {
+            "ru": "сауна"
+          },
+          "audio": "/audio/A1-6/vocabulary/huoneet/sauna.mp3"
+        }
+      ]
+    },
+    "talossa": {
+      "title": "В доме",
+      "words": [
+        {
+          "fi": "lattia",
+          "translations": {
+            "ru": "пол"
+          },
+          "audio": "/audio/A1-6/vocabulary/talossa/lattia.mp3"
+        },
+        {
+          "fi": "katto",
+          "translations": {
+            "ru": "потолок / крыша"
+          },
+          "audio": "/audio/A1-6/vocabulary/talossa/katto.mp3"
+        },
+        {
+          "fi": "seinä",
+          "translations": {
+            "ru": "стена"
+          },
+          "audio": "/audio/A1-6/vocabulary/talossa/seina.mp3"
+        },
+        {
+          "fi": "ovi",
+          "translations": {
+            "ru": "дверь"
+          },
+          "audio": "/audio/A1-6/vocabulary/talossa/ovi.mp3"
+        },
+        {
+          "fi": "ikkuna",
+          "translations": {
+            "ru": "окно"
+          },
+          "audio": "/audio/A1-6/vocabulary/talossa/ikkuna.mp3"
+        },
+        {
+          "fi": "alakerta",
+          "translations": {
+            "ru": "нижний этаж"
+          },
+          "audio": "/audio/A1-6/vocabulary/talossa/alakerta.mp3"
+        },
+        {
+          "fi": "yläkerta",
+          "translations": {
+            "ru": "верхний этаж"
+          },
+          "audio": "/audio/A1-6/vocabulary/talossa/ylakerta.mp3"
+        },
+        {
+          "fi": "kellari",
+          "translations": {
+            "ru": "подвал"
+          },
+          "audio": "/audio/A1-6/vocabulary/talossa/kellari.mp3"
+        },
+        {
+          "fi": "autotalli",
+          "translations": {
+            "ru": "гараж"
+          },
+          "audio": "/audio/A1-6/vocabulary/talossa/autotalli.mp3"
+        },
+        {
+          "fi": "parkkipaikka",
+          "translations": {
+            "ru": "парковка"
+          },
+          "audio": "/audio/A1-6/vocabulary/talossa/parkkipaikka.mp3"
+        },
+        {
+          "fi": "hissi",
+          "translations": {
+            "ru": "лифт"
+          },
+          "audio": "/audio/A1-6/vocabulary/talossa/hissi.mp3"
+        },
+        {
+          "fi": "rapukäytävä (rappu)",
+          "translations": {
+            "ru": "подъезд"
+          },
+          "audio": "/audio/A1-6/vocabulary/talossa/rapukaytava_rappu.mp3"
+        },
+        {
+          "fi": "ensimmäinen kerros",
+          "translations": {
+            "ru": "первый этаж"
+          },
+          "audio": "/audio/A1-6/vocabulary/talossa/ensimmainen_kerros.mp3"
+        },
+        {
+          "fi": "toinen kerros",
+          "translations": {
+            "ru": "второй этаж"
+          },
+          "audio": "/audio/A1-6/vocabulary/talossa/toinen_kerros.mp3"
+        }
+      ]
+    },
+    "huonekalut": {
+      "title": "Мебель",
+      "words": [
+        {
+          "fi": "tuoli",
+          "translations": {
+            "ru": "стул"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/tuoli.mp3"
+        },
+        {
+          "fi": "nojatuoli",
+          "translations": {
+            "ru": "кресло"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/nojatuoli.mp3"
+        },
+        {
+          "fi": "työtuoli",
+          "translations": {
+            "ru": "рабочий стул"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/tyotuoli.mp3"
+        },
+        {
+          "fi": "pöytä",
+          "translations": {
+            "ru": "стол"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/poyta.mp3"
+        },
+        {
+          "fi": "sohvapöytä",
+          "translations": {
+            "ru": "журнальный столик"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/sohvapoyta.mp3"
+        },
+        {
+          "fi": "ruokapöytä",
+          "translations": {
+            "ru": "обеденный стол"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/ruokapoyta.mp3"
+        },
+        {
+          "fi": "työpöytä / kirjoituspöytä",
+          "translations": {
+            "ru": "письменный стол"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/tyopoyta___kirjoituspoyta.mp3"
+        },
+        {
+          "fi": "yöpöytä",
+          "translations": {
+            "ru": "тумбочка"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/yopoyta.mp3"
+        },
+        {
+          "fi": "kaappi",
+          "translations": {
+            "ru": "шкаф"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/kaappi.mp3"
+        },
+        {
+          "fi": "TV-taso",
+          "translations": {
+            "ru": "тумба под ТВ"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/tvtaso.mp3"
+        },
+        {
+          "fi": "sohva",
+          "translations": {
+            "ru": "диван"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/sohva.mp3"
+        },
+        {
+          "fi": "sänky",
+          "translations": {
+            "ru": "кровать"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/sanky.mp3"
+        },
+        {
+          "fi": "kirjahylly",
+          "translations": {
+            "ru": "книжная полка"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/kirjahylly.mp3"
+        },
+        {
+          "fi": "matto",
+          "translations": {
+            "ru": "ковёр"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/matto.mp3"
+        },
+        {
+          "fi": "verhot",
+          "translations": {
+            "ru": "шторы"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/verhot.mp3"
+        },
+        {
+          "fi": "taulu",
+          "translations": {
+            "ru": "картина"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/taulu.mp3"
+        },
+        {
+          "fi": "lamppu",
+          "translations": {
+            "ru": "лампа"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/lamppu.mp3"
+        },
+        {
+          "fi": "peili",
+          "translations": {
+            "ru": "зеркало"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/peili.mp3"
+        },
+        {
+          "fi": "suihku",
+          "translations": {
+            "ru": "душ"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/suihku.mp3"
+        },
+        {
+          "fi": "kylpyamme",
+          "translations": {
+            "ru": "ванна"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/kylpyamme.mp3"
+        },
+        {
+          "fi": "pesuallas",
+          "translations": {
+            "ru": "раковина"
+          },
+          "audio": "/audio/A1-6/vocabulary/huonekalut/pesuallas.mp3"
+        }
+      ]
+    },
+    "talot": {
+      "title": "Типы домов",
+      "words": [
+        {
+          "fi": "kerrostalo",
+          "translations": {
+            "ru": "многоквартирный дом"
+          },
+          "audio": "/audio/A1-6/vocabulary/talot/kerrostalo.mp3"
+        },
+        {
+          "fi": "rivitalo",
+          "translations": {
+            "ru": "таунхаус"
+          },
+          "audio": "/audio/A1-6/vocabulary/talot/rivitalo.mp3"
+        },
+        {
+          "fi": "omakotitalo",
+          "translations": {
+            "ru": "частный дом"
+          },
+          "audio": "/audio/A1-6/vocabulary/talot/omakotitalo.mp3"
+        }
+      ]
+    },
+    "asunnot": {
+      "title": "Жильё",
+      "words": [
+        {
+          "fi": "yksiö",
+          "translations": {
+            "ru": "однокомнатная квартира"
+          },
+          "audio": "/audio/A1-6/vocabulary/asunnot/yksio.mp3"
+        },
+        {
+          "fi": "kaksio",
+          "translations": {
+            "ru": "двухкомнатная квартира"
+          },
+          "audio": "/audio/A1-6/vocabulary/asunnot/kaksio.mp3"
+        },
+        {
+          "fi": "3 huonetta ja keittiö",
+          "translations": {
+            "ru": "3 комнаты и кухня"
+          },
+          "audio": "/audio/A1-6/vocabulary/asunnot/3_huonetta_ja_keittio.mp3"
+        },
+        {
+          "fi": "4 huonetta ja keittiö",
+          "translations": {
+            "ru": "4 комнаты и кухня"
+          },
+          "audio": "/audio/A1-6/vocabulary/asunnot/4_huonetta_ja_keittio.mp3"
+        },
+        {
+          "fi": "vuokra-asunto",
+          "translations": {
+            "ru": "съёмное жильё"
+          },
+          "audio": "/audio/A1-6/vocabulary/asunnot/vuokraasunto.mp3"
+        },
+        {
+          "fi": "omistusasunto",
+          "translations": {
+            "ru": "собственное жильё"
+          },
+          "audio": "/audio/A1-6/vocabulary/asunnot/omistusasunto.mp3"
+        },
+        {
+          "fi": "opiskelija-asunto",
+          "translations": {
+            "ru": "общежитие / жильё студента"
+          },
+          "audio": "/audio/A1-6/vocabulary/asunnot/opiskelijaasunto.mp3"
+        }
+      ]
+    },
+    "kodinkoneet": {
+      "title": "Бытовая техника",
+      "words": [
+        {
+          "fi": "pesukone",
+          "translations": {
+            "ru": "стиральная машина"
+          },
+          "audio": "/audio/A1-6/vocabulary/kodinkoneet/pesukone.mp3"
+        },
+        {
+          "fi": "astianpesukone",
+          "translations": {
+            "ru": "посудомоечная машина"
+          },
+          "audio": "/audio/A1-6/vocabulary/kodinkoneet/astianpesukone.mp3"
+        },
+        {
+          "fi": "jääkaappi",
+          "translations": {
+            "ru": "холодильник"
+          },
+          "audio": "/audio/A1-6/vocabulary/kodinkoneet/jaakaappi.mp3"
+        },
+        {
+          "fi": "pakastin",
+          "translations": {
+            "ru": "морозильник"
+          },
+          "audio": "/audio/A1-6/vocabulary/kodinkoneet/pakastin.mp3"
+        },
+        {
+          "fi": "hella + uuni",
+          "translations": {
+            "ru": "плита + духовка"
+          },
+          "audio": "/audio/A1-6/vocabulary/kodinkoneet/hella___uuni.mp3"
+        },
+        {
+          "fi": "mikroaaltouuni",
+          "translations": {
+            "ru": "микроволновка"
+          },
+          "audio": "/audio/A1-6/vocabulary/kodinkoneet/mikroaaltouuni.mp3"
+        },
+        {
+          "fi": "kahvinkeitin",
+          "translations": {
+            "ru": "кофеварка"
+          },
+          "audio": "/audio/A1-6/vocabulary/kodinkoneet/kahvinkeitin.mp3"
+        },
+        {
+          "fi": "vedenkeitin",
+          "translations": {
+            "ru": "чайник"
+          },
+          "audio": "/audio/A1-6/vocabulary/kodinkoneet/vedenkeitin.mp3"
+        },
+        {
+          "fi": "leivänpaahdin",
+          "translations": {
+            "ru": "тостер"
+          },
+          "audio": "/audio/A1-6/vocabulary/kodinkoneet/leivanpaahdin.mp3"
+        },
+        {
+          "fi": "imuri",
+          "translations": {
+            "ru": "пылесос"
+          },
+          "audio": "/audio/A1-6/vocabulary/kodinkoneet/imuri.mp3"
+        },
+        {
+          "fi": "televisio",
+          "translations": {
+            "ru": "телевизор"
+          },
+          "audio": "/audio/A1-6/vocabulary/kodinkoneet/televisio.mp3"
+        },
+        {
+          "fi": "kaukosäädin",
+          "translations": {
+            "ru": "пульт дистанционного управления"
+          },
+          "audio": "/audio/A1-6/vocabulary/kodinkoneet/kaukosaadin.mp3"
+        },
+        {
+          "fi": "DVD-soitin",
+          "translations": {
+            "ru": "DVD-проигрыватель"
+          },
+          "audio": "/audio/A1-6/vocabulary/kodinkoneet/dvdsoitin.mp3"
+        },
+        {
+          "fi": "CD-soitin",
+          "translations": {
+            "ru": "CD-проигрыватель"
+          },
+          "audio": "/audio/A1-6/vocabulary/kodinkoneet/cdsoitin.mp3"
+        },
+        {
+          "fi": "tietokone",
+          "translations": {
+            "ru": "компьютер"
+          },
+          "audio": "/audio/A1-6/vocabulary/kodinkoneet/tietokone.mp3"
+        }
+      ]
+    }
+  },
+  "grammar": {
+    "sections": [
+      {
+        "id": "monikko",
+        "title": {
+          "ru": "Множественное число и повелительное наклонение",
+          "fi": "Monikko ja Imperatiivi"
+        },
+        "explanation": {
+          "ru": ""
+        },
+        "exercises": [
+          {
+            "id": "monikko",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "🔹 Monikko (Множественное число)"
+              },
+              "intro": {
+                "ru": "В финском языке множественное число образуется добавлением окончания **-t** к существительному.\n\n**Примеры:**\n\n• talo → talot (дом → дома)\n• kissa → kissat (кошка → кошки)\n• koira → koirat (собака → собаки)\n• hyvä talo → hyvät talot (хороший дом → хорошие дома)\n• vanha auto → vanhat autot (старая машина → старые машины)"
+              },
+              "important": {
+                "title": {
+                  "ru": "👉 Обрати внимание"
+                },
+                "body": {
+                  "ru": "У слов могут меняться буквы из-за чередования согласных:\n\n• tyttö → tytöt\n• sänky → sängyt (кровать → кровати)\n• kukka → kukat (цветок → цветы)\n• kenkä → kengät (ботинок → ботинки)\n• lasi → lasit (стекло/стакан → стёкла/стаканы)\n\nПрилагательные тоже становятся во множественном числе (vanha auto → vanhat autot)."
+                }
+              },
+              "summary": {
+                "title": {
+                  "ru": "📌 Запомни"
+                },
+                "body": {
+                  "ru": "И существительные, и прилагательные согласуются в числе."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "👥 Превратите слова в форму множественного числа. \n\nПравило:\n- Обычно добавляем окончание **-t** (talo → talot).\n- Прилагательные тоже получают -t и согласуются с существительным (hyvä talo → hyvät talot).\n- В некоторых словах происходит **чередование согласных**: \n  • tyttö → tytöt \n  • sänky → sängyt \n  • kenkä → kengät.\n\n✏️ Впишите только пропущенную букву(-t)."
+            },
+            "items": [
+              {
+                "sentence": "talo → talo__",
+                "answer": "t",
+                "translation": "дом → дома",
+                "feedbackCorrect": "✅ Верно! talo → talot (добавляем -t).",
+                "feedbackWrong": "❌ Ошибка. В форме множественного числа нужно -t: talot."
+              },
+              {
+                "sentence": "kissa → kissa__",
+                "answer": "t",
+                "translation": "кошка → кошки",
+                "feedbackCorrect": "✅ Отлично! kissa → kissat (окончание -t).",
+                "feedbackWrong": "❌ Нет. Нужно kissat."
+              },
+              {
+                "sentence": "koira → koira__",
+                "answer": "t",
+                "translation": "собака → собаки",
+                "feedbackCorrect": "✅ Верно! koira → koirat.",
+                "feedbackWrong": "❌ Ошибка. Нужно koirat."
+              },
+              {
+                "sentence": "tyttö → tytö__",
+                "answer": "t",
+                "translation": "девочка → девочки",
+                "feedbackCorrect": "✅ Молодец! tyttö → tytöt (чередование согласных + -t).",
+                "feedbackWrong": "❌ Нет. Правильно tytöt."
+              },
+              {
+                "sentence": "sänky → sängy__",
+                "answer": "t",
+                "translation": "кровать → кровати",
+                "feedbackCorrect": "✅ Отлично! sänky → sängyt (kpt-чередование + -t).",
+                "feedbackWrong": "❌ Ошибка. Нужно sängyt."
+              },
+              {
+                "sentence": "kukka → kukka__",
+                "answer": "t",
+                "translation": "цветок → цветы",
+                "feedbackCorrect": "✅ Верно! kukka → kukat.",
+                "feedbackWrong": "❌ Нет. Нужно kukat."
+              },
+              {
+                "sentence": "kenkä → kengä__",
+                "answer": "t",
+                "translation": "ботинок → ботинки",
+                "feedbackCorrect": "✅ Хорошо! kenkä → kengät (чередование согласных ng-nk + окончание -t).",
+                "feedbackWrong": "❌ Ошибка. Нужно kengät. Чередование ng-nk + окончание -t"
+              },
+              {
+                "sentence": "lasi → lasi__",
+                "answer": "t",
+                "translation": "стакан → стаканы",
+                "feedbackCorrect": "✅ Отлично! lasi → lasit.",
+                "feedbackWrong": "❌ Нет. Нужно lasit."
+              },
+              {
+                "sentence": "hyvä talo → hyvä__ talot",
+                "answer": "t",
+                "translation": "хороший дом → хорошие дома",
+                "feedbackCorrect": "✅ Верно! hyvä talo → hyvät talot (и прилагательное, и существительное получают -t).",
+                "feedbackWrong": "❌ Ошибка. Нужно hyvät talot."
+              },
+              {
+                "sentence": "vanha auto → vanha__ autot",
+                "answer": "t",
+                "translation": "старая машина → старые машины",
+                "feedbackCorrect": "✅ Отлично! vanha auto → vanhat autot.",
+                "feedbackWrong": "❌ Нет. Нужно vanhat autot."
+              }
+            ]
+          },
+          {
+            "id": "imperative-1",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "🔹 Imperatiivi – повелительное наклонение (sinä-персона)"
+              },
+              "intro": {
+                "ru": "Императив используется, когда мы приказываем, просим или советуем.\n\n✅ **Удобный способ образовать форму:**\n\nБерём форму **minä** (1-е лицо ед. числа) и убираем конечную букву **-n** → получаем основу. К ней сразу прибавляем окончание императива."
+              },
+              "conjugationTables": [
+                {
+                  "title": {
+                    "ru": "📌 Примеры"
+                  },
+                  "columns": [
+                    "Инфинитив",
+                    "Форма minä",
+                    "Основа",
+                    "Imperatiivi",
+                    "Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "base": "lukea (читать)",
+                      "person": "minä luen",
+                      "ending": "lue",
+                      "form": "Lue!",
+                      "translation": {
+                        "ru": "Читай!"
+                      }
+                    },
+                    {
+                      "base": "nähdä (видеть)",
+                      "person": "minä näen",
+                      "ending": "näe",
+                      "form": "Näe!",
+                      "translation": {
+                        "ru": "Увидь!"
+                      }
+                    },
+                    {
+                      "base": "juoda (пить)",
+                      "person": "minä juon",
+                      "ending": "juo",
+                      "form": "Juo!",
+                      "translation": {
+                        "ru": "Пей!"
+                      }
+                    },
+                    {
+                      "base": "syödä (есть)",
+                      "person": "minä syön",
+                      "ending": "syö",
+                      "form": "Syö!",
+                      "translation": {
+                        "ru": "Ешь!"
+                      }
+                    },
+                    {
+                      "base": "tulla (приходить)",
+                      "person": "minä tulen",
+                      "ending": "tule",
+                      "form": "Tule!",
+                      "translation": {
+                        "ru": "Приходи!"
+                      }
+                    },
+                    {
+                      "base": "mennä (идти)",
+                      "person": "minä menen",
+                      "ending": "mene",
+                      "form": "Mene!",
+                      "translation": {
+                        "ru": "Иди!"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruction": {
+              "ru": "✏️ Образуйте форму императива (повелительное наклонение, **sinä**). \n\nКак делать:\n1. Возьмите форму **minä** (я) в настоящем времени.\n2. Уберите у неё конечную букву **-n**.\n3. Получившаяся основа и есть форма императива. \n\nПримеры:\n- minä **luen** → убираем -n → **Lue!** (Читай!)\n- minä **juon** → убираем -n → **Juo!** (Пей!)\n- minä **menen** → убираем -n → **Mene!** (Иди!)"
+            },
+            "items": [
+              {
+                "sentence": "Lukea → minä lue_n → ___! ",
+                "answer": "Lue",
+                "translation": "Читай!",
+                "feedbackCorrect": "✅ Верно! Luen → убираем -n → lue → Lue!",
+                "feedbackWrong": "❌ Ошибка. Нужно убрать -n и оставить основу: Lue!"
+              },
+              {
+                "sentence": "Nähdä → minä näe_n → ___!",
+                "answer": "Näe",
+                "translation": "Увидь!",
+                "feedbackCorrect": "✅ Отлично! Näen → убираем -n → näe → Näe!",
+                "feedbackWrong": "❌ Нет. Из формы minä näen убираем -n → Näe!"
+              },
+              {
+                "sentence": "Juoda → minä juo_n → ___!",
+                "answer": "Juo",
+                "translation": "Пей!",
+                "feedbackCorrect": "✅ Молодец! Juon → убираем -n → juo → Juo!",
+                "feedbackWrong": "❌ Ошибка. Из формы minä juon убираем -n → Juo!"
+              },
+              {
+                "sentence": "Syödä → minä syö_n → ___!",
+                "answer": "Syö",
+                "translation": "Ешь!",
+                "feedbackCorrect": "✅ Верно! Syön → убираем -n → syö → Syö!",
+                "feedbackWrong": "❌ Неверно. Из формы minä syön убираем -n → Syö!"
+              },
+              {
+                "sentence": "Tulla → minä tule_n → ___!",
+                "answer": "Tule",
+                "translation": "Приходи!",
+                "feedbackCorrect": "✅ Отлично! Tulen → убираем -n → tule → Tule!",
+                "feedbackWrong": "❌ Ошибка. Из формы minä tulen убираем -n → Tule!"
+              },
+              {
+                "sentence": "Mennä → minä mene_n → ___!",
+                "answer": "Mene",
+                "translation": "Иди!",
+                "feedbackCorrect": "✅ Молодец! Menen → убираем -n → mene → Mene!",
+                "feedbackWrong": "❌ Нет. Из формы minä menen убираем -n → Mene!"
+              }
+            ]
+          },
+          {
+            "id": "imperative-2",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "🚫 Отрицательная форма повелительного наклонения (NEG)"
+              },
+              "intro": {
+                "ru": "Отрицательная форма образуется очень просто: перед утвердительной формой императива ставим слово **Älä**.\n\n📌 **Формула: Älä + Imperatiivi**"
+              },
+              "conjugationTables": [
+                {
+                  "title": {
+                    "ru": "Примеры"
+                  },
+                  "columns": [
+                    "Утвердительно",
+                    "Отрицательно",
+                    "Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "form": "Syö!",
+                      "ei_form": "Älä syö!",
+                      "translation": {
+                        "ru": "Не ешь!"
+                      }
+                    },
+                    {
+                      "form": "Lue!",
+                      "ei_form": "Älä lue!",
+                      "translation": {
+                        "ru": "Не читай!"
+                      }
+                    },
+                    {
+                      "form": "Tule!",
+                      "ei_form": "Älä tule!",
+                      "translation": {
+                        "ru": "Не приходи!"
+                      }
+                    },
+                    {
+                      "form": "Mene!",
+                      "ei_form": "Älä mene!",
+                      "translation": {
+                        "ru": "Не иди!"
+                      }
+                    },
+                    {
+                      "form": "Nuku!",
+                      "ei_form": "Älä nuku!",
+                      "translation": {
+                        "ru": "Не спи!"
+                      }
+                    },
+                    {
+                      "form": "Juo!",
+                      "ei_form": "Älä juo!",
+                      "translation": {
+                        "ru": "Не пей!"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "summary": {
+                "title": {
+                  "ru": "✅ Таким образом"
+                },
+                "body": {
+                  "ru": "• **Monikko** = добавляем -t, меняются и существительные, и прилагательные.\n\n• **Imperatiivi** = для приказов и запретов.\n\n• положительная форма: основа глагола → Tule!\n\n• отрицательная форма: Älä + глагол → Älä tule!"
+                }
+              }
+            },
+            "instruction": {
+              "ru": "🚫 Напишите **Älä**, чтобы образовать отрицательную форму повелительного наклонения.\n\n📌 Формула: **Älä + Imperatiivi**\n\nПримеры:\n- Syö! → Älä syö! (Ешь! → Не ешь!)\n- Tule! → Älä tule! (Приходи! → Не приходи!)\n- Nuku! → Älä nuku! (Спи! → Не спи!)\n\nВ задании в начале предложения пропущено слово **Älä**. Впишите его."
+            },
+            "items": [
+              {
+                "sentence": "___ syö! (Не ешь!)",
+                "answer": "Älä",
+                "translation": "Не ешь!",
+                "feedbackCorrect": "✅ Верно! Отрицательная форма: Älä syö!",
+                "feedbackWrong": "❌ Ошибка. Нужно добавить Älä → Älä syö!"
+              },
+              {
+                "sentence": "___ lue! (Не читай!)",
+                "answer": "Älä",
+                "translation": "Не читай!",
+                "feedbackCorrect": "✅ Отлично! Отрицательная форма: Älä lue!",
+                "feedbackWrong": "❌ Нет. Здесь правильный вариант: Älä lue!"
+              },
+              {
+                "sentence": "___ tule! (Не приходи!)",
+                "answer": "Älä",
+                "translation": "Не приходи!",
+                "feedbackCorrect": "✅ Молодец! Tule! → Älä tule!",
+                "feedbackWrong": "❌ Ошибка. Нужно сказать Älä tule!"
+              },
+              {
+                "sentence": "___ mene! (Не иди!)",
+                "answer": "Älä",
+                "translation": "Не иди!",
+                "feedbackCorrect": "✅ Верно! Mene! → Älä mene!",
+                "feedbackWrong": "❌ Неверно. Здесь правильный вариант: Älä mene!"
+              },
+              {
+                "sentence": "___ nuku! (Не спи!)",
+                "answer": "Älä",
+                "translation": "Не спи!",
+                "feedbackCorrect": "✅ Отлично! Nuku! → Älä nuku!",
+                "feedbackWrong": "❌ Ошибка. Отрицательная форма: Älä nuku!"
+              },
+              {
+                "sentence": "___ juo! (Не пей!)",
+                "answer": "Älä",
+                "translation": "Не пей!",
+                "feedbackCorrect": "✅ Хорошо! Juo! → Älä juo!",
+                "feedbackWrong": "❌ Нет. Нужно Älä juo!"
+              }
+            ]
+          },
+          {
+            "id": "plural-words-1",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "📚 Выберите правильную форму во множественном числе.\n🪄 Помните:\n- во множественном числе к существительным обычно добавляется окончание **-t**;\n- если есть прилагательное или указательное местоимение — они тоже меняются во множественное число;\n- ⚡ в некоторых словах происходит **чередование согласных** (например: *kaupunki → kaupungit*, *pöytä → pöydät*, *mies → miehet*, *lapsi → lapset*)."
+            },
+            "questions": [
+              {
+                "question": "kirja",
+                "options": [
+                  "kirjat",
+                  "kirjas"
+                ],
+                "answer": 0,
+                "translation": "книга → книги"
+              },
+              {
+                "question": "kaupunki",
+                "options": [
+                  "kaupunkit",
+                  "kaupungit"
+                ],
+                "answer": 1,
+                "translation": "город → города"
+              },
+              {
+                "question": "opiskelija",
+                "options": [
+                  "opiskelijas",
+                  "opiskelijat"
+                ],
+                "answer": 1,
+                "translation": "студент → студенты"
+              },
+              {
+                "question": "valoisa asunto",
+                "options": [
+                  "valoisat asunnot",
+                  "valoisat asuntot"
+                ],
+                "answer": 0,
+                "translation": "светлая квартира → светлые квартиры"
+              },
+              {
+                "question": "hyvä ystävä",
+                "options": [
+                  "hyvät ystävä",
+                  "hyvät ystävät"
+                ],
+                "answer": 1,
+                "translation": "хороший друг → хорошие друзья"
+              },
+              {
+                "question": "lamppu",
+                "options": [
+                  "lampput",
+                  "lamput"
+                ],
+                "answer": 1,
+                "translation": "лампа → лампы"
+              },
+              {
+                "question": "kaappi",
+                "options": [
+                  "kaapit",
+                  "kaappit"
+                ],
+                "answer": 0,
+                "translation": "шкаф → шкафы"
+              },
+              {
+                "question": "ilta",
+                "options": [
+                  "iltat",
+                  "illat"
+                ],
+                "answer": 1,
+                "translation": "вечер → вечера"
+              },
+              {
+                "question": "hyvä opiskelija",
+                "options": [
+                  "hyvät opiskelijat",
+                  "hyvä opiskelijat"
+                ],
+                "answer": 0,
+                "translation": "хороший студент → хорошие студенты"
+              },
+              {
+                "question": "halpa kauppa",
+                "options": [
+                  "halpa kaupat",
+                  "halvat kaupat"
+                ],
+                "answer": 1,
+                "translation": "дешёвый магазин → дешёвые магазины"
+              },
+              {
+                "question": "tämä liila sandaali",
+                "options": [
+                  "nämä liila sandaalit",
+                  "nämä liilat sandaalit"
+                ],
+                "answer": 1,
+                "translation": "эта фиолетовая сандалия → эти фиолетовые сандалии"
+              },
+              {
+                "question": "tuo mukava naapuri",
+                "options": [
+                  "nuo mukavat naapurit",
+                  "tuo mukavat naapurit"
+                ],
+                "answer": 0,
+                "translation": "тот приятный сосед → те приятные соседи"
+              },
+              {
+                "question": "se pöytä",
+                "options": [
+                  "ne pöytät",
+                  "ne pöydät"
+                ],
+                "answer": 1,
+                "translation": "тот стол → те столы"
+              },
+              {
+                "question": "omena",
+                "options": [
+                  "omenat",
+                  "omenät"
+                ],
+                "answer": 0,
+                "translation": "яблоко → яблоки"
+              },
+              {
+                "question": "lapsi",
+                "options": [
+                  "lapsit",
+                  "lapset"
+                ],
+                "answer": 1,
+                "translation": "ребёнок → дети"
+              },
+              {
+                "question": "talo",
+                "options": [
+                  "talot",
+                  "talöt"
+                ],
+                "answer": 0,
+                "translation": "дом → дома"
+              },
+              {
+                "question": "auto",
+                "options": [
+                  "autöt",
+                  "autot"
+                ],
+                "answer": 1,
+                "translation": "машина → машины"
+              },
+              {
+                "question": "mies",
+                "options": [
+                  "miehet",
+                  "miesit"
+                ],
+                "answer": 0,
+                "translation": "мужчина → мужчины"
+              }
+            ]
+          },
+          {
+            "id": "imperative-commands-1",
+            "type": "multiple-choice-group",
+            "description": "Выберите правильную форму повелительного наклонения (2 лицо, sinä)",
+            "questions": [
+              {
+                "question": "lukea",
+                "options": [
+                  "Luen!",
+                  "Lue!",
+                  "Luet!"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "syödä",
+                "options": [
+                  "Syö!",
+                  "Syön!",
+                  "Syöt!"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "tulla",
+                "options": [
+                  "Tule!",
+                  "Tulen!",
+                  "Tulet!"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "herätä",
+                "options": [
+                  "Herään!",
+                  "Herää!",
+                  "Heräät!"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "valita",
+                "options": [
+                  "Valitse!",
+                  "Valitsen!",
+                  "Valitset!"
+                ],
+                "answer": 0
+              }
+            ]
+          },
+          {
+            "id": "imperative-negative-1",
+            "type": "multiple-choice-group",
+            "description": "Выберите правильную отрицательную форму повелительного наклонения",
+            "questions": [
+              {
+                "question": "lukea",
+                "options": [
+                  "Älä lue!",
+                  "Älä luen!",
+                  "Älä lukee!"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "syödä",
+                "options": [
+                  "Älä syön!",
+                  "Älä syö!",
+                  "Älä syöt!"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "tulla",
+                "options": [
+                  "Älä tule!",
+                  "Älä tulen!",
+                  "Älä tulet!"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "herätä",
+                "options": [
+                  "Älä herään!",
+                  "Älä herää!",
+                  "Älä heräät!"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "valita",
+                "options": [
+                  "Älä valitse!",
+                  "Älä valitsen!",
+                  "Älä valitat!"
+                ],
+                "answer": 0
+              }
+            ]
+          },
+          {
+            "id": "plural-words-1-write",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "✍️ Напишите правильную форму во множественном числе.\n🪄 Помните:\n- к существительным добавляется окончание **-t**;\n- если есть прилагательное или указательное местоимение — они тоже меняются во множественное число;\n- ⚡ в некоторых словах происходит **чередование согласных** (например: *kaupunki → kaupungit*, *pöytä → pöydät*)."
+            },
+            "items": [
+              {
+                "sentence": "kirja → ___",
+                "answer": "kirjat",
+                "translation": "книга → книги"
+              },
+              {
+                "sentence": "kaupunki → ___",
+                "answer": "kaupungit",
+                "translation": "город → города"
+              },
+              {
+                "sentence": "opiskelija → ___",
+                "answer": "opiskelijat",
+                "translation": "студент → студенты"
+              },
+              {
+                "sentence": "valoisa asunto → ___",
+                "answer": "valoisat asunnot",
+                "translation": "светлая квартира → светлые квартиры"
+              },
+              {
+                "sentence": "hyvä ystävä → ___",
+                "answer": "hyvät ystävät",
+                "translation": "хороший друг → хорошие друзья"
+              },
+              {
+                "sentence": "lamppu → ___",
+                "answer": "lamput",
+                "translation": "лампа → лампы"
+              },
+              {
+                "sentence": "kaappi → ___",
+                "answer": "kaapit",
+                "translation": "шкаф → шкафы"
+              },
+              {
+                "sentence": "ilta → ___",
+                "answer": "illat",
+                "translation": "вечер → вечера"
+              },
+              {
+                "sentence": "hyvä opiskelija → ___",
+                "answer": "hyvät opiskelijat",
+                "translation": "хороший студент → хорошие студенты"
+              },
+              {
+                "sentence": "halpa kauppa → ___",
+                "answer": "halvat kaupat",
+                "translation": "дешёвый магазин → дешёвые магазины"
+              },
+              {
+                "sentence": "tämä liila sandaali → ___",
+                "answer": "nämä liilat sandaalit",
+                "translation": "эта фиолетовая сандалия → эти фиолетовые сандалии"
+              },
+              {
+                "sentence": "tuo mukava naapuri → ___",
+                "answer": "nuo mukavat naapurit",
+                "translation": "тот приятный сосед → те приятные соседи"
+              },
+              {
+                "sentence": "se pöytä → ___",
+                "answer": "ne pöydät",
+                "translation": "тот стол → те столы"
+              },
+              {
+                "sentence": "omena → ___",
+                "answer": "omenat",
+                "translation": "яблоко → яблоки"
+              },
+              {
+                "sentence": "lapsi → ___",
+                "answer": "lapset",
+                "translation": "ребёнок → дети"
+              },
+              {
+                "sentence": "talo → ___",
+                "answer": "talot",
+                "translation": "дом → дома"
+              },
+              {
+                "sentence": "auto → ___",
+                "answer": "autot",
+                "translation": "машина → машины"
+              },
+              {
+                "sentence": "mies → ___",
+                "answer": "miehet",
+                "translation": "мужчина → мужчины"
+              }
+            ]
+          },
+          {
+            "id": "ex-imperatiivi-kirjoita",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "📝 Напишите повелительную форму глагола (2 лицо, sinä)."
+            },
+            "items": [
+              {
+                "sentence": "___ kirjaa! (lukea)",
+                "answer": "Lue"
+              },
+              {
+                "sentence": "___ aamupalaa! (syödä)",
+                "answer": "Syö"
+              },
+              {
+                "sentence": "___ tänne! (tulla)",
+                "answer": "Tule"
+              },
+              {
+                "sentence": "___ nyt! (herätä)",
+                "answer": "Herää"
+              },
+              {
+                "sentence": "___ oikein! (valita)",
+                "answer": "Valitse"
+              }
+            ]
+          },
+          {
+            "id": "ex-imperatiivi-negatiivinen",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "📝 Напишите отрицательную форму повелительного наклонения (Älä ...)."
+            },
+            "items": [
+              {
+                "sentence": "___ kirjaa! (lukea)",
+                "answer": "Älä lue"
+              },
+              {
+                "sentence": "___ nyt! (syödä)",
+                "answer": "Älä syö"
+              },
+              {
+                "sentence": "___ sisään! (tulla)",
+                "answer": "Älä tule"
+              },
+              {
+                "sentence": "___ vielä! (herätä)",
+                "answer": "Älä herää"
+              },
+              {
+                "sentence": "___ väärin! (valita)",
+                "answer": "Älä valitse"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "demonstratiivipronominit",
+        "title": {
+          "ru": "Демонстративные местоимения",
+          "fi": "Demonstratiivipronominit"
+        },
+        "explanationStructured": {
+          "title": {
+            "ru": "Указательные местоимения"
+          },
+          "intro": {
+            "ru": "**Указательные местоимения** (Demonstratiivipronominit) в финском языке указывают на предметы, людей или явления и зависят от расстояния и контекста."
+          },
+          "conjugationTables": [
+            {
+              "title": {
+                "ru": "Единственное число"
+              },
+              "columns": [
+                "Местоимение",
+                "Перевод",
+                "Пример",
+                "Перевод примера"
+              ],
+              "rows": [
+                {
+                  "pronoun": "tämä",
+                  "translation": {
+                    "ru": "этот, эта (близко)"
+                  },
+                  "example": "Tämä talo on minun kotitalo.",
+                  "note": {
+                    "ru": "Этот дом — мой родной дом."
+                  }
+                },
+                {
+                  "pronoun": "tuo",
+                  "translation": {
+                    "ru": "тот, та (немного дальше)"
+                  },
+                  "example": "Tuo vanha talo on kaunis.",
+                  "note": {
+                    "ru": "Тот старый дом красивый."
+                  }
+                },
+                {
+                  "pronoun": "se",
+                  "translation": {
+                    "ru": "он, она, оно (о чём-то известном)"
+                  },
+                  "example": "Se on museo.",
+                  "note": {
+                    "ru": "Это музей."
+                  }
+                }
+              ]
+            },
+            {
+              "title": {
+                "ru": "🔁 Множественное число"
+              },
+              "columns": [
+                "Местоимение",
+                "Перевод",
+                "Пример",
+                "Перевод примера"
+              ],
+              "rows": [
+                {
+                  "pronoun": "nämä",
+                  "translation": {
+                    "ru": "эти (близко)"
+                  },
+                  "example": "Nämä lilat sandaalit maksavat 25 euroa.",
+                  "note": {
+                    "ru": "Эти лиловые сандалии стоят 25 евро."
+                  }
+                },
+                {
+                  "pronoun": "nuo",
+                  "translation": {
+                    "ru": "те (подальше)"
+                  },
+                  "example": "Mitä nuo vihreät sandaalit maksavat?",
+                  "note": {
+                    "ru": "Сколько стоят те зелёные сандалии?"
+                  }
+                },
+                {
+                  "pronoun": "ne",
+                  "translation": {
+                    "ru": "они / те (известные)"
+                  },
+                  "example": "Ne maksavat 31 euroa.",
+                  "note": {
+                    "ru": "Они стоят 31 евро."
+                  }
+                }
+              ]
+            }
+          ],
+          "important": {
+            "title": {
+              "ru": "📌 Подсказка"
+            },
+            "body": {
+              "ru": "**tämä / nämä** — предмет рядом с вами\n\n**tuo / nuo** — предмет немного дальше, видно\n\n**se / ne** — о чём-то уже известном или упомянутом; место может быть неизвестным или неважным"
+            }
+          },
+          "summary": {
+            "title": {
+              "ru": "🧠 Как понять, когда использовать se / ne?"
+            },
+            "body": {
+              "ru": "• Используются, если вы уже говорили об этом предмете ранее\n\n• Подходит, если собеседник понимает, о чём речь\n\n• Часто используются как местоимения: **se = он / она / это**, **ne = они**\n\n• Неважно, где находится предмет — может быть далеко, абстрактно или даже в другом городе\n\n**Примеры:**\n\n– Missä kirja on? *(Где книга?)*\n\n– **Se** on pöydällä. *(Она на столе.)*\n\n– Missä lapset ovat? *(Где дети?)*\n\n– **Ne** ovat ulkona. *(Они на улице.)*"
+            }
+          }
+        },
+        "exercises": [
+          {
+            "id": "demonstratiivipronominit-valinta",
+            "title": {
+              "ru": "Указательные местоимения",
+              "fi": "Demonstratiivipronominit"
+            },
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "👉 Выберите правильное указательное местоимение по смыслу фразы и подсказке в скобках."
+            },
+            "questions": [
+              {
+                "question": "___ talo on minun kotitalo. (ты стоишь рядом с домом)",
+                "options": [
+                  "Tämä",
+                  "Tuo",
+                  "Se"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "___ vanha talo on kaunis. (указываешь на дом немного вдали)",
+                "options": [
+                  "Tämä",
+                  "Tuo",
+                  "Se"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "___ on museo. (музей уже обсуждался)",
+                "options": [
+                  "Tämä",
+                  "Se",
+                  "Tuo"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "___ lilat sandaalit maksavat 25 euroa. (ты держишь их в руках)",
+                "options": [
+                  "Nämä",
+                  "Nuot",
+                  "Ne"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Mitä ___ vihreät sandaalit maksavat? (они лежат на витрине подальше)",
+                "options": [
+                  "nämä",
+                  "nuo",
+                  "ne"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "___ maksavat 31 euroa. (о сандалиях, которые уже упоминались)",
+                "options": [
+                  "Ne",
+                  "Nuo",
+                  "Nämä"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Pidätkö ___ kirjasta? (держишь книгу в руке)",
+                "options": [
+                  "tästä",
+                  "tuosta",
+                  "siitä"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "___ auto on minun. (указываешь на машину немного подальше)",
+                "options": [
+                  "Tuo",
+                  "Se",
+                  "Ne"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "___ on meidän koti. (стоите прямо перед домом)",
+                "options": [
+                  "Se",
+                  "Tämä",
+                  "Ne"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "___ kuvat ovat kauniita. (фотографии перед тобой на столе)",
+                "options": [
+                  "Nuo",
+                  "Ne",
+                  "Nämä"
+                ],
+                "answer": 2
+              },
+              {
+                "question": "___ ovat opettajat. (указываешь на них рядом)",
+                "options": [
+                  "Ne",
+                  "Nämä",
+                  "Tuo"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "___ kirjat eivät ole minun. (они лежат на другой парте)",
+                "options": [
+                  "Nuo",
+                  "Ne",
+                  "Tämä"
+                ],
+                "answer": 0
+              }
+            ]
+          },
+          {
+            "id": "demonstratiivipronominit-kirjoita-selitys",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "📝 Впишите подходящее указательное местоимение (tämä, tuo, se, nämä, nuo, ne и т.д.) по смыслу фразы."
+            },
+            "items": [
+              {
+                "sentence": "___ talo on minun kotitalo. (ты стоишь рядом с домом)",
+                "answer": "Tämä"
+              },
+              {
+                "sentence": "___ vanha talo on kaunis. (ты показываешь на дом немного вдали)",
+                "answer": "Tuo"
+              },
+              {
+                "sentence": "___ on museo. (речь идёт о музее, который уже обсуждали)",
+                "answer": "Se"
+              },
+              {
+                "sentence": "___ lilat sandaalit maksavat 25 euroa. (ты указываешь на сандалии рядом с собой)",
+                "answer": "Nämä"
+              },
+              {
+                "sentence": "Mitä ___ vihreät sandaalit maksavat? (сандалии находятся на другом столе)",
+                "answer": "nuo"
+              },
+              {
+                "sentence": "___ maksavat 31 euroa. (речь идёт о сандалиях, уже упомянутых)",
+                "answer": "Ne"
+              },
+              {
+                "sentence": "Pidätkö ___ kirjasta? (держишь книгу в руке)",
+                "answer": "tästä"
+              },
+              {
+                "sentence": "___ auto on minun. (показываешь на машину у дороги)",
+                "answer": "Tuo"
+              },
+              {
+                "sentence": "___ on meidän koti. (показываешь на дом, рядом с вами)",
+                "answer": "Tämä"
+              },
+              {
+                "sentence": "___ kuvat ovat kauniita. (смотришь на фотографии перед собой)",
+                "answer": "Nämä"
+              },
+              {
+                "sentence": "___ ovat opettajat. (указываешь на группу людей рядом)",
+                "answer": "Nämä"
+              },
+              {
+                "sentence": "___ kirjat eivät ole minun. (показываешь на книги на другой парте)",
+                "answer": "Nuo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Persoonapronominit",
+        "title": {
+          "ru": "Склонение личных местоимений",
+          "fi": "Persoonapronominit"
+        },
+        "explanationStructured": {
+          "title": {
+            "ru": "Личные местоимения"
+          },
+          "intro": {
+            "ru": "**Личные местоимения** в финском языке изменяются по падежам. Ниже приведена таблица всех форм с переводами."
+          },
+          "conjugationTables": [
+            {
+              "title": {
+                "ru": "Склонение личных местоимений"
+              },
+              "columns": [
+                "Падеж",
+                "minä (я)",
+                "sinä (ты)",
+                "hän (он/она)",
+                "me (мы)",
+                "te (вы)",
+                "he (они)"
+              ],
+              "rows": [
+                {
+                  "person": "N (кто?)",
+                  "pronoun": "minä (я)",
+                  "pronoun2": "sinä (ты)",
+                  "pronoun3": "hän (он/она)",
+                  "pronoun4": "me (мы)",
+                  "pronoun5": "te (вы)",
+                  "pronoun6": "he (они)"
+                },
+                {
+                  "person": "P (кого?)",
+                  "pronoun": "minua (меня)",
+                  "pronoun2": "sinua (тебя)",
+                  "pronoun3": "häntä (его/её)",
+                  "pronoun4": "meitä (нас)",
+                  "pronoun5": "teitä (вас)",
+                  "pronoun6": "heitä (их)"
+                },
+                {
+                  "person": "Основа",
+                  "pronoun": "minu-",
+                  "pronoun2": "sinu-",
+                  "pronoun3": "häne-",
+                  "pronoun4": "mei-",
+                  "pronoun5": "tei-",
+                  "pronoun6": "hei-"
+                },
+                {
+                  "person": "G (чей?)",
+                  "pronoun": "minun (мой)",
+                  "pronoun2": "sinun (твой)",
+                  "pronoun3": "hänen (его/её)",
+                  "pronoun4": "meidän (наш)",
+                  "pronoun5": "teidän (ваш)",
+                  "pronoun6": "heidän (их)"
+                },
+                {
+                  "person": "OBJ (кого?)",
+                  "pronoun": "minut (меня)",
+                  "pronoun2": "sinut (тебя)",
+                  "pronoun3": "hänet (его/её)",
+                  "pronoun4": "meidät (нас)",
+                  "pronoun5": "teidät (вас)",
+                  "pronoun6": "heidät (их)"
+                },
+                {
+                  "person": "ILL (в кого?)",
+                  "pronoun": "minuun (в меня)",
+                  "pronoun2": "sinuun (в тебя)",
+                  "pronoun3": "häneen (в него/неё)",
+                  "pronoun4": "meihin (в нас)",
+                  "pronoun5": "teihin (в вас)",
+                  "pronoun6": "heihin (в них)"
+                },
+                {
+                  "person": "INE (в ком?)",
+                  "pronoun": "minussa (во мне)",
+                  "pronoun2": "sinussa (в тебе)",
+                  "pronoun3": "hänessä (в нём/в ней)",
+                  "pronoun4": "meissä (в нас)",
+                  "pronoun5": "teissä (в вас)",
+                  "pronoun6": "heissä (в них)"
+                },
+                {
+                  "person": "ELA (из кого? откуда?)",
+                  "pronoun": "minusta (из меня)",
+                  "pronoun2": "sinusta (из тебя)",
+                  "pronoun3": "hänestä (из него/неё)",
+                  "pronoun4": "meistä (из нас)",
+                  "pronoun5": "teistä (из вас)",
+                  "pronoun6": "heistä (из них)"
+                },
+                {
+                  "person": "ALL (кому? куда?)",
+                  "pronoun": "minulle (мне)",
+                  "pronoun2": "sinulle (тебе)",
+                  "pronoun3": "hänelle (ему/ей)",
+                  "pronoun4": "meille (нам)",
+                  "pronoun5": "teille (вам)",
+                  "pronoun6": "heille (им)"
+                },
+                {
+                  "person": "ADE (у кого? где?)",
+                  "pronoun": "minulla (у меня)",
+                  "pronoun2": "sinulla (у тебя)",
+                  "pronoun3": "hänellä (у него/неё)",
+                  "pronoun4": "meillä (у нас)",
+                  "pronoun5": "teillä (у вас)",
+                  "pronoun6": "heillä (у них)"
+                },
+                {
+                  "person": "ABL (от кого? откуда?)",
+                  "pronoun": "minulta (от меня)",
+                  "pronoun2": "sinulta (от тебя)",
+                  "pronoun3": "häneltä (от него/неё)",
+                  "pronoun4": "meiltä (от нас)",
+                  "pronoun5": "teiltä (от вас)",
+                  "pronoun6": "heiltä (от них)"
+                }
+              ]
+            }
+          ],
+          "important": {
+            "title": {
+              "ru": "📌 Подсказка"
+            },
+            "body": {
+              "ru": "Каждая форма отвечает на свой вопрос, например: **kenen?** — *чей?*, **kenet?** — *кого?*, **kenelle?** — *кому?*"
+            }
+          }
+        },
+        "exercises": [
+          {
+            "id": "ex-pronoun-cases-full",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "📚 Выберите правильную форму местоимения в предложении.\n🪄 Помните:\n- Личные местоимения в финском языке склоняются по падежам (например: minä → minua / minun / minulle и т.д.).\n- На нужный падеж указывает глагол или послелог в предложении.\n- Сравнивайте значение с русским переводом."
+            },
+            "questions": [
+              {
+                "question": "___ olen kotona.",
+                "options": [
+                  "Minä",
+                  "Minua"
+                ],
+                "answer": 0,
+                "translation": "Я дома."
+              },
+              {
+                "question": "___ väsyttää.",
+                "options": [
+                  "Minä",
+                  "Minua"
+                ],
+                "answer": 1,
+                "translation": "Я устал (меня утомляет)."
+              },
+              {
+                "question": "Tämä on ___ kirja.",
+                "options": [
+                  "minulla",
+                  "minun"
+                ],
+                "answer": 1,
+                "translation": "Это моя книга."
+              },
+              {
+                "question": "Opettaja puhuu ___.",
+                "options": [
+                  "minua",
+                  "minulle"
+                ],
+                "answer": 1,
+                "translation": "Учитель говорит мне."
+              },
+              {
+                "question": "___ on auto.",
+                "options": [
+                  "Minun",
+                  "Minulla"
+                ],
+                "answer": 1,
+                "translation": "У меня есть машина."
+              },
+              {
+                "question": "___ on energiaa.",
+                "options": [
+                  "Minulta",
+                  "Minussa"
+                ],
+                "answer": 1,
+                "translation": "Во мне есть энергия."
+              },
+              {
+                "question": "___ tulee opettaja.",
+                "options": [
+                  "Minusta",
+                  "Minussa"
+                ],
+                "answer": 0,
+                "translation": "Я стану учителем."
+              },
+              {
+                "question": "___ olet väsynyt.",
+                "options": [
+                  "Sinua",
+                  "Sinä"
+                ],
+                "answer": 1,
+                "translation": "Ты устал."
+              },
+              {
+                "question": "___ janottaa.",
+                "options": [
+                  "Sinua",
+                  "Sinä"
+                ],
+                "answer": 0,
+                "translation": "Ты хочешь пить."
+              },
+              {
+                "question": "Tämä on ___ auto.",
+                "options": [
+                  "sinulla",
+                  "sinun"
+                ],
+                "answer": 1,
+                "translation": "Это твоя машина."
+              },
+              {
+                "question": "Minä annan kirjan ___.",
+                "options": [
+                  "sinua",
+                  "sinulle"
+                ],
+                "answer": 1,
+                "translation": "Я даю книгу тебе."
+              },
+              {
+                "question": "___ on koira.",
+                "options": [
+                  "Sinulla",
+                  "Sinun"
+                ],
+                "answer": 0,
+                "translation": "У тебя есть собака."
+              },
+              {
+                "question": "Otan kynän ___.",
+                "options": [
+                  "sinussa",
+                  "sinulta"
+                ],
+                "answer": 1,
+                "translation": "Беру ручку у тебя."
+              },
+              {
+                "question": "___ on voimaa.",
+                "options": [
+                  "Sinulta",
+                  "Sinussa"
+                ],
+                "answer": 1,
+                "translation": "В тебе есть сила."
+              },
+              {
+                "question": "___ tulee hyvä ystävä.",
+                "options": [
+                  "Sinussa",
+                  "Sinusta"
+                ],
+                "answer": 1,
+                "translation": "Ты станешь хорошим другом."
+              },
+              {
+                "question": "___ on iloinen.",
+                "options": [
+                  "Hän",
+                  "Häntä"
+                ],
+                "answer": 0,
+                "translation": "Он/она весёлый."
+              },
+              {
+                "question": "___ pelottaa.",
+                "options": [
+                  "Hän",
+                  "Häntä"
+                ],
+                "answer": 1,
+                "translation": "Ему/ей страшно."
+              },
+              {
+                "question": "Tämä on ___ koti.",
+                "options": [
+                  "hänen",
+                  "hänellä"
+                ],
+                "answer": 0,
+                "translation": "Это его/её дом."
+              },
+              {
+                "question": "Soitan ___.",
+                "options": [
+                  "häntä",
+                  "hänelle"
+                ],
+                "answer": 1,
+                "translation": "Я звоню ему/ей."
+              },
+              {
+                "question": "___ on hyvä päivä.",
+                "options": [
+                  "Hänellä",
+                  "Hänen"
+                ],
+                "answer": 0,
+                "translation": "У него/неё хороший день."
+              },
+              {
+                "question": "Lainaanko kirjan ___.",
+                "options": [
+                  "hänessä",
+                  "häneltä"
+                ],
+                "answer": 1,
+                "translation": "Одолжу книгу у него/неё?"
+              },
+              {
+                "question": "___ on iloa.",
+                "options": [
+                  "Häneltä",
+                  "Hänessä"
+                ],
+                "answer": 1,
+                "translation": "В нём/в ней есть радость."
+              },
+              {
+                "question": "___ tulee kuuluisa.",
+                "options": [
+                  "Hänestä",
+                  "Hänessä"
+                ],
+                "answer": 0,
+                "translation": "Он/она станет знаменитым."
+              },
+              {
+                "question": "___ olemme koulussa.",
+                "options": [
+                  "Meitä",
+                  "Me"
+                ],
+                "answer": 1,
+                "translation": "Мы в школе."
+              },
+              {
+                "question": "___ kiinnostaa suomi.",
+                "options": [
+                  "Meitä",
+                  "Me"
+                ],
+                "answer": 0,
+                "translation": "Нам интересен финский."
+              },
+              {
+                "question": "Tämä on ___ opettaja.",
+                "options": [
+                  "meillä",
+                  "meidän"
+                ],
+                "answer": 1,
+                "translation": "Это наш учитель."
+              },
+              {
+                "question": "Tämä on tärkeä ___.",
+                "options": [
+                  "meitä",
+                  "meille"
+                ],
+                "answer": 1,
+                "translation": "Это важно для нас."
+              },
+              {
+                "question": "___ on paljon ruokaa.",
+                "options": [
+                  "Meillä",
+                  "Meidän"
+                ],
+                "answer": 0,
+                "translation": "У нас много еды."
+              },
+              {
+                "question": "Kysyn apua ___.",
+                "options": [
+                  "meiltä",
+                  "meissä"
+                ],
+                "answer": 0,
+                "translation": "Спрашиваю помощь у нас."
+              },
+              {
+                "question": "___ on eroja.",
+                "options": [
+                  "Meiltä",
+                  "Meissä"
+                ],
+                "answer": 1,
+                "translation": "Между нами есть различия."
+              },
+              {
+                "question": "___ tulee tiimi.",
+                "options": [
+                  "Meistä",
+                  "Meissä"
+                ],
+                "answer": 0,
+                "translation": "Мы станем командой."
+              },
+              {
+                "question": "___ olette ystäviä.",
+                "options": [
+                  "Teitä",
+                  "Te"
+                ],
+                "answer": 1,
+                "translation": "Вы друзья."
+              },
+              {
+                "question": "___ odotetaan.",
+                "options": [
+                  "Te",
+                  "Teitä"
+                ],
+                "answer": 1,
+                "translation": "Вас ждут."
+              },
+              {
+                "question": "Tämä on ___ kissa.",
+                "options": [
+                  "teillä",
+                  "teidän"
+                ],
+                "answer": 1,
+                "translation": "Это ваша кошка."
+              },
+              {
+                "question": "Kirjoitan ___ sähköpostin.",
+                "options": [
+                  "teitä",
+                  "teille"
+                ],
+                "answer": 1,
+                "translation": "Пишу вам письмо."
+              },
+              {
+                "question": "___ on iso koti.",
+                "options": [
+                  "Teidän",
+                  "Teillä"
+                ],
+                "answer": 1,
+                "translation": "У вас большой дом."
+              },
+              {
+                "question": "Otan avaimet ___.",
+                "options": [
+                  "teissä",
+                  "teiltä"
+                ],
+                "answer": 1,
+                "translation": "Беру ключи у вас."
+              },
+              {
+                "question": "___ on potentiaalia.",
+                "options": [
+                  "Teissä",
+                  "Teiltä"
+                ],
+                "answer": 0,
+                "translation": "В вас есть потенциал."
+              },
+              {
+                "question": "___ tulee asiakkaita.",
+                "options": [
+                  "Teissä",
+                  "Teistä"
+                ],
+                "answer": 1,
+                "translation": "Вы станете клиентами."
+              },
+              {
+                "question": "___ ovat ulkona.",
+                "options": [
+                  "Heitä",
+                  "He"
+                ],
+                "answer": 1,
+                "translation": "Они на улице."
+              },
+              {
+                "question": "___ ei ole kotona.",
+                "options": [
+                  "Heitä",
+                  "He"
+                ],
+                "answer": 0,
+                "translation": "Их нет дома."
+              },
+              {
+                "question": "Tämä on ___ lapset.",
+                "options": [
+                  "heillä",
+                  "heidän"
+                ],
+                "answer": 1,
+                "translation": "Это их дети."
+              },
+              {
+                "question": "Annatko ___ vettä?",
+                "options": [
+                  "heitä",
+                  "heille"
+                ],
+                "answer": 1,
+                "translation": "Дашь им воды?"
+              },
+              {
+                "question": "___ on lapsi.",
+                "options": [
+                  "Heidän",
+                  "Heillä"
+                ],
+                "answer": 1,
+                "translation": "У них есть ребёнок."
+              },
+              {
+                "question": "Saatko rahaa ___.",
+                "options": [
+                  "heissä",
+                  "heiltä"
+                ],
+                "answer": 1,
+                "translation": "Ты получаешь деньги от них?"
+              },
+              {
+                "question": "___ on paljon ystävällisyyttä.",
+                "options": [
+                  "Heiltä",
+                  "Heissä"
+                ],
+                "answer": 1,
+                "translation": "В них много доброты."
+              },
+              {
+                "question": "___ tulee naapurit.",
+                "options": [
+                  "Heissä",
+                  "Heistä"
+                ],
+                "answer": 1,
+                "translation": "Они станут соседями."
+              }
+            ]
+          },
+          {
+            "id": "ex-pronoun-cases-fill",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "✍️ Напишите правильную форму личного местоимения. \n📚 Вспомните, как местоимения склоняются по падежам: minä → minua, minun, minulle и т.д. \nПодсказка: форма зависит от глагола или послелога в предложении."
+            },
+            "items": [
+              {
+                "sentence": "___ olen kotona.",
+                "answer": "Minä",
+                "translation": "Я дома."
+              },
+              {
+                "sentence": "___ väsyttää.",
+                "answer": "Minua",
+                "translation": "Я устал (меня утомляет)."
+              },
+              {
+                "sentence": "Tämä on ___ kirja.",
+                "answer": "minun",
+                "translation": "Это моя книга."
+              },
+              {
+                "sentence": "Opettaja puhuu ___.",
+                "answer": "minulle",
+                "translation": "Учитель говорит мне."
+              },
+              {
+                "sentence": "___ on auto.",
+                "answer": "Minulla",
+                "translation": "У меня есть машина."
+              },
+              {
+                "sentence": "___ on energiaa.",
+                "answer": "Minussa",
+                "translation": "Во мне есть энергия."
+              },
+              {
+                "sentence": "___ tulee opettaja.",
+                "answer": "Minusta",
+                "translation": "Я стану учителем."
+              },
+              {
+                "sentence": "___ olet väsynyt.",
+                "answer": "Sinä",
+                "translation": "Ты устал."
+              },
+              {
+                "sentence": "___ janottaa.",
+                "answer": "Sinua",
+                "translation": "Ты хочешь пить."
+              },
+              {
+                "sentence": "Tämä on ___ auto.",
+                "answer": "sinun",
+                "translation": "Это твоя машина."
+              },
+              {
+                "sentence": "Minä annan kirjan ___.",
+                "answer": "sinulle",
+                "translation": "Я даю книгу тебе."
+              },
+              {
+                "sentence": "___ on koira.",
+                "answer": "Sinulla",
+                "translation": "У тебя есть собака."
+              },
+              {
+                "sentence": "Otan kynän ___.",
+                "answer": "sinulta",
+                "translation": "Беру ручку у тебя."
+              },
+              {
+                "sentence": "___ on voimaa.",
+                "answer": "Sinussa",
+                "translation": "В тебе есть сила."
+              },
+              {
+                "sentence": "___ tulee hyvä ystävä.",
+                "answer": "Sinusta",
+                "translation": "Ты станешь хорошим другом."
+              },
+              {
+                "sentence": "___ on iloinen.",
+                "answer": "Hän",
+                "translation": "Он/она весёлый."
+              },
+              {
+                "sentence": "___ pelottaa.",
+                "answer": "Häntä",
+                "translation": "Ему/ей страшно."
+              },
+              {
+                "sentence": "Tämä on ___ koti.",
+                "answer": "hänen",
+                "translation": "Это его/её дом."
+              },
+              {
+                "sentence": "Soitan ___.",
+                "answer": "hänelle",
+                "translation": "Я звоню ему/ей."
+              },
+              {
+                "sentence": "___ on hyvä päivä.",
+                "answer": "Hänellä",
+                "translation": "У него/неё хороший день."
+              },
+              {
+                "sentence": "Lainaanko kirjan ___.",
+                "answer": "häneltä",
+                "translation": "Одолжу книгу у него/неё?"
+              },
+              {
+                "sentence": "___ on iloa.",
+                "answer": "Hänessä",
+                "translation": "В нём/в ней есть радость."
+              },
+              {
+                "sentence": "___ tulee kuuluisa.",
+                "answer": "Hänestä",
+                "translation": "Он/она станет знаменитым."
+              },
+              {
+                "sentence": "___ olemme koulussa.",
+                "answer": "Me",
+                "translation": "Мы в школе."
+              },
+              {
+                "sentence": "___ kiinnostaa suomi.",
+                "answer": "Meitä",
+                "translation": "Нам интересен финский."
+              },
+              {
+                "sentence": "Tämä on ___ opettaja.",
+                "answer": "meidän",
+                "translation": "Это наш учитель."
+              },
+              {
+                "sentence": "Tämä on tärkeä ___.",
+                "answer": "meille",
+                "translation": "Это важно для нас."
+              },
+              {
+                "sentence": "___ on paljon ruokaa.",
+                "answer": "Meillä",
+                "translation": "У нас много еды."
+              },
+              {
+                "sentence": "Kysyn apua ___.",
+                "answer": "meiltä",
+                "translation": "Спрашиваю помощь у нас."
+              },
+              {
+                "sentence": "___ on eroja.",
+                "answer": "Meissä",
+                "translation": "Между нами есть различия."
+              },
+              {
+                "sentence": "___ tulee tiimi.",
+                "answer": "Meistä",
+                "translation": "Мы станем командой."
+              },
+              {
+                "sentence": "___ olette ystäviä.",
+                "answer": "Te",
+                "translation": "Вы друзья."
+              },
+              {
+                "sentence": "___ odotetaan.",
+                "answer": "Teitä",
+                "translation": "Вас ждут."
+              },
+              {
+                "sentence": "Tämä on ___ kissa.",
+                "answer": "teidän",
+                "translation": "Это ваша кошка."
+              },
+              {
+                "sentence": "Kirjoitan ___ sähköpostin.",
+                "answer": "teille",
+                "translation": "Пишу вам письмо."
+              },
+              {
+                "sentence": "___ on iso koti.",
+                "answer": "Teillä",
+                "translation": "У вас большой дом."
+              },
+              {
+                "sentence": "Otan avaimet ___.",
+                "answer": "teiltä",
+                "translation": "Беру ключи у вас."
+              },
+              {
+                "sentence": "___ on potentiaalia.",
+                "answer": "Teissä",
+                "translation": "В вас есть потенциал."
+              },
+              {
+                "sentence": "___ tulee asiakkaita.",
+                "answer": "Teistä",
+                "translation": "Вы станете клиентами."
+              },
+              {
+                "sentence": "___ ovat ulkona.",
+                "answer": "He",
+                "translation": "Они на улице."
+              },
+              {
+                "sentence": "___ ei ole kotona.",
+                "answer": "Heitä",
+                "translation": "Их нет дома."
+              },
+              {
+                "sentence": "Tämä on ___ lapset.",
+                "answer": "heidän",
+                "translation": "Это их дети."
+              },
+              {
+                "sentence": "Annatko ___ vettä?",
+                "answer": "heille",
+                "translation": "Дашь им воды?"
+              },
+              {
+                "sentence": "___ on lapsi.",
+                "answer": "Heillä",
+                "translation": "У них есть ребёнок."
+              },
+              {
+                "sentence": "Saatko rahaa ___.",
+                "answer": "heiltä",
+                "translation": "Ты получаешь деньги от них?"
+              },
+              {
+                "sentence": "___ on paljon ystävällisyyttä.",
+                "answer": "Heissä",
+                "translation": "В них много доброты."
+              },
+              {
+                "sentence": "___ tulee naapurit.",
+                "answer": "Heistä",
+                "translation": "Они станут соседями."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "listening": {
+    "tasks": [
+      {
+        "id": "a1-6-mc-ex1",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-6/listening/ex1/Ystävät tulevat kylään.mp3",
+            "options": [
+              "Ystävät tulevat kylään.",
+              "Ystävät tulevat kylä.",
+              "Ystävä tulevat kylään."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex1/Vieraat saapuvat vähän yli seitsemältä.mp3",
+            "options": [
+              "Vieraat saapuvat vähän yli seitsemän.",
+              "Vieraat saapuvat vähän yli seitsemältä.",
+              "Vieras saapuvat vähän yli seitsemältä."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex1/Ystävät sanovat, että asunto on kodikas ja mukava.mp3",
+            "options": [
+              "Ystävät sanoo, että asunto on kodikas ja mukava.",
+              "Ystävät sanovat, että asunto on kodikas ja mukavan.",
+              "Ystävät sanovat, että asunto on kodikas ja mukava."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex1/Lahjat ovat pöydällä.mp3",
+            "options": [
+              "Lahjat ovat pöydällä.",
+              "Lahjat on pöydällä.",
+              "Lahjat ovat pöydälle."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex1/Vieraat syövät lihapullia, salaattia ja leipää.mp3",
+            "options": [
+              "Vieraat syö lihapullia, salaattia ja leipää.",
+              "Vieraat syövät lihapullia, salaattia ja leipää.",
+              "Vieraat syövät lihapullat, salaatti ja leipä."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex1/Vieraat pitävät myös sitruunakakusta.mp3",
+            "options": [
+              "Vieraat pitävät myös sitruunakakku.",
+              "Vieraat pitää myös sitruunakakusta.",
+              "Vieraat pitävät myös sitruunakakusta."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex1/Heidän opiskelukaverit lähtevät keskustaan.mp3",
+            "options": [
+              "Heidän opiskelukaverit lähtevät keskustaan.",
+              "Heidän opiskelukaverit lähtee keskustaan.",
+              "Heidän opiskelukaverit lähtevät keskustassa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex1/Muut vieraat eivät lähde vielä.mp3",
+            "options": [
+              "Muut vieraat ei lähde vielä.",
+              "Muut vieraat eivät lähde vielä.",
+              "Muut vieraat eivät lähtevät vielä."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex1/Kaikki tanssivat ja laulavat.mp3",
+            "options": [
+              "Kaikki tanssii ja laulaa.",
+              "Kaikki tanssivat ja laulaa.",
+              "Kaikki tanssivat ja laulavat."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex1/Juhlat jatkuvat myöhään yöhön.mp3",
+            "options": [
+              "Juhlat jatkuvat myöhään yöhön.",
+              "Juhlat jatkuu myöhään yöhön.",
+              "Juhlat jatkuvat myöhään yössä."
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "a1-6-mc-ex2",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-6/listening/ex2/Emma istuu usein matolla.mp3",
+            "options": [
+              "Emma istuu usein matolle.",
+              "Emma istuvat usein matolla.",
+              "Emma istuu usein matolla."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex2/Me menemme jo kotiin.mp3",
+            "options": [
+              "Me menemme jo kotiin.",
+              "Me menee jo kotiin.",
+              "Me menemme jo kotona."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex2/Huone on aika pieni.mp3",
+            "options": [
+              "Huone ovat aika pieni.",
+              "Huone on aika pieni.",
+              "Huone on aika pienessä."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex2/Matti menee ylös.mp3",
+            "options": [
+              "Matti menee ylä.",
+              "Matti menee ylös.",
+              "Matti mene ylös."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex2/Koira juoksee alas.mp3",
+            "options": [
+              "Koira juoksee alhaalla.",
+              "Koira juokse alas.",
+              "Koira juoksee alas."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex2/Ovi on auki.mp3",
+            "options": [
+              "Ovi on aukea.",
+              "Ovi ovat auki.",
+              "Ovi on auki."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex2/Ikkuna on kiinni.mp3",
+            "options": [
+              "Ikkuna on kiinni.",
+              "Ikkunat on kiinni.",
+              "Ikkuna on kiinnissä."
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "a1-6-mc-ex3",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-6/listening/ex3/Talo on korkea.mp3",
+            "options": [
+              "Talo on korkea.",
+              "Talo ovat korkea.",
+              "Talo on korkealla."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex3/Rakennus on matala.mp3",
+            "options": [
+              "Rakennus on matala.",
+              "Rakennukset on matala.",
+              "Rakennus ovat matala."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex3/Tie on leveä.mp3",
+            "options": [
+              "Tie on leveä.",
+              "Tie on leveällä.",
+              "Tiet on leveä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex3/Katu on kapea.mp3",
+            "options": [
+              "Katu on kapealla.",
+              "Katu on kapea.",
+              "Katu ovat kapea."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex3/Sänky on pehmeä.mp3",
+            "options": [
+              "Sänky on pehmeä.",
+              "Sänky on pehmeällä.",
+              "Sänky ovat pehmeä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex3/Tuoli on kova.mp3",
+            "options": [
+              "Tuoli ovat kova.",
+              "Tuoli on kova.",
+              "Tuolit on kova."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex3/Huone on viihtyisä.mp3",
+            "options": [
+              "Huone on viihtyisä.",
+              "Huone on viihtyisällä.",
+              "Huone ovat viihtyisä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex3/Koti on kodikas.mp3",
+            "options": [
+              "Koti on kodikas.",
+              "Koti on kodikka.",
+              "Koti ovat kodikas."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex3/Keittiö on siisti.mp3",
+            "options": [
+              "Keittiö on siistillä.",
+              "Keittiö ovat siisti.",
+              "Keittiö on siisti."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex3/Huone on sotkuinen.mp3",
+            "options": [
+              "Huone on sotkuinen.",
+              "Huone on sotkuisella.",
+              "Huone ovat sotkuinen."
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "a1-6-mc-ex4",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Keittiö on iso.mp3",
+            "options": [
+              "Keittiö on iso.",
+              "Keittiö ovat iso.",
+              "Keittiö on isolla."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Makuuhuoneessa on sänky.mp3",
+            "options": [
+              "Makuuhuoneessa on sänky.",
+              "Makuuhuone on sänky.",
+              "Makuuhuoneessa ovat sänky."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Työhuoneessa on tietokone.mp3",
+            "options": [
+              "Työhuoneessa on tietokone.",
+              "Työhuoneessa ovat tietokone.",
+              "Työhuone on tietokone."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Lastenhuoneessa on leluja.mp3",
+            "options": [
+              "Lastenhuoneessa on leluja.",
+              "Lastenhuone on leluja.",
+              "Lastenhuoneessa on lelut."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Olohuoneessa on sohva.mp3",
+            "options": [
+              "Olohuoneessa on sohva.",
+              "Olohuoneessa ovat sohva.",
+              "Olohuone on sohva."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Kylpyhuoneessa on suihku.mp3",
+            "options": [
+              "Kylpyhuoneessa on suihku.",
+              "Kylpyhuone on suihku.",
+              "Kylpyhuoneessa on suihkut."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Vessa on pieni.mp3",
+            "options": [
+              "Vessa on pieni.",
+              "Vessa on pienessä.",
+              "Vessa ovat pieni."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Eteisessä on peili.mp3",
+            "options": [
+              "Eteisessä on peili.",
+              "Eteinen on peili.",
+              "Eteisessä ovat peili."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Vaatehuoneessa on vaatteita.mp3",
+            "options": [
+              "Vaatehuoneessa on vaatteita.",
+              "Vaatehuone on vaatteita.",
+              "Vaatehuoneessa ovat vaatteita."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Vierashuone on siisti.mp3",
+            "options": [
+              "Vierashuone on siisti.",
+              "Vierashuone ovat siisti.",
+              "Vierashuone on siistillä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Parvekkeella on tuoli.mp3",
+            "options": [
+              "Parvekkeella on tuoli.",
+              "Parveke on tuoli.",
+              "Parvekkeella ovat tuoli."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Terassilla on pöytä.mp3",
+            "options": [
+              "Terassilla on pöytä.",
+              "Terassilla ovat pöytä.",
+              "Terassi on pöytä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Sauna on lämmin.mp3",
+            "options": [
+              "Sauna ovat lämmin.",
+              "Sauna on lämmin.",
+              "Sauna on lämpimä."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Lattia on puuta.mp3",
+            "options": [
+              "Lattia on puuta.",
+              "Lattia on puu.",
+              "Lattia ovat puuta."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Ikkuna on auki.mp3",
+            "options": [
+              "Ikkuna on auki.",
+              "Ikkunat on auki.",
+              "Ikkuna ovat auki."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Asun kerrostalossa.mp3",
+            "options": [
+              "Asun kerrostalossa.",
+              "Asun kerrostaloon.",
+              "Asun kerrostalosta."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/He asuvat rivitalossa.mp3",
+            "options": [
+              "He asuvat rivitalossa.",
+              "He asuvat rivitaloon.",
+              "He asuvat rivitalosta."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Tämä on omakotitalo.mp3",
+            "options": [
+              "Tämä on omakotitalo.",
+              "Tämä ovat omakotitalo.",
+              "Tämä on omakotitalossa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Minulla on yksiö.mp3",
+            "options": [
+              "Minulla on yksiö.",
+              "Minulla on yksiössä.",
+              "Minä on yksiö."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex4/Vuokra-asunto on keskustassa.mp3",
+            "options": [
+              "Vuokra-asunto on keskustassa.",
+              "Vuokra-asunto ovat keskustassa.",
+              "Vuokra-asunto on keskusta."
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "a1-6-mc-ex5",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Tuoli on uusi.mp3",
+            "options": [
+              "Tuoli on uusi.",
+              "Tuoli ovat uusi.",
+              "Tuoli on uusissa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Nojatuoli on pehmeä.mp3",
+            "options": [
+              "Nojatuoli ovat pehmeä.",
+              "Nojatuoli on pehmeä.",
+              "Nojatuoli on pehmeällä."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Työtuoli on mukava.mp3",
+            "options": [
+              "Työtuoli on mukava.",
+              "Työtuolit on mukava.",
+              "Työtuoli ovat mukava."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Pöydällä on kirja.mp3",
+            "options": [
+              "Pöydällä on kirja.",
+              "Pöytä on kirja.",
+              "Pöydällä ovat kirja."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Ruokapöytä on keittiössä.mp3",
+            "options": [
+              "Ruokapöytä on keittiössä.",
+              "Ruokapöytä on keittiö.",
+              "Ruokapöytä ovat keittiössä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Yöpöydällä on lamppu.mp3",
+            "options": [
+              "Yöpöydällä on lamppu.",
+              "Yöpöytä on lamppu.",
+              "Yöpöydällä ovat lamppu."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Kaapissa on astioita.mp3",
+            "options": [
+              "Kaapissa on astioita.",
+              "Kaapissa ovat astioita.",
+              "Kaappi on astioita."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/TV-tasolla on televisio.mp3",
+            "options": [
+              "TV-tasolla on televisio.",
+              "TV-tasolla ovat televisio.",
+              "TV-taso on televisio."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Sohva on harmaa.mp3",
+            "options": [
+              "Sohva ovat harmaa.",
+              "Sohva on harmaa.",
+              "Sohva on harmaassa."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Matto on lattialla.mp3",
+            "options": [
+              "Matto on lattialla.",
+              "Matto ovat lattialla.",
+              "Matto on lattiallaan."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Verhot ovat ikkunassa.mp3",
+            "options": [
+              "Verhot ovat ikkunassa.",
+              "Verhot on ikkunassa.",
+              "Verhot on ikkuna."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Seinässä on taulu.mp3",
+            "options": [
+              "Seinässä on taulu.",
+              "Seinä on taulu.",
+              "Seinässä ovat taulu."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Peili on eteisessä.mp3",
+            "options": [
+              "Peili on eteisessä.",
+              "Peili ovat eteisessä.",
+              "Peili on eteinen."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Lamppu on pöydällä.mp3",
+            "options": [
+              "Lamppu on pöydällä.",
+              "Lamppu ovat pöydällä.",
+              "Lamppu on pöytä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Pesukone on kylpyhuoneessa.mp3",
+            "options": [
+              "Pesukone on kylpyhuoneessa.",
+              "Pesukone on kylpyhuone.",
+              "Pesukone ovat kylpyhuoneessa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Jääkaapissa on maitoa.mp3",
+            "options": [
+              "Jääkaapissa on maitoa.",
+              "Jääkaappi on maitoa.",
+              "Jääkaapissa ovat maitoa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Kahvinkeitin on pöydällä.mp3",
+            "options": [
+              "Kahvinkeitin on pöydällä.",
+              "Kahvinkeitin ovat pöydällä.",
+              "Kahvinkeitin on pöytä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Imuri on kaapissa.mp3",
+            "options": [
+              "Imuri on kaapissa.",
+              "Imuri ovat kaapissa.",
+              "Imuri on kaappi."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Tietokone on työpöydällä.mp3",
+            "options": [
+              "Tietokone on työpöydällä.",
+              "Tietokone ovat työpöydällä.",
+              "Tietokone on työpöytä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-6/listening/ex5/Televisio on olohuoneessa.mp3",
+            "options": [
+              "Televisio on olohuoneessa.",
+              "Televisio ovat olohuoneessa.",
+              "Televisio on olohuone."
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    ]
+  },
+  "writing": [
+    {
+      "id": "a1-6-write-ex1",
+      "type": "translation-sequence",
+      "description": "✍️ Переведите каждую фразу на финский язык.",
+      "items": [
+        {
+          "prompt": "Друзья приходят в гости.",
+          "answer": [
+            "Ystävät tulevat kylään."
+          ]
+        },
+        {
+          "prompt": "Гости прибывают немного после семи.",
+          "answer": [
+            "Vieraat saapuvat vähän yli seitsemältä."
+          ]
+        },
+        {
+          "prompt": "Квартира уютная и приятная.",
+          "answer": [
+            "Asunto on kodikas ja mukava."
+          ]
+        },
+        {
+          "prompt": "Подарки на столе.",
+          "answer": [
+            "Lahjat ovat pöydällä."
+          ]
+        },
+        {
+          "prompt": "Гости едят фрикадельки и салат.",
+          "answer": [
+            "Vieraat syövät lihapullia ja salaattia."
+          ]
+        },
+        {
+          "prompt": "Гостям тоже нравится лимонный пирог.",
+          "answer": [
+            "Vieraat pitävät myös sitruunakakusta."
+          ]
+        },
+        {
+          "prompt": "Их однокурсники отправляются в центр.",
+          "answer": [
+            "Heidän opiskelukaverit lähtevät keskustaan."
+          ]
+        },
+        {
+          "prompt": "Другие гости ещё не уходят.",
+          "answer": [
+            "Muut vieraat eivät lähde vielä."
+          ]
+        },
+        {
+          "prompt": "Все танцуют и поют.",
+          "answer": [
+            "Kaikki tanssivat ja laulavat."
+          ]
+        },
+        {
+          "prompt": "Праздник продолжается до поздней ночи.",
+          "answer": [
+            "Juhlat jatkuvat myöhään yöhön."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-6-write-ex2",
+      "type": "translation-sequence",
+      "description": "✍️ Переведите каждую фразу на финский язык.",
+      "items": [
+        {
+          "prompt": "Эмма часто сидит на ковре.",
+          "answer": [
+            "Emma istuu usein matolla."
+          ]
+        },
+        {
+          "prompt": "Мы уже идём домой.",
+          "answer": [
+            "Me menemme jo kotiin.",
+            "Menemme jo kotiin."
+          ]
+        },
+        {
+          "prompt": "Комната довольно маленькая.",
+          "answer": [
+            "Huone on aika pieni."
+          ]
+        },
+        {
+          "prompt": "Матти идёт наверх.",
+          "answer": [
+            "Matti menee ylös."
+          ]
+        },
+        {
+          "prompt": "Собака бежит вниз.",
+          "answer": [
+            "Koira juoksee alas."
+          ]
+        },
+        {
+          "prompt": "Дверь открыта.",
+          "answer": [
+            "Ovi on auki."
+          ]
+        },
+        {
+          "prompt": "Окно закрыто.",
+          "answer": [
+            "Ikkuna on kiinni."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-6-write-ex3",
+      "type": "translation-sequence",
+      "description": "✍️ Переведите каждую фразу на финский язык.",
+      "items": [
+        {
+          "prompt": "Дом высокий.",
+          "answer": [
+            "Talo on korkea."
+          ]
+        },
+        {
+          "prompt": "Здание низкое.",
+          "answer": [
+            "Rakennus on matala."
+          ]
+        },
+        {
+          "prompt": "Дорога широкая.",
+          "answer": [
+            "Tie on leveä."
+          ]
+        },
+        {
+          "prompt": "Улица узкая.",
+          "answer": [
+            "Katu on kapea."
+          ]
+        },
+        {
+          "prompt": "Кровать мягкая.",
+          "answer": [
+            "Sänky on pehmeä."
+          ]
+        },
+        {
+          "prompt": "Стул твёрдый.",
+          "answer": [
+            "Tuoli on kova."
+          ]
+        },
+        {
+          "prompt": "Комната уютная.",
+          "answer": [
+            "Huone on viihtyisä."
+          ]
+        },
+        {
+          "prompt": "Дом домашний / уютный.",
+          "answer": [
+            "Koti on kodikas."
+          ]
+        },
+        {
+          "prompt": "Кухня чистая.",
+          "answer": [
+            "Keittiö on siisti."
+          ]
+        },
+        {
+          "prompt": "Комната грязная / в беспорядке.",
+          "answer": [
+            "Huone on sotkuinen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-6-write-ex4",
+      "type": "translation-sequence",
+      "description": "✍️ Переведите каждую фразу на финский язык.",
+      "items": [
+        {
+          "prompt": "Кухня большая.",
+          "answer": [
+            "Keittiö on iso."
+          ]
+        },
+        {
+          "prompt": "В спальне есть кровать.",
+          "answer": [
+            "Makuuhuoneessa on sänky."
+          ]
+        },
+        {
+          "prompt": "В кабинете есть компьютер.",
+          "answer": [
+            "Työhuoneessa on tietokone."
+          ]
+        },
+        {
+          "prompt": "В детской есть игрушки.",
+          "answer": [
+            "Lastenhuoneessa on leluja."
+          ]
+        },
+        {
+          "prompt": "В гостиной стоит диван.",
+          "answer": [
+            "Olohuoneessa on sohva."
+          ]
+        },
+        {
+          "prompt": "В ванной есть душ.",
+          "answer": [
+            "Kylpyhuoneessa on suihku."
+          ]
+        },
+        {
+          "prompt": "Туалет маленький.",
+          "answer": [
+            "Vessa on pieni."
+          ]
+        },
+        {
+          "prompt": "В прихожей зеркало.",
+          "answer": [
+            "Eteisessä on peili."
+          ]
+        },
+        {
+          "prompt": "В гардеробной одежда.",
+          "answer": [
+            "Vaatehuoneessa on vaatteita."
+          ]
+        },
+        {
+          "prompt": "Гостевая комната чистая.",
+          "answer": [
+            "Vierashuone on siisti."
+          ]
+        },
+        {
+          "prompt": "На балконе есть стул.",
+          "answer": [
+            "Parvekkeella on tuoli."
+          ]
+        },
+        {
+          "prompt": "На террасе стоит стол.",
+          "answer": [
+            "Terassilla on pöytä."
+          ]
+        },
+        {
+          "prompt": "Сауна тёплая.",
+          "answer": [
+            "Sauna on lämmin."
+          ]
+        },
+        {
+          "prompt": "Пол деревянный.",
+          "answer": [
+            "Lattia on puuta."
+          ]
+        },
+        {
+          "prompt": "Окно открыто.",
+          "answer": [
+            "Ikkuna on auki."
+          ]
+        },
+        {
+          "prompt": "Я живу в многоквартирном доме.",
+          "answer": [
+            "Asun kerrostalossa.",
+            "Minä asun kerrostalossa."
+          ]
+        },
+        {
+          "prompt": "Они живут в таунхаусе.",
+          "answer": [
+            "He asuvat rivitalossa."
+          ]
+        },
+        {
+          "prompt": "Это частный дом.",
+          "answer": [
+            "Tämä on omakotitalo."
+          ]
+        },
+        {
+          "prompt": "У меня однокомнатная квартира.",
+          "answer": [
+            "Minulla on yksiö."
+          ]
+        },
+        {
+          "prompt": "Съёмная квартира в центре.",
+          "answer": [
+            "Vuokra-asunto on keskustassa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-6-write-ex5",
+      "type": "translation-sequence",
+      "description": "✍️ Переведите каждую фразу на финский язык.",
+      "items": [
+        {
+          "prompt": "Стул новый.",
+          "answer": [
+            "Tuoli on uusi."
+          ]
+        },
+        {
+          "prompt": "Кресло мягкое.",
+          "answer": [
+            "Nojatuoli on pehmeä."
+          ]
+        },
+        {
+          "prompt": "Рабочий стул удобный.",
+          "answer": [
+            "Työtuoli on mukava."
+          ]
+        },
+        {
+          "prompt": "На столе книга.",
+          "answer": [
+            "Pöydällä on kirja."
+          ]
+        },
+        {
+          "prompt": "Обеденный стол на кухне.",
+          "answer": [
+            "Ruokapöytä on keittiössä."
+          ]
+        },
+        {
+          "prompt": "На тумбочке лампа.",
+          "answer": [
+            "Yöpöydällä on lamppu."
+          ]
+        },
+        {
+          "prompt": "В шкафу посуда.",
+          "answer": [
+            "Kaapissa on astioita."
+          ]
+        },
+        {
+          "prompt": "На тумбе телевизор.",
+          "answer": [
+            "TV-tasolla on televisio."
+          ]
+        },
+        {
+          "prompt": "Диван серый.",
+          "answer": [
+            "Sohva on harmaa."
+          ]
+        },
+        {
+          "prompt": "Ковёр на полу.",
+          "answer": [
+            "Matto on lattialla."
+          ]
+        },
+        {
+          "prompt": "Шторы на окне.",
+          "answer": [
+            "Verhot ovat ikkunassa."
+          ]
+        },
+        {
+          "prompt": "На стене картина.",
+          "answer": [
+            "Seinässä on taulu."
+          ]
+        },
+        {
+          "prompt": "Зеркало в прихожей.",
+          "answer": [
+            "Peili on eteisessä."
+          ]
+        },
+        {
+          "prompt": "Лампа на столе.",
+          "answer": [
+            "Lamppu on pöydällä."
+          ]
+        },
+        {
+          "prompt": "Стиральная машина в ванной.",
+          "answer": [
+            "Pesukone on kylpyhuoneessa."
+          ]
+        },
+        {
+          "prompt": "В холодильнике молоко.",
+          "answer": [
+            "Jääkaapissa on maitoa."
+          ]
+        },
+        {
+          "prompt": "Кофеварка стоит на столе.",
+          "answer": [
+            "Kahvinkeitin on pöydällä."
+          ]
+        },
+        {
+          "prompt": "Пылесос в шкафу.",
+          "answer": [
+            "Imuri on kaapissa."
+          ]
+        },
+        {
+          "prompt": "Компьютер на рабочем столе.",
+          "answer": [
+            "Tietokone on työpöydällä."
+          ]
+        },
+        {
+          "prompt": "Телевизор в гостиной.",
+          "answer": [
+            "Televisio on olohuoneessa."
+          ]
+        }
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "a1-6-speaking-party-1",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex1/Ystavat_tulevat_kylaan.mp3",
+          "prompt": "Скажите по-фински фразу: «Друзья приходят в гости.»",
+          "answer": [
+            "Ystävät tulevat kylään."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex1/Vieraat_saapuvat_vahan_yli_seitsemanlta.mp3",
+          "prompt": "Скажите по-фински фразу: «Гости прибывают немного после семи.»",
+          "answer": [
+            "Vieraat saapuvat vähän yli seitsemältä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex1/Asunto_on_kodikas_ja_mukava.mp3",
+          "prompt": "Скажите по-фински фразу: «Квартира уютная и приятная.»",
+          "answer": [
+            "Asunto on kodikas ja mukava."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex1/Lahjat_ovat_poydalla.mp3",
+          "prompt": "Скажите по-фински фразу: «Подарки на столе.»",
+          "answer": [
+            "Lahjat ovat pöydällä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex1/Vieraat_syovat_lihapullia_ja_salaattia.mp3",
+          "prompt": "Скажите по-фински фразу: «Гости едят фрикадельки и салат.»",
+          "answer": [
+            "Vieraat syövät lihapullia ja salaattia."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex1/Vieraat_pitavat_myos_sitruunakakusta.mp3",
+          "prompt": "Скажите по-фински фразу: «Гостям тоже нравится лимонный пирог.»",
+          "answer": [
+            "Vieraat pitävät myös sitruunakakusta."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex1/Heidan_opiskelukaverit_lahtevat_keskustaan.mp3",
+          "prompt": "Скажите по-фински фразу: «Их однокурсники отправляются в центр.»",
+          "answer": [
+            "Heidän opiskelukaverit lähtevät keskustaan."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex1/Muut_vieraat_eivat_lahde_viela.mp3",
+          "prompt": "Скажите по-фински фразу: «Другие гости ещё не уходят.»",
+          "answer": [
+            "Muut vieraat eivät lähde vielä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex1/Kaikki_tanssivat_ja_laulavat.mp3",
+          "prompt": "Скажите по-фински фразу: «Все танцуют и поют.»",
+          "answer": [
+            "Kaikki tanssivat ja laulavat."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex1/Juhlat_jatkuvat_myohain_yohon.mp3",
+          "prompt": "Скажите по-фински фразу: «Праздник продолжается до поздней ночи.»",
+          "answer": [
+            "Juhlat jatkuvat myöhään yöhön."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-6-speaking-places-2",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex2/Emma_istuu_usein_matolla.mp3",
+          "prompt": "Скажите по-фински фразу: «Эмма часто сидит на ковре.»",
+          "answer": [
+            "Emma istuu usein matolla."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex2/Me_menemme_jo_kotiin.mp3",
+          "prompt": "Скажите по-фински фразу: «Мы уже идём домой.»",
+          "answer": [
+            "Me menemme jo kotiin.",
+            "Menemme jo kotiin."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex2/Huone_on_aika_pieni.mp3",
+          "prompt": "Скажите по-фински фразу: «Комната довольно маленькая.»",
+          "answer": [
+            "Huone on aika pieni."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex2/Matti_menee_ylos.mp3",
+          "prompt": "Скажите по-фински фразу: «Матти идёт наверх.»",
+          "answer": [
+            "Matti menee ylös."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex2/Koira_juoksee_alas.mp3",
+          "prompt": "Скажите по-фински фразу: «Собака бежит вниз.»",
+          "answer": [
+            "Koira juoksee alas."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex2/Ovi_on_auki.mp3",
+          "prompt": "Скажите по-фински фразу: «Дверь открыта.»",
+          "answer": [
+            "Ovi on auki."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex2/Ikkuna_on_kiinni.mp3",
+          "prompt": "Скажите по-фински фразу: «Окно закрыто.»",
+          "answer": [
+            "Ikkuna on kiinni."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-6-speaking-places-3",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex3/Talo_on_korkea.mp3",
+          "prompt": "Скажите по-фински фразу: «Дом высокий.»",
+          "answer": [
+            "Talo on korkea."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex3/Rakennus_on_matala.mp3",
+          "prompt": "Скажите по-фински фразу: «Здание низкое.»",
+          "answer": [
+            "Rakennus on matala."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex3/Tie_on_levea.mp3",
+          "prompt": "Скажите по-фински фразу: «Дорога широкая.»",
+          "answer": [
+            "Tie on leveä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex3/Katu_on_kapea.mp3",
+          "prompt": "Скажите по-фински фразу: «Улица узкая.»",
+          "answer": [
+            "Katu on kapea."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex3/Sanky_on_pehmea.mp3",
+          "prompt": "Скажите по-фински фразу: «Кровать мягкая.»",
+          "answer": [
+            "Sänky on pehmeä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex3/Tuoli_on_kova.mp3",
+          "prompt": "Скажите по-фински фразу: «Стул твёрдый.»",
+          "answer": [
+            "Tuoli on kova."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex3/Huone_on_viihtyisa.mp3",
+          "prompt": "Скажите по-фински фразу: «Комната уютная.»",
+          "answer": [
+            "Huone on viihtyisä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex3/Koti_on_kodikas.mp3",
+          "prompt": "Скажите по-фински фразу: «Дом уютный / домашний.»",
+          "answer": [
+            "Koti on kodikas."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex3/Keittio_on_siisti.mp3",
+          "prompt": "Скажите по-фински фразу: «Кухня чистая.»",
+          "answer": [
+            "Keittiö on siisti."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex3/Huone_on_sotkuinen.mp3",
+          "prompt": "Скажите по-фински фразу: «Комната грязная / в беспорядке.»",
+          "answer": [
+            "Huone on sotkuinen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-6-speaking-places-4",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Keittio_on_iso.mp3",
+          "prompt": "Скажите по-фински фразу: «Кухня большая.»",
+          "answer": [
+            "Keittiö on iso."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Makuuhuoneessa_on_sanky.mp3",
+          "prompt": "Скажите по-фински фразу: «В спальне есть кровать.»",
+          "answer": [
+            "Makuuhuoneessa on sänky."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Tyohuoneessa_on_tietokone.mp3",
+          "prompt": "Скажите по-фински фразу: «В кабинете есть компьютер.»",
+          "answer": [
+            "Työhuoneessa on tietokone."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Lastenhuoneessa_on_leluja.mp3",
+          "prompt": "Скажите по-фински фразу: «В детской есть игрушки.»",
+          "answer": [
+            "Lastenhuoneessa on leluja."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Olohuoneessa_on_sohva.mp3",
+          "prompt": "Скажите по-фински фразу: «В гостиной стоит диван.»",
+          "answer": [
+            "Olohuoneessa on sohva."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Kylpyhuoneessa_on_suihku.mp3",
+          "prompt": "Скажите по-фински фразу: «В ванной есть душ.»",
+          "answer": [
+            "Kylpyhuoneessa on suihku."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Vessa_on_pieni.mp3",
+          "prompt": "Скажите по-фински фразу: «Туалет маленький.»",
+          "answer": [
+            "Vessa on pieni."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Eteisessa_on_peili.mp3",
+          "prompt": "Скажите по-фински фразу: «В прихожей зеркало.»",
+          "answer": [
+            "Eteisessä on peili."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Vaatehuoneessa_on_vaatteita.mp3",
+          "prompt": "Скажите по-фински фразу: «В гардеробной одежда.»",
+          "answer": [
+            "Vaatehuoneessa on vaatteita."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Vierashuone_on_siisti.mp3",
+          "prompt": "Скажите по-фински фразу: «Гостевая комната чистая.»",
+          "answer": [
+            "Vierashuone on siisti."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Parvekkeella_on_tuoli.mp3",
+          "prompt": "Скажите по-фински фразу: «На балконе есть стул.»",
+          "answer": [
+            "Parvekkeella on tuoli."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Terassilla_on_poyta.mp3",
+          "prompt": "Скажите по-фински фразу: «На террасе стоит стол.»",
+          "answer": [
+            "Terassilla on pöytä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Sauna_on_lammin.mp3",
+          "prompt": "Скажите по-фински фразу: «Сауна тёплая.»",
+          "answer": [
+            "Sauna on lämmin."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Lattia_on_puuta.mp3",
+          "prompt": "Скажите по-фински фразу: «Пол деревянный.»",
+          "answer": [
+            "Lattia on puuta."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Ikkuna_on_auki.mp3",
+          "prompt": "Скажите по-фински фразу: «Окно открыто.»",
+          "answer": [
+            "Ikkuna on auki."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Asun_kerrostalossa.mp3",
+          "prompt": "Скажите по-фински фразу: «Я живу в многоквартирном доме.»",
+          "answer": [
+            "Asun kerrostalossa.",
+            "Minä asun kerrostalossa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/He_asuvat_rivitalossa.mp3",
+          "prompt": "Скажите по-фински фразу: «Они живут в таунхаусе.»",
+          "answer": [
+            "He asuvat rivitalossa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Tama_on_omakotitalo.mp3",
+          "prompt": "Скажите по-фински фразу: «Это частный дом.»",
+          "answer": [
+            "Tämä on omakotitalo."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Minulla_on_yksio.mp3",
+          "prompt": "Скажите по-фински фразу: «У меня однокомнатная квартира.»",
+          "answer": [
+            "Minulla on yksiö."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex4/Vuokra_asunto_on_keskustassa.mp3",
+          "prompt": "Скажите по-фински фразу: «Съёмная квартира в центре.»",
+          "answer": [
+            "Vuokra-asunto on keskustassa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-6-speaking-places-5",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Tuoli_on_uusi.mp3",
+          "prompt": "Скажите по-фински фразу: «Стул новый.»",
+          "answer": [
+            "Tuoli on uusi."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Nojatuoli_on_pehmea.mp3",
+          "prompt": "Скажите по-фински фразу: «Кресло мягкое.»",
+          "answer": [
+            "Nojatuoli on pehmeä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Tyotuoli_on_mukava.mp3",
+          "prompt": "Скажите по-фински фразу: «Рабочий стул удобный.»",
+          "answer": [
+            "Työtuoli on mukava."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Poydalla_on_kirja.mp3",
+          "prompt": "Скажите по-фински фразу: «На столе книга.»",
+          "answer": [
+            "Pöydällä on kirja."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Ruokapoyta_on_keittiossa.mp3",
+          "prompt": "Скажите по-фински фразу: «Обеденный стол на кухне.»",
+          "answer": [
+            "Ruokapöytä on keittiössä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Yopoydalla_on_lamppu.mp3",
+          "prompt": "Скажите по-фински фразу: «На тумбочке лампа.»",
+          "answer": [
+            "Yöpöydällä on lamppu."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Kaapissa_on_astioita.mp3",
+          "prompt": "Скажите по-фински фразу: «В шкафу посуда.»",
+          "answer": [
+            "Kaapissa on astioita."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/TV_tasolla_on_televisio.mp3",
+          "prompt": "Скажите по-фински фразу: «На тумбе телевизор.»",
+          "answer": [
+            "TV-tasolla on televisio."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Sohva_on_harmaa.mp3",
+          "prompt": "Скажите по-фински фразу: «Диван серый.»",
+          "answer": [
+            "Sohva on harmaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Matto_on_lattialla.mp3",
+          "prompt": "Скажите по-фински фразу: «Ковёр на полу.»",
+          "answer": [
+            "Matto on lattialla."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Verhot_ovat_ikkunassa.mp3",
+          "prompt": "Скажите по-фински фразу: «Шторы на окне.»",
+          "answer": [
+            "Verhot ovat ikkunassa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Seinassa_on_taulu.mp3",
+          "prompt": "Скажите по-фински фразу: «На стене картина.»",
+          "answer": [
+            "Seinässä on taulu."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Peili_on_eteisessa.mp3",
+          "prompt": "Скажите по-фински фразу: «Зеркало в прихожей.»",
+          "answer": [
+            "Peili on eteisessä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Lamppu_on_poydalla.mp3",
+          "prompt": "Скажите по-фински фразу: «Лампа на столе.»",
+          "answer": [
+            "Lamppu on pöydällä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Pesukone_on_kylpyhuoneessa.mp3",
+          "prompt": "Скажите по-фински фразу: «Стиральная машина в ванной.»",
+          "answer": [
+            "Pesukone on kylpyhuoneessa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Jaakaapissa_on_maitoa.mp3",
+          "prompt": "Скажите по-фински фразу: «В холодильнике молоко.»",
+          "answer": [
+            "Jääkaapissa on maitoa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Kahvinkeitin_on_poydalla.mp3",
+          "prompt": "Скажите по-фински фразу: «Кофеварка стоит на столе.»",
+          "answer": [
+            "Kahvinkeitin on pöydällä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Imuri_on_kaapissa.mp3",
+          "prompt": "Скажите по-фински фразу: «Пылесос в шкафу.»",
+          "answer": [
+            "Imuri on kaapissa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Tietokone_on_tyopoydalla.mp3",
+          "prompt": "Скажите по-фински фразу: «Компьютер на рабочем столе.»",
+          "answer": [
+            "Tietokone on työpöydällä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-6/speaking/ex5/Televisio_on_olohuoneessa.mp3",
+          "prompt": "Скажите по-фински фразу: «Телевизор в гостиной.»",
+          "answer": [
+            "Televisio on olohuoneessa."
+          ]
+        }
+      ]
+    }
+  ],
+  "reading": [
+    {
+      "id": "read-kotona-metsatiella",
+      "title": "Minun koti",
+      "explanation": {
+        "description": "🏡 Прочитайте рассказ о жизни семьи Линдстрём.",
+        "text": "<p>Hei! Minun nimi on Alex ja nyt minä kerron teille kodistani.</p><p>Minun kotini on omakotitalo. Se on korkea, mutta ei kovin leveä. Talo ei ole vanha, ei ole sotkuinen, vaan siisti, kodikas ja viihtyisä.</p><p>Talossa on kaksi kerrosta. Alakerrassa on keittiö, olohuone, vessa ja eteinen. Yläkerrassa on makuuhuone, lastenhuone ja työhuone. Minun lempihuoneeni on olohuone, koska siellä on sohva, TV-taso, kirjahylly ja matto. Olohuoneessa on myös pehmeä nojatuoli, jossa minä luen kirjaa.</p><p>Keittiössä on ruokapöytä, tuolit, jääkaappi, hella, mikroaaltouuni ja kahvinkeitin. Keittiössä ei ole astianpesukonetta, mutta se ei haittaa. Minä tiskaan itse.</p><p>Makuuhuoneessa on sänky, yöpöytä ja vaatekaappi. Työhuoneessa on työpöytä, tietokone, tuoli ja lamppu. Minä teen siellä töitä ja opiskelen suomea.</p><p>Pihalla on autotalli ja terassi. Me istumme usein terassilla ja juomme kahvia. Joskus lapset menevät terassille ja leikkivät siellä. Kun tulee kylmä, he tulevat terassilta takaisin sisään.</p><p>Minun kaupunkini on Kokkola. Minä asun Kokkolassa. Mutta minä käyn usein Vaasassa ja Oulussa.</p>"
+      },
+      "tasks": [
+        {
+          "id": "ex-minun-koti",
+          "type": "multiple-choice",
+          "instruction": {
+            "ru": "🏡 Прочитайте текст «Minun koti» и выберите правильный ответ на каждый вопрос."
+          },
+          "questions": [
+            {
+              "question": "Millainen talo Alexilla on?",
+              "options": [
+                "kerrostalo",
+                "rivitalo",
+                "omakotitalo"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Kuinka monta kerrosta talossa on?",
+              "options": [
+                "yksi",
+                "kaksi",
+                "kolme"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä huoneita on alakerrassa?",
+              "options": [
+                "olohuone ja makuuhuone",
+                "keittiö, olohuone, vessa ja eteinen",
+                "lastenhuone ja työhuone"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Missä on nojatuoli?",
+              "options": [
+                "keittiössä",
+                "olohuoneessa",
+                "makuuhuoneessa"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mikä on Alexin lempihuone?",
+              "options": [
+                "keittiö",
+                "lastenhuone",
+                "olohuone"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Mitä ei ole keittiössä?",
+              "options": [
+                "kahvinkeitin",
+                "mikroaaltouuni",
+                "astianpesukone"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Mitä Alex tekee, jos ei ole astianpesukonetta?",
+              "options": [
+                "ei tiskaa",
+                "ostaa uuden koneen",
+                "tiskaa itse"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Mitä Alex tekee työhuoneessa?",
+              "options": [
+                "lukee kirjaa",
+                "katsoo elokuvaa",
+                "opiskelee suomea"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Mitä lapset tekevät terassilla?",
+              "options": [
+                "leikkivät",
+                "syövät",
+                "nukkuvat"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Mitä perhe tekee, kun on kylmä?",
+              "options": [
+                "menee saunaan",
+                "palaa sisään",
+                "menee terassille"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Missä Alex asuu?",
+              "options": [
+                "Turussa",
+                "Kokkolassa",
+                "Oulussa"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Missä kaupungeissa Alex käy usein?",
+              "options": [
+                "Vaasassa ja Oulussa",
+                "Tampereella ja Lahdessa",
+                "Espoossa ja Helsingissä"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opiskelija-asunto",
+      "title": "Opiskelija muuttaa opiskelija-asuntoon",
+      "explanation": {
+        "description": "Студент заезжает в общежитие",
+        "text": "<p><strong>Opiskelija:</strong><br>Hei! Minä olen Alex. Minä olen uusi opiskelija.</p><p><strong>Komendantti:</strong><br>Tervetuloa! Tämä on sinun opiskelija-asuntosi. Se on tässä rakennuksessa, ensimmäisessä kerroksessa. Tule sisään!</p><p><strong>Opiskelija:</strong><br>Kiitos! Onko tämä yksiö?</p><p><strong>Komendantti:</strong><br>Ei, tämä on kaksio. Tässä on olohuone ja keittiö yhdessä, ja siellä on makuuhuone.</p><p><strong>Komendantti:</strong><br>Keittiössä on jääkaappi, mikroaaltouuni ja kahvinkeitin. Keittiössä ei ole pakastinta. Astianpesukonetta ei myöskään ole, mutta tiskiallas on iso.</p><p><strong>Opiskelija:</strong><br>Onko huoneessa pöytä ja tuoli?</p><p><strong>Komendantti:</strong><br>Kyllä. Kyllä, huoneessa on työpöytä ja tuoli. Kirjahylly on seinällä. Makuuhuoneessa on sänky ja yöpöytä. Vaatekaappi on eteisessä.</p><p><strong>Opiskelija:</strong><br>Onko suihku täällä asunnossa?</p><p><strong>Komendantti:</strong><br>Kyllä. Kylpyhuone on tässä vasemmalla. Siellä on suihku ja pesuallas. Saunaa ei ole, mutta talossa on yhteinen sauna alakerrassa.</p><p><strong>Opiskelija:</strong><br>Missä on pesukone?</p><p><strong>Komendantti:</strong><br>Pesula on viereisessä rakennuksessa. Mene ovesta ulos ja käänny vasemmalle. Pesula on kellarissa. Siellä on kolme pesukonetta ja kaksi kuivausrumpua. Pesulassa ei ole henkilökuntaa. Kirjoita nimesi listaan, kun käyt siellä.</p><p><strong>Opiskelija:</strong><br>Entä ruokala? Onko ruokala tässä talossa?</p><p><strong>Komendantti:</strong><br>Ei. Ruokala on toisessa rakennuksessa. Ruokalassa on lounas joka päivä kello 11–14. Ruokalassa on myös kahvila.</p><p><strong>Opiskelija:</strong><br>Missä on luokkahuone?</p><p><strong>Komendantti:</strong><br>Kurssit ovat eri rakennuksessa. Katso kartta seinältä. Sinun ensimmäinen tuntisi on huomenna A-rakennuksessa, kolmannessa kerroksessa.</p><p><strong>Opiskelija:</strong><br>Kiitos paljon avusta!</p><p><strong>Komendantti:</strong><br>Ole hyvä! Tervetuloa vielä kerran ja tsemppiä opiskeluun!</p>"
+      },
+      "tasks": [
+        {
+          "id": "ex-opiskelija-asunto",
+          "type": "multiple-choice",
+          "instruction": {
+            "ru": "🏠 Прочитайте текст и выберите правильный ответ на каждый вопрос."
+          },
+          "questions": [
+            {
+              "question": "Missä kerroksessa opiskelija-asunto on?",
+              "options": [
+                "ensimmäisessä kerroksessa",
+                "toisessa kerroksessa",
+                "kolmannessa kerroksessa"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Mitä huoneita asunnossa on?",
+              "options": [
+                "vain yksi huone",
+                "olohuone, keittiö ja makuuhuone",
+                "keittiö ja kylpyhuone"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä keittiössä ei ole?",
+              "options": [
+                "jääkaappi",
+                "mikroaaltouuni",
+                "astianpesukone"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Missä on kirjahylly?",
+              "options": [
+                "ikkunan edessä",
+                "seinällä",
+                "makuuhuoneessa"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Missä on yhteinen sauna?",
+              "options": [
+                "eteisessä",
+                "yläkerrassa",
+                "alakerassa"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Missä on pesula?",
+              "options": [
+                "samassa rakennuksessa",
+                "viereisessä rakennuksessa",
+                "ruokalassa"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä pesulassa ei ole?",
+              "options": [
+                "kuivausrumpua",
+                "pesukonetta",
+                "henkilökuntaa"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Missä on ruokala?",
+              "options": [
+                "parkkipaikan takana",
+                "samassa rakennuksessa",
+                "toisessa kerroksessa"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Milloin on lounas ruokalassa?",
+              "options": [
+                "kello 9–11",
+                "kello 10–13",
+                "kello 11–14"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Missä on ensimmäinen kurssi?",
+              "options": [
+                "samassa rakennuksessa",
+                "A-rakennuksessa",
+                "ruokalassa"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä kylpyhuoneessa on?",
+              "options": [
+                "vain pesukone",
+                "suihku ja pesuallas",
+                "sauna ja vessa"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mikä on ikkunan edessä?",
+              "options": [
+                "kirjahylly",
+                "työpöytä",
+                "sänky"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Missä on vaatekaappi?",
+              "options": [
+                "keittiössä",
+                "makuuhuoneessa",
+                "eteisessä"
+              ],
+              "answer": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

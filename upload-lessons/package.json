@@ -1,0 +1,17 @@
+{
+  "name": "upload-lessons",
+  "version": "1.0.0",
+  "main": "uploadLessons.js",
+  "scripts": {
+    "upload": "node n.js",
+    "watch": "npx nodemon --watch lessons -e json --exec \"node n.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "firebase-admin": "^13.4.0"
+  }
+}

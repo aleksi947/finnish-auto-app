@@ -1,0 +1,5899 @@
+{
+  "id": "A1-9",
+  "level": "A1",
+  "title": {
+    "ru": "Урок 9",
+    "fi": "Luento 9"
+  },
+  "premium": true,
+  "goal": {
+    "ru": "",
+    "fi": ""
+  },
+  "topic": {
+    "ru": "",
+    "fi": ""
+  },
+  "vocabulary": {
+    "common": {
+      "title": "На работе",
+      "words": [
+        {
+          "fi": "elektroniikka",
+          "translations": {
+            "ru": "электроника"
+          },
+          "example": {
+            "fi": "Alex on töissä elektroniikkafirmassa.",
+            "ru": "Алекс работает в электронной фирме."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/elektroniikka.mp3"
+        },
+        {
+          "fi": "työpaikka",
+          "translations": {
+            "ru": "рабочее место"
+          },
+          "example": {
+            "fi": "Työpaikka on mukava.",
+            "ru": "Работа приятная."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/tyopaikka.mp3"
+        },
+        {
+          "fi": "palkka",
+          "translations": {
+            "ru": "зарплата"
+          },
+          "example": {
+            "fi": "Palkkakin on ihan hyvä.",
+            "ru": "Зарплата тоже хорошая."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/palkka.mp3"
+        },
+        {
+          "fi": "ihan",
+          "translations": {
+            "ru": "вполне, совсем"
+          },
+          "example": {
+            "fi": "Palkkakin on ihan hyvä.",
+            "ru": "Зарплата вполне хорошая."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/ihan.mp3"
+        },
+        {
+          "fi": "työpäivä",
+          "translations": {
+            "ru": "рабочий день"
+          },
+          "example": {
+            "fi": "Joskus työpäivät ovat tosi pitkät.",
+            "ru": "Иногда рабочие дни очень длинные."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/tyopaiva.mp3"
+        },
+        {
+          "fi": "kansio",
+          "translations": {
+            "ru": "папка"
+          },
+          "example": {
+            "fi": "Hän ottaa hyllystä kansion.",
+            "ru": "Он берёт папку с полки."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/kansio.mp3"
+        },
+        {
+          "fi": "paperi",
+          "translations": {
+            "ru": "бумага"
+          },
+          "example": {
+            "fi": "Hän ottaa paperit mukaan.",
+            "ru": "Он берёт бумаги с собой."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/paperi.mp3"
+        },
+        {
+          "fi": "kannettava tietokone",
+          "translations": {
+            "ru": "ноутбук"
+          },
+          "example": {
+            "fi": "Alex ottaa myös kannettavan tietokoneen mukaan.",
+            "ru": "Алекс также берёт с собой ноутбук."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/kannettava_tietokone.mp3"
+        },
+        {
+          "fi": "mukaan",
+          "translations": {
+            "ru": "с собой"
+          },
+          "example": {
+            "fi": "Alex ottaa tietokoneen mukaan.",
+            "ru": "Алекс берёт компьютер с собой."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/mukaan.mp3"
+        },
+        {
+          "fi": "hissi",
+          "translations": {
+            "ru": "лифт"
+          },
+          "example": {
+            "fi": "Hississä hän tapaa Jarin.",
+            "ru": "В лифте он встречает Яри."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/hissi.mp3"
+        },
+        {
+          "fi": "tavata",
+          "translations": {
+            "ru": "встречать"
+          },
+          "example": {
+            "fi": "Hän tapaa Jarin.",
+            "ru": "Он встречает Яри."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/tavata.mp3"
+        },
+        {
+          "fi": "työkaveri",
+          "translations": {
+            "ru": "коллега"
+          },
+          "example": {
+            "fi": "Jari on Alexin työkaveri.",
+            "ru": "Яри — коллега Алекса."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/tyokaveri.mp3"
+        },
+        {
+          "fi": "esitellä",
+          "translations": {
+            "ru": "презентовать"
+          },
+          "example": {
+            "fi": "Alex esittelee projektin.",
+            "ru": "Алекс презентует проект."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/esitella.mp3"
+        },
+        {
+          "fi": "projekti",
+          "translations": {
+            "ru": "проект"
+          },
+          "example": {
+            "fi": "He esittelevät projektin.",
+            "ru": "Они представляют проект."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/projekti.mp3"
+        },
+        {
+          "fi": "asiakas",
+          "translations": {
+            "ru": "клиент"
+          },
+          "example": {
+            "fi": "Asiakas on tyytyväinen.",
+            "ru": "Клиент доволен."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/asiakas.mp3"
+        },
+        {
+          "fi": "tyytyväinen",
+          "translations": {
+            "ru": "довольный"
+          },
+          "example": {
+            "fi": "Asiakas on tyytyväinen.",
+            "ru": "Клиент доволен."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/tyytyvainen.mp3"
+        },
+        {
+          "fi": "valmis",
+          "translations": {
+            "ru": "готовый"
+          },
+          "example": {
+            "fi": "Projekti on valmis viikon kuluttua.",
+            "ru": "Проект будет готов через неделю."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/valmis.mp3"
+        },
+        {
+          "fi": "G + kuluttua",
+          "translations": {
+            "ru": "через (какое-то время)"
+          },
+          "example": {
+            "fi": "Viikon kuluttua projekti on valmis.",
+            "ru": "Через неделю проект будет готов."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/g___kuluttua.mp3"
+        },
+        {
+          "fi": "neuvotella",
+          "translations": {
+            "ru": "вести переговоры"
+          },
+          "example": {
+            "fi": "He neuvottelevat aikataulusta.",
+            "ru": "Они ведут переговоры о расписании."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/neuvotella.mp3"
+        },
+        {
+          "fi": "aikataulu",
+          "translations": {
+            "ru": "расписание, график"
+          },
+          "example": {
+            "fi": "He neuvottelevat aikataulusta.",
+            "ru": "Они обсуждают расписание."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/aikataulu.mp3"
+        },
+        {
+          "fi": "luvata",
+          "translations": {
+            "ru": "обещать"
+          },
+          "example": {
+            "fi": "Alex ja Jari lupaavat, että työ on valmis.",
+            "ru": "Алекс и Яри обещают, что работа будет готова."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/luvata.mp3"
+        },
+        {
+          "fi": "tiimi",
+          "translations": {
+            "ru": "команда"
+          },
+          "example": {
+            "fi": "Alexin tiimillä on kiire.",
+            "ru": "У команды Алекса спешка."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/tiimi.mp3"
+        },
+        {
+          "fi": "kiire",
+          "translations": {
+            "ru": "спешка"
+          },
+          "example": {
+            "fi": "Heillä on kiire.",
+            "ru": "У них спешка."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/kiire.mp3"
+        },
+        {
+          "fi": "palaveri",
+          "translations": {
+            "ru": "совещание"
+          },
+          "example": {
+            "fi": "Palaverin jälkeen he menevät syömään.",
+            "ru": "После совещания они идут есть."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/palaveri.mp3"
+        },
+        {
+          "fi": "ravintola",
+          "translations": {
+            "ru": "ресторан"
+          },
+          "example": {
+            "fi": "He menevät pieneen lounasravintolaan.",
+            "ru": "Они идут в маленький ресторан."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/ravintola.mp3"
+        },
+        {
+          "fi": "lähellä",
+          "translations": {
+            "ru": "рядом"
+          },
+          "example": {
+            "fi": "Se on ihan lähellä.",
+            "ru": "Он совсем рядом."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/lahella.mp3"
+        },
+        {
+          "fi": "jutella",
+          "translations": {
+            "ru": "разговаривать"
+          },
+          "example": {
+            "fi": "Lounaalla he juttelevat projektista.",
+            "ru": "За обедом они разговаривают о проекте."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/jutella.mp3"
+        },
+        {
+          "fi": "ylityö",
+          "translations": {
+            "ru": "сверхурочная работа"
+          },
+          "example": {
+            "fi": "Jari sanoo, että hän voi tehdä ylitöitä.",
+            "ru": "Яри говорит, что может работать сверхурочно."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/ylityo.mp3"
+        },
+        {
+          "fi": "jos",
+          "translations": {
+            "ru": "если"
+          },
+          "example": {
+            "fi": "Jos tarvitsee, he tekevät ylitöitä.",
+            "ru": "Если нужно, они будут работать сверхурочно."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/jos.mp3"
+        },
+        {
+          "fi": "toimisto",
+          "translations": {
+            "ru": "офис"
+          },
+          "example": {
+            "fi": "Alex palaa toimistoon.",
+            "ru": "Алекс возвращается в офис."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/toimisto.mp3"
+        },
+        {
+          "fi": "hakea",
+          "translations": {
+            "ru": "брать, забирать"
+          },
+          "example": {
+            "fi": "Hän hakee kupin kahvia.",
+            "ru": "Он берёт чашку кофе."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/hakea.mp3"
+        },
+        {
+          "fi": "automaatti",
+          "translations": {
+            "ru": "автомат"
+          },
+          "example": {
+            "fi": "Hän hakee kahvia automaatista.",
+            "ru": "Он берёт кофе из автомата."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/automaatti.mp3"
+        },
+        {
+          "fi": "avata",
+          "translations": {
+            "ru": "открывать"
+          },
+          "example": {
+            "fi": "Hän ei avaa tietokonetta.",
+            "ru": "Он не открывает компьютер."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/avata.mp3"
+        },
+        {
+          "fi": "pomo",
+          "translations": {
+            "ru": "начальник"
+          },
+          "example": {
+            "fi": "Alex soittaa pomolle.",
+            "ru": "Алекс звонит начальнику."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/pomo.mp3"
+        },
+        {
+          "fi": "saada",
+          "translations": {
+            "ru": "получать, мочь"
+          },
+          "example": {
+            "fi": "Alex kysyy, saako tiimi tehdä ylitöitä.",
+            "ru": "Алекс спрашивает, может ли команда работать сверхурочно."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/saada.mp3"
+        },
+        {
+          "fi": "G + mielestä",
+          "translations": {
+            "ru": "по мнению (кого-то)"
+          },
+          "example": {
+            "fi": "Pomon mielestä se on okei.",
+            "ru": "По мнению начальника, это нормально."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/g___mielesta.mp3"
+        },
+        {
+          "fi": "puhelu",
+          "translations": {
+            "ru": "телефонный звонок"
+          },
+          "example": {
+            "fi": "Puhelun jälkeen Alex kirjoittaa sähköpostin.",
+            "ru": "После звонка Алекс пишет письмо."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/puhelu.mp3"
+        },
+        {
+          "fi": "kertoa",
+          "translations": {
+            "ru": "рассказывать"
+          },
+          "example": {
+            "fi": "Alex kertoo tiimille aikataulusta.",
+            "ru": "Алекс рассказывает команде о расписании."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/kertoa.mp3"
+        },
+        {
+          "fi": "tulostaa",
+          "translations": {
+            "ru": "печать"
+          },
+          "example": {
+            "fi": "Hän tulostaa aikataulun.",
+            "ru": "Он печатает расписание."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/tulostaa.mp3"
+        },
+        {
+          "fi": "aikataulu",
+          "translations": {
+            "ru": "расписание"
+          },
+          "example": {
+            "fi": "Hän tulostaa uuden aikataulun.",
+            "ru": "Он печатает новое расписание."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/aikataulu.mp3"
+        },
+        {
+          "fi": "kahvitauko",
+          "translations": {
+            "ru": "кофе-брейк"
+          },
+          "example": {
+            "fi": "Jari kysyy, tuleeko Alex kahvitauolle.",
+            "ru": "Яри спрашивает, пойдёт ли Алекс на перерыв."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/kahvitauko.mp3"
+        },
+        {
+          "fi": "vastata",
+          "translations": {
+            "ru": "отвечать"
+          },
+          "example": {
+            "fi": "Alex vastaa Jarille.",
+            "ru": "Алекс отвечает Яри."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/vastata.mp3"
+        },
+        {
+          "fi": "nopeasti",
+          "translations": {
+            "ru": "быстро"
+          },
+          "example": {
+            "fi": "Hän haluaa tehdä työt nopeasti.",
+            "ru": "Он хочет сделать работу быстро."
+          },
+          "audio": "/audio/A1-9/vocabulary/common/nopeasti.mp3"
+        }
+      ]
+    },
+    "work": {
+      "title": "В работе",
+      "words": [
+        {
+          "fi": "työpaikka",
+          "translations": {
+            "ru": "место работы"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/tyopaikka.mp3"
+        },
+        {
+          "fi": "firma",
+          "translations": {
+            "ru": "фирма"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/firma.mp3"
+        },
+        {
+          "fi": "yritys",
+          "translations": {
+            "ru": "предприятие, компания"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/yritys.mp3"
+        },
+        {
+          "fi": "toimisto",
+          "translations": {
+            "ru": "офис"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/toimisto.mp3"
+        },
+        {
+          "fi": "työhuone",
+          "translations": {
+            "ru": "рабочая комната, кабинет"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/tyohuone.mp3"
+        },
+        {
+          "fi": "neuvotteluhuone",
+          "translations": {
+            "ru": "переговорная"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/neuvotteluhuone.mp3"
+        },
+        {
+          "fi": "neukkari",
+          "translations": {
+            "ru": "разг. переговорная"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/neukkari.mp3"
+        },
+        {
+          "fi": "kokous",
+          "translations": {
+            "ru": "собрание"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/kokous.mp3"
+        },
+        {
+          "fi": "palaveri",
+          "translations": {
+            "ru": "совещание"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/palaveri.mp3"
+        },
+        {
+          "fi": "neuvottelu",
+          "translations": {
+            "ru": "переговоры"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/neuvottelu.mp3"
+        },
+        {
+          "fi": "neuvotella",
+          "translations": {
+            "ru": "вести переговоры"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/neuvotella.mp3"
+        },
+        {
+          "fi": "työpäivä",
+          "translations": {
+            "ru": "рабочий день"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/tyopaiva.mp3"
+        },
+        {
+          "fi": "työaika",
+          "translations": {
+            "ru": "рабочее время"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/tyoaika.mp3"
+        },
+        {
+          "fi": "työvuoro",
+          "translations": {
+            "ru": "рабочая смена"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/tyovuoro.mp3"
+        },
+        {
+          "fi": "ylityö",
+          "translations": {
+            "ru": "сверхурочная работа"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/ylityo.mp3"
+        },
+        {
+          "fi": "palkka",
+          "translations": {
+            "ru": "зарплата"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/palkka.mp3"
+        },
+        {
+          "fi": "työnantaja",
+          "translations": {
+            "ru": "работодатель"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/tyonantaja.mp3"
+        },
+        {
+          "fi": "työntekijä",
+          "translations": {
+            "ru": "работник"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/tyontekija.mp3"
+        },
+        {
+          "fi": "pomo",
+          "translations": {
+            "ru": "босс"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/pomo.mp3"
+        },
+        {
+          "fi": "esimies",
+          "translations": {
+            "ru": "начальник"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/esimies.mp3"
+        },
+        {
+          "fi": "työkaveri",
+          "translations": {
+            "ru": "коллега"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/tyokaveri.mp3"
+        },
+        {
+          "fi": "kollega",
+          "translations": {
+            "ru": "коллега (форм.)"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/kollega.mp3"
+        },
+        {
+          "fi": "tiimi",
+          "translations": {
+            "ru": "команда"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/tiimi.mp3"
+        },
+        {
+          "fi": "asiakas",
+          "translations": {
+            "ru": "клиент"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/asiakas.mp3"
+        },
+        {
+          "fi": "tietokone",
+          "translations": {
+            "ru": "компьютер"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/tietokone.mp3"
+        },
+        {
+          "fi": "kannettava tietokone",
+          "translations": {
+            "ru": "ноутбук"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/kannettava_tietokone.mp3"
+        },
+        {
+          "fi": "läppäri",
+          "translations": {
+            "ru": "разг. ноутбук"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/lappari.mp3"
+        },
+        {
+          "fi": "hiiri",
+          "translations": {
+            "ru": "мышь"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/hiiri.mp3"
+        },
+        {
+          "fi": "sähköposti",
+          "translations": {
+            "ru": "электронная почта"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/sahkoposti.mp3"
+        },
+        {
+          "fi": "tulostaa",
+          "translations": {
+            "ru": "печатать"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/tulostaa.mp3"
+        },
+        {
+          "fi": "printata",
+          "translations": {
+            "ru": "печатать (разг.)"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/printata.mp3"
+        },
+        {
+          "fi": "tulostin",
+          "translations": {
+            "ru": "принтер"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/tulostin.mp3"
+        },
+        {
+          "fi": "printteri",
+          "translations": {
+            "ru": "принтер (разг.)"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/printteri.mp3"
+        },
+        {
+          "fi": "faksi",
+          "translations": {
+            "ru": "факс"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/faksi.mp3"
+        },
+        {
+          "fi": "kopiokone",
+          "translations": {
+            "ru": "копировальный аппарат"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/kopiokone.mp3"
+        },
+        {
+          "fi": "puhelin",
+          "translations": {
+            "ru": "телефон"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/puhelin.mp3"
+        },
+        {
+          "fi": "kännykkä",
+          "translations": {
+            "ru": "мобильный телефон"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/kannykka.mp3"
+        },
+        {
+          "fi": "sopimus",
+          "translations": {
+            "ru": "договор"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/sopimus.mp3"
+        },
+        {
+          "fi": "projekti",
+          "translations": {
+            "ru": "проект"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/projekti.mp3"
+        },
+        {
+          "fi": "aikataulu",
+          "translations": {
+            "ru": "график, расписание"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/aikataulu.mp3"
+        },
+        {
+          "fi": "kiire",
+          "translations": {
+            "ru": "спешка"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/kiire.mp3"
+        },
+        {
+          "fi": "stressi",
+          "translations": {
+            "ru": "стресс"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/stressi.mp3"
+        },
+        {
+          "fi": "lounastauko",
+          "translations": {
+            "ru": "обеденный перерыв"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/lounastauko.mp3"
+        },
+        {
+          "fi": "kahvitauko",
+          "translations": {
+            "ru": "кофейный перерыв"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/kahvitauko.mp3"
+        },
+        {
+          "fi": "ruokala",
+          "translations": {
+            "ru": "столовая"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/ruokala.mp3"
+        },
+        {
+          "fi": "kahviautomaatti",
+          "translations": {
+            "ru": "кофейный автомат"
+          },
+          "audio": "/audio/A1-9/vocabulary/work/kahviautomaatti.mp3"
+        }
+      ]
+    },
+    "ammatit": {
+      "title": "Профессии",
+      "words": [
+        {
+          "fi": "lääkäri",
+          "translations": {
+            "ru": "врач"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/laakari.mp3"
+        },
+        {
+          "fi": "sairaanhoitaja",
+          "translations": {
+            "ru": "медсестра / медбрат"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/sairaanhoitaja.mp3"
+        },
+        {
+          "fi": "hammaslääkäri",
+          "translations": {
+            "ru": "стоматолог"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/hammaslaakari.mp3"
+        },
+        {
+          "fi": "myyjä",
+          "translations": {
+            "ru": "продавец"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/myyja.mp3"
+        },
+        {
+          "fi": "linja-autonkuljettaja",
+          "translations": {
+            "ru": "водитель автобуса"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/linja_autonkuljettaja.mp3"
+        },
+        {
+          "fi": "bussikuski",
+          "translations": {
+            "ru": "разг. водитель автобуса"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/bussikuski.mp3"
+        },
+        {
+          "fi": "rekkakuski",
+          "translations": {
+            "ru": "дальнобойщик"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/rekkakuski.mp3"
+        },
+        {
+          "fi": "taksikuski",
+          "translations": {
+            "ru": "таксист"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/taksikuski.mp3"
+        },
+        {
+          "fi": "automekaanikko",
+          "translations": {
+            "ru": "автомеханик"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/automekaanikko.mp3"
+        },
+        {
+          "fi": "maanviljelijä",
+          "translations": {
+            "ru": "фермер"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/maanviljelija.mp3"
+        },
+        {
+          "fi": "laulaja",
+          "translations": {
+            "ru": "певец / певица"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/laulaja.mp3"
+        },
+        {
+          "fi": "kirjailija",
+          "translations": {
+            "ru": "писатель"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/kirjailija.mp3"
+        },
+        {
+          "fi": "näyttelijä",
+          "translations": {
+            "ru": "актёр / актриса"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/nayttelija.mp3"
+        },
+        {
+          "fi": "urheilija",
+          "translations": {
+            "ru": "спортсмен"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/urheilija.mp3"
+        },
+        {
+          "fi": "poliisi",
+          "translations": {
+            "ru": "полицейский"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/poliisi.mp3"
+        },
+        {
+          "fi": "palomies",
+          "translations": {
+            "ru": "пожарный"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/palomies.mp3"
+        },
+        {
+          "fi": "pappi",
+          "translations": {
+            "ru": "священник"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/pappi.mp3"
+        },
+        {
+          "fi": "yksityisyrittäjä",
+          "translations": {
+            "ru": "частный предприниматель"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/yksityisyrittaja.mp3"
+        },
+        {
+          "fi": "arkkitehti",
+          "translations": {
+            "ru": "архитектор"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/arkkitehti.mp3"
+        },
+        {
+          "fi": "insinööri",
+          "translations": {
+            "ru": "инженер"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/insinoori.mp3"
+        },
+        {
+          "fi": "rakennusmies",
+          "translations": {
+            "ru": "строитель"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/rakennusmies.mp3"
+        },
+        {
+          "fi": "putkiasentaja",
+          "translations": {
+            "ru": "сантехник"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/putkiasentaja.mp3"
+        },
+        {
+          "fi": "putkimies",
+          "translations": {
+            "ru": "разг. сантехник"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/putkimies.mp3"
+        },
+        {
+          "fi": "sähköasentaja",
+          "translations": {
+            "ru": "электрик"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/sahkoasentaja.mp3"
+        },
+        {
+          "fi": "sähkömies",
+          "translations": {
+            "ru": "разг. электрик"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/sahkomies.mp3"
+        },
+        {
+          "fi": "maalari",
+          "translations": {
+            "ru": "маляр"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/maalari.mp3"
+        },
+        {
+          "fi": "postinjakaja",
+          "translations": {
+            "ru": "почтальон"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/postinjakaja.mp3"
+        },
+        {
+          "fi": "vahtimestari",
+          "translations": {
+            "ru": "дворник, охранник"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/vahtimestari.mp3"
+        },
+        {
+          "fi": "vartija",
+          "translations": {
+            "ru": "охранник"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/vartija.mp3"
+        },
+        {
+          "fi": "kiinteistövälittäjä",
+          "translations": {
+            "ru": "риэлтор"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/kiinteistovalittaja.mp3"
+        },
+        {
+          "fi": "toimitusjohtaja",
+          "translations": {
+            "ru": "генеральный директор"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/toimitusjohtaja.mp3"
+        },
+        {
+          "fi": "henkilöstöpäällikkö",
+          "translations": {
+            "ru": "менеджер по персоналу"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/henkilostopaallikko.mp3"
+        },
+        {
+          "fi": "assistentti",
+          "translations": {
+            "ru": "ассистент"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/assistentti.mp3"
+        },
+        {
+          "fi": "sihteeri",
+          "translations": {
+            "ru": "секретарь"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/sihteeri.mp3"
+        },
+        {
+          "fi": "kirjanpitäjä",
+          "translations": {
+            "ru": "бухгалтер"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/kirjanpitaja.mp3"
+        },
+        {
+          "fi": "toimittaja",
+          "translations": {
+            "ru": "журналист"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/toimittaja.mp3"
+        },
+        {
+          "fi": "valokuvaaja",
+          "translations": {
+            "ru": "фотограф"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/valokuvaaja.mp3"
+        },
+        {
+          "fi": "siivooja",
+          "translations": {
+            "ru": "уборщик / уборщица"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/siivooja.mp3"
+        },
+        {
+          "fi": "kampaaja",
+          "translations": {
+            "ru": "парикмахер (женский)"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/kampaaja.mp3"
+        },
+        {
+          "fi": "parturi",
+          "translations": {
+            "ru": "парикмахер (мужской)"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/parturi.mp3"
+        },
+        {
+          "fi": "kosmetologi",
+          "translations": {
+            "ru": "косметолог"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/kosmetologi.mp3"
+        },
+        {
+          "fi": "opettaja",
+          "translations": {
+            "ru": "учитель"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/opettaja.mp3"
+        },
+        {
+          "fi": "kokki",
+          "translations": {
+            "ru": "повар"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/kokki.mp3"
+        },
+        {
+          "fi": "tarjoilija",
+          "translations": {
+            "ru": "официант"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/tarjoilija.mp3"
+        },
+        {
+          "fi": "keittiöapulainen",
+          "translations": {
+            "ru": "помощник на кухне"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/keittioapulainen.mp3"
+        },
+        {
+          "fi": "lastentarhanopettaja",
+          "translations": {
+            "ru": "воспитатель в детсаду"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/lastentarhanopettaja.mp3"
+        },
+        {
+          "fi": "lastenhoitaja",
+          "translations": {
+            "ru": "няня, помощник по уходу за детьми"
+          },
+          "audio": "/audio/A1-9/vocabulary/ammatit/lastenhoitaja.mp3"
+        }
+      ]
+    }
+  },
+  "grammar": {
+    "sections": [
+      {
+        "id": "verbit",
+        "title": {
+          "ru": "Глаголы требующие определённых окончаний",
+          "fi": "Verbit"
+        },
+        "explanationStructured": {
+          "title": {
+            "ru": "Глаголы и падежи: введение"
+          },
+          "intro": {
+            "ru": "В финском языке многие глаголы требуют определённого падежа, чтобы предложение было правильным и звучало естественно. Эти окончания отвечают на разные вопросы:"
+          },
+          "examplesByType": [
+            {
+              "title": {
+                "ru": "Окончания и вопросы"
+              },
+              "examples": [
+                {
+                  "fi": "-lle",
+                  "ru": "Кому? Куда?"
+                },
+                {
+                  "fi": "-lta/ltä",
+                  "ru": "От кого? Откуда?"
+                },
+                {
+                  "fi": "-sta/stä",
+                  "ru": "О чём? Из чего? Откуда?"
+                }
+              ]
+            }
+          ],
+          "summary": {
+            "body": {
+              "ru": "В следующих шагах мы рассмотрим самые важные глаголы и примеры, которые помогут запомнить эти модели."
+            }
+          }
+        },
+        "exercises": [
+          {
+            "id": "lle-form",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Этап 1. Verbi + lle (Кому? Куда?)"
+              },
+              "intro": {
+                "ru": "Когда действие направлено кому-то или куда-то → используется **-lle**."
+              },
+              "important": {
+                "title": {
+                  "ru": "Глаголы"
+                },
+                "body": {
+                  "ru": "**antaa, lainata, soittaa, sanoa, puhua, kertoa, kirjoittaa, vastata, viedä, tuoda, suositella, esitellä, sopia, maksaa, ostaa.**"
+                }
+              },
+              "examples": [
+                {
+                  "fi": "Isä antaa Matille kirjan.",
+                  "ru": "Папа даёт Матти книгу."
+                },
+                {
+                  "fi": "Lainaatko minulle kynän?",
+                  "ru": "Одолжишь мне ручку?"
+                },
+                {
+                  "fi": "Soitan ystävälle illalla.",
+                  "ru": "Я позвоню другу вечером."
+                },
+                {
+                  "fi": "Opettaja sanoo oppilaalle huomenta.",
+                  "ru": "Учитель говорит ученику «доброе утро»."
+                },
+                {
+                  "fi": "Äiti puhuu lapselle rauhallisesti.",
+                  "ru": "Мама спокойно разговаривает с ребёнком."
+                },
+                {
+                  "fi": "Pekka kertoo Annalle tarinan.",
+                  "ru": "Пекка рассказывает Анне историю."
+                },
+                {
+                  "fi": "Kirjoitan ystävälle kirjeen.",
+                  "ru": "Я пишу другу письмо."
+                },
+                {
+                  "fi": "Vastaan sinulle huomenna.",
+                  "ru": "Я отвечу тебе завтра."
+                },
+                {
+                  "fi": "Vie kirja opettajalle.",
+                  "ru": "Отнеси книгу учителю."
+                },
+                {
+                  "fi": "Tuotko minulle vettä?",
+                  "ru": "Принесёшь мне воды?"
+                },
+                {
+                  "fi": "Suosittelen sinulle tätä kirjaa.",
+                  "ru": "Я рекомендую тебе эту книгу."
+                },
+                {
+                  "fi": "Esittelen teille perheeni.",
+                  "ru": "Я представлю вам свою семью."
+                },
+                {
+                  "fi": "Tämä väri sopii sinulle hyvin.",
+                  "ru": "Этот цвет тебе очень подходит."
+                },
+                {
+                  "fi": "Maksoin lahjan Liisalle.",
+                  "ru": "Я заплатил за подарок Лийсе."
+                },
+                {
+                  "fi": "Äiti ostaa lapselle leluja.",
+                  "ru": "Мама покупает ребёнку игрушки."
+                }
+              ]
+            },
+            "instruction": {
+              "ru": "✍️"
+            },
+            "items": [
+              {
+                "sentence": "Isä antaa ___ kirjan. (minä)",
+                "answer": "minulle",
+                "translation": "Папа даёт мне книгу",
+                "feedbackCorrect": "✅ Верно! antaa + lle: minulle = мне.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'minulle'. После antaa объект направляется кому-то → окончание -lle."
+              },
+              {
+                "sentence": "Lainaatko ___ kynän? (minä)",
+                "answer": "minulle",
+                "translation": "Одолжишь мне ручку?",
+                "feedbackCorrect": "✅ Отлично! lainata + lle: minulle = мне.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'minulle'. При одалживании используется кому?-мне -lle."
+              },
+              {
+                "sentence": "Soitan ___. (ystävä)",
+                "answer": "ystävälle",
+                "translation": "Я позвоню другу вечером",
+                "feedbackCorrect": "✅ Верно! soittaa + lle: ystävälle = кому? другу.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'ystävälle'. Звоним кому? -другу -lle."
+              },
+              {
+                "sentence": "Opettaja sanoo ___ huomenta. (oppilas)",
+                "answer": "oppilaalle",
+                "translation": "Учитель говорит ученику «доброе утро».",
+                "feedbackCorrect": "✅ Молодец! sanoa + lle: oppilaalle = говорит кому? ученику.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'oppilaalle'. говорит кому? ученику → -lle."
+              },
+              {
+                "sentence": "Äiti puhuu ___ rauhallisesti. (lapsi)",
+                "answer": "lapselle",
+                "translation": "Мама спокойно говорит ребенку.",
+                "feedbackCorrect": "✅ Отлично! puhua + lle: говорит кому? ребёнку.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'lapselle'. После puhua к кому-то → -lle."
+              },
+              {
+                "sentence": "Pekka kertoo ___ tarinan. (Hän)",
+                "answer": "hänelle",
+                "translation": "Пекка рассказывает ей историю.",
+                "feedbackCorrect": "✅ Верно! kertoa + lle: hänelle рассказывает кому - ей/ему.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'hänelle'. После kertoa рассказывать кому? - ему → -lle."
+              },
+              {
+                "sentence": "Kirjoitan ___ kirjeen. (ystävä)",
+                "answer": "ystävälle",
+                "translation": "Я пишу другу письмо.",
+                "feedbackCorrect": "✅ Отлично! kirjoittaa + lle: ystävälle пишу кому? = другу.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'ystävälle'. После kirjoittaa пишу кому? другу → -lle."
+              },
+              {
+                "sentence": "Vastaan ___ huomenna. (sinä)",
+                "answer": "sinulle",
+                "translation": "Я отвечу тебе завтра.",
+                "feedbackCorrect": "✅ Молодец! vastata + lle: sinulle отвечу кому? = тебе.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'sinulle'. После vastata отвечу кому? -тебе → -lle."
+              },
+              {
+                "sentence": "Vie kirja ___. (opettaja)",
+                "answer": "opettajalle",
+                "translation": "Отнеси книгу учителю.",
+                "feedbackCorrect": "✅ Верно! viedä + lle: opettajalle отнесу кому? = учителю.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'opettajalle'. После viedä отнесу кому? -учителю → -lle."
+              },
+              {
+                "sentence": "Tuotko ___ vettä? (minä)",
+                "answer": "minulle",
+                "translation": "Принесёшь мне воды?",
+                "feedbackCorrect": "✅ Отлично! tuoda + lle: minulle принесешь кому? = мне.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'minulle'. После tuoda принесешь кому? = мне → -lle."
+              },
+              {
+                "sentence": "Suosittelen ___ tätä kirjaa. (sinä)",
+                "answer": "sinulle",
+                "translation": "Я рекомендую тебе эту книгу.",
+                "feedbackCorrect": "✅ Молодец! suositella + lle: sinulle рекомендую кому? = тебе.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'sinulle'. После suositella рекомендую кому? = тебе → -lle."
+              },
+              {
+                "sentence": "Esittelen ___ perheeni. (te)",
+                "answer": "teille",
+                "translation": "Я представлю вам свою семью.",
+                "feedbackCorrect": "✅ Отлично! esitellä + lle: teille представлю кому? = вам.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'teille'. После esitellä представлю кому? = вам → -lle."
+              },
+              {
+                "sentence": "Tämä väri sopii ___. (sinä)",
+                "answer": "sinulle",
+                "translation": "Этот цвет тебе очень подходит.",
+                "feedbackCorrect": "✅ Верно! sopia + lle: sinulle подходит кому? = тебе.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'sinulle'. После sopia подходит кому? = тебе → -lle."
+              },
+              {
+                "sentence": "Maksan lahjan ___. (Hän)",
+                "answer": "hänelle",
+                "translation": "Я заплачу за подарок ему/ей.",
+                "feedbackCorrect": "✅ Молодец! maksaa + lle: hänelle заплачу кому? = ему/ей.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'hänelle'. После maksaa заплачу кому? = ему/ей → -lle."
+              },
+              {
+                "sentence": "Äiti ostaa ___ leluja. (lapsi)",
+                "answer": "lapselle",
+                "translation": "Мама покупает ребёнку игрушки.",
+                "feedbackCorrect": "✅ Отлично! ostaa + lle: lapselle покупает кому? = ребёнку.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'lapselle'. После ostaa покупает кому? = ребёнку → -lle."
+              }
+            ]
+          },
+          {
+            "id": "lta-form",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Этап 2. Verbi + lta/ltä (От кого? Откуда?)"
+              },
+              "intro": {
+                "ru": "Когда действие идёт от кого-то или откуда-то → используется **-lta/ltä**."
+              },
+              "important": {
+                "title": {
+                  "ru": "Глаголы"
+                },
+                "body": {
+                  "ru": "**saada, ottaa, lainata, kysyä, pyytää, ostaa.**"
+                }
+              },
+              "examples": [
+                {
+                  "fi": "Lapsi saa äidiltä jäätelön.",
+                  "ru": "Ребёнок получает мороженое от мамы."
+                },
+                {
+                  "fi": "Poika ottaa opettajalta kirjan.",
+                  "ru": "Мальчик берёт книгу у учителя."
+                },
+                {
+                  "fi": "Opiskelija lainaa kynän opettajalta.",
+                  "ru": "Студент одалживает ручку у учителя."
+                },
+                {
+                  "fi": "Kysyn ohjeita naapurilta.",
+                  "ru": "Я спрашиваю указания у соседа."
+                },
+                {
+                  "fi": "Pyydän opettajalta apua.",
+                  "ru": "Я прошу помощи у учителя."
+                },
+                {
+                  "fi": "Hän ostaa vihanneksia myyjältä.",
+                  "ru": "Он покупает овощи у продавца."
+                }
+              ]
+            },
+            "instruction": {
+              "ru": "✍️"
+            },
+            "items": [
+              {
+                "sentence": "Lapsi saa ___ jäätelön. (äiti)",
+                "answer": "äidiltä",
+                "translation": "Ребёнок получает мороженое от мамы",
+                "feedbackCorrect": "✅ Верно! saada + lta: äidiltä = от мамы.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'äidiltä'. получает от кого? от мамы -lta."
+              },
+              {
+                "sentence": "Poika ottaa ___ kirjan. (opettaja)",
+                "answer": "opettajalta",
+                "translation": "Мальчик берёт книгу у учителя",
+                "feedbackCorrect": "✅ Молодец! ottaa + lta: opettajalta = у учителя.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'opettajalta'. берет у кого? у учителя → -lta."
+              },
+              {
+                "sentence": "Opiskelija lainaa kynän ___. (opettaja)",
+                "answer": "opettajalta",
+                "translation": "Студент одалживает ручку у учителя",
+                "feedbackCorrect": "✅ Отлично! lainata + lta: opettajalta одалживает у кого? = у учителя.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'opettajalta'. одалживает у кого? → -lta."
+              },
+              {
+                "sentence": "Kysyn ohjeita ___. (naapuri)",
+                "answer": "naapurilta",
+                "translation": "Я спрашиваю указания у соседа",
+                "feedbackCorrect": "✅ Верно! kysyä + lta: спрашиваю у кого? = у соседа.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'naapurilta'. спрашиваю у кого? → -lta."
+              },
+              {
+                "sentence": "Pyydän ___ apua. (opettaja)",
+                "answer": "opettajalta",
+                "translation": "Я прошу помощи у учителя",
+                "feedbackCorrect": "✅ Молодец! pyytää + lta: прошу у кого? от кого? = у учителя.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'opettajalta'. прошу у кого? от кого? → -lta."
+              },
+              {
+                "sentence": "Hän ostaa vihanneksia ___. (myyjä)",
+                "answer": "myyjältä",
+                "translation": "Он покупает овощи у продавца",
+                "feedbackCorrect": "✅ Отлично! ostaa + lta: покупает у кого? от кого? = у продавца.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'myyjältä'. покупает у кого? от кого? = у продавца. → -lta."
+              }
+            ]
+          },
+          {
+            "id": "mihin+lle",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Этап 3. Mihin sinä menet? + -lle (Куда идёшь?)"
+              },
+              "intro": {
+                "ru": "Когда мы говорим, куда направляемся, используется окончание **-lle**.\n\nОно показывает направление к человеку, месту или событию."
+              },
+              "important": {
+                "title": {
+                  "ru": "Вопрос"
+                },
+                "body": {
+                  "ru": "**Mihin?** → Куда?"
+                }
+              },
+              "examples": [
+                {
+                  "fi": "Menen lounaalle.",
+                  "ru": "Я иду на обед."
+                },
+                {
+                  "fi": "Menen kahville.",
+                  "ru": "Я иду на кофе."
+                },
+                {
+                  "fi": "Menen lääkärille.",
+                  "ru": "Я иду к врачу."
+                },
+                {
+                  "fi": "Menen hammaslääkärille.",
+                  "ru": "Я иду к зубному."
+                },
+                {
+                  "fi": "Menen kurssille.",
+                  "ru": "Я иду на курс."
+                },
+                {
+                  "fi": "Menen tunnille.",
+                  "ru": "Я иду на урок."
+                },
+                {
+                  "fi": "Menen bussipysäkille.",
+                  "ru": "Я иду на автобусную остановку."
+                },
+                {
+                  "fi": "Menen torille.",
+                  "ru": "Я иду на рынок."
+                },
+                {
+                  "fi": "Menen kuntosalille.",
+                  "ru": "Я иду в спортзал."
+                }
+              ]
+            },
+            "instruction": {
+              "ru": "✍️ Впишите правильную форму слова с окончанием -lle (Куда? К кому?)."
+            },
+            "items": [
+              {
+                "sentence": "Menen ___. (lounas)",
+                "answer": "lounaalle",
+                "translation": "Я иду на обед",
+                "feedbackCorrect": "✅ Верно! 'lounas' → 'lounaalle'.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'lounaalle'. Вопрос Mihin? → куда?"
+              },
+              {
+                "sentence": "Menen ___. (kahvi)",
+                "answer": "kahville",
+                "translation": "Я иду на кофе",
+                "feedbackCorrect": "✅ Отлично! 'kahvi' → 'kahville'.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'kahville'. После mihin? → kahville."
+              },
+              {
+                "sentence": "Menen ___. (lääkäri)",
+                "answer": "lääkärille",
+                "translation": "Я иду к врачу",
+                "feedbackCorrect": "✅ Верно! 'lääkäri' → 'lääkärille'.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'lääkärille'."
+              },
+              {
+                "sentence": "Menen ___. (hammaslääkäri)",
+                "answer": "hammaslääkärille",
+                "translation": "Я иду к зубному",
+                "feedbackCorrect": "✅ Отлично! 'hammaslääkäri' → 'hammaslääkärille'.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'hammaslääkärille'."
+              },
+              {
+                "sentence": "Menen ___. (kurssi)",
+                "answer": "kurssille",
+                "translation": "Я иду на курс",
+                "feedbackCorrect": "✅ Молодец! 'kurssi' → 'kurssille'.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'kurssille'."
+              },
+              {
+                "sentence": "Menen ___. (tunti)",
+                "answer": "tunnille",
+                "translation": "Я иду на урок",
+                "feedbackCorrect": "✅ Верно! 'tunti' → 'tunnille'.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'tunnille'."
+              },
+              {
+                "sentence": "Menen ___. (bussipysäkki)",
+                "answer": "bussipysäkille",
+                "translation": "Я иду на автобусную остановку",
+                "feedbackCorrect": "✅ Отлично! 'bussipysäkki' → 'bussipysäkille'.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'bussipysäkille'."
+              },
+              {
+                "sentence": "Menen ___. (tori)",
+                "answer": "torille",
+                "translation": "Я иду на рынок",
+                "feedbackCorrect": "✅ Верно! 'tori' → 'torille'.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'torille'."
+              },
+              {
+                "sentence": "Menen ___. (kuntosali)",
+                "answer": "kuntosalille",
+                "translation": "Я иду в спортзал",
+                "feedbackCorrect": "✅ Отлично! 'kuntosali' → 'kuntosalille'.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'kuntosalille'."
+              },
+              {
+                "sentence": "Menen ___. (kävely)",
+                "answer": "kävelylle",
+                "translation": "Я иду на прогулку",
+                "feedbackCorrect": "✅ Молодец! 'kävely' → 'kävelylle'.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'kävelylle'."
+              }
+            ]
+          },
+          {
+            "id": "mistä",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Этап 4. Mistä he keskustelevat? + -sta/stä (О чём?)"
+              },
+              "intro": {
+                "ru": "Некоторые глаголы требуют после себя окончания **-sta/stä**, если речь идёт о теме разговора или источнике информации."
+              },
+              "important": {
+                "title": {
+                  "ru": "Вопрос и глаголы"
+                },
+                "body": {
+                  "ru": "**Вопрос:** Mistä? → О чём? Откуда?\n\n**Глаголы:** puhua, kertoa, jutella, kirjoittaa, keskustella"
+                }
+              },
+              "examples": [
+                {
+                  "fi": "Opiskelijat puhuvat kurssista.",
+                  "ru": "Студенты говорят о курсе."
+                },
+                {
+                  "fi": "Hän kertoo matkasta.",
+                  "ru": "Он рассказывает о поездке."
+                },
+                {
+                  "fi": "Me juttelemme harrastuksesta.",
+                  "ru": "Мы беседуем о хобби."
+                },
+                {
+                  "fi": "Opiskelija kirjoittaa itsestään.",
+                  "ru": "Студент пишет о себе."
+                },
+                {
+                  "fi": "He keskustelevat elokuvasta.",
+                  "ru": "Они обсуждают фильм."
+                }
+              ]
+            },
+            "instruction": {
+              "ru": "Вставьте правильную форму слова с окончанием -sta/-stä, отвечающую на вопрос Mistä? (о чём?, откуда?)."
+            },
+            "items": [
+              {
+                "sentence": "Opiskelijat puhuvat ___. (kurssi)",
+                "answer": "kurssista",
+                "translation": "Студенты говорят о курсе",
+                "feedbackCorrect": "✅ Верно! 'kurssi' → 'kurssista'. Вопрос Mistä? → о чём?",
+                "feedbackWrong": "❌ Ошибка. Нужно 'kurssista'. После puhua о чём-то используем -sta/-stä."
+              },
+              {
+                "sentence": "Hän kertoo ___. (matka)",
+                "answer": "matkasta",
+                "translation": "Он рассказывает о поездке",
+                "feedbackCorrect": "✅ Отлично! 'matka' → 'matkasta'.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'matkasta'. После kertoa → о чём? → -sta/-stä."
+              },
+              {
+                "sentence": "Me juttelemme ___. (harrastus)",
+                "answer": "harrastuksesta",
+                "translation": "Мы беседуем о хобби",
+                "feedbackCorrect": "✅ Молодец! 'harrastus' → 'harrastuksesta'.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'harrastuksesta'. После jutella → о чём? → -sta/-stä."
+              },
+              {
+                "sentence": "Opiskelija kirjoittaa ___. (itse)",
+                "answer": "itsestään",
+                "translation": "Студент пишет о себе",
+                "feedbackCorrect": "✅ Верно! 'itse' → 'itsestään'.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'itsestään'. После kirjoittaa о ком-то → форма с -sta/-stä."
+              },
+              {
+                "sentence": "He keskustelevat ___. (elokuva)",
+                "answer": "elokuvasta",
+                "translation": "Они обсуждают фильм",
+                "feedbackCorrect": "✅ Отлично! 'elokuva' → 'elokuvasta'.",
+                "feedbackWrong": "❌ Ошибка. Нужно 'elokuvasta'. После keskustella → о чём? → -sta/-stä."
+              }
+            ]
+          },
+          {
+            "id": "lle-lta-forms",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "📌 Выберите правильную форму слова: <b>-lle</b> (кому?) или <b>-lta/-ltä</b> (от кого?)."
+            },
+            "questions": [
+              {
+                "question": "Minä annan kirjan ___ (ystävä)",
+                "options": [
+                  "ystävä",
+                  "ystävälle",
+                  "ystävältä"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Minä lainaan rahaa ___ (äiti)",
+                "options": [
+                  "äidille",
+                  "äidiltä",
+                  "äitiä"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Soitan ___ (opettaja) huomenna.",
+                "options": [
+                  "opettajalle",
+                  "opettajalta",
+                  "opettajaa"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Poliisi ottaa ajokortin ___ (kuski).",
+                "options": [
+                  "kuskille",
+                  "kuskilta",
+                  "kuskin"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Hän kirjoittaa viestin ___ (pomot).",
+                "options": [
+                  "pomoille",
+                  "pomoilta",
+                  "pomot"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Otan mansikat ___ (viljelijä).",
+                "options": [
+                  "viljelijälle",
+                  "viljelijältä",
+                  "viljelijän"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Kiitos! Onko se ___ (minä)?",
+                "options": [
+                  "minut",
+                  "minulle",
+                  "minulta"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Kysyn lupaa ___ (opettaja).",
+                "options": [
+                  "opettajalta",
+                  "opettajalle",
+                  "opettajaa"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Esittelen ystäväni ___ (sinä).",
+                "options": [
+                  "sinulle",
+                  "sinulta",
+                  "sinua"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Hän saa viestin ___ (Alex).",
+                "options": [
+                  "Alexilta",
+                  "Alexille",
+                  "Alexin"
+                ],
+                "answer": 0
+              }
+            ]
+          },
+          {
+            "id": "ille-elta-fill",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "✍️ Вставьте правильную форму слова с окончанием -lle, -lta, -sta/-stä или -aan/-ään в зависимости от значения глагола и контекста."
+            },
+            "items": [
+              {
+                "sentence": "Isä antaa lahjan ___. (Emma)",
+                "answer": "Emmalle"
+              },
+              {
+                "sentence": "Minä lainaan kirjan ___. (kirjasto)",
+                "answer": "kirjastosta"
+              },
+              {
+                "sentence": "Soitan ___. (isoisä)",
+                "answer": "isoisälle"
+              },
+              {
+                "sentence": "Voitko lainata rahaa ___? (minä)",
+                "answer": "minulle"
+              },
+              {
+                "sentence": "Hän ei puhu ___. (minä)",
+                "answer": "minulle"
+              },
+              {
+                "sentence": "Kalle sanoo päivää ___. (naapuri)",
+                "answer": "naapurille"
+              },
+              {
+                "sentence": "Vastaan pian ___. (sinä)",
+                "answer": "sinulle"
+              },
+              {
+                "sentence": "Hän ostaa sandaalit ___. (Emma)",
+                "answer": "Emmalle"
+              },
+              {
+                "sentence": "Pyydän rahaa ___. (äiti)",
+                "answer": "äidiltä"
+              },
+              {
+                "sentence": "Alex lainaa rahaa ___. (Jari)",
+                "answer": "Jarilta"
+              },
+              {
+                "sentence": "Suomalaiset puhuvat usein ___. (sää)",
+                "answer": "säästä"
+              },
+              {
+                "sentence": "Jari kertoo ___. (projekti)",
+                "answer": "projektista"
+              },
+              {
+                "sentence": "Kirjoitamme ___. (Suomen historia)",
+                "answer": "Suomen historiasta"
+              },
+              {
+                "sentence": "Työkaverit keskustelevat ___. (loma)",
+                "answer": "lomasta"
+              },
+              {
+                "sentence": "Menen ___. (kauppa)",
+                "answer": "kauppaan"
+              },
+              {
+                "sentence": "Tule illalla ___. (me)",
+                "answer": "meille"
+              },
+              {
+                "sentence": "En voi. Menen ___. (Pedro)",
+                "answer": "Pedrolle"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sanatyypit-in",
+        "title": {
+          "ru": "Типы слов: окончания -in",
+          "fi": "Sanatyypit: in"
+        },
+        "explanationStructured": {
+          "title": {
+            "ru": "Слова типа -in (in-sanat)"
+          },
+          "intro": {
+            "ru": "**Слова на -in** — это существительные, которые оканчиваются на **-in** (например, *puhelin* — телефон). Они склоняются особым образом: в падежах внутри появляется буква **-e-**, а конечная **-n** меняется на **-m**."
+          },
+          "important": {
+            "title": {
+              "ru": "Как образуется основа?"
+            },
+            "body": {
+              "ru": "1. Возьмите слово: **puhelin**.\n\n2. Уберите **-n**: puheli-\n\n3. Добавьте **-me-**: puhelime-\n\n4. Присоедините нужное окончание: **puhelimessa**, **puhelimeen**, **puhelimelta** и т.д."
+            }
+          },
+          "conjugationTables": [
+            {
+              "title": {
+                "ru": "Склонение слова puhelin (телефон)"
+              },
+              "columns": [
+                "Падеж",
+                "Форма",
+                "Перевод"
+              ],
+              "rows": [
+                {
+                  "person": "Nominatiivi\n(кто? что?)",
+                  "form": "puhelin",
+                  "translation": {
+                    "ru": "телефон"
+                  }
+                },
+                {
+                  "person": "Partitiivi\n(кого? что?)",
+                  "form": "puhelinta",
+                  "translation": {
+                    "ru": "телефон (partitiivi)"
+                  }
+                },
+                {
+                  "person": "Основа",
+                  "form": "puhelime-",
+                  "translation": {
+                    "ru": "основа для склонения"
+                  }
+                },
+                {
+                  "person": "Genetiivi\n(чей?)",
+                  "form": "puhelimen",
+                  "translation": {
+                    "ru": "телефона"
+                  }
+                },
+                {
+                  "person": "Illatiivi\n(в кого? куда?)",
+                  "form": "puhelimeen",
+                  "translation": {
+                    "ru": "в телефон"
+                  }
+                },
+                {
+                  "person": "Inessiivi\n(в ком? где?)",
+                  "form": "puhelimessa",
+                  "translation": {
+                    "ru": "в телефоне"
+                  }
+                },
+                {
+                  "person": "Elatiivi\n(из кого? откуда?)",
+                  "form": "puhelimesta",
+                  "translation": {
+                    "ru": "из телефона"
+                  }
+                },
+                {
+                  "person": "Allatiivi\n(кому? куда?)",
+                  "form": "puhelimelle",
+                  "translation": {
+                    "ru": "к телефону"
+                  }
+                },
+                {
+                  "person": "Adeessiivi\n(у кого? где?)",
+                  "form": "puhelimella",
+                  "translation": {
+                    "ru": "на телефоне"
+                  }
+                },
+                {
+                  "person": "Ablatiivi\n(от кого? откуда?)",
+                  "form": "puhelimelta",
+                  "translation": {
+                    "ru": "от телефона"
+                  }
+                },
+                {
+                  "person": "Множественное число",
+                  "form": "puhelimet",
+                  "translation": {
+                    "ru": "телефоны"
+                  }
+                }
+              ]
+            }
+          ],
+          "summary": {
+            "title": {
+              "ru": "Другие слова этого типа"
+            },
+            "body": {
+              "ru": "*avain* (ключ), *kirjain* (буква), *laskin* (калькулятор), *pakastin* (морозильник), *tulostin* (принтер)."
+            }
+          }
+        },
+        "exercises": [
+          {
+            "id": "in-sanat-cases",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "✍️ Выберите правильную форму слова (in-sanat) по смыслу предложения."
+            },
+            "items": [
+              {
+                "sentence": "Käytän ___ joka päivä. (puhelin, mitä?)",
+                "answer": "puhelinta",
+                "translation": "Я использую телефон каждый день. (partitiivi)"
+              },
+              {
+                "sentence": "Puhelimessa on hyvä kamera. (puhelin, missä?)",
+                "answer": "puhelimessa",
+                "translation": "В телефоне хорошая камера. (inessiivi)"
+              },
+              {
+                "sentence": "Lapsi kirjoittaa ___. (kirjain, mitä?)",
+                "answer": "kirjainta",
+                "translation": "Ребенок пишет букву. (partitiivi)"
+              },
+              {
+                "sentence": "Tämä on ___ kuva. (kirjain, minkä?)",
+                "answer": "kirjaimen",
+                "translation": "Это изображение буквы. (genetiivi)"
+              },
+              {
+                "sentence": "Etsin ___. (avain, mitä?)",
+                "answer": "avainta",
+                "translation": "Я ищу ключ. (partitiivi)"
+              },
+              {
+                "sentence": "Otan jäätelöt ___. (pakastin, mistä?)",
+                "answer": "pakastimesta",
+                "translation": "Я беру мороженое из морозильника. (elatiivi)"
+              },
+              {
+                "sentence": "Laitan kalan ___. (pakastin, mihin?)",
+                "answer": "pakastimeen",
+                "translation": "Я кладу рыбу в морозильник. (illatiivi)"
+              },
+              {
+                "sentence": "Käytän ___ matematiikassa. (laskin, mitä?)",
+                "answer": "laskinta",
+                "translation": "Я использую калькулятор в математике. (partitiivi)"
+              },
+              {
+                "sentence": "Lasken ___ . (laskin, millä?)",
+                "answer": "laskimella",
+                "translation": "Я считаю на калькуляторе. (adessiivi)"
+              },
+              {
+                "sentence": "Tässä ___ ei ole paperia. (tulostin, missä?)",
+                "answer": "tulostimessa",
+                "translation": "В этом принтере нет бумаги. (inessiivi)"
+              },
+              {
+                "sentence": "Tulostan paperit ___. (tulostin, millä?)",
+                "answer": "tulostimella",
+                "translation": "Я распечатаю бумаги на принтере. (adessiivi)"
+              }
+            ]
+          },
+          {
+            "id": "in-sanat-cases",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "✍️ Выберите правильную форму слова (in-sanat) по смыслу предложения."
+            },
+            "questions": [
+              {
+                "question": "Minulla on uusi ___ (puhelin)",
+                "options": [
+                  "puhelin",
+                  "puhelinta",
+                  "puhelimen"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Tarvitsen uuden ___ (puhelin)",
+                "options": [
+                  "puhelin",
+                  "puhelinta",
+                  "puhelimen"
+                ],
+                "answer": 2
+              },
+              {
+                "question": "Minä etsin ___ (puhelin)",
+                "options": [
+                  "puhelin",
+                  "puhelinta",
+                  "puhelimen"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Puhelu on ___ (puhelin)",
+                "options": [
+                  "puhelimessa",
+                  "puhelimeen",
+                  "puhelimella"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Laitan laturin ___ (puhelin)",
+                "options": [
+                  "puhelimeen",
+                  "puhelimessa",
+                  "puhelimelta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Soitan ___ (puhelin)",
+                "options": [
+                  "puhelimella",
+                  "puhelimeen",
+                  "puhelimen"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Numerot ovat minun ___ (puhelin)",
+                "options": [
+                  "puhelimessa",
+                  "puhelimella",
+                  "puhelimeen"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Tämä on minun ___ (puhelin)",
+                "options": [
+                  "puhelin",
+                  "puhelinta",
+                  "puhelimen"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Otan kirjan ___ (kirjain)",
+                "options": [
+                  "kirjaimelta",
+                  "kirjaimessa",
+                  "kirjaimeen"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Kirjoitan uuden ___ (kirjain)",
+                "options": [
+                  "kirjaimen",
+                  "kirjain",
+                  "kirjainta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Avain on ___ (avain)",
+                "options": [
+                  "avaimessa",
+                  "avaimella",
+                  "avaimeen"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Anna minulle ___ (avain)",
+                "options": [
+                  "avain",
+                  "avaimen",
+                  "avainta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Tarvitsen ___ (laskin)",
+                "options": [
+                  "laskimen",
+                  "laskin",
+                  "laskinta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Laske tämä ___ (laskin)",
+                "options": [
+                  "laskimella",
+                  "laskimessa",
+                  "laskimeen"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Ota jäätelö ___ (pakastin)",
+                "options": [
+                  "pakastimesta",
+                  "pakastimella",
+                  "pakastimessa"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Laita ruoka ___ (pakastin)",
+                "options": [
+                  "pakastimeen",
+                  "pakastimessa",
+                  "pakastimelta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Tulosta tämä ___ (tulostin)",
+                "options": [
+                  "tulostimella",
+                  "tulostimeen",
+                  "tulostimessa"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Paperit ovat ___ (tulostin)",
+                "options": [
+                  "tulostimessa",
+                  "tulostimella",
+                  "tulostimelta"
+                ],
+                "answer": 0
+              }
+            ]
+          },
+          {
+            "id": "in-sanat-cases-fill",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "✍️ Впишите правильную форму слова (in-sanat) по смыслу предложения."
+            },
+            "items": [
+              {
+                "sentence": "Minulla on uusi ___ (puhelin)",
+                "answer": "puhelin"
+              },
+              {
+                "sentence": "Tarvitsen uuden ___ (puhelin)",
+                "answer": "puhelimen"
+              },
+              {
+                "sentence": "Minä etsin ___ (puhelin)",
+                "answer": "puhelinta"
+              },
+              {
+                "sentence": "Puhelu on ___ (puhelin)",
+                "answer": "puhelimessa"
+              },
+              {
+                "sentence": "Laitan laturin ___ (puhelin)",
+                "answer": "puhelimeen"
+              },
+              {
+                "sentence": "Soitan ___ (puhelin)",
+                "answer": "puhelimella"
+              },
+              {
+                "sentence": "Numerot ovat minun ___ (puhelin)",
+                "answer": "puhelimessa"
+              },
+              {
+                "sentence": "Tämä on minun ___ (puhelin)",
+                "answer": "puhelin"
+              },
+              {
+                "sentence": "Otan kirjan ___ (kirjain)",
+                "answer": "kirjaimelta"
+              },
+              {
+                "sentence": "Kirjoitan uuden ___ (kirjain)",
+                "answer": "kirjaimen"
+              },
+              {
+                "sentence": "Avain on ___ (avain)",
+                "answer": "avaimessa"
+              },
+              {
+                "sentence": "Anna minulle ___ (avain)",
+                "answer": "avain"
+              },
+              {
+                "sentence": "Tarvitsen ___ (laskin)",
+                "answer": "laskimen"
+              },
+              {
+                "sentence": "Laske tämä ___ (laskin)",
+                "answer": "laskimella"
+              },
+              {
+                "sentence": "Ota jäätelö ___ (pakastin)",
+                "answer": "pakastimesta"
+              },
+              {
+                "sentence": "Laita ruoka ___ (pakastin)",
+                "answer": "pakastimeen"
+              },
+              {
+                "sentence": "Tulosta tämä ___ (tulostin)",
+                "answer": "tulostimella"
+              },
+              {
+                "sentence": "Paperit ovat ___ (tulostin)",
+                "answer": "tulostimessa"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sivu-lause",
+        "title": {
+          "ru": "Придаточные предложения",
+          "fi": "Sivu-lause"
+        },
+        "explanationStructured": {
+          "title": {
+            "ru": "Придаточные предложения и временные выражения"
+          },
+          "intro": {
+            "ru": "В финском языке есть специальные союзы для придаточных предложений (*sivulause*). В таких предложениях **глагол всегда стоит на втором месте**."
+          },
+          "important": {
+            "title": {
+              "ru": "Основные союзы"
+            },
+            "body": {
+              "ru": "**mutta** = но\n\n**koska** = потому что\n\n**että** = что\n\n**kun** = когда\n\n**jos** = если\n\n**-ko/kö** = ли (в косвенной речи)"
+            }
+          },
+          "examplesByType": [
+            {
+              "title": {
+                "ru": "Примеры придаточных предложений"
+              },
+              "examples": [
+                {
+                  "fi": "Minä pidän kahvista, mutta en pidä teestä.",
+                  "ru": "Я люблю кофе, *но* не люблю чай."
+                },
+                {
+                  "fi": "En mene ulos, koska sataa.",
+                  "ru": "Я не иду на улицу, *потому что* идёт дождь."
+                },
+                {
+                  "fi": "Hän sanoi, että on väsynyt.",
+                  "ru": "Он сказал, *что* устал."
+                },
+                {
+                  "fi": "Lähden kotiin, kun kurssi loppuu.",
+                  "ru": "Я иду домой, *когда* курс заканчивается."
+                },
+                {
+                  "fi": "Soitan sinulle, jos minulla on aikaa.",
+                  "ru": "Я позвоню тебе, *если* у меня будет время."
+                },
+                {
+                  "fi": "Hän kysyy, tuleeko Maria mukaan.",
+                  "ru": "Он спрашивает, придёт *ли* Мария."
+                }
+              ]
+            },
+            {
+              "title": {
+                "ru": "Временные выражения"
+              },
+              "examples": [
+                {
+                  "fi": "G + kuluttua",
+                  "ru": "через ..."
+                },
+                {
+                  "fi": "G + jälkeen",
+                  "ru": "после ..."
+                },
+                {
+                  "fi": "ennen + P",
+                  "ru": "до ..."
+                }
+              ]
+            },
+            {
+              "title": {
+                "ru": "Примеры временных выражений"
+              },
+              "examples": [
+                {
+                  "fi": "Lähden lomalle kahden viikon kuluttua.",
+                  "ru": "Я уезжаю в отпуск *через две недели*."
+                },
+                {
+                  "fi": "Menemme syömään työn jälkeen.",
+                  "ru": "Мы идём кушать *после работы*."
+                },
+                {
+                  "fi": "Ennen tenttiä luen paljon.",
+                  "ru": "*До экзамена* я много читаю."
+                }
+              ]
+            }
+          ],
+          "summary": {
+            "body": {
+              "ru": "Часто используются конструкции с **kuluttua**, **jälkeen** и **ennen**."
+            }
+          }
+        },
+        "exercises": [
+          {
+            "id": "sivu-lause",
+            "type": "fill-in-the-blank",
+            "items": [
+              {
+                "sentence": "Minä ___. (minä)",
+                "answer": "olen",
+                "translation": "Я студент."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sanatyypit-as-is",
+        "title": {
+          "ru": "Типы слов: окончания -as/äs-is",
+          "fi": "Sanatyypit: as/äs-is"
+        },
+        "exercises": [
+          {
+            "id": "as",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Склонение слов на -as/-äs"
+              },
+              "intro": {
+                "ru": "Слова, которые оканчиваются на **-as/-äs**, в падежах меняют свою основу: **-as/-äs → -aa-**."
+              },
+              "important": {
+                "title": {
+                  "ru": "Примерные шаги"
+                },
+                "body": {
+                  "ru": "**lounas** → основа **lounaa-** → *lounaalla* (на обеде)\n\n**sairas** → основа **sairaa-** → *sairaassa* (в больном)"
+                }
+              },
+              "conjugationTables": [
+                {
+                  "title": {
+                    "ru": "Склонение слова lounas (обед)"
+                  },
+                  "columns": [
+                    "Падеж",
+                    "Вопросы",
+                    "Форма",
+                    "Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "person": "Nominatiivi",
+                      "base": "kuka? mikä? / кто? что?",
+                      "form": "lounas",
+                      "translation": {
+                        "ru": "обед"
+                      }
+                    },
+                    {
+                      "person": "Partitiivi",
+                      "base": "ketä? mitä? / кого? что?",
+                      "form": "lounasta",
+                      "translation": {
+                        "ru": "обеда"
+                      }
+                    },
+                    {
+                      "person": "Основа",
+                      "base": "-",
+                      "form": "lounaa-",
+                      "translation": {
+                        "ru": "основа для склонения"
+                      }
+                    },
+                    {
+                      "person": "Genetiivi",
+                      "base": "kenen? minkä? / чей? чего?",
+                      "form": "lounaan",
+                      "translation": {
+                        "ru": "обеда"
+                      }
+                    },
+                    {
+                      "person": "Illatiivi",
+                      "base": "mihin? / в кого? куда?",
+                      "form": "lounaaseen",
+                      "translation": {
+                        "ru": "в обед"
+                      }
+                    },
+                    {
+                      "person": "Inessiivi",
+                      "base": "missä? / в ком? где?",
+                      "form": "lounaassa",
+                      "translation": {
+                        "ru": "в обеде"
+                      }
+                    },
+                    {
+                      "person": "Elatiivi",
+                      "base": "mistä? / из кого? откуда?",
+                      "form": "lounaasta",
+                      "translation": {
+                        "ru": "из обеда"
+                      }
+                    },
+                    {
+                      "person": "Allatiivi",
+                      "base": "kenelle? mille? / кому? к чему?",
+                      "form": "lounaalle",
+                      "translation": {
+                        "ru": "к обеду"
+                      }
+                    },
+                    {
+                      "person": "Adeessiivi",
+                      "base": "kenellä? millä? / у кого? где?",
+                      "form": "lounaalla",
+                      "translation": {
+                        "ru": "на обеде"
+                      }
+                    },
+                    {
+                      "person": "Ablatiivi",
+                      "base": "keneltä? miltä? / от кого? откуда?",
+                      "form": "lounaalta",
+                      "translation": {
+                        "ru": "от обеда"
+                      }
+                    },
+                    {
+                      "person": "Множественное число",
+                      "base": "ketkä? mitkä? / кто? какие?",
+                      "form": "lounaat",
+                      "translation": {
+                        "ru": "обеды"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "summary": {
+                "title": {
+                  "ru": "Особый случай и другие слова"
+                },
+                "body": {
+                  "ru": "**Особый случай:** В слове **asiakas** (клиент) происходит **чередование согласных**: одиночное **k** становится **kk** → *asiakas → asiakkaan*.\n\n**Другие слова этого типа:** *asiakas* (клиент), *potilas* (пациент), *sairas* (больной), *vieras* (гость/чужой), *patsas* (статуя), *viisas* (умный)."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "✍️ Впишите правильную форму слова (as/äs- и is) по смыслу предложения."
+            },
+            "items": [
+              {
+                "sentence": "Menen ___. (lounas)",
+                "answer": "lounaalle",
+                "translation": "Я иду на обед. (allatiivi)"
+              },
+              {
+                "sentence": "Tapaan ystävän ___ . (lounas)",
+                "answer": "lounaalla",
+                "translation": "Я встречу друга на обеде. (adessiivi)"
+              },
+              {
+                "sentence": "Nähdään ___ jälkeen. (lounas)",
+                "answer": "lounaan",
+                "translation": "Увидимся после обеда. (genetiivi)"
+              },
+              {
+                "sentence": "Asun ___ talossa. (kaunis)",
+                "answer": "kauniissa",
+                "translation": "Я живу в красивом доме. (inessiivi)"
+              },
+              {
+                "sentence": "Siellä on kaksi ___ taloa. (kaunis)",
+                "answer": "kaunista",
+                "translation": "Там есть два красивых дома. (partitiivi)"
+              },
+              {
+                "sentence": "Istun ___ autossa. (kallis)",
+                "answer": "kalliissa",
+                "translation": "Я сижу в дорогой машине. (inessiivi)"
+              },
+              {
+                "sentence": "Lääkäri kysyy ___ . (potilas)",
+                "answer": "potilaalta",
+                "translation": "Врач спрашивает у пациента. (ablatiivi)"
+              },
+              {
+                "sentence": "Hän tapaa ___ huomenna. (potilas)",
+                "answer": "potilaan",
+                "translation": "Он встретит пациента завтра. (genetiivi/akkusatiivi)"
+              },
+              {
+                "sentence": "Tämä on ___ osoite. (asiakas)",
+                "answer": "asiakkaan",
+                "translation": "Это адрес клиента. (genetiivi)"
+              },
+              {
+                "sentence": "Hän kysyy ___ neuvoa. (asiakas)",
+                "answer": "asiakkaalta",
+                "translation": "Он спрашивает у клиента совета. (ablatiivi)"
+              }
+            ]
+          },
+          {
+            "id": "is",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Склонение слов на -is"
+              },
+              "intro": {
+                "ru": "Слова, которые оканчиваются на **-is**, в падежах меняют свою основу: **-is → -ii-**."
+              },
+              "important": {
+                "title": {
+                  "ru": "Примерные шаги"
+                },
+                "body": {
+                  "ru": "**kaunis** (красивый) → основа **kaunii-** → *kauniissa* (в красивом)\n\n**valmis** (готовый) → основа **valmii-** → *valmiissa* (в готовом)"
+                }
+              },
+              "conjugationTables": [
+                {
+                  "title": {
+                    "ru": "Склонение слова kaunis (красивый)"
+                  },
+                  "columns": [
+                    "Падеж",
+                    "Вопросы",
+                    "Форма",
+                    "Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "person": "Nominatiivi",
+                      "base": "kuka? mikä? / кто? что?",
+                      "form": "kaunis",
+                      "translation": {
+                        "ru": "красивый"
+                      }
+                    },
+                    {
+                      "person": "Partitiivi",
+                      "base": "ketä? mitä? / кого? что?",
+                      "form": "kaunista",
+                      "translation": {
+                        "ru": "красивого"
+                      }
+                    },
+                    {
+                      "person": "Основа",
+                      "base": "-",
+                      "form": "kaunii-",
+                      "translation": {
+                        "ru": "основа для склонения"
+                      }
+                    },
+                    {
+                      "person": "Genetiivi",
+                      "base": "kenen? minkä? / чей? чего?",
+                      "form": "kauniin",
+                      "translation": {
+                        "ru": "красивого"
+                      }
+                    },
+                    {
+                      "person": "Illatiivi",
+                      "base": "mihin? / в кого? куда?",
+                      "form": "kauniiseen",
+                      "translation": {
+                        "ru": "в красивого/красивую"
+                      }
+                    },
+                    {
+                      "person": "Inessiivi",
+                      "base": "missä? / в ком? где?",
+                      "form": "kauniissa",
+                      "translation": {
+                        "ru": "в красивом"
+                      }
+                    },
+                    {
+                      "person": "Elatiivi",
+                      "base": "mistä? / из кого? откуда?",
+                      "form": "kauniista",
+                      "translation": {
+                        "ru": "из красивого"
+                      }
+                    },
+                    {
+                      "person": "Allatiivi",
+                      "base": "kenelle? mille? / кому? к чему?",
+                      "form": "kauniille",
+                      "translation": {
+                        "ru": "к красивому"
+                      }
+                    },
+                    {
+                      "person": "Adeessiivi",
+                      "base": "kenellä? millä? / у кого? где?",
+                      "form": "kauniilla",
+                      "translation": {
+                        "ru": "на красивом"
+                      }
+                    },
+                    {
+                      "person": "Ablatiivi",
+                      "base": "keneltä? miltä? / от кого? откуда?",
+                      "form": "kauniilta",
+                      "translation": {
+                        "ru": "от красивого"
+                      }
+                    },
+                    {
+                      "person": "Множественное число",
+                      "base": "ketkä? mitkä? / кто? какие?",
+                      "form": "kauniit",
+                      "translation": {
+                        "ru": "красивые"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "summary": {
+                "title": {
+                  "ru": "Другие слова этого типа"
+                },
+                "body": {
+                  "ru": "*valmis* (готовый), *kallis* (дорогой), *viisas* (умный)."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "✍️ Впишите правильную форму слова (as/äs- и is) по смыслу предложения."
+            },
+            "items": [
+              {
+                "sentence": "Menen ___. (lounas)",
+                "answer": "lounaalle",
+                "translation": "Я иду на обед. (allatiivi)"
+              },
+              {
+                "sentence": "Tapaan ystävän ___ . (lounas)",
+                "answer": "lounaalla",
+                "translation": "Я встречу друга на обеде. (adessiivi)"
+              },
+              {
+                "sentence": "Nähdään ___ jälkeen. (lounas)",
+                "answer": "lounaan",
+                "translation": "Увидимся после обеда. (genetiivi)"
+              },
+              {
+                "sentence": "Asun ___ talossa. (kaunis)",
+                "answer": "kauniissa",
+                "translation": "Я живу в красивом доме. (inessiivi)"
+              },
+              {
+                "sentence": "Siellä on kaksi ___ taloa. (kaunis)",
+                "answer": "kaunista",
+                "translation": "Там есть два красивых дома. (partitiivi)"
+              },
+              {
+                "sentence": "Istun ___ autossa. (kallis)",
+                "answer": "kalliissa",
+                "translation": "Я сижу в дорогой машине. (inessiivi)"
+              },
+              {
+                "sentence": "Lääkäri kysyy ___ . (potilas)",
+                "answer": "potilaalta",
+                "translation": "Врач спрашивает у пациента. (ablatiivi)"
+              },
+              {
+                "sentence": "Hän tapaa ___ huomenna. (potilas)",
+                "answer": "potilaan",
+                "translation": "Он встретит пациента завтра. (genetiivi/akkusatiivi)"
+              },
+              {
+                "sentence": "Tämä on ___ osoite. (asiakas)",
+                "answer": "asiakkaan",
+                "translation": "Это адрес клиента. (genetiivi)"
+              },
+              {
+                "sentence": "Hän kysyy ___ neuvoa. (asiakas)",
+                "answer": "asiakkaalta",
+                "translation": "Он спрашивает у клиента совета. (ablatiivi)"
+              }
+            ]
+          },
+          {
+            "id": "as-is-sanat-cases",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "✍️ Выберите правильную форму слова (as/äs- и is-санат) по смыслу предложения."
+            },
+            "questions": [
+              {
+                "question": "Pidän pitkästä ___ (lounas).",
+                "options": [
+                  "lounas",
+                  "lounasta",
+                  "lounaasta"
+                ],
+                "answer": 2
+              },
+              {
+                "question": "Syön ___ klo 12.",
+                "options": [
+                  "lounaan",
+                  "lounaalla",
+                  "lounaasta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Tapaan ystävän ___ (lounas).",
+                "options": [
+                  "lounaalla",
+                  "lounaan",
+                  "lounasta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Menemme ___ (lounas).",
+                "options": [
+                  "lounaalle",
+                  "lounaasta",
+                  "lounaan"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Ruoka on ___ (kaunis).",
+                "options": [
+                  "kaunis",
+                  "kauniin",
+                  "kauniissa"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Talo on todella ___ (kaunis).",
+                "options": [
+                  "kaunis",
+                  "kauniin",
+                  "kauniissa"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Katson ___ (kaunis) taloa.",
+                "options": [
+                  "kaunista",
+                  "kauniista",
+                  "kauniilla"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Asun ___ (kaunis) kaupungissa.",
+                "options": [
+                  "kauniissa",
+                  "kauniin",
+                  "kauniista"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Tämä on ___ (kaunis) väri.",
+                "options": [
+                  "kaunis",
+                  "kauniin",
+                  "kauniissa"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Rakastan ___ (kaunis) musiikkia.",
+                "options": [
+                  "kaunista",
+                  "kauniin",
+                  "kauniissa"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Kävelen ___ (kaunis) puistossa.",
+                "options": [
+                  "kauniissa",
+                  "kauniille",
+                  "kauniilta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Tämä ___ (asiakas) on uusi.",
+                "options": [
+                  "asiakas",
+                  "asiakkaan",
+                  "asiakasta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Näen monta ___ (asiakas).",
+                "options": [
+                  "asiakasta",
+                  "asiakas",
+                  "asiakkaan"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Hän on ___ (eräs) henkilö.",
+                "options": [
+                  "eräs",
+                  "erästä",
+                  "erään"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Auto on liian ___ (kallis) minulle.",
+                "options": [
+                  "kallis",
+                  "kalliissa",
+                  "kalliista"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Pidän tästä ___ (patsas).",
+                "options": [
+                  "patsaasta",
+                  "patsaan",
+                  "patsasta"
+                ],
+                "answer": 2
+              },
+              {
+                "question": "Pihalla kasvaa ___ (pensas).",
+                "options": [
+                  "pensas",
+                  "pensasta",
+                  "pensaasta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "___ (potilas) odottaa lääkäriä.",
+                "options": [
+                  "Potilas",
+                  "Potilasta",
+                  "Potilaan"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Olen ollut ___ (sairas) koko viikon.",
+                "options": [
+                  "sairas",
+                  "sairaana",
+                  "sairasta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Ruoka on ___ (valmis).",
+                "options": [
+                  "valmis",
+                  "valmiin",
+                  "valmiissa"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Meillä on ___ (vieras) tänään.",
+                "options": [
+                  "vieras",
+                  "vieraan",
+                  "vieraasta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Hän on hyvin ___ (viisas).",
+                "options": [
+                  "viisas",
+                  "viisaasta",
+                  "viisaalla"
+                ],
+                "answer": 0
+              }
+            ]
+          },
+          {
+            "id": "as-is-sanat-cases-fill",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "✍️ Впишите правильную форму слова (as/äs- и is-санат) по смыслу предложения."
+            },
+            "items": [
+              {
+                "sentence": "Pidän pitkästä ___ (lounas).",
+                "answer": "lounaasta"
+              },
+              {
+                "sentence": "Syön ___ (lounas) klo 12.",
+                "answer": "lounaan"
+              },
+              {
+                "sentence": "Tapaan ystävän ___ (lounas).",
+                "answer": "lounaalla"
+              },
+              {
+                "sentence": "Menemme ___ (lounas).",
+                "answer": "lounaalle"
+              },
+              {
+                "sentence": "Ruoka on ___ (kaunis).",
+                "answer": "kaunis"
+              },
+              {
+                "sentence": "Talo on todella ___ (kaunis).",
+                "answer": "kaunis"
+              },
+              {
+                "sentence": "Katson ___ (kaunis) taloa.",
+                "answer": "kaunista"
+              },
+              {
+                "sentence": "Asun ___ (kaunis) kaupungissa.",
+                "answer": "kauniissa"
+              },
+              {
+                "sentence": "Tämä on ___ (kaunis) väri.",
+                "answer": "kaunis"
+              },
+              {
+                "sentence": "Rakastan ___ (kaunis) musiikkia.",
+                "answer": "kaunista"
+              },
+              {
+                "sentence": "Kävelen ___ (kaunis) puistossa.",
+                "answer": "kauniissa"
+              },
+              {
+                "sentence": "Tämä ___ (asiakas) on uusi.",
+                "answer": "asiakas"
+              },
+              {
+                "sentence": "Näen monta ___ (asiakas).",
+                "answer": "asiakasta"
+              },
+              {
+                "sentence": "Hän on ___ (eräs) henkilö.",
+                "answer": "eräs"
+              },
+              {
+                "sentence": "Auto on liian ___ (kallis) minulle.",
+                "answer": "kallis"
+              },
+              {
+                "sentence": "Pihalla kasvaa ___ (pensas).",
+                "answer": "pensas"
+              },
+              {
+                "sentence": "___ (potilas) odottaa lääkäriä.",
+                "answer": "Potilas"
+              },
+              {
+                "sentence": "Olen ollut ___ (sairas) koko viikon.",
+                "answer": "sairas"
+              },
+              {
+                "sentence": "Ruoka on ___ (valmis).",
+                "answer": "valmis"
+              },
+              {
+                "sentence": "Meillä on ___ (vieras) tänään.",
+                "answer": "vieras"
+              },
+              {
+                "sentence": "Hän on hyvin ___ (viisas).",
+                "answer": "viisas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "reading": [
+    {
+      "id": "minun-tyopaivani",
+      "title": "Minun työpäiväni",
+      "explanation": {
+        "description": "📋 Прочитайте рассказ о рабочем дне и изучите лексику офисной работы.",
+        "text": "<p><strong>Minun työpäiväni</strong></p><p>Työpaikkani on iso yritys kaupungin keskustassa.<br/>Meillä on moderni toimisto ja oma työhuone.<br/>Työaikani alkaa kello 8 ja loppuu kello 16.</p><p>Aamulla tervehdin työkavereita ja sanon huomenta pomolle.<br/>Avaan tietokoneen, luen sähköpostit ja katson päivän aikataulun.<br/>Meillä on uusi projekti ja vähän kiire. Kun työpaikalla on paljon töitä, minulla on vähän stressiä.</p><p>Kello kymmenen pidämme kahvitauon.<br/>– Otatko kahvia automaatista? kysyy Liisa.<br/>– Kyllä, kiitos! vastaan.<br/>Juttelemme hetken ja palaamme töihin.</p><p>Tulostan sopimuksen uudelle asiakkaalle ja soitan hänelle puhelimella.<br/>Kello kaksitoista menemme ruokalaan lounaalle.<br/>– Mitä otat?<br/>– Otan kalaa ja perunoita.</p><p>Iltapäivällä on pitkä kokous ja neuvottelu asiakkaan kanssa.<br/>Näytän heille raportin ja tulostan vielä yhden paperin tulostimella.</p><p>Työpäivä loppuu kello 16.<br/>Sammutan tietokoneen, hyvästelen työkaverit ja lähden kotiin.</p>"
+      },
+      "tasks": [
+        {
+          "id": "tyopaiva-questions",
+          "type": "multiple-choice",
+          "questions": [
+            {
+              "question": "Missä henkilön työpaikka on?",
+              "options": [
+                "Kaupungin laidalla",
+                "Kaupungin keskustassa",
+                "Maaseudulla"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mihin aikaan työpäivä alkaa?",
+              "options": [
+                "Kello 7",
+                "Kello 8",
+                "Kello 9"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mihin aikaan työpäivä loppuu?",
+              "options": [
+                "Kello 15",
+                "Kello 16",
+                "Kello 17"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä henkilö tekee aamulla ensimmäiseksi?",
+              "options": [
+                "Juo kahvia",
+                "Tervehtii työkavereita",
+                "Soittaa puhelimella"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Miksi henkilöllä on stressiä?",
+              "options": [
+                "Koska on uusi projekti ja kiire",
+                "Koska pomo on paha",
+                "Koska tietokone ei toimi"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Mihin aikaan on kahvitauko?",
+              "options": [
+                "Kello 9",
+                "Kello 10",
+                "Kello 11"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Kuka kysyy kahvista?",
+              "options": [
+                "Pomo",
+                "Liisa",
+                "Asiakas"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä henkilö tulostaa aamulla?",
+              "options": [
+                "Raportin",
+                "Sopimuksen",
+                "Aikataulun"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mihin aikaan on lounas?",
+              "options": [
+                "Kello 11",
+                "Kello 12",
+                "Kello 13"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä henkilö tekee viimeisenä ennen kotiin lähtöä?",
+              "options": [
+                "Sammuttaa tietokoneen",
+                "Tulostaa papereita",
+                "Soittaa asiakkaalle"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ruokalassa",
+      "title": "Ruokalassa",
+      "explanation": {
+        "description": "🍽️ Прочитайте диалог в столовой и изучите лексику заказа еды.",
+        "text": "<p><strong>Ruokalassa</strong></p><p>Kello yksitoista Pekka ja Anna menevät työpaikan ruokalaan. Tänään on paljon väkeä, mutta he löytävät paikan ikkunan vierestä.</p><p><strong>Tarjoilija:</strong> Hei! Mitä otatte?<br/><strong>Pekka:</strong> Minulle kanaa ja riisiä.<br/><strong>Anna:</strong> Minulle perunaa ja lihapullia, kiitos.</p><p><strong>Tarjoilija:</strong> Entä juomaksi?<br/><strong>Pekka:</strong> Kahvia.<br/><strong>Anna:</strong> Lasin maitoa, kiitos.</p><p>He syövät ja katsovat päivän ohjelmaa.</p><p><strong>Tarjoilija:</strong> Haluatteko jälkiruokaa?<br/><strong>Pekka:</strong> Pientä jäätelöä, kiitos.<br/><strong>Anna:</strong> Minulle piirakkaa, kiitos.</p><p><strong>Tarjoilija:</strong> Tuleeko lasku yhdessä?<br/><strong>Anna:</strong> Erikseen, kiitos.</p><p><strong>Tarjoilija:</strong> Hyvää ruokahalua!</p>"
+      },
+      "tasks": [
+        {
+          "id": "ruokalassa-questions",
+          "type": "multiple-choice",
+          "questions": [
+            {
+              "question": "Mihin aikaan Pekka ja Anna menevät ruokalaan?",
+              "options": [
+                "Kello kymmenen",
+                "Kello yksitoista",
+                "Kello kaksitoista"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä Pekka tilaa?",
+              "options": [
+                "Kanaa ja riisiä",
+                "Perunaa ja lihapullia",
+                "Kalaa ja perunoita"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Mitä Anna tilaa?",
+              "options": [
+                "Kanaa ja riisiä",
+                "Perunaa ja lihapullia",
+                "Kalaa ja perunoita"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä juomaa Pekka tilaa?",
+              "options": [
+                "Maitoa",
+                "Kahvia",
+                "Teetä"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä juomaa Anna tilaa?",
+              "options": [
+                "Maitoa",
+                "Kahvia",
+                "Teetä"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Mitä jälkiruokaa Pekka tilaa?",
+              "options": [
+                "Piirakkaa",
+                "Jäätelöä",
+                "Kakkua"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä jälkiruokaa Anna tilaa?",
+              "options": [
+                "Piirakkaa",
+                "Jäätelöä",
+                "Kakkua"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Miten he maksavat?",
+              "options": [
+                "Yhdessä",
+                "Erikseen",
+                "Kortilla"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": "a1-9-write-ex1",
+      "type": "translation-sequence",
+      "description": "✍️ Переведите каждую фразу на финский язык.",
+      "items": [
+        {
+          "prompt": "Я врач.",
+          "answer": [
+            "Minä olen lääkäri.",
+            "Olen lääkäri."
+          ]
+        },
+        {
+          "prompt": "Мама — медсестра.",
+          "answer": [
+            "Äiti on sairaanhoitaja."
+          ]
+        },
+        {
+          "prompt": "Стоматолог работает в клинике.",
+          "answer": [
+            "Hammaslääkäri työskentelee klinikalla."
+          ]
+        },
+        {
+          "prompt": "Продавец в магазине.",
+          "answer": [
+            "Myyjä on kaupassa."
+          ]
+        },
+        {
+          "prompt": "Папа таксист.",
+          "answer": [
+            "Isä on taksikuski."
+          ]
+        },
+        {
+          "prompt": "Автомеханик чинит машину.",
+          "answer": [
+            "Automekaanikko korjaa auton."
+          ]
+        },
+        {
+          "prompt": "Строитель строит дом.",
+          "answer": [
+            "Rakennusmies rakentaa talon."
+          ]
+        },
+        {
+          "prompt": "Сантехник чинит краны.",
+          "answer": [
+            "Putkimies korjaa vesihanat."
+          ]
+        },
+        {
+          "prompt": "Электрик устанавливает свет.",
+          "answer": [
+            "Sähkömies asentaa valot."
+          ]
+        },
+        {
+          "prompt": "Маляр красит стену.",
+          "answer": [
+            "Maalari maalaa seinän."
+          ]
+        },
+        {
+          "prompt": "Повар готовит еду.",
+          "answer": [
+            "Kokki tekee ruokaa."
+          ]
+        },
+        {
+          "prompt": "Официант приносит еду к столу.",
+          "answer": [
+            "Tarjoilija tuo ruoan pöytään."
+          ]
+        },
+        {
+          "prompt": "Уборщик убирает в офисе.",
+          "answer": [
+            "Siivooja siivoaa toimistossa."
+          ]
+        },
+        {
+          "prompt": "Няня ухаживает за детьми.",
+          "answer": [
+            "Lastenhoitaja hoitaa lapsia."
+          ]
+        },
+        {
+          "prompt": "Воспитатель учит детей.",
+          "answer": [
+            "Lastentarhanopettaja opettaa lapsia."
+          ]
+        },
+        {
+          "prompt": "Учитель в школе.",
+          "answer": [
+            "Opettaja on koulussa."
+          ]
+        },
+        {
+          "prompt": "Журналист пишет в газете.",
+          "answer": [
+            "Toimittaja kirjoittaa lehdessä."
+          ]
+        },
+        {
+          "prompt": "Полицейский помогает людям.",
+          "answer": [
+            "Poliisi auttaa ihmisiä."
+          ]
+        },
+        {
+          "prompt": "Пожарный тушит огонь.",
+          "answer": [
+            "Palomies sammuttaa tulen."
+          ]
+        },
+        {
+          "prompt": "Почтальон приносит письма.",
+          "answer": [
+            "Postinjakaja tuo kirjeet."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-9-write-ex2",
+      "type": "translation-sequence",
+      "description": "✍️ Переведите каждую фразу на финский язык.",
+      "items": [
+        {
+          "prompt": "Я звоню другу.",
+          "answer": [
+            "Minä soitan ystävälle.",
+            "Soitan ystävälle."
+          ]
+        },
+        {
+          "prompt": "Он сообщает мне новость.",
+          "answer": [
+            "Hän kertoo minulle uutisen."
+          ]
+        },
+        {
+          "prompt": "Приходи к нам вечером.",
+          "answer": [
+            "Tule meille illalla."
+          ]
+        },
+        {
+          "prompt": "Он покупает подарок для Лиисы.",
+          "answer": [
+            "Hän ostaa lahjan Liisalle."
+          ]
+        },
+        {
+          "prompt": "Он спрашивает у продавца.",
+          "answer": [
+            "Hän kysyy myyjältä."
+          ]
+        },
+        {
+          "prompt": "Он платит на кассе.",
+          "answer": [
+            "Hän maksaa kassalla."
+          ]
+        },
+        {
+          "prompt": "Он пишет открытку Лиисе.",
+          "answer": [
+            "Hän kirjoittaa kortin Liisalle."
+          ]
+        },
+        {
+          "prompt": "Он едет на автобусе.",
+          "answer": [
+            "Hän menee bussilla."
+          ]
+        },
+        {
+          "prompt": "У Лиисы праздник.",
+          "answer": [
+            "Liisalla on juhlat."
+          ]
+        },
+        {
+          "prompt": "Мы говорим Лиисе “Киппис!”.",
+          "answer": [
+            "Me sanomme Liisalle “Kippis!”."
+          ]
+        },
+        {
+          "prompt": "Он получает подарок от друга.",
+          "answer": [
+            "Hän saa lahjan ystävältä."
+          ]
+        },
+        {
+          "prompt": "Он дарит мне книгу.",
+          "answer": [
+            "Hän antaa kirjan minulle."
+          ]
+        },
+        {
+          "prompt": "Он спрашивает у учителя.",
+          "answer": [
+            "Hän kysyy opettajalta."
+          ]
+        },
+        {
+          "prompt": "Он говорит с учителем.",
+          "answer": [
+            "Hän puhuu opettajan kanssa."
+          ]
+        },
+        {
+          "prompt": "Мы уходим от Лиисы домой.",
+          "answer": [
+            "Me lähdemme Liisalta kotiin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-9-write-ex3",
+      "type": "translation-sequence",
+      "description": "✍️ Переведите каждую фразу на финский язык.",
+      "items": [
+        {
+          "prompt": "Девочка пишет письмо бабушке.",
+          "answer": [
+            "Tyttö kirjoittaa kirjeen isoäidille."
+          ]
+        },
+        {
+          "prompt": "Бабушка отвечает на письмо.",
+          "answer": [
+            "Isoäiti vastaa kirjeeseen."
+          ]
+        },
+        {
+          "prompt": "Тот молодой человек хочет новый мотоцикл.",
+          "answer": [
+            "Tuo nuori mies haluaa uuden moottoripyörän."
+          ]
+        },
+        {
+          "prompt": "Мы спрашиваем у учителя.",
+          "answer": [
+            "Me kysymme opettajalta."
+          ]
+        },
+        {
+          "prompt": "Он одалживает мне деньги.",
+          "answer": [
+            "Hän lainaa minulle rahaa."
+          ]
+        },
+        {
+          "prompt": "Начальник звонит мне из офиса.",
+          "answer": [
+            "Pomo soittaa minulle toimistosta."
+          ]
+        },
+        {
+          "prompt": "Он не покупает велосипед в магазине.",
+          "answer": [
+            "Hän ei osta pyörää kaupasta."
+          ]
+        },
+        {
+          "prompt": "Я покупаю велосипед у друга.",
+          "answer": [
+            "Minä ostan pyörän ystävältä.",
+            "Ostan pyörän ystävältä."
+          ]
+        },
+        {
+          "prompt": "Они просят нас о помощи.",
+          "answer": [
+            "He pyytävät meiltä apua."
+          ]
+        },
+        {
+          "prompt": "Я говорю с другом.",
+          "answer": [
+            "Minä puhun ystävälle.",
+            "Puhun ystävälle."
+          ]
+        },
+        {
+          "prompt": "Он дарит цветы маме.",
+          "answer": [
+            "Hän antaa kukkia äidille."
+          ]
+        },
+        {
+          "prompt": "Мы на автобусной остановке.",
+          "answer": [
+            "Me olemme bussipysäkillä."
+          ]
+        },
+        {
+          "prompt": "Учитель рассказывает историю студенту.",
+          "answer": [
+            "Opettaja kertoo tarinan opiskelijalle."
+          ]
+        },
+        {
+          "prompt": "Я беру книгу со стола.",
+          "answer": [
+            "Otan kirjan pöydältä."
+          ]
+        },
+        {
+          "prompt": "Он уходит из школы домой.",
+          "answer": [
+            "Hän lähtee koululta kotiin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-9-write-ex4",
+      "type": "translation-sequence",
+      "description": "✍️ Переведите каждую фразу на финский язык.",
+      "items": [
+        {
+          "prompt": "В магазине два продавца.",
+          "answer": [
+            "Kaupassa on kaksi myyjää."
+          ]
+        },
+        {
+          "prompt": "В магазине четыре покупателя.",
+          "answer": [
+            "Kaupassa on neljä asiakasta."
+          ]
+        },
+        {
+          "prompt": "Они идут на обед.",
+          "answer": [
+            "He menevät lounaalle."
+          ]
+        },
+        {
+          "prompt": "Я не нахожу ключ.",
+          "answer": [
+            "En löydä avainta."
+          ]
+        },
+        {
+          "prompt": "В тексте четыре страницы.",
+          "answer": [
+            "Tekstissä on neljä sivua."
+          ]
+        },
+        {
+          "prompt": "Текст готов.",
+          "answer": [
+            "Teksti on valmis."
+          ]
+        },
+        {
+          "prompt": "Он умеет немного писать.",
+          "answer": [
+            "Hän osaa kirjoittaa vähän."
+          ]
+        },
+        {
+          "prompt": "Он не любит буквы.",
+          "answer": [
+            "Hän ei pidä kirjaimista."
+          ]
+        },
+        {
+          "prompt": "Я беру мороженое из морозилки.",
+          "answer": [
+            "Otan jäätelön pakastimesta."
+          ]
+        },
+        {
+          "prompt": "Гости приходят в 19:00.",
+          "answer": [
+            "Vieraat tulevat kello 19."
+          ]
+        },
+        {
+          "prompt": "В этом принтере нет бумаги.",
+          "answer": [
+            "Tässä tulostimessa ei ole paperia."
+          ]
+        },
+        {
+          "prompt": "Я не могу печатать.",
+          "answer": [
+            "En voi tulostaa."
+          ]
+        },
+        {
+          "prompt": "У меня новый телефон.",
+          "answer": [
+            "Minulla on uusi puhelin."
+          ]
+        },
+        {
+          "prompt": "В нём есть камера.",
+          "answer": [
+            "Siinä on kamera."
+          ]
+        },
+        {
+          "prompt": "Я хочу новый мобильный телефон.",
+          "answer": [
+            "Haluan uuden kännykän."
+          ]
+        },
+        {
+          "prompt": "На работе грипп.",
+          "answer": [
+            "Työpaikalla on influenssaa."
+          ]
+        },
+        {
+          "prompt": "Больные не приходят на работу.",
+          "answer": [
+            "Sairaat eivät tule töihin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-9-write-ex5",
+      "type": "translation-sequence",
+      "description": "✍️ Переведите каждую фразу на финский язык.",
+      "items": [
+        {
+          "prompt": "Когда начинается курс, если время — восемь?",
+          "answer": [
+            "Milloin kurssi alkaa, kun kello on kahdeksan?"
+          ]
+        },
+        {
+          "prompt": "Я не знаю, придёт ли он сегодня.",
+          "answer": [
+            "En tiedä, tuleeko hän tänään."
+          ]
+        },
+        {
+          "prompt": "Я не покупаю мороженое, потому что экономлю деньги.",
+          "answer": [
+            "En osta jäätelöä, koska säästän rahaa."
+          ]
+        },
+        {
+          "prompt": "Учитель говорит, что тест завтра.",
+          "answer": [
+            "Opettaja sanoo, että testi on huomenna."
+          ]
+        },
+        {
+          "prompt": "Я хочу путешествовать, но у меня нет денег.",
+          "answer": [
+            "Haluan matkustaa, mutta minulla ei ole rahaa."
+          ]
+        },
+        {
+          "prompt": "Я не купаюсь в озере, потому что холодно.",
+          "answer": [
+            "En ui järvessä, koska on kylmä."
+          ]
+        },
+        {
+          "prompt": "Я иду домой, потому что устал.",
+          "answer": [
+            "Menen kotiin, koska olen väsynyt.",
+            "Minä menen kotiin, koska olen väsynyt."
+          ]
+        },
+        {
+          "prompt": "Я ем обед на работе, но сегодня ем дома.",
+          "answer": [
+            "Syön lounasta töissä, mutta tänään syön kotona."
+          ]
+        },
+        {
+          "prompt": "Я не знаю, открыт ли магазин.",
+          "answer": [
+            "En tiedä, onko kauppa auki."
+          ]
+        },
+        {
+          "prompt": "Я еду в город, если хорошая погода.",
+          "answer": [
+            "Ajan kaupunkiin, jos on hyvä sää."
+          ]
+        },
+        {
+          "prompt": "Я знаю, что ты любишь кофе.",
+          "answer": [
+            "Tiedän, että pidät kahvista."
+          ]
+        },
+        {
+          "prompt": "Я иду в сауну, когда прихожу домой.",
+          "answer": [
+            "Menen saunaan, kun tulen kotiin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-9-write-ex6",
+      "type": "translation-sequence",
+      "description": "✍️ Переведите каждую фразу на финский язык.",
+      "items": [
+        {
+          "prompt": "Я пойду домой через час.",
+          "answer": [
+            "Menen kotiin tunnin kuluttua."
+          ]
+        },
+        {
+          "prompt": "Мы поедем в отпуск через неделю.",
+          "answer": [
+            "Lähdemme lomalle viikon kuluttua."
+          ]
+        },
+        {
+          "prompt": "Я встречу друга через два дня.",
+          "answer": [
+            "Tapaan ystävän kahden päivän kuluttua."
+          ]
+        },
+        {
+          "prompt": "Я иду на работу после курса.",
+          "answer": [
+            "Menen töihin kurssin jälkeen."
+          ]
+        },
+        {
+          "prompt": "Я ем через час / после часа.",
+          "answer": [
+            "Syön tunnin jälkeen."
+          ]
+        },
+        {
+          "prompt": "Я принимаю душ после сауны.",
+          "answer": [
+            "Käyn suihkussa saunan jälkeen."
+          ]
+        },
+        {
+          "prompt": "Я просыпаюсь до семи.",
+          "answer": [
+            "Herään ennen seitsemää."
+          ]
+        },
+        {
+          "prompt": "Я пью кофе до работы.",
+          "answer": [
+            "Juon kahvia ennen töitä."
+          ]
+        },
+        {
+          "prompt": "Я ложусь спать до десяти.",
+          "answer": [
+            "Menen nukkumaan ennen kymmentä."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-9-write-ex7",
+      "type": "translation-sequence",
+      "description": "✍️ Переведите каждую фразу на финский язык.",
+      "items": [
+        {
+          "prompt": "Почти все столы заняты.",
+          "answer": [
+            "Melkein kaikki pöydät ovat varattuja."
+          ]
+        },
+        {
+          "prompt": "Этот стол свободен.",
+          "answer": [
+            "Tämä pöytä on vapaa."
+          ]
+        },
+        {
+          "prompt": "Еда вкусная.",
+          "answer": [
+            "Ruoka maistuu hyvältä."
+          ]
+        },
+        {
+          "prompt": "Хочу счёт сразу.",
+          "answer": [
+            "Haluan laskun saman tien."
+          ]
+        },
+        {
+          "prompt": "Можно счёт, пожалуйста?",
+          "answer": [
+            "Saanko laskun, kiitos?"
+          ]
+        },
+        {
+          "prompt": "Можно меню, пожалуйста?",
+          "answer": [
+            "Saanko ruokalistan, kiitos?"
+          ]
+        },
+        {
+          "prompt": "Салат и хлеб можно взять там, с салатного стола.",
+          "answer": [
+            "Salaattia ja leipää voitte hakea tuolta salaattipöydästä."
+          ]
+        },
+        {
+          "prompt": "Закуска — это суп.",
+          "answer": [
+            "Alkuruoka on keitto."
+          ]
+        },
+        {
+          "prompt": "Основное блюдо — рыба и картошка.",
+          "answer": [
+            "Pääruoka on kalaa ja perunoita."
+          ]
+        },
+        {
+          "prompt": "Десерт — мороженое.",
+          "answer": [
+            "Jälkiruoka on jäätelöä."
+          ]
+        },
+        {
+          "prompt": "Хочу закуску, пожалуйста.",
+          "answer": [
+            "Haluan alkuruoan, kiitos."
+          ]
+        },
+        {
+          "prompt": "Основное блюдо вкусное.",
+          "answer": [
+            "Pääruoka maistuu hyvältä."
+          ]
+        },
+        {
+          "prompt": "Десерт сладкий.",
+          "answer": [
+            "Jälkiruoka on makeaa."
+          ]
+        },
+        {
+          "prompt": "Что будете заказывать?",
+          "answer": [
+            "Mitä saa olla?"
+          ]
+        },
+        {
+          "prompt": "Я бы взял кофе.",
+          "answer": [
+            "Ottaisin kahvin."
+          ]
+        },
+        {
+          "prompt": "Я хотел бы суп.",
+          "answer": [
+            "Haluaisin keiton."
+          ]
+        },
+        {
+          "prompt": "Мне салат.",
+          "answer": [
+            "Minulle salaatti."
+          ]
+        },
+        {
+          "prompt": "Вы платите вместе или отдельно?",
+          "answer": [
+            "Maksatteko yhdessä vai erikseen?"
+          ]
+        },
+        {
+          "prompt": "Вы платите наличными или картой?",
+          "answer": [
+            "Maksatteko käteisellä vai kortilla?"
+          ]
+        },
+        {
+          "prompt": "Кофе входит в стоимость обеда?",
+          "answer": [
+            "Kuuluuko kahvi lounaan hintaan?"
+          ]
+        },
+        {
+          "prompt": "Я хотел бы забронировать столик на четверых.",
+          "answer": [
+            "Haluaisin varata pöydän neljälle."
+          ]
+        },
+        {
+          "prompt": "Приятного аппетита!",
+          "answer": [
+            "Hyvää ruokahalua!"
+          ]
+        },
+        {
+          "prompt": "Спасибо за еду!",
+          "answer": [
+            "Kiitos ruoasta!"
+          ]
+        }
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "a1-9-speaking-1",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински — профессии (Ex1)",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Mina_olen_laakari.mp3",
+          "prompt": "Скажите по-фински: «Я врач.»",
+          "answer": [
+            "Minä olen lääkäri.",
+            "Olen lääkäri."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Aiti_on_sairaanhoitaja.mp3",
+          "prompt": "Скажите по-фински: «Мама — медсестра.»",
+          "answer": [
+            "Äiti on sairaanhoitaja."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Hammaslaakari_tyoskentelee_klinikalla.mp3",
+          "prompt": "Скажите по-фински: «Стоматолог работает в клинике.»",
+          "answer": [
+            "Hammaslääkäri työskentelee klinikalla."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Myyja_on_kaupassa.mp3",
+          "prompt": "Скажите по-фински: «Продавец в магазине.»",
+          "answer": [
+            "Myyjä on kaupassa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Isa_on_taksikuski.mp3",
+          "prompt": "Скажите по-фински: «Папа — таксист.»",
+          "answer": [
+            "Isä on taksikuski."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Automekaanikko_korjaa_auton.mp3",
+          "prompt": "Скажите по-фински: «Автомеханик чинит машину.»",
+          "answer": [
+            "Automekaanikko korjaa auton."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Rakennusmies_rakentaa_talon.mp3",
+          "prompt": "Скажите по-фински: «Строитель строит дом.»",
+          "answer": [
+            "Rakennusmies rakentaa talon."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Putkimies_korjaa_vesihanat.mp3",
+          "prompt": "Скажите по-фински: «Сантехник чинит краны.»",
+          "answer": [
+            "Putkimies korjaa vesihanat."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Sahkomies_asentaa_valot.mp3",
+          "prompt": "Скажите по-фински: «Электрик устанавливает свет.»",
+          "answer": [
+            "Sähkömies asentaa valot."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Maalari_maalaa_seinan.mp3",
+          "prompt": "Скажите по-фински: «Маляр красит стену.»",
+          "answer": [
+            "Maalari maalaa seinän."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Kokki_tekee_ruokaa.mp3",
+          "prompt": "Скажите по-фински: «Повар готовит еду.»",
+          "answer": [
+            "Kokki tekee ruokaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Tarjoilija_tuo_ruoan_poytaan.mp3",
+          "prompt": "Скажите по-фински: «Официант приносит еду к столу.»",
+          "answer": [
+            "Tarjoilija tuo ruoan pöytään."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Siivooja_siivoaa_toimistossa.mp3",
+          "prompt": "Скажите по-фински: «Уборщик убирает в офисе.»",
+          "answer": [
+            "Siivooja siivoaa toimistossa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Lastenhoitaja_hoitaa_lapsia.mp3",
+          "prompt": "Скажите по-фински: «Няня заботится о детях.»",
+          "answer": [
+            "Lastenhoitaja hoitaa lapsia."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Lastentarhanopettaja_opettaa_lapsia.mp3",
+          "prompt": "Скажите по-фински: «Воспитатель детсада учит детей.»",
+          "answer": [
+            "Lastentarhanopettaja opettaa lapsia."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Opettaja_on_koulussa.mp3",
+          "prompt": "Скажите по-фински: «Учитель в школе.»",
+          "answer": [
+            "Opettaja on koulussa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Toimittaja_kirjoittaa_lehdessa.mp3",
+          "prompt": "Скажите по-фински: «Журналист пишет в газете.»",
+          "answer": [
+            "Toimittaja kirjoittaa lehdessä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Poliisi_auttaa_ihmisia.mp3",
+          "prompt": "Скажите по-фински: «Полицейский помогает людям.»",
+          "answer": [
+            "Poliisi auttaa ihmisiä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Palomies_sammuttaa_tulen.mp3",
+          "prompt": "Скажите по-фински: «Пожарный тушит огонь.»",
+          "answer": [
+            "Palomies sammuttaa tulen."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex1/Postinjakaja_tuo_kirjeet.mp3",
+          "prompt": "Скажите по-фински: «Почтальон приносит письма.»",
+          "answer": [
+            "Postinjakaja tuo kirjeet."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-9-speaking-2",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински — кому? кому/куда? чем? (Ex2)",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex2/Mina_soitan_ystavalle.mp3",
+          "prompt": "Скажите по-фински: «Я звоню другу.»",
+          "answer": [
+            "Minä soitan ystävälle.",
+            "Soitan ystävälle."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex2/Han_kertoo_minulle_uutisen.mp3",
+          "prompt": "Скажите по-фински: «Он/она рассказывает мне новость.»",
+          "answer": [
+            "Hän kertoo minulle uutisen."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex2/Tule_meille_illalla.mp3",
+          "prompt": "Скажите по-фински: «Приходи к нам вечером.»",
+          "answer": [
+            "Tule meille illalla."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex2/Han_ostaa_lahjan_Liisalle.mp3",
+          "prompt": "Скажите по-фински: «Он/она покупает подарок Лиизе.»",
+          "answer": [
+            "Hän ostaa lahjan Liisalle."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex2/Han_kysyy_myyjalta.mp3",
+          "prompt": "Скажите по-фински: «Он/она спрашивает у продавца.»",
+          "answer": [
+            "Hän kysyy myyjältä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex2/Han_maksaa_kassalla.mp3",
+          "prompt": "Скажите по-фински: «Он/она платит на кассе.»",
+          "answer": [
+            "Hän maksaa kassalla."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex2/Han_kirjoittaa_kortin_Liisalle.mp3",
+          "prompt": "Скажите по-фински: «Он/она пишет открытку Лиизе.»",
+          "answer": [
+            "Hän kirjoittaa kortin Liisalle."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex2/Han_menee_bussilla.mp3",
+          "prompt": "Скажите по-фински: «Он/она едет на автобусе.»",
+          "answer": [
+            "Hän menee bussilla."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex2/Liisalla_on_juhlat.mp3",
+          "prompt": "Скажите по-фински: «У Лиизы праздник.»",
+          "answer": [
+            "Liisalla on juhlat."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex2/Me_sanomme_Liisalle_Kippis.mp3",
+          "prompt": "Скажите по-фински: «Мы говорим Лиизе “Киппис!”»",
+          "answer": [
+            "Me sanomme Liisalle “Kippis!”.",
+            "Sanomme Liisalle “Kippis!”."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex2/Han_saa_lahjan_ystavalta.mp3",
+          "prompt": "Скажите по-фински: «Он/она получает подарок от друга.»",
+          "answer": [
+            "Hän saa lahjan ystävältä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex2/Han_antaa_kirjan_minulle.mp3",
+          "prompt": "Скажите по-фински: «Он/она даёт мне книгу.»",
+          "answer": [
+            "Hän antaa kirjan minulle."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex2/Han_kysyy_opettajalta.mp3",
+          "prompt": "Скажите по-фински: «Он/она спрашивает у учителя.»",
+          "answer": [
+            "Hän kysyy opettajalta."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex2/Han_puhuu_opettajalle.mp3",
+          "prompt": "Скажите по-фински: «Он/она говорит учителю.»",
+          "answer": [
+            "Hän puhuu opettajalle."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex2/Me_lahdemme_Liisalta_kotiin.mp3",
+          "prompt": "Скажите по-фински: «Мы уходим от Лиизы домой.»",
+          "answer": [
+            "Me lähdemme Liisalta kotiin.",
+            "Lähdemme Liisalta kotiin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-9-speaking-3",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински — кому/откуда/где (Ex3)",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex3/Tytto_kirjoittaa_kirjeen_isoaidille.mp3",
+          "prompt": "Скажите по-фински: «Девочка пишет письмо бабушке.»",
+          "answer": [
+            "Tyttö kirjoittaa kirjeen isoäidille."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex3/Isoaiti_vastaa_kirjeeseen.mp3",
+          "prompt": "Скажите по-фински: «Бабушка отвечает на письмо.»",
+          "answer": [
+            "Isoäiti vastaa kirjeeseen."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex3/Tuo_nuori_mies_haluaa_uuden_moottoripyoran.mp3",
+          "prompt": "Скажите по-фински: «Вон тот молодой мужчина хочет новый мотоцикл.»",
+          "answer": [
+            "Tuo nuori mies haluaa uuden moottoripyörän."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex3/Me_kysymme_opettajalta.mp3",
+          "prompt": "Скажите по-фински: «Мы спрашиваем у учителя.»",
+          "answer": [
+            "Me kysymme opettajalta.",
+            "Kysymme opettajalta."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex3/Han_lainaa_minulle_rahaa.mp3",
+          "prompt": "Скажите по-фински: «Он/она одолжит мне денег.»",
+          "answer": [
+            "Hän lainaa minulle rahaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex3/Pomo_soittaa_minulle_toimistosta.mp3",
+          "prompt": "Скажите по-фински: «Начальник звонит мне из офиса.»",
+          "answer": [
+            "Pomo soittaa minulle toimistosta."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex3/Han_ei_osta_pyoraa_kaupasta.mp3",
+          "prompt": "Скажите по-фински: «Он/она не покупает велосипед в магазине.»",
+          "answer": [
+            "Hän ei osta pyörää kaupasta."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex3/Mina_ostan_pyoran_ystavalta.mp3",
+          "prompt": "Скажите по-фински: «Я покупаю велосипед у друга.»",
+          "answer": [
+            "Minä ostan pyörän ystävältä.",
+            "Ostan pyörän ystävältä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex3/He_pyytavat_meilta_apua.mp3",
+          "prompt": "Скажите по-фински: «Они просят у нас помощи.»",
+          "answer": [
+            "He pyytävät meiltä apua."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex3/Mina_puhun_ystavalle.mp3",
+          "prompt": "Скажите по-фински: «Я говорю другу.»",
+          "answer": [
+            "Minä puhun ystävälle.",
+            "Puhun ystävälle."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex3/Han_antaa_kukkia_aidille.mp3",
+          "prompt": "Скажите по-фински: «Он/она дарит цветы маме.»",
+          "answer": [
+            "Hän antaa kukkia äidille."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex3/Me_olemme_bussipysakilla.mp3",
+          "prompt": "Скажите по-фински: «Мы на автобусной остановке.»",
+          "answer": [
+            "Me olemme bussipysäkillä.",
+            "Olemme bussipysäkillä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex3/Opettaja_kertoo_tarinan_opiskelijalle.mp3",
+          "prompt": "Скажите по-фински: «Учитель рассказывает историю студенту.»",
+          "answer": [
+            "Opettaja kertoo tarinan opiskelijalle."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex3/Otan_kirjan_poydalta.mp3",
+          "prompt": "Скажите по-фински: «Я беру книгу со стола.»",
+          "answer": [
+            "Otan kirjan pöydältä.",
+            "Minä otan kirjan pöydältä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex3/Han_lahtee_koululta_kotiin.mp3",
+          "prompt": "Скажите по-фински: «Он/она уходит из школы домой.»",
+          "answer": [
+            "Hän lähtee koululta kotiin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-9-speaking-4",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински — в магазине/на работе (Ex4)",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex4/Kaupassa_on_kaksi_myyjaa.mp3",
+          "prompt": "Скажите по-фински: «В магазине два продавца.»",
+          "answer": [
+            "Kaupassa on kaksi myyjää."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex4/Kaupassa_on_nelja_asiakasta.mp3",
+          "prompt": "Скажите по-фински: «В магазине четыре клиента.»",
+          "answer": [
+            "Kaupassa on neljä asiakasta."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex4/He_menevat_lounaalle.mp3",
+          "prompt": "Скажите по-фински: «Они идут на ланч.»",
+          "answer": [
+            "He menevät lounaalle."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex4/En_loyda_avainta.mp3",
+          "prompt": "Скажите по-фински: «Я не нахожу ключ.»",
+          "answer": [
+            "En löydä avainta."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex4/Tekstissa_on_nelja_sivua.mp3",
+          "prompt": "Скажите по-фински: «В тексте четыре страницы.»",
+          "answer": [
+            "Tekstissä on neljä sivua."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex4/Teksti_on_valmis.mp3",
+          "prompt": "Скажите по-фински: «Текст готов.»",
+          "answer": [
+            "Teksti on valmis."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex4/Han_osaa_kirjoittaa_vahan.mp3",
+          "prompt": "Скажите по-фински: «Он/она умеет немного писать.»",
+          "answer": [
+            "Hän osaa kirjoittaa vähän."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex4/Han_ei_pida_kirjaimista.mp3",
+          "prompt": "Скажите по-фински: «Он/она не любит буквы.»",
+          "answer": [
+            "Hän ei pidä kirjaimista."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex4/Otan_jaatelon_pakastimesta.mp3",
+          "prompt": "Скажите по-фински: «Я беру мороженое из морозилки.»",
+          "answer": [
+            "Otan jäätelön pakastimesta.",
+            "Minä otan jäätelön pakastimesta."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex4/Vieraat_tulevat_kello_19.mp3",
+          "prompt": "Скажите по-фински: «Гости придут в 19:00.»",
+          "answer": [
+            "Vieraat tulevat kello 19."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex4/Tassa_tulostimessa_ei_ole_paperia.mp3",
+          "prompt": "Скажите по-фински: «В этом принтере нет бумаги.»",
+          "answer": [
+            "Tässä tulostimessa ei ole paperia."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex4/En_voi_tulostaa.mp3",
+          "prompt": "Скажите по-фински: «Я не могу распечатать.»",
+          "answer": [
+            "En voi tulostaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex4/Minulla_on_uusi_puhelin.mp3",
+          "prompt": "Скажите по-фински: «У меня новый телефон.»",
+          "answer": [
+            "Minulla on uusi puhelin."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex4/Siina_on_kamera.mp3",
+          "prompt": "Скажите по-фински: «В нём есть камера.»",
+          "answer": [
+            "Siinä on kamera."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex4/Haluan_uuden_kannykan.mp3",
+          "prompt": "Скажите по-фински: «Я хочу новый мобильник.»",
+          "answer": [
+            "Haluan uuden kännykän.",
+            "Minä haluan uuden kännykän."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex4/Tyopaikalla_on_influenssaa.mp3",
+          "prompt": "Скажите по-фински: «На работе грипп (многие болеют).»",
+          "answer": [
+            "Työpaikalla on influenssaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex4/Sairaat_eivat_tule_toihin.mp3",
+          "prompt": "Скажите по-фински: «Больные не приходят на работу.»",
+          "answer": [
+            "Sairaat eivät tule töihin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-9-speaking-5",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински — сложные предложения (Ex5)",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex5/Milloin_kurssi_alkaa_kun_kello_on_kahdeksan.mp3",
+          "prompt": "Скажите по-фински: «Когда начинается курс, когда время восемь?»",
+          "answer": [
+            "Milloin kurssi alkaa, kun kello on kahdeksan?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex5/En_tieda_tuleeko_han_tanaan.mp3",
+          "prompt": "Скажите по-фински: «Я не знаю, придёт ли он/она сегодня.»",
+          "answer": [
+            "En tiedä, tuleeko hän tänään."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex5/En_osta_jaateloa_koska_saastan_rahaa.mp3",
+          "prompt": "Скажите по-фински: «Я не покупаю мороженое, потому что коплю деньги.»",
+          "answer": [
+            "En osta jäätelöä, koska säästän rahaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex5/Opettaja_sanoo_etta_testi_on_huomenna.mp3",
+          "prompt": "Скажите по-фински: «Учитель говорит, что тест завтра.»",
+          "answer": [
+            "Opettaja sanoo, että testi on huomenna."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex5/Haluan_matkustaa_mutta_minulla_ei_ole_rahaa.mp3",
+          "prompt": "Скажите по-фински: «Я хочу путешествовать, но у меня нет денег.»",
+          "answer": [
+            "Haluan matkustaa, mutta minulla ei ole rahaa.",
+            "Minä haluan matkustaa, mutta minulla ei ole rahaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex5/En_ui_jarvessa_koska_on_kylma.mp3",
+          "prompt": "Скажите по-фински: «Я не купаюсь в озере, потому что холодно.»",
+          "answer": [
+            "En ui järvessä, koska on kylmä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex5/Menen_kotiin_koska_olen_vasynyt.mp3",
+          "prompt": "Скажите по-фински: «Я иду домой, потому что устал.»",
+          "answer": [
+            "Menen kotiin, koska olen väsynyt.",
+            "Minä menen kotiin, koska olen väsynyt."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex5/Syon_lounasta_toissa_mutta_tanaan_syon_kotona.mp3",
+          "prompt": "Скажите по-фински: «Я ем ланч на работе, но сегодня ем дома.»",
+          "answer": [
+            "Syön lounasta töissä, mutta tänään syön kotona.",
+            "Minä syön lounasta töissä, mutta tänään syön kotona."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex5/En_tieda_onko_kauppa_auki.mp3",
+          "prompt": "Скажите по-фински: «Я не знаю, открыт ли магазин.»",
+          "answer": [
+            "En tiedä, onko kauppa auki."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex5/Ajan_kaupunkiin_jos_on_hyva_saa.mp3",
+          "prompt": "Скажите по-фински: «Я поеду в город, если погода хорошая.»",
+          "answer": [
+            "Ajan kaupunkiin, jos on hyvä sää."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex5/Tiedan_etta_pidat_kahvista.mp3",
+          "prompt": "Скажите по-фински: «Я знаю, что ты любишь кофе.»",
+          "answer": [
+            "Tiedän, että pidät kahvista."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex5/Menen_saunaan_kun_tulen_kotiin.mp3",
+          "prompt": "Скажите по-фински: «Я иду в сауну, когда прихожу домой.»",
+          "answer": [
+            "Menen saunaan, kun tulen kotiin.",
+            "Minä menen saunaan, kun tulen kotiin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-9-speaking-6",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински — время: «через/после/до» (Ex6)",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex6/Menen_kotiin_tunnin_kuluttua.mp3",
+          "prompt": "Скажите по-фински: «Я пойду домой через час.»",
+          "answer": [
+            "Menen kotiin tunnin kuluttua.",
+            "Minä menen kotiin tunnin kuluttua."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex6/Lahdemme_lomalle_viikon_kuluttua.mp3",
+          "prompt": "Скажите по-фински: «Мы поедем в отпуск через неделю.»",
+          "answer": [
+            "Lähdemme lomalle viikon kuluttua.",
+            "Me lähdemme lomalle viikon kuluttua."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex6/Tapaan_ystavan_kahden_paivan_kuluttua.mp3",
+          "prompt": "Скажите по-фински: «Встречу друга через два дня.»",
+          "answer": [
+            "Tapaan ystävän kahden päivän kuluttua.",
+            "Minä tapaan ystävän kahden päivän kuluttua."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex6/Menen_toihin_kurssin_jalkeen.mp3",
+          "prompt": "Скажите по-фински: «Иду на работу после курса.»",
+          "answer": [
+            "Menen töihin kurssin jälkeen.",
+            "Minä menen töihin kurssin jälkeen."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex6/Syon_tunnin_jalkeen.mp3",
+          "prompt": "Скажите по-фински: «Ем после часа / через час.»",
+          "answer": [
+            "Syön tunnin jälkeen.",
+            "Minä syön tunnin jälkeen."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex6/Kayn_suihkussa_saunan_jalkeen.mp3",
+          "prompt": "Скажите по-фински: «Принимаю душ после сауны.»",
+          "answer": [
+            "Käyn suihkussa saunan jälkeen.",
+            "Minä käyn suihkussa saunan jälkeen."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex6/Heraan_ennen_seitsemaa.mp3",
+          "prompt": "Скажите по-фински: «Просыпаюсь до семи.»",
+          "answer": [
+            "Herään ennen seitsemää.",
+            "Minä herään ennen seitsemää."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex6/Juon_kahvia_ennen_toita.mp3",
+          "prompt": "Скажите по-фински: «Пью кофе до работы.»",
+          "answer": [
+            "Juon kahvia ennen töitä.",
+            "Minä juon kahvia ennen töitä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex6/Menen_nukkumaan_ennen_kymmenta.mp3",
+          "prompt": "Скажите по-фински: «Ложусь спать до десяти.»",
+          "answer": [
+            "Menen nukkumaan ennen kymmentä.",
+            "Minä menen nukkumaan ennen kymmentä."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-9-speaking-7",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински — в ресторане (Ex7)",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Melkein_kaikki_poydat_on_varattu.mp3",
+          "prompt": "Скажите по-фински: «Почти все столы заняты.»",
+          "answer": [
+            "Melkein kaikki pöydät ovat varattuja."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Tama_poyta_on_vapaa.mp3",
+          "prompt": "Скажите по-фински: «Этот стол свободен.»",
+          "answer": [
+            "Tämä pöytä on vapaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Ruoka_maistuu_hyvalta.mp3",
+          "prompt": "Скажите по-фински: «Еда вкусная.»",
+          "answer": [
+            "Ruoka maistuu hyvältä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Haluan_laskun_saman_tien.mp3",
+          "prompt": "Скажите по-фински: «Хочу счёт сразу.»",
+          "answer": [
+            "Haluan laskun saman tien.",
+            "Minä haluan laskun saman tien."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Saanko_laskun_kiitos.mp3",
+          "prompt": "Скажите по-фински: «Можно счёт, пожалуйста?»",
+          "answer": [
+            "Saanko laskun, kiitos?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Saanko_ruokalistan_kiitos.mp3",
+          "prompt": "Скажите по-фински: «Можно меню, пожалуйста?»",
+          "answer": [
+            "Saanko ruokalistan, kiitos?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Salaattia_ja_leipaa_voitte_hakea_tuolta_salaattipoydasta.mp3",
+          "prompt": "Скажите по-фински: «Салат и хлеб можно взять там, с салатного стола.»",
+          "answer": [
+            "Salaattia ja leipää voitte hakea tuolta salaattipöydästä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Alkuruoka_on_keittoa.mp3",
+          "prompt": "Скажите по-фински: «Закуска — это суп.»",
+          "answer": [
+            "Alkuruoka on keittoa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Paaruoka_on_kalaa_ja_perunoita.mp3",
+          "prompt": "Скажите по-фински: «Основное блюдо — рыба и картошка.»",
+          "answer": [
+            "Pääruoka on kalaa ja perunoita."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Jalkiruoka_on_jaateloa.mp3",
+          "prompt": "Скажите по-фински: «Десерт — мороженое.»",
+          "answer": [
+            "Jälkiruoka on jäätelöä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Haluan_alkuruoan_kiitos.mp3",
+          "prompt": "Скажите по-фински: «Хочу закуску, пожалуйста.»",
+          "answer": [
+            "Haluan alkuruoan, kiitos.",
+            "Minä haluan alkuruoan, kiitos."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Paaruoka_maistuu_hyvalta.mp3",
+          "prompt": "Скажите по-фински: «Основное блюдо вкусное.»",
+          "answer": [
+            "Pääruoka maistuu hyvältä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Jalkiruoka_on_makeaa.mp3",
+          "prompt": "Скажите по-фински: «Десерт сладкий.»",
+          "answer": [
+            "Jälkiruoka on makeaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Mita_saa_olla.mp3",
+          "prompt": "Скажите по-фински: «Что будете заказывать?»",
+          "answer": [
+            "Mitä saa olla?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Ottaisin_kahvin.mp3",
+          "prompt": "Скажите по-фински: «Я бы взял кофе.»",
+          "answer": [
+            "Ottaisin kahvin."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Haluaisin_keiton.mp3",
+          "prompt": "Скажите по-фински: «Я хотел бы суп.»",
+          "answer": [
+            "Haluaisin keiton."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Minulle_salaatti.mp3",
+          "prompt": "Скажите по-фински: «Мне салат.»",
+          "answer": [
+            "Minulle salaatti."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Maksatteko_yhdessa_vai_erikseen.mp3",
+          "prompt": "Скажите по-фински: «Вы платите вместе или отдельно?»",
+          "answer": [
+            "Maksatteko yhdessä vai erikseen?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Maksatteko_kateisella_vai_kortilla.mp3",
+          "prompt": "Скажите по-фински: «Вы платите наличными или картой?»",
+          "answer": [
+            "Maksatteko käteisellä vai kortilla?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Kuuluuko_kahvi_lounaan_hintaan.mp3",
+          "prompt": "Скажите по-фински: «Кофе входит в стоимость обеда?»",
+          "answer": [
+            "Kuuluuko kahvi lounaan hintaan?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Haluaisin_varata_poydan_neljalle.mp3",
+          "prompt": "Скажите по-фински: «Я хотел бы забронировать столик на четверых.»",
+          "answer": [
+            "Haluaisin varata pöydän neljälle."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Hyvaa_ruokahalua.mp3",
+          "prompt": "Скажите по-фински: «Приятного аппетита!»",
+          "answer": [
+            "Hyvää ruokahalua!"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex7/Kiitos_ruoasta.mp3",
+          "prompt": "Скажите по-фински: «Спасибо за еду!»",
+          "answer": [
+            "Kiitos ruoasta!"
+          ]
+        }
+      ]
+    }
+  ],
+  "listening": {
+    "tasks": [
+      {
+        "id": "a1-9-mc-ex1",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea ammatti",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Mina_olen_laakari.mp3",
+            "options": [
+              "Minä olen lääkäri.",
+              "Minä olen läkäri.",
+              "Minä olen läkääri."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Aiti_on_sairaanhoitaja.mp3",
+            "options": [
+              "Äiti on sairaanhoitajja.",
+              "Äiti on sairaanhoitaja.",
+              "Äiti on sairaanhoitajä."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Hammaslaakari_työskentelee_klinikalla.mp3",
+            "options": [
+              "Hammaslääkäri työskentelee klinikalla.",
+              "Hammasläkäri työskentelee klinikalla.",
+              "Hammaslääkari työskentelee klinikalla."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Myyja_on_kaupassa.mp3",
+            "options": [
+              "Myyjä on kaupassa.",
+              "Myja on kaupassa.",
+              "Myyyjä on kaupassa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Isa_on_taksikuski.mp3",
+            "options": [
+              "Isä on taksikuski.",
+              "Isä on taksikuskii.",
+              "Isä on taksikuskki."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Automekaanikko_korjaa_auton.mp3",
+            "options": [
+              "Automekanikko korjaa auton.",
+              "Automekaanikko korjaa auton.",
+              "Automekaanikko korjaa auton."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Rakennusmies_rakentaa_talon.mp3",
+            "options": [
+              "Rakennusmiees rakentaa talon.",
+              "Rakennusmies rakentaa talon.",
+              "Rakennusmiäs rakentaa talon."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Putkimies_korjaa_vesihanat.mp3",
+            "options": [
+              "Putkimiies korjaa vesihanat.",
+              "Putkimies korjaa vesihanat.",
+              "Putkimes korjaa vesihanat."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Sahkomies_asentaa_valot.mp3",
+            "options": [
+              "Sähkömies asentaa valot.",
+              "Sähkomies asentaa valot.",
+              "Sähkymies asentaa valot."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Maalari_maalaa_seinan.mp3",
+            "options": [
+              "Maallari maalaa seinän.",
+              "Maalarri maalaa seinän.",
+              "Maalari maalaa seinän."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Kokki_tekee_ruokaa.mp3",
+            "options": [
+              "Kokki tekee ruokaa.",
+              "Kokkii tekee ruokaa.",
+              "Koki tekee ruokaa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Tarjoilija_tuo_ruoan_poytaan.mp3",
+            "options": [
+              "Tarjolija tuo ruoan pöytään.",
+              "Tarjoilija tuo ruoan pöytään.",
+              "Tarjoilja tuo ruoan pöytään."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Siivooja_siivoo_toimistossa.mp3",
+            "options": [
+              "Siivoja siivoaa toimistossa.",
+              "Siivooja siivoaa toimistossa.",
+              "Siivoojaa siivoaa toimistossa."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Lastenhoitaja_hoitaa_lapsia.mp3",
+            "options": [
+              "Lastenhoitajja hoitaa lapsia.",
+              "Lastenhoitjä hoitaa lapsia.",
+              "Lastenhoitaja hoitaa lapsia."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Lastentarhanopettaja_opettaa_lapsia.mp3",
+            "options": [
+              "Lastentarhanopettajaa opettaa lapsia.",
+              "Lastentarhanopettaja opettaa lapsia.",
+              "Lastentarhanopetaja opettaa lapsia."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Opettaja_on_koulussa.mp3",
+            "options": [
+              "Opettaja on koulussa.",
+              "Opetaja on koulussa.",
+              "Opettajja on koulussa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Toimittaja_kirjoittaa_lehdessa.mp3",
+            "options": [
+              "Toimittaja kirjoittaa lehdessä.",
+              "Toimittaja kirjoittaa lehdessä.",
+              "Toimittaaja kirjoittaa lehdessä."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Poliisi_auttaa_ihmisia.mp3",
+            "options": [
+              "Polisi auttaa ihmisiä.",
+              "Polliisi auttaa ihmisiä.",
+              "Poliisi auttaa ihmisiä."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Palomies_sammuttaa_tulen.mp3",
+            "options": [
+              "Palomiäs sammuttaa tulen.",
+              "Palomies sammuttaa tulen.",
+              "Paalomies sammuttaa tulen."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex1/Postinjakaja_tuo_kirjeet.mp3",
+            "options": [
+              "Postinjakajaa tuo kirjeet.",
+              "Postinjakaaja tuo kirjeet.",
+              "Postinjakaja tuo kirjeet."
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "a1-9-mc-ex2",
+        "type": "multiple-choice",
+        "title": "🔊 Valitse oikea paikallissijan pääte (-lla / -lta / -lle)",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-9/listening/ex2/Liisa_soittaa_Jussille.mp3",
+            "options": [
+              "Liisa soittaa Jussilla.",
+              "Liisa soittaa Jussille.",
+              "Liisa soittaa Jussilta."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex2/Liisa_kertoo_eta_hanella_on_tanaan_syntymapaiva.mp3",
+            "options": [
+              "Liisa kertoo, että hänellä on tänään syntymäpäivä.",
+              "Liisa kertoo, että hänelle on tänään syntymäpäivä.",
+              "Liisa kertoo, että häneltä on tänään syntymäpäivä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex2/Han_sanoo_tule_meille_kello_19.mp3",
+            "options": [
+              "Hän sanoo: Tule meillä kello 19!",
+              "Hän sanoo: Tule meiltä kello 19!",
+              "Hän sanoo: Tule meille kello 19!"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex2/Jussi_menee_tavarataloon.mp3",
+            "options": [
+              "Jussi menee tavaratalolla.",
+              "Jussi menee tavaratalolle.",
+              "Jussi menee tavaratalolta."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex2/Jussi_haluaa_ostaa_lahjan_Liisalle.mp3",
+            "options": [
+              "Jussi haluaa ostaa lahjan Liisalle.",
+              "Jussi haluaa ostaa lahjan Liisalla.",
+              "Jussi haluaa ostaa lahjan Liisalta."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex2/Jussi_kysyy_myytajalta.mp3",
+            "options": [
+              "Jussi kysyy myyjällä.",
+              "Jussi kysyy myyjältä.",
+              "Jussi kysyy myyjälle."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex2/Jussi_valitsee_kirjan_ja_maksaa_myytajalle.mp3",
+            "options": [
+              "Jussi valitsee kakkukirjan ja maksaa kassalla myyjällä.",
+              "Jussi valitsee kakkukirjan ja maksaa kassalle myyjältä.",
+              "Jussi valitsee kakkukirjan ja maksaa kassalla myyjälle."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex2/Kotona_Jussi_kirjoittaa_Liisalle_kortin.mp3",
+            "options": [
+              "Kotona Jussi kirjoittaa kortin Liisalla.",
+              "Kotona Jussi kirjoittaa kortin Liisalta.",
+              "Kotona Jussi kirjoittaa kortin Liisalle."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex2/Jussi_ajaa_raitiovaunulla_Liisalle.mp3",
+            "options": [
+              "Jussi ajaa raitiovaunulla Liisalla.",
+              "Jussi ajaa raitiovaunulla Liisalle.",
+              "Jussi ajaa raitiovaunulla Liisalta."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex2/Liisalla_on_monta_vierasta.mp3",
+            "options": [
+              "Liisalle on monta vierasta.",
+              "Liisalta on monta vierasta.",
+              "Liisalla on monta vierasta."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex2/Liisa_tuo_samppanjalasit_vieraille.mp3",
+            "options": [
+              "Liisa tuo samppanjalasit vieraille.",
+              "Liisa tuo samppanjalasit vierailla.",
+              "Liisa tuo samppanjalasit vierailta."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex2/Kaikki_onnittelevat_Liisaa.mp3",
+            "options": [
+              "Kaikki onnit­televat Liisalla.",
+              "Kaikki onnit­televat Liisalta.",
+              "Kaikki onnit­televat Liisalle."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex2/Jaana_antaa_Liisalle_korun.mp3",
+            "options": [
+              "Jaanalla hän saa korun.",
+              "Jaanalle hän saa korun.",
+              "Jaanalta hän saa korun."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex2/Jussi_kysyy_Liisalta.mp3",
+            "options": [
+              "Jussi kysyy Liisalta.",
+              "Jussi kysyy Liisalla.",
+              "Jussi kysyy Liisalle."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex2/Liisa_vastaa_Jussille.mp3",
+            "options": [
+              "Liisa vastaa Jussilta.",
+              "Liisa vastaa Jussilla.",
+              "Liisa vastaa Jussille."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex2/Vieraat_lahtevat_Liisalta_kello_22.mp3",
+            "options": [
+              "Vieraat lähtevät Liisalla kello 22.",
+              "Vieraat lähtevät Liisalta kello 22.",
+              "Vieraat lähtevät Liisalle kello 22."
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": "a1-9-mc-ex3",
+        "type": "multiple-choice",
+        "title": "🔊 Valitse oikea paikallissijan pääte (-lle / -lla / -lta)",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-9/listening/ex3/Tytto_kirjoittaa_kirjeen_isoaidille.mp3",
+            "options": [
+              "Tyttö kirjoittaa kirjeen isoäidillä.",
+              "Tyttö kirjoittaa kirjeen isoäidille.",
+              "Tyttö kirjoittaa kirjeen isoäidiltä."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex3/Isoaiti_vastaa_kirjeeseen.mp3",
+            "options": [
+              "Isoäiti vastaa kirjeestä.",
+              "Isoäiti vastaa kirjeeseen.",
+              "Isoäiti vastaa kirjeellä."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex3/Tuo_nuori_mies_haluaa_uuden_moottoripyoran.mp3",
+            "options": [
+              "Tuo nuori mies haluaa uuden moottoripyörän.",
+              "Tuo nuori mies haluaa uudella moottoripyörällä.",
+              "Tuo nuori mies haluaa uudelta moottoripyörältä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex3/Me_kysymme_opettajalta.mp3",
+            "options": [
+              "Me kysymme opettajalla.",
+              "Me kysymme opettajalta.",
+              "Me kysymme opettajalle."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex3/Philip_lainaa_minulle_rahaa.mp3",
+            "options": [
+              "Philip lainaa minulla rahaa.",
+              "Philip lainaa minulta rahaa.",
+              "Philip lainaa minulle rahaa."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex3/Pomo_soittaa_minulle_toimistosta.mp3",
+            "options": [
+              "Pomo soittaa minulle toimistosta.",
+              "Pomo soittaa minulla toimistossa.",
+              "Pomo soittaa minulta toimistosta."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex3/Liisa_ei_osta_pyoraa_kaupasta.mp3",
+            "options": [
+              "Liisa ei osta pyörää kaupasta.",
+              "Liisa ei osta pyörää kaupalle.",
+              "Liisa ei osta pyörää kaupassa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex3/Liisa_ostaa_pyoran_ystavalta.mp3",
+            "options": [
+              "Liisa ostaa pyörän ystävällä.",
+              "Liisa ostaa pyörän ystävälle.",
+              "Liisa ostaa pyörän ystävältä."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex3/He_pyytavat_meilta_apua.mp3",
+            "options": [
+              "He pyytävät meillä apua.",
+              "He pyytävät meiltä apua.",
+              "He pyytävät meille apua."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex3/Mina_puhun_ystavalle.mp3",
+            "options": [
+              "Minä puhun ystävällä.",
+              "Minä puhun ystävälle.",
+              "Minä puhun ystävältä."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex3/Han_antaa_kukkia_aidille.mp3",
+            "options": [
+              "Hän antaa kukkia äidiltä.",
+              "Hän antaa kukkia äidillä.",
+              "Hän antaa kukkia äidille."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex3/Me_olemme_bussipysakilla.mp3",
+            "options": [
+              "Me olemme bussipysäkiltä.",
+              "Me olemme bussipysäkillä.",
+              "Me olemme bussipysäkille."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex3/Opettaja_kertoo_tarinan_opiskelijalle.mp3",
+            "options": [
+              "Opettaja kertoo tarinan opiskelijalla.",
+              "Opettaja kertoo tarinan opiskelijalta.",
+              "Opettaja kertoo tarinan opiskelijalle."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex3/Otan_kirjan_poydalta.mp3",
+            "options": [
+              "Otan kirjan pöydältä.",
+              "Otan kirjan pöydällä.",
+              "Otan kirjan pöydälle."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex3/Han_lahtee_koululta_kotiin.mp3",
+            "options": [
+              "Hän lähtee koululla kotiin.",
+              "Hän lähtee koululta kotiin.",
+              "Hän lähtee koululle kotiin."
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": "a1-9-mc-ex4",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea sana (-is / -in -sanat)",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-9/listening/ex4/Nyt_kaupassa_on_2_myyjaa_ja_4_asiakasta.mp3",
+            "options": [
+              "Nyt kaupassa on 2 myyjää ja 4 asiakasta.",
+              "Nyt kaupassa on 2 myyjää ja 4 asiakkaan.",
+              "Nyt kaupassa on 2 myyjää ja 4 asiakaasta."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex4/Matti_ja_Pekka_menevat_lounaalle_pieneen_ravintolaan.mp3",
+            "options": [
+              "Matti ja Pekka menevät lounalle pieneen ravintolaan.",
+              "Matti ja Pekka menevät lounaalle pieneen ravintolaan.",
+              "Matti ja Pekka menevät lounaille pieneen ravintolaan."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex4/En_voi_avata_ovea_koska_en_loydä_avainta.mp3",
+            "options": [
+              "En voi avata ovea, koska en löydä avaimen.",
+              "En voi avata ovea, koska en löydä avainta.",
+              "En voi avata ovea, koska en löydä avain."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex4/Opettaja_sanoo_eta_valmiissa_tekstissa_on_hyva_olla_4_sivua.mp3",
+            "options": [
+              "Opettaja sanoo, että valmiissa tekstissä on hyvä olla 4 sivua.",
+              "Opettaja sanoo, että valmiin tekstissä on hyvä olla 4 sivua.",
+              "Opettaja sanoo, että valmissa tekstissä on hyvä olla 4 sivua."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex4/Liisa_on_5_vuotta_ja_han_osaa_kirjoittaa_vahan.mp3",
+            "options": [
+              "Liisa ei pidä kirjaimista, koska se on vaikea kirjoittaa.",
+              "Liisa ei pidä kirjaimen, koska se on vaikea kirjoittaa.",
+              "Liisa ei pidä kirjainsta, koska se on vaikea kirjoittaa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex4/Haluaisin_syoda_jotain_makeaa.mp3",
+            "options": [
+              "Otan meille jäätelöt pakastinmesta.",
+              "Otan meille jäätelöt pakastimen.",
+              "Otan meille jäätelöt pakastimesta."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex4/Sarilla_ja_Mikolla_on_tupaantulijaiset.mp3",
+            "options": [
+              "Sarilla ja Mikolla on tupaantulijaiset. Vieraat saapuvat kello 19.",
+              "Sarilla ja Mikolla on tupaantulijaiset. Vieraan saapuvat kello 19.",
+              "Sarilla ja Mikolla on tupaantulijaiset. Vierat saapuvat kello 19."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex4/En_voi_tulostaa_koska_tassa_tulostimessa_ei_ole_paperia.mp3",
+            "options": [
+              "En voi tulostaa, koska tässä tulostimessa ei ole paperia.",
+              "En voi tulostaa, koska tässä tulostimessa ei ole paperia.",
+              "En voi tulostaa, koska tässä tulostinssa ei ole paperia."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex4/Annan_uudessa_puhelimessa_on_myos_kamera.mp3",
+            "options": [
+              "Annan uudessa puhelimessa on myös kamera ja navigaattori.",
+              "Annan uudessa puhelimesta on myös kamera ja navigaattori.",
+              "Annan uudessa puhelimen on myös kamera ja navigaattori."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex4/Mina_haluaisin_ostaa_uuden_kalliin_kannykän.mp3",
+            "options": [
+              "Minä haluaisin ostaa uuden kallisen kännykän, mutta minulla ei ole rahaa.",
+              "Minä haluaisin ostaa uuden kalliin kännykän, mutta minulla ei ole rahaa.",
+              "Minä haluaisin ostaa uuden kallin kännykän, mutta minulla ei ole rahaa."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex4/Tyopaikalla_on_paljon_influenssaa.mp3",
+            "options": [
+              "Työpaikalla on paljon influenssaa.",
+              "Työpaikalla on paljon influenssan.",
+              "Työpaikalla on paljon influenssa."
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "a1-9-mc-ex5",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea sivulauseen sana",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-9/listening/ex5/Mita_kello_on_kun_kurssi_alkaa.mp3",
+            "options": [
+              "Mitä kello on, koska kurssi alkaa?",
+              "Mitä kello on, että kurssi alkaa?",
+              "Mitä kello on, kun kurssi alkaa?"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex5/En_tieda_tuleeko_han_tanaan_kurssille.mp3",
+            "options": [
+              "En tiedä, että hän tulee tänään kurssille.",
+              "En tiedä, tuleeko hän tänään kurssille.",
+              "En tiedä, jos hän tulee tänään kurssille."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex5/Mina_en_osta_jaateloa_koska_saastan_rahaa.mp3",
+            "options": [
+              "Minä en osta jäätelöä, että säästän rahaa.",
+              "Minä en osta jäätelöä, koska säästän rahaa.",
+              "Minä en osta jäätelöä, jos säästän rahaa."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex5/Opettaja_sanoo_etta_testi_on_toukokuussa.mp3",
+            "options": [
+              "Opettaja sanoo, että testi on toukokuussa.",
+              "Opettaja sanoo, koska testi on toukokuussa.",
+              "Opettaja sanoo, jos testi on toukokuussa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex5/Haluaisin_matkustaa_mutta_minulla_ei_ole_paljon_rahaa.mp3",
+            "options": [
+              "Haluaisin matkustaa, vaikka minulla ei ole paljon rahaa.",
+              "Haluaisin matkustaa, koska minulla ei ole paljon rahaa.",
+              "Haluaisin matkustaa, mutta minulla ei ole paljon rahaa."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex5/Emme_ui_jarvessa_koska_on_kylma_ilma.mp3",
+            "options": [
+              "Emme ui järvessä, koska on kylmä ilma.",
+              "Emme ui järvessä, että on kylmä ilma.",
+              "Emme ui järvessä, jos on kylmä ilma."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex5/Lotta_menee_kotiin_koska_han_on_vasynyt.mp3",
+            "options": [
+              "Lotta menee kotiin, koska hän on väsynyt.",
+              "Lotta menee kotiin, että hän on väsynyt.",
+              "Lotta menee kotiin, kun hän on väsynyt."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex5/Normaalisti_syön_lounasta_toissa_mutta_tanaan_syön_kotona.mp3",
+            "options": [
+              "Normaalisti syön lounasta töissä, koska tänään syön kotona.",
+              "Normaalisti syön lounasta töissä, mutta tänään syön kotona.",
+              "Normaalisti syön lounasta töissä, että tänään syön kotona."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex5/Han_ei_tieda_onko_kauppa_auki.mp3",
+            "options": [
+              "Hän ei tiedä, että kauppa on auki.",
+              "Hän ei tiedä, onko kauppa auki.",
+              "Hän ei tiedä, koska kauppa on auki."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex5/Ajamme_perjantaina_Lappeenrantaan_jos_on_hyva_saa.mp3",
+            "options": [
+              "Ajamme perjantaina Lappeenrantaan, jos on hyvä sää.",
+              "Ajamme perjantaina Lappeenrantaan, että on hyvä sää.",
+              "Ajamme perjantaina Lappeenrantaan, koska on hyvä sää."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex5/Minun_vaimo_tietaa_eta_pidan_kahvista.mp3",
+            "options": [
+              "Minun vaimo tietää, että pidän kahvista.",
+              "Minun vaimo tietää, koska pidän kahvista.",
+              "Minun vaimo tietää, jos pidän kahvista."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex5/Menen_heti_saunaan_kun_tulen_kotiin.mp3",
+            "options": [
+              "Menen heti saunaan, kun tulen kotiin.",
+              "Menen heti saunaan, koska tulen kotiin.",
+              "Menen heti saunaan, että tulen kotiin."
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "a1-9-mc-ex6",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea aikasana (kuluttua / jälkeen / ennen)",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-9/listening/ex6/Menen_kotiin_tunnin_kuluttua.mp3",
+            "options": [
+              "Menen kotiin tunnin kuluttua.",
+              "Menen kotiin tunnin jälkeen.",
+              "Menen kotiin tunnin ennen."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex6/Lahdemme_lomalle_viikon_kuluttua.mp3",
+            "options": [
+              "Lähdemme lomalle viikon kuluttua.",
+              "Lähdemme lomalle viikon jälkeen.",
+              "Lähdemme lomalle viikon ennen."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex6/Tapaan_ystavan_kahden_paivan_kuluttua.mp3",
+            "options": [
+              "Tapaan ystävän kahden päivän kuluttua.",
+              "Tapaan ystävän kahden päivän jälkeen.",
+              "Tapaan ystävän kahden päivän ennen."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex6/Menen_toihin_kurssin_jalkeen.mp3",
+            "options": [
+              "Menen töihin kurssin kuluttua.",
+              "Menen töihin kurssin jälkeen.",
+              "Menen töihin kurssin ennen."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex6/Syon_tunnin_jalkeen.mp3",
+            "options": [
+              "Syön tunnin kuluttua.",
+              "Syön tunnin jälkeen.",
+              "Syön tunnin ennen."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex6/Kayn_suihkussa_saunan_jalkeen.mp3",
+            "options": [
+              "Käyn suihkussa saunan kuluttua.",
+              "Käyn suihkussa saunan jälkeen.",
+              "Käyn suihkussa saunan ennen."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex6/Heraan_ennen_seitsemaa.mp3",
+            "options": [
+              "Herään ennen seitsemää.",
+              "Herään jälkeen seitsemää.",
+              "Herään kuluttua seitsemää."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex6/Juon_kahvia_ennen_toita.mp3",
+            "options": [
+              "Juon kahvia ennen töitä.",
+              "Juon kahvia jälkeen töitä.",
+              "Juon kahvia kuluttua töitä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex6/Menen_nukkumaan_ennen_kymmenta.mp3",
+            "options": [
+              "Menen nukkumaan kuluttua kymmentä.",
+              "Menen nukkumaan jälkeen kymmentä.",
+              "Menen nukkumaan ennen kymmentä."
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "a1-9-mc-ex7",
+        "type": "multiple-choice",
+        "title": "🔊 Ravintolassa – Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Melkein_kaikki_poydat_on_varattu.mp3",
+            "options": [
+              "Melkein kaikki pöydät ovat varattuja.",
+              "Melkein kaikki tuolit on varattu.",
+              "Melkein kaikki pöytä on varattu."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Tama_poyta_on_vapaa.mp3",
+            "options": [
+              "Tämä pöydät on vapaa.",
+              "Tämä pöytä on vapaa.",
+              "Tämä tuoli on vapaa."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Ruoka_maistuu_hyvalta.mp3",
+            "options": [
+              "Ruoka näyttää hyvältä.",
+              "Ruoka syö hyvältä.",
+              "Ruoka maistuu hyvältä."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Haluan_laskun_saman_tien.mp3",
+            "options": [
+              "Haluan pöydän saman tien.",
+              "Haluan laskun saman tien.",
+              "Haluan ruoan saman tien."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Saanko_laskun_kiitos.mp3",
+            "options": [
+              "Saanko kahvin, kiitos?",
+              "Saanko ruoan, kiitos?",
+              "Saanko laskun, kiitos?"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Saanko_ruokalistan_kiitos.mp3",
+            "options": [
+              "Saanko ruokalassa, kiitos?",
+              "Saanko ruokalistan, kiitos?",
+              "Saanko jälkiruoan, kiitos?"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Salaattia_ja_leipaa_voitte_hakea_tuolta_salaattipoydasta.mp3",
+            "options": [
+              "Salaattia ja leipää voitte hakea tuolta salaattipöydästä.",
+              "Salaattia ja leipää voitte syödä tuolta salaattipöydästä.",
+              "Salaattia ja juustoa voitte hakea tuolta salaattipöydästä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Alkuruoka_on_keitto.mp3",
+            "options": [
+              "Alkuruoka on salaatti.",
+              "Alkuruoka on kahvi.",
+              "Alkuruoka on keitto."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Pairuoka_on_kalaa_ja_perunoita.mp3",
+            "options": [
+              "Pääruoka on kalaa ja perunoita.",
+              "Pääruoka on lihaa ja perunoita.",
+              "Pääruoka on kala ja perunoita."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Jalkiruoka_on_jaateloa.mp3",
+            "options": [
+              "Jälkiruoka on kakkua.",
+              "Jälkiruoka on jäätelöä.",
+              "Jälkiruoka on maitoa."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Haluan_alkuruoan_kiitos.mp3",
+            "options": [
+              "Haluan jälkiruoan, kiitos.",
+              "Haluan pääruoan, kiitos.",
+              "Haluan alkuruoan, kiitos."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Pairuoka_maistuu_hyvalta.mp3",
+            "options": [
+              "Alkuruoka maistuu hyvältä.",
+              "Jälkiruoka maistuu hyvältä.",
+              "Pääruoka maistuu hyvältä."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Jalkiruoka_on_makeaa.mp3",
+            "options": [
+              "Jälkiruoka on suolaista.",
+              "Jälkiruoka on makeaa.",
+              "Jälkiruoka on kylmää."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Mita_saa_olla.mp3",
+            "options": [
+              "Mitä voit olla?",
+              "Mitä haluat olla?",
+              "Mitä saa olla?"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Ottaisin_kahvin.mp3",
+            "options": [
+              "Ottaisin teen.",
+              "Ottaisin mehun.",
+              "Ottaisin kahvin."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Haluaisin_keiton.mp3",
+            "options": [
+              "Haluaisin leivän.",
+              "Haluaisin ruoan.",
+              "Haluaisin keiton."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Minulle_salaatti.mp3",
+            "options": [
+              "Minulle kahvi.",
+              "Minulle salaatti.",
+              "Minulle keitto."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Maksatteko_yhdessa_vai_erikseen.mp3",
+            "options": [
+              "Maksatteko yhdessä vai erikseen?",
+              "Maksatteko käteisellä vai kortilla?",
+              "Maksatteko nopeasti vai hitaasti?"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Maksatteko_kateisella_vai_kortilla.mp3",
+            "options": [
+              "Maksatteko käteisellä vai kortilla?",
+              "Maksatteko yhdessä vai erikseen?",
+              "Maksatteko pankissa vai postissa?"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Kuuluuko_kahvi_lounaan_hintaan.mp3",
+            "options": [
+              "Kuuluuko kahvi lounaan hintaan?",
+              "Kuuluuko tee lounaan hintaan?",
+              "Kuuluuko mehu lounaan hintaan?"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Haluaisin_varata_poydan_neljalle.mp3",
+            "options": [
+              "Haluaisin varata pöydän kahdelle.",
+              "Haluaisin varata pöydän neljälle.",
+              "Haluaisin varata pöydän kolmelle."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Hyvaa_ruokahalua.mp3",
+            "options": [
+              "Kiitos ruoasta!",
+              "Hyvää iltaa!",
+              "Hyvää ruokahalua!"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-9/listening/ex7/Kiitos_ruoasta.mp3",
+            "options": [
+              "Kiitos ruokalista!",
+              "Kiitos ruoasta!",
+              "Kiitos ruoalle!"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  }
+}

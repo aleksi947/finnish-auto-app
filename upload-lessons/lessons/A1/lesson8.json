@@ -1,0 +1,5876 @@
+{
+  "id": "A1-8",
+  "level": "A1",
+  "title": "Урок 8",
+  "premium": true,
+  "goal": {
+    "ru": "",
+    "fi": ""
+  },
+  "vocabulary": {
+    "common": {
+      "title": "Общие",
+      "words": [
+        {
+          "fi": "onni",
+          "translations": {
+            "ru": "счастье"
+          },
+          "example": {
+            "fi": "Onnea uuteen kotiin!",
+            "ru": "Счастья в новом доме!"
+          },
+          "audio": "/audio/A1-8/vocabulary/common/onni.mp3"
+        },
+        {
+          "fi": "kylään",
+          "translations": {
+            "ru": "в гости"
+          },
+          "example": {
+            "fi": "Ystävät tulevat kylään kello 19.",
+            "ru": "Друзья приходят в гости в 19 часов."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/kylaan.mp3"
+        },
+        {
+          "fi": "leipoa",
+          "translations": {
+            "ru": "печь (выпекать)"
+          },
+          "example": {
+            "fi": "Mikko leipoo sitruunakakkua.",
+            "ru": "Микко печёт лимонный торт."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/leipoa.mp3"
+        },
+        {
+          "fi": "kodikas",
+          "translations": {
+            "ru": "уютный"
+          },
+          "example": {
+            "fi": "Ystävät sanovat, että asunto on kodikas.",
+            "ru": "Друзья говорят, что квартира уютная."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/kodikas.mp3"
+        },
+        {
+          "fi": "saada",
+          "translations": {
+            "ru": "получать"
+          },
+          "example": {
+            "fi": "Laura ja Mikko saavat monta lahjaa.",
+            "ru": "Лаура и Микко получают много подарков."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/saada.mp3"
+        },
+        {
+          "fi": "lahja",
+          "translations": {
+            "ru": "подарок"
+          },
+          "example": {
+            "fi": "He saavat monta lahjaa.",
+            "ru": "Они получают много подарков."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/lahja.mp3"
+        },
+        {
+          "fi": "viinilasi",
+          "translations": {
+            "ru": "бокал вина"
+          },
+          "example": {
+            "fi": "He saavat viinilaseja.",
+            "ru": "Они получают бокалы вина."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/viinilasi.mp3"
+        },
+        {
+          "fi": "kuohuviini",
+          "translations": {
+            "ru": "шампанское"
+          },
+          "example": {
+            "fi": "He saavat kuohuviiniä.",
+            "ru": "Они получают шампанское."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/kuohuviini.mp3"
+        },
+        {
+          "fi": "kukka",
+          "translations": {
+            "ru": "цветок"
+          },
+          "example": {
+            "fi": "He saavat kukkia.",
+            "ru": "Они получают цветы."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/kukka.mp3"
+        },
+        {
+          "fi": "tuoda",
+          "translations": {
+            "ru": "приносить"
+          },
+          "example": {
+            "fi": "Laura ja Veijo tuovat ruisleipää ja suolaa.",
+            "ru": "Лаура и Вейо приносят ржаной хлеб и соль."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/tuoda.mp3"
+        },
+        {
+          "fi": "vitsi",
+          "translations": {
+            "ru": "шутка"
+          },
+          "example": {
+            "fi": "Alexin lahja on vitsi.",
+            "ru": "Подарок Алекса — это шутка."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/vitsi.mp3"
+        },
+        {
+          "fi": "antaa",
+          "translations": {
+            "ru": "давать"
+          },
+          "example": {
+            "fi": "Hän antaa vessaharjan.",
+            "ru": "Он дарит ершик для туалета."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/antaa.mp3"
+        },
+        {
+          "fi": "vessaharja",
+          "translations": {
+            "ru": "ершик для туалета"
+          },
+          "example": {
+            "fi": "Hän antaa vessaharjan.",
+            "ru": "Он дарит ершик для туалета."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/vessaharja.mp3"
+        },
+        {
+          "fi": "kaikki",
+          "translations": {
+            "ru": "все"
+          },
+          "example": {
+            "fi": "Sitten kaikki syövät lihapullia.",
+            "ru": "Потом все едят фрикадельки."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/kaikki.mp3"
+        },
+        {
+          "fi": "tosi",
+          "translations": {
+            "ru": "очень, действительно"
+          },
+          "example": {
+            "fi": "Ruoka on tosi hyvää.",
+            "ru": "Еда действительно вкусная."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/tosi.mp3"
+        },
+        {
+          "fi": "pitää",
+          "translations": {
+            "ru": "нравиться, любить что-то"
+          },
+          "example": {
+            "fi": "Vieraat pitävät myös kakusta.",
+            "ru": "Гостям тоже нравится торт."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/pitaa.mp3"
+        },
+        {
+          "fi": "kaveri",
+          "translations": {
+            "ru": "друг"
+          },
+          "example": {
+            "fi": "Lauran kaveri haluaa reseptin.",
+            "ru": "Подруга Лауры хочет рецепт."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/kaveri.mp3"
+        },
+        {
+          "fi": "resepti",
+          "translations": {
+            "ru": "рецепт"
+          },
+          "example": {
+            "fi": "Mikko haluaa reseptin.",
+            "ru": "Микко хочет рецепт."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/resepti.mp3"
+        },
+        {
+          "fi": "G + jälkeen",
+          "translations": {
+            "ru": "после (чего-то)"
+          },
+          "example": {
+            "fi": "Ruoan jälkeen kaikki juttelevat.",
+            "ru": "После еды все разговаривают."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/g___jalkeen.mp3"
+        },
+        {
+          "fi": "jutella",
+          "translations": {
+            "ru": "разговаривать"
+          },
+          "example": {
+            "fi": "Kaikki juttelevat keittiössä.",
+            "ru": "Все разговаривают на кухне."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/jutella.mp3"
+        },
+        {
+          "fi": "kuunnella",
+          "translations": {
+            "ru": "слушать"
+          },
+          "example": {
+            "fi": "Kaikki kuuntelevat musiikkia.",
+            "ru": "Все слушают музыку."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/kuunnella.mp3"
+        },
+        {
+          "fi": "musiikki",
+          "translations": {
+            "ru": "музыка"
+          },
+          "example": {
+            "fi": "Laura kuuntelee musiikkia.",
+            "ru": "Лаура слушает музыку."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/musiikki.mp3"
+        },
+        {
+          "fi": "opiskelukaveri",
+          "translations": {
+            "ru": "однокурсник"
+          },
+          "example": {
+            "fi": "Mikon opiskelukaverit lähtevät keskustaan.",
+            "ru": "Однокурсники Микко идут в центр."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/opiskelukaveri.mp3"
+        },
+        {
+          "fi": "keskusta",
+          "translations": {
+            "ru": "центр (города)"
+          },
+          "example": {
+            "fi": "He lähtevät keskustaan.",
+            "ru": "Они идут в центр."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/keskusta.mp3"
+        },
+        {
+          "fi": "alkaa",
+          "translations": {
+            "ru": "начинаться"
+          },
+          "example": {
+            "fi": "Mikko alkaa soittaa kitaraa.",
+            "ru": "Микко начинает играть на гитаре."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/alkaa.mp3"
+        },
+        {
+          "fi": "pian",
+          "translations": {
+            "ru": "скоро"
+          },
+          "example": {
+            "fi": "Pian kaikki tanssivat ja laulavat.",
+            "ru": "Скоро все танцуют и поют."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/pian.mp3"
+        },
+        {
+          "fi": "juhlat",
+          "translations": {
+            "ru": "праздник"
+          },
+          "example": {
+            "fi": "Juhlat jatkuvat myöhään yöhön.",
+            "ru": "Праздник продолжается допоздна."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/juhlat.mp3"
+        },
+        {
+          "fi": "jatkua",
+          "translations": {
+            "ru": "продолжаться"
+          },
+          "example": {
+            "fi": "Juhlat jatkuvat myöhään yöhön.",
+            "ru": "Праздник продолжается допоздна."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/jatkua.mp3"
+        },
+        {
+          "fi": "myöhä",
+          "translations": {
+            "ru": "поздно"
+          },
+          "example": {
+            "fi": "Juhlat jatkuvat myöhään yöhön.",
+            "ru": "Праздник продолжается до поздней ночи."
+          },
+          "audio": "/audio/A1-8/vocabulary/common/myoha.mp3"
+        }
+      ]
+    },
+    "road": {
+      "title": "Дорога",
+      "words": [
+        {
+          "fi": "neuvoa",
+          "translations": {
+            "ru": "советовать, показывать дорогу"
+          },
+          "example": {
+            "fi": "Minä voin neuvoa sinulle tien.",
+            "ru": "Я могу показать тебе дорогу."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/neuvoa.mp3"
+        },
+        {
+          "fi": "löytää",
+          "translations": {
+            "ru": "находить"
+          },
+          "example": {
+            "fi": "Hän ei löydä taloa.",
+            "ru": "Он не может найти дом."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/loytaa.mp3"
+        },
+        {
+          "fi": "siksi",
+          "translations": {
+            "ru": "поэтому"
+          },
+          "example": {
+            "fi": "Hän ei löydä taloa ja siksi hän soittaa.",
+            "ru": "Он не может найти дом, поэтому звонит."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/siksi.mp3"
+        },
+        {
+          "fi": "ongelma",
+          "translations": {
+            "ru": "проблема"
+          },
+          "example": {
+            "fi": "Minulla on ongelma.",
+            "ru": "У меня проблема."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/ongelma.mp3"
+        },
+        {
+          "fi": "eksynyt",
+          "translations": {
+            "ru": "заблудился"
+          },
+          "example": {
+            "fi": "Minä olen eksynyt.",
+            "ru": "Я заблудился."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/eksynyt.mp3"
+        },
+        {
+          "fi": "G + toisella puolella",
+          "translations": {
+            "ru": "на другой стороне"
+          },
+          "example": {
+            "fi": "Tien toisella puolella on korkea valkoinen kerrostalo.",
+            "ru": "На другой стороне дороги — высокое белое здание."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/g___toisella_puolella.mp3"
+        },
+        {
+          "fi": "lähellä",
+          "translations": {
+            "ru": "рядом, близко"
+          },
+          "example": {
+            "fi": "Olet ihan lähellä.",
+            "ru": "Ты совсем рядом."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/lahella.mp3"
+        },
+        {
+          "fi": "suunta",
+          "translations": {
+            "ru": "направление"
+          },
+          "example": {
+            "fi": "Mihin suuntaan lähden tästä?",
+            "ru": "В каком направлении мне идти отсюда?"
+          },
+          "audio": "/audio/A1-8/vocabulary/road/suunta.mp3"
+        },
+        {
+          "fi": "suoraan",
+          "translations": {
+            "ru": "прямо"
+          },
+          "example": {
+            "fi": "Kävele sitä katua suoraan.",
+            "ru": "Иди прямо по этой улице."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/suoraan.mp3"
+        },
+        {
+          "fi": "eteenpäin",
+          "translations": {
+            "ru": "вперёд"
+          },
+          "example": {
+            "fi": "Jatka vielä noin 100 metriä eteenpäin.",
+            "ru": "Иди ещё примерно 100 метров вперёд."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/eteenpain.mp3"
+        },
+        {
+          "fi": "risteys",
+          "translations": {
+            "ru": "перекрёсток"
+          },
+          "example": {
+            "fi": "Kun tulet risteykseen, käänny vasemmalle.",
+            "ru": "Когда дойдёшь до перекрёстка, поверни налево."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/risteys.mp3"
+        },
+        {
+          "fi": "kääntyä",
+          "translations": {
+            "ru": "поворачивать"
+          },
+          "example": {
+            "fi": "Käänny vasemmalle Puistotielle.",
+            "ru": "Поверни налево на улицу Puistотie."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/kaantya.mp3"
+        },
+        {
+          "fi": "kadunkulma",
+          "translations": {
+            "ru": "угол улицы"
+          },
+          "example": {
+            "fi": "Kadunkulmassa on ruokakauppa.",
+            "ru": "На углу улицы — продуктовый магазин."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/kadunkulma.mp3"
+        },
+        {
+          "fi": "jatkaa",
+          "translations": {
+            "ru": "продолжать"
+          },
+          "example": {
+            "fi": "Jatka vielä noin 100 metriä eteenpäin.",
+            "ru": "Продолжай идти ещё примерно 100 метров вперёд."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/jatkaa.mp3"
+        },
+        {
+          "fi": "liikennevalot",
+          "translations": {
+            "ru": "светофор"
+          },
+          "example": {
+            "fi": "Käänny liikennevaloista vasemmalle.",
+            "ru": "Поверни налево на светофоре."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/liikennevalot.mp3"
+        },
+        {
+          "fi": "liikenneympyrä",
+          "translations": {
+            "ru": "круговое движение"
+          },
+          "example": {
+            "fi": "Käänny liikenneympyrästä oikealle.",
+            "ru": "Поверни направо с кругового движения."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/liikenneympyra.mp3"
+        },
+        {
+          "fi": "Tiedättekö, missä on Mariankatu?",
+          "translations": {
+            "ru": "Знаете ли вы, где находится улица Марианкату?"
+          },
+          "audio": "/audio/A1-8/vocabulary/road/tiedatteko_missa_on_mariankatu.mp3"
+        },
+        {
+          "fi": "Miten täältä pääsee keskustaan?",
+          "translations": {
+            "ru": "Как отсюда попасть в центр?"
+          },
+          "audio": "/audio/A1-8/vocabulary/road/miten_taalta_paasee_keskustaan.mp3"
+        },
+        {
+          "fi": "Voitteko neuvoa minulle tien asemalle?",
+          "translations": {
+            "ru": "Не могли бы вы показать мне дорогу к станции?"
+          },
+          "audio": "/audio/A1-8/vocabulary/road/voitteko_neuvoa_minulle_tien_asemalle.mp3"
+        },
+        {
+          "fi": "Saanko ajo-ohjeet?",
+          "translations": {
+            "ru": "Могу ли я получить указания по маршруту?"
+          },
+          "audio": "/audio/A1-8/vocabulary/road/saanko_ajo_ohjeet.mp3"
+        },
+        {
+          "fi": "Onko asemalle pitkä matka?",
+          "translations": {
+            "ru": "Далеко ли до станции?"
+          },
+          "audio": "/audio/A1-8/vocabulary/road/onko_asemalle_pitka_matka.mp3"
+        },
+        {
+          "fi": "Onko se kaukana?",
+          "translations": {
+            "ru": "Это далеко?"
+          },
+          "audio": "/audio/A1-8/vocabulary/road/onko_se_kaukana.mp3"
+        },
+        {
+          "fi": "Se on lähellä.",
+          "translations": {
+            "ru": "Это рядом."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/se_on_lahella.mp3"
+        },
+        {
+          "fi": "Se on kaukana.",
+          "translations": {
+            "ru": "Это далеко."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/se_on_kaukana.mp3"
+        },
+        {
+          "fi": "Mene suoraan eteenpäin.",
+          "translations": {
+            "ru": "Иди прямо вперёд."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/mene_suoraan_eteenpain.mp3"
+        },
+        {
+          "fi": "Käänny vasemmalle.",
+          "translations": {
+            "ru": "Поверни налево."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/kaanny_vasemmalle.mp3"
+        },
+        {
+          "fi": "Käänny oikealle.",
+          "translations": {
+            "ru": "Поверни направо."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/kaanny_oikealle.mp3"
+        },
+        {
+          "fi": "Käänny isosta risteyksestä vasemmalle.",
+          "translations": {
+            "ru": "Поверни налево на большом перекрёстке."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/kaanny_isosta_risteyksesta_vasemmalle.mp3"
+        },
+        {
+          "fi": "Käänny kadunkulmasta vasemmalle.",
+          "translations": {
+            "ru": "Поверни налево с угла улицы."
+          },
+          "audio": "/audio/A1-8/vocabulary/road/kaanny_kadunkulmasta_vasemmalle.mp3"
+        }
+      ]
+    },
+    "hedelmat": {
+      "title": "Фрукты",
+      "words": [
+        {
+          "fi": "omena",
+          "translations": {
+            "ru": "яблоко"
+          },
+          "audio": "/audio/A1-8/vocabulary/hedelmat/omena.mp3"
+        },
+        {
+          "fi": "päärynä",
+          "translations": {
+            "ru": "груша"
+          },
+          "audio": "/audio/A1-8/vocabulary/hedelmat/paaryna.mp3"
+        },
+        {
+          "fi": "banaani",
+          "translations": {
+            "ru": "банан"
+          },
+          "audio": "/audio/A1-8/vocabulary/hedelmat/banaani.mp3"
+        },
+        {
+          "fi": "viinirypäle",
+          "translations": {
+            "ru": "виноград"
+          },
+          "audio": "/audio/A1-8/vocabulary/hedelmat/viinirypale.mp3"
+        },
+        {
+          "fi": "luumu",
+          "translations": {
+            "ru": "слива"
+          },
+          "audio": "/audio/A1-8/vocabulary/hedelmat/luumu.mp3"
+        },
+        {
+          "fi": "persikka",
+          "translations": {
+            "ru": "персик"
+          },
+          "audio": "/audio/A1-8/vocabulary/hedelmat/persikka.mp3"
+        },
+        {
+          "fi": "ananas",
+          "translations": {
+            "ru": "ананас"
+          },
+          "audio": "/audio/A1-8/vocabulary/hedelmat/ananas.mp3"
+        },
+        {
+          "fi": "meloni",
+          "translations": {
+            "ru": "дыня"
+          },
+          "audio": "/audio/A1-8/vocabulary/hedelmat/meloni.mp3"
+        },
+        {
+          "fi": "sitruuna",
+          "translations": {
+            "ru": "лимон"
+          },
+          "audio": "/audio/A1-8/vocabulary/hedelmat/sitruuna.mp3"
+        },
+        {
+          "fi": "appelsiini",
+          "translations": {
+            "ru": "апельсин"
+          },
+          "audio": "/audio/A1-8/vocabulary/hedelmat/appelsiini.mp3"
+        }
+      ]
+    },
+    "vihannekset": {
+      "title": "Овощи",
+      "words": [
+        {
+          "fi": "kurkku",
+          "translations": {
+            "ru": "огурец"
+          },
+          "audio": "/audio/A1-8/vocabulary/vihannekset/kurkku.mp3"
+        },
+        {
+          "fi": "paprika",
+          "translations": {
+            "ru": "перец"
+          },
+          "audio": "/audio/A1-8/vocabulary/vihannekset/paprika.mp3"
+        },
+        {
+          "fi": "papu",
+          "translations": {
+            "ru": "фасоль"
+          },
+          "audio": "/audio/A1-8/vocabulary/vihannekset/papu.mp3"
+        },
+        {
+          "fi": "peruna",
+          "translations": {
+            "ru": "картошка"
+          },
+          "audio": "/audio/A1-8/vocabulary/vihannekset/peruna.mp3"
+        },
+        {
+          "fi": "sieni",
+          "translations": {
+            "ru": "гриб"
+          },
+          "audio": "/audio/A1-8/vocabulary/vihannekset/sieni.mp3"
+        },
+        {
+          "fi": "valkosipuli",
+          "translations": {
+            "ru": "чеснок"
+          },
+          "audio": "/audio/A1-8/vocabulary/vihannekset/valkosipuli.mp3"
+        },
+        {
+          "fi": "sipuli",
+          "translations": {
+            "ru": "лук"
+          },
+          "audio": "/audio/A1-8/vocabulary/vihannekset/sipuli.mp3"
+        },
+        {
+          "fi": "porkkana",
+          "translations": {
+            "ru": "морковь"
+          },
+          "audio": "/audio/A1-8/vocabulary/vihannekset/porkkana.mp3"
+        },
+        {
+          "fi": "kukkakaali",
+          "translations": {
+            "ru": "цветная капуста"
+          },
+          "audio": "/audio/A1-8/vocabulary/vihannekset/kukkakaali.mp3"
+        },
+        {
+          "fi": "kaali",
+          "translations": {
+            "ru": "капуста"
+          },
+          "audio": "/audio/A1-8/vocabulary/vihannekset/kaali.mp3"
+        },
+        {
+          "fi": "tomaatti",
+          "translations": {
+            "ru": "помидор"
+          },
+          "audio": "/audio/A1-8/vocabulary/vihannekset/tomaatti.mp3"
+        },
+        {
+          "fi": "herne",
+          "translations": {
+            "ru": "горох"
+          },
+          "audio": "/audio/A1-8/vocabulary/vihannekset/herne.mp3"
+        },
+        {
+          "fi": "salaatti",
+          "translations": {
+            "ru": "салат (листья)"
+          },
+          "audio": "/audio/A1-8/vocabulary/vihannekset/salaatti.mp3"
+        },
+        {
+          "fi": "oliivi",
+          "translations": {
+            "ru": "оливка"
+          },
+          "audio": "/audio/A1-8/vocabulary/vihannekset/oliivi.mp3"
+        }
+      ]
+    },
+    "marjat": {
+      "title": "Ягоды",
+      "words": [
+        {
+          "fi": "mustikka",
+          "translations": {
+            "ru": "черника"
+          },
+          "audio": "/audio/A1-8/vocabulary/marjat/mustikka.mp3"
+        },
+        {
+          "fi": "puolukka",
+          "translations": {
+            "ru": "брусника"
+          },
+          "audio": "/audio/A1-8/vocabulary/marjat/puolukka.mp3"
+        },
+        {
+          "fi": "kirsikka",
+          "translations": {
+            "ru": "вишня"
+          },
+          "audio": "/audio/A1-8/vocabulary/marjat/kirsikka.mp3"
+        },
+        {
+          "fi": "viinimarja",
+          "translations": {
+            "ru": "смородина"
+          },
+          "audio": "/audio/A1-8/vocabulary/marjat/viinimarja.mp3"
+        },
+        {
+          "fi": "mansikka",
+          "translations": {
+            "ru": "клубника"
+          },
+          "audio": "/audio/A1-8/vocabulary/marjat/mansikka.mp3"
+        },
+        {
+          "fi": "lakka",
+          "translations": {
+            "ru": "морошка"
+          },
+          "audio": "/audio/A1-8/vocabulary/marjat/lakka.mp3"
+        },
+        {
+          "fi": "vadelma",
+          "translations": {
+            "ru": "малина"
+          },
+          "audio": "/audio/A1-8/vocabulary/marjat/vadelma.mp3"
+        }
+      ]
+    },
+    "ruoka": {
+      "title": "Еда и блюда",
+      "words": [
+        {
+          "fi": "liha",
+          "translations": {
+            "ru": "мясо"
+          },
+          "audio": "/audio/A1-8/vocabulary/ruoka/liha.mp3"
+        },
+        {
+          "fi": "kana",
+          "translations": {
+            "ru": "курица"
+          },
+          "audio": "/audio/A1-8/vocabulary/ruoka/kana.mp3"
+        },
+        {
+          "fi": "kala",
+          "translations": {
+            "ru": "рыба"
+          },
+          "audio": "/audio/A1-8/vocabulary/ruoka/kala.mp3"
+        },
+        {
+          "fi": "katkarapu",
+          "translations": {
+            "ru": "креветка"
+          },
+          "audio": "/audio/A1-8/vocabulary/ruoka/katkarapu.mp3"
+        },
+        {
+          "fi": "nakki",
+          "translations": {
+            "ru": "сосиска"
+          },
+          "audio": "/audio/A1-8/vocabulary/ruoka/nakki.mp3"
+        },
+        {
+          "fi": "makkara",
+          "translations": {
+            "ru": "колбаса"
+          },
+          "audio": "/audio/A1-8/vocabulary/ruoka/makkara.mp3"
+        },
+        {
+          "fi": "muna",
+          "translations": {
+            "ru": "яйцо"
+          },
+          "audio": "/audio/A1-8/vocabulary/ruoka/muna.mp3"
+        },
+        {
+          "fi": "riisi",
+          "translations": {
+            "ru": "рис"
+          },
+          "audio": "/audio/A1-8/vocabulary/ruoka/riisi.mp3"
+        },
+        {
+          "fi": "keitto",
+          "translations": {
+            "ru": "суп"
+          },
+          "audio": "/audio/A1-8/vocabulary/ruoka/keitto.mp3"
+        },
+        {
+          "fi": "pasta",
+          "translations": {
+            "ru": "паста"
+          },
+          "audio": "/audio/A1-8/vocabulary/ruoka/pasta.mp3"
+        },
+        {
+          "fi": "makaronilaatikko",
+          "translations": {
+            "ru": "запеканка из макарон"
+          },
+          "audio": "/audio/A1-8/vocabulary/ruoka/makaronilaatikko.mp3"
+        },
+        {
+          "fi": "salaatti",
+          "translations": {
+            "ru": "салат"
+          },
+          "audio": "/audio/A1-8/vocabulary/ruoka/salaatti.mp3"
+        },
+        {
+          "fi": "kastike",
+          "translations": {
+            "ru": "соус"
+          },
+          "audio": "/audio/A1-8/vocabulary/ruoka/kastike.mp3"
+        },
+        {
+          "fi": "pihvi",
+          "translations": {
+            "ru": "бифштекс / котлета"
+          },
+          "audio": "/audio/A1-8/vocabulary/ruoka/pihvi.mp3"
+        },
+        {
+          "fi": "pizza",
+          "translations": {
+            "ru": "пицца"
+          },
+          "audio": "/audio/A1-8/vocabulary/ruoka/pizza.mp3"
+        },
+        {
+          "fi": "hampurilainen",
+          "translations": {
+            "ru": "гамбургер"
+          },
+          "audio": "/audio/A1-8/vocabulary/ruoka/hampurilainen.mp3"
+        }
+      ]
+    },
+    "jalkiruoat": {
+      "title": "Десерты",
+      "words": [
+        {
+          "fi": "jäätelö",
+          "translations": {
+            "ru": "мороженое"
+          },
+          "audio": "/audio/A1-8/vocabulary/jalkiruoat/jaatelo.mp3"
+        },
+        {
+          "fi": "kakku",
+          "translations": {
+            "ru": "торт"
+          },
+          "audio": "/audio/A1-8/vocabulary/jalkiruoat/kakku.mp3"
+        },
+        {
+          "fi": "pulla",
+          "translations": {
+            "ru": "булочка"
+          },
+          "audio": "/audio/A1-8/vocabulary/jalkiruoat/pulla.mp3"
+        },
+        {
+          "fi": "piirakka",
+          "translations": {
+            "ru": "пирог"
+          },
+          "audio": "/audio/A1-8/vocabulary/jalkiruoat/piirakka.mp3"
+        },
+        {
+          "fi": "keksi",
+          "translations": {
+            "ru": "печенье"
+          },
+          "audio": "/audio/A1-8/vocabulary/jalkiruoat/keksi.mp3"
+        },
+        {
+          "fi": "suklaa",
+          "translations": {
+            "ru": "шоколад"
+          },
+          "audio": "/audio/A1-8/vocabulary/jalkiruoat/suklaa.mp3"
+        },
+        {
+          "fi": "karkki",
+          "translations": {
+            "ru": "конфета"
+          },
+          "audio": "/audio/A1-8/vocabulary/jalkiruoat/karkki.mp3"
+        }
+      ]
+    },
+    "mausteet": {
+      "title": "Приправы",
+      "words": [
+        {
+          "fi": "suola",
+          "translations": {
+            "ru": "соль"
+          },
+          "audio": "/audio/A1-8/vocabulary/mausteet/suola.mp3"
+        },
+        {
+          "fi": "pippuri",
+          "translations": {
+            "ru": "перец"
+          },
+          "audio": "/audio/A1-8/vocabulary/mausteet/pippuri.mp3"
+        },
+        {
+          "fi": "sokeri",
+          "translations": {
+            "ru": "сахар"
+          },
+          "audio": "/audio/A1-8/vocabulary/mausteet/sokeri.mp3"
+        },
+        {
+          "fi": "öljy",
+          "translations": {
+            "ru": "масло"
+          },
+          "audio": "/audio/A1-8/vocabulary/mausteet/oljy.mp3"
+        },
+        {
+          "fi": "etikka",
+          "translations": {
+            "ru": "уксус"
+          },
+          "audio": "/audio/A1-8/vocabulary/mausteet/etikka.mp3"
+        },
+        {
+          "fi": "ketsuppi",
+          "translations": {
+            "ru": "кетчуп"
+          },
+          "audio": "/audio/A1-8/vocabulary/mausteet/ketsuppi.mp3"
+        },
+        {
+          "fi": "sinappi",
+          "translations": {
+            "ru": "горчица"
+          },
+          "audio": "/audio/A1-8/vocabulary/mausteet/sinappi.mp3"
+        }
+      ]
+    },
+    "astiat": {
+      "title": "Посуда",
+      "words": [
+        {
+          "fi": "lautanen",
+          "translations": {
+            "ru": "тарелка"
+          },
+          "audio": "/audio/A1-8/vocabulary/astiat/lautanen.mp3"
+        },
+        {
+          "fi": "kattila",
+          "translations": {
+            "ru": "кастрюля"
+          },
+          "audio": "/audio/A1-8/vocabulary/astiat/kattila.mp3"
+        },
+        {
+          "fi": "paistinpannu",
+          "translations": {
+            "ru": "сковорода"
+          },
+          "audio": "/audio/A1-8/vocabulary/astiat/paistinpannu.mp3"
+        },
+        {
+          "fi": "lasi",
+          "translations": {
+            "ru": "стакан"
+          },
+          "audio": "/audio/A1-8/vocabulary/astiat/lasi.mp3"
+        },
+        {
+          "fi": "pullo",
+          "translations": {
+            "ru": "бутылка"
+          },
+          "audio": "/audio/A1-8/vocabulary/astiat/pullo.mp3"
+        },
+        {
+          "fi": "kuppi",
+          "translations": {
+            "ru": "чашка"
+          },
+          "audio": "/audio/A1-8/vocabulary/astiat/kuppi.mp3"
+        },
+        {
+          "fi": "muki",
+          "translations": {
+            "ru": "кружка"
+          },
+          "audio": "/audio/A1-8/vocabulary/astiat/muki.mp3"
+        },
+        {
+          "fi": "kulho",
+          "translations": {
+            "ru": "миска"
+          },
+          "audio": "/audio/A1-8/vocabulary/astiat/kulho.mp3"
+        },
+        {
+          "fi": "haarukka",
+          "translations": {
+            "ru": "вилка"
+          },
+          "audio": "/audio/A1-8/vocabulary/astiat/haarukka.mp3"
+        },
+        {
+          "fi": "veitsi",
+          "translations": {
+            "ru": "нож"
+          },
+          "audio": "/audio/A1-8/vocabulary/astiat/veitsi.mp3"
+        },
+        {
+          "fi": "lusikka",
+          "translations": {
+            "ru": "ложка"
+          },
+          "audio": "/audio/A1-8/vocabulary/astiat/lusikka.mp3"
+        },
+        {
+          "fi": "lautasliina",
+          "translations": {
+            "ru": "салфетка"
+          },
+          "audio": "/audio/A1-8/vocabulary/astiat/lautasliina.mp3"
+        },
+        {
+          "fi": "tarjotin",
+          "translations": {
+            "ru": "поднос"
+          },
+          "audio": "/audio/A1-8/vocabulary/astiat/tarjotin.mp3"
+        }
+      ]
+    },
+    "juomat": {
+      "title": "Напитки",
+      "words": [
+        {
+          "fi": "vesi",
+          "translations": {
+            "ru": "вода"
+          },
+          "audio": "/audio/A1-8/vocabulary/juomat/vesi.mp3"
+        },
+        {
+          "fi": "maito",
+          "translations": {
+            "ru": "молоко"
+          },
+          "audio": "/audio/A1-8/vocabulary/juomat/maito.mp3"
+        },
+        {
+          "fi": "piimä",
+          "translations": {
+            "ru": "кефир"
+          },
+          "audio": "/audio/A1-8/vocabulary/juomat/piima.mp3"
+        },
+        {
+          "fi": "mehu",
+          "translations": {
+            "ru": "сок"
+          },
+          "audio": "/audio/A1-8/vocabulary/juomat/mehu.mp3"
+        },
+        {
+          "fi": "viini",
+          "translations": {
+            "ru": "вино"
+          },
+          "audio": "/audio/A1-8/vocabulary/juomat/viini.mp3"
+        },
+        {
+          "fi": "kahvi",
+          "translations": {
+            "ru": "кофе"
+          },
+          "audio": "/audio/A1-8/vocabulary/juomat/kahvi.mp3"
+        },
+        {
+          "fi": "tee",
+          "translations": {
+            "ru": "чай"
+          },
+          "audio": "/audio/A1-8/vocabulary/juomat/tee.mp3"
+        },
+        {
+          "fi": "kaakao",
+          "translations": {
+            "ru": "какао"
+          },
+          "audio": "/audio/A1-8/vocabulary/juomat/kaakao.mp3"
+        },
+        {
+          "fi": "limu",
+          "translations": {
+            "ru": "лимонад / газировка"
+          },
+          "audio": "/audio/A1-8/vocabulary/juomat/limu.mp3"
+        },
+        {
+          "fi": "siideri",
+          "translations": {
+            "ru": "сидр"
+          },
+          "audio": "/audio/A1-8/vocabulary/juomat/siideri.mp3"
+        },
+        {
+          "fi": "olut",
+          "translations": {
+            "ru": "пиво"
+          },
+          "audio": "/audio/A1-8/vocabulary/juomat/olut.mp3"
+        }
+      ]
+    },
+    "aamiainen": {
+      "title": "Завтрак",
+      "words": [
+        {
+          "fi": "leipä",
+          "translations": {
+            "ru": "хлеб"
+          },
+          "audio": "/audio/A1-8/vocabulary/aamiainen/leipa.mp3"
+        },
+        {
+          "fi": "sämpylä",
+          "translations": {
+            "ru": "булочка"
+          },
+          "audio": "/audio/A1-8/vocabulary/aamiainen/sampyla.mp3"
+        },
+        {
+          "fi": "makkara",
+          "translations": {
+            "ru": "колбаса"
+          },
+          "audio": "/audio/A1-8/vocabulary/aamiainen/makkara.mp3"
+        },
+        {
+          "fi": "kinkku",
+          "translations": {
+            "ru": "ветчина"
+          },
+          "audio": "/audio/A1-8/vocabulary/aamiainen/kinkku.mp3"
+        },
+        {
+          "fi": "juusto",
+          "translations": {
+            "ru": "сыр"
+          },
+          "audio": "/audio/A1-8/vocabulary/aamiainen/juusto.mp3"
+        },
+        {
+          "fi": "voi",
+          "translations": {
+            "ru": "масло"
+          },
+          "audio": "/audio/A1-8/vocabulary/aamiainen/voi.mp3"
+        },
+        {
+          "fi": "hillo",
+          "translations": {
+            "ru": "варенье"
+          },
+          "audio": "/audio/A1-8/vocabulary/aamiainen/hillo.mp3"
+        },
+        {
+          "fi": "hunaja",
+          "translations": {
+            "ru": "мёд"
+          },
+          "audio": "/audio/A1-8/vocabulary/aamiainen/hunaja.mp3"
+        },
+        {
+          "fi": "muna",
+          "translations": {
+            "ru": "яйцо"
+          },
+          "audio": "/audio/A1-8/vocabulary/aamiainen/muna.mp3"
+        },
+        {
+          "fi": "jogurtti",
+          "translations": {
+            "ru": "йогурт"
+          },
+          "audio": "/audio/A1-8/vocabulary/aamiainen/jogurtti.mp3"
+        },
+        {
+          "fi": "puuro",
+          "translations": {
+            "ru": "каша"
+          },
+          "audio": "/audio/A1-8/vocabulary/aamiainen/puuro.mp3"
+        },
+        {
+          "fi": "murot",
+          "translations": {
+            "ru": "хлопья"
+          },
+          "audio": "/audio/A1-8/vocabulary/aamiainen/murot.mp3"
+        },
+        {
+          "fi": "mehu",
+          "translations": {
+            "ru": "сок"
+          },
+          "audio": "/audio/A1-8/vocabulary/aamiainen/mehu.mp3"
+        },
+        {
+          "fi": "kahvi",
+          "translations": {
+            "ru": "кофе"
+          },
+          "audio": "/audio/A1-8/vocabulary/aamiainen/kahvi.mp3"
+        },
+        {
+          "fi": "tee",
+          "translations": {
+            "ru": "чай"
+          },
+          "audio": "/audio/A1-8/vocabulary/aamiainen/tee.mp3"
+        }
+      ]
+    },
+    "adjektiivit": {
+      "title": "Прилагательные (еда)",
+      "words": [
+        {
+          "fi": "hyvä",
+          "translations": {
+            "ru": "хороший"
+          },
+          "example": {
+            "fi": "Ruoka on hyvä."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/hyva.mp3"
+        },
+        {
+          "fi": "herkullinen",
+          "translations": {
+            "ru": "вкусный"
+          },
+          "example": {
+            "fi": "Kakku on herkullinen."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/herkullinen.mp3"
+        },
+        {
+          "fi": "huono",
+          "translations": {
+            "ru": "плохой"
+          },
+          "example": {
+            "fi": "Tämä keitto on huono."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/huono.mp3"
+        },
+        {
+          "fi": "paha",
+          "translations": {
+            "ru": "невкусный / плохой"
+          },
+          "example": {
+            "fi": "Jäätelö ei ole paha."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/paha.mp3"
+        },
+        {
+          "fi": "kylmä",
+          "translations": {
+            "ru": "холодный"
+          },
+          "example": {
+            "fi": "Vesi on kylmää."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/kylma.mp3"
+        },
+        {
+          "fi": "kuuma",
+          "translations": {
+            "ru": "горячий"
+          },
+          "example": {
+            "fi": "Kahvi on kuuma."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/kuuma.mp3"
+        },
+        {
+          "fi": "lämmin",
+          "translations": {
+            "ru": "тёплый"
+          },
+          "example": {
+            "fi": "Ruoka on lämmin."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/lammin.mp3"
+        },
+        {
+          "fi": "makea",
+          "translations": {
+            "ru": "сладкий"
+          },
+          "example": {
+            "fi": "Kakku on makea."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/makea.mp3"
+        },
+        {
+          "fi": "hapan",
+          "translations": {
+            "ru": "кислый"
+          },
+          "example": {
+            "fi": "Jogurtti on hapan."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/hapan.mp3"
+        },
+        {
+          "fi": "suolainen",
+          "translations": {
+            "ru": "солёный"
+          },
+          "example": {
+            "fi": "Juusto on suolainen."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/suolainen.mp3"
+        },
+        {
+          "fi": "suolaton",
+          "translations": {
+            "ru": "несолёный"
+          },
+          "example": {
+            "fi": "Ruoka on suolaton."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/suolaton.mp3"
+        },
+        {
+          "fi": "rasvainen",
+          "translations": {
+            "ru": "жирный"
+          },
+          "example": {
+            "fi": "Makkara on rasvainen."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/rasvainen.mp3"
+        },
+        {
+          "fi": "rasvaton",
+          "translations": {
+            "ru": "обезжиренный"
+          },
+          "example": {
+            "fi": "Maito on rasvatonta."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/rasvaton.mp3"
+        },
+        {
+          "fi": "tulinen",
+          "translations": {
+            "ru": "острый"
+          },
+          "example": {
+            "fi": "Kastike on tulinen."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/tulinen.mp3"
+        },
+        {
+          "fi": "mieto",
+          "translations": {
+            "ru": "мягкий (неострый)"
+          },
+          "example": {
+            "fi": "Keitto on mieto."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/mieto.mp3"
+        },
+        {
+          "fi": "terveellinen",
+          "translations": {
+            "ru": "полезный"
+          },
+          "example": {
+            "fi": "Salaatti on terveellistä."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/terveellinen.mp3"
+        },
+        {
+          "fi": "epäterveellinen",
+          "translations": {
+            "ru": "вредный (для здоровья)"
+          },
+          "example": {
+            "fi": "Suklaa on epäterveellistä."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/epaterveellinen.mp3"
+        },
+        {
+          "fi": "kypsä",
+          "translations": {
+            "ru": "готовый (пропечённый, зрелый)"
+          },
+          "example": {
+            "fi": "Banaani on kypsä."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/kypsa.mp3"
+        },
+        {
+          "fi": "raaka",
+          "translations": {
+            "ru": "сырой"
+          },
+          "example": {
+            "fi": "Liha on raakaa."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/raaka.mp3"
+        },
+        {
+          "fi": "tuore",
+          "translations": {
+            "ru": "свежий"
+          },
+          "example": {
+            "fi": "Kala on tuore."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/tuore.mp3"
+        },
+        {
+          "fi": "vanha",
+          "translations": {
+            "ru": "старый"
+          },
+          "example": {
+            "fi": "Maito on vanhaa."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/vanha.mp3"
+        },
+        {
+          "fi": "kallis",
+          "translations": {
+            "ru": "дорогой"
+          },
+          "example": {
+            "fi": "Juusto on kallista."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/kallis.mp3"
+        },
+        {
+          "fi": "halpa",
+          "translations": {
+            "ru": "дешёвый"
+          },
+          "example": {
+            "fi": "Leipä on halpaa."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/halpa.mp3"
+        },
+        {
+          "fi": "edullinen",
+          "translations": {
+            "ru": "выгодный"
+          },
+          "example": {
+            "fi": "Lounas on edullinen."
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/edullinen.mp3"
+        },
+        {
+          "fi": "valmis",
+          "translations": {
+            "ru": "готовый"
+          },
+          "example": {
+            "fi": "Ruoka on valmis!"
+          },
+          "audio": "/audio/A1-8/vocabulary/adjektiivit/valmis.mp3"
+        }
+      ]
+    },
+    "juhlat": {
+      "title": "Праздники",
+      "words": [
+        {
+          "fi": "syntymäpäivä",
+          "translations": {
+            "ru": "день рождения"
+          },
+          "example": {
+            "fi": "Onnea syntymäpäiväsankarille!"
+          },
+          "audio": "/audio/A1-8/vocabulary/juhlat/syntymapaiva.mp3"
+        },
+        {
+          "fi": "nimipäivä",
+          "translations": {
+            "ru": "день имени"
+          },
+          "example": {
+            "fi": "Hyvää nimipäivää!"
+          },
+          "audio": "/audio/A1-8/vocabulary/juhlat/nimipaiva.mp3"
+        },
+        {
+          "fi": "ristiäiset",
+          "translations": {
+            "ru": "крестины"
+          },
+          "example": {
+            "fi": "Onnea!"
+          },
+          "audio": "/audio/A1-8/vocabulary/juhlat/ristiaiset.mp3"
+        },
+        {
+          "fi": "häät",
+          "translations": {
+            "ru": "свадьба"
+          },
+          "example": {
+            "fi": "Paljon onnea hääparille!"
+          },
+          "audio": "/audio/A1-8/vocabulary/juhlat/haat.mp3"
+        },
+        {
+          "fi": "hautajaiset",
+          "translations": {
+            "ru": "похороны"
+          },
+          "example": {
+            "fi": "Lämmin osanottoni."
+          },
+          "audio": "/audio/A1-8/vocabulary/juhlat/hautajaiset.mp3"
+        },
+        {
+          "fi": "tupaantuliaiset",
+          "translations": {
+            "ru": "новоселье"
+          },
+          "example": {
+            "fi": "Onnea uuteen kotiin!"
+          },
+          "audio": "/audio/A1-8/vocabulary/juhlat/tupaantuliaiset.mp3"
+        },
+        {
+          "fi": "valmistujaiset",
+          "translations": {
+            "ru": "выпускной"
+          },
+          "example": {
+            "fi": "Onnea!"
+          },
+          "audio": "/audio/A1-8/vocabulary/juhlat/valmistujaiset.mp3"
+        },
+        {
+          "fi": "läksiäiset",
+          "translations": {
+            "ru": "прощальная вечеринка"
+          },
+          "example": {
+            "fi": "Kaikkea hyvää!"
+          },
+          "audio": "/audio/A1-8/vocabulary/juhlat/laksiaiset.mp3"
+        }
+      ]
+    }
+  },
+  "grammar": {
+    "sections": [
+      {
+        "id": "Ainesana",
+        "title": {
+          "ru": "Слово-вещество",
+          "fi": "Ainesana"
+        },
+        "explanationStructured": {
+          "title": {
+            "ru": "🧩 Ainesanat ja partitiivi (Слова, обозначающие вещество или массу, и партитив)"
+          },
+          "intro": {
+            "ru": "**Ainesana** — это слово, которое обозначает вещество, материал или что-то, что невозможно посчитать по отдельности."
+          },
+          "important": {
+            "title": {
+              "ru": "🔑 Примеры ainesanat"
+            },
+            "body": {
+              "ru": "**ruoka ja juoma** (еда и напитки): salaatti, riisi, tee, vesi\n\n**materiaalit** (материалы): ilma, metalli, hiekka, puu\n\n**abstraktit sanat** (абстрактные слова): rakkaus, ystävyys, kauneus, energia"
+            }
+          },
+          "summary": {
+            "title": {
+              "ru": "📌 Правила использования"
+            },
+            "body": {
+              "ru": "**1. Ainesana в конце предложения → партитив**\n\nAinesanat в роли дополнения (в конце фразы) обычно ставятся в партитив.\n\n• **Tämä on kahvia.** — Это кофе.\n• **Juon kahvia.** — Я пью кофе.\n• **Lautasella on spagettia.** — На тарелке спагетти.\n• **Me syömme spagettia.** — Мы едим спагетти.\n\n*📘 Почему?* Потому что речь идёт о части вещества, а не о чётком количестве.\n\n**2. Ainesana в начале предложения → без партитива**\n\nЕсли ainesana — это подлежащее, партитив не нужен.\n\n• **Kahvi on kupissa.** — Кофе в чашке.\n• **Spagetti on italialaista.** — Спагетти из Италии.\n\n**3. Ainesana + on + прилагательное → прилагательное в партитиве**\n\n• **Kahvi on kuumaa.** — Кофе горячий.\n• **Spagetti on hyvää.** — Спагетти вкусные.\n• **Rakkaus on kaunista.** — Любовь прекрасна.\n\n**⚠️ HUOM! (Важно!)**\n\nНе все слова — ainesanat. Если слово можно посчитать (например, **kirja** — книга), то партитив не используется:\n\n• **Kirja on hyvä.** ✅\n• **Kirjaa on hyvää.** ❌"
+            }
+          }
+        },
+        "exercises": [
+          {
+            "id": "a1-ainesanat-partitiivi-ex1",
+            "type": "multiple-choice-group",
+            "title": "🧠 Ainesanat ja partitiivi — Valitse oikea muoto",
+            "instruction": "Выберите правильную форму слова — используется ли партитив или нет.",
+            "questions": [
+              {
+                "question": "1. Tämä on ___ (kahvi)",
+                "options": [
+                  "kahvia.",
+                  "kahvi."
+                ],
+                "answer": 0
+              },
+              {
+                "question": "2. Juon ___ (vesi) joka päivä.",
+                "options": [
+                  "vesi",
+                  "vettä"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "3. Lautasella on ___ (spagetti)",
+                "options": [
+                  "spagetti",
+                  "spagettia"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "4. Jääkaapissa on ___ (maito) ja ___ (mehu)",
+                "options": [
+                  "maito ja mehu",
+                  "maitoa ja mehua"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "5. Pöydällä on ___ (sokeri)",
+                "options": [
+                  "sokeria",
+                  "sokeri"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "6. ___ (kahvi) on kupissa.",
+                "options": [
+                  "Kahvia",
+                  "Kahvi"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "7. ___ (spagetti) on italialaista ruokaa.",
+                "options": [
+                  "Spagetti",
+                  "Spagettia"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "8. ___ (maito) on jääkaapissa.",
+                "options": [
+                  "Maitoa",
+                  "Maito"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "9. Kahvi on ___ (kuuma).",
+                "options": [
+                  "kuuma",
+                  "kuumaa"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "10. Spagetti on ___ (hyvä).",
+                "options": [
+                  "hyvä",
+                  "hyvää"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "11. Kirja on ___ (hyvä).",
+                "options": [
+                  "hyvää",
+                  "hyvä"
+                ],
+                "answer": 1
+              }
+            ]
+          },
+          {
+            "id": "a1-ainesanat-partitiivi-kirjoita",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "📝 Напишите правильную форму слова — используется ли партитив или нет."
+            },
+            "items": [
+              {
+                "sentence": "Tämä on ___ (kahvi).",
+                "answer": "kahvia"
+              },
+              {
+                "sentence": "Juon ___ (vesi) joka päivä.",
+                "answer": "vettä"
+              },
+              {
+                "sentence": "Lautasella on ___ (spagetti).",
+                "answer": "spagettia"
+              },
+              {
+                "sentence": "Jääkaapissa on ___ (maito)",
+                "answer": "maitoa"
+              },
+              {
+                "sentence": "Pöydällä on ___ (sokeri).",
+                "answer": "sokeria"
+              },
+              {
+                "sentence": "___ (kahvi) on kupissa.",
+                "answer": "Kahvi"
+              },
+              {
+                "sentence": "Spagetti on italialaista ___.(ruoka)",
+                "answer": "ruokaa"
+              },
+              {
+                "sentence": "___ (maito) on jääkaapissa.",
+                "answer": "Maito"
+              },
+              {
+                "sentence": "Kahvi on ___ (kuuma).",
+                "answer": "kuumaa"
+              },
+              {
+                "sentence": "Spagetti on ___ (hyvä).",
+                "answer": "hyvää"
+              },
+              {
+                "sentence": "Kirja on ___ (hyvä).",
+                "answer": "hyvä"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Partitiivin monikko",
+        "title": {
+          "ru": "Множественный партитив",
+          "fi": "Partitiivin monikko"
+        },
+        "explanationStructured": {
+          "title": {
+            "ru": "📝 Партитив множественного числа"
+          },
+          "intro": {
+            "ru": "В финском языке **партитив** показывает **часть**, **неопределённое количество** или несколько предметов."
+          },
+          "important": {
+            "title": {
+              "ru": "👉 Окончания партитива множественного"
+            },
+            "body": {
+              "ru": "• **-ja / -jä**\n• **-ia / -iä**\n• **-ita / -itä**"
+            }
+          },
+          "summary": {
+            "title": {
+              "ru": "📌 Примеры и правила использования"
+            },
+            "body": {
+              "ru": "**Примеры:**\n\n• kirjoja (книг)\n• omenoita (яблок)\n• koteja (домов)\n\n**👉 Когда нужен партитив во множественном числе?**\n\n• Когда говорим «много чего-то»: **Minulla on paljon kirjoja.** (У меня много книг.)\n• Когда говорим о части: **Syön omenoita.** (Я ем яблоки.)\n• После некоторых глаголов: **Haluan kukkia.** (Я хочу цветов.)\n\nТаким образом, партитив во множественном числе помогает говорить о предметах, которых несколько, и их количество не уточняется."
+            }
+          }
+        },
+        "exercises": [
+          {
+            "id": "partitiivi-ja-ja",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "📝 Партитив множественного числа (-ja / -jä)"
+              },
+              "intro": {
+                "ru": "Эти окончания — самые частые."
+              },
+              "summary": {
+                "title": {
+                  "ru": "👉 Когда используется?"
+                },
+                "body": {
+                  "ru": "**1. Если слово оканчивается на o, ö, u, y:**\n\n• juusto → juustoja (сыры)\n• tyttö → tyttöjä (девочки)\n• kurkku → kurkkuja (огурцов)\n• hylly → hyllyja (полок)\n\n**2. У слов на -i (когда i → e):**\n\n• tomaatti → tomaatteja (помидоры)\n• keksi → keksejä (печенье)\n\n**3. У слов на -a:**\n\n• sana → sanoja (слова)\n• kala → kaloja (рыбы)"
+                }
+              },
+              "important": {
+                "title": {
+                  "ru": "⚡ Важно"
+                },
+                "body": {
+                  "ru": "• Работает **гармония гласных**: -ja или -jä выбирается в зависимости от гласных в слове.\n• В этих формах **нет чередования согласных (KPT)**."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "✍️ Допишите правильное окончание (-ja / -jä), (-eja / -ejä)"
+            },
+            "items": [
+              {
+                "sentence": "(juusto) paljon juust___",
+                "answer": "oja",
+                "translation": "много сыров"
+              },
+              {
+                "sentence": "(tyttö) vähän tyttö___",
+                "answer": "jä",
+                "translation": "немного девушек"
+              },
+              {
+                "sentence": "(kurkku) paljon kurkku___",
+                "answer": "ja",
+                "translation": "много огурцов"
+              },
+              {
+                "sentence": "(hylly) vähän hylly___",
+                "answer": "jä",
+                "translation": "немного полок"
+              },
+              {
+                "sentence": "(tomaatti) paljon tomaatt___",
+                "answer": "eja",
+                "translation": "много помидоров"
+              },
+              {
+                "sentence": "(keksi) vähän keks___",
+                "answer": "ejä",
+                "translation": "немного печенья"
+              },
+              {
+                "sentence": "(sana) paljon san___",
+                "answer": "oja",
+                "translation": "много слов"
+              },
+              {
+                "sentence": "(kala) vähän kal___",
+                "answer": "oja",
+                "translation": "немного рыб"
+              }
+            ]
+          },
+          {
+            "id": "partitiivi-ia-ia",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Партитив множественного числа (-ia / -iä)"
+              },
+              "intro": {
+                "ru": "**Зачем нужен?**\n\nЭта форма помогает говорить о **нескольких предметах** без точного количества. Часто используется после слов **paljon** (много) и **vähän** (немного)."
+              },
+              "summary": {
+                "title": {
+                  "ru": "Когда используется?"
+                },
+                "body": {
+                  "ru": "**• Если слово оканчивается на a, ä или i:**\n\n• **asema → asemia** (станции)\n• **kieli → kieliä** (языки)\n• **pieni → pieniä** (маленькие)\n\n**• У -nen слов** (существительные и прилагательные на -nen):\n\nОкончание **-nen** отбрасывается, получается основа, к которой добавляется **-ia / -iä**.\n\n• **suomalainen → suomalais + ia → suomalaisia** (финны)\n• **herkullinen → herkullis + ia → herkullisia** (вкусные)"
+                }
+              },
+              "important": {
+                "title": {
+                  "ru": "Важно помнить"
+                },
+                "body": {
+                  "ru": "• Работает **гармония гласных**: выбираем -ia или -iä в зависимости от гласных в слове.\n• В этих формах **нет чередования согласных (KPT)**."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "✍️ Допишите правильное окончание (-ia / -iä)."
+            },
+            "items": [
+              {
+                "sentence": "(asema) paljon asem___",
+                "answer": "ia",
+                "translation": "много станций"
+              },
+              {
+                "sentence": "(ystävä) vähän ystäv___",
+                "answer": "iä",
+                "translation": "немного друзей"
+              },
+              {
+                "sentence": "(lapsi) paljon laps___",
+                "answer": "ia",
+                "translation": "много детей"
+              },
+              {
+                "sentence": "(kieli) vähän kiel___",
+                "answer": "iä",
+                "translation": "немного языков"
+              },
+              {
+                "sentence": "(pieni) paljon pien___",
+                "answer": "iä",
+                "translation": "много маленьких (чего-то)"
+              },
+              {
+                "sentence": "(suomalainen) vähän suomalai___",
+                "answer": "ia",
+                "translation": "немного финнов"
+              },
+              {
+                "sentence": "(punainen) paljon punaines___",
+                "answer": "ia",
+                "translation": "много красных"
+              }
+            ]
+          },
+          {
+            "id": "partitiivi-ita-ita",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "📝 Партитив множественного числа (-ita / -itä)"
+              },
+              "intro": {
+                "ru": "Партитив множественного числа образуется с помощью **-ita / -itä**, если слово оканчивается на:"
+              },
+              "summary": {
+                "title": {
+                  "ru": "Правила образования"
+                },
+                "body": {
+                  "ru": "**• -e:**\n\n• herne → herneitä (горошины)\n\n**• На две гласные подряд:**\n\n• jää → jäitä (льдинки)\n• suklaa → suklaita (шоколадки)\n\n**• -ka/kä, -la/lä, -na/nä, -ra/rä:**\n\n• mansikka → mansikoita (клубники)\n• sämpylä → sämpylöitä (булочки)\n• peruna → perunoita (картофелины)\n• makkara → makkaroita (колбасы)"
+                }
+              },
+              "important": {
+                "title": {
+                  "ru": "⚡ Важно помнить"
+                },
+                "body": {
+                  "ru": "• Работает **гармония гласных**: -ita или -itä выбирается в зависимости от гласных в слове.\n• В этих формах **нет чередования согласных (KPT)**."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "✍️ Допишите правильное окончание (-ita / -itä)."
+            },
+            "items": [
+              {
+                "sentence": "(herne) paljon herne___",
+                "answer": "itä",
+                "translation": "много горошин"
+              },
+              {
+                "sentence": "(tuore) vähän tuore___",
+                "answer": "ita",
+                "translation": "немного свежих (продуктов)"
+              },
+              {
+                "sentence": "(jää) paljon jä___",
+                "answer": "itä",
+                "translation": "много льдинок"
+              },
+              {
+                "sentence": "(suklaa) vähän sukla___",
+                "answer": "ita",
+                "translation": "немного шоколада (кусочков)"
+              },
+              {
+                "sentence": "(mansikka) paljon mansik___",
+                "answer": "oita",
+                "translation": "много клубники"
+              },
+              {
+                "sentence": "(sämpylä) vähän sämpyl___",
+                "answer": "öitä",
+                "translation": "немного булочек"
+              },
+              {
+                "sentence": "(peruna) paljon perun___",
+                "answer": "oita",
+                "translation": "много картофеля"
+              },
+              {
+                "sentence": "(makkara) vähän makkar___",
+                "answer": "oita",
+                "translation": "немного колбасок"
+              }
+            ]
+          },
+          {
+            "id": "ex-partitiivi-monikko-valitse",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "🍽 Выберите правильную форму партитива во множественном числе (Partitiivi monikko)."
+            },
+            "questions": [
+              {
+                "question": "Syötkö mieluummin ___ vai nakkeja?",
+                "options": [
+                  "lihapulla",
+                  "lihapullia",
+                  "lihapullat"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Tänään Riitta tekee itse ___ ja paistaa keksejä.",
+                "options": [
+                  "kakut",
+                  "kakkuja",
+                  "kakulla"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Haluatko juomaasi ___?",
+                "options": [
+                  "jääkuutioita",
+                  "jääkuutioissa",
+                  "jääkuutioiden"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Tarjoamme vieraalle kuumia ___: kahvia ja teetä.",
+                "options": [
+                  "juomaa",
+                  "juomia",
+                  "juomat"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Juhlissa ostetaan paljon ___ ja erilaisia hedelmiä.",
+                "options": [
+                  "juustot",
+                  "juustoja",
+                  "juustolla"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Kesätorilta löytyy tuoreita ___ ja makeita marjoja.",
+                "options": [
+                  "herneitä",
+                  "herneet",
+                  "herneissä"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Lapset syövät mielellään ___ ja isoja hampurilaisia.",
+                "options": [
+                  "ranskalainen peruna",
+                  "ranskalaisia perunoita",
+                  "ranskalaisissa perunoissa"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Kulhossa on monta appelsiinia, muutamia päärynöitä ja paljon ___.",
+                "options": [
+                  "viinirypäleet",
+                  "viinirypäleitä",
+                  "viinirypäleillä"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Me tilaamme ___ ja kastikkeita.",
+                "options": [
+                  "perunoita",
+                  "perunat",
+                  "perunoilla"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Ravintolassa on monia erilaisia ___.",
+                "options": [
+                  "kastikkeet",
+                  "kastikkeita",
+                  "kastikkeilla"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Nuo ___ ovat todella tulisia.",
+                "options": [
+                  "kastikkeita",
+                  "kastikkeet",
+                  "kastikkeessa"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Pöydässä on monta erilaista ___.",
+                "options": [
+                  "salaattia",
+                  "salaatteja",
+                  "salaatteja"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Hän ei syö ___, koska ei pidä niistä.",
+                "options": [
+                  "salaatit",
+                  "salaateista",
+                  "salaatteja"
+                ],
+                "answer": 2
+              },
+              {
+                "question": "Me juomme paljon ___ illallisella.",
+                "options": [
+                  "vesiä",
+                  "vedet",
+                  "vesissä"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Pöydällä on kaksi lasia ___.",
+                "options": [
+                  "punaviiniä",
+                  "punaviinejä",
+                  "punaviinit"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Tarjoilija tuo meille ___ ja jälkiruokia.",
+                "options": [
+                  "ranskalaisia",
+                  "ranskalaiset",
+                  "ranskalaisiin"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Me haluamme maistaa erilaisia ___.",
+                "options": [
+                  "juustoilla",
+                  "juustoja",
+                  "juustot"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Hän ottaa lautaselle ___ ja marjoja.",
+                "options": [
+                  "hedelmät",
+                  "hedelmiä",
+                  "hedelmillä"
+                ],
+                "answer": 1
+              }
+            ]
+          },
+          {
+            "id": "ex-partitiivi-monikko-kirjoita",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "✍️ Напишите слова во множественном числе в партитиве (Partitiivi monikko)."
+            },
+            "items": [
+              {
+                "sentence": "Syötkö mieluummin ___ vai nakkeja? (lihapulla)",
+                "answer": "lihapullia"
+              },
+              {
+                "sentence": "Tänään Riitta tekee itse ___ ja paistaa keksejä. (kakku)",
+                "answer": "kakkuja"
+              },
+              {
+                "sentence": "Haluatko juomaasi ___? (jääkuutio)",
+                "answer": "jääkuutioita"
+              },
+              {
+                "sentence": "Tarjoamme vieraalle kuumia ___: kahvia ja teetä. (juoma)",
+                "answer": "juomia"
+              },
+              {
+                "sentence": "Juhlissa ostetaan paljon ___ ja erilaisia hedelmiä. (juusto)",
+                "answer": "juustoja"
+              },
+              {
+                "sentence": "Kesätorilta löytyy tuoreita ___ ja makeita marjoja. (herne)",
+                "answer": "herneitä"
+              },
+              {
+                "sentence": "Lapset syövät mielellään ___ ja isoja hampurilaisia. (ranskalainen peruna)",
+                "answer": "ranskalaisia perunoita"
+              },
+              {
+                "sentence": "Kulhossa on monta appelsiinia, muutamia päärynöitä ja paljon ___. (viinirypäle)",
+                "answer": "viinirypäleitä"
+              },
+              {
+                "sentence": "Me tilaamme ___ ja kastikkeita. (peruna)",
+                "answer": "perunoita"
+              },
+              {
+                "sentence": "Ravintolassa on monia erilaisia ___. (kastike)",
+                "answer": "kastikkeita"
+              },
+              {
+                "sentence": "Nuo ___ ovat todella tulisia. (kastike)",
+                "answer": "kastikkeita"
+              },
+              {
+                "sentence": "Pöydässä on monta erilaista ___. (salaatti)",
+                "answer": "salaattia"
+              },
+              {
+                "sentence": "Hän ei syö ___, koska ei pidä niistä. (salaatti)",
+                "answer": "salaatteja"
+              },
+              {
+                "sentence": "Me juomme paljon ___ illallisella. (vesi)",
+                "answer": "vesiä"
+              },
+              {
+                "sentence": "Pöydällä on kaksi lasia ___. (punaviini)",
+                "answer": "punaviinejä"
+              },
+              {
+                "sentence": "Tarjoilija tuo meille ___ ja jälkiruokia. (ranskalainen)",
+                "answer": "ranskalaisia"
+              },
+              {
+                "sentence": "Me haluamme maistaa erilaisia ___. (juusto)",
+                "answer": "juustoja"
+              },
+              {
+                "sentence": "Hän ottaa lautaselle ___ ja marjoja. (hedelmä)",
+                "answer": "hedelmiä"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Postpositiot",
+        "title": {
+          "ru": "Постпозиция",
+          "fi": "Postpositiot"
+        },
+        "explanationStructured": {
+          "title": {
+            "ru": "Missä? (Где?)"
+          },
+          "intro": {
+            "ru": "**Missä?** — это вопрос **Где?**. Он используется, чтобы узнать, где находится предмет или человек. В финском языке часто используется **падеж генетив (G)** вместе с послелогами (postpositiot), чтобы точно указать местоположение.\n\n**Формула:** **G + postpositio**"
+          },
+          "conjugationTables": [
+            {
+              "title": {
+                "ru": "Послелоги (Postpositiot)"
+              },
+              "columns": [
+                "Postpositio",
+                "Финский пример",
+                "Перевод"
+              ],
+              "rows": [
+                {
+                  "form": "edessä (перед)",
+                  "example": "Auto on talon **edessä**.",
+                  "translation": {
+                    "ru": "Машина стоит **перед** домом."
+                  }
+                },
+                {
+                  "form": "takana (за)",
+                  "example": "Puu on talon **takana**.",
+                  "translation": {
+                    "ru": "Дерево **за** домом."
+                  }
+                },
+                {
+                  "form": "vieressä (рядом)",
+                  "example": "Kauppa on koulun **vieressä**.",
+                  "translation": {
+                    "ru": "Магазин **рядом со** школой."
+                  }
+                },
+                {
+                  "form": "oikealla puolella (справа от)",
+                  "example": "Pankki on torin **oikealla puolella**.",
+                  "translation": {
+                    "ru": "Банк **справа от** площади."
+                  }
+                },
+                {
+                  "form": "vasemmalla puolella (слева от)",
+                  "example": "Kioski on torin **vasemmalla puolella**.",
+                  "translation": {
+                    "ru": "Киоск **слева от** площади."
+                  }
+                },
+                {
+                  "form": "välissä (между)",
+                  "example": "Penkki on talon ja puun **välissä**.",
+                  "translation": {
+                    "ru": "Скамейка **между** домом и деревом."
+                  }
+                },
+                {
+                  "form": "keskellä (в центре)",
+                  "example": "Patsas on torin **keskellä**.",
+                  "translation": {
+                    "ru": "Памятник **в центре** площади."
+                  }
+                },
+                {
+                  "form": "ympärillä (вокруг)",
+                  "example": "Lapset juoksevat talon **ympärillä**.",
+                  "translation": {
+                    "ru": "Дети бегают **вокруг** дома."
+                  }
+                },
+                {
+                  "form": "ääressä (у, за чем-либо)",
+                  "example": "Opiskelijat istuvat pöydän **ääressä**.",
+                  "translation": {
+                    "ru": "Студенты сидят **за столом**."
+                  }
+                },
+                {
+                  "form": "päällä (на)",
+                  "example": "Kukka on pöydän **päällä**.",
+                  "translation": {
+                    "ru": "Цветок **на** столе."
+                  }
+                },
+                {
+                  "form": "alla (под)",
+                  "example": "Koira nukkuu pöydän **alla**.",
+                  "translation": {
+                    "ru": "Собака спит **под** столом."
+                  }
+                }
+              ]
+            }
+          ],
+          "important": {
+            "title": {
+              "ru": "📌 Подсказка"
+            },
+            "body": {
+              "ru": "Все послелоги требуют **генетива** перед собой. Например: *ikkuna → ikkunan edessä*, *pöytä → pöydän alla*."
+            }
+          }
+        },
+        "exercises": [
+          {
+            "id": "ex-missa-postpositiot",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "🧭 Выберите правильную форму, отвечающую на вопрос <b>missä?</b> (где?)."
+            },
+            "questions": [
+              {
+                "question": "Hän istuu ikkunan ___ ja soittaa kitaraa. — (перед окном)",
+                "options": [
+                  "takana",
+                  "edessä",
+                  "vieressä"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Oven ___ on pari vierasta tupakalla. — (за дверью)",
+                "options": [
+                  "päällä",
+                  "alla",
+                  "takana"
+                ],
+                "answer": 2
+              },
+              {
+                "question": "Hänen ___ seisovat he. — (вокруг него)",
+                "options": [
+                  "ympärillä",
+                  "välissä",
+                  "ääressä"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "He katsovat valokuvia pöydän ___. — (за столом)",
+                "options": [
+                  "ympärillä",
+                  "ääressä",
+                  "alla"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Pöydän ___ on kolme kynttilää. — (в центре стола)",
+                "options": [
+                  "keskellä",
+                  "päällä",
+                  "alla"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Lamppu odottaa laatikossa kaapin ___. — (на шкафу)",
+                "options": [
+                  "päällä",
+                  "alla",
+                  "vieressä"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Hän istuu kahden tytön ___. — (между девушками)",
+                "options": [
+                  "oikealla puolella",
+                  "välissä",
+                  "ympärillä"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Hänen ___ istuu hän. — (справа от него)",
+                "options": [
+                  "päällä",
+                  "oikealla puolella",
+                  "takana"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Hänen ___ on toinen tyttö. — (слева от него)",
+                "options": [
+                  "vasemmalla puolella",
+                  "ympärillä",
+                  "vieressä"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "He syövät ja juttelevat. Pöydällä sohvan ___ on popcornia. — (рядом с диваном)",
+                "options": [
+                  "takana",
+                  "vieressä",
+                  "alla"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Hän haluaa lisää juotavaa – mutta missä hänen lasi on? — (под столом)",
+                "options": [
+                  "keskellä",
+                  "alla",
+                  "edessä"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Hän istuu ikkunan ___. — (перед окном)",
+                "options": [
+                  "alla",
+                  "edessä",
+                  "vieressä"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Vieraat polttavat tupakkaa oven ___. — (за дверью)",
+                "options": [
+                  "takana",
+                  "ääressä",
+                  "välissä"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Pieni pöytä on sohvan ___. — (рядом с диваном)",
+                "options": [
+                  "päällä",
+                  "vieressä",
+                  "keskellä"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Hän istuu hänen ___ — (справа)",
+                "options": [
+                  "oikealla puolella",
+                  "vasemmalla puolella",
+                  "edessä"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Toinen henkilö on hänen ___ — (слева)",
+                "options": [
+                  "päällä",
+                  "vasemmalla puolella",
+                  "ympärillä"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Hän istuu heidän ___. — (между ними)",
+                "options": [
+                  "ääressä",
+                  "välissä",
+                  "ympärillä"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Kynttilät ovat pöydän ___. — (в центре)",
+                "options": [
+                  "keskellä",
+                  "vieressä",
+                  "alla"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "He seisovat hänen ___. — (вокруг него)",
+                "options": [
+                  "ympärillä",
+                  "takana",
+                  "alla"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "He istuvat pöydän ___. — (за столом)",
+                "options": [
+                  "ympärillä",
+                  "ääressä",
+                  "edessä"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Lamppu on kaapin ___. — (на шкафу)",
+                "options": [
+                  "päällä",
+                  "vieressä",
+                  "alla"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Hänen lasi on pöydän ___. — (под столом)",
+                "options": [
+                  "alla",
+                  "keskellä",
+                  "takana"
+                ],
+                "answer": 0
+              }
+            ]
+          },
+          {
+            "id": "ex-missa-postpositiot-kirjoita",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "✍️ Напишите подходящую форму слова, отвечающую на вопрос <b>missä?</b> (где?)."
+            },
+            "items": [
+              {
+                "sentence": "Hän istuu ikkunan ___ ja soittaa kitaraa. (перед окном)",
+                "answer": "edessä"
+              },
+              {
+                "sentence": "Oven ___ on pari vierasta tupakalla. (за дверью)",
+                "answer": "takana"
+              },
+              {
+                "sentence": "Hänen ___ seisovat he. (вокруг него)",
+                "answer": "ympärillä"
+              },
+              {
+                "sentence": "He katsovat valokuvia pöydän ___. (за столом)",
+                "answer": "ääressä"
+              },
+              {
+                "sentence": "Pöydän ___ on kolme kynttilää. (в центре стола)",
+                "answer": "keskellä"
+              },
+              {
+                "sentence": "Lamppu odottaa laatikossa kaapin ___. (на шкафу)",
+                "answer": "päällä"
+              },
+              {
+                "sentence": "Hän istuu kahden tytön ___. (между девушками)",
+                "answer": "välissä"
+              },
+              {
+                "sentence": "Hänen ___ istuu hän. (справа от него)",
+                "answer": "oikealla puolella"
+              },
+              {
+                "sentence": "Hänen ___ on toinen tyttö. (слева от него)",
+                "answer": "vasemmalla puolella"
+              },
+              {
+                "sentence": "He syövät ja juttelevat. Pöydällä sohvan ___ on popcornia. (рядом с диваном)",
+                "answer": "vieressä"
+              },
+              {
+                "sentence": "Hän haluaa lisää juotavaa – mutta missä hänen lasi on? Pöydän ___. (под столом)",
+                "answer": "alla"
+              },
+              {
+                "sentence": "Hän istuu ikkunan ___. (перед окном)",
+                "answer": "edessä"
+              },
+              {
+                "sentence": "Vieraat polttavat tupakkaa oven ___. (за дверью)",
+                "answer": "takana"
+              },
+              {
+                "sentence": "Pieni pöytä on sohvan ___. (рядом с диваном)",
+                "answer": "vieressä"
+              },
+              {
+                "sentence": "Hän istuu hänen ___ . (справа)",
+                "answer": "oikealla puolella"
+              },
+              {
+                "sentence": "Toinen henkilö on hänen ___ . (слева)",
+                "answer": "vasemmalla puolella"
+              },
+              {
+                "sentence": "Hän istuu heidän ___. (между ними)",
+                "answer": "välissä"
+              },
+              {
+                "sentence": "Kynttilät ovat pöydän ___. (в центре)",
+                "answer": "keskellä"
+              },
+              {
+                "sentence": "He seisovat hänen ___. (вокруг него)",
+                "answer": "ympärillä"
+              },
+              {
+                "sentence": "He istuvat pöydän ___. (за столом)",
+                "answer": "ääressä"
+              },
+              {
+                "sentence": "Lamppu on kaapin ___. (на шкафу)",
+                "answer": "päällä"
+              },
+              {
+                "sentence": "Hänen lasi on pöydän ___. (под столом)",
+                "answer": "alla"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Mielipide",
+        "title": {
+          "ru": "Мнение",
+          "fi": "Mielipide"
+        },
+        "explanationStructured": {
+          "title": {
+            "ru": "Окончания sta/stä"
+          },
+          "intro": {
+            "ru": "**Окончания sta/stä** используются в финском языке после определённых глаголов и выражений, чтобы показать **источник мнения** или **то, что кому-то нравится**."
+          },
+          "conjugationTables": [
+            {
+              "title": {
+                "ru": "💬 Mielipide + sta/stä (Мнение)"
+              },
+              "columns": [
+                "Финский",
+                "Перевод"
+              ],
+              "rows": [
+                {
+                  "example": "Minusta kahvi on hyvää.",
+                  "translation": {
+                    "ru": "По-моему, кофе вкусный."
+                  }
+                },
+                {
+                  "example": "Onko kielioppi sinusta vaikeaa?",
+                  "translation": {
+                    "ru": "По-твоему, грамматика сложная?"
+                  }
+                },
+                {
+                  "example": "Opettajasta tämä kirja on tärkeä.",
+                  "translation": {
+                    "ru": "По мнению учителя, эта книга важная."
+                  }
+                }
+              ]
+            },
+            {
+              "title": {
+                "ru": "❤️ Pitää / tykätä + sta/stä (Нравится)"
+              },
+              "columns": [
+                "Финский",
+                "Перевод"
+              ],
+              "rows": [
+                {
+                  "example": "Pidän musiikista.",
+                  "translation": {
+                    "ru": "Мне нравится музыка."
+                  }
+                },
+                {
+                  "example": "Maria pitää suklaasta.",
+                  "translation": {
+                    "ru": "Марии нравится шоколад."
+                  }
+                },
+                {
+                  "example": "He tykkäävät elokuvista.",
+                  "translation": {
+                    "ru": "Им нравятся фильмы."
+                  }
+                },
+                {
+                  "example": "Tykkään sinusta.",
+                  "translation": {
+                    "ru": "Ты мне нравишься."
+                  }
+                }
+              ]
+            }
+          ],
+          "important": {
+            "title": {
+              "ru": "📌 Подсказка"
+            },
+            "body": {
+              "ru": "**sta/stä** — это окончание, которое указывает, *от кого или от чего* идёт мнение или симпатия. Выбор между **-sta** и **-stä** зависит от правил гармонии гласных."
+            }
+          }
+        },
+        "exercises": [
+          {
+            "id": "ex-mielipide-pitaa-stasta",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "🗯 Выберите правильную форму с <code>sta/stä</code>, чтобы выразить мнение или симпатию."
+            },
+            "questions": [
+              {
+                "question": "___ suklaajäätelö on hyvää.",
+                "options": [
+                  "Minusta",
+                  "Minulle",
+                  "Minun"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Hän ___ suklaajäätelöstä.",
+                "options": [
+                  "pitää",
+                  "pitäästä",
+                  "piti"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Minä pidän ___.",
+                "options": [
+                  "sinulle",
+                  "sinusta",
+                  "sinästä"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "___ Helsinki on kaunis kesällä.",
+                "options": [
+                  "Hänen",
+                  "Hänestä",
+                  "Hänen"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Sinä ___ kesästä.",
+                "options": [
+                  "pidät",
+                  "pidän",
+                  "pitävät"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "___ partitiivi on vaikea?",
+                "options": [
+                  "Sinulle",
+                  "Sinusta",
+                  "Sinua"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "He pitävät ___.",
+                "options": [
+                  "talvi",
+                  "talvesta",
+                  "talvelle"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Meidän mielestä tämä kurssi on ___.",
+                "options": [
+                  "hyvästä",
+                  "hyvä",
+                  "hyvää"
+                ],
+                "answer": 2
+              }
+            ]
+          },
+          {
+            "id": "ex-mielipide-pitaa-stasta-kirjoita",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "✍️ Напишите правильную форму слова с <code>sta/stä</code>, чтобы выразить мнение или симпатию."
+            },
+            "items": [
+              {
+                "sentence": "___ suklaajäätelö on hyvää. (minä)",
+                "answer": "Minusta"
+              },
+              {
+                "sentence": "Minä ___ suklaajäätelöstä. (pitää)",
+                "answer": "pidän"
+              },
+              {
+                "sentence": "Minä pidän ___. (sinä)",
+                "answer": "sinusta"
+              },
+              {
+                "sentence": "___ Helsinki on kaunis kesällä. (Minä)",
+                "answer": "Minusta"
+              },
+              {
+                "sentence": "Hän ___ kesästä. (pitää)",
+                "answer": "pitää"
+              },
+              {
+                "sentence": "Onko partitiivi __ vaikea? (sinä)",
+                "answer": "sinusta"
+              },
+              {
+                "sentence": "He pitävät ___. (talvi)",
+                "answer": "talvesta"
+              },
+              {
+                "sentence": "Meidän mielestä tämä kurssi on ___. (hyvä)",
+                "answer": "hyvää"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Päivämäärä",
+        "title": {
+          "ru": "Дата",
+          "fi": "Päivämäärä"
+        },
+        "explanationStructured": {
+          "title": {
+            "ru": "Порядковые числительные"
+          },
+          "intro": {
+            "ru": "**Порядковые числительные** в финском языке отвечают на вопрос **monesko?** — *который по счёту?*\n\nОни используются, когда говорят о дате или позиции:"
+          },
+          "conjugationTables": [
+            {
+              "title": {
+                "ru": "Порядковые числительные 1-31"
+              },
+              "columns": [
+                "Число + Финский",
+                "Перевод",
+                "Число + Финский",
+                "Перевод"
+              ],
+              "rows": [
+                {
+                  "form": "1. ensimmäinen",
+                  "translation": {
+                    "ru": "первый"
+                  },
+                  "example": "16. kuudestoista",
+                  "translation2": {
+                    "ru": "шестнадцатый"
+                  }
+                },
+                {
+                  "form": "2. toinen",
+                  "translation": {
+                    "ru": "второй"
+                  },
+                  "example": "17. seitsemästoista",
+                  "translation2": {
+                    "ru": "семнадцатый"
+                  }
+                },
+                {
+                  "form": "3. kolmas",
+                  "translation": {
+                    "ru": "третий"
+                  },
+                  "example": "18. kahdeksastoista",
+                  "translation2": {
+                    "ru": "восемнадцатый"
+                  }
+                },
+                {
+                  "form": "4. neljäs",
+                  "translation": {
+                    "ru": "четвёртый"
+                  },
+                  "example": "19. yhdeksästoista",
+                  "translation2": {
+                    "ru": "девятнадцатый"
+                  }
+                },
+                {
+                  "form": "5. viides",
+                  "translation": {
+                    "ru": "пятый"
+                  },
+                  "example": "20. kahdeskymmenes",
+                  "translation2": {
+                    "ru": "двадцатый"
+                  }
+                },
+                {
+                  "form": "6. kuudes",
+                  "translation": {
+                    "ru": "шестой"
+                  },
+                  "example": "21. kahdeskymmenesensimmäinen",
+                  "translation2": {
+                    "ru": "двадцать первый"
+                  }
+                },
+                {
+                  "form": "7. seitsemäs",
+                  "translation": {
+                    "ru": "седьмой"
+                  },
+                  "example": "22. kahdeskymmenestoinen",
+                  "translation2": {
+                    "ru": "двадцать второй"
+                  }
+                },
+                {
+                  "form": "8. kahdeksas",
+                  "translation": {
+                    "ru": "восьмой"
+                  },
+                  "example": "23. kahdeskymmeneskolmas",
+                  "translation2": {
+                    "ru": "двадцать третий"
+                  }
+                },
+                {
+                  "form": "9. yhdeksäs",
+                  "translation": {
+                    "ru": "девятый"
+                  },
+                  "example": "24. kahdeskymmenesneljäs",
+                  "translation2": {
+                    "ru": "двадцать четвёртый"
+                  }
+                },
+                {
+                  "form": "10. kymmenes",
+                  "translation": {
+                    "ru": "десятый"
+                  },
+                  "example": "25. kahdeskymmenesviides",
+                  "translation2": {
+                    "ru": "двадцать пятый"
+                  }
+                },
+                {
+                  "form": "11. yhdestoista",
+                  "translation": {
+                    "ru": "одиннадцатый"
+                  },
+                  "example": "26. kahdeskymmeneskuudes",
+                  "translation2": {
+                    "ru": "двадцать шестой"
+                  }
+                },
+                {
+                  "form": "12. kahdestoista",
+                  "translation": {
+                    "ru": "двенадцатый"
+                  },
+                  "example": "27. kahdeskymmenesseitsemäs",
+                  "translation2": {
+                    "ru": "двадцать седьмой"
+                  }
+                },
+                {
+                  "form": "13. kolmastoista",
+                  "translation": {
+                    "ru": "тринадцатый"
+                  },
+                  "example": "28. kahdeskymmeneskahdeksas",
+                  "translation2": {
+                    "ru": "двадцать восьмой"
+                  }
+                },
+                {
+                  "form": "14. neljästoista",
+                  "translation": {
+                    "ru": "четырнадцатый"
+                  },
+                  "example": "29. kahdeskymmenesyhdeksäs",
+                  "translation2": {
+                    "ru": "двадцать девятый"
+                  }
+                },
+                {
+                  "form": "15. viidestoista",
+                  "translation": {
+                    "ru": "пятнадцатый"
+                  },
+                  "example": "30. kolmaskymmenes",
+                  "translation2": {
+                    "ru": "тридцатый"
+                  }
+                },
+                {
+                  "form": "",
+                  "translation": {
+                    "ru": ""
+                  },
+                  "example": "31. kolmaskymmenesensimmäinen",
+                  "translation2": {
+                    "ru": "тридцать первый"
+                  }
+                }
+              ]
+            }
+          ],
+          "summary": {
+            "title": {
+              "ru": "📅 Как говорить дату"
+            },
+            "body": {
+              "ru": "В дате порядковое число ставится перед месяцем в **партитиве**:\n\n• **31.5.2009** — Tänään on **kolmaskymmenesensimmäinen toukokuuta 2009**. (31. toukokuuta 2009) *(Сегодня 31 мая 2009.)*\n• **17.8.1967** — Minun syntymäpäivä on **seitsemästoista elokuuta 1967**. (17. elokuuta 1967) *(Мой день рождения 17 августа 1967.)*\n• **12.11** — Tänään on **kahdestoista marraskuuta**. (12. marraskuuta) *(Сегодня 12 ноября.)*\n• **24.12** — Joulu on **kahdeskymmenesneljäs joulukuuta**. (24. joulukuuta) *(Рождество — 24 декабря.)*\n• **2.8** — Tänään on **toinen elokuuta**. (2. elokuuta) *(Сегодня второе августа.)*\n\n**❓ Вопросы и ответы**\n\n• **Monesko päivä tänään on?** — Tänään on **kolmaskymmenesensimmäinen elokuuta 2025**. (31. elokuuta 2025)\n• **Minä päivänä joulu on?** — Joulu on **kahdeskymmenesneljäs joulukuuta**. (24. joulukuuta)"
+            }
+          },
+          "important": {
+            "title": {
+              "ru": "📌 Подсказка"
+            },
+            "body": {
+              "ru": "В дате всегда используется **порядковое числительное** + *партитив месяца*: esimerkiksi **toinen elokuuta** (2 августа), **ensimmäinen tammikuuta** (1 января)."
+            }
+          }
+        },
+        "exercises": [
+          {
+            "id": "full-date-choices",
+            "type": "multiple-choice-group",
+            "questions": [
+              {
+                "question": "Mikä on 3.8 sanallisesti?",
+                "options": [
+                  "kolmas maaliskuuta",
+                  "kolmas elokuuta",
+                  "kolmastoista syyskuuta"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Mikä on 12.4 sanallisesti?",
+                "options": [
+                  "kahdestoista huhtikuuta",
+                  "neljästoista joulukuuta",
+                  "kahdestoista toukokuuta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Mikä on 10.3 sanallisesti?",
+                "options": [
+                  "kymmenes toukokuuta",
+                  "kahdeksastoista lokakuuta",
+                  "kymmenes maaliskuuta"
+                ],
+                "answer": 2
+              },
+              {
+                "question": "Mikä on 19.12 sanallisesti?",
+                "options": [
+                  "yhdeksästoista joulukuuta",
+                  "yhdeksäs tammikuuta",
+                  "kahdeksastoista helmikuuta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Mikä on 1.10 sanallisesti?",
+                "options": [
+                  "ensimmäinen lokakuuta",
+                  "kahdeskymmenesensimmäinen lokakuuta",
+                  "yhdeksäs maaliskuuta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Mikä on 13.4 sanallisesti?",
+                "options": [
+                  "kolmastoista huhtikuuta",
+                  "seitsemäs lokakuuta",
+                  "ensimmäinen marraskuuta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Mikä on 18.11 sanallisesti?",
+                "options": [
+                  "neljästoista elokuuta",
+                  "ensimmäinen heinäkuuta",
+                  "kahdeksastoista marraskuuta"
+                ],
+                "answer": 2
+              },
+              {
+                "question": "Mikä on 20.3 sanallisesti?",
+                "options": [
+                  "kuudestoista elokuuta",
+                  "kahdeskymmenes maaliskuuta",
+                  "seitsemästoista heinäkuuta"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Mikä on 21.5 sanallisesti?",
+                "options": [
+                  "kahdeskymmenesensimmäinen toukokuuta",
+                  "kahdestoista heinäkuuta",
+                  "kolmastoista elokuuta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Mikä on 21.8 sanallisesti?",
+                "options": [
+                  "ensimmäinen syyskuuta",
+                  "kahdeskymmenesensimmäinen elokuuta",
+                  "ensimmäinen marraskuuta"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Mikä on 12.2 sanallisesti?",
+                "options": [
+                  "kuudestoista heinäkuuta",
+                  "kahdestoista helmikuuta",
+                  "yhdestoista huhtikuuta"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Mikä on 6.7 sanallisesti?",
+                "options": [
+                  "kuudes maaliskuuta",
+                  "kymmenes heinäkuuta",
+                  "kuudes heinäkuuta"
+                ],
+                "answer": 2
+              },
+              {
+                "question": "Mikä on 20.9 sanallisesti?",
+                "options": [
+                  "kahdeskymmenes syyskuuta",
+                  "yhdeksästoista elokuuta",
+                  "neljäs lokakuuta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Mikä on 19.10 sanallisesti?",
+                "options": [
+                  "yhdeksästoista lokakuuta",
+                  "kolmastoista joulukuuta",
+                  "neljäs maaliskuuta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Mikä on 17.5 sanallisesti?",
+                "options": [
+                  "kuudes elokuuta",
+                  "seitsemästoista toukokuuta",
+                  "viides helmikuuta"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Mikä on 15.9 sanallisesti?",
+                "options": [
+                  "viidestoista syyskuuta",
+                  "seitsemäs lokakuuta",
+                  "viides tammikuuta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Mikä on 17.7 sanallisesti?",
+                "options": [
+                  "yhdestoista joulukuuta",
+                  "seitsemästoista heinäkuuta",
+                  "neljäs kesäkuuta"
+                ],
+                "answer": 1
+              },
+              {
+                "question": "Mikä on 1.12 sanallisesti?",
+                "options": [
+                  "ensimmäinen joulukuuta",
+                  "viidestoista heinäkuuta",
+                  "kuudestoista heinäkuuta"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Mikä on 13.2 sanallisesti?",
+                "options": [
+                  "seitsemäs heinäkuuta",
+                  "kolmastoista heinäkuuta",
+                  "kolmastoista helmikuuta"
+                ],
+                "answer": 2
+              },
+              {
+                "question": "Mikä on 1.5 sanallisesti?",
+                "options": [
+                  "kahdestoista helmikuuta",
+                  "viidestoista syyskuuta",
+                  "ensimmäinen toukokuuta"
+                ],
+                "answer": 2
+              }
+            ]
+          },
+          {
+            "id": "ordinal-dates-fill",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "✍️ Напишите порядковое числительное по-фински. Например: 3.8 → kolmas.\nОбратите внимание: в дате всегда используется порядковое числительное (ensimmäinen, toinen, kolmas и т.д.)."
+            },
+            "items": [
+              {
+                "sentence": "___ elokuuta (3)",
+                "answer": "kolmas"
+              },
+              {
+                "sentence": "___ huhtikuuta (12)",
+                "answer": "kahdestoista"
+              },
+              {
+                "sentence": "___ maaliskuuta (10)",
+                "answer": "kymmenes"
+              },
+              {
+                "sentence": "___ joulukuuta (19)",
+                "answer": "yhdeksästoista"
+              },
+              {
+                "sentence": "___ lokakuuta (1)",
+                "answer": "ensimmäinen"
+              },
+              {
+                "sentence": "___ huhtikuuta (13)",
+                "answer": "kolmastoista"
+              },
+              {
+                "sentence": "___ marraskuuta (18)",
+                "answer": "kahdeksastoista"
+              },
+              {
+                "sentence": "___ maaliskuuta (20)",
+                "answer": "kahdeskymmenes"
+              },
+              {
+                "sentence": "___ toukokuuta (21)",
+                "answer": "kahdeskymmenesensimmäinen"
+              },
+              {
+                "sentence": "___ elokuuta (21)",
+                "answer": "kahdeskymmenesensimmäinen"
+              },
+              {
+                "sentence": "___ helmikuuta (12)",
+                "answer": "kahdestoista"
+              },
+              {
+                "sentence": "___ heinäkuuta (6)",
+                "answer": "kuudes"
+              },
+              {
+                "sentence": "___ syyskuuta (20)",
+                "answer": "kahdeskymmenes"
+              },
+              {
+                "sentence": "___ lokakuuta (19)",
+                "answer": "yhdeksästoista"
+              },
+              {
+                "sentence": "___ toukokuuta (17)",
+                "answer": "seitsemästoista"
+              },
+              {
+                "sentence": "___ syyskuuta (15)",
+                "answer": "viidestoista"
+              },
+              {
+                "sentence": "___ heinäkuuta (17)",
+                "answer": "seitsemästoista"
+              },
+              {
+                "sentence": "___ joulukuuta (1)",
+                "answer": "ensimmäinen"
+              },
+              {
+                "sentence": "___ helmikuuta (13)",
+                "answer": "kolmastoista"
+              },
+              {
+                "sentence": "___ toukokuuta (1)",
+                "answer": "ensimmäinen"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "reading": [
+    {
+      "id": "syntymapaiva-resepti",
+      "title": "Syntymäpäivä — Resepti",
+      "explanation": {
+        "description": "📖 Прочитайте рассказ о приготовлении особенного ужина на день рождения.",
+        "text": "<p><strong>TARINA — Päivä keittiössä</strong></p><p>Tänään on 7. heinäkuuta.<br/>Se on minun mieheni syntymäpäivä. Haluan valmistaa jotain erityistä ja herkullista.<br/>Etsin reseptin internetistä:<br/>\"Paistettua lohta perunoilla, vihersalaatilla ja suklaakakkua jälkiruoaksi.\"</p><p><strong>Reseptin ainekset:</strong></p><ul><li>lohi</li><li>peruna</li><li>salaatti</li><li>kurkku</li><li>tomaatti</li><li>sitruuna</li><li>voi</li><li>suola ja pippuri</li><li>suklaa</li><li>sokeri</li><li>kananmuna</li><li>maito</li></ul><p><strong>Kaupassa</strong></p><p>Menen ruokakauppaan ja sanon myyjälle:<br/>– Hei! Missä on kalaa?<br/>– Kalaosasto on tuolla, oikealla, leipäosaston edessä.<br/>– Kiitos. Entä missä on perunat ja salaatit?<br/>– Ne ovat vihannesosastolla, vasemmalla, hedelmäosaston vieressä.<br/>– Hyvä, ja suklaa?<br/>– Suklaa löytyy hyllyltä numero viisi, maitohyllyn vieressä.</p><p>Ostan kaikki tuotteet ja menen kotiin.</p><p><strong>Kotona — Ruoanlaitto</strong></p><p>Keitä perunat kattilassa noin 20 minuuttia.</p><p>Pese ja pilko kurkku ja tomaatti. Laita ne kulhoon ja sekoita. Lisää salaatti.</p><p>Paista lohi paistinpannulla voilla noin 5 minuuttia molemmin puolin.</p><p>Purista sitruunamehua lohen päälle. Mausta suolalla ja pippurilla.</p><p>Suklaakakkua varten: Sulata suklaata ja voita kattilassa, lisää sokeria, kananmunaa ja maitoa. Sekoita hyvin ja paista uunissa 30 minuuttia.</p><p><strong>Valmista!</strong></p><p>Katson pöydän: laitan lautaset, veitset, haarukat, lusikat ja lasit.<br/>Ruoka on tuoretta ja herkullista. Mieheni sanoo:<br/>– Onpa hyvää! Kiitos!<br/>Ja minä vastaan:<br/>– Hyvää syntymäpäivää!</p>"
+      },
+      "tasks": [
+        {
+          "id": "syntymapaiva-questions",
+          "type": "multiple-choice",
+          "questions": [
+            {
+              "question": "Miksi nainen valmistaa erityistä ruokaa?",
+              "options": [
+                "Se on hänen syntymäpäivänsä",
+                "Se on miehen syntymäpäivä",
+                "Se on juhlapäivä"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mistä nainen etsii reseptin?",
+              "options": [
+                "Kirjasta",
+                "Internetistä",
+                "Ystävältä"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Mitä pääruokaa nainen tekee?",
+              "options": [
+                "Paistettua kanaa",
+                "Paistettua lohta",
+                "Paistettua lihaa"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Missä on kalaosasto kaupassa?",
+              "options": [
+                "Vasemmalla",
+                "Oikealla, leipäosaston edessä",
+                "Keskellä"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Missä ovat perunat ja salaatit?",
+              "options": [
+                "Kalaosastolla",
+                "Vihannesosastolla",
+                "Maitohyllyllä"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Millä nainen paistaa lohen?",
+              "options": [
+                "Paistinpannulla",
+                "Uunissa",
+                "Kattilassa"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Mikä on jälkiruoka?",
+              "options": [
+                "Suklaakakku",
+                "Jäätelö",
+                "Hedelmäsalaatti"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Mitä nainen vastaa miehelle lopuksi?",
+              "options": [
+                "Kiitos!",
+                "Hyvää syntymäpäivää!",
+                "Ole hyvä!"
+              ],
+              "answer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "illallinen-ystavien-kanssa",
+      "title": "Illallinen ystävien kanssa",
+      "explanation": {
+        "description": "📖 Прочитайте рассказ об ужине с друзьями и обратите внимание на использование послелогов.",
+        "text": "<p><strong>Illallinen ystävien kanssa</strong></p><p>On lauantai-ilta. Me istumme isossa olohuoneessa.</p><p>Pöytä on huoneen keskellä ja sen ympärillä on kuusi tuolia.</p><p>Pöydällä on herkullista ruokaa, juomia ja kynttilöitä.</p><p>Anni istuu sohvan vieressä ja juo kahvia.</p><p>Petri istuu Annin ja Villen välissä ja kertoo hauskan tarinan.</p><p>Jari seisoo ikkunan edessä ja katsoo ulos.</p><p>Keittiössä Lea istuu pöydän ääressä ja pilkkoo vihanneksia.</p><p>Lattialla, pöydän alla, nukkuu kissa.</p><p>Lea tulee olohuoneeseen. Hänen oikealla puolellaan on Sari ja vasemmalla puolellaan Pekka.</p><p>Kaikki juttelevat ja nauravat — on mukava ilta.</p>"
+      },
+      "tasks": [
+        {
+          "id": "illallinen-questions",
+          "type": "multiple-choice",
+          "questions": [
+            {
+              "question": "Mikä päivä on?",
+              "options": [
+                "Perjantai-ilta",
+                "Lauantai-ilta",
+                "Sunnuntai-ilta"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Missä pöytä on?",
+              "options": [
+                "Huoneen keskellä",
+                "Ikkunan edessä",
+                "Sohvan vieressä"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Kuinka monta tuolia on pöydän ympärillä?",
+              "options": [
+                "Viisi",
+                "Kuusi",
+                "Seitsemän"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Missä Anni istuu?",
+              "options": [
+                "Pöydän ääressä",
+                "Sohvan vieressä",
+                "Ikkunan edessä"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Kuka kertoo hauskan tarinan?",
+              "options": [
+                "Anni",
+                "Petri",
+                "Jari"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Missä Jari seisoo?",
+              "options": [
+                "Pöydän vieressä",
+                "Sohvan edessä",
+                "Ikkunan edessä"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Mitä Lea tekee keittiössä?",
+              "options": [
+                "Keittää kahvia",
+                "Pilkkoo vihanneksia",
+                "Tiskeä astioita"
+              ],
+              "answer": 1
+            },
+            {
+              "question": "Missä kissa nukkuu?",
+              "options": [
+                "Sohvalla",
+                "Tuolilla",
+                "Lattialla, pöydän alla"
+              ],
+              "answer": 2
+            },
+            {
+              "question": "Kuka on Lean oikealla puolella?",
+              "options": [
+                "Sari",
+                "Pekka",
+                "Anni"
+              ],
+              "answer": 0
+            },
+            {
+              "question": "Millainen ilta on?",
+              "options": [
+                "Mukava",
+                "Tylsä",
+                "Kiireinen"
+              ],
+              "answer": 0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  
+  "speaking": [
+    {
+      "id": "a1-8-speaking-1",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински — еда и напитки (1)",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex1/Yleensa_juon_vetta_ruoan_kanssa.mp3",
+          "prompt": "Скажите по-фински: «Обычно я пью воду с едой.»",
+          "answer": [
+            "Yleensä juon vettä ruoan kanssa.",
+            "Yleensä minä juon vettä ruoan kanssa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex1/Tanaan_me_syomme_pizzaa.mp3",
+          "prompt": "Скажите по-фински: «Сегодня мы едим пиццу.»",
+          "answer": [
+            "Tänään me syömme pizzaa.",
+            "Tänään syömme pizzaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex1/Otatko_sina_viinia_vai_olutta.mp3",
+          "prompt": "Скажите по-фински: «Ты возьмёшь вино или пиво?»",
+          "answer": [
+            "Otatko sinä viiniä vai olutta?",
+            "Otatko viiniä vai olutta?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex1/Lautasella_on_riisia_ja_kanakastiketta.mp3",
+          "prompt": "Скажите по-фински: «На тарелке рис и куриный соус.»",
+          "answer": [
+            "Lautasella on riisiä ja kanakastiketta."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex1/Jaakaappi_on_tyhja.mp3",
+          "prompt": "Скажите по-фински: «Холодильник пустой.»",
+          "answer": [
+            "Jääkaappi on tyhjä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex1/Tarvitsemme_maitoa_juustoa_ja_salaattia.mp3",
+          "prompt": "Скажите по-фински: «Нам нужны молоко, сыр и салат.»",
+          "answer": [
+            "Tarvitsemme maitoa, juustoa ja salaattia.",
+            "Me tarvitsemme maitoa, juustoa ja salaattia."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex1/Tama_on_maitoa.mp3",
+          "prompt": "Скажите по-фински: «Это молоко.»",
+          "answer": [
+            "Tämä on maitoa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex1/Tuo_on_piimaa.mp3",
+          "prompt": "Скажите по-фински: «То — простокваша.»",
+          "answer": [
+            "Tuo on piimää."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex1/Leipa_on_poydalla.mp3",
+          "prompt": "Скажите по-фински: «Хлеб на столе.»",
+          "answer": [
+            "Leipä on pöydällä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex1/Jaakaapissa_on_juustoa_ja_mehua.mp3",
+          "prompt": "Скажите по-фински: «В холодильнике есть сыр и сок.»",
+          "answer": [
+            "Jääkaapissa on juustoa ja mehua."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex1/Poydalla_on_kuppi.mp3",
+          "prompt": "Скажите по-фински: «На столе чашка.»",
+          "answer": [
+            "Pöydällä on kuppi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-8-speaking-2",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински — еда и напитки (2)",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex2/Kupissa_on_kahvia.mp3",
+          "prompt": "Скажите по-фински: «В чашке кофе.»",
+          "answer": [
+            "Kupissa on kahvia."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex2/Sokeri_on_kaapissa.mp3",
+          "prompt": "Скажите по-фински: «Сахар в шкафу.»",
+          "answer": [
+            "Sokeri on kaapissa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex2/Se_on_suolaa.mp3",
+          "prompt": "Скажите по-фински: «Это соль.»",
+          "answer": [
+            "Se on suolaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex2/Poydalla_on_lasi.mp3",
+          "prompt": "Скажите по-фински: «На столе стакан.»",
+          "answer": [
+            "Pöydällä on lasi."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex2/Lasi_on_likainen.mp3",
+          "prompt": "Скажите по-фински: «Стакан грязный.»",
+          "answer": [
+            "Lasi on likainen."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex2/Mina_syon_leipaa.mp3",
+          "prompt": "Скажите по-фински: «Я ем хлеб.»",
+          "answer": [
+            "Minä syön leipää.",
+            "Syön leipää."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex2/Missa_on_voita.mp3",
+          "prompt": "Скажите по-фински: «Где масло?»",
+          "answer": [
+            "Missä on voita?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex2/Tarvitsen_pippuria.mp3",
+          "prompt": "Скажите по-фински: «Мне нужен перец.»",
+          "answer": [
+            "Tarvitsen pippuria.",
+            "Minä tarvitsen pippuria."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex2/Pippuri_on_loppu.mp3",
+          "prompt": "Скажите по-фински: «Перец закончился.»",
+          "answer": [
+            "Pippuri on loppu."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex2/Mina_juon_cokista.mp3",
+          "prompt": "Скажите по-фински: «Я пью колу.»",
+          "answer": [
+            "Minä juon cokista.",
+            "Juon cokista."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex2/Olut_on_ruskeassa_pullossa.mp3",
+          "prompt": "Скажите по-фински: «Пиво в коричневой бутылке.»",
+          "answer": [
+            "Olut on ruskeassa pullossa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex2/Kaapissa_on_olutpullo.mp3",
+          "prompt": "Скажите по-фински: «В шкафу есть бутылка пива.»",
+          "answer": [
+            "Kaapissa on olutpullo."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex2/Mina_en_juo_kahvia.mp3",
+          "prompt": "Скажите по-фински: «Я не пью кофе.»",
+          "answer": [
+            "Minä en juo kahvia.",
+            "En juo kahvia."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex2/Kahvilassa_han_tilaa_kaakaota.mp3",
+          "prompt": "Скажите по-фински: «В кафе он/она заказывает какао.»",
+          "answer": [
+            "Kahvilassa hän tilaa kaakaota."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-8-speaking-3",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите по-фински — прилагательные о еде/качестве",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex3/Se_on_suolaista.mp3",
+          "prompt": "Скажите по-фински: «Это солёное.»",
+          "answer": [
+            "Se on suolaista."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex3/Se_on_kylmaa.mp3",
+          "prompt": "Скажите по-фински: «Это холодное.»",
+          "answer": [
+            "Se on kylmää."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex3/Se_on_hyvaa_ja_makeaa.mp3",
+          "prompt": "Скажите по-фински: «Это вкусное и сладкое.»",
+          "answer": [
+            "Se on hyvää ja makeaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex3/Se_on_mausteista.mp3",
+          "prompt": "Скажите по-фински: «Это пряное.»",
+          "answer": [
+            "Se on mausteista."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex3/Se_on_vanhaa.mp3",
+          "prompt": "Скажите по-фински: «Это старое/несвежее.»",
+          "answer": [
+            "Se on vanhaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex3/Se_on_makeaa.mp3",
+          "prompt": "Скажите по-фински: «Это сладкое.»",
+          "answer": [
+            "Se on makeaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex3/Se_on_halpaa.mp3",
+          "prompt": "Скажите по-фински: «Это дешёвое.»",
+          "answer": [
+            "Se on halpaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex3/Se_on_tulista.mp3",
+          "prompt": "Скажите по-фински: «Это острое.»",
+          "answer": [
+            "Se on tulista."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex3/Se_on_valmista.mp3",
+          "prompt": "Скажите по-фински: «Это готово.»",
+          "answer": [
+            "Se on valmista."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex3/Se_on_pahaa.mp3",
+          "prompt": "Скажите по-фински: «Это невкусное.»",
+          "answer": [
+            "Se on pahaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex3/Se_ei_ole_rumaa.mp3",
+          "prompt": "Скажите по-фински: «Это не некрасивое.»",
+          "answer": [
+            "Se ei ole rumaa."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex3/Se_on_valmista_2.mp3",
+          "prompt": "Скажите по-фински: «Это готово.» (повтор)",
+          "answer": [
+            "Se on valmista."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex3/Se_on_tuoretta.mp3",
+          "prompt": "Скажите по-фински: «Это свежее.»",
+          "answer": [
+            "Se on tuoretta."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-8-speaking-4",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите по-фински — еда и покупки (вопросы/утверждения)",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex4/Haluatko_lihapullia.mp3",
+          "prompt": "Скажите по-фински: «Ты хочешь фрикаделек?»",
+          "answer": [
+            "Haluatko lihapullia?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex4/Haluatko_nakkia.mp3",
+          "prompt": "Скажите по-фински: «Ты хочешь сосисок?»",
+          "answer": [
+            "Haluatko nakkia?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex4/Han_leipoo_kakkuja_ja_kekseja.mp3",
+          "prompt": "Скажите по-фински: «Он/она печёт торты и печенье.»",
+          "answer": [
+            "Hän leipoo kakkuja ja keksejä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex4/Otatko_Coca_Colaan_jaapaloja.mp3",
+          "prompt": "Скажите по-фински: «Добавишь ли лёд в Кока-Колу?»",
+          "answer": [
+            "Otatko Coca-Colaan jääpaloja?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex4/Kahvi_ja_tee_ovat_kuumia_juomia.mp3",
+          "prompt": "Скажите по-фински: «Кофе и чай — горячие напитки.»",
+          "answer": [
+            "Kahvi ja tee ovat kuumia juomia."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex4/Me_ostamme_juustoja_ja_hedelmia.mp3",
+          "prompt": "Скажите по-фински: «Мы покупаем сыры и фрукты.»",
+          "answer": [
+            "Me ostamme juustoja ja hedelmiä.",
+            "Ostamme juustoja ja hedelmiä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex4/Kesalla_ostamme_herneita_ja_marjoja.mp3",
+          "prompt": "Скажите по-фински: «Летом мы покупаем горох и ягоды.»",
+          "answer": [
+            "Kesällä ostamme herneitä ja marjoja.",
+            "Kesällä me ostamme herneitä ja marjoja."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex4/Lapset_syovat_ranskalaisia_perunoita_ja_hampurilaisia.mp3",
+          "prompt": "Скажите по-фински: «Дети едят картошку фри и гамбургеры.»",
+          "answer": [
+            "Lapset syövät ranskalaisia perunoita ja hampurilaisia."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex4/Kulhossa_on_appelsiineja_ja_paarynoita_Me_ostamme_viinirypeleita.mp3",
+          "prompt": "Скажите по-фински: «В миске апельсины и груши. Мы покупаем виноград.»",
+          "answer": [
+            "Kulhossa on appelsiineja ja päärynöitä. Me ostamme viinirypäleitä."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-8-speaking-5",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите по-фински — в ресторане",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex5/Menen_ravintolaan.mp3",
+          "prompt": "Скажите по-фински: «Я иду в ресторан.»",
+          "answer": [
+            "Menen ravintolaan.",
+            "Minä menen ravintolaan."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex5/Otan_perunoita_ja_kastiketta.mp3",
+          "prompt": "Скажите по-фински: «Я возьму картошку и соус.»",
+          "answer": [
+            "Otan perunoita ja kastiketta.",
+            "Minä otan perunoita ja kastiketta."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex5/Kastike_on_tulista.mp3",
+          "prompt": "Скажите по-фински: «Соус острый.»",
+          "answer": [
+            "Kastike on tulista."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex5/Otan_kanaa_ja_riisia.mp3",
+          "prompt": "Скажите по-фински: «Я возьму курицу и рис.»",
+          "answer": [
+            "Otan kanaa ja riisiä.",
+            "Minä otan kanaa ja riisiä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex5/Haluan_salaattia.mp3",
+          "prompt": "Скажите по-фински: «Я хочу салата.»",
+          "answer": [
+            "Haluan salaattia.",
+            "Minä haluan salaattia."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex5/En_pida_salaatista.mp3",
+          "prompt": "Скажите по-фински: «Мне не нравится салат.»",
+          "answer": [
+            "En pidä salaatista.",
+            "Minä en pidä salaatista."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex5/Me_juomme_vetta.mp3",
+          "prompt": "Скажите по-фински: «Мы пьём воду.»",
+          "answer": [
+            "Me juomme vettä.",
+            "Juomme vettä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex5/Viini_on_ranskalainen.mp3",
+          "prompt": "Скажите по-фински: «Вино французское.»",
+          "answer": [
+            "Viini on ranskalainen."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex5/Ruokalistalla_on_jalkiruokia.mp3",
+          "prompt": "Скажите по-фински: «В меню есть десерты.»",
+          "answer": [
+            "Ruokalistalla on jälkiruokia."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex5/Haluan_marjoja_ja_jaateloa.mp3",
+          "prompt": "Скажите по-фински: «Я хочу ягоды и мороженое.»",
+          "answer": [
+            "Haluan marjoja ja jäätelöä.",
+            "Minä haluan marjoja ja jäätelöä."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-8-speaking-6",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите по-фински — вопросы о датах и праздниках",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex6/Milloin_on_vappu.mp3",
+          "prompt": "Скажите по-фински: «Когда Ваппу?»",
+          "answer": [
+            "Milloin on vappu?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex6/Monesko_paiva_tanaan_on.mp3",
+          "prompt": "Скажите по-фински: «Какое сегодня число?»",
+          "answer": [
+            "Monesko päivä tänään on?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex6/Monesko_paiva_huomenna_on.mp3",
+          "prompt": "Скажите по-фински: «Какое завтра число?»",
+          "answer": [
+            "Monesko päivä huomenna on?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex6/Milloin_sinun_syntymapaiva_on.mp3",
+          "prompt": "Скажите по-фински: «Когда у тебя день рождения?»",
+          "answer": [
+            "Milloin sinun syntymäpäivä on?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex6/Milloin_on_joulu.mp3",
+          "prompt": "Скажите по-фински: «Когда Рождество?»",
+          "answer": [
+            "Milloin on joulu?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex6/Mina_paivana_sinun_kurssi_loppuu.mp3",
+          "prompt": "Скажите по-фински: «В какой день заканчивается твой курс?»",
+          "answer": [
+            "Minä päivänä sinun kurssi loppuu?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex6/Milloin_sinun_opettajan_syntymapaiva_on.mp3",
+          "prompt": "Скажите по-фински: «Когда день рождения твоего учителя?»",
+          "answer": [
+            "Milloin sinun opettajan syntymäpäivä on?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-8-speaking-7",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите по-фински — порядковые даты (1.–31.)",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Ensimmainen_tammikuuta.mp3",
+          "prompt": "Скажите по-фински: «Первое января.»",
+          "answer": [
+            "ensimmäinen tammikuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Toinen_helmikuuta.mp3",
+          "prompt": "Скажите по-фински: «Второе февраля.»",
+          "answer": [
+            "toinen helmikuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kolmas_maaliskuuta.mp3",
+          "prompt": "Скажите по-фински: «Третье марта.»",
+          "answer": [
+            "kolmas maaliskuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Neljas_huhtikuuta.mp3",
+          "prompt": "Скажите по-фински: «Четвёртое апреля.»",
+          "answer": [
+            "neljäs huhtikuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Viides_toukokuuta.mp3",
+          "prompt": "Скажите по-фински: «Пятое мая.»",
+          "answer": [
+            "viides toukokuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kuudes_kesakuuta.mp3",
+          "prompt": "Скажите по-фински: «Шестое июня.»",
+          "answer": [
+            "kuudes kesäkuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Seitsemäs_heinakuuta.mp3",
+          "prompt": "Скажите по-фински: «Седьмое июля.»",
+          "answer": [
+            "seitsemäs heinäkuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kahdeksas_elokuuta.mp3",
+          "prompt": "Скажите по-фински: «Восьмое августа.»",
+          "answer": [
+            "kahdeksas elokuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Yhdeksas_syyskuuta.mp3",
+          "prompt": "Скажите по-фински: «Девятое сентября.»",
+          "answer": [
+            "yhdeksäs syyskuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kymmenes_lokakuuta.mp3",
+          "prompt": "Скажите по-фински: «Десятое октября.»",
+          "answer": [
+            "kymmenes lokakuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Yhdestoista_marraskuuta.mp3",
+          "prompt": "Скажите по-фински: «Одиннадцатое ноября.»",
+          "answer": [
+            "yhdestoista marraskuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kahdestoista_joulukuuta.mp3",
+          "prompt": "Скажите по-фински: «Двенадцатое декабря.»",
+          "answer": [
+            "kahdestoista joulukuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kolmastoista_tammikuuta.mp3",
+          "prompt": "Скажите по-фински: «Тринадцатое января.»",
+          "answer": [
+            "kolmastoista tammikuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Neljastoista_helmikuuta.mp3",
+          "prompt": "Скажите по-фински: «Четырнадцатое февраля.»",
+          "answer": [
+            "neljästoista helmikuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Viidestoista_maaliskuuta.mp3",
+          "prompt": "Скажите по-фински: «Пятнадцатое марта.»",
+          "answer": [
+            "viidestoista maaliskuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kuudestoista_huhtikuuta.mp3",
+          "prompt": "Скажите по-фински: «Шестнадцатое апреля.»",
+          "answer": [
+            "kuudestoista huhtikuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Seitsemastoista_toukokuuta.mp3",
+          "prompt": "Скажите по-фински: «Семнадцатое мая.»",
+          "answer": [
+            "seitsemästoista toukokuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kahdeksastoista_kesakuuta.mp3",
+          "prompt": "Скажите по-фински: «Восемнадцатое июня.»",
+          "answer": [
+            "kahdeksastoista kesäkuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Yhdeksastoista_heinakuuta.mp3",
+          "prompt": "Скажите по-фински: «Девятнадцатое июля.»",
+          "answer": [
+            "yhdeksästoista heinäkuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kahdeskymmenes_elokuuta.mp3",
+          "prompt": "Скажите по-фински: «Двадцатое августа.»",
+          "answer": [
+            "kahdeskymmenes elokuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kahdeskymmenesensimmainen_syyskuuta.mp3",
+          "prompt": "Скажите по-фински: «Двадцать первое сентября.»",
+          "answer": [
+            "kahdeskymmenesensimmäinen syyskuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kahdeskymmenestoinen_lokakuuta.mp3",
+          "prompt": "Скажите по-фински: «Двадцать второе октября.»",
+          "answer": [
+            "kahdeskymmenestoinen lokakuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kahdeskymmeneskolmas_marraskuuta.mp3",
+          "prompt": "Скажите по-фински: «Двадцать третье ноября.»",
+          "answer": [
+            "kahdeskymmeneskolmas marraskuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kahdeskymmenesneljas_joulukuuta.mp3",
+          "prompt": "Скажите по-фински: «Двадцать четвёртое декабря.»",
+          "answer": [
+            "kahdeskymmenesneljäs joulukuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kahdeskymmenesviides_tammikuuta.mp3",
+          "prompt": "Скажите по-фински: «Двадцать пятое января.»",
+          "answer": [
+            "kahdeskymmenesviides tammikuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kahdeskymmeneskuudes_helmikuuta.mp3",
+          "prompt": "Скажите по-фински: «Двадцать шестое февраля.»",
+          "answer": [
+            "kahdeskymmeneskuudes helmikuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kahdeskymmenesseitsemas_maaliskuuta.mp3",
+          "prompt": "Скажите по-фински: «Двадцать седьмое марта.»",
+          "answer": [
+            "kahdeskymmenesseitsemäs maaliskuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kahdeskymmeneskahdeksas_huhtikuuta.mp3",
+          "prompt": "Скажите по-фински: «Двадцать восьмое апреля.»",
+          "answer": [
+            "kahdeskymmeneskahdeksas huhtikuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kahdeskymmenesyhdeksas_toukokuuta.mp3",
+          "prompt": "Скажите по-фински: «Двадцать девятое мая.»",
+          "answer": [
+            "kahdeskymmenesyhdeksäs toukokuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kolmaskymmenes_kesakuuta.mp3",
+          "prompt": "Скажите по-фински: «Тридцатое июня.»",
+          "answer": [
+            "kolmaskymmenes kesäkuuta"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex7/Kolmaskymmenesensimmainen_heinakuuta.mp3",
+          "prompt": "Скажите по-фински: «Тридцать первое июля.»",
+          "answer": [
+            "kolmaskymmenesensimmäinen heinäkuuta"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-8-speaking-8",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите по-фински — предлоги/послелоги и расположение",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex8/Se_on_mikroaaltouunin_vieressa.mp3",
+          "prompt": "Скажите по-фински: «Это рядом с микроволновкой.»",
+          "answer": [
+            "Se on mikroaaltouunin vieressä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex8/Ne_ovat_poydalla.mp3",
+          "prompt": "Скажите по-фински: «Они на столе.»",
+          "answer": [
+            "Ne ovat pöydällä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex8/Se_on_ikkunan_edessa.mp3",
+          "prompt": "Скажите по-фински: «Это перед окном.»",
+          "answer": [
+            "Se on ikkunan edessä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex8/Kissa_on_poydan_alla.mp3",
+          "prompt": "Скажите по-фински: «Кошка под столом.»",
+          "answer": [
+            "Kissa on pöydän alla."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex8/Haarukka_on_poydalla.mp3",
+          "prompt": "Скажите по-фински: «Вилка на столе.»",
+          "answer": [
+            "Haarukka on pöydällä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex8/Veitsi_on_lautasen_vieressa.mp3",
+          "prompt": "Скажите по-фински: «Нож рядом с тарелкой.»",
+          "answer": [
+            "Veitsi on lautasen vieressä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex8/Jaakaappi_on_vasemmalla_puolella.mp3",
+          "prompt": "Скажите по-фински: «Холодильник слева.»",
+          "answer": [
+            "Jääkaappi on vasemmalla puolella."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex8/Lapsi_istuu_tuolilla.mp3",
+          "prompt": "Скажите по-фински: «Ребёнок сидит на стуле.»",
+          "answer": [
+            "Lapsi istuu tuolilla."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex8/Lapsen_lautanen_on_poydalla.mp3",
+          "prompt": "Скажите по-фински: «Тарелка ребёнка на столе.»",
+          "answer": [
+            "Lapsen lautanen on pöydällä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex8/Kello_on_seinalla.mp3",
+          "prompt": "Скажите по-фински: «Часы на стене.»",
+          "answer": [
+            "Kello on seinällä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex8/Aiti_on_lieden_aarella.mp3",
+          "prompt": "Скажите по-фински: «Мама у плиты.»",
+          "answer": [
+            "Äiti on lieden ääressä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex8/Kahvikupin_vieressa_on_lusikka.mp3",
+          "prompt": "Скажите по-фински: «Рядом с кофейной чашкой — ложка.»",
+          "answer": [
+            "Kahvikupin vieressä on lusikka."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex8/Kahvikupin_alla_on_lautanen.mp3",
+          "prompt": "Скажите по-фински: «Под кофейной чашкой — блюдце.»",
+          "answer": [
+            "Kahvikupin alla on lautanen."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex8/Jaakaapin_paalla_on_pulloja.mp3",
+          "prompt": "Скажите по-фински: «На холодильнике стоят бутылки.»",
+          "answer": [
+            "Jääkaapin päällä on pulloja."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex8/Mikroaaltouunin_vieressa_on_kahvinkeitin.mp3",
+          "prompt": "Скажите по-фински: «Рядом с микроволновкой — кофеварка.»",
+          "answer": [
+            "Mikroaaltouunin vieressä on kahvinkeitin."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex8/Ikkunan_takana_on_piha.mp3",
+          "prompt": "Скажите по-фински: «За окном — двор.»",
+          "answer": [
+            "Ikkunan takana on piha."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex8/Poydan_ymparilla_on_tuoleja.mp3",
+          "prompt": "Скажите по-фински: «Вокруг стола стулья.»",
+          "answer": [
+            "Pöydän ympärillä on tuoleja."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex8/Leivan_paalla_on_juustoa.mp3",
+          "prompt": "Скажите по-фински: «На хлебе — сыр.»",
+          "answer": [
+            "Leivän päällä on juustoa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a1-8-speaking-9",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите по-фински — мнения с -sta/-stä (minusta, sinusta…)",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Minusta_kahvi_on_hyvaa.mp3",
+          "prompt": "Скажите по-фински: «По-моему, кофе вкусный.»",
+          "answer": [
+            "Minusta kahvi on hyvää."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Minusta_saa_on_kylma.mp3",
+          "prompt": "Скажите по-фински: «По-моему, погода холодная.»",
+          "answer": [
+            "Minusta sää on kylmä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Minusta_tama_elokuva_on_hauska.mp3",
+          "prompt": "Скажите по-фински: «По-моему, этот фильм забавный.»",
+          "answer": [
+            "Minusta tämä elokuva on hauska."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Minusta_suomalainen_ruoka_on_maukasta.mp3",
+          "prompt": "Скажите по-фински: «По-моему, финская еда вкусная.»",
+          "answer": [
+            "Minusta suomalainen ruoka on maukasta."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Sinusta_auto_on_liian_kallis.mp3",
+          "prompt": "Скажите по-фински: «По-твоему, машина слишком дорогая.»",
+          "answer": [
+            "Sinusta auto on liian kallis."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Onko_sinusta_tama_ravintola_hyva.mp3",
+          "prompt": "Скажите по-фински: «По-твоему, этот ресторан хороший?»",
+          "answer": [
+            "Onko sinusta tämä ravintola hyvä?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Sinusta_kurssi_on_mielenkiintoinen.mp3",
+          "prompt": "Скажите по-фински: «По-твоему, курс интересный.»",
+          "answer": [
+            "Sinusta kurssi on mielenkiintoinen."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Hanesta_musiikki_on_tarkea.mp3",
+          "prompt": "Скажите по-фински: «По его/её мнению, музыка важна.»",
+          "answer": [
+            "Hänestä musiikki on tärkeää."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Onko_hanesta_Helsinki_on_suuri.mp3",
+          "prompt": "Скажите по-фински: «По его/её мнению, Хельсинки большой?»",
+          "answer": [
+            "Onko hänestä Helsinki suuri?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Hanesta_tama_opettaja_on_mukava.mp3",
+          "prompt": "Скажите по-фински: «По его/её мнению, этот учитель приятный.»",
+          "answer": [
+            "Hänestä tämä opettaja on mukava."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Meista_tama_paikka_on_rauhallinen.mp3",
+          "prompt": "Скажите по-фински: «По-нашему, это место спокойное.»",
+          "answer": [
+            "Meistä tämä paikka on rauhallinen."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Meista_opiskelu_on_tarkea.mp3",
+          "prompt": "Скажите по-фински: «По-нашему, учёба важна.»",
+          "answer": [
+            "Meistä opiskelu on tärkeää."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Meista_tama_kahvila_on_viihtyisa.mp3",
+          "prompt": "Скажите по-фински: «По-нашему, это кафе уютное.»",
+          "answer": [
+            "Meistä tämä kahvila on viihtyisä."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Teista_tama_tehtava_on_helppo.mp3",
+          "prompt": "Скажите по-фински: «По-вашему, это задание лёгкое.»",
+          "answer": [
+            "Teistä tämä tehtävä on helppo."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Teista_talvi_on_kaunis_vuodenaika.mp3",
+          "prompt": "Скажите по-фински: «По-вашему, зима — красивое время года.»",
+          "answer": [
+            "Teistä talvi on kaunis vuodenaika."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Onko_teista_suomalaiset_ovat_ystavallisia.mp3",
+          "prompt": "Скажите по-фински: «По-вашему, финны дружелюбны?»",
+          "answer": [
+            "Onko teistä suomalaiset ystävällisiä?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Heista_ruoka_on_liian_suolaista.mp3",
+          "prompt": "Скажите по-фински: «По их мнению, еда слишком солёная.»",
+          "answer": [
+            "Heistä ruoka on liian suolaista."
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Onko_heista_opettaja_on_hyva.mp3",
+          "prompt": "Скажите по-фински: «По их мнению, учитель хороший?»",
+          "answer": [
+            "Onko heistä opettaja hyvä?"
+          ]
+        },
+        {
+          "audioUrl": "/audio/A1-8/speaking/ex9/Heista_tama_hotelli_on_kallis.mp3",
+          "prompt": "Скажите по-фински: «По их мнению, этот отель дорогой.»",
+          "answer": [
+            "Heistä tämä hotelli on kallis."
+          ]
+        }
+      ]
+    }
+  ],
+  "listening": {
+    "tasks": [
+      {
+        "id": "a1-8-mc-ex1",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-8/listening/ex1/Yleensä juon vettä ruoan kanssa.mp3",
+            "options": [
+              "Yleensä juon vettä ruoka kanssa.",
+              "Yleensä juon vettä ruoan kanssa.",
+              "Yleensä juon vesi ruoan kanssa."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex1/Tänään me syömme kinkkupizzaa.mp3",
+            "options": [
+              "Tänään me syömme kinkkupizza.",
+              "Tänään me syömme kinkkupizzan.",
+              "Tänään me syömme kinkkupizzaa."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex1/Otatko_sina_viinia_vai_olutta.mp3",
+            "options": [
+              "Otatko sinä viini vai olut?",
+              "Otatko sinä viiniä vai olutta?",
+              "Otatko sinä viiniä vai olut?"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex1/Lautasella on riisiä ja kanakastiketta.mp3",
+            "options": [
+              "Lautasella on riisillä ja kanakastikkeella.",
+              "Lautasella on riisi ja kanakastike.",
+              "Lautasella on riisiä ja kanakastiketta."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex1/Jääkaappi on tyhjä Tarvitsemme maitoa juustoa voita ja salaattia.mp3",
+            "options": [
+              "Jääkaappi on tyhjä. Tarvitsemme maitoa, juustoa, voita ja salaatti.",
+              "Jääkaappi on tyhjä. Tarvitsemme maito, juusto, voi ja salaatti.",
+              "Jääkaappi on tyhjä. Tarvitsemme maitoa, juustoa, voita ja salaattia."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex1/Tämä on maitoa.mp3",
+            "options": [
+              "Tämä on maito.",
+              "Tämä on maidon.",
+              "Tämä on maitoa."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex1/Tuo on piimää.mp3",
+            "options": [
+              "Tuo on piimä.",
+              "Tuo on piimän.",
+              "Tuo on piimää."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex1/Leipä on pöydällä.mp3",
+            "options": [
+              "Leipä on pöydällä.",
+              "Leipä on pöytään.",
+              "Leipä on pöydä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex1/Jääkaapissa on juustoa ja mehua.mp3",
+            "options": [
+              "Jääkaapissa on juusto ja mehu.",
+              "Jääkaapissa on juustossa ja mehussa.",
+              "Jääkaapissa on juustoa ja mehua."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex1/Pöydällä on kuppi.mp3",
+            "options": [
+              "Pöydällä on kupissa.",
+              "Pöydällä on kuppi.",
+              "Pöydällä on kuppia."
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": "a1-8-mc-ex2",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-8/listening/ex2/Kupissa on kahvia.mp3",
+            "options": [
+              "Kupissa on kahvia.",
+              "Kupissa on kahvi.",
+              "Kupissa on kahvissa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex2/Sokeri on kaapissa.mp3",
+            "options": [
+              "Sokeri on kaappi.",
+              "Sokeri on kaapissa.",
+              "Sokeri on kaapista."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex2/Tämä ei ole sokeria Se on suolaa.mp3",
+            "options": [
+              "Tämä ei ole sokeria. Se on suolaa.",
+              "Tämä ei ole sokeri. Se on suola.",
+              "Tämä ei ole sokeria. Se on suola."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex2/Pöydällä on lasi.mp3",
+            "options": [
+              "Pöydällä on lasilla.",
+              "Pöydällä on lasissa.",
+              "Pöydällä on lasi."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex2/Lasi on likainen.mp3",
+            "options": [
+              "Lasi on likainen.",
+              "Lasi on likaisessa.",
+              "Lasi on likainenna."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex2/Minä syön leipää.mp3",
+            "options": [
+              "Minä syön leipä.",
+              "Minä syön leivän.",
+              "Minä syön leipää."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex2/Missä on voita.mp3",
+            "options": [
+              "Missä on voissa?",
+              "Missä on voi?",
+              "Missä on voita?"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex2/Tarvitsen pippuria.mp3",
+            "options": [
+              "Tarvitsen pippuri.",
+              "Tarvitsen pippurissa.",
+              "Tarvitsen pippuria."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex2/Pippuri on loppu.mp3",
+            "options": [
+              "Pippuri on loppu.",
+              "Pippuri on lopussa.",
+              "Pippuri on loppuna."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex2/Tiina juo cokista.mp3",
+            "options": [
+              "Tiina juo cokista.",
+              "Tiina juo cokissa.",
+              "Tiina juo cokiksen."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex2/Olut on ruskeassa pullossa.mp3",
+            "options": [
+              "Olut on ruskeassa pullossa.",
+              "Olut on ruskea pullossa.",
+              "Olut on ruskeassa pullon."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex2/Kaapissa on olutpullo.mp3",
+            "options": [
+              "Kaapissa on olutpullossa.",
+              "Kaapissa on olutpullon.",
+              "Kaapissa on olutpullo."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex2/Leena ei juo kahvia.mp3",
+            "options": [
+              "Leena ei juo kahvi.",
+              "Leena ei juo kahvissa.",
+              "Leena ei juo kahvia."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex2/Kahvilassa hän tilaa kaakaota.mp3",
+            "options": [
+              "Kahvilassa hän tilaa kaakao.",
+              "Kahvilassa hän tilaa kaakaon.",
+              "Kahvilassa hän tilaa kaakaota."
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "a1-8-mc-ex3",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-8/listening/ex3/Tässä lasagnessa on paljon suolaa Se on suolaista.mp3",
+            "options": [
+              "Tässä lasagnessa on paljon suolaa. Se on suolaista.",
+              "Tässä lasagne on paljon suola. Se on suolainen.",
+              "Tässä lasagnessa on paljon suolaa. Se on suolaa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex3/Tomaattikeitto ei ole enää lämmintä Nyt se on kylmää.mp3",
+            "options": [
+              "Tomaattikeitto ei ole enää lämmin. Nyt se on kylmä.",
+              "Tomaattikeitto ei ole enää lämmintä. Nyt se on kylmää.",
+              "Tomaattikeitto ei ole enää lämmin. Nyt se on kylmää."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex3/Minä pidän jäätelöstä Se on hyvää ja makeaa.mp3",
+            "options": [
+              "Minä pidän jäätelöstä. Se on hyvä ja makea.",
+              "Minä pidän jäätelöstä. Se on hyvää ja makeaa.",
+              "Minä pidän jäätelöstä. Se on hyvää ja makea."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex3/Millaista japanilainen ruoka on Se on mausteista.mp3",
+            "options": [
+              "Millaista japanilainen ruoka on? Se on mausteinen.",
+              "Millaista japanilainen ruoka on? Se on mausteista.",
+              "Millaista japanilainen ruoka on? Se on mausteista."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex3/Tämä lautanen ei ole uusi Se on vanhaa.mp3",
+            "options": [
+              "Tämä lautanen ei ole uusi. Se on vanha.",
+              "Tämä lautanen ei ole uusi. Se on vanhaa.",
+              "Tämä lautanen ei ole uusi. Se on vanhassa."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex3/Suklaakakku ei ole hapanta se on makeaa.mp3",
+            "options": [
+              "Suklaakakku ei ole hapanta, se on makeaa.",
+              "Suklaakakku ei ole hapan, se on makea.",
+              "Suklaakakku ei ole hapanta, se on makea."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex3/Ravintolassa ruoka maksaa paljon Se on kallista Kun teen ruokaa kotona ruoka on halpaa.mp3",
+            "options": [
+              "Ravintolassa ruoka maksaa paljon. Se on kallista. Kun teen ruokaa kotona, ruoka on halpaa.",
+              "Ravintolassa ruoka maksaa paljon. Se on kallis. Kun teen ruokaa kotona, ruoka on halpa.",
+              "Ravintolassa ruoka maksaa paljon. Se on kallista. Kun teen ruokaa kotona, ruoka on halpa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex3/Tuula pitää meksikolaisesta ruoasta Se on tulista.mp3",
+            "options": [
+              "Tuula pitää meksikolaisesta ruoasta. Se on tulinen.",
+              "Tuula pitää meksikolaisesta ruoasta. Se on tulista.",
+              "Tuula pitää meksikolaisesta ruoasta. Se on tulisesta."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex3/Äiti sanoo Ruoka on valmista Kaikki lapset pöytään.mp3",
+            "options": [
+              "Äiti sanoo: ”Ruoka on valmis. Kaikki lapset pöytään!”",
+              "Äiti sanoo: ”Ruoka on valmista. Kaikki lapset pöytään!”",
+              "Äiti sanoo: ”Ruoka on valmis. Kaikki lapset pöytään.”"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex3/Kalle ei pidä kalasta Hänestä kala on pahaa.mp3",
+            "options": [
+              "Kalle ei pidä kalasta. Hänestä kala on pahaa.",
+              "Kalle ei pidä kalasta. Hänestä kala on paha.",
+              "Kalle ei pidä kalasta. Hänestä kala on pahasta."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex3/Tämä venäläinen teekuppi on kaunis Se ei ole rumaa.mp3",
+            "options": [
+              "Tämä venäläinen teekuppi on kaunis. Se ei ole ruma.",
+              "Tämä venäläinen teekuppi on kaunis. Se ei ole rumaa.",
+              "Tämä venäläinen teekuppi on kaunis. Se ei ole rumassa."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex3/Kun keitän riisiä 15 minuuttia se on valmista.mp3",
+            "options": [
+              "Kun keitän riisiä 15 minuuttia, se on valmis.",
+              "Kun keitän riisiä 15 minuuttia, se on valmista.",
+              "Kun keitän riisiä 15 minuuttia, se on valmiina."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex3/Leipä on lämmintä ja pehmeää Se on tuoretta.mp3",
+            "options": [
+              "Leipä on lämmin ja pehmeä. Se on tuore.",
+              "Leipä on lämmintä ja pehmeää. Se on tuoretta.",
+              "Leipä on lämmin ja pehmeä. Se on tuoretta."
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": "a1-8-mc-ex4",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-8/listening/ex4/Haluatko sinä lihapullia vai nakkia.mp3",
+            "options": [
+              "Haluatko sinä lihapulla vai nakki?",
+              "Haluatko sinä lihapullia vai nakkia?",
+              "Haluatko sinä lihapullia vai nakit?"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex4/Tänään Riitta leipoo kakkuja ja keksejä.mp3",
+            "options": [
+              "Tänään Riitta leipoo kakkuja ja keksit.",
+              "Tänään Riitta leipoo kakku ja keksiä.",
+              "Tänään Riitta leipoo kakkuja ja keksejä."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex4/Otatko Coca-Colaan jääpaloja.mp3",
+            "options": [
+              "Otatko Coca-Colassa jääpaloja?",
+              "Otatko Coca-Colaan jääpaloja?",
+              "Otatko Coca-Colaan jääpalat?"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex4/Kahvi ja tee ovat kuumia juomia.mp3",
+            "options": [
+              "Kahvi ja tee on kuumia juomia.",
+              "Kahvi ja tee ovat kuumia juoma.",
+              "Kahvi ja tee ovat kuumia juomia."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex4/Meillä on juhlat viikonloppuna Ostamme juustoja ja hedelmiä.mp3",
+            "options": [
+              "Meillä on juhlat viikonloppuna. Ostamme juustoja ja hedelmät.",
+              "Meillä on juhlat viikonloppuna. Ostamme juustoja ja hedelmiä.",
+              "Meillä on juhlat viikonloppuna. Ostamme juustoja ja hedelmä."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex4/Kesällä ostamme torilta herneitä ja marjoja.mp3",
+            "options": [
+              "Kesällä ostamme torilta herneitä ja marjoja.",
+              "Kesällä ostamme torilta herneitä ja marjat.",
+              "Kesällä ostamme torilta herne ja marjoja."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex4/Syntymäpäiväjuhlissa lapset syövät ranskalaisia perunoita ja hampurilaisia.mp3",
+            "options": [
+              "Syntymäpäiväjuhlissa lapset syö ranskalaisia perunoita ja hampurilaisia.",
+              "Syntymäpäiväjuhlissa lapset syövät ranskalaisia perunoita ja hampurilaiset.",
+              "Syntymäpäiväjuhlissa lapset syövät ranskalaisia perunoita ja hampurilaisia."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex4/Kulhossa on appelsiineja päärynöitä ja viinirypäleitä.mp3",
+            "options": [
+              "Kulhossa on appelsiineja, päärynöitä ja viinirypäleet.",
+              "Kulhossa on appelsiinit, päärynät ja viinirypäle.",
+              "Kulhossa on appelsiineja, päärynöitä ja viinirypäleitä."
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "a1-8-mc-ex5",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-8/listening/ex5/Illalla menemme ravintolaan Jukka ottaa pihviä perunoita ja kastikkeita.mp3",
+            "options": [
+              "Illalla menemme ravintolaan. Jukka ottaa pihviä, perunoita ja kastikkeita.",
+              "Illalla menemme ravintolassa. Jukka ottaa pihvi, peruna ja kastike.",
+              "Illalla menemme ravintolaan. Jukka ottaa pihvit, perunat ja kastikkeet."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex5/Kastike on tulista Minä otan kanaa ja riisiä.mp3",
+            "options": [
+              "Kastike on tulinen. Minä otan kana ja riisi.",
+              "Kastike on tulista. Minä otan kanaa ja riisiä.",
+              "Kastike on tulista. Minä otan kanaa ja riisi."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex5/Haluan myös salaattia.mp3",
+            "options": [
+              "Haluan myös salaatti.",
+              "Haluan myös salaattia.",
+              "Haluan myös salaattin."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex5/Kana on herkullista mutta en pidä salaatista.mp3",
+            "options": [
+              "Kana on herkullista, mutta en pidä salaatista.",
+              "Kana on herkullinen, mutta en pidä salaatti.",
+              "Kana on herkullista, mutta en pidä salaattia."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex5/Se ei ole tuoretta.mp3",
+            "options": [
+              "Se ei ole tuore.",
+              "Se ei ole tuoretta.",
+              "Se ei ole tuoreessa."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex5/Me juomme vettä ja punaviiniä.mp3",
+            "options": [
+              "Me juomme vettä ja punaviiniä.",
+              "Me juomme vesi ja punaviini.",
+              "Me juomme vettä ja punaviini."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex5/Viini on ranskalainen.mp3",
+            "options": [
+              "Viini on ranskalainen.",
+              "Viini on ranskalaista.",
+              "Viini on ranskassa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex5/Ruokalistalla on paljon erilaisia jälkiruokia.mp3",
+            "options": [
+              "Ruokalistalla on paljon erilaisia jälkiruokia.",
+              "Ruokalistassa on paljon erilaisia jälkiruokia.",
+              "Ruokalistalla on paljon erilaisia jälkiruoka."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex5/Jukka haluaa juustoja ja hedelmiä.mp3",
+            "options": [
+              "Jukka haluaa juustot ja hedelmät.",
+              "Jukka haluaa juustoja ja hedelmiä.",
+              "Jukka haluaa juustoja ja hedelmä."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex5/Minä tilaan marjoja ja vaniljajäätelöä.mp3",
+            "options": [
+              "Minä tilaan marjoja ja vaniljajäätelöä.",
+              "Minä tilaan marjat ja vaniljajäätelö.",
+              "Minä tilaan marjoja ja vaniljajäätelö."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex5/Sitten juomme vielä kahvia.mp3",
+            "options": [
+              "Sitten juomme vielä kahvi.",
+              "Sitten juomme vielä kahvia.",
+              "Sitten juomme vielä kahvit."
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": "a1-8-mc-ex7",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea päivämäärä",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/ensimmäinen tammikuuta.mp3",
+            "options": [
+              "ensimmäinen tammikuuta",
+              "toinen tammikuuta",
+              "kolmas tammikuuta"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/toinen helmikuuta.mp3",
+            "options": [
+              "ensimmäinen helmikuuta",
+              "toinen helmikuuta",
+              "kolmas helmikuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kolmas maaliskuuta.mp3",
+            "options": [
+              "toinen maaliskuuta",
+              "ensimmäinen maaliskuuta",
+              "kolmas maaliskuuta"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/neljäs huhtikuuta.mp3",
+            "options": [
+              "kolmas huhtikuuta",
+              "neljäs huhtikuuta",
+              "viides huhtikuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/viides toukokuuta.mp3",
+            "options": [
+              "neljäs toukokuuta",
+              "viides toukokuuta",
+              "kuudes toukokuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kuudes kesäkuuta.mp3",
+            "options": [
+              "viides kesäkuuta",
+              "kuudes kesäkuuta",
+              "seitsemäs kesäkuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/seitsemäs heinäkuuta.mp3",
+            "options": [
+              "kahdeksas heinäkuuta",
+              "seitsemäs heinäkuuta",
+              "kuudes heinäkuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kahdeksas elokuuta.mp3",
+            "options": [
+              "yhdeksäs elokuuta",
+              "kahdeksas elokuuta",
+              "seitsemäs elokuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/yhdeksäs syyskuuta.mp3",
+            "options": [
+              "kahdeksas syyskuuta",
+              "kymmenes syyskuuta",
+              "yhdeksäs syyskuuta"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kymmenes lokakuuta.mp3",
+            "options": [
+              "yhdeksäs lokakuuta",
+              "yhdestoista lokakuuta",
+              "kymmenes lokakuuta"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/yhdestoista marraskuuta.mp3",
+            "options": [
+              "kymmenes marraskuuta",
+              "yhdestoista marraskuuta",
+              "kahdestoista marraskuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kahdestoista joulukuuta.mp3",
+            "options": [
+              "yhdestoista joulukuuta",
+              "kahdestoista joulukuuta",
+              "kolmastoista joulukuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kolmastoista tammikuuta.mp3",
+            "options": [
+              "kahdestoista tammikuuta",
+              "neljästoista tammikuuta",
+              "kolmastoista tammikuuta"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/neljästoista helmikuuta.mp3",
+            "options": [
+              "kolmastoista helmikuuta",
+              "neljästoista helmikuuta",
+              "viidestoista helmikuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/viidestoista maaliskuuta.mp3",
+            "options": [
+              "neljästoista maaliskuuta",
+              "viidestoista maaliskuuta",
+              "kuudestoista maaliskuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kuudestoista huhtikuuta.mp3",
+            "options": [
+              "seitsemästoista huhtikuuta",
+              "kuudestoista huhtikuuta",
+              "viidestoista huhtikuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/seitsemästoista toukokuuta.mp3",
+            "options": [
+              "kuudestoista toukokuuta",
+              "seitsemästoista toukokuuta",
+              "kahdeksastoista toukokuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kahdeksastoista kesäkuuta.mp3",
+            "options": [
+              "seitsemästoista kesäkuuta",
+              "kahdeksastoista kesäkuuta",
+              "yhdeksästoista kesäkuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/yhdeksästoista heinäkuuta.mp3",
+            "options": [
+              "kahdeksastoista heinäkuuta",
+              "yhdeksästoista heinäkuuta",
+              "kahdeskymmenes heinäkuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kahdeskymmenes elokuuta.mp3",
+            "options": [
+              "yhdeksästoista elokuuta",
+              "kahdeskymmenes elokuuta",
+              "kahdeskymmenesensimmäinen elokuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kahdeskymmenesensimmäinen syyskuuta.mp3",
+            "options": [
+              "kahdeskymmenes syyskuuta",
+              "kahdeskymmenesensimmäinen syyskuuta",
+              "kahdeskymmenestoinen syyskuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kahdeskymmenestoinen lokakuuta.mp3",
+            "options": [
+              "kahdeskymmenesensimmäinen lokakuuta",
+              "kahdeskymmenestoinen lokakuuta",
+              "kahdeskymmeneskolmas lokakuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kahdeskymmeneskolmas marraskuuta.mp3",
+            "options": [
+              "kahdeskymmeneskolmas marraskuuta",
+              "kahdeskymmenesneljäs marraskuuta",
+              "kahdeskymmenesviides marraskuuta"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kahdeskymmenesneljäs joulukuuta.mp3",
+            "options": [
+              "kahdeskymmeneskolmas joulukuuta",
+              "kahdeskymmenesneljäs joulukuuta",
+              "kahdeskymmenesviides joulukuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kahdeskymmenesviides tammikuuta.mp3",
+            "options": [
+              "kahdeskymmenesneljäs tammikuuta",
+              "kahdeskymmenesviides tammikuuta",
+              "kahdeskymmeneskuudes tammikuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kahdeskymmeneskuudes helmikuuta.mp3",
+            "options": [
+              "kahdeskymmenesviides helmikuuta",
+              "kahdeskymmeneskuudes helmikuuta",
+              "kahdeskymmenesseitsemäs helmikuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kahdeskymmenesseitsemäs maaliskuuta.mp3",
+            "options": [
+              "kahdeskymmeneskuudes maaliskuuta",
+              "kahdeskymmenesseitsemäs maaliskuuta",
+              "kahdeskymmeneskahdeksas maaliskuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kahdeskymmeneskahdeksas huhtikuuta.mp3",
+            "options": [
+              "kahdeskymmenesseitsemäs huhtikuuta",
+              "kahdeskymmeneskahdeksas huhtikuuta",
+              "kahdeskymmenesyhdeksäs huhtikuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kahdeskymmenesyhdeksäs toukokuuta.mp3",
+            "options": [
+              "kahdeskymmeneskahdeksas toukokuuta",
+              "kahdeskymmenesyhdeksäs toukokuuta",
+              "kolmaskymmenes toukokuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kolmaskymmenes kesäkuuta.mp3",
+            "options": [
+              "kahdeskymmenesyhdeksäs kesäkuuta",
+              "kolmaskymmenes kesäkuuta",
+              "kolmaskymmenesensimmäinen kesäkuuta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex7/kolmaskymmenesensimmäinen heinäkuuta.mp3",
+            "options": [
+              "kolmaskymmenes heinäkuuta",
+              "kolmaskymmenesensimmäinen heinäkuuta",
+              "kolmaskymmenesensimmäinen elokuuta"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": "a1-8-mc-ex8",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-8/listening/ex8/Missä kahvinkeitin on.mp3",
+            "options": [
+              "Se on mikroaaltouunin vieressä.",
+              "Se on pöydällä.",
+              "Se on jääkaapin päällä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex8/Missä suola ja pippuri ovat.mp3",
+            "options": [
+              "Ne ovat pöydällä.",
+              "Ne ovat kaapissa.",
+              "Ne ovat lieden päällä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex8/Missä kynttilä on.mp3",
+            "options": [
+              "Se on ikkunan edessä.",
+              "Se on pöydällä.",
+              "Se on kaapissa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex8/Missä kissa on.mp3",
+            "options": [
+              "Kissa on sängyllä.",
+              "Kissa on pöydän alla.",
+              "Kissa on tuolilla."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex8/Missä haarukka on.mp3",
+            "options": [
+              "Haarukka on laatikossa.",
+              "Haarukka on pöydällä.",
+              "Haarukka on lautasen vieressä."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex8/Missä veitsi on.mp3",
+            "options": [
+              "Veitsi on lautasen vieressä.",
+              "Veitsi on kaapissa.",
+              "Veitsi on pöydällä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex8/Missä jääkaappi on.mp3",
+            "options": [
+              "Jääkaappi on oikealla puolella.",
+              "Jääkaappi on vasemmalla puolella.",
+              "Jääkaappi on nurkassa."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex8/Missä lapsi istuu.mp3",
+            "options": [
+              "Lapsi istuu lattialla.",
+              "Lapsi istuu tuolilla.",
+              "Lapsi istuu pöydällä."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex8/Missä lapsen lautanen on.mp3",
+            "options": [
+              "Lapsen lautanen on kaapissa.",
+              "Lapsen lautanen on pöydällä.",
+              "Lapsen lautanen on tuolilla."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex8/Missä kello on.mp3",
+            "options": [
+              "Kello on pöydällä.",
+              "Kello on seinällä.",
+              "Kello on ikkunan vieressä."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex8/Missä äiti on.mp3",
+            "options": [
+              "Äiti on pöydän ääressä.",
+              "Äiti on lieden ääressä.",
+              "Äiti on sängyssä."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex8/Mitä kahvikupin vieressä on.mp3",
+            "options": [
+              "Kahvikupin vieressä on veitsi.",
+              "Kahvikupin vieressä on haarukka.",
+              "Kahvikupin vieressä on lusikka."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex8/Mitä kahvikupin alla on.mp3",
+            "options": [
+              "Kahvikupin alla on pöytäliina.",
+              "Kahvikupin alla on tarjotin.",
+              "Kahvikupin alla on lautanen."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex8/Mitä jääkaapin päällä on.mp3",
+            "options": [
+              "Jääkaapin päällä on taulu.",
+              "Jääkaapin päällä on pulloja.",
+              "Jääkaapin päällä on kello."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex8/Mitä mikroaaltouunin vieressä on.mp3",
+            "options": [
+              "Mikroaaltouunin vieressä on kahvinkeitin.",
+              "Mikroaaltouunin vieressä on jääkaappi.",
+              "Mikroaaltouunin vieressä on liesi."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex8/Mitä ikkunan takana on.mp3",
+            "options": [
+              "Ikkunan takana on piha.",
+              "Ikkunan takana on katu.",
+              "Ikkunan takana on pöytä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex8/Mitä pöydän ympärillä on.mp3",
+            "options": [
+              "Pöydän ympärillä on tuoleja.",
+              "Pöydän ympärillä on lapsia.",
+              "Pöydän ympärillä on kasveja."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex8/Mitä leivän päällä on.mp3",
+            "options": [
+              "Leivän päällä on kinkkua.",
+              "Leivän päällä on juustoa.",
+              "Leivän päällä on tomaattia."
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": "a1-8-mc-ex9",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Minusta kahvi on hyvää.mp3",
+            "options": [
+              "Minusta kahvi on hyvä.",
+              "Minusta kahvi ei ole hyvää.",
+              "Minusta kahvi on hyvää."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Minusta sää on kylmä.mp3",
+            "options": [
+              "Minusta sää on kylmä.",
+              "Minusta sää on kylmää.",
+              "Minusta sää ei ole kylmä."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Minusta tämä elokuva on hauska.mp3",
+            "options": [
+              "Minusta tämä elokuva on hauskaa.",
+              "Minusta tämä elokuva ei ole hauska.",
+              "Minusta tämä elokuva on hauska."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Minusta suomalainen ruoka on maukasta.mp3",
+            "options": [
+              "Minusta suomalainen ruoka ei ole maukasta.",
+              "Minusta suomalainen ruoka on maukas.",
+              "Minusta suomalainen ruoka on maukasta."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Sinusta auto on liian kallis.mp3",
+            "options": [
+              "Sinusta auto on liian kallista.",
+              "Sinusta auto ei ole liian kallis.",
+              "Sinusta auto on liian kallis."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Onko Sinusta tämä ravintola on hyvä.mp3",
+            "options": [
+              "Onko sinusta tämä ravintola hyvä?",
+              "Onko sinusta tämä ravintola ei ole hyvä?",
+              "Onko sinusta tämä ravintola hyvää?"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Sinusta kurssi on mielenkiintoinen.mp3",
+            "options": [
+              "Sinusta kurssi ei ole mielenkiintoinen.",
+              "Sinusta kurssi on mielenkiintoista.",
+              "Sinusta kurssi on mielenkiintoinen."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Hänestä musiikki on tärkeää.mp3",
+            "options": [
+              "Hänestä musiikki ei ole tärkeää.",
+              "Hänestä musiikki on tärkeä.",
+              "Hänestä musiikki on tärkeää."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Onko Hänestä Helsinki on suuri.mp3",
+            "options": [
+              "Onko hänestä Helsinki ei ole suuri?",
+              "Onko hänestä Helsinki suurta?",
+              "Onko hänestä Helsinki suuri?"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Hänestä tämä opettaja on mukava.mp3",
+            "options": [
+              "Hänestä tämä opettaja ei ole mukava.",
+              "Hänestä tämä opettaja on mukavaa.",
+              "Hänestä tämä opettaja on mukava."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Meistä tämä paikka on rauhallinen.mp3",
+            "options": [
+              "Meistä tämä paikka on rauhallinen.",
+              "Meistä tämä paikka ei ole rauhallinen.",
+              "Meistä tämä paikka on rauhallista."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Meistä opiskelu on tärkeää.mp3",
+            "options": [
+              "Meistä opiskelu on tärkeä.",
+              "Meistä opiskelu on tärkeää.",
+              "Meistä opiskelu ei ole tärkeää."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Meistä tämä kahvila on viihtyisä.mp3",
+            "options": [
+              "Meistä tämä kahvila ei ole viihtyisä.",
+              "Meistä tämä kahvila on viihtyisä.",
+              "Meistä tämä kahvila on viihtyisää."
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Teistä tämä tehtävä on helppo.mp3",
+            "options": [
+              "Teistä tämä tehtävä on helppo.",
+              "Teistä tämä tehtävä on helppoa.",
+              "Teistä tämä tehtävä ei ole helppo."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Teistä talvi on kaunis vuodenaika.mp3",
+            "options": [
+              "Teistä talvi on kaunis vuodenaika.",
+              "Teistä talvi ei ole kaunis vuodenaika.",
+              "Teistä talvi on kaunista vuodenaikaa."
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Onko Teistä suomalaiset ovat ystävällisiä.mp3",
+            "options": [
+              "Onko teistä suomalaiset eivät ole ystävällisiä?",
+              "Onko teistä suomalaiset ovat ystävälliset?",
+              "Onko teistä suomalaiset ovat ystävällisiä?"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Heistä ruoka on liian suolaista.mp3",
+            "options": [
+              "Heistä ruoka ei ole liian suolaista.",
+              "Heistä ruoka on liian suolainen.",
+              "Heistä ruoka on liian suolaista."
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Onko Heistä opettaja on hyvä.mp3",
+            "options": [
+              "Onko heistä opettaja hyvä?",
+              "Onko heistä opettaja ei ole hyvä?",
+              "Onko heistä opettaja hyvää?"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-8/listening/ex9/Heistä tämä hotelli on kallis.mp3",
+            "options": [
+              "Heistä tämä hotelli ei ole kallis.",
+              "Heistä tämä hotelli on kallista.",
+              "Heistä tämä hotelli on kallis."
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    ]
+  }
+}

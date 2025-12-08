@@ -1,0 +1,49 @@
+{
+  "id": "B1-1",
+  "level": "B1",
+  "title": "В ресторане",
+  "premium": true,
+  "goal": {
+    "ru": "Научиться делать заказ и понимать меню",
+    "fi": "Oppia tilaamaan ja ymmärtämään ruokalistaa"
+  },
+  "topic": {
+    "ru": "Ресторан",
+    "fi": "Ravintola"
+  },
+  "vocabulary": [
+    {
+      "fi": "ravintola",
+      "translations": { "ru": "ресторан", "en": "restaurant" }
+    },
+    { "fi": "ruokalista", "translations": { "ru": "меню", "en": "menu" } }
+  ],
+  "grammar": {
+    "title": {
+      "ru": "Как вежливо заказать",
+      "fi": "Kuinka tilata kohteliaasti"
+    },
+    "examples": [
+      {
+        "fi": "Saisinko kahvia?",
+        "translations": {
+          "ru": "Можно мне кофе?",
+          "en": "Could I get some coffee?"
+        }
+      }
+    ]
+  },
+  "listening": {
+    "audioUrl": "",
+    "tasks": []
+  },
+  "speaking": [
+    {
+      "question": "Сделайте заказ в ресторане",
+      "options": [
+        "Haluaisin lohta ja perunoita.",
+        "Saisinko ruokalistan, kiitos."
+      ]
+    }
+  ]
+}

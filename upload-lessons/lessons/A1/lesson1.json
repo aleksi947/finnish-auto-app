@@ -1,0 +1,2206 @@
+{
+  "id": "A1-1",
+  "level": "A1",
+  "title": "Урок 1",
+  "premium": false,
+  "goal": {
+    "ru": "Поздороваться и представиться на финском",
+    "fi": "Tervehtiä ja esitellä itsensä suomeksi"
+  },
+  "topic": {
+    "ru": "Знакомство",
+    "fi": "Tuttavuus"
+  },
+  "vocabulary": {
+    "alphabet": {
+      "title": "Aakkoset – Финский алфавит",
+      "words": [
+        { "fi": "A", "translations": { "ru": "[aa]" } },
+        { "fi": "B", "translations": { "ru": "[bee]" } },
+        { "fi": "C", "translations": { "ru": "[see]" } },
+        { "fi": "D", "translations": { "ru": "[dee]" } },
+        { "fi": "E", "translations": { "ru": "[ee]" } },
+        { "fi": "F", "translations": { "ru": "[äf]" } },
+        { "fi": "G", "translations": { "ru": "[gee]" } },
+        { "fi": "H", "translations": { "ru": "[hoo]" } },
+        { "fi": "I", "translations": { "ru": "[ii]" } },
+        { "fi": "J", "translations": { "ru": "[jii]" } },
+        { "fi": "K", "translations": { "ru": "[koo]" } },
+        { "fi": "L", "translations": { "ru": "[äl]" } },
+        { "fi": "M", "translations": { "ru": "[äm]" } },
+        { "fi": "N", "translations": { "ru": "[än]" } },
+        { "fi": "O", "translations": { "ru": "[oo]" } },
+        { "fi": "P", "translations": { "ru": "[pee]" } },
+        { "fi": "Q", "translations": { "ru": "[kuu]" } },
+        { "fi": "R", "translations": { "ru": "[är]" } },
+        { "fi": "S", "translations": { "ru": "[äs]" } },
+        { "fi": "T", "translations": { "ru": "[tee]" } },
+        { "fi": "U", "translations": { "ru": "[uu]" } },
+        { "fi": "V", "translations": { "ru": "[vee]" } },
+        { "fi": "W", "translations": { "ru": "[kaksois-vee]" } },
+        { "fi": "X", "translations": { "ru": "[äks]" } },
+        { "fi": "Y", "translations": { "ru": "[yy]" } },
+        { "fi": "Z", "translations": { "ru": "[tseta]" } },
+        { "fi": "Å", "translations": { "ru": "[ruotsalainen oo]" } },
+        { "fi": "Ä", "translations": { "ru": "[ää]" } },
+        { "fi": "Ö", "translations": { "ru": "[öö]" } }
+      ]
+    },
+    "personal": {
+      "title": "Личные местоимения",
+      "words": [
+        {
+          "fi": "minä",
+          "translations": { "ru": "я", "en": "I" },
+          "audio": "/audio/A1-1/personal/minä.mp3"
+        },
+        {
+          "fi": "sinä",
+          "translations": { "ru": "ты", "en": "you" },
+          "audio": "/audio/A1-1/personal/sinä.mp3"
+        },
+        {
+          "fi": "hän",
+          "translations": { "ru": "он/она", "en": "he/she" },
+          "audio": "/audio/A1-1/personal/hän.mp3"
+        },
+        {
+          "fi": "me",
+          "translations": { "ru": "мы", "en": "we" },
+          "audio": "/audio/A1-1/personal/me.mp3"
+        },
+        {
+          "fi": "te",
+          "translations": { "ru": "вы", "en": "you" },
+          "audio": "/audio/A1-1/personal/te.mp3"
+        },
+        {
+          "fi": "he",
+          "translations": { "ru": "они", "en": "they" },
+          "audio": "/audio/A1-1/personal/he.mp3"
+        }
+      ]
+    },
+    "numbers": {
+      "title": "Числа",
+      "words": [
+        {
+          "fi": "yksi",
+          "translations": { "ru": "один", "en": "one" },
+          "audio": "/audio/A1-1/numbers/yksi.mp3"
+        },
+        {
+          "fi": "kaksi",
+          "translations": { "ru": "два", "en": "two" },
+          "audio": "/audio/A1-1/numbers/kaksi.mp3"
+        },
+        {
+          "fi": "kolme",
+          "translations": { "ru": "три", "en": "three" },
+          "audio": "/audio/A1-1/numbers/kolme.mp3"
+        },
+        {
+          "fi": "neljä",
+          "translations": { "ru": "четыре", "en": "four" },
+          "audio": "/audio/A1-1/numbers/neljä.mp3"
+        },
+        {
+          "fi": "viisi",
+          "translations": { "ru": "пять", "en": "five" },
+          "audio": "/audio/A1-1/numbers/viisi.mp3"
+        },
+        {
+          "fi": "kuusi",
+          "translations": { "ru": "шесть", "en": "six" },
+          "audio": "/audio/A1-1/numbers/kuusi.mp3"
+        },
+        {
+          "fi": "seitsemän",
+          "translations": { "ru": "семь", "en": "seven" },
+          "audio": "/audio/A1-1/numbers/seitsemän.mp3"
+        },
+        {
+          "fi": "kahdeksan",
+          "translations": { "ru": "восемь", "en": "eight" },
+          "audio": "/audio/A1-1/numbers/kahdeksan.mp3"
+        },
+        {
+          "fi": "yhdeksän",
+          "translations": { "ru": "девять", "en": "nine" },
+          "audio": "/audio/A1-1/numbers/yhdeksän.mp3"
+        },
+        {
+          "fi": "kymmenen",
+          "translations": { "ru": "десять", "en": "ten" },
+          "audio": "/audio/A1-1/numbers/kymmenen.mp3"
+        },
+        {
+          "fi": "yksitoista",
+          "translations": { "ru": "одиннадцать", "en": "eleven" },
+          "audio": "/audio/A1-1/numbers/yksitoista.mp3"
+        },
+        {
+          "fi": "kaksitoista",
+          "translations": { "ru": "двенадцать", "en": "twelve" },
+          "audio": "/audio/A1-1/numbers/kaksitoista.mp3"
+        },
+        {
+          "fi": "kolmetoista",
+          "translations": { "ru": "тринадцать", "en": "thirteen" },
+          "audio": "/audio/A1-1/numbers/kolmetoista.mp3"
+        },
+        {
+          "fi": "neljätoista",
+          "translations": { "ru": "четырнадцать", "en": "fourteen" },
+          "audio": "/audio/A1-1/numbers/neljätoista.mp3"
+        },
+        {
+          "fi": "viisitoista",
+          "translations": { "ru": "пятнадцать", "en": "fifteen" },
+          "audio": "/audio/A1-1/numbers/viisitoista.mp3"
+        },
+        {
+          "fi": "kuusitoista",
+          "translations": { "ru": "шестнадцать", "en": "sixteen" },
+          "audio": "/audio/A1-1/numbers/kuusitoista.mp3"
+        },
+        {
+          "fi": "seitsemäntoista",
+          "translations": { "ru": "семнадцать", "en": "seventeen" },
+          "audio": "/audio/A1-1/numbers/seitsemäntoista.mp3"
+        },
+        {
+          "fi": "kahdeksantoista",
+          "translations": { "ru": "восемнадцать", "en": "eighteen" },
+          "audio": "/audio/A1-1/numbers/kahdeksantoista.mp3"
+        },
+        {
+          "fi": "yhdeksäntoista",
+          "translations": { "ru": "девятнадцать", "en": "nineteen" },
+          "audio": "/audio/A1-1/numbers/yhdeksäntoista.mp3"
+        },
+        {
+          "fi": "kaksikymmentä",
+          "translations": { "ru": "двадцать", "en": "twenty" },
+          "audio": "/audio/A1-1/numbers/kaksikymmentä.mp3"
+        },
+        {
+          "fi": "kaksikymmentäyksi",
+          "translations": { "ru": "двадцать один", "en": "twenty-one" },
+          "audio": "/audio/A1-1/numbers/kaksikymmentäyksi.mp3"
+        },
+        {
+          "fi": "kaksikymmentäkaksi",
+          "translations": { "ru": "двадцать два", "en": "twenty-two" },
+          "audio": "/audio/A1-1/numbers/kaksikymmentäkaksi.mp3"
+        },
+        {
+          "fi": "kaksikymmentäkolme",
+          "translations": { "ru": "двадцать три", "en": "twenty-three" },
+          "audio": "/audio/A1-1/numbers/kaksikymmentäkolme.mp3"
+        },
+        {
+          "fi": "kaksikymmentäneljä",
+          "translations": { "ru": "двадцать четыре", "en": "twenty-four" },
+          "audio": "/audio/A1-1/numbers/kaksikymmentäneljä.mp3"
+        },
+        {
+          "fi": "kaksikymmentäviisi",
+          "translations": { "ru": "двадцать пять", "en": "twenty-five" },
+          "audio": "/audio/A1-1/numbers/kaksikymmentäviisi.mp3"
+        },
+        {
+          "fi": "kaksikymmentäkuusi",
+          "translations": { "ru": "двадцать шесть", "en": "twenty-six" },
+          "audio": "/audio/A1-1/numbers/kaksikymmentäkuusi.mp3"
+        },
+        {
+          "fi": "kaksikymmentäseitsemän",
+          "translations": { "ru": "двадцать семь", "en": "twenty-seven" },
+          "audio": "/audio/A1-1/numbers/kaksikymmentäseitsemän.mp3"
+        },
+        {
+          "fi": "kaksikymmentäkahdeksan",
+          "translations": { "ru": "двадцать восемь", "en": "twenty-eight" },
+          "audio": "/audio/A1-1/numbers/kaksikymmentäkahdeksan.mp3"
+        },
+        {
+          "fi": "kaksikymmentäyhdeksän",
+          "translations": { "ru": "двадцать девять", "en": "twenty-nine" },
+          "audio": "/audio/A1-1/numbers/kaksikymmentäyhdeksän.mp3"
+        },
+        {
+          "fi": "kolmekymmentä",
+          "translations": { "ru": "тридцать", "en": "thirty" },
+          "audio": "/audio/A1-1/numbers/kolmekymmentä.mp3"
+        },
+        {
+          "fi": "neljäkymmentä",
+          "translations": { "ru": "сорок", "en": "forty" },
+          "audio": "/audio/A1-1/numbers/neljäkymmentä.mp3"
+        },
+        {
+          "fi": "viisikymmentä",
+          "translations": { "ru": "пятьдесят", "en": "fifty" },
+          "audio": "/audio/A1-1/numbers/viisikymmentä.mp3"
+        },
+        {
+          "fi": "kuusikymmentä",
+          "translations": { "ru": "шестьдесят", "en": "sixty" },
+          "audio": "/audio/A1-1/numbers/kuusikymmentä.mp3"
+        },
+        {
+          "fi": "seitsemänkymmentä",
+          "translations": { "ru": "семьдесят", "en": "seventy" },
+          "audio": "/audio/A1-1/numbers/seitsemänkymmentä.mp3"
+        },
+        {
+          "fi": "kahdeksankymmentä",
+          "translations": { "ru": "восемьдесят", "en": "eighty" },
+          "audio": "/audio/A1-1/numbers/kahdeksankymmentä.mp3"
+        },
+        {
+          "fi": "yhdeksänkymmentä",
+          "translations": { "ru": "девяносто", "en": "ninety" },
+          "audio": "/audio/A1-1/numbers/yhdeksänkymmentä.mp3"
+        },
+        {
+          "fi": "sata",
+          "translations": { "ru": "сто", "en": "hundred" },
+          "audio": "/audio/A1-1/numbers/sata.mp3"
+        },
+        {
+          "fi": "kaksi sataa",
+          "translations": { "ru": "двести", "en": "two hundred" },
+          "audio": "/audio/A1-1/numbers/kaksi sataa.mp3"
+        },
+        {
+          "fi": "tuhat",
+          "translations": { "ru": "тысяча", "en": "thousand" },
+          "audio": "/audio/A1-1/numbers/tuhat.mp3"
+        },
+        {
+          "fi": "kaksi tuhatta",
+          "translations": { "ru": "две тысячи", "en": "two thousand" },
+          "audio": "/audio/A1-1/numbers/kaksi tuhatta.mp3"
+        },
+        {
+          "fi": "miljoona",
+          "translations": { "ru": "миллион", "en": "million" },
+          "audio": "/audio/A1-1/numbers/miljoona.mp3"
+        },
+        {
+          "fi": "kaksi miljoonaa",
+          "translations": { "ru": "два миллиона", "en": "two million" },
+          "audio": "/audio/A1-1/numbers/kaksi miljoonaa.mp3"
+        }
+      ]
+    },
+
+    "common": {
+      "title": "Общие",
+      "words": [
+        {
+          "fi": "ja",
+          "translations": { "ru": "и", "en": "and" },
+          "audio": "/audio/A1-1/common/ja.mp3"
+        },
+        {
+          "fi": "uusi",
+          "translations": { "ru": "новый", "en": "new" },
+          "audio": "/audio/A1-1/common/uusi.mp3"
+        },
+        {
+          "fi": "onko",
+          "translations": { "ru": "есть ли", "en": "is there" },
+          "audio": "/audio/A1-1/common/onko.mp3"
+        },
+        {
+          "fi": "täällä",
+          "translations": { "ru": "здесь", "en": "here" },
+          "audio": "/audio/A1-1/common/täällä.mp3"
+        },
+        {
+          "fi": "suomen kurssi",
+          "translations": { "ru": "курс финского", "en": "Finnish course" },
+          "audio": "/audio/A1-1/common/suomen kurssi.mp3"
+        },
+        {
+          "fi": "suomen kieli",
+          "translations": { "ru": "финский язык", "en": "Finnish language" },
+          "audio": "/audio/A1-1/common/suomen kieli.mp3"
+        },
+        {
+          "fi": "suomen kurssilla",
+          "translations": {
+            "ru": "на курсе финского",
+            "en": "on the Finnish course"
+          },
+          "audio": "/audio/A1-1/common/suomen kurssilla.mp3"
+        },
+        {
+          "fi": "ystävät",
+          "translations": { "ru": "друзья", "en": "friends" },
+          "audio": "/audio/A1-1/common/ystävät.mp3"
+        },
+        {
+          "fi": "joo",
+          "translations": { "ru": "да(разговорное)", "en": "yes" },
+          "audio": "/audio/A1-1/common/joo.mp3"
+        },
+        {
+          "fi": "ei",
+          "translations": { "ru": "нет", "en": "no" },
+          "audio": "/audio/A1-1/common/ei.mp3"
+        },
+        {
+          "fi": "Kuka sinä olet?",
+          "translations": { "ru": "Кто ты?", "en": "Who are you?" },
+          "audio": "/audio/A1-1/common/Kuka sinä olet.mp3"
+        },
+        {
+          "fi": "olla",
+          "translations": { "ru": "быть", "en": "to be" },
+          "audio": "/audio/A1-1/common/olla.mp3"
+        },
+        {
+          "fi": "entä",
+          "translations": { "ru": "а", "en": "and what about" },
+          "audio": "/audio/A1-1/common/entä.mp3"
+        },
+        {
+          "fi": "Mitä sinulle kuuluu?",
+          "translations": { "ru": "Как у тебя дела?", "en": "How are you?" },
+          "audio": "/audio/A1-1/common/Mitä sinulle kuuluu.mp3"
+        },
+        {
+          "fi": "Minulle kuuluu hyvää.",
+          "translations": {
+            "ru": "У меня всё хорошо.",
+            "en": "I'm doing well."
+          },
+          "audio": "/audio/A1-1/common/Minulle kuuluu hyvää.mp3"
+        },
+        {
+          "fi": "Entä sinulle?",
+          "translations": { "ru": "А у тебя?", "en": "And you?" },
+          "audio": "/audio/A1-1/common/Entä sinulle.mp3"
+        },
+        {
+          "fi": "Ihan hyvää, kiitos.",
+          "translations": {
+            "ru": "Всё хорошо, спасибо.",
+            "en": "I'm fine, thanks."
+          },
+          "audio": "/audio/A1-1/common/Ihan hyvää, kiitos.mp3"
+        },
+        {
+          "fi": "Kuinka vanha sinä olet?",
+          "translations": {
+            "ru": "Сколько тебе лет?",
+            "en": "How old are you?"
+          },
+          "audio": "/audio/A1-1/common/Kuinka vanha sinä olet.mp3"
+        },
+        {
+          "fi": "opettaja",
+          "translations": { "ru": "учитель", "en": "teacher" },
+          "audio": "/audio/A1-1/common/opettaja.mp3"
+        },
+        {
+          "fi": "opiskelija",
+          "translations": { "ru": "студент", "en": "student" },
+          "audio": "/audio/A1-1/common/opiskelija.mp3"
+        },
+        {
+          "fi": "tulla",
+          "translations": { "ru": "приходить", "en": "to come" },
+          "audio": "/audio/A1-1/common/tulla.mp3"
+        },
+        {
+          "fi": "Mikä sinun nimi on?",
+          "translations": {
+            "ru": "Как тебя зовут?",
+            "en": "What's your name?"
+          },
+          "audio": "/audio/A1-1/common/Mikä sinun nimi on.mp3"
+        },
+        {
+          "fi": "Minun nimi on...",
+          "translations": { "ru": "Меня зовут...", "en": "My name is..." },
+          "audio": "/audio/A1-1/common/Minun nimi on.mp3"
+        },
+        {
+          "fi": "kyllä",
+          "translations": { "ru": "да(официальное)", "en": "yes" },
+          "audio": "/audio/A1-1/common/kyllä.mp3"
+        },
+        {
+          "fi": "etunimi",
+          "translations": { "ru": "имя", "en": "first name" },
+          "audio": "/audio/A1-1/common/etunimi.mp3"
+        },
+        {
+          "fi": "sukunimi",
+          "translations": { "ru": "фамилия", "en": "surname" },
+          "audio": "/audio/A1-1/common/sukunimi.mp3"
+        },
+        {
+          "fi": "kotona",
+          "translations": { "ru": "дома", "en": "at home" },
+          "audio": "/audio/A1-1/common/kotona.mp3"
+        },
+        {
+          "fi": "kirja",
+          "translations": { "ru": "книга", "en": "book" },
+          "audio": "/audio/A1-1/common/kirja.mp3"
+        },
+        {
+          "fi": "kirjat",
+          "translations": { "ru": "книги", "en": "books" },
+          "audio": "/audio/A1-1/common/kirjat.mp3"
+        },
+        {
+          "fi": "Suomessa",
+          "translations": { "ru": "в Финляндии", "en": "in Finland" },
+          "audio": "/audio/A1-1/common/Suomessa.mp3"
+        }
+      ]
+    },
+
+    "greetings": {
+      "title": "Приветствия, прощания и вежливые слова",
+      "words": [
+        {
+          "fi": "Huomenta!",
+          "translations": { "ru": "Доброе утро!", "en": "Morning!" },
+          "audio": "/audio/A1-1/greetings/Huomenta!.mp3"
+        },
+        {
+          "fi": "Hyvää huomenta!",
+          "translations": { "ru": "Доброе утро!", "en": "Good morning!" },
+          "audio": "/audio/A1-1/greetings/Hyvää huomenta!.mp3"
+        },
+        {
+          "fi": "Päivää!",
+          "translations": { "ru": "День добрый!", "en": "Day!" },
+          "audio": "/audio/A1-1/greetings/Päivää!.mp3"
+        },
+        {
+          "fi": "Hyvää päivää!",
+          "translations": { "ru": "Добрый день!", "en": "Good afternoon!" },
+          "audio": "/audio/A1-1/greetings/Hyvää päivää!.mp3"
+        },
+        {
+          "fi": "Iltaa!",
+          "translations": { "ru": "Добрый вечер!", "en": "Evening!" },
+          "audio": "/audio/A1-1/greetings/Iltaa!.mp3"
+        },
+        {
+          "fi": "Hyvää iltaa!",
+          "translations": { "ru": "Добрый вечер!", "en": "Good evening!" },
+          "audio": "/audio/A1-1/greetings/Hyvää iltaa!.mp3"
+        },
+        {
+          "fi": "Hyvää yötä!",
+          "translations": { "ru": "Спокойной ночи!", "en": "Good night!" },
+          "audio": "/audio/A1-1/greetings/Hyvää yötä!.mp3"
+        },
+        {
+          "fi": "Nuku hyvin!",
+          "translations": { "ru": "Спи хорошо!", "en": "Sleep well!" },
+          "audio": "/audio/A1-1/greetings/Nuku hyvin!.mp3"
+        },
+        {
+          "fi": "Hei!",
+          "translations": { "ru": "Привет!", "en": "Hi!" },
+          "audio": "/audio/A1-1/greetings/Hei!.mp3"
+        },
+        {
+          "fi": "Moi!",
+          "translations": { "ru": "Привет!", "en": "Hi!" },
+          "audio": "/audio/A1-1/greetings/Moi!.mp3"
+        },
+        {
+          "fi": "Terve!",
+          "translations": { "ru": "Здравствуйте!", "en": "Hello!" },
+          "audio": "/audio/A1-1/greetings/Terve!.mp3"
+        },
+        {
+          "fi": "Moikka!",
+          "translations": { "ru": "Пока!", "en": "Bye!" },
+          "audio": "/audio/A1-1/greetings/Moikka!.mp3"
+        },
+        {
+          "fi": "Moi moi!",
+          "translations": { "ru": "Пока-пока!", "en": "Bye bye!" },
+          "audio": "/audio/A1-1/greetings/Moi moi!.mp3"
+        },
+        {
+          "fi": "Hei hei!",
+          "translations": { "ru": "Пока!", "en": "Bye!" },
+          "audio": "/audio/A1-1/greetings/Hei hei!.mp3"
+        },
+        {
+          "fi": "Heippa!",
+          "translations": { "ru": "Пока!", "en": "Bye!" },
+          "audio": "/audio/A1-1/greetings/Heippa!.mp3"
+        },
+        {
+          "fi": "Nähdään!",
+          "translations": { "ru": "Увидимся!", "en": "See you!" },
+          "audio": "/audio/A1-1/greetings/Nähdään!.mp3"
+        },
+        {
+          "fi": "Nähdään huomenna!",
+          "translations": {
+            "ru": "Увидимся завтра!",
+            "en": "See you tomorrow!"
+          },
+          "audio": "/audio/A1-1/greetings/Nähdään huomenna!.mp3"
+        },
+        {
+          "fi": "Näkemiin!",
+          "translations": { "ru": "До свидания!", "en": "Goodbye!" },
+          "audio": "/audio/A1-1/greetings/Näkemiin!.mp3"
+        },
+        {
+          "fi": "Kiitos!",
+          "translations": { "ru": "Спасибо!", "en": "Thank you!" },
+          "audio": "/audio/A1-1/greetings/Kiitos!.mp3"
+        },
+        {
+          "fi": "Ole hyvä!",
+          "translations": { "ru": "Пожалуйста!", "en": "You're welcome!" },
+          "audio": "/audio/A1-1/greetings/Ole hyvä!.mp3"
+        },
+        {
+          "fi": "Ei kestä!",
+          "translations": { "ru": "Не за что!", "en": "No problem!" },
+          "audio": "/audio/A1-1/greetings/Ei kestä!.mp3"
+        },
+        {
+          "fi": "Anteeksi!",
+          "translations": { "ru": "Извините!", "en": "Sorry!" },
+          "audio": "/audio/A1-1/greetings/Anteeksi!.mp3"
+        },
+        {
+          "fi": "Ei se mitään!",
+          "translations": { "ru": "Ничего страшного!", "en": "It's okay!" },
+          "audio": "/audio/A1-1/greetings/Ei se mitään!.mp3"
+        },
+        {
+          "fi": "Tervetuloa!",
+          "translations": { "ru": "Добро пожаловать!", "en": "Welcome!" },
+          "audio": "/audio/A1-1/greetings/Tervetuloa!.mp3"
+        },
+        {
+          "fi": "Hauska tutustua!",
+          "translations": {
+            "ru": "Приятно познакомиться!",
+            "en": "Nice to meet you!"
+          },
+          "audio": "/audio/A1-1/greetings/Hauska tutustua!.mp3"
+        },
+        {
+          "fi": "Kiitos, samoin!",
+          "translations": {
+            "ru": "Спасибо, взаимно!",
+            "en": "Thanks, same to you!"
+          },
+          "audio": "/audio/A1-1/greetings/Kiitos, samoin!.mp3"
+        }
+      ]
+    },
+
+    "weekdays": {
+      "title": "Дни недели",
+      "words": [
+        {
+          "fi": "maanantai",
+          "translations": { "ru": "понедельник", "en": "Monday" },
+          "audio": "/audio/A1-1/weekdays/maanantai.mp3"
+        },
+        {
+          "fi": "tiistai",
+          "translations": { "ru": "вторник", "en": "Tuesday" },
+          "audio": "/audio/A1-1/weekdays/tiistai.mp3"
+        },
+        {
+          "fi": "keskiviikko",
+          "translations": { "ru": "среда", "en": "Wednesday" },
+          "audio": "/audio/A1-1/weekdays/keskiviikko.mp3"
+        },
+        {
+          "fi": "torstai",
+          "translations": { "ru": "четверг", "en": "Thursday" },
+          "audio": "/audio/A1-1/weekdays/torstai.mp3"
+        },
+        {
+          "fi": "perjantai",
+          "translations": { "ru": "пятница", "en": "Friday" },
+          "audio": "/audio/A1-1/weekdays/perjantai.mp3"
+        },
+        {
+          "fi": "lauantai",
+          "translations": { "ru": "суббота", "en": "Saturday" },
+          "audio": "/audio/A1-1/weekdays/lauantai.mp3"
+        },
+        {
+          "fi": "sunnuntai",
+          "translations": { "ru": "воскресенье", "en": "Sunday" },
+          "audio": "/audio/A1-1/weekdays/sunnuntai.mp3"
+        },
+        {
+          "fi": "toissapäivänä",
+          "translations": {
+            "ru": "позавчера",
+            "en": "the day before yesterday"
+          },
+          "audio": "/audio/A1-1/weekdays/toissapäivänä.mp3"
+        },
+        {
+          "fi": "eilen",
+          "translations": { "ru": "вчера", "en": "yesterday" },
+          "audio": "/audio/A1-1/weekdays/eilen.mp3"
+        },
+
+        {
+          "fi": "tänään",
+          "translations": { "ru": "сегодня", "en": "today" },
+          "audio": "/audio/A1-1/weekdays/tänään.mp3"
+        },
+        {
+          "fi": "huomenna",
+          "translations": { "ru": "завтра", "en": "tomorrow" },
+          "audio": "/audio/A1-1/weekdays/huomenna.mp3"
+        },
+        {
+          "fi": "ylihuomenna",
+          "translations": {
+            "ru": "послезавтра",
+            "en": "the day after tomorrow"
+          },
+          "audio": "/audio/A1-1/weekdays/ylihuomenna.mp3"
+        }
+      ]
+    }
+  },
+
+  "grammar": {
+    "sections": [
+      {
+        "id": "olla",
+        "title": { "ru": "Глагол olla", "fi": "Verbi olla" },
+        "explanation": {},
+
+        "exercises": [
+          {
+            "id": "olla-1",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": { "ru": "✅ Утвердительная форма глагола olla" },
+
+              "intro": {
+                "ru": "Глагол **olla** — это связка «быть». Она нужна, когда мы говорим, кто кем является или где находится.\n\n❌ Minä opiskelija\n✅ Minä **olen** opiskelija (Я есть студент).\n\n👉 Если в предложении уже есть другой глагол (например *mennä* — идти), то второй глагол **olla** не нужен:\n*Minä menen kouluun.* — Я иду в школу."
+              },
+
+              "conjugationExamples": [
+                {
+                  "title": { "ru": "Схема спряжения **olla**" },
+                  "rows": [
+                    { "person": "minä", "form": "olen", "ru": "я есть" },
+                    { "person": "sinä", "form": "olet", "ru": "ты есть" },
+                    { "person": "hän", "form": "on", "ru": "он/она есть" },
+                    { "person": "me", "form": "olemme", "ru": "мы есть" },
+                    { "person": "te", "form": "olette", "ru": "вы есть" },
+                    { "person": "he", "form": "ovat", "ru": "они есть" },
+                    { "person": "se", "form": "on", "ru": "это есть (ед.ч.)" },
+                    { "person": "ne", "form": "ovat", "ru": "это есть (мн.ч.)" }
+                  ],
+                  "hint": "Формы **se**/**ne** используются для предметов и животных: **se on** / **ne ovat**."
+                }
+              ],
+
+              "conjugationTables": [
+                {
+                  "title": {
+                    "ru": "Спряжение **olla** с примерами и переводом"
+                  },
+                  "columns": ["Лицо", "Форма", "Пример", "Перевод"],
+                  "rows": [
+                    {
+                      "person": "minä (я)",
+                      "form": "olen",
+                      "example": "Minä olen kotona.",
+                      "translation": { "ru": "Я дома." }
+                    },
+                    {
+                      "person": "sinä (ты)",
+                      "form": "olet",
+                      "example": "Sinä olet ystävä.",
+                      "translation": { "ru": "Ты друг." }
+                    },
+                    {
+                      "person": "hän (он/она)",
+                      "form": "on",
+                      "example": "Hän on opettaja.",
+                      "translation": { "ru": "Он/она учитель." }
+                    },
+                    {
+                      "person": "me (мы)",
+                      "form": "olemme",
+                      "example": "Me olemme kotona.",
+                      "translation": { "ru": "Мы дома." }
+                    },
+                    {
+                      "person": "te (вы)",
+                      "form": "olette",
+                      "example": "Te olette ystävät.",
+                      "translation": { "ru": "Вы друзья." }
+                    },
+                    {
+                      "person": "he (они)",
+                      "form": "ovat",
+                      "example": "He ovat opiskelijat.",
+                      "translation": { "ru": "Они студенты." }
+                    },
+                    {
+                      "person": "se (это/он/она — про предмет/животное)",
+                      "form": "on",
+                      "example": "Se on kirja.",
+                      "translation": { "ru": "Это книга." }
+                    },
+                    {
+                      "person": "ne (они — про предметы/животные)",
+                      "form": "ovat",
+                      "example": "Ne ovat talot.",
+                      "translation": { "ru": "Это дома." }
+                    }
+                  ]
+                }
+              ],
+
+              "note": {
+                "title": { "ru": "О местоимениях и их использовании" },
+                "body": {
+                  "ru": "В финском глагол показывает лицо, поэтому местоимения **minä**, **sinä**, **me**, **te** можно опускать: *Olen kotona.* — «(Я) дома», *Olet ystävä.* — «(Ты) друг».\n\nДля **hän** и **he** местоимение обычно пишут, чтобы не было путаницы: *Hän on opettaja.* — «Он/она учитель».\n\n**hän** — «он/она» (в финском нет деления по полу).\n**se** — «это/оно» для предметов или животных.\n**ne** — «они» для предметов или животных."
+                },
+                "examples": [
+                  { "fi": "Olen kotona.", "ru": "(Я) дома." },
+                  { "fi": "Olet ystävä.", "ru": "(Ты) друг." },
+                  { "fi": "Hän on opettaja.", "ru": "Он/она учитель." },
+                  {
+                    "fi": "Minä menen kouluun.",
+                    "ru": "Я иду в школу. (без olla)"
+                  }
+                ]
+              }
+            },
+            "instruction": {
+              "ru": "Вставь недостающее окончание глагола olla (быть). Смотри на местоимение и допиши правильную форму: minä ole___ → olen."
+            },
+
+            "items": [
+              {
+                "sentence": "Minä ole___",
+                "answer": "n",
+                "translation": "Я есть",
+                "feedbackCorrect": "✅ Minä olen — Для 1-го лица единственного числа (minä) используется форма olen.",
+                "feedbackWrong": "❌ Minä olen — Для 1-го лица единственного числа (minä) используется форма olen."
+              },
+              {
+                "sentence": "Sinä ole___",
+                "answer": "t",
+                "translation": "Ты есть",
+                "feedbackCorrect": "✅ Sinä olet — Для 2-го лица единственного числа (sinä) используется форма olet.",
+                "feedbackWrong": "❌ Sinä olet — Для 2-го лица единственного числа (sinä) используется форма olet."
+              },
+              {
+                "sentence": "Hän o___",
+                "answer": "n",
+                "translation": "Он/она есть",
+                "feedbackCorrect": "✅ Hän on — Для 3-го лица единственного числа (hän) используется форма on.",
+                "feedbackWrong": "❌ Hän on — Для 3-го лица единственного числа (hän) используется форма on."
+              },
+              {
+                "sentence": "Me ole___",
+                "answer": "mme",
+                "translation": "Мы есть",
+                "feedbackCorrect": "✅ Me olemme — Для 1-го лица множественного числа (me) используется форма olemme.",
+                "feedbackWrong": "❌ Me olemme — Для 1-го лица множественного числа (me) используется форма olemme."
+              },
+              {
+                "sentence": "Te ole___",
+                "answer": "tte",
+                "translation": "Вы есть",
+                "feedbackCorrect": "✅ Te olette — Для 2-го лица множественного числа (te) используется форма olette.",
+                "feedbackWrong": "❌ Te olette — Для 2-го лица множественного числа (te) используется форма olette."
+              },
+              {
+                "sentence": "He ova___",
+                "answer": "t",
+                "translation": "Они есть (люди)",
+                "feedbackCorrect": "✅ He ovat — Для 3-го лица множественного числа (he) используется форма ovat.",
+                "feedbackWrong": "❌ He ovat — Для 3-го лица множественного числа (he) используется форма ovat."
+              },
+              {
+                "sentence": "Se o___",
+                "answer": "n",
+                "translation": "Это есть / он/она (о предмете/животном)",
+                "feedbackCorrect": "✅ Se on — Местоимение se спрягается так же, как hän, поэтому используется форма on.",
+                "feedbackWrong": "❌ Se on — Местоимение se спрягается так же, как hän, поэтому используется форма on."
+              },
+              {
+                "sentence": "Ne ova___",
+                "answer": "t",
+                "translation": "Они есть (предметы/животные)",
+                "feedbackCorrect": "✅ Ne ovat — Местоимение ne спрягается как he, поэтому используется форма ovat.",
+                "feedbackWrong": "❌ Ne ovat — Местоимение ne спрягается как he, поэтому используется форма ovat."
+              }
+            ]
+          },
+
+          {
+            "id": "olla-negative",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": { "ru": "🚫 Отрицание глагола olla" },
+
+              "intro": {
+                "ru": "В финском отрицание строится так:\n**местоимение + отрицательный глагол (ei) + форма _ole_**.\n\n📌 Схема по лицам:\n- Я → **minä + en + ole**\n- Ты → **sinä + et + ole**\n- Он/она → **hän + ei + ole**\n- Мы → **me + emme + ole**\n- Вы → **te + ette + ole**\n- Они → **he + eivät + ole**\n\n👉 **ei** изменяется по лицам, а **olla** всегда превращается в одинаковую форму **ole**."
+              },
+
+              "negativeParticles": {
+                "title": { "ru": "Форма отрицательного глагола (ei) по лицам" },
+                "rows": [
+                  { "person": "minä", "form": "en ole" },
+                  { "person": "sinä", "form": "et ole" },
+                  { "person": "hän", "form": "ei ole" },
+                  { "person": "me", "form": "emme ole" },
+                  { "person": "te", "form": "ette ole" },
+                  { "person": "he", "form": "eivät ole" }
+                ]
+              },
+
+              "conjugationTables": [
+                {
+                  "title": { "ru": "Таблица отрицания olla с примерами" },
+                  "columns": ["Лицо", "Форма", "Пример", "Перевод"],
+                  "rows": [
+                    {
+                      "person": "minä (я)",
+                      "form": "en ole",
+                      "example": "En ole kotona.",
+                      "translation": { "ru": "Я не дома." }
+                    },
+                    {
+                      "person": "sinä (ты)",
+                      "form": "et ole",
+                      "example": "Et ole opiskelija.",
+                      "translation": { "ru": "Ты не студент." }
+                    },
+                    {
+                      "person": "hän (он/она)",
+                      "form": "ei ole",
+                      "example": "Hän ei ole opettaja.",
+                      "translation": { "ru": "Он/она не учитель." }
+                    },
+                    {
+                      "person": "me (мы)",
+                      "form": "emme ole",
+                      "example": "Emme ole ystävät.",
+                      "translation": { "ru": "Мы не друзья." }
+                    },
+                    {
+                      "person": "te (вы)",
+                      "form": "ette ole",
+                      "example": "Ette ole valmiit.",
+                      "translation": { "ru": "Вы не готовы." }
+                    },
+                    {
+                      "person": "he (они)",
+                      "form": "eivät ole",
+                      "example": "He eivät ole täällä.",
+                      "translation": { "ru": "Они не здесь." }
+                    }
+                  ]
+                }
+              ],
+
+              "note": {
+                "title": { "ru": "Итог и важное замечание" },
+                "body": {
+                  "ru": "Всегда используем форму **ei** по лицам + **ole**. Само **ole** не меняется.\n\nМестоимения **minä**, **sinä**, **me**, **te** можно опускать, так как форма отрицательного глагола уже указывает лицо. Но **hän** и **he** лучше писать, чтобы было понятно, о ком речь."
+                },
+                "examples": [
+                  { "fi": "En ole kotona.", "ru": "(Я) не дома." },
+                  { "fi": "Et ole opiskelija.", "ru": "(Ты) не студент." },
+                  { "fi": "Hän ei ole opettaja.", "ru": "Он/она не учитель." }
+                ]
+              },
+
+              "summary": {
+                "title": { "ru": "Вывод" },
+                "body": {
+                  "ru": "Отрицание с **olla**: **ei** (по лицам) + **ole**. Пример: *me emme ole*, *he eivät ole*."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "✍️ Заполни пропуск правильной формой отрицания глагола olla. Используй местоимение + нужную форму «ei» + «ole»."
+            },
+
+            "items": [
+              {
+                "sentence": "Minä ___",
+                "answer": "en ole",
+                "translation": "Я не (есть)",
+                "feedbackCorrect": "✅ Отлично! Minä en ole — правильная форма для «я не».",
+                "feedbackWrong": "❌ Неправильно. Верно: Minä en ole."
+              },
+              {
+                "sentence": "Sinä ___",
+                "answer": "et ole",
+                "translation": "Ты не (есть)",
+                "feedbackCorrect": "✅ Верно! Sinä et ole — правильная форма для «ты не».",
+                "feedbackWrong": "❌ Ошибка. Нужно: Sinä et ole."
+              },
+              {
+                "sentence": "Hän ___",
+                "answer": "ei ole",
+                "translation": "Он/она не (есть)",
+                "feedbackCorrect": "✅ Молодец! Hän ei ole — правильная форма для «он/она не».",
+                "feedbackWrong": "❌ Нет. Верно: Hän ei ole."
+              },
+              {
+                "sentence": "Me ___",
+                "answer": "emme ole",
+                "translation": "Мы не (есть)",
+                "feedbackCorrect": "✅ Отличная работа! Me emme ole — правильная форма для «мы не».",
+                "feedbackWrong": "❌ Попробуй ещё раз. Верно: Me emme ole."
+              },
+              {
+                "sentence": "Te ___",
+                "answer": "ette ole",
+                "translation": "Вы не (есть)",
+                "feedbackCorrect": "✅ Хорошо! Te ette ole — правильная форма для «вы не».",
+                "feedbackWrong": "❌ Ошибка. Нужно: Te ette ole."
+              },
+              {
+                "sentence": "He ___",
+                "answer": "eivät ole",
+                "translation": "Они не (есть)",
+                "feedbackCorrect": "✅ Отлично! He eivät ole — правильная форма для «они не».",
+                "feedbackWrong": "❌ Неверно. Верно: He eivät ole."
+              }
+            ]
+          },
+
+          {
+            "id": "olla-frase",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": { "ru": "💬 Фраза для знакомства" },
+
+              "intro": {
+                "ru": "**Mikä sinun nimi on?** — Как тебя зовут?\n\nДословно: «Как твоё имя есть?»"
+              },
+
+              "examplesByType": [
+                {
+                  "title": { "ru": "Разбор фразы" },
+                  "examples": [
+                    { "fi": "Mikä", "ru": "какой, что" },
+                    { "fi": "sinun", "ru": "твой (от *sinä*)" },
+                    { "fi": "nimi", "ru": "имя" },
+                    { "fi": "on", "ru": "есть (глагол *olla*)" }
+                  ]
+                }
+              ],
+
+              "note": {
+                "title": { "ru": "Ответ на вопрос" },
+                "body": {
+                  "ru": "**Minun nimi on Alex.** — Меня зовут Алекс."
+                },
+                "examples": [
+                  { "fi": "Minun", "ru": "моё (от *minä*)" },
+                  { "fi": "nimi", "ru": "имя" },
+                  { "fi": "on", "ru": "есть" },
+                  { "fi": "Alex", "ru": "Алекс" }
+                ]
+              },
+
+              "summary": {
+                "title": { "ru": "💡 Разговорный вариант" },
+                "body": {
+                  "ru": "В повседневной речи часто говорят проще: **Minä olen Alex** — Я Алекс."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "✍️ Заполни пропуски во фразах для знакомства. Вставь правильную форму с глаголом olla."
+            },
+            "items": [
+              {
+                "sentence": "Mikä sinun nimi ___?",
+                "answer": "on",
+                "translation": "Как тебя зовут?",
+                "feedbackCorrect": "✅ Отлично! Mikä sinun nimi on? — правильная форма вопроса «Как тебя зовут?».",
+                "feedbackWrong": "❌ Неправильно. Верно: Mikä sinun nimi on?"
+              },
+              {
+                "sentence": "Minun nimi ___ Alex.",
+                "answer": "on",
+                "translation": "Меня зовут Алекс.",
+                "feedbackCorrect": "✅ Верно! Minun nimi on Alex — правильная форма ответа «Меня зовут Алекс».",
+                "feedbackWrong": "❌ Ошибка. Нужно: Minun nimi on Alex."
+              },
+              {
+                "sentence": "Minä ___ Alex.",
+                "answer": "olen",
+                "translation": "Я Алекс.",
+                "feedbackCorrect": "✅ Молодец! Minä olen Alex — разговорная форма «Я Алекс».",
+                "feedbackWrong": "❌ Нет. Верно: Minä olen Alex."
+              }
+            ]
+          },
+
+          {
+            "id": "ex1",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "👥 Выберите правильную форму глагола olla по местоимению/подлежащему.\nПримеры: minä → olen, sinä → olet, hän → on; me → olemme, te → olette, he → ovat; se → on, ne → ovat."
+            },
+            "questions": [
+              {
+                "question": "Minä ___ Alex",
+                "options": ["olen", "olet", "on"],
+                "answer": 0,
+                "feedbackCorrect": "✅ Верно! 1-е л. ед. ч.: minä → olen. Правильно: Minä olen Alex.",
+                "feedbackWrong": "❌ Неправильно. С minä используется форма olen, не olet/on. Правильно: Minä olen Alex.",
+                "translation": "Я Алекс"
+              },
+              {
+                "question": "Sinä ___ opiskelija",
+                "options": ["olen", "olet", "ovat"],
+                "answer": 1,
+                "feedbackCorrect": "✅ Отлично! 2-е л. ед. ч.: sinä → olet. Правильно: Sinä olet opiskelija.",
+                "feedbackWrong": "❌ Ошибка. С sinä нужна форма olet, не olen/ovat. Правильно: Sinä olet opiskelija.",
+                "translation": "Ты студент"
+              },
+              {
+                "question": "Hän ___ opettaja",
+                "options": ["on", "olemme", "olette"],
+                "answer": 0,
+                "feedbackCorrect": "✅ Молодец! 3-е л. ед. ч.: hän → on. Правильно: Hän on opettaja.",
+                "feedbackWrong": "❌ Нет. С hän используется только on, не olemme/olette. Правильно: Hän on opettaja.",
+                "translation": "Он/она учитель"
+              },
+              {
+                "question": "Me ___ ystävät",
+                "options": ["on", "olen", "olemme"],
+                "answer": 2,
+                "feedbackCorrect": "✅ Верно! 1-е л. мн. ч.: me → olemme. Правильно: Me olemme ystävät.",
+                "feedbackWrong": "❌ Неправильно. Для me нужна форма olemme, не on/olen. Правильно: Me olemme ystävät.",
+                "translation": "Мы друзья"
+              },
+              {
+                "question": "Te ___ kurssilla",
+                "options": ["olette", "ovat", "olen"],
+                "answer": 0,
+                "feedbackCorrect": "✅ Отлично! 2-е л. мн. ч.: te → olette. Правильно: Te olette kurssilla.",
+                "feedbackWrong": "❌ Ошибка. С te используется olette, не ovat/olen. Правильно: Te olette kurssilla.",
+                "translation": "Вы на курсе"
+              },
+              {
+                "question": "He ___ Suomessa",
+                "options": ["olet", "ovat", "olen"],
+                "answer": 1,
+                "feedbackCorrect": "✅ Хорошо! 3-е л. мн. ч.: he → ovat. Правильно: He ovat Suomessa.",
+                "feedbackWrong": "❌ Неверно. Для he нужна форма ovat, не olet/olen. Правильно: He ovat Suomessa.",
+                "translation": "Они в Финляндии"
+              },
+              {
+                "question": "Se ___ kirja",
+                "options": ["on", "ovat", "olen"],
+                "answer": 0,
+                "feedbackCorrect": "✅ Верно! Единств. число (предмет/животное): se → on. Правильно: Se on kirja.",
+                "feedbackWrong": "❌ Неправильно. С se используется on, не ovat/olen. Правильно: Se on kirja.",
+                "translation": "Это книга"
+              },
+              {
+                "question": "Ne ___ kirjat",
+                "options": ["on", "ovat", "olette"],
+                "answer": 1,
+                "feedbackCorrect": "✅ Отлично! Множеств. число (предметы): ne → ovat. Правильно: Ne ovat kirjat.",
+                "feedbackWrong": "❌ Ошибка. Для ne нужна форма ovat, не on/olette. Правильно: Ne ovat kirjat.",
+                "translation": "Это книги"
+              },
+              {
+                "question": "Mikä sinun nimi ___?",
+                "options": ["on", "olen", "olet"],
+                "answer": 0,
+                "feedbackCorrect": "✅ Молодец! Вопросительная конструкция всегда с on: Mikä sinun nimi on?",
+                "feedbackWrong": "❌ Нет. В этом вопросе всегда on, не olen/olet. Правильно: Mikä sinun nimi on?",
+                "translation": "Как твоё имя?"
+              },
+              {
+                "question": "Minun nimi ___ Anna",
+                "options": ["on", "olen", "olet"],
+                "answer": 0,
+                "feedbackCorrect": "✅ Верно! Шаблон: Minun nimi on + имя. Правильно: Minun nimi on Anna.",
+                "feedbackWrong": "❌ Неправильно. В этой фразе всегда on, не olen/olet. Правильно: Minun nimi on Anna.",
+                "translation": "Мое имя Анна"
+              }
+            ]
+          },
+
+          {
+            "id": "ex2",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "👥 Напишите правильную форму глагола olla по местоимению/подлежащему.\nПодсказка: minä → olen, sinä → olet, hän/se → on; me → olemme, te → olette, he/ne → ovat."
+            },
+            "items": [
+              {
+                "sentence": "Minä ___ opiskelija",
+                "answer": "olen",
+                "feedbackCorrect": "✅ Верно! 1-е л. ед. ч.: minä → olen. Правильно: Minä olen opiskelija.",
+                "feedbackWrong": "❌ Неправильно. С minä используется форма olen. Правильно: Minä olen opiskelija.",
+                "translation": "Я студент"
+              },
+              {
+                "sentence": "Sinä ___ kurssilla",
+                "answer": "olet",
+                "feedbackCorrect": "✅ Отлично! 2-е л. ед. ч.: sinä → olet. Правильно: Sinä olet kurssilla.",
+                "feedbackWrong": "❌ Ошибка. С sinä нужна форма olet. Правильно: Sinä olet kurssilla.",
+                "translation": "Ты на курсе"
+              },
+              {
+                "sentence": "Te ___ suomalaiset",
+                "answer": "olette",
+                "feedbackCorrect": "✅ Хорошо! 2-е л. мн. ч.: te → olette. Правильно: Te olette suomalaiset.",
+                "feedbackWrong": "❌ Нет. Для te используется olette. Правильно: Te olette suomalaiset.",
+                "translation": "Вы финны"
+              },
+              {
+                "sentence": "He ___ kotona",
+                "answer": "ovat",
+                "feedbackCorrect": "✅ Молодец! 3-е л. мн. ч.: he → ovat. Правильно: He ovat kotona.",
+                "feedbackWrong": "❌ Неверно. С he нужна форма ovat. Правильно: He ovat kotona.",
+                "translation": "Они дома"
+              },
+              {
+                "sentence": "Hän ___ opettaja",
+                "answer": "on",
+                "feedbackCorrect": "✅ Верно! 3-е л. ед. ч.: hän → on. Правильно: Hän on opettaja.",
+                "feedbackWrong": "❌ Неправильно. С hän используется on. Правильно: Hän on opettaja.",
+                "translation": "Он/она учитель"
+              },
+              {
+                "sentence": "Me ___ täällä",
+                "answer": "olemme",
+                "feedbackCorrect": "✅ Отлично! 1-е л. мн. ч.: me → olemme. Правильно: Me olemme täällä.",
+                "feedbackWrong": "❌ Ошибка. Для me нужна форма olemme. Правильно: Me olemme täällä.",
+                "translation": "Мы здесь"
+              },
+              {
+                "sentence": "Se ___ kirja",
+                "answer": "on",
+                "feedbackCorrect": "✅ Хорошо! Единственное число (предмет/животное): se → on. Правильно: Se on kirja.",
+                "feedbackWrong": "❌ Нет. С se используется on. Правильно: Se on kirja.",
+                "translation": "Это книга"
+              },
+              {
+                "sentence": "Ne ___ kirjat",
+                "answer": "ovat",
+                "feedbackCorrect": "✅ Верно! Множественное число (предметы/животные): ne → ovat. Правильно: Ne ovat kirjat.",
+                "feedbackWrong": "❌ Неправильно. Для ne нужна форма ovat. Правильно: Ne ovat kirjat.",
+                "translation": "Это книги"
+              },
+              {
+                "sentence": "Mikä sinun nimi ___?",
+                "answer": "on",
+                "feedbackCorrect": "✅ Отлично! В этой конструкции используется on. Правильно: Mikä sinun nimi on?",
+                "feedbackWrong": "❌ Ошибка. Здесь всегда on. Правильно: Mikä sinun nimi on?",
+                "translation": "Как твоё имя?"
+              },
+              {
+                "sentence": "Minun nimi ___ Alex",
+                "answer": "on",
+                "feedbackCorrect": "✅ Молодец! Шаблон: Minun nimi on + имя. Правильно: Minun nimi on Alex.",
+                "feedbackWrong": "❌ Неверно. В этой фразе всегда on. Правильно: Minun nimi on Alex.",
+                "translation": "Мое имя Алекс"
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "id": "vokaaliharmonia",
+        "title": {
+          "ru": "Вокальная гармония",
+          "fi": "Vokaaliharmonia"
+        },
+        "explanationStructured": {
+          "title": { "ru": "🎵 Гласная гармония в финском языке" },
+
+          "intro": {
+            "ru": "В финском языке действует правило **гласной гармонии** — гласные внутри одного слова должны принадлежать одной группе (задней или передней). Это правило распространяется также на окончания слов (падежи и т.п.)."
+          },
+
+          "examplesByType": [
+            {
+              "title": { "ru": "Группы гласных" },
+              "examples": [
+                { "fi": "a, o, u", "ru": "Задние" },
+                { "fi": "ä, ö, y", "ru": "Передние" },
+                {
+                  "fi": "e, i",
+                  "ru": "Нейтральные — могут сочетаться с обеими группами"
+                }
+              ]
+            },
+            {
+              "title": { "ru": "Как это работает" },
+              "examples": [
+                {
+                  "fi": "a, o, u",
+                  "ru": "Если есть, слово — заднего типа, окончания тоже с a"
+                },
+                {
+                  "fi": "ä, ö, y",
+                  "ru": "Если есть, слово — переднего типа, окончания тоже с ä"
+                },
+                {
+                  "fi": "e, i",
+                  "ru": "Если только эти, слово может быть любым типом (чаще — передний)"
+                }
+              ]
+            }
+          ],
+
+          "conjugationTables": [
+            {
+              "title": { "ru": "Примеры слов и окончаний" },
+              "columns": ["Лицо", "Форма", "Перевод"],
+              "rows": [
+                {
+                  "person": "koulu (школа)",
+                  "form": "koulussa / koulusta",
+                  "translation": { "ru": "содержит o, u → окончания с -a: koulussa (в школе), koulusta (из школы)" }
+                },
+                {
+                  "person": "metsä (лес)",
+                  "form": "metsässä / metsästä",
+                  "translation": { "ru": "содержит ä → окончания с -ä: metsässä (в лесу), metsästä (из леса)" }
+                },
+                {
+                  "person": "työ (работа)",
+                  "form": "työssä / työstä",
+                  "translation": { "ru": "содержит y, ö → окончания с -ä: työssä (на работе), työstä (с работы)" }
+                },
+                {
+                  "person": "koira (собака)",
+                  "form": "koiralla",
+                  "translation": { "ru": "содержит o, a → окончания с -a: koiralla (у собаки)" }
+                }
+              ]
+            }
+          ],
+
+          "note": {
+            "title": { "ru": "Что важно помнить" },
+            "body": {
+              "ru": "Нельзя смешивать окончания от разных групп.\n\n❌ *koulu + -ssä → koulussä* (ошибка)\n✅ *koulu + -ssa → koulussa* (правильно)\n\nУ слов с задними гласными (**a, o, u**) окончания с **a**, а у слов с передними (**ä, ö, y**) — с **ä**."
+            }
+          },
+
+          "examples": [
+            {
+              "title": { "ru": "Частые ошибки" },
+              "examples": [
+                {
+                  "fi": "työssa ❌ → työssä ✅",
+                  "ru": "työ имеет передние гласные y, ö → нужно окончание с ä"
+                },
+                {
+                  "fi": "metsässa ❌ → metsässä ✅",
+                  "ru": "в слове metsä есть ä → окончание с ä"
+                },
+                {
+                  "fi": "koirallä ❌ → koiralla ✅",
+                  "ru": "koira содержит o, a → окончание с a"
+                },
+                {
+                  "fi": "koulussä ❌ → koulussa ✅",
+                  "ru": "koulu имеет o, u → окончание с a"
+                }
+              ]
+            }
+          ],
+
+          "summary": {
+            "title": { "ru": "Краткий итог" },
+            "body": {
+              "ru": "**a, o, u → окончания с a**\n\n**ä, ö, y → окончания с ä**\n\n**e, i → нейтральные, чаще — передние окончания**"
+            }
+          }
+        },
+        "exercises": [
+          {
+            "id": "ex-vokaaliharmonia-valitse",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "🧠 Выберите правильное окончание с учётом правила вокальной гармонии. \n\n📌 В финском языке окончания показывают **где**, **откуда** или **у кого** что-то находится. Например:\n- koulu (школа) → koulussa (в школе)\n- puisto (парк) → puistossa (в парке)\n\n✍️ Правило:\n- после задних гласных (a, o, u) → пишется -ssa/-sta, -lla/-lta и т.п.\n- после передних гласных (ä, ö, y) → пишется -ssä/-stä, -llä/-ltä и т.п."
+            },
+            "questions": [
+              {
+                "question": "___ (koulu).",
+                "options": ["koulussa", "koulussä"],
+                "answer": 0,
+                "feedbackCorrect": "✅ Верно! Корень 'koulu' содержит гласные заднего ряда (o, u). Нужно использовать суффикс заднего ряда: -ssa. Правильно: koulussa.",
+                "feedbackWrong": "❌ Ошибка. Корень 'koulu' содержит гласные заднего ряда (o, u). Нужно использовать суффикс заднего ряда: -ssa. Правильно: koulussa.",
+                "translation": "в школе"
+              },
+              {
+                "question": "___ (puisto).",
+                "options": ["puistossä", "puistossa"],
+                "answer": 1,
+                "feedbackCorrect": "✅ Отлично! В слове 'puisto' есть гласные заднего ряда (u, o). Они требуют суффикса заднего ряда: -ssa. Правильно: puistossa.",
+                "feedbackWrong": "❌ Неправильно. В слове 'puisto' есть гласные заднего ряда (u, o). Они требуют суффикса заднего ряда: -ssa. Правильно: puistossa.",
+                "translation": "в парке"
+              },
+              {
+                "question": "___ (koti).",
+                "options": ["kotönä", "kotona"],
+                "answer": 1,
+                "feedbackCorrect": "✅ Верно! Гласная 'o' относится к заднему ряду, поэтому используется суффикс заднего ряда: -na. Правильно: kotona.",
+                "feedbackWrong": "❌ Ошибка. Гласная 'o' относится к заднему ряду, поэтому используется суффикс заднего ряда: -na. Правильно: kotona.",
+                "translation": "дома"
+              },
+              {
+                "question": "___ (kioski).",
+                "options": ["kioskissä", "kioskissa"],
+                "answer": 1,
+                "feedbackCorrect": "✅ Правильно! Гласная 'o' (задний ряд) в корне 'kioski' преобладает над нейтральными 'i', поэтому используется окончание -ssa. Правильно: kioskissa.",
+                "feedbackWrong": "❌ Неверно. Гласная 'o' (задний ряд) в корне 'kioski' преобладает над нейтральными 'i', поэтому используется окончание -ssa. Правильно: kioskissa.",
+                "translation": "в киоске"
+              },
+              {
+                "question": "___ (yö).",
+                "options": ["yölla", "yöllä"],
+                "answer": 1,
+                "feedbackCorrect": "✅ Молодец! В слове 'yö' гласная переднего ряда 'ö' требует окончания -llä. Правильно: yöllä.",
+                "feedbackWrong": "❌ Ошибка. В слове 'yö' гласная переднего ряда 'ö' требует окончания -llä. Правильно: yöllä.",
+                "translation": "ночью"
+              },
+              {
+                "question": "___ (myyjä).",
+                "options": ["myyjällä", "myyjälla"],
+                "answer": 0,
+                "feedbackCorrect": "✅ Отлично! Гласные переднего ряда (y, ä) определяют суффикс -llä. Правильно: myyjällä.",
+                "feedbackWrong": "❌ Неправильно. Гласные переднего ряда (y, ä) определяют суффикс -llä. Правильно: myyjällä.",
+                "translation": "у продавца"
+              },
+              {
+                "question": "Olen ___ (talo).",
+                "options": ["talossä", "talossa"],
+                "answer": 1,
+                "feedbackCorrect": "✅ Верно! В слове 'talo' есть гласные заднего ряда (a, o), поэтому суффикс заднего ряда: -ssa. Правильно: talossa.",
+                "feedbackWrong": "❌ Ошибка. В слове 'talo' есть гласные заднего ряда (a, o), поэтому суффикс заднего ряда: -ssa. Правильно: talossa.",
+                "translation": "в доме"
+              },
+              {
+                "question": "___ (käytävä).",
+                "options": ["käytävällä", "käytävässä"],
+                "answer": 1,
+                "feedbackCorrect": "✅ Хорошо! В слове 'käytävä' все гласные (ä, y) — переднего ряда, поэтому используется суффикс переднего ряда: -ssä. Правильно: käytävässä.",
+                "feedbackWrong": "❌ Неверно. В слове 'käytävä' все гласные (ä, y) — переднего ряда, поэтому используется суффикс переднего ряда: -ssä. Правильно: käytävässä.",
+                "translation": "в коридоре"
+              },
+              {
+                "question": "___ (metsä).",
+                "options": ["metsässa", "metsässä"],
+                "answer": 1,
+                "feedbackCorrect": "✅ Отлично! В слове 'metsä' есть гласная переднего ряда 'ä', поэтому суффикс переднего ряда: -ssä. Правильно: metsässä.",
+                "feedbackWrong": "❌ Ошибка. В слове 'metsä' есть гласная переднего ряда 'ä', поэтому суффикс переднего ряда: -ssä. Правильно: metsässä.",
+                "translation": "в лесу"
+              }
+            ]
+          },
+
+          {
+            "id": "ex-vokaaliharmonia-aa-ää",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "✍️ Допишите только букву **a** или **ä** в окончании по правилу вокальной гармонии.\n📌 После задних гласных (a, o, u) → пишем **a**, после передних гласных (ä, ö, y) → пишем **ä**.\nНапример: koulu → koulussa, metsä → metsässä."
+            },
+            "items": [
+              {
+                "sentence": "Kouluss_",
+                "answer": "a",
+                "translation": "в школе",
+                "feedbackCorrect": "✅ Верно! Koulu → koulussa, задние гласные → a.",
+                "feedbackWrong": "❌ Ошибка. Здесь задние гласные, нужно koulussa."
+              },
+              {
+                "sentence": "Puistoss_",
+                "answer": "a",
+                "translation": "в парке",
+                "feedbackCorrect": "✅ Отлично! Puisto → puistossa, задние гласные → a.",
+                "feedbackWrong": "❌ Неправильно. Нужно puistossa."
+              },
+              {
+                "sentence": "Koton_",
+                "answer": "a",
+                "translation": "дома",
+                "feedbackCorrect": "✅ Правильно! Koti → kotona, здесь особая форма с -na и буквой a.",
+                "feedbackWrong": "❌ Ошибка. Правильно kotona."
+              },
+              {
+                "sentence": "Kioskiss_",
+                "answer": "a",
+                "translation": "в киоске",
+                "feedbackCorrect": "✅ Верно! Kioski → kioskissa, i — нейтральная гласная, задние → a.",
+                "feedbackWrong": "❌ Ошибка. Нужно kioskissa."
+              },
+              {
+                "sentence": "Yöll_",
+                "answer": "ä",
+                "translation": "ночью",
+                "feedbackCorrect": "✅ Отлично! Yö → yöllä, передние гласные → ä.",
+                "feedbackWrong": "❌ Ошибка. Здесь ö и y — передние гласные, поэтому ä."
+              },
+              {
+                "sentence": "Myyjäll_",
+                "answer": "ä",
+                "translation": "у продавца",
+                "feedbackCorrect": "✅ Молодец! Myyjä → myyjällä, ä — передняя гласная.",
+                "feedbackWrong": "❌ Ошибка. Здесь ä, поэтому myyjällä."
+              },
+              {
+                "sentence": "Taloss_",
+                "answer": "a",
+                "translation": "в доме",
+                "feedbackCorrect": "✅ Верно! Talo → talossa, задние гласные → a.",
+                "feedbackWrong": "❌ Ошибка. Нужно talossa."
+              },
+              {
+                "sentence": "Käytäväss_",
+                "answer": "ä",
+                "translation": "в коридоре",
+                "feedbackCorrect": "✅ Отлично! Käytävä → käytävässä, ä — передняя гласная.",
+                "feedbackWrong": "❌ Ошибка. Здесь ä, поэтому käytävässä."
+              },
+              {
+                "sentence": "Metsäss_",
+                "answer": "ä",
+                "translation": "в лесу",
+                "feedbackCorrect": "✅ Верно! Metsä → metsässä, ä — передняя гласная.",
+                "feedbackWrong": "❌ Неправильно. Здесь ä, поэтому metsässä."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "speaking": [
+    {
+      "id": "speak1",
+      "type": "speaking-sequence",
+      "description": "Отвечайте на вопросы устно по-фински",
+      "items": [
+        {
+          "prompt": "Скажите: Я студент",
+          "answer": [
+            "Minä olen opiskelija",
+            "minä olen opiskelija",
+            "Olen opiskelija",
+            "olen opiskelija"
+          ],
+          "audioUrl": "/audio/A1-1/speaking/speak1/Minä olen opiskelija.mp3"
+        },
+        {
+          "prompt": "Скажите: Ты на курсе",
+          "answer": [
+            "Sinä olet kurssilla",
+            "sinä olet kurssilla",
+            "Olet kurssilla",
+            "olet kurssilla"
+          ],
+          "audioUrl": "/audio/A1-1/speaking/speak1/Sinä olet kurssilla.mp3"
+        },
+        {
+          "prompt": "Скажите: Он учитель",
+          "answer": [
+            "Hän on opettaja",
+            "hän on opettaja",
+            "On opettaja",
+            "on opettaja"
+          ],
+          "audioUrl": "/audio/A1-1/speaking/speak1/Hän on opettaja.mp3"
+        },
+        {
+          "prompt": "Скажите: Мы друзья",
+          "answer": [
+            "Me olemme ystävät",
+            "me olemme ystävät",
+            "Olemme ystävät",
+            "olemme ystävät"
+          ],
+          "audioUrl": "/audio/A1-1/speaking/speak1/Me olemme ystävät.mp3"
+        },
+        {
+          "prompt": "Скажите: Вы финны",
+          "answer": [
+            "Te olette suomalaiset",
+            "te olette suomalaiset",
+            "Olette suomalaiset",
+            "olette suomalaiset"
+          ],
+          "audioUrl": "/audio/A1-1/speaking/speak1/Te olette suomalaiset.mp3"
+        },
+        {
+          "prompt": "Скажите: Они дома",
+          "answer": [
+            "He ovat kotona",
+            "he ovat kotona",
+            "Ovat kotona",
+            "ovat kotona"
+          ],
+          "audioUrl": "/audio/A1-1/speaking/speak1/He ovat kotona.mp3"
+        },
+        {
+          "prompt": "Скажите: Это книга",
+          "answer": ["Se on kirja", "se on kirja", "On kirja", "on kirja"],
+          "audioUrl": "/audio/A1-1/speaking/speak1/Se on kirja.mp3"
+        },
+        {
+          "prompt": "Скажите: Это книги",
+          "answer": [
+            "Ne ovat kirjat",
+            "ne ovat kirjat",
+            "Ovat kirjat",
+            "ovat kirjat"
+          ],
+          "audioUrl": "/audio/A1-1/speaking/speak1/Ne ovat kirjat.mp3"
+        },
+        {
+          "prompt": "Скажите: Как тебя зовут?",
+          "answer": ["Mikä sinun nimi on?", "mikä sinun nimi on?"],
+          "audioUrl": "/audio/A1-1/speaking/speak1/Mikä sinun nimi on.mp3"
+        },
+        {
+          "prompt": "Скажите: Меня зовут Анна",
+          "answer": [
+            "Minun nimi on Anna",
+            "minun nimi on anna",
+            "Nimi on Anna",
+            "nimi on anna"
+          ],
+          "audioUrl": "/audio/A1-1/speaking/speak1/Minun nimi on Anna.mp3"
+        }
+      ]
+    },
+
+    {
+      "id": "speaking-numbers-full",
+      "type": "speaking-sequence",
+      "description": "Произнесите числа по-фински",
+      "items": [
+        { "prompt": "Скажите: ноль", "answer": ["nolla", "0"], "audioUrl": "/audio/A1-1/speaking/numbers/nolla.mp3" },
+        { "prompt": "Скажите: один", "answer": ["yksi", "1"], "audioUrl": "/audio/A1-1/speaking/numbers/yksi.mp3" },
+        { "prompt": "Скажите: два", "answer": ["kaksi", "2"], "audioUrl": "/audio/A1-1/speaking/numbers/kaksi.mp3" },
+        { "prompt": "Скажите: три", "answer": ["kolme", "3"], "audioUrl": "/audio/A1-1/speaking/numbers/kolme.mp3" },
+        { "prompt": "Скажите: четыре", "answer": ["neljä", "4"], "audioUrl": "/audio/A1-1/speaking/numbers/neljä.mp3" },
+        { "prompt": "Скажите: пять", "answer": ["viisi", "5"], "audioUrl": "/audio/A1-1/speaking/numbers/viisi.mp3" },
+        { "prompt": "Скажите: шесть", "answer": ["kuusi", "6"], "audioUrl": "/audio/A1-1/speaking/numbers/kuusi.mp3" },
+        { "prompt": "Скажите: семь", "answer": ["seitsemän", "7"], "audioUrl": "/audio/A1-1/speaking/numbers/seitsemän.mp3" },
+        { "prompt": "Скажите: восемь", "answer": ["kahdeksan", "8"], "audioUrl": "/audio/A1-1/speaking/numbers/kahdeksan.mp3" },
+        { "prompt": "Скажите: девять", "answer": ["yhdeksän", "9"], "audioUrl": "/audio/A1-1/speaking/numbers/yhdeksän.mp3" },
+        { "prompt": "Скажите: десять", "answer": ["kymmenen", "10"], "audioUrl": "/audio/A1-1/speaking/numbers/kymmenen.mp3" },
+        { "prompt": "Скажите: одиннадцать", "answer": ["yksitoista", "11"], "audioUrl": "/audio/A1-1/speaking/numbers/yksitoista.mp3" },
+        { "prompt": "Скажите: двенадцать", "answer": ["kaksitoista", "12"], "audioUrl": "/audio/A1-1/speaking/numbers/kaksitoista.mp3" },
+        { "prompt": "Скажите: тринадцать", "answer": ["kolmetoista", "13"], "audioUrl": "/audio/A1-1/speaking/numbers/kolmetoista.mp3" },
+        { "prompt": "Скажите: четырнадцать", "answer": ["neljätoista", "14"], "audioUrl": "/audio/A1-1/speaking/numbers/neljätoista.mp3" },
+        { "prompt": "Скажите: пятнадцать", "answer": ["viisitoista", "15"], "audioUrl": "/audio/A1-1/speaking/numbers/viisitoista.mp3" },
+        { "prompt": "Скажите: шестнадцать", "answer": ["kuusitoista", "16"], "audioUrl": "/audio/A1-1/speaking/numbers/kuusitoista.mp3" },
+        {
+          "prompt": "Скажите: семнадцать",
+          "answer": ["seitsemäntoista", "17"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/seitsemäntoista.mp3"
+        },
+        {
+          "prompt": "Скажите: восемнадцать",
+          "answer": ["kahdeksantoista", "18"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kahdeksantoista.mp3"
+        },
+        {
+          "prompt": "Скажите: девятнадцать",
+          "answer": ["yhdeksäntoista", "19"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/yhdeksäntoista.mp3"
+        },
+        { "prompt": "Скажите: двадцать", "answer": ["kaksikymmentä", "20"], "audioUrl": "/audio/A1-1/speaking/numbers/kaksikymmentä.mp3" },
+        {
+          "prompt": "Скажите: двадцать один",
+          "answer": ["kaksikymmentäyksi", "21"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kaksikymmentäyksi.mp3"
+        },
+        {
+          "prompt": "Скажите: двадцать два",
+          "answer": ["kaksikymmentäkaksi", "22"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kaksikymmentäkaksi.mp3"
+        },
+        { "prompt": "Скажите: тридцать", "answer": ["kolmekymmentä", "30"], "audioUrl": "/audio/A1-1/speaking/numbers/kolmekymmentä.mp3" },
+        { "prompt": "Скажите: сорок", "answer": ["neljäkymmentä", "40"], "audioUrl": "/audio/A1-1/speaking/numbers/neljäkymmentä.mp3" },
+        { "prompt": "Скажите: пятьдесят", "answer": ["viisikymmentä", "50"], "audioUrl": "/audio/A1-1/speaking/numbers/viisikymmentä.mp3" },
+        { "prompt": "Скажите: шестьдесят", "answer": ["kuusikymmentä", "60"], "audioUrl": "/audio/A1-1/speaking/numbers/kuusikymmentä.mp3" },
+        {
+          "prompt": "Скажите: семьдесят",
+          "answer": ["seitsemänkymmentä", "70"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/seitsemänkymmentä.mp3"
+        },
+        {
+          "prompt": "Скажите: восемьдесят",
+          "answer": ["kahdeksankymmentä", "80"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kahdeksankymmentä.mp3"
+        },
+        {
+          "prompt": "Скажите: девяносто",
+          "answer": ["yhdeksänkymmentä", "90"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/yhdeksänkymmentä.mp3"
+        },
+        { "prompt": "Скажите: сто", "answer": ["sata", "100"], "audioUrl": "/audio/A1-1/speaking/numbers/sata.mp3" },
+        { "prompt": "Скажите: сто один", "answer": ["satayksi", "101"], "audioUrl": "/audio/A1-1/speaking/numbers/satayksi.mp3" },
+        { "prompt": "Скажите: двести", "answer": ["kaksisataa", "200"], "audioUrl": "/audio/A1-1/speaking/numbers/kaksisataa.mp3" },
+        { "prompt": "Скажите: триста", "answer": ["kolmesataa", "300"], "audioUrl": "/audio/A1-1/speaking/numbers/kolmesataa.mp3" },
+        { "prompt": "Скажите: тысяча", "answer": ["tuhat", "1000"], "audioUrl": "/audio/A1-1/speaking/numbers/tuhat.mp3" },
+        { "prompt": "Скажите: две тысячи", "answer": ["kaksituhatta", "2000"], "audioUrl": "/audio/A1-1/speaking/numbers/kaksituhatta.mp3" },
+        {
+          "prompt": "Скажите: пятьсот тысяч",
+          "answer": ["viisisataatuhatta", "500000", "500 000"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/viisisataatuhatta.mp3"
+        },
+        { "prompt": "Скажите: миллион", "answer": ["miljoona", "1000000"], "audioUrl": "/audio/A1-1/speaking/numbers/miljoona.mp3" },
+        {
+          "prompt": "Скажите: два миллиона",
+          "answer": ["kaksi miljoonaa", "2 miljoonaa", "2000000"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kaksi miljoonaa.mp3"
+        }
+      ]
+    }
+  ],
+  "listening": {
+    "audioUrl": "",
+    "tasks": [
+      {
+        "id": "list-mc1",
+        "type": "multiple-choice",
+        "title": "Прослушай фразы и выбери правильное предложение",
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-1/example1.mp3",
+            "options": [
+              "Minä olen Alex",
+              "Hän on opettaja",
+              "Sinä olet opiskelija"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/example2.mp3",
+            "options": [
+              "Sinä olet opiskelija",
+              "Hän on opettaja",
+              "Minä olen Alex"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/example3.mp3",
+            "options": [
+              "Minä olen Alex",
+              "Hän on opettaja",
+              "Me olemme ystävät"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-1/example4.mp3",
+            "options": [
+              "Me olemme ystävät",
+              "Te olette kurssilla",
+              "He ovat Suomessa"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/example5.mp3",
+            "options": [
+              "He ovat Suomessa",
+              "Sinä olet opiskelija",
+              "Te olette kurssilla"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A1-1/example6.mp3",
+            "options": [
+              "He ovat Suomessa",
+              "Minä olen opettaja",
+              "Me olemme Suomessa"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/Se on kirja.mp3",
+            "options": ["Se on kirja", "Ne ovat kirjat", "Mikä sinun nimi on?"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/Ne ovat kirjat.mp3",
+            "options": ["Se on kirja", "Ne ovat kirjat", "Minun nimi on Anna"],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-1/Mikä sinun nimi on.mp3",
+            "options": ["Mikä sinun nimi on?", "Se on kirja", "Ne ovat kirjat"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/Minun nimi on Anna.mp3",
+            "options": [
+              "Minun nimi on Anna",
+              "Mikä sinun nimi on?",
+              "Se on kirja"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "list-write1",
+        "type": "write-group",
+        "items": [
+          {
+            "audioUrl": "/audio/A1-1/example1.mp3",
+            "answers": ["Minä olen Alex", "minä olen alex", "minä olen Alex"]
+          },
+          {
+            "audioUrl": "/audio/A1-1/example2.mp3",
+            "answers": [
+              "Sinä olet opiskelija",
+              "sinä olet opiskelija",
+              "Olet opiskelija",
+              "olet opiskelija"
+            ]
+          },
+          {
+            "audioUrl": "/audio/A1-1/example3.mp3",
+            "answers": ["Hän on opettaja", "hän on opettaja"]
+          },
+          {
+            "audioUrl": "/audio/A1-1/example4.mp3",
+            "answers": ["Me olemme ystävät", "me olemme ystävät"]
+          },
+          {
+            "audioUrl": "/audio/A1-1/example5.mp3",
+            "answers": ["Te olette kurssilla", "te olette kurssilla"]
+          },
+          {
+            "audioUrl": "/audio/A1-1/example6.mp3",
+            "answers": ["He ovat Suomessa", "he ovat suomessa"]
+          },
+          {
+            "audioUrl": "/audio/A1-1/Se on kirja.mp3",
+            "answers": ["Se on kirja", "se on kirja"]
+          },
+          {
+            "audioUrl": "/audio/A1-1/Ne ovat kirjat.mp3",
+            "answers": ["Ne ovat kirjat", "ne ovat kirjat"]
+          },
+          {
+            "audioUrl": "/audio/A1-1/Mikä sinun nimi on.mp3",
+            "answers": ["Mikä sinun nimi on?", "mikä sinun nimi on?"]
+          },
+          {
+            "audioUrl": "/audio/A1-1/Minun nimi on Anna.mp3",
+            "answers": ["Minun nimi on Anna", "minun nimi on anna"]
+          }
+        ]
+      },
+      {
+        "id": "listening-numbers-full",
+        "type": "multiple-choice",
+        "instruction": {
+          "ru": "🎧 Прослушайте аудио и выберите правильный перевод числа."
+        },
+        "questions": [
+          {
+            "audioUrl": "/audio/A1-1/numbers/yksi.mp3",
+            "options": ["0", "1", "10"],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/yksi.mp3",
+            "options": ["1", "2", "11"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kaksi.mp3",
+            "options": ["2", "3", "12"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kolme.mp3",
+            "options": ["3", "4", "13"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/neljä.mp3",
+            "options": ["4", "5", "14"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/viisi.mp3",
+            "options": ["5", "6", "15"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kuusi.mp3",
+            "options": ["6", "7", "16"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/seitsemän.mp3",
+            "options": ["7", "8", "17"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kahdeksan.mp3",
+            "options": ["8", "9", "18"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/yhdeksän.mp3",
+            "options": ["9", "10", "19"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kymmenen.mp3",
+            "options": ["10", "20", "100"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/yksitoista.mp3",
+            "options": ["11", "12", "21"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kaksitoista.mp3",
+            "options": ["12", "13", "22"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kolmetoista.mp3",
+            "options": ["13", "14", "30"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/neljätoista.mp3",
+            "options": ["14", "15", "40"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/viisitoista.mp3",
+            "options": ["15", "16", "50"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kuusitoista.mp3",
+            "options": ["16", "17", "60"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/seitsemäntoista.mp3",
+            "options": ["17", "18", "70"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kahdeksantoista.mp3",
+            "options": ["18", "19", "80"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/yhdeksäntoista.mp3",
+            "options": ["19", "20", "90"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kaksikymmentä.mp3",
+            "options": ["20", "21", "200"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kaksikymmentäyksi.mp3",
+            "options": ["21", "22", "101"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kaksikymmentäkaksi.mp3",
+            "options": ["22", "30", "102"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kolmekymmentä.mp3",
+            "options": ["30", "40", "300"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/neljäkymmentä.mp3",
+            "options": ["40", "50", "400"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/viisikymmentä.mp3",
+            "options": ["50", "60", "500"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kuusikymmentä.mp3",
+            "options": ["60", "70", "600"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/seitsemänkymmentä.mp3",
+            "options": ["70", "80", "700"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kahdeksankymmentä.mp3",
+            "options": ["80", "90", "800"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/yhdeksänkymmentä.mp3",
+            "options": ["90", "100", "900"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/sata.mp3",
+            "options": ["100", "101", "200"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/satayksi.mp3",
+            "options": ["101", "102", "201"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kaksi sataa.mp3",
+            "options": ["200", "300", "1000"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kolmesataa.mp3",
+            "options": ["300", "400", "200"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/tuhat.mp3",
+            "options": ["1000", "2000", "5000"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kaksi tuhatta.mp3",
+            "options": ["2000", "5000", "10000"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/viisisataatuhatta.mp3",
+            "options": ["500000", "1000000", "2000000"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/miljoona.mp3",
+            "options": ["1000000", "500000", "2000000"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A1-1/numbers/kaksi miljoonaa.mp3",
+            "options": ["2000000", "1000000", "500000"],
+            "answer": 0
+          }
+        ]
+      },
+
+      {
+        "id": "list-fill1",
+        "type": "fill-in-the-text",
+        "title": "Прослушай диалог и вставь пропущенные фразы",
+        "audioUrl": "/audio/A1-1/text/combined_dialog.mp3",
+        "sentence": "Hei! ___ Alex. ___ uusi opiskelija. ___ sinun nimi on?  ___ Anna. Hauska ___! ___! ___? ___ hyvää. ___ sinulle? ___, hyvää. ___! Minun nimi on Pekka. Olen ___. ___. Tervetuloa!",
+        "gaps": [
+          "Minä olen",
+          "Olen",
+          "Mikä",
+          "Minun nimi on",
+          "tutustua",
+          "Kiitos samoin",
+          "Mitä sinulle kuuluu",
+          "Ihan",
+          "Entä",
+          "Kiitos",
+          "Huomenta",
+          "opettaja",
+          "Te olette suomen kurssilla"
+        ]
+      }
+    ]
+  },
+  "writing": [
+    {
+      "id": "write1",
+      "type": "translation-sequence",
+      "description": "Переведите каждую фразу на финский язык.",
+      "items": [
+        {
+          "prompt": "Я учитель",
+          "answer": [
+            "Minä olen opettaja",
+            "minä olen opettaja",
+            "Olen opettaja",
+            "olen opettaja"
+          ]
+        },
+        {
+          "prompt": "Ты студент",
+          "answer": [
+            "Sinä olet opiskelija",
+            "sinä olet opiskelija",
+            "Olet opiskelija",
+            "olet opiskelija"
+          ]
+        },
+        {
+          "prompt": "Он дома",
+          "answer": ["Hän on kotona", "hän on kotona", "On kotona", "on kotona"]
+        },
+        {
+          "prompt": "Мы друзья",
+          "answer": [
+            "Me olemme ystävät",
+            "me olemme ystävät",
+            "Olemme ystävät",
+            "olemme ystävät"
+          ]
+        },
+        {
+          "prompt": "Вы на курсе финского",
+          "answer": [
+            "Te olette suomen kurssilla",
+            "te olette suomen kurssilla",
+            "Olette suomen kurssilla",
+            "olette suomen kurssilla"
+          ]
+        },
+        {
+          "prompt": "Они в Финляндии",
+          "answer": [
+            "He ovat Suomessa",
+            "he ovat suomessa",
+            "Ovat Suomessa",
+            "ovat suomessa"
+          ]
+        },
+        {
+          "prompt": "Это книга",
+          "answer": ["Se on kirja", "se on kirja"]
+        },
+        {
+          "prompt": "Это книги",
+          "answer": ["Ne ovat kirjat", "ne ovat kirjat"]
+        },
+        {
+          "prompt": "Как тебя зовут?",
+          "answer": ["Mikä sinun nimi on?", "mikä sinun nimi on?"]
+        },
+        {
+          "prompt": "Меня зовут Анна",
+          "answer": ["Minun nimi on Anna", "minun nimi on anna"]
+        }
+      ]
+    }
+  ],
+  
+  "reading": {
+    "id": "read1",
+    "title": "Tervetuloa kurssille!",
+    "explanation": {
+      "description": "Прочитайте текст и посмотрите на иллюстрации.",
+      "text": "<p><strong>Alex:</strong> Hei! Minä olen Alex. Olen uusi opiskelija. Mikä sinun nimi on?</p><p><strong>Anna:</strong> Minun nimi on Anna. Opiskelen suomen kurssilla. Hauska tutustua!</p><p><strong>Alex:</strong> Kiitos samoin!</p><p><strong>Anna:</strong> Mitä sinulle kuuluu?</p><p><strong>Alex:</strong> Ihan hyvää. Entä sinulle?</p><p><strong>Anna:</strong> Kiitos, hyvää.</p><p><strong>Pekka (opettaja):</strong> Huomenta! Minun nimi on Pekka. Olen opettaja. Te olette suomen kurssilla. Tervetuloa!</p>"
+    },
+    "tasks": [
+      {
+        "id": "read1",
+        "type": "multiple-choice",
+        "questions": [
+          {
+            "question": "Кто новый студент?",
+            "options": ["Alex", "Anna", "Pekka"],
+            "answer": 0
+          },
+          {
+            "question": "Где находятся участники?",
+            "options": [
+              "В библиотеке",
+              "На курсе финского языка",
+              "В ресторане"
+            ],
+            "answer": 1
+          },
+          {
+            "question": "Кто учитель?",
+            "options": ["Alex", "Anna", "Pekka"],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "read-sort1",
+        "type": "sort-dialogue",
+        "title": "Упорядочите реплики в правильном порядке",
+        "lines": [
+          "Anna: Mitä sinulle kuuluu?",
+          "Alex: Ihan hyvää. Entä sinulle?",
+          "Pekka (opettaja): Huomenta! Minun nimi on Pekka. Olen opettaja. Te olette suomen kurssilla. Tervetuloa!",
+          "Alex: Hei! Minä olen Alex. Olen uusi opiskelija. Mikä sinun nimi on?",
+          "Anna: Minun nimi on Anna. Hauska tutustua!",
+          "Alex: Kiitos samoin!",
+          "Anna: Kiitos, hyvää."
+        ],
+        "answer": [3, 4, 5, 0, 1, 6, 2]
+      }
+    ]
+  },
+  "info": {
+    "overview": {
+      "ru": "Рекомендация начать с пункта «Слова» и идите по порядку вниз."
+    },
+    "vocabularyInfo": {
+      "ru": "Откройте каждый блок, выучите слова и выполните упражнения. Лучше идти по порядку сверху вниз. Финский язык — один из самых простых в чтении. Здесь всё просто: как слышится — так и читается. Каждая буква — это всегда один и тот же звук. Видишь слово — значит, уже знаешь, как его произнести. Это почти как читать по буквам, только быстрее и легче. Поэтому мы начинаем с алфавита и самых простых слов. Уже через пару уроков ты сможешь читать короткие предложения — и понимать их. Начни с алфавита."
+    },
+
+    "writingInfo": {
+      "ru": "Фразы, которые вы написали, рекомендуется произносить вслух. Это помогает запоминать лучше!"
+    }
+  }
+}

@@ -6,6 +6,10 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+pglite-debug.log
 
 # ───── Dependencies ─────
 node_modules
@@ -23,12 +27,17 @@ dist-ssr
 
 # ───── Firebase secrets ─────
 serviceAccountKey.json
+
+# ───── Functions ─────
+# node_modules и .env уже игнорируются общими правилами выше, 
+# но можно оставить для явности или если .env не в корне
+functions/.env
+
+# ───── Upload Lessons ─────
+# Игнорируем секреты и зависимости, но оставляем скрипты
 upload-lessons/serviceAccountKey.json
+upload-lessons/node_modules
 upload-lessons/.env
-stripe-test/serviceAccountKey.json
-stripe-test/.env
-stripe-test/functions/node_modules
-stripe-test/functions/.envд
 
 # ───── Editor config files ─────
 .vscode/*
@@ -40,6 +49,7 @@ stripe-test/functions/.envд
 *.njsproj
 *.sln
 *.sw?
+.cursor/
 
 # ───── Misc ─────
 *.local

@@ -1,0 +1,1497 @@
+{
+  "id": "B2-9",
+  "level": "B2",
+  "title": "Урок 9",
+  "premium": true,
+  "goal": {
+    "ru": "",
+    "fi": ""
+  },
+  "topic": {},
+  "vocabulary": {
+    "block1_part1": {
+      "title": "Блок 1 – Часть 1",
+      "words": [
+        {
+          "fi": "Ilme",
+          "translations": { "ru": "выражение лица" },
+          "example": {
+            "fi": "Hänellä oli iloinen ilme.",
+            "ru": "У него было радостное выражение лица."
+          }
+        },
+        {
+          "fi": "Kiusaus",
+          "translations": { "ru": "искушение" },
+          "example": {
+            "fi": "Suklaa on suuri kiusaus.",
+            "ru": "Шоколад — большое искушение."
+          }
+        },
+        {
+          "fi": "Suosia",
+          "translations": { "ru": "благоволить, предпочитать" },
+          "example": {
+            "fi": "Opettaja suosii ahkeria oppilaita.",
+            "ru": "Учитель благоволит усердным ученикам."
+          }
+        },
+        {
+          "fi": "Epäreilu",
+          "translations": { "ru": "несправедливый" },
+          "example": {
+            "fi": "Tuo päätös oli epäreilu.",
+            "ru": "Это решение было несправедливым."
+          }
+        },
+        {
+          "fi": "Kaivata",
+          "translations": { "ru": "тосковать, скучать" },
+          "example": {
+            "fi": "Kaipaan kotimaatani.",
+            "ru": "Я скучаю по своей родине."
+          }
+        },
+        {
+          "fi": "Pelottaa",
+          "translations": { "ru": "пугать" },
+          "example": {
+            "fi": "Pimeä metsä pelottaa minua.",
+            "ru": "Темный лес меня пугает."
+          }
+        },
+        {
+          "fi": "Kypärä",
+          "translations": { "ru": "шлем" },
+          "example": {
+            "fi": "Muista laittaa kypärä päähän!",
+            "ru": "Не забудь надеть шлем!"
+          }
+        },
+        {
+          "fi": "Väistää vaaraa",
+          "translations": { "ru": "избегать опасности" },
+          "example": {
+            "fi": "Auto väisti vaaraa nopeasti.",
+            "ru": "Машина быстро избежала опасности."
+          }
+        },
+        {
+          "fi": "Suojatie",
+          "translations": { "ru": "пешеходный переход" },
+          "example": {
+            "fi": "Ylitin tien suojatien kautta.",
+            "ru": "Я перешёл дорогу через пешеходный переход."
+          }
+        },
+        {
+          "fi": "Nurin",
+          "translations": { "ru": "опрокинутый" },
+          "example": {
+            "fi": "Lasi kaatui nurin.",
+            "ru": "Стакан опрокинулся."
+          }
+        },
+        {
+          "fi": "Menettää maltti",
+          "translations": { "ru": "терять терпение" },
+          "example": {
+            "fi": "Älä menetä malttiasi!",
+            "ru": "Не теряй терпения!"
+          }
+        },
+        {
+          "fi": "Välttää riskinottoa",
+          "translations": { "ru": "избегать риска" },
+          "example": {
+            "fi": "Hän haluaa välttää riskinottoa.",
+            "ru": "Он хочет избегать риска."
+          }
+        },
+        {
+          "fi": "Taluttaa",
+          "translations": { "ru": "вести за руку" },
+          "example": {
+            "fi": "Isä talutti lasta kädestä.",
+            "ru": "Отец вел ребёнка за руку."
+          }
+        },
+        {
+          "fi": "Älytön ajatus",
+          "translations": { "ru": "безумная мысль" },
+          "example": {
+            "fi": "Se oli aivan älytön ajatus.",
+            "ru": "Это была совершенно безумная мысль."
+          }
+        },
+        {
+          "fi": "Äkkijarrutus",
+          "translations": { "ru": "резкое торможение" },
+          "example": {
+            "fi": "Äkkijarrutus pelasti meidät törmäykseltä.",
+            "ru": "Резкое торможение спасло нас от столкновения."
+          }
+        },
+        {
+          "fi": "Nimenomaan",
+          "translations": { "ru": "именно" },
+          "example": {
+            "fi": "Nimenomaan sitä tarkoitin.",
+            "ru": "Именно это я и имел в виду."
+          }
+        },
+        {
+          "fi": "Varuillaan",
+          "translations": { "ru": "быть начеку" },
+          "example": {
+            "fi": "Ole varuillasi kaupungilla.",
+            "ru": "Будь начеку в городе."
+          }
+        },
+        {
+          "fi": "Hyökätä",
+          "translations": { "ru": "нападать" },
+          "example": {
+            "fi": "Leijona hyökkäsi saaliinsa kimppuun.",
+            "ru": "Лев напал на свою добычу."
+          }
+        },
+        {
+          "fi": "Sielu",
+          "translations": { "ru": "душа" },
+          "example": {
+            "fi": "Hän on hyvä sielu.",
+            "ru": "У него добрая душа."
+          }
+        },
+        {
+          "fi": "Lahjakkuus",
+          "translations": { "ru": "талант" },
+          "example": {
+            "fi": "Hänellä on paljon lahjakkuutta.",
+            "ru": "У него много таланта."
+          }
+        },
+        {
+          "fi": "Pilkka",
+          "translations": { "ru": "насмешка" },
+          "example": {
+            "fi": "Hän joutui pilkan kohteeksi.",
+            "ru": "Он стал объектом насмешек."
+          }
+        },
+        {
+          "fi": "Nurista",
+          "translations": { "ru": "ворчать" },
+          "example": {
+            "fi": "Älä nurise turhasta.",
+            "ru": "Не ворчи по пустякам."
+          }
+        },
+        {
+          "fi": "Omissa oloissaan",
+          "translations": { "ru": "в себе" },
+          "example": {
+            "fi": "Poika viihtyy omissa oloissaan.",
+            "ru": "Мальчику нравится быть в себе."
+          }
+        },
+        {
+          "fi": "Pitkin Suomea",
+          "translations": { "ru": "по всей Финляндии" },
+          "example": {
+            "fi": "Matkustimme pitkin Suomea.",
+            "ru": "Мы путешествовали по всей Финляндии."
+          }
+        },
+        {
+          "fi": "Vikistä",
+          "translations": { "ru": "хныкать" },
+          "example": {
+            "fi": "Lapsi vikisi väsyneenä.",
+            "ru": "Ребёнок хныкал от усталости."
+          }
+        }
+      ]
+    },
+    "block1_part2": {
+      "title": "Блок 1 – Часть 2",
+      "words": [
+        {
+          "fi": "Suostutella",
+          "translations": { "ru": "уговаривать" },
+          "example": {
+            "fi": "Yritin suostutella häntä tulemaan.",
+            "ru": "Я пытался уговорить его прийти."
+          }
+        },
+        {
+          "fi": "Toimittaja",
+          "translations": { "ru": "журналист" },
+          "example": {
+            "fi": "Toimittaja haastatteli presidenttiä.",
+            "ru": "Журналист брал интервью у президента."
+          }
+        },
+        {
+          "fi": "Halaus",
+          "translations": { "ru": "объятие" },
+          "example": {
+            "fi": "Annoimme toisillemme halauksen.",
+            "ru": "Мы обнялись."
+          }
+        },
+        {
+          "fi": "Halata toisiaan",
+          "translations": { "ru": "обнимать друг друга" },
+          "example": {
+            "fi": "He halasivat toisiaan pitkästä aikaa.",
+            "ru": "Они обнялись после долгой разлуки."
+          }
+        },
+        {
+          "fi": "Omistaa aikaa",
+          "translations": { "ru": "уделять время" },
+          "example": {
+            "fi": "Haluan omistaa aikaa perheelleni.",
+            "ru": "Я хочу уделять время своей семье."
+          }
+        },
+        {
+          "fi": "Esittää osanottonsa",
+          "translations": { "ru": "выражать соболезнования" },
+          "example": {
+            "fi": "Hän esitti osanottonsa suruun.",
+            "ru": "Он выразил соболезнования."
+          }
+        },
+        {
+          "fi": "Painajainen",
+          "translations": { "ru": "кошмар" },
+          "example": {
+            "fi": "Näin kamalan painajaisen.",
+            "ru": "Мне приснился страшный кошмар."
+          }
+        },
+        {
+          "fi": "Kuri",
+          "translations": { "ru": "дисциплина" },
+          "example": {
+            "fi": "Koulussa tarvitaan kuria.",
+            "ru": "В школе нужна дисциплина."
+          }
+        },
+        {
+          "fi": "Totutella itseni takas normalizing",
+          "translations": { "ru": "привыкать обратно" },
+          "example": {
+            "fi": "Yritän totutella itseni taas arkeen.",
+            "ru": "Я стараюсь вернуться к привычной жизни."
+          }
+        },
+        {
+          "fi": "Vilkaista",
+          "translations": { "ru": "взглянуть" },
+          "example": {
+            "fi": "Vilkaisin nopeasti taakseni.",
+            "ru": "Я быстро оглянулся назад."
+          }
+        },
+        {
+          "fi": "Valittaa",
+          "translations": { "ru": "жаловаться" },
+          "example": {
+            "fi": "Asiakas valitti huonosta palvelusta.",
+            "ru": "Клиент пожаловался на плохое обслуживание."
+          }
+        },
+        {
+          "fi": "Huikea",
+          "translations": { "ru": "потрясающий" },
+          "example": {
+            "fi": "Se oli huikea esitys!",
+            "ru": "Это было потрясающее выступление!"
+          }
+        },
+        {
+          "fi": "Lätkä",
+          "translations": { "ru": "хоккей" },
+          "example": {
+            "fi": "Pojat pelasivat lätkää jäällä.",
+            "ru": "Мальчики играли в хоккей."
+          }
+        },
+        {
+          "fi": "Kiireellinen",
+          "translations": { "ru": "срочный" },
+          "example": {
+            "fi": "Tämä on kiireellinen asia.",
+            "ru": "Это срочное дело."
+          }
+        },
+        {
+          "fi": "Syöpä",
+          "translations": { "ru": "рак" },
+          "example": {
+            "fi": "Syöpä on vakava sairaus.",
+            "ru": "Рак — серьёзная болезнь."
+          }
+        },
+        {
+          "fi": "Kasvain",
+          "translations": { "ru": "опухоль" },
+          "example": {
+            "fi": "Lääkäri löysi kasvaimen.",
+            "ru": "Врач нашел опухоль."
+          }
+        },
+        {
+          "fi": "Turvonnut",
+          "translations": { "ru": "опухший" },
+          "example": {
+            "fi": "Nilkka oli turvonnut.",
+            "ru": "Лодыжка была опухшей."
+          }
+        },
+        {
+          "fi": "Ele",
+          "translations": { "ru": "жест" },
+          "example": {
+            "fi": "Hän teki ystävällisen eleen.",
+            "ru": "Он сделал дружелюбный жест."
+          }
+        },
+        {
+          "fi": "Olla varaa",
+          "translations": { "ru": "позволить себе" },
+          "example": {
+            "fi": "Minulla ei ole varaa matkustaa.",
+            "ru": "Я не могу себе позволить путешествовать."
+          }
+        },
+        {
+          "fi": "Säkki",
+          "translations": { "ru": "мешок" },
+          "example": {
+            "fi": "Tyhjensin säkin lattialle.",
+            "ru": "Я высыпал всё из мешка на пол."
+          }
+        },
+        {
+          "fi": "Sananlasku",
+          "translations": { "ru": "пословица" },
+          "example": {
+            "fi": "Vanha sananlasku sanoo viisaasti.",
+            "ru": "Старая пословица говорит мудро."
+          }
+        },
+        {
+          "fi": "Laiha",
+          "translations": { "ru": "худой" },
+          "example": {
+            "fi": "Hän oli hyvin laiha.",
+            "ru": "Он был очень худым."
+          }
+        },
+        {
+          "fi": "Sukupuutto",
+          "translations": { "ru": "вымирание" },
+          "example": {
+            "fi": "Dinosaurukset kuolivat sukupuuttoon.",
+            "ru": "Динозавры вымерли."
+          }
+        },
+        {
+          "fi": "Pettää",
+          "translations": { "ru": "предавать" },
+          "example": {
+            "fi": "En halua pettää luottamustasi.",
+            "ru": "Я не хочу предавать твое доверие."
+          }
+        },
+        {
+          "fi": "Retkuttaa",
+          "translations": { "ru": "врать, болтать чепуху" },
+          "example": {
+            "fi": "Älä retkuta minulle.",
+            "ru": "Не болтай мне чепуху."
+          }
+        }
+      ]
+    },
+
+    "block2a": {
+      "title": "Блок 2 (часть 1)",
+      "words": [
+        {
+          "fi": "Kysymys on siitä, että",
+          "translations": { "ru": "речь идёт о том, что" },
+          "example": {
+            "fi": "Kysymys on siitä, että kaikki ymmärtävät.",
+            "ru": "Речь идёт о том, что все понимают."
+          }
+        },
+        {
+          "fi": "Jakaa",
+          "translations": { "ru": "делить" },
+          "example": {
+            "fi": "Hän jakoi leivän kahtia.",
+            "ru": "Он разделил хлеб пополам."
+          }
+        },
+        {
+          "fi": "Räppäri",
+          "translations": { "ru": "рэпер" },
+          "example": {
+            "fi": "Suosittu räppäri esiintyy tänään.",
+            "ru": "Известный рэпер выступает сегодня."
+          }
+        },
+        {
+          "fi": "Räpyttää silmiä",
+          "translations": { "ru": "моргать" },
+          "example": {
+            "fi": "Hän räpyttää silmiään nopeasti.",
+            "ru": "Он быстро моргает."
+          }
+        },
+        {
+          "fi": "Pervot ilmeet",
+          "translations": { "ru": "странные выражения лица" },
+          "example": {
+            "fi": "Hän tekee pervoja ilmeitä.",
+            "ru": "Он делает странные выражения лица."
+          }
+        },
+        {
+          "fi": "Pysäyttää",
+          "translations": { "ru": "остановить" },
+          "example": {
+            "fi": "Voitko pysäyttää auton tähän?",
+            "ru": "Ты можешь остановить машину здесь?"
+          }
+        },
+        {
+          "fi": "Hikoilla kuin sika",
+          "translations": { "ru": "потеть как свинья" },
+          "example": {
+            "fi": "Treenin jälkeen hikoilin kuin sika.",
+            "ru": "После тренировки я вспотел как свинья."
+          }
+        },
+        {
+          "fi": "Hauras jää",
+          "translations": { "ru": "хрупкий лёд" },
+          "example": {
+            "fi": "Varo, se on hauras jää!",
+            "ru": "Осторожно, это хрупкий лёд!"
+          }
+        },
+        {
+          "fi": "Nahka",
+          "translations": { "ru": "кожа" },
+          "example": {
+            "fi": "Hänellä on vaalea nahka.",
+            "ru": "У него светлая кожа."
+          }
+        },
+        {
+          "fi": "Pyykkinaru",
+          "translations": { "ru": "бельевая веревка" },
+          "example": {
+            "fi": "Ripustin vaatteet pyykkinarulle.",
+            "ru": "Я повесил одежду на верёвку."
+          }
+        },
+        {
+          "fi": "Köysi",
+          "translations": { "ru": "верёвка" },
+          "example": {
+            "fi": "Köysi oli liian lyhyt.",
+            "ru": "Верёвка была слишком короткой."
+          }
+        },
+        {
+          "fi": "Käyttää",
+          "translations": { "ru": "использовать" },
+          "example": {
+            "fi": "Voit käyttää tätä työkalua.",
+            "ru": "Ты можешь использовать этот инструмент."
+          }
+        },
+        {
+          "fi": "Köyttää",
+          "translations": { "ru": "связывать" },
+          "example": {
+            "fi": "He köyttivät laatikon narulla.",
+            "ru": "Они связали коробку верёвкой."
+          }
+        },
+        {
+          "fi": "Solmia",
+          "translations": { "ru": "завязывать" },
+          "example": {
+            "fi": "Hän solmi kengännauhat.",
+            "ru": "Он завязал шнурки."
+          }
+        },
+        {
+          "fi": "Sitoa",
+          "translations": { "ru": "перевязывать" },
+          "example": {
+            "fi": "Lääkäri sitoi haavan.",
+            "ru": "Врач перевязал рану."
+          }
+        },
+        {
+          "fi": "Kuumotus",
+          "translations": { "ru": "жжение" },
+          "example": {
+            "fi": "Tuntuu kuumotusta käsivarressa.",
+            "ru": "Чувствуется жжение в руке."
+          }
+        },
+        {
+          "fi": "Juuttua",
+          "translations": { "ru": "застрять" },
+          "example": {
+            "fi": "Auto juuttui lumeen.",
+            "ru": "Машина застряла в снегу."
+          }
+        },
+        {
+          "fi": "Kylmetyttää",
+          "translations": { "ru": "замораживать" },
+          "example": {
+            "fi": "Minua kylmetyttää ulkona.",
+            "ru": "На улице мне холодно."
+          }
+        },
+        {
+          "fi": "Vilustuttaa",
+          "translations": { "ru": "простудиться" },
+          "example": {
+            "fi": "En halua vilustuttaa itseäni.",
+            "ru": "Я не хочу простудиться."
+          }
+        },
+        {
+          "fi": "Kävellä paljain jaloin",
+          "translations": { "ru": "ходить босиком" },
+          "example": {
+            "fi": "Kävelin paljain jaloin rannalla.",
+            "ru": "Я шёл босиком по пляжу."
+          }
+        },
+        {
+          "fi": "Käskeä",
+          "translations": { "ru": "приказывать" },
+          "example": {
+            "fi": "Hän käski minun lähteä.",
+            "ru": "Он приказал мне уйти."
+          }
+        },
+        {
+          "fi": "Karsia",
+          "translations": { "ru": "сокращать" },
+          "example": {
+            "fi": "Yritys karsii menoja.",
+            "ru": "Компания сокращает расходы."
+          }
+        },
+        {
+          "fi": "Lajitella",
+          "translations": { "ru": "сортировать" },
+          "example": {
+            "fi": "Opimme lajittelemaan jätteet.",
+            "ru": "Мы учились сортировать отходы."
+          }
+        },
+        {
+          "fi": "Väsymys",
+          "translations": { "ru": "усталость" },
+          "example": {
+            "fi": "Tunnen suurta väsymystä.",
+            "ru": "Я чувствую сильную усталость."
+          }
+        },
+        {
+          "fi": "Ryhti",
+          "translations": { "ru": "осанка" },
+          "example": { "fi": "Pidä hyvä ryhti!", "ru": "Держи хорошую осанку!" }
+        },
+        {
+          "fi": "Kärsivällisyys",
+          "translations": { "ru": "терпение" },
+          "example": {
+            "fi": "Tarvitset kärsivällisyyttä.",
+            "ru": "Тебе нужно терпение."
+          }
+        },
+        {
+          "fi": "Reilu",
+          "translations": { "ru": "честный" },
+          "example": {
+            "fi": "Hän on reilu pelaaja.",
+            "ru": "Он честный игрок."
+          }
+        },
+        {
+          "fi": "Turhautua",
+          "translations": { "ru": "раздражаться" },
+          "example": {
+            "fi": "Aloin turhautua odottamiseen.",
+            "ru": "Меня начало раздражать ожидание."
+          }
+        },
+        {
+          "fi": "Suhtautua",
+          "translations": { "ru": "относиться" },
+          "example": {
+            "fi": "Kuinka suhtaudut siihen?",
+            "ru": "Как ты к этому относишься?"
+          }
+        },
+        {
+          "fi": "Löyhä",
+          "translations": { "ru": "свободный, неплотный" },
+          "example": {
+            "fi": "Paita on liian löyhä.",
+            "ru": "Рубашка слишком свободная."
+          }
+        },
+        {
+          "fi": "Haava",
+          "translations": { "ru": "рана" },
+          "example": {
+            "fi": "Minulla on haava kädessä.",
+            "ru": "У меня рана на руке."
+          }
+        },
+        {
+          "fi": "Pukea päälle",
+          "translations": { "ru": "надевать" },
+          "example": { "fi": "Puin takin päälle.", "ru": "Я надел куртку." }
+        },
+        {
+          "fi": "Vaatia",
+          "translations": { "ru": "требовать" },
+          "example": {
+            "fi": "Asiakas vaati hyvitystä.",
+            "ru": "Клиент потребовал компенсации."
+          }
+        },
+        {
+          "fi": "Ehdottaa",
+          "translations": { "ru": "предлагать" },
+          "example": {
+            "fi": "Hän ehdotti uutta ideaa.",
+            "ru": "Он предложил новую идею."
+          }
+        },
+        {
+          "fi": "Muistaa",
+          "translations": { "ru": "помнить" },
+          "example": {
+            "fi": "Muistan sinut hyvin.",
+            "ru": "Я хорошо тебя помню."
+          }
+        },
+        {
+          "fi": "Yrittää",
+          "translations": { "ru": "пытаться" },
+          "example": {
+            "fi": "Yritän parhaani mukaan.",
+            "ru": "Я стараюсь изо всех сил."
+          }
+        },
+        {
+          "fi": "Harjoitella",
+          "translations": { "ru": "тренироваться" },
+          "example": {
+            "fi": "Harjoittelen suomea päivittäin.",
+            "ru": "Я тренирую финский каждый день."
+          }
+        },
+        {
+          "fi": "Auttaa",
+          "translations": { "ru": "помогать" },
+          "example": {
+            "fi": "Voinko auttaa sinua?",
+            "ru": "Могу я тебе помочь?"
+          }
+        },
+        {
+          "fi": "Uskaltaa",
+          "translations": { "ru": "осмелиться" },
+          "example": {
+            "fi": "En uskalla hypätä alas.",
+            "ru": "Я не осмеливаюсь прыгнуть вниз."
+          }
+        },
+        {
+          "fi": "Saavuttaa",
+          "translations": { "ru": "достигать" },
+          "example": {
+            "fi": "Saavutin tavoitteeni.",
+            "ru": "Я достиг своей цели."
+          }
+        },
+        {
+          "fi": "Riidellä",
+          "translations": { "ru": "ссориться" },
+          "example": {
+            "fi": "He riitelevät usein.",
+            "ru": "Они часто ссорятся."
+          }
+        }
+      ]
+    },
+    "block2b": {
+      "title": "Блок 2 (часть 2)",
+      "words": [
+        {
+          "fi": "Tuntea",
+          "translations": { "ru": "чувствовать, знать" },
+          "example": {
+            "fi": "Tunnen sinut hyvin.",
+            "ru": "Я тебя хорошо знаю."
+          }
+        },
+        {
+          "fi": "Halkeilla",
+          "translations": { "ru": "трескаться" },
+          "example": {
+            "fi": "Iho alkaa halkeilla.",
+            "ru": "Кожа начинает трескаться."
+          }
+        },
+        {
+          "fi": "Ehdoton",
+          "translations": { "ru": "категоричный, обязательный" },
+          "example": {
+            "fi": "Se on ehdoton sääntö.",
+            "ru": "Это категоричное правило."
+          }
+        },
+        {
+          "fi": "Seinämä",
+          "translations": { "ru": "стенка" },
+          "example": {
+            "fi": "Vuoren seinämä oli jyrkkä.",
+            "ru": "Склон горы был крутым."
+          }
+        },
+        {
+          "fi": "Rako",
+          "translations": { "ru": "трещина" },
+          "example": {
+            "fi": "Oven ja lattian välissä on rako.",
+            "ru": "Между дверью и полом трещина."
+          }
+        },
+        {
+          "fi": "Laajentaa",
+          "translations": { "ru": "расширять" },
+          "example": {
+            "fi": "Yritys haluaa laajentaa toimintaansa.",
+            "ru": "Компания хочет расширить свою деятельность."
+          }
+        },
+        {
+          "fi": "Ahdistaa",
+          "translations": { "ru": "угнетать" },
+          "example": {
+            "fi": "Minua ahdistaa kiire.",
+            "ru": "Меня угнетает спешка."
+          }
+        },
+        {
+          "fi": "Armollinen",
+          "translations": { "ru": "милосердный" },
+          "example": {
+            "fi": "Ole armollinen itsellesi.",
+            "ru": "Будь милосерден к себе."
+          }
+        },
+        {
+          "fi": "Rikkinäinen",
+          "translations": { "ru": "сломанный" },
+          "example": {
+            "fi": "Puhelin on rikkinäinen.",
+            "ru": "Телефон сломан."
+          }
+        },
+        {
+          "fi": "Niitata",
+          "translations": { "ru": "заклёпывать" },
+          "example": {
+            "fi": "He niittasivat metallilevyn kiinni.",
+            "ru": "Они заклепали металлический лист."
+          }
+        }
+      ]
+    },
+
+    "block3": {
+      "title": "Блок 3",
+      "words": [
+        {
+          "fi": "Kivääri",
+          "translations": { "ru": "винтовка" },
+          "example": {
+            "fi": "Sotilas kantoi kivääriä.",
+            "ru": "Солдат нёс винтовку."
+          }
+        },
+        {
+          "fi": "Laiton",
+          "translations": { "ru": "незаконный" },
+          "example": {
+            "fi": "Se on laitonta toimintaa.",
+            "ru": "Это незаконная деятельность."
+          }
+        },
+        {
+          "fi": "Kustantaa laskun",
+          "translations": { "ru": "оплатить счёт" },
+          "example": {
+            "fi": "Yritys kustansi hotellilaskun.",
+            "ru": "Компания оплатила счёт за отель."
+          }
+        },
+        {
+          "fi": "Mokata",
+          "translations": { "ru": "накосячить" },
+          "example": {
+            "fi": "Hän mokasi kokeen täysin.",
+            "ru": "Он полностью завалил экзамен."
+          }
+        },
+        {
+          "fi": "Tekaista eri nimellä",
+          "translations": { "ru": "выдумать под другим именем" },
+          "example": {
+            "fi": "Hän tekaisi tarinan eri nimellä.",
+            "ru": "Он выдумал историю под другим именем."
+          }
+        },
+        {
+          "fi": "Väittää",
+          "translations": { "ru": "утверждать" },
+          "example": {
+            "fi": "Hän väittää olevansa syytön.",
+            "ru": "Он утверждает, что он невиновен."
+          }
+        },
+        {
+          "fi": "Pitkittää muuttoa",
+          "translations": { "ru": "откладывать переезд" },
+          "example": {
+            "fi": "He pitkittivät muuttoa viikolla.",
+            "ru": "Они отложили переезд на неделю."
+          }
+        },
+        {
+          "fi": "Veikata",
+          "translations": { "ru": "угадать, делать ставку" },
+          "example": {
+            "fi": "Veikkaan, että hän voittaa.",
+            "ru": "Я ставлю, что он выиграет."
+          }
+        },
+        {
+          "fi": "Ajankohta valikoitu",
+          "translations": { "ru": "время выбрано" },
+          "example": {
+            "fi": "Ajankohta valikoitui sattumalta.",
+            "ru": "Время выбрано случайно."
+          }
+        },
+        {
+          "fi": "Surma",
+          "translations": { "ru": "убийство" },
+          "example": {
+            "fi": "Hän sai surmansa onnettomuudessa.",
+            "ru": "Он погиб в несчастном случае."
+          }
+        },
+        {
+          "fi": "Ampua",
+          "translations": { "ru": "стрелять" },
+          "example": {
+            "fi": "Poliisi ampui varoituslaukauksen.",
+            "ru": "Полицейский сделал предупредительный выстрел."
+          }
+        },
+        {
+          "fi": "Luoti",
+          "translations": { "ru": "пуля" },
+          "example": {
+            "fi": "Luoti osui seinään.",
+            "ru": "Пуля попала в стену."
+          }
+        },
+        {
+          "fi": "Syyte",
+          "translations": { "ru": "обвинение" },
+          "example": {
+            "fi": "Hän sai syytteen varkaudesta.",
+            "ru": "Ему предъявили обвинение в краже."
+          }
+        },
+        {
+          "fi": "Hymynaama",
+          "translations": { "ru": "улыбающееся лицо" },
+          "example": {
+            "fi": "Hän piirsi hymynaaman tauluun.",
+            "ru": "Он нарисовал смайлик на доске."
+          }
+        },
+        {
+          "fi": "Limsatölkki",
+          "translations": { "ru": "банка лимонада" },
+          "example": {
+            "fi": "Join limsatölkin lounaalla.",
+            "ru": "Я выпил банку лимонада за обедом."
+          }
+        },
+        {
+          "fi": "Tarkalleen ottaen",
+          "translations": { "ru": "точнее говоря" },
+          "example": {
+            "fi": "Tarkalleen ottaen se tapahtui eilen.",
+            "ru": "Точнее говоря, это произошло вчера."
+          }
+        },
+        {
+          "fi": "Kannustava tyttöystävä",
+          "translations": { "ru": "поддерживающая девушка" },
+          "example": {
+            "fi": "Minulla on kannustava tyttöystävä.",
+            "ru": "У меня поддерживающая девушка."
+          }
+        },
+        {
+          "fi": "Hovioikeus",
+          "translations": { "ru": "апелляционный суд" },
+          "example": {
+            "fi": "Hän valitti hovioikeuteen.",
+            "ru": "Он подал апелляцию в суд."
+          }
+        },
+        {
+          "fi": "Jalkaisin",
+          "translations": { "ru": "пешком" },
+          "example": {
+            "fi": "Menin kouluun jalkaisin.",
+            "ru": "Я пошёл в школу пешком."
+          }
+        },
+        {
+          "fi": "Raitis",
+          "translations": { "ru": "трезвый" },
+          "example": {
+            "fi": "Olen ollut raitis kaksi vuotta.",
+            "ru": "Я трезв уже два года."
+          }
+        }
+      ]
+    },
+    "block4": {
+      "title": "Блок 4",
+      "words": [
+        {
+          "fi": "Tuomio",
+          "translations": { "ru": "приговор" },
+          "example": {
+            "fi": "Hän sai tuomion varkaudesta.",
+            "ru": "Он получил приговор за кражу."
+          }
+        },
+        {
+          "fi": "Todiste",
+          "translations": { "ru": "доказательство" },
+          "example": {
+            "fi": "Poliisi löysi tärkeitä todisteita.",
+            "ru": "Полиция нашла важные доказательства."
+          }
+        },
+        {
+          "fi": "Oikeudenkäynti",
+          "translations": { "ru": "судебное разбирательство" },
+          "example": {
+            "fi": "Oikeudenkäynti alkoi aamulla.",
+            "ru": "Судебное разбирательство началось утром."
+          }
+        },
+        {
+          "fi": "Epäilty",
+          "translations": { "ru": "подозреваемый" },
+          "example": {
+            "fi": "Epäilty pidätettiin illalla.",
+            "ru": "Подозреваемого задержали вечером."
+          }
+        },
+        {
+          "fi": "Todistaja",
+          "translations": { "ru": "свидетель" },
+          "example": {
+            "fi": "Todistaja kertoi tapahtumasta.",
+            "ru": "Свидетель рассказал о происшествии."
+          }
+        },
+        {
+          "fi": "Puolustaa",
+          "translations": { "ru": "защищать" },
+          "example": {
+            "fi": "Asianajaja puolusti asiakastaan.",
+            "ru": "Адвокат защищал своего клиента."
+          }
+        },
+        {
+          "fi": "Tuomari",
+          "translations": { "ru": "судья" },
+          "example": {
+            "fi": "Tuomari antoi päätöksen.",
+            "ru": "Судья вынес решение."
+          }
+        },
+        {
+          "fi": "Syyllinen",
+          "translations": { "ru": "виновный" },
+          "example": {
+            "fi": "Hänet todettiin syylliseksi.",
+            "ru": "Его признали виновным."
+          }
+        },
+        {
+          "fi": "Syytön",
+          "translations": { "ru": "невиновный" },
+          "example": {
+            "fi": "Hän vakuutti olevansa syytön.",
+            "ru": "Он уверял, что невиновен."
+          }
+        },
+        {
+          "fi": "Rangaistus",
+          "translations": { "ru": "наказание" },
+          "example": {
+            "fi": "Tuomari määräsi ankaran rangaistuksen.",
+            "ru": "Судья назначил строгое наказание."
+          }
+        },
+        {
+          "fi": "Sakko",
+          "translations": { "ru": "штраф" },
+          "example": {
+            "fi": "Hän sai sakon ylinopeudesta.",
+            "ru": "Он получил штраф за превышение скорости."
+          }
+        },
+        {
+          "fi": "Vankila",
+          "translations": { "ru": "тюрьма" },
+          "example": {
+            "fi": "Hän joutui vankilaan kahdeksi vuodeksi.",
+            "ru": "Он попал в тюрьму на два года."
+          }
+        },
+        {
+          "fi": "Käräjäoikeus",
+          "translations": { "ru": "местный суд" },
+          "example": {
+            "fi": "Asia käsiteltiin käräjäoikeudessa.",
+            "ru": "Дело рассматривалось в местном суде."
+          }
+        },
+        {
+          "fi": "Valitus",
+          "translations": { "ru": "жалоба, апелляция" },
+          "example": {
+            "fi": "Hän jätti valituksen päätöksestä.",
+            "ru": "Он подал жалобу на решение."
+          }
+        },
+        {
+          "fi": "Laiminlyödä",
+          "translations": { "ru": "пренебрегать, не выполнять" },
+          "example": {
+            "fi": "Hän laiminlöi velvollisuutensa.",
+            "ru": "Он пренебрег своими обязанностями."
+          }
+        },
+        {
+          "fi": "Myöntää",
+          "translations": { "ru": "признавать" },
+          "example": {
+            "fi": "Hän myönsi virheensä.",
+            "ru": "Он признал свою ошибку."
+          }
+        },
+        {
+          "fi": "Kiistää",
+          "translations": { "ru": "отрицать" },
+          "example": {
+            "fi": "Hän kiisti syytökset.",
+            "ru": "Он отрицал обвинения."
+          }
+        },
+        {
+          "fi": "Käsittely",
+          "translations": { "ru": "рассмотрение (дела)" },
+          "example": {
+            "fi": "Käsittely siirtyi ensi viikolle.",
+            "ru": "Рассмотрение перенесли на следующую неделю."
+          }
+        },
+        {
+          "fi": "Vakuuttaa",
+          "translations": { "ru": "уверять" },
+          "example": {
+            "fi": "Hän vakuutti olevansa rehellinen.",
+            "ru": "Он уверял, что честен."
+          }
+        },
+        {
+          "fi": "Vapaus",
+          "translations": { "ru": "свобода" },
+          "example": {
+            "fi": "Hän sai takaisin vapautensa.",
+            "ru": "Он вновь обрёл свободу."
+          }
+        }
+      ]
+    },
+    "block5": {
+      "title": "Блок 5",
+      "words": [
+        {
+          "fi": "Tarkkailla",
+          "translations": { "ru": "наблюдать" },
+          "example": {
+            "fi": "Poliisi tarkkaili epäiltyä.",
+            "ru": "Полиция наблюдала за подозреваемым."
+          }
+        },
+        {
+          "fi": "Kätkeä",
+          "translations": { "ru": "прятать" },
+          "example": {
+            "fi": "Hän kätki rahat kaappiin.",
+            "ru": "Он спрятал деньги в шкаф."
+          }
+        },
+        {
+          "fi": "Tunnustaa",
+          "translations": { "ru": "признаваться" },
+          "example": {
+            "fi": "Hän tunnusti rikoksen.",
+            "ru": "Он признался в преступлении."
+          }
+        },
+        {
+          "fi": "Valehdella",
+          "translations": { "ru": "лгать" },
+          "example": {
+            "fi": "Lapsi valehteli äidilleen.",
+            "ru": "Ребёнок солгал своей маме."
+          }
+        },
+        {
+          "fi": "Salaa",
+          "translations": { "ru": "тайно" },
+          "example": {
+            "fi": "Hän teki sen salaa.",
+            "ru": "Он сделал это тайком."
+          }
+        },
+        {
+          "fi": "Epäluulo",
+          "translations": { "ru": "подозрение, недоверие" },
+          "example": {
+            "fi": "Hänen kasvonsa herättivät epäluuloa.",
+            "ru": "Его лицо вызвало подозрение."
+          }
+        },
+        {
+          "fi": "Tarkoituksella",
+          "translations": { "ru": "намеренно" },
+          "example": {
+            "fi": "Hän rikkoi sen tarkoituksella.",
+            "ru": "Он сломал это намеренно."
+          }
+        },
+        {
+          "fi": "Syyttää",
+          "translations": { "ru": "обвинять" },
+          "example": {
+            "fi": "He syyttivät häntä rikoksesta.",
+            "ru": "Они обвинили его в преступлении."
+          }
+        },
+        {
+          "fi": "Todeta",
+          "translations": { "ru": "констатировать, подтвердить" },
+          "example": {
+            "fi": "Lääkäri totesi kuumeen.",
+            "ru": "Врач подтвердил температуру."
+          }
+        },
+        {
+          "fi": "Tuomita",
+          "translations": { "ru": "приговаривать" },
+          "example": {
+            "fi": "Hänet tuomittiin vankeuteen.",
+            "ru": "Его приговорили к тюремному заключению."
+          }
+        },
+        {
+          "fi": "Oikeus",
+          "translations": { "ru": "право, суд" },
+          "example": {
+            "fi": "Kaikilla on oikeus elämään.",
+            "ru": "У всех есть право на жизнь."
+          }
+        },
+        {
+          "fi": "Vahvistaa",
+          "translations": { "ru": "подтверждать, усиливать" },
+          "example": {
+            "fi": "Hän vahvisti osallistumisensa.",
+            "ru": "Он подтвердил своё участие."
+          }
+        },
+        {
+          "fi": "Pakottaa",
+          "translations": { "ru": "заставлять" },
+          "example": {
+            "fi": "Äiti pakotti lapsen syömään.",
+            "ru": "Мама заставила ребёнка есть."
+          }
+        },
+        {
+          "fi": "Vangita",
+          "translations": { "ru": "арестовывать" },
+          "example": {
+            "fi": "Poliisi vangitsi epäillyn.",
+            "ru": "Полиция арестовала подозреваемого."
+          }
+        },
+        {
+          "fi": "Toteuttaa",
+          "translations": { "ru": "осуществлять" },
+          "example": {
+            "fi": "He toteuttivat suunnitelman.",
+            "ru": "Они осуществили план."
+          }
+        },
+        {
+          "fi": "Selvittää",
+          "translations": { "ru": "выяснять" },
+          "example": {
+            "fi": "Yritän selvittää asian.",
+            "ru": "Я пытаюсь выяснить дело."
+          }
+        },
+        {
+          "fi": "Tarkistaa",
+          "translations": { "ru": "проверять" },
+          "example": {
+            "fi": "Tarkistan sähköpostin joka aamu.",
+            "ru": "Я проверяю почту каждое утро."
+          }
+        },
+        {
+          "fi": "Lopullinen",
+          "translations": { "ru": "окончательный" },
+          "example": {
+            "fi": "Tämä on lopullinen päätös.",
+            "ru": "Это окончательное решение."
+          }
+        },
+        {
+          "fi": "Lausunto",
+          "translations": { "ru": "заявление" },
+          "example": {
+            "fi": "Poliisi antoi lausunnon medialle.",
+            "ru": "Полиция дала заявление для СМИ."
+          }
+        },
+        {
+          "fi": "Todellisuus",
+          "translations": { "ru": "реальность" },
+          "example": {
+            "fi": "Se on karu todellisuus.",
+            "ru": "Это суровая реальность."
+          }
+        }
+      ]
+    },
+    "block6": {
+      "title": "Блок 6",
+      "words": [
+        {
+          "fi": "Tutkia",
+          "translations": { "ru": "исследовать, расследовать" },
+          "example": {
+            "fi": "Poliisi tutkii tapausta.",
+            "ru": "Полиция расследует дело."
+          }
+        },
+        {
+          "fi": "Selitys",
+          "translations": { "ru": "объяснение" },
+          "example": {
+            "fi": "Tarvitsen selityksen tästä.",
+            "ru": "Мне нужно объяснение по этому поводу."
+          }
+        },
+        {
+          "fi": "Peruste",
+          "translations": { "ru": "основание, причина" },
+          "example": {
+            "fi": "Ei ole mitään perustetta syytteille.",
+            "ru": "Нет никакого основания для обвинений."
+          }
+        },
+        {
+          "fi": "Ratkaisu",
+          "translations": { "ru": "решение" },
+          "example": {
+            "fi": "Löysimme ratkaisun ongelmaan.",
+            "ru": "Мы нашли решение проблемы."
+          }
+        },
+        {
+          "fi": "Syy",
+          "translations": { "ru": "причина, вина" },
+          "example": {
+            "fi": "Mikä on syy viivästykseen?",
+            "ru": "Какова причина задержки?"
+          }
+        },
+        {
+          "fi": "Rikos",
+          "translations": { "ru": "преступление" },
+          "example": {
+            "fi": "Hän teki vakavan rikoksen.",
+            "ru": "Он совершил серьёзное преступление."
+          }
+        },
+        {
+          "fi": "Syyte",
+          "translations": { "ru": "обвинение" },
+          "example": {
+            "fi": "Syyte luettiin oikeudessa.",
+            "ru": "Обвинение было зачитано в суде."
+          }
+        },
+        {
+          "fi": "Kanne",
+          "translations": { "ru": "иск, жалоба" },
+          "example": {
+            "fi": "Hän nosti kanteen työnantajaa vastaan.",
+            "ru": "Он подал иск против работодателя."
+          }
+        },
+        {
+          "fi": "Laki",
+          "translations": { "ru": "закон" },
+          "example": {
+            "fi": "Lain mukaan se on kiellettyä.",
+            "ru": "Согласно закону, это запрещено."
+          }
+        },
+        {
+          "fi": "Ehto",
+          "translations": { "ru": "условие" },
+          "example": {
+            "fi": "Ehdot olivat kohtuulliset.",
+            "ru": "Условия были разумными."
+          }
+        },
+        {
+          "fi": "Päätös",
+          "translations": { "ru": "решение" },
+          "example": {
+            "fi": "Teimme yhteisen päätöksen.",
+            "ru": "Мы приняли общее решение."
+          }
+        },
+        {
+          "fi": "Kielto",
+          "translations": { "ru": "запрет" },
+          "example": {
+            "fi": "Tupakointi on kielletty, lue kielto!",
+            "ru": "Курение запрещено, прочитай запрет!"
+          }
+        },
+        {
+          "fi": "Rangaista",
+          "translations": { "ru": "наказывать" },
+          "example": {
+            "fi": "Hänet rangaistiin säännön rikkomisesta.",
+            "ru": "Его наказали за нарушение правила."
+          }
+        },
+        {
+          "fi": "Tuomioistuin",
+          "translations": { "ru": "судебная инстанция" },
+          "example": {
+            "fi": "Tuomioistuin käsittelee asian.",
+            "ru": "Судебная инстанция рассматривает дело."
+          }
+        },
+        {
+          "fi": "Valvoa",
+          "translations": { "ru": "контролировать, следить" },
+          "example": {
+            "fi": "Opettaja valvoo koetta.",
+            "ru": "Учитель следит за экзаменом."
+          }
+        },
+        {
+          "fi": "Uhkaus",
+          "translations": { "ru": "угроза" },
+          "example": {
+            "fi": "Uhkaus otettiin vakavasti.",
+            "ru": "Угроза была воспринята серьёзно."
+          }
+        },
+        {
+          "fi": "Murto",
+          "translations": { "ru": "взлом, ограбление" },
+          "example": {
+            "fi": "Tapahtui asuntomurto.",
+            "ru": "Произошёл взлом квартиры."
+          }
+        },
+        {
+          "fi": "Rikollinen",
+          "translations": { "ru": "преступник" },
+          "example": {
+            "fi": "Poliisi pidätti rikollisen.",
+            "ru": "Полиция задержала преступника."
+          }
+        },
+        {
+          "fi": "Epäoikeudenmukainen",
+          "translations": { "ru": "несправедливый" },
+          "example": {
+            "fi": "Päätös tuntui epäoikeudenmukaiselta.",
+            "ru": "Решение казалось несправедливым."
+          }
+        },
+        {
+          "fi": "Luvaton",
+          "translations": { "ru": "незаконный, без разрешения" },
+          "example": {
+            "fi": "Se oli luvaton toiminta.",
+            "ru": "Это было незаконное действие."
+          }
+        }
+      ]
+    }
+  }
+}

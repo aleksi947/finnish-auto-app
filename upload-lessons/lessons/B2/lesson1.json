@@ -1,0 +1,1560 @@
+{
+  "id": "B2-1",
+  "level": "B2",
+  "title": "Глава 1",
+  "premium": false,
+  "goal": {
+    "ru": "",
+    "fi": ""
+  },
+  "topic": {
+    "ru": "",
+    "fi": ""
+  },
+  "vocabulary": {
+    "common": {
+      "title": "Общие",
+      "words": [
+        {
+          "fi": "toisinaan",
+          "translations": { "ru": "иногда, временами" },
+          "example": {
+            "fi": "Toisinaan on hyvä olla hiljaa.",
+            "ru": "Иногда полезно помолчать."
+          }
+        },
+        {
+          "fi": "uneton",
+          "translations": { "ru": "бессонный" },
+          "example": {
+            "fi": "Olen ollut uneton viime yönä.",
+            "ru": "Я был бессонным прошлой ночью."
+          }
+        },
+        {
+          "fi": "ammattikorkeakoulu",
+          "translations": { "ru": "профессиональный институт" },
+          "example": {
+            "fi": "Hän opiskelee ammattikorkeakoulussa.",
+            "ru": "Он учится в профессиональном институте."
+          }
+        },
+        {
+          "fi": "valmistua",
+          "translations": { "ru": "окончить учебное заведение" },
+          "example": {
+            "fi": "Valmistuin insinööriksi.",
+            "ru": "Я окончил как инженер."
+          }
+        },
+        {
+          "fi": "vanhempainvapaa",
+          "translations": { "ru": "отпуск по уходу за ребёнком" },
+          "example": {
+            "fi": "Isä on vanhempainvapaalla.",
+            "ru": "Отец в отпуске по уходу за ребёнком."
+          }
+        },
+        {
+          "fi": "koti-isä",
+          "translations": { "ru": "отец-домохозяин" },
+          "example": {
+            "fi": "Olen koti-isä kahden lapsen kanssa.",
+            "ru": "Я отец-домохозяин с двумя детьми."
+          }
+        },
+        {
+          "fi": "välillä",
+          "translations": { "ru": "иногда, между" },
+          "example": {
+            "fi": "Teen töitä välillä kotona.",
+            "ru": "Я иногда работаю из дома."
+          }
+        },
+        {
+          "fi": "sittenkin",
+          "translations": { "ru": "всё-таки, несмотря на это" },
+          "example": {
+            "fi": "Tulin sittenkin mukaan.",
+            "ru": "Я всё-таки пришёл."
+          }
+        },
+        {
+          "fi": "nykyinen",
+          "translations": { "ru": "нынешний, текущий" },
+          "example": {
+            "fi": "Nykyinen asunto on pieni.",
+            "ru": "Нынешняя квартира маленькая."
+          }
+        },
+        {
+          "fi": "muualle",
+          "translations": { "ru": "в другое место" },
+          "example": {
+            "fi": "Haluan muuttaa muualle.",
+            "ru": "Я хочу переехать в другое место."
+          }
+        },
+        {
+          "fi": "etteivät",
+          "translations": { "ru": "что они не..." },
+          "example": {
+            "fi": "Pelkäsi, etteivät he tule.",
+            "ru": "Он боялся, что они не придут."
+          }
+        },
+        {
+          "fi": "iltameno",
+          "translations": { "ru": "вечернее мероприятие" },
+          "example": {
+            "fi": "Meillä on iltameno kello seitsemän.",
+            "ru": "У нас мероприятие вечером в 7."
+          }
+        },
+        {
+          "fi": "puolestaan",
+          "translations": { "ru": "в свою очередь" },
+          "example": {
+            "fi": "Minä siivoan ja hän puolestaan kokkaa.",
+            "ru": "Я убираюсь, а он в свою очередь готовит."
+          }
+        },
+        {
+          "fi": "lenkki",
+          "translations": { "ru": "пробежка, прогулка" },
+          "example": {
+            "fi": "Teen lenkin joka aamu.",
+            "ru": "Я хожу на пробежку каждое утро."
+          }
+        },
+        {
+          "fi": "alakoulu",
+          "translations": { "ru": "начальная школа" },
+          "example": {
+            "fi": "Lapset käyvät alakoulua.",
+            "ru": "Дети учатся в начальной школе."
+          }
+        },
+        {
+          "fi": "yläkoulu",
+          "translations": { "ru": "средняя школа" },
+          "example": {
+            "fi": "Poika on nyt yläkoulussa.",
+            "ru": "Сын сейчас в средней школе."
+          }
+        },
+        {
+          "fi": "perustaa",
+          "translations": { "ru": "основывать" },
+          "example": {
+            "fi": "Haluan perustaa oman yrityksen.",
+            "ru": "Я хочу основать свою фирму."
+          }
+        },
+        {
+          "fi": "reissu",
+          "translations": { "ru": "поездка" },
+          "example": {
+            "fi": "Meillä oli hyvä reissu Lappiin.",
+            "ru": "У нас была хорошая поездка в Лапландию."
+          }
+        },
+        {
+          "fi": "tuntumassa",
+          "translations": { "ru": "вблизи" },
+          "example": {
+            "fi": "Talo on joen tuntumassa.",
+            "ru": "Дом находится рядом с рекой."
+          }
+        },
+        {
+          "fi": "ulkoilu",
+          "translations": { "ru": "прогулка на улице" },
+          "example": {
+            "fi": "Ulkoilu on terveellistä.",
+            "ru": "Прогулка на улице полезна."
+          }
+        },
+        {
+          "fi": "maasto",
+          "translations": { "ru": "местность, рельеф" },
+          "example": {
+            "fi": "Maasto on vaikeakulkuista.",
+            "ru": "Местность труднопроходима."
+          }
+        },
+        {
+          "fi": "päässä",
+          "translations": { "ru": "на расстоянии от (в конце)" },
+          "example": {
+            "fi": "Koulu on 500 metrin päässä.",
+            "ru": "Школа в 500 метрах отсюда."
+          }
+        },
+        {
+          "fi": "vastikään",
+          "translations": { "ru": "недавно" },
+          "example": {
+            "fi": "Hän muutti vastikään Suomeen.",
+            "ru": "Он недавно переехал в Финляндию."
+          }
+        },
+        {
+          "fi": "perheineen",
+          "translations": { "ru": "вместе с семьёй" },
+          "example": {
+            "fi": "Hän tuli juhliin perheineen.",
+            "ru": "Он пришёл на праздник с семьёй."
+          }
+        }
+      ]
+    },
+    "jobwords": {
+      "title": "Работа — объявления и заявки",
+      "words": [
+        {
+          "fi": "asiakaspalvelu",
+          "translations": { "ru": "обслуживание клиентов" },
+          "example": {
+            "fi": "Asiakaspalvelu on tärkeä osa työtä.",
+            "ru": "Обслуживание клиентов — важная часть работы."
+          }
+        },
+        {
+          "fi": "opastettu",
+          "translations": { "ru": "обученный, проинструктированный" },
+          "example": {
+            "fi": "Uusi työntekijä on opastettu hyvin.",
+            "ru": "Новый сотрудник хорошо обучен."
+          }
+        },
+        {
+          "fi": "kierros",
+          "translations": { "ru": "обход, экскурсия" },
+          "example": {
+            "fi": "Teimme kierroksen tehtaassa.",
+            "ru": "Мы сделали обход по заводу."
+          }
+        },
+        {
+          "fi": "pääkaupunkiseutu",
+          "translations": { "ru": "столичный регион" },
+          "example": {
+            "fi": "Asun pääkaupunkiseudulla.",
+            "ru": "Я живу в столичном регионе."
+          }
+        },
+        {
+          "fi": "vakio",
+          "translations": { "ru": "постоянный" },
+          "example": {
+            "fi": "Hän on vakioasiakas.",
+            "ru": "Он постоянный клиент."
+          }
+        },
+        {
+          "fi": "toive",
+          "translations": { "ru": "желание, пожелание" },
+          "example": {
+            "fi": "Minulla on toive uudesta työpaikasta.",
+            "ru": "У меня есть желание найти новую работу."
+          }
+        },
+        {
+          "fi": "räätälöidä",
+          "translations": { "ru": "настраивать под клиента" },
+          "example": {
+            "fi": "Palvelu voidaan räätälöidä tarpeidesi mukaan.",
+            "ru": "Услугу можно адаптировать под твои потребности."
+          }
+        },
+        {
+          "fi": "opastus",
+          "translations": { "ru": "инструктаж, руководство" },
+          "example": {
+            "fi": "Uudet työntekijät saavat opastusta.",
+            "ru": "Новые сотрудники получают инструктаж."
+          }
+        },
+        {
+          "fi": "sekä – että",
+          "translations": { "ru": "как..., так и..." },
+          "example": {
+            "fi": "Tarvitset sekä taitoa että kokemusta.",
+            "ru": "Тебе нужны как навыки, так и опыт."
+          }
+        },
+        {
+          "fi": "tarjota",
+          "translations": { "ru": "предлагать" },
+          "example": {
+            "fi": "Yritys tarjoaa työtä nuorille.",
+            "ru": "Компания предлагает работу молодым."
+          }
+        },
+        {
+          "fi": "tehtävä",
+          "translations": { "ru": "задание, задача" },
+          "example": {
+            "fi": "Tämä on minun uusi tehtävä.",
+            "ru": "Это моя новая задача."
+          }
+        },
+        {
+          "fi": "arvostaa",
+          "translations": { "ru": "ценить" },
+          "example": {
+            "fi": "Arvostan hyvää työilmapiiriä.",
+            "ru": "Я ценю хороший рабочий климат."
+          }
+        },
+        {
+          "fi": "innostunut",
+          "translations": { "ru": "вдохновлённый, заинтересованный" },
+          "example": {
+            "fi": "Olen innostunut uusista haasteista.",
+            "ru": "Я вдохновлён новыми задачами."
+          }
+        },
+        {
+          "fi": "asenne",
+          "translations": { "ru": "отношение, подход" },
+          "example": {
+            "fi": "Hyvä asenne on tärkeää työssä.",
+            "ru": "Хороший подход важен в работе."
+          }
+        },
+        {
+          "fi": "palveluhenkisyys",
+          "translations": { "ru": "клиентоориентированность" },
+          "example": {
+            "fi": "Palveluhenkisyys näkyy käytöksessäsi.",
+            "ru": "Клиентоориентированность проявляется в твоём поведении."
+          }
+        },
+        {
+          "fi": "halu",
+          "translations": { "ru": "желание" },
+          "example": {
+            "fi": "Minulla on halu kehittyä työssäni.",
+            "ru": "У меня есть желание развиваться в работе."
+          }
+        },
+        {
+          "fi": "kyky",
+          "translations": { "ru": "способность" },
+          "example": {
+            "fi": "Sinulla on kyky oppia nopeasti.",
+            "ru": "У тебя есть способность быстро учиться."
+          }
+        },
+        {
+          "fi": "omaksua",
+          "translations": { "ru": "усваивать, впитывать" },
+          "example": {
+            "fi": "Hän omaksuu uudet asiat nopeasti.",
+            "ru": "Он быстро усваивает новое."
+          }
+        },
+        {
+          "fi": "asiakokonaisuus",
+          "translations": { "ru": "целостный процесс, задача" },
+          "example": {
+            "fi": "Osaan hallita suuria asiakokonaisuuksia.",
+            "ru": "Я умею управлять большими задачами."
+          }
+        },
+        {
+          "fi": "palvella",
+          "translations": { "ru": "обслуживать" },
+          "example": {
+            "fi": "Haluamme palvella asiakkaita paremmin.",
+            "ru": "Мы хотим обслуживать клиентов лучше."
+          }
+        },
+        {
+          "fi": "etenkin",
+          "translations": { "ru": "особенно" },
+          "example": {
+            "fi": "Pidän etenkin tiimityöstä.",
+            "ru": "Мне особенно нравится работа в команде."
+          }
+        },
+        {
+          "fi": "edellyttää",
+          "translations": { "ru": "предполагать, требовать" },
+          "example": {
+            "fi": "Työ edellyttää kokemusta.",
+            "ru": "Работа требует опыта."
+          }
+        },
+        {
+          "fi": "sujuvasti",
+          "translations": { "ru": "свободно, бегло" },
+          "example": {
+            "fi": "Puhun sujuvasti suomea.",
+            "ru": "Я бегло говорю по-фински."
+          }
+        },
+        {
+          "fi": "ehdottomasti",
+          "translations": { "ru": "однозначно, безусловно" },
+          "example": {
+            "fi": "Olen ehdottomasti kiinnostunut paikasta.",
+            "ru": "Я определённо заинтересован в этой должности."
+          }
+        },
+        {
+          "fi": "olla eduksi",
+          "translations": { "ru": "быть преимуществом" },
+          "example": {
+            "fi": "Kielitaito on eduksi.",
+            "ru": "Знание языков — это преимущество."
+          }
+        },
+        {
+          "fi": "vaadittava",
+          "translations": { "ru": "необходимый, требуемый" },
+          "example": {
+            "fi": "Hakijalla on vaadittava koulutus.",
+            "ru": "У кандидата есть необходимое образование."
+          }
+        },
+        {
+          "fi": "testata",
+          "translations": { "ru": "тестировать, проверять" },
+          "example": {
+            "fi": "Haluan testata osaamistani.",
+            "ru": "Я хочу протестировать свои навыки."
+          }
+        },
+        {
+          "fi": "tilanne",
+          "translations": { "ru": "ситуация" },
+          "example": {
+            "fi": "Tilanne on haastava, mutta hallittavissa.",
+            "ru": "Ситуация сложная, но управляемая."
+          }
+        }
+      ]
+    },
+    "jobapplicationwords": {
+      "title": "Работа — заявление о приёме",
+      "words": [
+        {
+          "fi": "viitata",
+          "translations": { "ru": "ссылаться, указывать на" },
+          "example": {
+            "fi": "Viittaan aiempaan keskusteluumme.",
+            "ru": "Ссылаюсь на наш предыдущий разговор."
+          }
+        },
+        {
+          "fi": "sopia",
+          "translations": { "ru": "подходить, соответствовать" },
+          "example": {
+            "fi": "Uskon, että sovin tähän tehtävään.",
+            "ru": "Я верю, что подхожу на эту должность."
+          }
+        },
+        {
+          "fi": "avoin",
+          "translations": { "ru": "открытый" },
+          "example": {
+            "fi": "Haen avoimeen työpaikkaan.",
+            "ru": "Я подаюсь на открытую вакансию."
+          }
+        },
+        {
+          "fi": "kokenut",
+          "translations": { "ru": "опытный" },
+          "example": {
+            "fi": "Olen kokenut asiakaspalvelija.",
+            "ru": "Я опытный специалист по обслуживанию клиентов."
+          }
+        },
+        {
+          "fi": "käyttö",
+          "translations": { "ru": "использование, применение" },
+          "example": {
+            "fi": "Ohjelman käyttö on helppoa.",
+            "ru": "Использование программы простое."
+          }
+        },
+        {
+          "fi": "ammatitaito",
+          "translations": { "ru": "профессионализм" },
+          "example": {
+            "fi": "Arvostan ammattitaitoa työssä.",
+            "ru": "Я ценю профессионализм в работе."
+          }
+        },
+        {
+          "fi": "laajentaa",
+          "translations": { "ru": "расширять" },
+          "example": {
+            "fi": "Haluan laajentaa osaamistani.",
+            "ru": "Я хочу расширить свои навыки."
+          }
+        },
+        {
+          "fi": "esitellä",
+          "translations": { "ru": "представлять, презентовать" },
+          "example": {
+            "fi": "Haluan esitellä itseni.",
+            "ru": "Я хочу представиться."
+          }
+        },
+        {
+          "fi": "innostaa",
+          "translations": { "ru": "вдохновлять, мотивировать" },
+          "example": {
+            "fi": "Työ innostaa minua paljon.",
+            "ru": "Эта работа меня очень вдохновляет."
+          }
+        },
+        {
+          "fi": "kohtaaminen",
+          "translations": { "ru": "встреча, столкновение" },
+          "example": {
+            "fi": "Pidän uusien ihmisten kohtaamisesta.",
+            "ru": "Мне нравится встречать новых людей."
+          }
+        },
+        {
+          "fi": "perehtyä",
+          "translations": { "ru": "ознакомиться, углубиться" },
+          "example": {
+            "fi": "Olen perehtynyt aiheeseen hyvin.",
+            "ru": "Я хорошо ознакомился с темой."
+          }
+        },
+        {
+          "fi": "ympäröidä",
+          "translations": { "ru": "окружать" },
+          "example": {
+            "fi": "Minua ympäröivät ammattitaitoiset ihmiset.",
+            "ru": "Меня окружают профессиональные люди."
+          }
+        },
+        {
+          "fi": "monipuolisesti",
+          "translations": { "ru": "разнообразно, многогранно" },
+          "example": {
+            "fi": "Toimin monipuolisesti eri tehtävissä.",
+            "ru": "Я выполняю разнообразные задачи."
+          }
+        },
+        {
+          "fi": "herättää kiinnostus",
+          "translations": { "ru": "вызывать интерес" },
+          "example": {
+            "fi": "Työtehtävä herätti kiinnostukseni.",
+            "ru": "Эта вакансия вызвала мой интерес."
+          }
+        },
+        {
+          "fi": "perusteella",
+          "translations": { "ru": "на основании" },
+          "example": {
+            "fi": "Valitsen hakijan haastattelun perusteella.",
+            "ru": "Я выберу кандидата на основании собеседования."
+          }
+        },
+        {
+          "fi": "työtapa",
+          "translations": { "ru": "стиль работы" },
+          "example": {
+            "fi": "Minun työtapani on tarkka ja tehokas.",
+            "ru": "Мой стиль работы — точный и эффективный."
+          }
+        },
+        {
+          "fi": "mielekäs",
+          "translations": { "ru": "осмысленный, приятный" },
+          "example": {
+            "fi": "Työ on mielekästä ja motivoivaa.",
+            "ru": "Работа осмысленная и мотивирующая."
+          }
+        },
+        {
+          "fi": "haastava",
+          "translations": { "ru": "трудный, вызывающий" },
+          "example": {
+            "fi": "Haen haastavaa tehtävää.",
+            "ru": "Я ищу сложную задачу."
+          }
+        },
+        {
+          "fi": "aiempi",
+          "translations": { "ru": "предыдущий" },
+          "example": {
+            "fi": "Aiempi työpaikkani oli kansainvälinen yritys.",
+            "ru": "Моё предыдущее место работы было в международной компании."
+          }
+        },
+        {
+          "fi": "vaikken",
+          "translations": { "ru": "хотя я не..." },
+          "example": {
+            "fi": "Vaikken ole kokenut, olen motivoitunut.",
+            "ru": "Хотя у меня нет опыта, я замотивирован."
+          }
+        },
+        {
+          "fi": "ansiosta",
+          "translations": { "ru": "благодаря (кому/чему-либо)" },
+          "example": {
+            "fi": "Sain työn hyvän hakemuksen ansiosta.",
+            "ru": "Я получил работу благодаря хорошему заявлению."
+          }
+        },
+        {
+          "fi": "ruostua",
+          "translations": { "ru": "заржаветь, забыться (о навыке)" },
+          "example": {
+            "fi": "Kielitaito ei saa ruostua.",
+            "ru": "Языковой навык не должен забыться."
+          }
+        },
+        {
+          "fi": "ystäväpiiri",
+          "translations": { "ru": "круг друзей" },
+          "example": {
+            "fi": "Minulla on laaja ystäväpiiri.",
+            "ru": "У меня широкий круг друзей."
+          }
+        },
+        {
+          "fi": "uusiusivusto",
+          "translations": { "ru": "новый сайт (обновлённый ресурс)" },
+          "example": {
+            "fi": "Yritys julkaisi uuden uusiusivuston.",
+            "ru": "Компания выпустила обновлённый сайт."
+          }
+        },
+        {
+          "fi": "arki",
+          "translations": { "ru": "будни, повседневность" },
+          "example": {
+            "fi": "Pidän arjen rutiineista.",
+            "ru": "Мне нравятся повседневные рутины."
+          }
+        },
+        {
+          "fi": "vaihto-opiskelija",
+          "translations": { "ru": "студент по обмену" },
+          "example": {
+            "fi": "Olin vaihto-opiskelijana Saksassa.",
+            "ru": "Я был студентом по обмену в Германии."
+          }
+        },
+        {
+          "fi": "joukko",
+          "translations": { "ru": "группа, толпа" },
+          "example": {
+            "fi": "Hakijoiden joukossa oli monia hyviä ehdokkaita.",
+            "ru": "Среди кандидатов было много хороших претендентов."
+          }
+        },
+        {
+          "fi": "kohdata",
+          "translations": { "ru": "встретить, столкнуться" },
+          "example": {
+            "fi": "Haluan kohdata uusia haasteita.",
+            "ru": "Я хочу встретить новые вызовы."
+          }
+        },
+        {
+          "fi": "kärsivällisyys",
+          "translations": { "ru": "терпение" },
+          "example": {
+            "fi": "Kärsivällisyys on tärkeä ominaisuus.",
+            "ru": "Терпение — важное качество."
+          }
+        },
+        {
+          "fi": "vahvuus",
+          "translations": { "ru": "сила, сильная сторона" },
+          "example": {
+            "fi": "Tarkkuus on minun vahvuuteni.",
+            "ru": "Точность — моя сильная сторона."
+          }
+        }
+      ]
+    },
+    "tyo": {
+      "title": "Работа (Työ)",
+      "words": [
+        {
+          "fi": "työntekijä",
+          "translations": { "ru": "работник" },
+          "example": {
+            "fi": "Työntekijä aloittaa klo 8.",
+            "ru": "Работник начинает в 8 утра."
+          }
+        },
+        {
+          "fi": "työnantaja",
+          "translations": { "ru": "работодатель" },
+          "example": {
+            "fi": "Työnantaja maksaa palkan.",
+            "ru": "Работодатель платит зарплату."
+          }
+        },
+        {
+          "fi": "palkansaaja",
+          "translations": { "ru": "наёмный работник" },
+          "example": {
+            "fi": "Suurin osa suomalaisista on palkansaajia.",
+            "ru": "Большинство финнов — наёмные работники."
+          }
+        },
+        {
+          "fi": "yrittäjä",
+          "translations": { "ru": "предприниматель" },
+          "example": {
+            "fi": "Olen yrittäjä ja minulla on oma firma.",
+            "ru": "Я предприниматель и у меня есть своя фирма."
+          }
+        },
+        {
+          "fi": "yksityisyrittäjä",
+          "translations": { "ru": "частный предприниматель" },
+          "example": {
+            "fi": "Yksityisyrittäjä toimii itsenäisesti.",
+            "ru": "Частный предприниматель работает самостоятельно."
+          }
+        },
+        {
+          "fi": "pienyrittäjä",
+          "translations": { "ru": "малый предприниматель" },
+          "example": {
+            "fi": "Pienyrittäjä työllistää muutaman ihmisen.",
+            "ru": "Малый предприниматель нанимает несколько человек."
+          }
+        },
+        {
+          "fi": "yritys",
+          "translations": { "ru": "предприятие, фирма" },
+          "example": {
+            "fi": "Yritykseni sijaitsee Helsingissä.",
+            "ru": "Моя фирма находится в Хельсинки."
+          }
+        },
+        {
+          "fi": "yhtiö",
+          "translations": { "ru": "компания" },
+          "example": {
+            "fi": "Tämä on iso yhtiö.",
+            "ru": "Это большая компания."
+          }
+        },
+        {
+          "fi": "osakeyhtiö (oy)",
+          "translations": { "ru": "акционерное общество (АО)" },
+          "example": {
+            "fi": "Meidän firma on osakeyhtiö.",
+            "ru": "Наша фирма — это акционерное общество."
+          }
+        },
+        {
+          "fi": "toiminimi",
+          "translations": { "ru": "физлицо-предприниматель" },
+          "example": {
+            "fi": "Hän toimii toiminimellä.",
+            "ru": "Он работает как ИП."
+          }
+        },
+        {
+          "fi": "esimies",
+          "translations": { "ru": "начальник, руководитель" },
+          "example": {
+            "fi": "Esimies pitää palaverin aamulla.",
+            "ru": "Руководитель проведёт собрание утром."
+          }
+        },
+        {
+          "fi": "päällikkö",
+          "translations": { "ru": "начальник отдела" },
+          "example": {
+            "fi": "Osastopäällikkö hyväksyy päätöksen.",
+            "ru": "Начальник отдела одобряет решение."
+          }
+        },
+        {
+          "fi": "työnjohtaja",
+          "translations": { "ru": "мастер, прораб" },
+          "example": {
+            "fi": "Työnjohtaja valvoo työntekoa.",
+            "ru": "Прораб следит за выполнением работ."
+          }
+        },
+        {
+          "fi": "harjoittelija",
+          "translations": { "ru": "стажёр" },
+          "example": {
+            "fi": "Harjoittelija oppii uutta työtä.",
+            "ru": "Стажёр осваивает новую работу."
+          }
+        },
+        {
+          "fi": "palkka",
+          "translations": { "ru": "зарплата" },
+          "example": {
+            "fi": "Saan palkkaa kuukauden lopussa.",
+            "ru": "Я получаю зарплату в конце месяца."
+          }
+        },
+        {
+          "fi": "tuntipalkka",
+          "translations": { "ru": "почасовая оплата" },
+          "example": {
+            "fi": "Minulla on tuntipalkka.",
+            "ru": "У меня почасовая оплата."
+          }
+        },
+        {
+          "fi": "kuukausipalkka",
+          "translations": { "ru": "месячная зарплата" },
+          "example": {
+            "fi": "Työssä on kuukausipalkka.",
+            "ru": "На этой работе месячная зарплата."
+          }
+        },
+        {
+          "fi": "palkankorotus",
+          "translations": { "ru": "повышение зарплаты" },
+          "example": {
+            "fi": "Sain palkankorotuksen tänä vuonna.",
+            "ru": "Мне повысили зарплату в этом году."
+          }
+        },
+        {
+          "fi": "ylityö",
+          "translations": { "ru": "сверхурочная работа" },
+          "example": {
+            "fi": "Tein paljon ylitöitä viime kuussa.",
+            "ru": "Я работал сверхурочно в прошлом месяце."
+          }
+        },
+        {
+          "fi": "lomaraha",
+          "translations": { "ru": "отпускные" },
+          "example": {
+            "fi": "Kesällä saan lomarahan.",
+            "ru": "Летом я получаю отпускные."
+          }
+        },
+        {
+          "fi": "työsuhde",
+          "translations": { "ru": "трудовые отношения" },
+          "example": {
+            "fi": "Minulla on vakituinen työsuhde.",
+            "ru": "У меня постоянные трудовые отношения."
+          }
+        },
+        {
+          "fi": "määräaikainen",
+          "translations": { "ru": "временный" },
+          "example": {
+            "fi": "Työ on määräaikainen.",
+            "ru": "Работа временная."
+          }
+        },
+        {
+          "fi": "vakituinen",
+          "translations": { "ru": "постоянный" },
+          "example": {
+            "fi": "Sain vakituisen työpaikan.",
+            "ru": "Я получил постоянную работу."
+          }
+        },
+        {
+          "fi": "osa-aikainen",
+          "translations": { "ru": "неполный рабочий день" },
+          "example": {
+            "fi": "Työ on osa-aikainen.",
+            "ru": "Это работа с неполной занятостью."
+          }
+        },
+        {
+          "fi": "sivutoiminen",
+          "translations": { "ru": "вторичная работа" },
+          "example": {
+            "fi": "Teen sivutoimista työtä iltaisin.",
+            "ru": "Я подрабатываю по вечерам."
+          }
+        },
+        {
+          "fi": "päivätyö",
+          "translations": { "ru": "дневная работа" },
+          "example": {
+            "fi": "Minulla on päivätyö klo 8–16.",
+            "ru": "У меня дневная работа с 8 до 16."
+          }
+        },
+        {
+          "fi": "kokopäivätyö",
+          "translations": { "ru": "полный рабочий день" },
+          "example": {
+            "fi": "Hän tekee kokopäivätyötä kaupassa.",
+            "ru": "Она работает полный день в магазине."
+          }
+        },
+        {
+          "fi": "osa-aikatyö",
+          "translations": { "ru": "неполная занятость" },
+          "example": {
+            "fi": "Tarjolla on osa-aikatyötä.",
+            "ru": "Предлагается работа с неполной занятостью."
+          }
+        },
+        {
+          "fi": "pätkätyö",
+          "translations": { "ru": "временная подработка" },
+          "example": {
+            "fi": "Opiskelijana teen pätkätöitä.",
+            "ru": "Будучи студентом, я работаю временно."
+          }
+        },
+        {
+          "fi": "keikkatyö",
+          "translations": { "ru": "подработка, разовая работа" },
+          "example": {
+            "fi": "Teen keikkatöitä viikonloppuisin.",
+            "ru": "Я подрабатываю по выходным."
+          }
+        },
+        {
+          "fi": "etätyö",
+          "translations": { "ru": "удалённая работа" },
+          "example": {
+            "fi": "Teen etätyötä kotoa käsin.",
+            "ru": "Я работаю удалённо из дома."
+          }
+        },
+        {
+          "fi": "vuorotyö",
+          "translations": { "ru": "сменная работа" },
+          "example": {
+            "fi": "Vuorotyö sopii minulle hyvin.",
+            "ru": "Сменная работа мне подходит."
+          }
+        },
+        {
+          "fi": "työvuoro",
+          "translations": { "ru": "рабочая смена" },
+          "example": {
+            "fi": "Minulla on iltatyövuoro tänään.",
+            "ru": "У меня сегодня вечерняя смена."
+          }
+        },
+        {
+          "fi": "sairausloma",
+          "translations": { "ru": "больничный отпуск" },
+          "example": {
+            "fi": "Olen sairauslomalla flunssan takia.",
+            "ru": "Я на больничном из-за простуды."
+          }
+        },
+        {
+          "fi": "vuosiloma",
+          "translations": { "ru": "ежегодный отпуск" },
+          "example": {
+            "fi": "Vuosilomani alkaa kesäkuussa.",
+            "ru": "Мой ежегодный отпуск начинается в июне."
+          }
+        },
+        {
+          "fi": "irtisanomisaika",
+          "translations": { "ru": "срок увольнения" },
+          "example": {
+            "fi": "Irtisanomisaika on yksi kuukausi.",
+            "ru": "Срок увольнения — один месяц."
+          }
+        },
+        {
+          "fi": "irtisanoutua",
+          "translations": { "ru": "увольняться по собственному" },
+          "example": {
+            "fi": "Päätin irtisanoutua työstäni.",
+            "ru": "Я решил уволиться с работы."
+          }
+        },
+        {
+          "fi": "irtisanoa",
+          "translations": { "ru": "уволить" },
+          "example": {
+            "fi": "Työnantaja irtisanoi työntekijän.",
+            "ru": "Работодатель уволил работника."
+          }
+        },
+        {
+          "fi": "ammattiliitto",
+          "translations": { "ru": "профсоюз" },
+          "example": {
+            "fi": "Olen ammattiliiton jäsen.",
+            "ru": "Я член профсоюза."
+          }
+        },
+        {
+          "fi": "luottamusmies",
+          "translations": { "ru": "доверенное лицо" },
+          "example": {
+            "fi": "Luottamusmies auttaa työntekijöitä.",
+            "ru": "Доверенное лицо помогает работникам."
+          }
+        },
+        {
+          "fi": "duuni",
+          "translations": { "ru": "работа (разг.)" },
+          "example": {
+            "fi": "Mulla on uus duuni.",
+            "ru": "У меня новая работа."
+          }
+        },
+        {
+          "fi": "liksa",
+          "translations": { "ru": "зарплата (разг.)" },
+          "example": {
+            "fi": "Milloin tulee liksa?",
+            "ru": "Когда будет зарплата?"
+          }
+        },
+        {
+          "fi": "soppari",
+          "translations": { "ru": "контракт (разг.)" },
+          "example": {
+            "fi": "Tein uuden sopparin.",
+            "ru": "Я подписал новый контракт."
+          }
+        },
+        {
+          "fi": "vakkari",
+          "translations": { "ru": "штатный работник (разг.)" },
+          "example": {
+            "fi": "Hän on vakkari siellä.",
+            "ru": "Он там постоянный сотрудник."
+          }
+        },
+        {
+          "fi": "saikku",
+          "translations": { "ru": "больничный (разг.)" },
+          "example": {
+            "fi": "Olen saikulla flunssan takia.",
+            "ru": "Я на больничном из-за простуды."
+          }
+        },
+        {
+          "fi": "antaa / saada potkut",
+          "translations": { "ru": "уволить / быть уволенным (разг.)" },
+          "example": {
+            "fi": "Hän sai potkut viime viikolla.",
+            "ru": "Его уволили на прошлой неделе."
+          }
+        }
+      ]
+    },
+    "job_search": {
+      "title": "Поиск работы (Työnhaku)",
+      "words": [
+        {
+          "fi": "tehtävä",
+          "translations": { "ru": "задание, задача, должность" },
+          "example": {
+            "fi": "Tämä tehtävä sopii minulle hyvin.",
+            "ru": "Эта должность мне хорошо подходит."
+          }
+        },
+        {
+          "fi": "toimi",
+          "translations": { "ru": "должность, функция" },
+          "example": {
+            "fi": "Haen avoinna olevaa toimia.",
+            "ru": "Я подаюсь на открытую должность."
+          }
+        },
+        {
+          "fi": "avoinna oleva työtehtävä",
+          "translations": { "ru": "вакансия, открытая должность" },
+          "example": {
+            "fi": "Etsin avoinna olevaa työtehtävää.",
+            "ru": "Я ищу открытую вакансию."
+          }
+        },
+        {
+          "fi": "työnhakija",
+          "translations": { "ru": "соискатель" },
+          "example": {
+            "fi": "Työnhakija kirjoittaa työhakemuksen.",
+            "ru": "Соискатель пишет заявление о приёме."
+          }
+        },
+        {
+          "fi": "työhakemus",
+          "translations": { "ru": "заявление о приёме на работу" },
+          "example": {
+            "fi": "Kirjoitin työhakemuksen eilen.",
+            "ru": "Я написал заявление вчера."
+          }
+        },
+        {
+          "fi": "ansioluettelo",
+          "translations": { "ru": "резюме" },
+          "example": {
+            "fi": "Ansioluettelo kertoo koulutuksesta ja kokemuksesta.",
+            "ru": "Резюме рассказывает об образовании и опыте."
+          }
+        },
+        {
+          "fi": "CV",
+          "translations": { "ru": "резюме (лат. Curriculum Vitae)" },
+          "example": {
+            "fi": "Lähetin CV:n sähköpostilla.",
+            "ru": "Я отправил резюме по электронной почте."
+          }
+        },
+        {
+          "fi": "työhaastattelu",
+          "translations": { "ru": "собеседование" },
+          "example": {
+            "fi": "Minulla on työhaastattelu huomenna.",
+            "ru": "У меня собеседование завтра."
+          }
+        },
+        {
+          "fi": "työsopimus",
+          "translations": { "ru": "трудовой договор" },
+          "example": {
+            "fi": "Kirjoitimme työsopimuksen maanantaina.",
+            "ru": "Мы подписали трудовой договор в понедельник."
+          }
+        },
+        {
+          "fi": "perehdytys",
+          "translations": { "ru": "вводный инструктаж" },
+          "example": {
+            "fi": "Uudet työntekijät saavat perehdytyksen.",
+            "ru": "Новые сотрудники проходят вводный инструктаж."
+          }
+        },
+        {
+          "fi": "koeaika",
+          "translations": { "ru": "испытательный срок" },
+          "example": {
+            "fi": "Koeaika kestää 4 kuukautta.",
+            "ru": "Испытательный срок длится 4 месяца."
+          }
+        },
+        {
+          "fi": "työkokemus",
+          "translations": { "ru": "опыт работы" },
+          "example": {
+            "fi": "Minulla on 5 vuoden työkokemus.",
+            "ru": "У меня 5 лет опыта работы."
+          }
+        },
+        {
+          "fi": "osaaminen",
+          "translations": { "ru": "компетенция, умение" },
+          "example": {
+            "fi": "Osaaminen näkyy työssä.",
+            "ru": "Умение проявляется в работе."
+          }
+        },
+        {
+          "fi": "taito",
+          "translations": { "ru": "навык" },
+          "example": {
+            "fi": "Kirjoitustaito on tärkeä työelämässä.",
+            "ru": "Навык письма важен в рабочей жизни."
+          }
+        },
+        {
+          "fi": "kyky",
+          "translations": { "ru": "способность" },
+          "example": {
+            "fi": "Hänellä on hyvä kyky oppia uutta.",
+            "ru": "У него отличная способность к обучению."
+          }
+        },
+        {
+          "fi": "hallinta",
+          "translations": { "ru": "владение, контроль" },
+          "example": {
+            "fi": "IT-hallinta on välttämätön taito.",
+            "ru": "Владение ИТ — необходимый навык."
+          }
+        },
+        {
+          "fi": "toimia",
+          "translations": { "ru": "действовать, работать как" },
+          "example": {
+            "fi": "Toimin kouluttajana firmassa.",
+            "ru": "Я работаю тренером в компании."
+          }
+        },
+        {
+          "fi": "työskennellä",
+          "translations": { "ru": "работать" },
+          "example": {
+            "fi": "Työskentelen sairaanhoitajana.",
+            "ru": "Я работаю медсестрой."
+          }
+        }
+      ]
+    },
+    "unemployment": {
+      "title": "Безработица (Työttömyys)",
+      "words": [
+        {
+          "fi": "työtön",
+          "translations": { "ru": "безработный" },
+          "example": {
+            "fi": "Olen ollut työttömänä kaksi kuukautta.",
+            "ru": "Я безработный уже два месяца."
+          }
+        },
+        {
+          "fi": "TE-toimisto",
+          "translations": { "ru": "служба занятости" },
+          "example": {
+            "fi": "Ilmoittauduin TE-toimistoon.",
+            "ru": "Я зарегистрировался в центре занятости."
+          }
+        },
+        {
+          "fi": "ansiopäiväraha",
+          "translations": {
+            "ru": "пособие по безработице (зависит от зарплаты)"
+          },
+          "example": {
+            "fi": "Saan ansiopäivärahaa työttömyyden ajalta.",
+            "ru": "Я получаю пособие по безработице."
+          }
+        },
+        {
+          "fi": "peruspäiväraha",
+          "translations": { "ru": "базовое пособие по безработице" },
+          "example": {
+            "fi": "Jos ei ole oikeutta ansioon, saa peruspäivärahaa.",
+            "ru": "Если нет права на основное пособие, можно получить базовое."
+          }
+        }
+      ]
+    },
+    "employee_qualities": {
+      "title": "Хорошие качества работника",
+      "words": [
+        {
+          "fi": "oma-aloitteinen",
+          "translations": { "ru": "инициативный" },
+          "example": {
+            "fi": "Olen oma-aloitteinen ja teen asiat itsenäisesti.",
+            "ru": "Я инициативен и делаю всё самостоятельно."
+          }
+        },
+        {
+          "fi": "itsenäinen",
+          "translations": { "ru": "самостоятельный" },
+          "example": {
+            "fi": "Hän on itsenäinen työntekijä.",
+            "ru": "Он самостоятельный работник."
+          }
+        },
+        {
+          "fi": "yhteistyökykyinen",
+          "translations": { "ru": "умеющий работать в команде" },
+          "example": {
+            "fi": "Tiimissä tarvitaan yhteistyökykyisiä ihmisiä.",
+            "ru": "В команде нужны люди, умеющие сотрудничать."
+          }
+        },
+        {
+          "fi": "joustava",
+          "translations": { "ru": "гибкий" },
+          "example": {
+            "fi": "Työntekijä on joustava ja valmis muutoksiin.",
+            "ru": "Сотрудник гибкий и готов к изменениям."
+          }
+        },
+        {
+          "fi": "sitoutunut",
+          "translations": { "ru": "преданный делу" },
+          "example": {
+            "fi": "Hän on sitoutunut työhönsä.",
+            "ru": "Он предан своей работе."
+          }
+        },
+        {
+          "fi": "motivoitunut",
+          "translations": { "ru": "мотивированный" },
+          "example": {
+            "fi": "Olen motivoitunut oppimaan lisää.",
+            "ru": "Я мотивирован учиться дальше."
+          }
+        },
+        {
+          "fi": "määrätietoinen",
+          "translations": { "ru": "целеустремлённый" },
+          "example": {
+            "fi": "Hän on määrätietoinen johtaja.",
+            "ru": "Он целеустремлённый руководитель."
+          }
+        },
+        {
+          "fi": "luotettava",
+          "translations": { "ru": "надёжный" },
+          "example": {
+            "fi": "Luotettava työntekijä on tärkeä resurssi.",
+            "ru": "Надёжный работник — ценный ресурс."
+          }
+        },
+        {
+          "fi": "ahkera",
+          "translations": { "ru": "трудолюбивый" },
+          "example": {
+            "fi": "Olen ahkera ja teen työni hyvin.",
+            "ru": "Я трудолюбив и хорошо делаю свою работу."
+          }
+        },
+        {
+          "fi": "täsmällinen",
+          "translations": { "ru": "пунктуальный" },
+          "example": {
+            "fi": "Työntekijä on täsmällinen ja täyttää aikataulut.",
+            "ru": "Сотрудник пунктуален и соблюдает сроки."
+          }
+        },
+        {
+          "fi": "huolellinen",
+          "translations": { "ru": "аккуратный, внимательный" },
+          "example": {
+            "fi": "Huolellisuus on tärkeää työssä.",
+            "ru": "Аккуратность важна в работе."
+          }
+        },
+        {
+          "fi": "järjestelmällinen",
+          "translations": { "ru": "организованный" },
+          "example": {
+            "fi": "Olen järjestelmällinen ja suunnittelen työni hyvin.",
+            "ru": "Я организован и хорошо планирую свою работу."
+          }
+        },
+        {
+          "fi": "luova",
+          "translations": { "ru": "творческий" },
+          "example": {
+            "fi": "Luova ihminen löytää uusia ratkaisuja.",
+            "ru": "Творческий человек находит новые решения."
+          }
+        }
+      ]
+    }
+  },
+
+  "grammar": {
+    "sections": [
+      {
+        "id": "partisiipit",
+        "title": {
+          "ru": "Причастия",
+          "fi": "Partisiipit"
+        },
+        "explanation": {
+          "ru": "<p><b>Partisiipit</b> — это причастия, образованные от глаголов. Они используются как <b>прилагательные</b>, чтобы описать, <b>кто делает</b> действие, <b>что делается</b>, <b>кто сделал</b> и т.д.</p><table class=\"verb-conjugation\"><thead><tr><th>Форма</th><th>Что обозначает</th><th>Пример (FI)</th><th>Перевод (RU)</th></tr></thead><tbody><tr><td><b>-VA/-VÄ</b></td><td>кто <i>делает</i> сейчас или в будущем</td><td>matkalaukkua pakkaava mies</td><td>мужчина, который упаковывает чемодан</td></tr><tr><td><b>-TAVA/-TÄVÄ</b></td><td>что <i>должны сделать</i> / объект</td><td>pakattava matkalaukku</td><td>чемодан, который нужно упаковать</td></tr><tr><td><b>-NUT/-NYT</b></td><td>кто <i>уже сделал</i></td><td>matkalaukun pakannut mies</td><td>мужчина, который упаковал чемодан</td></tr><tr><td><b>-TU/-TY</b></td><td>что <i>уже сделали</i></td><td>pakattu matkalaukku</td><td>чемодан, который уже упаковали</td></tr><tr><td><b>-MA/-MÄ</b></td><td>что <i>кем-то сделано</i> (принадлежит действию)</td><td>miehen pakkaama matkalaukku</td><td>чемодан, упакованный мужчиной</td></tr></tbody></table><p class=\"hint\"><b>📌 Подсказка:</b> Причастия часто используются в речи вместо придаточных предложений: <i>mies, joka pakkaa → pakkaava mies</i>.</p>"
+        },
+        "explanation": {
+          "ru": "<div class='explanation-card p-6 sm:p-8'>\n  <div class='panel-grad mb-6 sm:mb-8'>\n    <h3 class='title-xl flex items-center gap-2'>\n      <span>🔹</span>\n      <span>Глаголы 1-го типа</span>\n    </h3>\n    <p class='text-base sm:text-lg text-gray-700 mt-3'>Глаголы 1-го типа оканчиваются на <b>-aa/-ää</b>. <br><b>Примеры глаголов:</b> asua(жить), maksaa(платить, оплачивать), ostaa(купить, покупать), istua(сидеть), katsoa(смотреть), seisoa(стоять), soittaa(играть, звонить), matkustaa(путешествовать), itkeä(плакать), lentää(летать), ajaa(ехать), nauraa(смеяться), nukkua(спать). В спряжении убирается окончание и добавляются личные окончания.</p>\n  </div>\n\n  <div class='conjugation-table mb-6 sm:mb-8'>\n    <h4 class='text-xl sm:text-2xl font-semibold mb-3 sm:mb-4'>Спряжение глагола <i>maksaa</i> (платить)</h4>\n    <div class='overflow-x-auto rounded-xl bg-white'>\n      <table class='w-full table-auto text-left'>\n        <thead class='bg-gradient-to-r from-[#E9F1FF] to-[#CDE8FF]'>\n          <tr class='text-gray-900'>\n            <th class='p-3 sm:p-4 text-sm sm:text-base'>Лицо</th>\n            <th class='p-3 sm:p-4 text-sm sm:text-base'>Окончание</th>\n            <th class='p-3 sm:p-4 text-sm sm:text-base'>Форма</th>\n            <th class='p-3 sm:p-4 text-sm sm:text-base'>Перевод</th>\n          </tr>\n        </thead>\n        <tbody class='divide-y divide-gray-100'>\n          <tr><td class='p-3 sm:p-4'>minä</td><td class='p-3 sm:p-4'>-n</td><td class='p-3 sm:p-4'>maksan</td><td class='p-3 sm:p-4'>я плачу</td></tr>\n          <tr><td class='p-3 sm:p-4'>sinä</td><td class='p-3 sm:p-4'>-t</td><td class='p-3 sm:p-4'>maksat</td><td class='p-3 sm:p-4'>ты платишь</td></tr>\n          <tr><td class='p-3 sm:p-4'>hän/se</td><td class='p-3 sm:p-4'>-V (удвоение гласной)</td><td class='p-3 sm:p-4'>maksaa</td><td class='p-3 sm:p-4'>он/она платит</td></tr>\n          <tr><td class='p-3 sm:p-4'>me</td><td class='p-3 sm:p-4'>-mme</td><td class='p-3 sm:p-4'>maksamme</td><td class='p-3 sm:p-4'>мы платим</td></tr>\n          <tr><td class='p-3 sm:p-4'>te</td><td class='p-3 sm:p-4'>-tte</td><td class='p-3 sm:p-4'>maksatte</td><td class='p-3 sm:p-4'>вы платите</td></tr>\n          <tr><td class='p-3 sm:p-4'>he/ne</td><td class='p-3 sm:p-4'>-vat/-vät</td><td class='p-3 sm:p-4'>maksavat</td><td class='p-3 sm:p-4'>они платят</td></tr>\n        </tbody>\n      </table>\n    </div>\n    <p class='text-gray-600 text-sm mt-2'><i>(V = удвоение гласной)</i></p>\n  </div>\n\n  <div class='conjugation-table mb-6 sm:mb-8'>\n    <h4 class='text-xl sm:text-2xl font-semibold mb-3 sm:mb-4'>Спряжение глагола <i>kirjoittaa</i> (писать)</h4>\n    <div class='overflow-x-auto rounded-xl bg-white'>\n      <table class='w-full table-auto text-left'>\n        <thead class='bg-gradient-to-r from-[#E9F1FF] to-[#CDE8FF]'>\n          <tr class='text-gray-900'>\n            <th class='p-3 sm:p-4 text-sm sm:text-base'>Лицо</th>\n            <th class='p-3 sm:p-4 text-sm sm:text-base'>Окончание</th>\n            <th class='p-3 sm:p-4 text-sm sm:text-base'>Форма</th>\n            <th class='p-3 sm:p-4 text-sm sm:text-base'>Перевод</th>\n          </tr>\n        </thead>\n        <tbody class='divide-y divide-gray-100'>\n          <tr><td class='p-3 sm:p-4'>minä</td><td class='p-3 sm:p-4'>-n</td><td class='p-3 sm:p-4'>kirjoitan</td><td class='p-3 sm:p-4'>я пишу</td></tr>\n          <tr><td class='p-3 sm:p-4'>sinä</td><td class='p-3 sm:p-4'>-t</td><td class='p-3 sm:p-4'>kirjoitat</td><td class='p-3 sm:p-4'>ты пишешь</td></tr>\n          <tr><td class='p-3 sm:p-4'>hän/se</td><td class='p-3 sm:p-4'>-V (удвоение гласной)</td><td class='p-3 sm:p-4'>kirjoittaa</td><td class='p-3 sm:p-4'>он/она пишет</td></tr>\n          <tr><td class='p-3 sm:p-4'>me</td><td class='p-3 sm:p-4'>-mme</td><td class='p-3 sm:p-4'>kirjoitamme</td><td class='p-3 sm:p-4'>мы пишем</td></tr>\n          <tr><td class='p-3 sm:p-4'>te</td><td class='p-3 sm:p-4'>-tte</td><td class='p-3 sm:p-4'>kirjoitatte</td><td class='p-3 sm:p-4'>вы пишете</td></tr>\n          <tr><td class='p-3 sm:p-4'>he/ne</td><td class='p-3 sm:p-4'>-vat/-vät</td><td class='p-3 sm:p-4'>kirjoittavat</td><td class='p-3 sm:p-4'>они пишут</td></tr>\n        </tbody>\n      </table>\n    </div>\n  </div>\n\n  <div class='important-note note-grad'>\n    <p class='text-base sm:text-lg text-gray-800'>\n      <b>💡 Напоминание:</b> В глаголе <i>kirjoittaa</i> видно <b>kpt-чередование</b>: в формах <i>minä kirjoitan</i> и <i>sinä kirjoitat</i> используется слабая основа (t), а в формах <i>hän kirjoittaa</i> и <i>he kirjoittavat</i> остаётся сильная основа (tt). К этому также относятся глаголы&nbsp; <b>nukkua</b> → <i>nukun</i>, <i>hän nukkuu</i><br>\n      <b>lentää</b> → <i>lennän</i>, <i>he lentävät</i> <br>\n      и другие глаголы с чередованием.\n    </p>\n  </div>\n</div>"
+        },
+        "explanation": {
+              "ru": "<div>\n  <div>\n    <h3>🔹 Глаголы 1-го типа</h3>\n    <p>Глаголы 1-го типа оканчиваются на <b>-aa/-ää</b>.<br>\n    <b>Примеры глаголов:</b> asua (жить), maksaa (платить, оплачивать), ostaa (купить, покупать), istua (сидеть), katsoa (смотреть), seisoa (стоять), soittaa (играть, звонить), matkustaa (путешествовать), itkeä (плакать), lentää (летать), ajaa (ехать), nauraa (смеяться), nukkua (спать). В спряжении убирается окончание и добавляются личные окончания.</p>\n  </div>\n\n  <div>\n    <h4>Спряжение глагола <i>maksaa</i> (платить)</h4>\n    <table>\n      <thead>\n        <tr>\n          <th>Лицо</th>\n          <th>Окончание</th>\n          <th>Форма</th>\n          <th>Перевод</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr><td>minä</td><td>-n</td><td>maksan</td><td>я плачу</td></tr>\n        <tr><td>sinä</td><td>-t</td><td>maksat</td><td>ты платишь</td></tr>\n        <tr><td>hän/se</td><td>-V (удвоение гласной)</td><td>maksaa</td><td>он/она платит</td></tr>\n        <tr><td>me</td><td>-mme</td><td>maksamme</td><td>мы платим</td></tr>\n        <tr><td>te</td><td>-tte</td><td>maksatte</td><td>вы платите</td></tr>\n        <tr><td>he/ne</td><td>-vat/-vät</td><td>maksavat</td><td>они платят</td></tr>\n      </tbody>\n    </table>\n    <p><i>(V = удвоение гласной)</i></p>\n  </div>\n\n  <div>\n    <h4>Спряжение глагола <i>kirjoittaa</i> (писать)</h4>\n    <table>\n      <thead>\n        <tr>\n          <th>Лицо</th>\n          <th>Окончание</th>\n          <th>Форма</th>\n          <th>Перевод</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr><td>minä</td><td>-n</td><td>kirjoitan</td><td>я пишу</td></tr>\n        <tr><td>sinä</td><td>-t</td><td>kirjoitat</td><td>ты пишешь</td></tr>\n        <tr><td>hän/se</td><td>-V (удвоение гласной)</td><td>kirjoittaa</td><td>он/она пишет</td></tr>\n        <tr><td>me</td><td>-mme</td><td>kirjoitamme</td><td>мы пишем</td></tr>\n        <tr><td>te</td><td>-tte</td><td>kirjoitatte</td><td>вы пишете</td></tr>\n        <tr><td>he/ne</td><td>-vat/-vät</td><td>kirjoittavat</td><td>они пишут</td></tr>\n      </tbody>\n    </table>\n  </div>\n\n  <div>\n    <p><b>💡 Напоминание:</b> В глаголе <i>kirjoittaa</i> видно <b>kpt-чередование</b>: в формах <i>minä kirjoitan</i> и <i>sinä kirjoitat</i> используется слабая основа (t), а в формах <i>hän kirjoittaa</i> и <i>he kirjoittavat</i> остаётся сильная основа (tt).<br>\n    К этому также относятся глаголы <b>nukkua</b> → <i>nukun</i>, <i>hän nukkuu</i><br>\n    <b>lentää</b> → <i>lennän</i>, <i>he lentävät</i><br>\n    и другие глаголы с чередованием.</p>\n  </div>\n</div>"
+            },
+        "exercises": [
+          {
+            "id": "ex-partisiipit-valitse",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "🧠 Выберите правильную форму причастия."
+            },
+            "questions": [
+              {
+                "question": "Näen ___ miehen.",
+                "options": ["pakkaava", "pakattava", "pakannut"],
+                "answer": 0
+              },
+              {
+                "question": "Tässä on ___ laukku.",
+                "options": ["pakannut", "pakattu", "pakkaava"],
+                "answer": 1
+              },
+              {
+                "question": "Tässä on ___ matkalaukku.",
+                "options": [
+                  "miehen pakkaama",
+                  "miehen pakannut",
+                  "miehen pakkaava"
+                ],
+                "answer": 0
+              },
+              {
+                "question": "Siinä on jo ___ mies.",
+                "options": ["pakkaava", "pakannut", "pakattava"],
+                "answer": 1
+              },
+              {
+                "question": "Se on laukku, joka pitää vielä ___ .",
+                "options": ["pakata", "pakattu", "pakattava"],
+                "answer": 2
+              },
+              {
+                "question": "Aurinkoisesti ___ tyttö toi vanhemmilleen paljon iloa.",
+                "options": ["hymyilevä", "hymyillyt", "hymyilemä"],
+                "answer": 0
+              },
+              {
+                "question": "Ammattikorkeakoulusta ___ Hanna on mennyt töihin.",
+                "options": ["valmistuva", "valmistunut", "valmistama"],
+                "answer": 1
+              },
+              {
+                "question": "Naapurissa ___ perhe etsii uutta asuntoa.",
+                "options": ["asuva", "asunut", "asutettava"],
+                "answer": 0
+              },
+              {
+                "question": "___ lisätila olisi maksanut liikaa.",
+                "options": ["Tarvittu", "Tarvittava", "Tarvitseva"],
+                "answer": 1
+              },
+              {
+                "question": "Yläkoulua ___ Kalle on perustanut bändin.",
+                "options": ["käynyt", "käyvä", "käyty"],
+                "answer": 1
+              },
+              {
+                "question": "Millan isän ___ asunto on lähellä metsää.",
+                "options": ["remontoima", "remontoitu", "remontoiva"],
+                "answer": 0
+              },
+              {
+                "question": "Kävelymatkan päässä on ___ ravintola.",
+                "options": ["vastikään avannut", "vastikään avattu", "avaava"],
+                "answer": 1
+              }
+            ]
+          },
+          {
+            "id": "ex-partisiipit-kirjoita",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "📝 Напишите правильную форму причастия."
+            },
+            "items": [
+              {
+                "sentence": "Näen ___ naisen. (joka pakkaa)",
+                "answer": "pakkaavan"
+              },
+              {
+                "sentence": "Tässä on ___ kirja. (joka on kirjoitettu)",
+                "answer": "kirjoitettu"
+              },
+              {
+                "sentence": "Tämä on ___ kirje. (jonka mies kirjoitti)",
+                "answer": "miehen kirjoittama"
+              },
+              {
+                "sentence": "Tässä on jo ___ opettaja. (joka tuli)",
+                "answer": "tullut"
+              },
+              {
+                "sentence": "Tämä on kirja, joka pitää vielä ___. (lukea)",
+                "answer": "lukea / luettavaksi"
+              },
+              {
+                "sentence": "Näen ___ naisen. (joka pakkaa)",
+                "answer": "pakkaavan"
+              },
+              {
+                "sentence": "Tässä on ___ kirja. (joka on kirjoitettu)",
+                "answer": "kirjoitettu"
+              },
+              {
+                "sentence": "Tämä on ___ kirje. (jonka mies kirjoitti)",
+                "answer": "miehen kirjoittama"
+              },
+              {
+                "sentence": "Tässä on jo ___ opettaja. (joka tuli)",
+                "answer": "tullut"
+              },
+              {
+                "sentence": "Tämä on kirja, joka pitää vielä ___. (lukea)",
+                "answer": "lukea / luettavaksi"
+              },
+
+              {
+                "sentence": "Millainen tyttö? Tyttö, joka ___ aurinkoisesti. (hymyilee)",
+                "answer": "hymyilee / hymyilevä"
+              },
+              {
+                "sentence": "Millainen Hanna? Hanna, joka ___ ammattikorkeakoulusta. (valmistuu)",
+                "answer": "valmistuu / valmistunut"
+              },
+              {
+                "sentence": "Millainen perhe? Perhe, joka ___ naapurissa. (asuu)",
+                "answer": "asuu / asuva"
+              },
+              {
+                "sentence": "Millainen lisätila? Lisätila, jota ___ . (tarvita)",
+                "answer": "tarvitaan / tarvittava"
+              },
+              {
+                "sentence": "Millainen Kalle? Kalle, joka ___ yläkoulua. (käy)",
+                "answer": "käy / käyvä"
+              },
+              {
+                "sentence": "Millainen asunto? Asunto, jonka ___ Millan isä. (remontoida)",
+                "answer": "Millan isä remontoi / Millan isän remontoima"
+              },
+              {
+                "sentence": "Millainen ravintola? Ravintola, joka ___ vastikään. (avata)",
+                "answer": "on avattu / vastikään avattu"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "speaking": [],
+  "listening": {
+    "audioUrl": "",
+    "tasks": []
+  },
+  "writing": [],
+  "reading": {
+    "id": "",
+    "title": "",
+    "explanation": {
+      "description": "",
+      "text": ""
+    },
+    "tasks": []
+  },
+  "info": {
+    "overview": {
+      "ru": ""
+    },
+    "vocabularyInfo": {
+      "ru": ""
+    },
+    "ollaInfo": {
+      "ru": ""
+    },
+    "writingInfo": {
+      "ru": ""
+    }
+  }
+}
