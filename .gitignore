@@ -38,6 +38,9 @@ functions/.env
 upload-lessons/serviceAccountKey.json
 upload-lessons/node_modules
 upload-lessons/.env
+# Скрываем контент уроков (JSON), чтобы не попал в git
+upload-lessons/lessons/
+upload-lessons/lessons.json
 
 # ───── Editor config files ─────
 .vscode/*
