@@ -1,29 +1,184 @@
 {
   "id": "A2-1",
   "level": "A2",
-  "title": "Покупки в магазине",
-  "premium": true,
+  "title": "Урок 1",
+  "premium": false,
   "goal": {
-    "ru": "Научиться делать покупки на финском языке",
-    "fi": "Oppia asioimaan kaupassa suomeksi"
+    "ru": "Научиться использовать прошедшее время (Имперфект)",
+    "fi": "Oppia käyttämään mennyttä aikaa (Imperfekti)"
   },
   "topic": {
-    "ru": "Магазин и покупки",
-    "fi": "Kauppa ja ostokset"
+    "ru": "Прошедшее время",
+    "fi": "Mennyt aika"
   },
-  "vocabulary": [
-    { "fi": "kauppa", "translations": { "ru": "магазин", "en": "shop" } },
-    { "fi": "osta", "translations": { "ru": "покупать", "en": "buy" } }
-  ],
+  "vocabulary": {},
   "grammar": {
-    "title": { "ru": "Фразы для покупок", "fi": "Ostostilanteiden fraasit" },
-    "examples": [
+    "sections": [
       {
-        "fi": "Paljonko tämä maksaa?",
-        "translations": {
-          "ru": "Сколько это стоит?",
-          "en": "How much does this cost?"
-        }
+        "id": "imperfekti",
+        "title": {
+          "ru": "Имперфект",
+          "fi": "Imperfekti"
+        },
+        "explanation": {},
+        "exercises": [
+          {
+            "id": "imperfekti-1",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "📌 Как образуется имперфект"
+              },
+              "intro": {
+                "ru": "Имперфект — это прошедшее время в финском языке.\n\n**Формула образования:**\nОснова глагола (vartalo) + **-i** + личное окончание (-n, -t, -mme, -tte, -vat)."
+              },
+              "conjugationExamples": [
+                {
+                  "title": {
+                    "ru": "1. Гласные o, ö, u, y — остаются"
+                  },
+                  "rows": [
+                    { "person": "sano-n", "form": "sanoin", "ru": "я сказал" },
+                    { "person": "säilö-n", "form": "säilöin", "ru": "я хранил" },
+                    { "person": "puhu-n", "form": "puhuin", "ru": "я говорил" },
+                    { "person": "kysy-n", "form": "kysyin", "ru": "я спросил" }
+                  ],
+                  "hint": "Гласные **o, ö, u, y** сохраняются при образовании имперфекта."
+                },
+                {
+                  "title": {
+                    "ru": "2. Гласные a, ä, e, i — исчезают"
+                  },
+                  "rows": [
+                    { "person": "odota-n", "form": "odotin", "ru": "я ждал" },
+                    { "person": "pidä-n", "form": "pidin", "ru": "я держал / мне нравилось" },
+                    { "person": "opiskelen", "form": "opiskelin", "ru": "я учился" },
+                    { "person": "ui-n", "form": "uin", "ru": "я плыл" }
+                  ],
+                  "hint": "Гласные **a, ä, e, i** исчезают перед суффиксом -i."
+                }
+              ],
+              "note": {
+                "title": { "ru": "⚠️ Важно! (HUOM!)" },
+                "body": {
+                  "ru": "В форме 3-го лица (hän / se) в имперфекте **никогда не удваивается последняя гласная**!\n\n❌ *hän puhuii* (неверно)\n✅ **hän puhui** (он говорил)\n\n❌ *hän asuii* (неверно)\n✅ **hän asui** (он жил)\n\n❌ *hän odottii* (неверно)\n✅ **hän odotti** (он ждал)"
+                },
+                "examples": [
+                  { "fi": "hän puhui", "ru": "он говорил" },
+                  { "fi": "hän asui", "ru": "он жил" },
+                  { "fi": "hän odotti", "ru": "он ждал" }
+                ]
+              },
+              "examples": [
+                {
+                  "title": { "ru": "💬 Примеры" },
+                  "examples": [
+                    { "fi": "Missä sinä olit eilen?", "ru": "Где ты был вчера?" },
+                    { "fi": "Olin kotona.", "ru": "Я был дома." },
+                    { "fi": "Tulitko eilen töihin autolla?", "ru": "Ты приехал вчера на работу на машине?" },
+                    { "fi": "En, minä kävelin.", "ru": "Нет, я шёл пешком." }
+                  ]
+                }
+              ],
+              "summary": {
+                "title": { "ru": "📝 Итог" },
+                "body": {
+                  "ru": "**Имперфект** = прошедшее время.\n\nОбразуется с помощью **-i**.\n\nОдни гласные сохраняются (**o, ö, u, y**), другие исчезают (**a, ä, e, i**).\n\nВ форме **hän** никогда не пишется двойная гласная."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "✍️ Допишите правильное окончание в пропуск. Используйте правило образования имперфекта: основа + -i + личное окончание."
+            },
+            "items": [
+              {
+                "sentence": "Minä sano___ (sanoa)",
+                "answer": "in",
+                "translation": "Я сказал",
+                "feedbackCorrect": "✅ Отлично! «Sanoin» — форма 1-го лица ед. числа. Основа sano- + -i + -n = sanoin.",
+                "feedbackWrong": "❌ Ошибка. Нужно: sanoin. В имперфекте гласная o сохраняется, поэтому: sano- + i + n."
+              },
+              {
+                "sentence": "Minä säilö___ (säilöä)",
+                "answer": "in",
+                "translation": "Я хранил",
+                "feedbackCorrect": "✅ Молодец! Основа säilö- сохраняет ö → säilö + i + n = säilöin.",
+                "feedbackWrong": "❌ Нужно: säilöin. В имперфекте ö остаётся, добавляем -i- и окончание -n."
+              },
+              {
+                "sentence": "Minä puhu___ (puhua)",
+                "answer": "in",
+                "translation": "Я говорил",
+                "feedbackCorrect": "✅ Отлично! puhu- + i + n = puhuin.",
+                "feedbackWrong": "❌ Верно: puhuin. В имперфекте u остаётся, добавляем -i- и окончание -n."
+              },
+              {
+                "sentence": "Minä kysy___ (kysyä)",
+                "answer": "in",
+                "translation": "Я спросил",
+                "feedbackCorrect": "✅ Отлично! Основа kysy- + i + n = kysyin.",
+                "feedbackWrong": "❌ Нужно: kysyin. Гласная y сохраняется, добавляем -i- и окончание -n."
+              },
+              {
+                "sentence": "Minä odo___ (odottaa)",
+                "answer": "tin",
+                "translation": "Я ждал",
+                "feedbackCorrect": "✅ Хорошо! Основа odota- теряет a → odo- + i + n = odotin.",
+                "feedbackWrong": "❌ Неверно. В имперфекте гласная a исчезает, поэтому: odota → odot + i + n = odotin."
+              },
+              {
+                "sentence": "Minä pid___ (pitää)",
+                "answer": "in",
+                "translation": "Я держал / мне нравилось",
+                "feedbackCorrect": "✅ Отлично! Основа pidä- теряет ä → pid- + i + n = pidin.",
+                "feedbackWrong": "❌ Ошибка. В имперфекте ä исчезает, поэтому правильно: pidin."
+              },
+              {
+                "sentence": "Minä opiskel___ (opiskella)",
+                "answer": "in",
+                "translation": "Я учился",
+                "feedbackCorrect": "✅ Молодец! opiske- + liite -li- + n = opiskelin.",
+                "feedbackWrong": "❌ Нужно: opiskelin. Гласная e выпадает, остаётся opiske- + li + n."
+              },
+              {
+                "sentence": "Minä u___ (uida)",
+                "answer": "in",
+                "translation": "Я плыл",
+                "feedbackCorrect": "✅ Отлично! Основа ui- теряет i → u- + i + n = uin.",
+                "feedbackWrong": "❌ Ошибка. В имперфекте гласная i исчезает, поэтому форма: uin."
+              },
+              {
+                "sentence": "Hän odo___ (odottaa)",
+                "answer": "tti",
+                "translation": "Он ждал",
+                "feedbackCorrect": "✅ Отлично! «Hän odotti» — в 3-м лице удвоения гласной нет, только одно i.",
+                "feedbackWrong": "❌ Нужно: odotti. В имперфекте долгого гласного не бывает, поэтому правильно: odottaa- → odo- + tti."
+              },
+              {
+                "sentence": "Hän puhu___ (puhua)",
+                "answer": "i",
+                "translation": "Он говорил",
+                "feedbackCorrect": "✅ Хорошо! Основа puhu- + i = puhui.",
+                "feedbackWrong": "❌ Ошибка. Верно: puhui. В 3-м лице гласная u сохраняется, добавляем только -i, без удвоений."
+              },
+              {
+                "sentence": "Hän ava___ (avata)",
+                "answer": "si",
+                "translation": "Он открыл",
+                "feedbackCorrect": "✅ Молодец! ava- → ava- + si = avasi.",
+                "feedbackWrong": "❌ Нужно: avasi. Здесь нельзя писать avaasi, потому что в 3-м лице имперфекта нет долгих гласных."
+              },
+              {
+                "sentence": "Hän asu___ (asua)",
+                "answer": "i",
+                "translation": "Он жил",
+                "feedbackCorrect": "✅ Отлично! «Hän asui» — это имперфект 3-го лица. Основа asu- + i = asui.",
+                "feedbackWrong": "❌ Ошибка. Нужно: asui. В 3-м лице имперфекта не бывает долгого гласного, поэтому правильно писать asui, а не asuui."
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -31,5 +186,26 @@
   "listening": {
     "audioUrl": "",
     "tasks": []
+  },
+  "writing": [],
+  "reading": {
+    "id": "",
+    "title": "",
+    "explanation": {
+      "description": "",
+      "text": ""
+    },
+    "tasks": []
+  },
+  "info": {
+    "overview": {
+      "ru": ""
+    },
+    "vocabularyInfo": {
+      "ru": ""
+    },
+    "writingInfo": {
+      "ru": ""
+    }
   }
 }

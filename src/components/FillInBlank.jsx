@@ -270,6 +270,21 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
                   if (onTotalQuestionsChange) {
                     onTotalQuestionsChange(mistakes.length);
                   }
+
+                  // Скролл к упражнению после обновления состояния
+                  setTimeout(() => {
+                    const element = document.getElementById("exercise-start-anchor");
+                    if (element) {
+                      const rect = element.getBoundingClientRect();
+                      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                      const navHeight = 100; // примерная высота навбара с отступом
+                      // Скроллим так, чтобы начало упражнения было чуть ниже навбара
+                      window.scrollTo({
+                        top: rect.top + scrollTop - navHeight,
+                        behavior: "smooth"
+                      });
+                    }
+                  }, 100);
                 }}
                 className="w-full py-4 px-6 rounded-xl bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white shadow-lg transition-all font-medium text-lg"
               >
@@ -310,13 +325,13 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
   return (
     <div className="w-full">
         {/* Объяснение: теперь СНАЧАЛА structured, ПОТОМ fallback на HTML */}
-        {(S || exercise.explanation?.ru) && (
+        {(S || exercise?.explanation?.ru) && (
           <div className="mb-6">
             {/* === Structured first === */}
             {S && <StructuredExplanation structured={{...S, stageIndex}} lang="ru" />}
 
             {/* === Fallback: старый HTML (если structured отсутствует) === */}
-            {!S && exercise.explanation?.ru && (
+            {!S && exercise?.explanation?.ru && (
               <div className="mb-6">
                 {/* Заголовок */}
                 <div className="mb-4">
@@ -326,7 +341,7 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
                   >
                     {(() => {
                       const h3Match =
-                        exercise.explanation.ru.match(/<h3>(.*?)<\/h3>/);
+                        exercise?.explanation?.ru?.match(/<h3>(.*?)<\/h3>/);
                       return (
                         h3Match?.[1]?.replace(/🔹\s*/g, "").trim() || "Глаголы"
                       );
@@ -336,7 +351,7 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
 
                 {/* Первый абзац */}
                 {(() => {
-                  const htmlContent = exercise.explanation.ru;
+                  const htmlContent = exercise?.explanation?.ru || "";
                   const firstP =
                     htmlContent.match(/<p>([\s\S]*?)<\/p>/i)?.[1] || "";
                   const cleaned = firstP.replace(/<br\s*\/?>/g, " ").trim();
@@ -386,7 +401,7 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
 
                 {/* Таблицы из HTML */}
                 {(() => {
-                  const htmlContent = exercise.explanation.ru;
+                  const htmlContent = exercise?.explanation?.ru || "";
                   const tables =
                     htmlContent.match(/<table>[\s\S]*?<\/table>/g) || [];
                   return (
@@ -437,7 +452,7 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
         )}
 
         {/* Инструкция и упражнение */}
-        <div className="w-full">
+        <div className="w-full" id="exercise-start-anchor">
           <h3 className="text-2xl mb-6 flex items-center gap-2">
             <span>⚡</span>
             {exercise.instruction?.title?.ru || "Упражнение"}
@@ -474,9 +489,10 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
                 onKeyDown={handleKeyDown}
                 disabled={!!feedback}
                 aria-label="Введите ответ"
-                placeholder="Введите ответ..."
+                placeholder=""
+                style={{ width: `${Math.max(input.length, 1) + 4}ch` }}
                 className={[
-                  "inline-block w-16 sm:w-28 md:w-40 mx-1 sm:mx-2 text-center text-base sm:text-xl md:text-2xl py-3 sm:py-5 md:py-6",
+                  "inline-block w-auto min-w-[60px] mx-1 sm:mx-2 text-center text-base sm:text-xl md:text-2xl py-3 sm:py-5 md:py-6 transition-all duration-200",
                   !feedback
                     ? ""
                     : feedbackTone === "success"
@@ -501,7 +517,7 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
                     : "bg-red-50 border-2 border-red-300 text-red-600"
                 }`}
               >
-                <p className="text-lg" dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(feedback) }} />
+                <p className="text-lg" dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(feedback || "") }} />
               </div>
             )}
           </div>
