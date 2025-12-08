@@ -1,4 +1,5 @@
 import React from "react";
+import DOMPurify from "dompurify";
 
 function ReadingContent({ title = "📘 Текст для чтения", text = "" }) {
   if (!text) return null;
@@ -10,7 +11,7 @@ function ReadingContent({ title = "📘 Текст для чтения", text = 
       {isHtml ? (
         <div
           className="prose prose-lg max-w-none prose-headings:text-gray-900 prose-headings:font-semibold prose-p:text-gray-800 prose-p:text-lg prose-p:leading-8 prose-p:mb-5 prose-strong:text-gray-900 prose-strong:font-semibold"
-          dangerouslySetInnerHTML={{ __html: text }}
+          dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(text) }}
           style={{
             lineHeight: "1.75",
             fontSize: "1.125rem",

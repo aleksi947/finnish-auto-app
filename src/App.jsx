@@ -32,6 +32,7 @@ import LessonEditorPage from "./pages/admin/LessonEditorPage";
 import LessonCreatePage from "./pages/admin/LessonCreatePage";
 
 import LessonGuard from "./components/LessonGuard";
+import AdminGuard from "./components/AdminGuard";
 
 console.log("🔥 Firestore подключён:", db);
 console.log("🔥 Firebase подключён:", auth);
@@ -106,16 +107,14 @@ function App() {
           />
         </Route>
 
-        <Route path="/admin/lessons" element={<LessonAdminPage />} />
-        <Route
-          path="/admin/lesson/:level/:lessonId"
-          element={<LessonEditPage />}
-        />
-        <Route
-          path="/admin/lesson/:level/:lessonId"
-          element={<LessonEditorPage />}
-        />
-        <Route path="/admin/lessons/new" element={<LessonCreatePage />} />
+        <Route element={<AdminGuard />}>
+          <Route path="/admin/lessons" element={<LessonAdminPage />} />
+          <Route
+            path="/admin/lesson/:level/:lessonId"
+            element={<LessonEditorPage />}
+          />
+          <Route path="/admin/lessons/new" element={<LessonCreatePage />} />
+        </Route>
       </Routes>
     </Router>
   );

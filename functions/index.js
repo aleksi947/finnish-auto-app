@@ -5,7 +5,24 @@ const cors = require("cors");
 
 admin.initializeApp();
 
-const corsHandler = cors({ origin: true });
+const allowedOrigins = [
+  "https://finnish-auto-new.web.app",
+  "https://finnish-auto-new.firebaseapp.com", // На всякий случай
+  "http://localhost:5173",
+  "http://localhost:4173", // Vite preview
+  "http://localhost:5000" // Emulators
+];
+
+const corsHandler = cors({
+  origin: (origin, callback) => {
+    // Разрешаем запросы без origin (например, server-to-server) или из белого списка
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  }
+});
 
 // ✅ СОЗДАНИЕ Checkout-сессии
 exports.startCheckoutSession = functions.https.onRequest((req, res) => {

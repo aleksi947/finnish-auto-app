@@ -1,4 +1,5 @@
 import { Fragment, useEffect, useState } from "react";
+import DOMPurify from "dompurify";
 import "../styles/grammar.scss";
 import ResponsiveConjugationTable from "./ResponsiveConjugationTable";
 import StructuredExplanation from "./StructuredExplanation";
@@ -343,10 +344,10 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
                     <p
                       className="text-gray-700 mb-6"
                       dangerouslySetInnerHTML={{
-                        __html: cleaned.replace(
+                        __html: DOMPurify.sanitize(cleaned.replace(
                           /<b>(.*?)<\/b>/g,
                           "<strong>$1</strong>"
-                        ),
+                        )),
                       }}
                     />
                   ) : null;
@@ -413,10 +414,10 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
                               <span>📊</span>
                               <span
                                 dangerouslySetInnerHTML={{
-                                  __html: tableTitle.replace(
+                                  __html: DOMPurify.sanitize(tableTitle.replace(
                                     /<i>(.*?)<\/i>/,
                                     '<span class="text-blue-600">$1</span>'
-                                  ),
+                                  )),
                                 }}
                               />
                             </h3>
@@ -500,7 +501,7 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
                     : "bg-red-50 border-2 border-red-300 text-red-600"
                 }`}
               >
-                <p className="text-lg" dangerouslySetInnerHTML={{ __html: feedback }} />
+                <p className="text-lg" dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(feedback) }} />
               </div>
             )}
           </div>

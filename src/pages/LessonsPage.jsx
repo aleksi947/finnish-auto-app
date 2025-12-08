@@ -63,14 +63,21 @@ export default function LessonsPage() {
       setIsLoading(true);
       setError(null);
       try {
-        if (user) {
-          const ref = doc(db, "subscriptions", user.uid);
-          const snap = await getDoc(ref);
-          setHasSubscription(snap.exists() && snap.data().active === true);
-        } else {
+        // Загружаем информацию о подписке (не критично, если ошибка)
+        try {
+          if (user) {
+            const ref = doc(db, "subscriptions", user.uid);
+            const snap = await getDoc(ref);
+            setHasSubscription(snap.exists() && snap.data().active === true);
+          } else {
+            setHasSubscription(false);
+          }
+        } catch (subError) {
+          console.warn("Ошибка загрузки подписки:", subError);
           setHasSubscription(false);
         }
 
+        // Загружаем уроки (критично)
         const snap = await getDocs(collection(db, "lessons"));
         const data = snap.docs.map((d) => ({ id: d.id, ...d.data() }));
 
@@ -84,22 +91,27 @@ export default function LessonsPage() {
 
         setLessons(data);
 
-        // Загружаем прогресс всех уроков для пользователя
+        // Загружаем прогресс всех уроков для пользователя (не критично, если ошибка)
         if (user) {
-          const progressPromises = data.map(async (lesson) => {
-            const progress = await getLessonProgress(user.uid, lesson.id);
-            return { lessonId: lesson.id, progress };
-          });
-          
-          const progressResults = await Promise.all(progressPromises);
-          const progressMapObj = {};
-          progressResults.forEach(({ lessonId, progress }) => {
-            progressMapObj[lessonId] = progress;
-          });
-          setProgressMap(progressMapObj);
+          try {
+            const progressPromises = data.map(async (lesson) => {
+              const progress = await getLessonProgress(user.uid, lesson.id);
+              return { lessonId: lesson.id, progress };
+            });
+            
+            const progressResults = await Promise.all(progressPromises);
+            const progressMapObj = {};
+            progressResults.forEach(({ lessonId, progress }) => {
+              progressMapObj[lessonId] = progress;
+            });
+            setProgressMap(progressMapObj);
+          } catch (progressError) {
+            console.warn("Ошибка загрузки прогресса:", progressError);
+            // Продолжаем работу без прогресса
+          }
         }
       } catch (e) {
-        console.error(e);
+        console.error("Ошибка загрузки уроков:", e);
         setError("Ошибка загрузки уроков");
       } finally {
         setIsLoading(false);
