@@ -55,7 +55,7 @@
                     { "person": "pidä-n", "form": "pidin", "ru": "я держал / мне нравилось" },
                     { "person": "opiskelen", "form": "opiskelin", "ru": "я учился" },
                     { "person": "ui-n", "form": "uin", "ru": "я плыл" }
-                  ],
+  ],
                   "hint": "Гласные **a, ä, e, i** исчезают перед суффиксом -i."
                 }
               ],
@@ -70,8 +70,8 @@
                   { "fi": "hän odotti", "ru": "он ждал" }
                 ]
               },
-              "examples": [
-                {
+    "examples": [
+      {
                   "title": { "ru": "💬 Примеры" },
                   "examples": [
                     { "fi": "Missä sinä olit eilen?", "ru": "Где ты был вчера?" },
@@ -302,6 +302,637 @@
                 "feedbackWrong": "❌ Ошибка. Нужно: kävi. Это особый глагол."
               }
             ]
+          },
+          {
+            "id": "imperfekti-3",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": { "ru": "🔹 Этап 3: Имперфект с суффиксом -si" },
+              "intro": {
+                "ru": "Некоторые глаголы образуют имперфект с помощью суффикса **-si** вместо простого -i-."
+              },
+              "conjugationExamples": [
+                {
+                  "title": { "ru": "Verbi tyyppi 4 (глаголы 4-го типа)" },
+                  "rows": [
+                    { "person": "herään", "form": "heräsin", "ru": "я просыпаюсь → я проснулся" },
+                    { "person": "haluan", "form": "halusin", "ru": "я хочу → я хотел" },
+                    { "person": "vastaan", "form": "vastasin", "ru": "я отвечаю → я ответил" }
+                  ]
+                },
+                {
+                  "title": { "ru": "Verbi tyyppi 1 (иногда)" },
+                  "rows": [
+                    { "person": "tiedän", "form": "tiesin", "ru": "я знаю → я знал" },
+                    { "person": "tunnen", "form": "tunsin", "ru": "я знаю/чувствую → я знал/чувствовал" }
+                  ]
+                },
+                {
+                  "title": { "ru": "🔹 Примеры других глаголов на -si" },
+                  "rows": [
+                    { "person": "huutaa", "form": "huusin", "ru": "кричать → кричал" },
+                    { "person": "kieltää", "form": "kielsin", "ru": "запрещать → запретил" },
+                    { "person": "kääntää", "form": "käänsin", "ru": "переводить/поворачивать → перевёл/повернул" },
+                    { "person": "lentää", "form": "lensin", "ru": "летать → летал" },
+                    { "person": "löytää", "form": "löysin", "ru": "находить → нашёл" },
+                    { "person": "piirtää", "form": "piirsin", "ru": "рисовать → рисовал" },
+                    { "person": "pyytää", "form": "pyysin", "ru": "просить → просил" },
+                    { "person": "rakentaa", "form": "rakensin", "ru": "строить → строил" },
+                    { "person": "siirtää", "form": "siirsin", "ru": "переносить → перенёс" },
+                    { "person": "työntää", "form": "työnsin", "ru": "толкать → толкал" },
+                    { "person": "ymmärtää", "form": "ymmärsin", "ru": "понимать → понял" }
+                  ]
+                }
+              ]
+            },
+            "instruction": {
+              "ru": "✍️ Допишите правильное окончание. В этих глаголах имперфект образуется при помощи суффикса **-si** + личное окончание."
+            },
+            "items": [
+              {
+                "sentence": "Minä herä___ (herätä)",
+                "answer": "sin",
+                "translation": "Я проснулся",
+                "feedbackCorrect": "✅ Отлично! Основа herä- + si + n = heräsin.",
+                "feedbackWrong": "❌ Ошибка. Нужно: heräsin. У глаголов 4-го типа добавляется -si + окончание."
+              },
+              {
+                "sentence": "Minä halu___ (haluta)",
+                "answer": "sin",
+                "translation": "Я хотел",
+                "feedbackCorrect": "✅ Молодец! haluan → halusin: добавляем -si- и окончание -n.",
+                "feedbackWrong": "❌ Нужно: halusin. В имперфекте глаголов типа 4 вместо -a-/-ä- появляется -si-."
+              },
+              {
+                "sentence": "Minä vasta___ (vastata)",
+                "answer": "sin",
+                "translation": "Я ответил",
+                "feedbackCorrect": "✅ Отлично! vastaan → vastasin.",
+                "feedbackWrong": "❌ Ошибка. Верно: vastasin. В имперфекте вставляется -si- перед окончанием."
+              },
+              {
+                "sentence": "Minä tie___ (tietää)",
+                "answer": "sin",
+                "translation": "Я знал",
+                "feedbackCorrect": "✅ Хорошо! tiedän → tiesin: происходит чередование + -si-.",
+                "feedbackWrong": "❌ Нужно: tiesin. У глагола tietää имперфект образуется через -si-."
+              },
+              {
+                "sentence": "Minä tun___ (tuntea)",
+                "answer": "sin",
+                "translation": "Я знал / чувствовал",
+                "feedbackCorrect": "✅ Отлично! tunnen → tunsin.",
+                "feedbackWrong": "❌ Ошибка. Правильно: tunsin. Глагол tuntea образует имперфект через -si- с изменением основы."
+              },
+              {
+                "sentence": "Minä huu___ (huutaa)",
+                "answer": "sin",
+                "translation": "Я кричал",
+                "feedbackCorrect": "✅ Молодец! huutaa → huusin.",
+                "feedbackWrong": "❌ Нужно: huusin. Двойная гласная сокращается (uu → u) + -si-."
+              },
+              {
+                "sentence": "Minä kiel___ (kieltää)",
+                "answer": "sin",
+                "translation": "Я запретил",
+                "feedbackCorrect": "✅ Отлично! kieltää → kielsin.",
+                "feedbackWrong": "❌ Ошибка. Нужно: kielsin. Двойная гласная сокращается (ää → e) и добавляется -si-."
+              },
+              {
+                "sentence": "Minä kään___ (kääntää)",
+                "answer": "sin",
+                "translation": "Я перевёл / повернул",
+                "feedbackCorrect": "✅ Хорошо! kääntää → käänsin.",
+                "feedbackWrong": "❌ Нужно: käänsin. В имперфекте гласная сокращается (ää → ä), добавляем -si-."
+              },
+              {
+                "sentence": "Minä len___ (lentää)",
+                "answer": "sin",
+                "translation": "Я летал",
+                "feedbackCorrect": "✅ Отлично! lentää → lensin.",
+                "feedbackWrong": "❌ Ошибка. Нужно: lensin. Долгая гласная исчезает, появляется -si-."
+              },
+              {
+                "sentence": "Minä löy___ (löytää)",
+                "answer": "sin",
+                "translation": "Я нашёл",
+                "feedbackCorrect": "✅ Молодец! löytää → löysin.",
+                "feedbackWrong": "❌ Нужно: löysin. В имперфекте: pitkä ääni (ää) укорачивается, добавляется -si-."
+              },
+              {
+                "sentence": "Minä piir___ (piirtää)",
+                "answer": "sin",
+                "translation": "Я рисовал",
+                "feedbackCorrect": "✅ Отлично! piirtää → piirsin.",
+                "feedbackWrong": "❌ Ошибка. Нужно: piirsin. Двойная гласная сокращается, появляется -si-."
+              },
+              {
+                "sentence": "Minä pyys___ (pyytää)",
+                "answer": "in",
+                "translation": "Я просил",
+                "feedbackCorrect": "✅ Молодец! pyytää → pyysin.",
+                "feedbackWrong": "❌ Нужно: pyysin. VV → V + -si- + n."
+              },
+              {
+                "sentence": "Minä raken___ (rakentaa)",
+                "answer": "sin",
+                "translation": "Я строил",
+                "feedbackCorrect": "✅ Отлично! rakentaa → rakensin.",
+                "feedbackWrong": "❌ Ошибка. Нужно: rakensin. Вставляется -si- перед окончанием."
+              },
+              {
+                "sentence": "Minä siir___ (siirtää)",
+                "answer": "sin",
+                "translation": "Я перенёс",
+                "feedbackCorrect": "✅ Хорошо! siirtää → siirsin.",
+                "feedbackWrong": "❌ Нужно: siirsin. VV → V + -si-."
+              },
+              {
+                "sentence": "Minä työn___ (työntää)",
+                "answer": "sin",
+                "translation": "Я толкал",
+                "feedbackCorrect": "✅ Молодец! työntää → työnsin.",
+                "feedbackWrong": "❌ Нужно: työnsin. VV → V + -si-."
+              },
+              {
+                "sentence": "Minä ymmär___ (ymmärtää)",
+                "answer": "sin",
+                "translation": "Я понял",
+                "feedbackCorrect": "✅ Отлично! ymmärtää → ymmärsin.",
+                "feedbackWrong": "❌ Ошибка. Нужно: ymmärsin. VV сокращается (ää → ä), добавляется -si-."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sanatyypit",
+        "title": {
+          "ru": "Типы слов",
+          "fi": "Sanatyypit"
+        },
+        "explanation": {},
+        "exercises": [
+          {
+            "id": "sanatyypit-1",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": { "ru": "📘 Этап 1: Слова на -us / -ys" },
+              "intro": { "ru": "Слова, которые оканчиваются на **-us / -ys**, в падежах получают вставку **-kse-**." },
+              "conjugationTables": [
+                {
+                  "title": { "ru": "📘 Слово: vastaus (ответ)" },
+                  "columns": ["Падеж (FI)", "Вопрос (FI)", "Вопрос (RU)", "Форма", "Перевод"],
+                  "rows": [
+                    { "person": "Nominatiivi", "questionFI": "mikä?", "questionRU": "что?", "form": "vastaus", "translation": "ответ" },
+                    { "person": "Partitiivi", "questionFI": "mitä?", "questionRU": "чего?", "form": "vastausta", "translation": "ответ (часть, неопределённо)" },
+                    { "person": "Основа (vartalo)", "questionFI": "–", "questionRU": "–", "form": "vastaukse-", "translation": "–" },
+                    { "person": "Genetiivi", "questionFI": "minkä? kenen?", "questionRU": "чей? чего?", "form": "vastauksen", "translation": "ответа" },
+                    { "person": "Illatiivi", "questionFI": "mihin?", "questionRU": "куда?", "form": "vastaukseen", "translation": "в ответ" },
+                    { "person": "Inessiivi", "questionFI": "missä?", "questionRU": "где?", "form": "vastauksessa", "translation": "в ответе" },
+                    { "person": "Elatiivi", "questionFI": "mistä?", "questionRU": "откуда? из чего?", "form": "vastauksesta", "translation": "из ответа" },
+                    { "person": "Allatiivi", "questionFI": "mille? kenelle?", "questionRU": "кому? на что?", "form": "vastaukselle", "translation": "к ответу" },
+                    { "person": "Adessiivi", "questionFI": "millä?", "questionRU": "на чём? где?", "form": "vastauksella", "translation": "на ответе" },
+                    { "person": "Ablatiivi", "questionFI": "miltä? keneltä?", "questionRU": "с чего? от кого?", "form": "vastaukselta", "translation": "с ответа" },
+                    { "person": "Monikko (Nom.)", "questionFI": "mitkä?", "questionRU": "какие?", "form": "Vastaukset", "translation": "ответы" }
+                  ]
+                }
+              ],
+              "verbsExamplesTitle": { "ru": "🔑 Другие слова этого типа" },
+              "verbsExamples": [
+                  { "fi": "ajatus", "ru": "мысль" },
+                  { "fi": "kokous", "ru": "собрание, встреча" },
+                  { "fi": "yllätys", "ru": "удивление" },
+                  { "fi": "rakennus", "ru": "строение, здание" },
+                  { "fi": "kokemus", "ru": "опыт" },
+                  { "fi": "kysymys", "ru": "вопрос" },
+                  { "fi": "yritys", "ru": "фирма / попытка" }
+              ],
+              "important": {
+                   "title": { "ru": "👉 Правило" },
+                   "body": { "ru": "Если слово оканчивается на **-us / -ys**, то в падежах внутри появляется **-kse-**.\n\nПример: ajatus → ajatuksen, ajatukseen\n\n**Пример для слова kysymys (вопрос):**\nkysymys → kysymyksen (генетив: чей? чего? – вопроса)\nkysymys → kysymykseen (иллатива: куда? – в вопрос)\n\n👉 То есть работает то же правило, что и со словом ajatus:\nокончание -us / -ys в падежах превращается в -ukse- / -ykse-." }
+              }
+            },
+            "instruction": {
+              "ru": "✍️ Допишите правильное окончание для слова. Помните: у слов на -us / -ys в падежах появляется вставка -kse-."
+            },
+            "items": [
+               {
+                   "sentence": "Kiitos vastau___ . (vastaus, elatiivi)",
+                   "answer": "ksesta",
+                   "translation": "Спасибо за ответ",
+                   "feedbackCorrect": "✅ Отлично! vastaus → vastauksesta: в элативе добавляем вставку -kse- + -sta.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: vastauksesta. У слов на -us/-ys в элативе основа получает -kse- + sta."
+               },
+               {
+                   "sentence": "Minä vastasin kysymy___ . (kysymys, illatiivi)",
+                   "answer": "kseen",
+                   "translation": "Я ответил на вопрос",
+                   "feedbackCorrect": "✅ Отлично! kysymys → kysymykseen: вставка -kse- + illatiivi -en.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: kysymykseen. У слов на -us/-ys в illatiivi добавляется -kse- + en."
+               },
+             {
+                 "sentence": "Hän osallistui kokou___ . (kokous, illatiivi)",
+                 "answer": "kseen",
+                 "translation": "Он участвовал в собрании",
+                 "feedbackCorrect": "✅ Отлично! kokous → kokoukseen: вставка -kse- + -en.",
+                 "feedbackWrong": "❌ Ошибка. Нужно: kokoukseen. У слов на -us/-ys в иллативе добавляется -kse- + en."
+             },
+             {
+                 "sentence": "Minulla on paljon kokemus___ . (kokemus, partitiivi)",
+                 "answer": "ta",
+                 "translation": "У меня много опыта",
+                 "feedbackCorrect": "✅ Отлично! kokemus → kokemusta: в партитиве нет -kse-.",
+                 "feedbackWrong": "❌ Ошибка. Нужно: kokemusta. В партитиве основа не меняется, просто добавляем -ta."
+             },
+             {
+                 "sentence": "Isossa rakennu___ on 12 kerrosta. (rakennus, inessiivi)",
+                 "answer": "ksessa",
+                 "translation": "В большом здании 12 этажей",
+                 "feedbackCorrect": "✅ Молодец! rakennus → rakennuksessa: вставка -kse- + -ssa.",
+                 "feedbackWrong": "❌ Ошибка. Нужно: rakennuksessa. У слов на -us/-ys в инессиве вставляется -kse- + ssa."
+             },
+               {
+                   "sentence": "He saivat kivan ylläty___ . (yllätys, akkusatiivi)",
+                   "answer": "ksen",
+                   "translation": "Они получили приятный сюрприз",
+                   "feedbackCorrect": "✅ Отлично! yllätys → yllätyksen: в аккузативе используется форма генетива, добавляем -kse- + n.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: yllätyksen. У слов на -us/-ys в генетиве/аккузативе появляется вставка -kse- + n."
+               }
+            ]
+          },
+          {
+            "id": "sanatyypit-2",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": { "ru": "📘 Этап 2: Слова на -os / -ös и -es" },
+              "intro": { "ru": "В этом этапе рассмотрим слова, оканчивающиеся на **-os / -ös** и **-es**." },
+              "conjugationTables": [
+                {
+                  "title": { "ru": "📘 Слово: kerros (этаж) — тип -os/-ös" },
+                  "columns": ["Падеж (FI)", "Вопрос (FI)", "Вопрос (RU)", "Форма", "Перевод"],
+                  "rows": [
+                    { "person": "Nominatiivi", "questionFI": "mikä?", "questionRU": "что?", "form": "kerros", "translation": "этаж" },
+                    { "person": "Partitiivi", "questionFI": "mitä?", "questionRU": "чего?", "form": "kerrosta", "translation": "этаж (частично/неопределённо)" },
+                    { "person": "Основа (vartalo)", "questionFI": "–", "questionRU": "–", "form": "kerrokse-", "translation": "–" },
+                    { "person": "Genetiivi", "questionFI": "minkä? kenen?", "questionRU": "чей? чего?", "form": "kerroksen", "translation": "этажа" },
+                    { "person": "Illatiivi", "questionFI": "mihin?", "questionRU": "куда?", "form": "kerrokseen", "translation": "в этаж" },
+                    { "person": "Inessiivi", "questionFI": "missä?", "questionRU": "где?", "form": "kerroksessa", "translation": "в этаже" },
+                    { "person": "Elatiivi", "questionFI": "mistä?", "questionRU": "откуда? из чего?", "form": "kerroksesta", "translation": "из этажа" },
+                    { "person": "Allatiivi", "questionFI": "mille? kenelle?", "questionRU": "кому? на что?", "form": "kerrokselle", "translation": "к этажу" },
+                    { "person": "Adessiivi", "questionFI": "millä?", "questionRU": "на чём? где?", "form": "kerroksella", "translation": "на этаже" },
+                    { "person": "Ablatiivi", "questionFI": "miltä? keneltä?", "questionRU": "с чего? от кого?", "form": "kerrokselta", "translation": "с этажа" },
+                    { "person": "Monikko (Nom.)", "questionFI": "mitkä?", "questionRU": "какие?", "form": "kerrokset", "translation": "этажи" }
+                  ]
+                },
+                {
+                  "title": { "ru": "📘 Слово: vihannes (овощ) — тип -es" },
+                  "columns": ["Падеж (FI)", "Вопрос (FI)", "Вопрос (RU)", "Форма", "Перевод"],
+                  "rows": [
+                    { "person": "Nominatiivi", "questionFI": "mikä?", "questionRU": "что?", "form": "vihannes", "translation": "овощ" },
+                    { "person": "Partitiivi", "questionFI": "mitä?", "questionRU": "чего?", "form": "vihannesta", "translation": "овощ (частично/неопределённо)" },
+                    { "person": "Основа (vartalo)", "questionFI": "–", "questionRU": "–", "form": "vihannekse-", "translation": "–" },
+                    { "person": "Genetiivi", "questionFI": "minkä? kenen?", "questionRU": "чей? чего?", "form": "vihanneksen", "translation": "овоща" },
+                    { "person": "Illatiivi", "questionFI": "mihin?", "questionRU": "куда?", "form": "vihannekseen", "translation": "в овощ" },
+                    { "person": "Inessiivi", "questionFI": "missä?", "questionRU": "где?", "form": "vihanneksessa", "translation": "в овоще" },
+                    { "person": "Elatiivi", "questionFI": "mistä?", "questionRU": "откуда? из чего?", "form": "vihanneksesta", "translation": "из овоща" },
+                    { "person": "Allatiivi", "questionFI": "mille? kenelle?", "questionRU": "кому? на что?", "form": "vihannekselle", "translation": "к овощу" },
+                    { "person": "Adessiivi", "questionFI": "millä?", "questionRU": "на чём? где?", "form": "vihanneksella", "translation": "на овоще" },
+                    { "person": "Ablatiivi", "questionFI": "miltä? keneltä?", "questionRU": "с чего? от кого?", "form": "vihannekselta", "translation": "с овоща" },
+                    { "person": "Monikko (Nom.)", "questionFI": "mitkä?", "questionRU": "какие?", "form": "vihannekset", "translation": "овощи" }
+                  ]
+                }
+              ],
+              "examplesByType": [
+                {
+                  "title": { "ru": "🔑 Другие слова типа -os / -ös" },
+                  "examples": [
+                    { "fi": "annos", "ru": "порция" },
+                    { "fi": "kierros", "ru": "круг, тур" },
+                    { "fi": "käännös", "ru": "перевод" },
+                    { "fi": "näytös", "ru": "представление" },
+                    { "fi": "ostos", "ru": "покупка" },
+                    { "fi": "rikos", "ru": "преступление" },
+                    { "fi": "veistos", "ru": "скульптура" }
+                  ]
+                },
+                {
+                  "title": { "ru": "🔑 Другие слова типа -es" },
+                  "examples": [
+                    { "fi": "eines", "ru": "готовая еда" },
+                    { "fi": "ilves", "ru": "рысь" },
+                    { "fi": "juures", "ru": "корнеплод" },
+                    { "fi": "neljännes", "ru": "четверть" },
+                    { "fi": "veljes", "ru": "брат (устар.)" }
+                  ]
+                }
+              ]
+            },
+            "instruction": {
+              "ru": "✍️ Допишите правильное окончание для слова. Обратите внимание на тип основы (-os/-ös или -es) и требуемый падеж."
+            },
+            "items": [
+               {
+                   "sentence": "Rakennuksessa on 12 kerros___ . (kerros, partitiivi)",
+                   "answer": "ta",
+                   "translation": "В здании 12 этажей",
+                   "feedbackCorrect": "✅ Отлично! kerros → kerrosta: числительные (кроме 1) требуют партитива.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: kerrosta. После числительных 2, 3, 4 и т.д. всегда используется партитив."
+               },
+               {
+                   "sentence": "Nämä kiinalaiset vihanne___ . (vihannes, monikko)",
+                   "answer": "kset",
+                   "translation": "Эти китайские овощи",
+                   "feedbackCorrect": "✅ Молодец! vihannes → vihannekset: во множественном числе -es меняется на -ekset.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: vihannekset. У слов на -es во множественном числе -es → -ekset."
+               },
+               {
+                   "sentence": "Tarjoilija toi kaksi annos___ . (annos, partitiivi)",
+                   "answer": "ta",
+                   "translation": "Официант принёс две порции",
+                   "feedbackCorrect": "✅ Отлично! annos → annosta: после числительных (2, 3, 4…) используется партитив единственного числа.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: annosta. В конструкциях «число + существительное» употребляется партитив единственного."
+               },
+               {
+                   "sentence": "Poliisi tutki riko___ . (rikos, akkusatiivi)",
+                   "answer": "ksen",
+                   "translation": "Полиция расследовала преступление",
+                   "feedbackCorrect": "✅ Хорошо! rikos → rikoksen: -os → -okse- + n.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: rikoksen. У слов на -os в генетиве/аккузативе добавляется -kse- + n."
+               }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "passiivi",
+        "title": {
+          "ru": "Пассив (Passiivi)",
+          "fi": "Passiivi"
+        },
+        "explanation": {},
+        "exercises": [
+          {
+            "id": "passiivi-1",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": { "ru": "📘 Объяснение: форма mennään (пассив / безличная форма)" },
+              "intro": { "ru": "В финском языке есть пассивная форма (или безличная форма).\n\nОна используется, когда неважно, кто делает действие.\nВ русском это часто переводится как «делают», «делается», «мы делаем» или «кто-то делает»." },
+              "examplesByType": [
+                {
+                  "title": { "ru": "🔹 1. Глаголы 1-го типа" },
+                  "examples": [
+                     { "fi": "minä puhun (я говорю) → puhutaan", "ru": "говорят" },
+                     { "fi": "minä kysyn (я спрашиваю) → kysytään", "ru": "спрашивают" },
+                     { "fi": "minä otan (я беру) → otetaan", "ru": "берут" },
+                     { "fi": "minä kirjoitan (я пишу) → kirjoitetaan", "ru": "пишут" }
+                  ]
+                },
+                {
+                   "title": { "ru": "🔹 2. Глаголы 2–5 типов" },
+                   "examples": [
+                     { "fi": "juoda (пить) → juodaan", "ru": "пьют" },
+                     { "fi": "kävellä (гулять, ходить) → kävellään", "ru": "гуляют" },
+                     { "fi": "tavata (встречать) → tavataan", "ru": "встречаются" },
+                     { "fi": "tarvita (нуждаться) → tarvitaan", "ru": "нуждаются / требуется" }
+                   ]
+                }
+              ],
+              "important": {
+                "title": { "ru": "👉 Заметь" },
+                "body": { "ru": "Если в основе глаголов 1-го типа есть **a / ä**, оно меняется на **e**.\n\nНапример: otan → otetaan, kirjoitan → kirjoitetaan." }
+              },
+              "summary": {
+                "title": { "ru": "✅ Итог" },
+                "body": { "ru": "**Формула 1-го типа:** minä-форма (основа) + taan / tään\n**Формула 2–5 типов:** инфинитив + an / än\n\nФорма **mennään** отвечает на вопрос «что делают?» и не указывает на конкретного человека." },
+                "examples": [
+                   { "fi": "Kahvilassa juodaan kahvia.", "ru": "В кафе пьют кофе." },
+                   { "fi": "Puistossa pelataan jalkapalloa.", "ru": "В парке играют в футбол." },
+                   { "fi": "Kotona siivotaan lauantaina.", "ru": "Дома убираются по субботам." }
+                ]
+              }
+            },
+            "instruction": {
+              "ru": "✍️ Допишите правильное окончание. В глаголах 1-го типа используется формула: основа + taan / tään (a/ä → e).\nВ глаголах 2–5 типов: инфинитив + an / än."
+            },
+            "items": [
+               {
+                   "sentence": "Nyt puhu___ paljon. (puhua)",
+                   "answer": "taan",
+                   "translation": "Сейчас много говорят",
+                   "feedbackCorrect": "✅ Отлично! puhua → puhutaan. У глаголов 1-го типа: основа + taan.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: puhutaan. В пассиве «puhu-» получает окончание -taan."
+               },
+               {
+                   "sentence": "Koulussa kysy___ usein kysymyksiä. (kysyä)",
+                   "answer": "tään",
+                   "translation": "В школе часто задают вопросы",
+                   "feedbackCorrect": "✅ Молодец! kysyä → kysytään.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: kysytään. В пассиве: kysy- + tään."
+               },
+               {
+                   "sentence": "Ravintolassa ote___ kahvia. (ottaa)",
+                   "answer": "taan",
+                   "translation": "В ресторане берут кофе",
+                   "feedbackCorrect": "✅ Отлично! otan → otetaan: a меняется на e + -taan.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: otetaan. В пассиве «a» меняется на «e» → ote- + taan."
+               },
+               {
+                   "sentence": "Teksti kirjoite___ kynällä. (kirjoittaa)",
+                   "answer": "taan",
+                   "translation": "Текст пишут ручкой",
+                   "feedbackCorrect": "✅ Хорошо! kirjoittaa → kirjoitetaan: a → e + taan.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: kirjoitetaan. У глаголов 1-го типа «-ta/-tä» → «-te- + taan»."
+               },
+               {
+                   "sentence": "Kahvilassa juoda___ kahvia. (juoda)",
+                   "answer": "an",
+                   "translation": "В кафе пьют кофе",
+                   "feedbackCorrect": "✅ Отлично! juoda → juodaan: инфинитив + an.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: juodaan. В пассиве глаголов 2-го типа добавляется -daan."
+               },
+               {
+                   "sentence": "Puistossa kävellä___ paljon. (kävellä)",
+                   "answer": "än",
+                   "translation": "В парке много гуляют",
+                   "feedbackCorrect": "✅ Молодец! kävellä → kävellään: инфинитив + än.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: kävellään. В пассиве глаголов 3-го типа окончание -llaan/-llään."
+               },
+               {
+                   "sentence": "Torilla tavata___ tuttuja. (tavata)",
+                   "answer": "an",
+                   "translation": "На рынке встречаются знакомые",
+                   "feedbackCorrect": "✅ Отлично! tavata → tavataan: инфинитив + an.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: tavataan. В пассиве глаголов 4-го типа инфинитив + an."
+               },
+               {
+                   "sentence": "Suomessa tarvita___ paljon opettajia. (tarvita)",
+                   "answer": "an",
+                   "translation": "В Финляндии требуется много учителей",
+                   "feedbackCorrect": "✅ Хорошо! tarvita → tarvitaan: инфинитив + an.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: tarvitaan. В пассиве глаголов 5-го типа: инфинитив + an."
+               }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rektio",
+        "title": {
+          "ru": "Послелоги с глаголами (Rektio)",
+          "fi": "Verbi rektio"
+        },
+        "explanation": {},
+        "exercises": [
+          {
+            "id": "rektio-1",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": { "ru": "📘 Послелоги с глаголами и выражениями" },
+              "intro": { "ru": "Некоторые глаголы и выражения в финском языке всегда употребляются с определённым падежом. Нужно запоминать, какой падеж использовать." },
+              "examplesByType": [
+                {
+                  "title": { "ru": "🔹 jäädä + mihin (куда остаться)" },
+                  "examples": [
+                    { "fi": "Matti jäi kotiin, kun muut lähtivät kauppaan.", "ru": "Матти остался дома, когда другие пошли в магазин." },
+                    { "fi": "Me jäimme asemalle odottamaan junaa.", "ru": "Мы остались на вокзале ждать поезд." }
+                  ]
+                },
+                {
+                   "title": { "ru": "🔹 löytää + mistä (где найти)" },
+                   "examples": [
+                     { "fi": "Löysin museosta kiinnostavan kirjan.", "ru": "Я нашёл в музее интересную книгу." },
+                     { "fi": "Maria löysi laukusta avaimet.", "ru": "Мария нашла ключи в сумке." }
+                   ]
+                },
+                {
+                   "title": { "ru": "🔹 myöhästyä + mistä (откуда опоздать)" },
+                   "examples": [
+                     { "fi": "He myöhästyivät tunnilta.", "ru": "Они опоздали на урок." },
+                     { "fi": "Minä myöhästyin bussista aamulla.", "ru": "Я опоздал на автобус утром." }
+                   ]
+                },
+                {
+                   "title": { "ru": "🔹 päästä + mistä & mihin (откуда и куда попасть)" },
+                   "examples": [
+                     { "fi": "Lapset pääsivät ulos koulusta kello kolme.", "ru": "Дети вышли из школы в три часа." },
+                     { "fi": "Huomenna pääsen hammaslääkärille.", "ru": "Завтра я попаду к зубному врачу." }
+                   ]
+                },
+                {
+                   "title": { "ru": "🔹 terveiset + mistä (привет откуда)" },
+                   "examples": [
+                     { "fi": "Terveiset Espanjasta!", "ru": "Привет из Испании!" },
+                     { "fi": "Terveiset lomalta!", "ru": "Привет с отдыха!" }
+                   ]
+                },
+                {
+                   "title": { "ru": "🔹 kiitos + sta/stä (спасибо за что)" },
+                   "examples": [
+                     { "fi": "Kiitos ruoasta!", "ru": "Спасибо за еду!" },
+                     { "fi": "Kiitos vastauksesta!", "ru": "Спасибо за ответ!" }
+                   ]
+                }
+              ],
+              "summary": {
+                "title": { "ru": "✅ Итог" },
+                "body": { "ru": "**jäädä** → mihin? (куда остаться)\n**löytää** → mistä? (где найти)\n**myöhästyä** → mistä? (откуда опоздать)\n**päästä** → mistä/mihin? (откуда/куда попасть)\n**terveiset** → mistä? (привет откуда)\n**kiitos** → sta/stä (спасибо за что)" }
+              }
+            },
+            "instruction": {
+              "ru": "✍️ Допишите правильное окончание. Обратите внимание, что у разных глаголов и выражений обязательно свой падеж (mihin / mistä / sta–stä)."
+            },
+            "items": [
+               {
+                   "sentence": "Matti jäi koti___  (koti, illatiivi)",
+                   "answer": "in",
+                   "translation": "Матти остался дома",
+                   "feedbackCorrect": "✅ Отлично! koti → kotiin: в illatiivi добавляем -in.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: kotiin. После jäädä используем mihin? → illatiivi."
+               },
+               {
+                   "sentence": "Me jäimme asema___ odottamaan junaa. (asema, allatiivi)",
+                   "answer": "lle",
+                   "translation": "Мы остались на вокзале ждать поезд",
+                   "feedbackCorrect": "✅ Молодец! asema → asemalle: allatiivi = «куда/на что».",
+                   "feedbackWrong": "❌ Ошибка. Нужно: asemalle. После jäädä используем mihin → illatiivi/allatiivi."
+               },
+               {
+                   "sentence": "Löysin museo___ kiinnostavan kirjan. (museo, elatiivi)",
+                   "answer": "sta",
+                   "translation": "Я нашёл в музее интересную книгу",
+                   "feedbackCorrect": "✅ Отлично! museo → museosta: elatiivi = «откуда/где».",
+                   "feedbackWrong": "❌ Ошибка. Нужно: museosta. После löytää всегда mistä."
+               },
+               {
+                   "sentence": "Maria löysi lauku___ avaimet. (laukku, elatiivi)",
+                   "answer": "sta",
+                   "translation": "Мария нашла ключи в сумке",
+                   "feedbackCorrect": "✅ Молодец! laukku → laukusta: elatiivi.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: laukusta. После löytää = mistä?"
+               },
+               {
+                   "sentence": "He myöhästyivät tunni___ . (tunti, ablatiivi)",
+                   "answer": "lta",
+                   "translation": "Они опоздали на урок",
+                   "feedbackCorrect": "✅ Отлично! tunti → tunnilta: ablatiivi (откуда с поверхности/мероприятия). Здесь tunnilta = «с урока».",
+                   "feedbackWrong": "❌ Ошибка. Нужно: tunnilta. После myöhästyä всегда используется вопрос mistä?. Если речь идёт об уроке (как событии) → ablatiivi (-lta)."
+               },
+               {
+                   "sentence": "Minä myöhästyin bussi___ aamulla. (bussi, elatiivi)",
+                   "answer": "sta",
+                   "translation": "Я опоздал на автобус утром",
+                   "feedbackCorrect": "✅ Молодец! bussi → bussista: elatiivi (откуда изнутри). Здесь bussista = «из автобуса».",
+                   "feedbackWrong": "❌ Ошибка. Нужно: bussista. После myöhästyä всегда mistä?. Если речь идёт о транспорте (как внутри чего-то) → elatiivi (-sta)."
+               },
+               {
+                   "sentence": "Lapset pääsivät ulos koulu___ kello kolme. (koulu, elatiivi)",
+                   "answer": "sta",
+                   "translation": "Дети вышли из школы в три часа",
+                   "feedbackCorrect": "✅ Отлично! koulu → koulusta: elatiivi = «из школы».",
+                   "feedbackWrong": "❌ Ошибка. Нужно: koulusta. После päästä может быть mistä."
+               },
+               {
+                   "sentence": "Huomenna pääsen hammaslääkäri___ . (hammaslääkäri, allatiivi)",
+                   "answer": "lle",
+                   "translation": "Завтра я попаду к зубному врачу",
+                   "feedbackCorrect": "✅ Молодец! hammaslääkäri → hammaslääkärille: allatiivi = «куда/к кому».",
+                   "feedbackWrong": "❌ Ошибка. Нужно: hammaslääkärille. После päästä может быть mihin."
+               },
+               {
+                   "sentence": "Terveiset Espanja___ ! (Espanja, elatiivi)",
+                   "answer": "sta",
+                   "translation": "Привет из Испании",
+                   "feedbackCorrect": "✅ Отлично! Espanja → Espanjasta: elatiivi = «из».",
+                   "feedbackWrong": "❌ Ошибка. Нужно: Espanjasta. У выражения terveiset всегда mistä."
+               },
+               {
+                   "sentence": "Terveiset loma___ ! (loma, ablatiivi)",
+                   "answer": "lta",
+                   "translation": "Привет с отпуска",
+                   "feedbackCorrect": "✅ Молодец! loma → lomalta: ablatiivi = «с».",
+                   "feedbackWrong": "❌ Ошибка. Нужно: lomalta. У terveiset всегда mistä."
+               },
+               {
+                   "sentence": "Kiitos ruo___ ! (ruoka, elatiivi)",
+                   "answer": "asta",
+                   "translation": "Спасибо за еду",
+                   "feedbackCorrect": "✅ Отлично! ruoka → ruoasta: elatiivi.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: ruoasta. После kiitos всегда sta/stä."
+               },
+               {
+                   "sentence": "Kiitos vastaukse___ ! (vastaus, elatiivi)",
+                   "answer": "sta",
+                   "translation": "Спасибо за ответ",
+                   "feedbackCorrect": "✅ Молодец! vastaus → vastauksesta: elatiivi с -kse-.",
+                   "feedbackWrong": "❌ Ошибка. Нужно: vastauksesta. После kiitos всегда sta/stä."
+               }
+            ]
           }
         ]
       }
@@ -334,3 +965,6 @@
     }
   }
 }
+    
+  
+

@@ -123,6 +123,12 @@ export const cellValueByColumn = (col, row, lang = "ru", colIndex = null) => {
     return row.example ?? row.example1 ?? row.examplePuhua ?? row.fi ?? "";
   }
   if (norm.includes("вопрос")) {
+    if ((norm.includes("ru") || norm.includes("ру")) && (row.questionRU || row.question_ru)) {
+      return row.questionRU ?? row.question_ru;
+    }
+    if ((norm.includes("fi") || norm.includes("фи")) && (row.questionFI || row.question_fi)) {
+      return row.questionFI ?? row.question_fi;
+    }
     return row.base ?? row.question ?? row.fi ?? "";
   }
   if (norm.includes("объект")) {

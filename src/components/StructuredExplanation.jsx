@@ -577,7 +577,7 @@ export default function StructuredExplanation({
             <div className="flex items-center gap-2 mb-3">
               <span className="text-lg">🍃</span>
               <h4 className="text-lg font-semibold text-green-700">
-                Общие примеры
+                {S.verbsExamplesTitle?.[lang] || S.verbsExamplesTitle?.ru || "Общие примеры"}
               </h4>
             </div>
             <div className="bg-[#E9F1FF] rounded-xl p-6">
@@ -859,12 +859,14 @@ export default function StructuredExplanation({
                 <h3 className="text-2xl mb-4 flex items-center gap-2">
                   <span>📄</span>
                   <span className="text-[#1E64F0]">
-                    {(example.verb?.fi || `Пример ${idx + 1}`) +
-                      (example.verb?.[lang]
-                        ? ` (${example.verb[lang]})`
-                        : example.verb?.ru
-                        ? ` (${example.verb.ru})`
-                        : "")}
+                    {example.title?.[lang] ||
+                      example.title?.ru ||
+                      (example.verb?.fi || `Пример ${idx + 1}`) +
+                        (example.verb?.[lang]
+                          ? ` (${example.verb[lang]})`
+                          : example.verb?.ru
+                          ? ` (${example.verb.ru})`
+                          : "")}
                   </span>
                 </h3>
                 <Table
