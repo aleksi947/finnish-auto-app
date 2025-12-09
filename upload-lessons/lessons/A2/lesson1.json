@@ -278,7 +278,7 @@
                 "answer": "vin",
                 "translation": "Я ходил",
                 "feedbackCorrect": "✅ Отлично! Форма от глагола käydä: minä kävin.",
-                "feedbackWrong": "❌ Нужно: kävin. Глагол käydä образует имперфект неправильно по общему правилу, это особый случай."
+                "feedbackWrong": "❌ Нужно: kävin. Глагол käydä образует имперфект по особому правилу (käydä → kävin)."
               },
               {
                 "sentence": "Hän laul___ (laulaa)",
@@ -390,77 +390,77 @@
                 "answer": "sin",
                 "translation": "Я кричал",
                 "feedbackCorrect": "✅ Молодец! huutaa → huusin.",
-                "feedbackWrong": "❌ Нужно: huusin. Двойная гласная сокращается (uu → u) + -si-."
+                "feedbackWrong": "❌ Нужно: huusin. В этом глаголе t меняется на s (huutaa → huusin)."
               },
               {
                 "sentence": "Minä kiel___ (kieltää)",
                 "answer": "sin",
                 "translation": "Я запретил",
                 "feedbackCorrect": "✅ Отлично! kieltää → kielsin.",
-                "feedbackWrong": "❌ Ошибка. Нужно: kielsin. Двойная гласная сокращается (ää → e) и добавляется -si-."
+                "feedbackWrong": "❌ Ошибка. Нужно: kielsin. В этом глаголе t меняется на s (kieltää → kielsin)."
               },
               {
                 "sentence": "Minä kään___ (kääntää)",
                 "answer": "sin",
                 "translation": "Я перевёл / повернул",
                 "feedbackCorrect": "✅ Хорошо! kääntää → käänsin.",
-                "feedbackWrong": "❌ Нужно: käänsin. В имперфекте гласная сокращается (ää → ä), добавляем -si-."
+                "feedbackWrong": "❌ Нужно: käänsin. В этом глаголе t меняется на s (kääntää → käänsin)."
               },
               {
                 "sentence": "Minä len___ (lentää)",
                 "answer": "sin",
                 "translation": "Я летал",
                 "feedbackCorrect": "✅ Отлично! lentää → lensin.",
-                "feedbackWrong": "❌ Ошибка. Нужно: lensin. Долгая гласная исчезает, появляется -si-."
+                "feedbackWrong": "❌ Ошибка. Нужно: lensin. В этом глаголе t меняется на s (lentää → lensin)."
               },
               {
                 "sentence": "Minä löy___ (löytää)",
                 "answer": "sin",
                 "translation": "Я нашёл",
                 "feedbackCorrect": "✅ Молодец! löytää → löysin.",
-                "feedbackWrong": "❌ Нужно: löysin. В имперфекте: pitkä ääni (ää) укорачивается, добавляется -si-."
+                "feedbackWrong": "❌ Нужно: löysin. В этом глаголе t меняется на s (löytää → löysin)."
               },
               {
                 "sentence": "Minä piir___ (piirtää)",
                 "answer": "sin",
                 "translation": "Я рисовал",
                 "feedbackCorrect": "✅ Отлично! piirtää → piirsin.",
-                "feedbackWrong": "❌ Ошибка. Нужно: piirsin. Двойная гласная сокращается, появляется -si-."
+                "feedbackWrong": "❌ Ошибка. Нужно: piirsin. В этом глаголе t меняется на s (piirtää → piirsin)."
               },
               {
                 "sentence": "Minä pyys___ (pyytää)",
                 "answer": "in",
                 "translation": "Я просил",
                 "feedbackCorrect": "✅ Молодец! pyytää → pyysin.",
-                "feedbackWrong": "❌ Нужно: pyysin. VV → V + -si- + n."
+                "feedbackWrong": "❌ Нужно: pyysin. В этом глаголе t меняется на s (pyytää → pyysin)."
               },
               {
                 "sentence": "Minä raken___ (rakentaa)",
                 "answer": "sin",
                 "translation": "Я строил",
                 "feedbackCorrect": "✅ Отлично! rakentaa → rakensin.",
-                "feedbackWrong": "❌ Ошибка. Нужно: rakensin. Вставляется -si- перед окончанием."
+                "feedbackWrong": "❌ Ошибка. Нужно: rakensin. В этом глаголе t меняется на s (rakentaa → rakensin)."
               },
               {
                 "sentence": "Minä siir___ (siirtää)",
                 "answer": "sin",
                 "translation": "Я перенёс",
                 "feedbackCorrect": "✅ Хорошо! siirtää → siirsin.",
-                "feedbackWrong": "❌ Нужно: siirsin. VV → V + -si-."
+                "feedbackWrong": "❌ Нужно: siirsin. В этом глаголе t меняется на s (siirtää → siirsin)."
               },
               {
                 "sentence": "Minä työn___ (työntää)",
                 "answer": "sin",
                 "translation": "Я толкал",
                 "feedbackCorrect": "✅ Молодец! työntää → työnsin.",
-                "feedbackWrong": "❌ Нужно: työnsin. VV → V + -si-."
+                "feedbackWrong": "❌ Нужно: työnsin. В этом глаголе t меняется на s (työntää → työnsin)."
               },
               {
                 "sentence": "Minä ymmär___ (ymmärtää)",
                 "answer": "sin",
                 "translation": "Я понял",
                 "feedbackCorrect": "✅ Отлично! ymmärtää → ymmärsin.",
-                "feedbackWrong": "❌ Ошибка. Нужно: ymmärsin. VV сокращается (ää → ä), добавляется -si-."
+                "feedbackWrong": "❌ Ошибка. Нужно: ymmärsin. В этом глаголе t меняется на s (ymmärtää → ymmärsin)."
               }
             ]
           }

@@ -966,13 +966,13 @@ export default function StructuredExplanation({
           S.note.body?.[lang] ||
           S.note.body?.ru ||
           Array.isArray(S.note.examples)) && (
-          <div className="bg-white rounded-3xl shadow-lg border-2 border-[#3C84F8] p-6 sm:p-8">
-            <div className="bg-gradient-to-br from-[#E9F1FF] to-[#CFE0FF] rounded-2xl p-6 border-2 border-blue-300">
-              <div className="flex items-start gap-4">
-                <Lightbulb className="w-8 h-8 text-blue-600 flex-shrink-0 mt-1" />
-                <div className="flex-1">
+          <div className="bg-white rounded-3xl shadow-lg border-2 border-[#3C84F8] p-4 sm:p-6 md:p-8">
+            <div className="bg-gradient-to-br from-[#E9F1FF] to-[#CFE0FF] rounded-2xl p-4 sm:p-6 border-2 border-blue-300">
+              <div className="flex items-start gap-3 sm:gap-4">
+                <Lightbulb className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600 flex-shrink-0 mt-1" />
+                <div className="flex-1 min-w-0">
                   {(S.note.title?.[lang] || S.note.title?.ru) && (
-                    <h4 className="text-2xl mb-4">
+                    <h4 className="text-lg sm:text-xl md:text-2xl mb-3 sm:mb-4 break-words">
                       {(S.note.title?.[lang] || S.note.title?.ru).replace(
                         /^[^\p{L}\p{N}]+/u,
                         ""
@@ -980,15 +980,15 @@ export default function StructuredExplanation({
                     </h4>
                   )}
                   {(S.note.body?.[lang] || S.note.body?.ru) && (
-                    <p className="text-lg mb-4">
-                      {S.note.body?.[lang] || S.note.body?.ru}
-                    </p>
+                    <div className="text-sm sm:text-base md:text-lg mb-3 sm:mb-4 leading-relaxed whitespace-pre-line break-words">
+                      {renderInlineContent(S.note.body?.[lang] || S.note.body?.ru)}
+                    </div>
                   )}
                   {Array.isArray(S.note.examples) && (
-                    <div className="bg-white rounded-xl p-4 mt-4">
-                      <ul className="space-y-2 text-lg">
+                    <div className="bg-white rounded-xl p-3 sm:p-4 mt-3 sm:mt-4">
+                      <ul className="space-y-2 text-sm sm:text-base md:text-lg">
                         {S.note.examples.map((ex, idx) => (
-                          <li key={idx}>
+                          <li key={idx} className="break-words">
                             • <strong>{ex.fi}</strong> — {ex[lang] || ex.ru}
                           </li>
                         ))}
