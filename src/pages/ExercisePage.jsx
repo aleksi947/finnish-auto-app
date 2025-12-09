@@ -95,11 +95,6 @@ function ExercisePage() {
     );
   }
 
-  // Защита от некорректных значений прогресса
-  const progressPercentage = totalQuestions > 0 
-    ? Math.min(Math.max((currentQuestionIndex / totalQuestions) * 100, 0), 100)
-    : 0;
-
   return (
     <div className="min-h-screen bg-[#F5F7FA]">
       <Navigation
@@ -147,25 +142,6 @@ function ExercisePage() {
                   Грамматика
                 </h1>
               </div>
-              
-              {/* Счетчик прогресса и прогресс-бар под заголовком */}
-              {totalQuestions > 0 && (
-                <div className="flex flex-col gap-3">
-                  <span className="text-lg font-medium text-[#4A5568] leading-[28px]">
-                    {currentQuestionIndex} / {totalQuestions}
-                  </span>
-                  {/* Прогресс-бар */}
-                  <div className="w-full h-2.5 rounded-full overflow-hidden bg-gray-100">
-                    <div 
-                      className="h-full transition-all duration-500 rounded-full bg-gradient-to-r from-[#1471F6] to-[#1E64F0]"
-                      style={{ 
-                        width: `${progressPercentage}%`,
-                        maxWidth: '100%'
-                      }}
-                    />
-                  </div>
-                </div>
-              )}
             </div>
 
             {/* Заголовок упражнения */}

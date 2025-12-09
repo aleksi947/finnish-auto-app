@@ -172,10 +172,6 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
       setWrongCount((p) => p + 1);
       setMistakes((p) => [...p, currentItem]);
     }
-
-    if (currentIndex === items.length - 1) {
-      setTimeout(() => setFinished(true), 1000);
-    }
   };
 
   const handleNext = () => {
@@ -531,15 +527,20 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
               >
                 ✅ Проверить ответ
               </button>
+            ) : currentIndex < items.length - 1 ? (
+              <button
+                onClick={handleNext}
+                className="flex-1 py-6 text-xl rounded-xl bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white transition-all"
+              >
+                Далее →
+              </button>
             ) : (
-              currentIndex < items.length - 1 && (
-                <button
-                  onClick={handleNext}
-                  className="flex-1 py-6 text-xl rounded-xl bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white transition-all"
-                >
-                  Далее →
-                </button>
-              )
+              <button
+                onClick={() => setFinished(true)}
+                className="flex-1 py-6 text-xl rounded-xl bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white transition-all font-medium"
+              >
+                Завершить
+              </button>
             )}
           </div>
         </div>
