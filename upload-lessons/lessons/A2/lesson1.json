@@ -177,6 +177,131 @@
                 "feedbackWrong": "❌ Ошибка. Нужно: asui. В 3-м лице имперфекта не бывает долгого гласного, поэтому правильно писать asui, а не asuui."
               }
             ]
+          },
+          {
+            "id": "imperfekti-2",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": { "ru": "📌 Этап 2: Изменения в основе" },
+              "intro": {
+                "ru": "При образовании имперфекта в основе глагола могут происходить изменения."
+              },
+              "conjugationExamples": [
+                {
+                  "title": { "ru": "🔹 1. a → o (в двухсложных глаголах)" },
+                  "rows": [
+                    { "person": "alan", "form": "aloin", "ru": "я начинаю → я начал" },
+                    { "person": "laulan", "form": "lauloin", "ru": "я пою → я пел" }
+                  ],
+                  "hint": "Если в первом слоге стоит **a**, то **a** в конце основы меняется на **o**."
+                },
+                {
+                  "title": { "ru": "🔹 2. VV → V (двойная гласная сокращается)" },
+                  "rows": [
+                    { "person": "saan", "form": "sain", "ru": "я получаю → я получил" },
+                    { "person": "myyn", "form": "myin", "ru": "я продаю → я продал" }
+                  ],
+                  "hint": "Двойная гласная сокращается до одной перед **i**."
+                },
+                {
+                  "title": { "ru": "🔹 3. Дифтонги: yö → öi, uo → oi, ie → ei" },
+                  "rows": [
+                    { "person": "syön", "form": "söin", "ru": "я ем → я ел" },
+                    { "person": "juon", "form": "join", "ru": "я пью → я пил" },
+                    { "person": "vien", "form": "vein", "ru": "я несу → я отнёс" }
+                  ]
+                }
+              ],
+              "note": {
+                "title": { "ru": "🔹 4. HUOM! (особенность) – глагол käydä" },
+                "body": {
+                  "ru": "**käydä** (ходить, посещать) образует имперфект по-особенному:\n\n**minä kävin** — я ходил\n**sinä kävit** — ты ходил\n**hän kävi** — он/она ходил(а)\n**me kävimme** — мы ходили\n**te kävitte** — вы ходили\n**he kävivät** — они ходили"
+                }
+              }
+            },
+            "instruction": {
+              "ru": "✍️ Допишите правильное окончание. Используйте правила:\n🔹 a → o (в двухсложных глаголах, если в первом слоге стоит «a»)\n🔹 VV → V (двойная гласная сокращается)\n🔹 yö → öi, uo → oi, ie → ei\n🔹 Особый глагол: käydä"
+            },
+            "items": [
+              {
+                "sentence": "Minä alo___ (alkaa)",
+                "answer": "in",
+                "translation": "Я начал",
+                "feedbackCorrect": "✅ Отлично! alan → aloin: в первом слоге a меняется на o, добавляем -i и -n.",
+                "feedbackWrong": "❌ Ошибка. Нужно: aloin. В имперфекте a → o в первом слоге двухсложных глаголов."
+              },
+              {
+                "sentence": "Minä laulo___ (laulaa)",
+                "answer": "in",
+                "translation": "Я пел",
+                "feedbackCorrect": "✅ Молодец! laulan → lauloin: a в первом слоге меняется на o.",
+                "feedbackWrong": "❌ Нужно: lauloin. В имперфекте a → o (laulan → lauloin)."
+              },
+              {
+                "sentence": "Minä sa___ (saada)",
+                "answer": "in",
+                "translation": "Я получил",
+                "feedbackCorrect": "✅ Отлично! saan → sain: двойная гласная aa сокращается в одну a.",
+                "feedbackWrong": "❌ Ошибка. Нужно: sain. В имперфекте VV → V (aa → a)."
+              },
+              {
+                "sentence": "Minä my___ (myydä)",
+                "answer": "in",
+                "translation": "Я продал",
+                "feedbackCorrect": "✅ Хорошо! myyn → myin: yy → y в имперфекте.",
+                "feedbackWrong": "❌ Нужно: myin. В имперфекте VV → V (yy → y)."
+              },
+              {
+                "sentence": "Minä sö___ (syödä)",
+                "answer": "in",
+                "translation": "Я ел",
+                "feedbackCorrect": "✅ Отлично! syön → söin: yö меняется на öi.",
+                "feedbackWrong": "❌ Ошибка. Нужно: söin. В имперфекте yö → öi."
+              },
+              {
+                "sentence": "Minä jo___ (juoda)",
+                "answer": "in",
+                "translation": "Я пил",
+                "feedbackCorrect": "✅ Молодец! juon → join: uo → oi.",
+                "feedbackWrong": "❌ Нужно: join. В имперфекте uo → oi."
+              },
+              {
+                "sentence": "Minä ve___ (viedä)",
+                "answer": "in",
+                "translation": "Я отнёс / отвёз",
+                "feedbackCorrect": "✅ Отлично! vien → vein: ie → ei.",
+                "feedbackWrong": "❌ Ошибка. Нужно: vein. В имперфекте ie → ei."
+              },
+              {
+                "sentence": "Minä kä___ (käydä)",
+                "answer": "vin",
+                "translation": "Я ходил",
+                "feedbackCorrect": "✅ Отлично! Форма от глагола käydä: minä kävin.",
+                "feedbackWrong": "❌ Нужно: kävin. Глагол käydä образует имперфект неправильно по общему правилу, это особый случай."
+              },
+              {
+                "sentence": "Hän laul___ (laulaa)",
+                "answer": "oi",
+                "translation": "Он/она пел(а)",
+                "feedbackCorrect": "✅ Отлично! laulan → lauloi: a → o, в 3-м лице добавляется -i.",
+                "feedbackWrong": "❌ Ошибка. Нужно: lauloi. В имперфекте a меняется на o, а в 3-м лице нет удвоенных гласных."
+              },
+              {
+                "sentence": "Hän jo___ (juoda)",
+                "answer": "oi",
+                "translation": "Он/она пил(а)",
+                "feedbackCorrect": "✅ Молодец! juon → joi: uo → oi, + окончание для hän.",
+                "feedbackWrong": "❌ Нужно: joi. В имперфекте uo меняется на oi, а в 3-м лице добавляется только -i (не joii)."
+              },
+              {
+                "sentence": "Hän kä___ (käydä)",
+                "answer": "vi",
+                "translation": "Он/она ходил(а)",
+                "feedbackCorrect": "✅ Отлично! Глагол käydä в имперфекте образует особую форму: hän kävi.",
+                "feedbackWrong": "❌ Ошибка. Нужно: kävi. Это особый глагол."
+              }
+            ]
           }
         ]
       }
