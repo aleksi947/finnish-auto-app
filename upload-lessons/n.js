@@ -35,6 +35,13 @@ async function uploadAllLessons() {
 
     for (const file of files) {
       const fullPath = path.join(levelPath, file);
+      
+      // Пропускаем директории (например, A2-1, A2-2 и т.д.)
+      const stats = fs.statSync(fullPath);
+      if (!stats.isFile()) {
+        continue;
+      }
+      
       const lessonData = JSON.parse(fs.readFileSync(fullPath, "utf-8"));
 
       const match = file.match(/lesson(\d+)\.json/);

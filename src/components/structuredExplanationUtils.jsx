@@ -89,6 +89,27 @@ export const cellValueByColumn = (col, row, lang = "ru", colIndex = null) => {
     // Если это не повторяющаяся колонка, пропускаем эту проверку и используем общую логику ниже
   }
 
+  // Обработка колонок для транзитивных/интранзитивных глаголов
+  // ВАЖНО: сначала проверяем intransitiiviverbit, потому что слово
+  // "intransitiiviverbit" СОДЕРЖИТ подстроку "transitiiviverbit".
+  // Иначе обе колонки будут считаться transitiiviverbit.
+  if (
+    norm.includes("intransitiiviverbit") ||
+    norm.includes("нет объекта") ||
+    (norm.includes("непереходн") && !norm.includes("пример"))
+  ) {
+    // правая колонка — непереходные глаголы
+    return row.form ?? row.person ?? "";
+  }
+  if (
+    norm.includes("transitiiviverbit") ||
+    norm.includes("есть объект") ||
+    (norm.includes("переходн") && !norm.includes("пример"))
+  ) {
+    // левая колонка — переходные глаголы
+    return row.person ?? row.form ?? "";
+  }
+  
   // Специфичные проверки (должны быть первыми)
   if (norm.includes("инфинитив")) return row.base ?? row.stem ?? "";
   if (norm.includes("глагол")) return row.base ?? row.stem ?? "";
@@ -189,6 +210,18 @@ export const cellValueByColumn = (col, row, lang = "ru", colIndex = null) => {
   // Пример(ы) - но не "Пример + Перевод" и не "Пример (puhua)" / "Пример (kysyä)"
   // Проверяем, что это не специальные колонки с puhua/kysyä
   if (norm.includes("пример") && !norm.includes("puhu") && !norm.includes("kysy")) {
+    // Если колонка содержит "непереходный", используем example2
+    if (norm.includes("непереходн") && row.example2) {
+      return row.example2;
+    }
+    // Если есть example2 и это третья или четвертая колонка (индекс 2 или 3), используем example2
+    if (colIndex !== null && colIndex >= 2 && row.example2) {
+      return row.example2;
+    }
+    // Для первой колонки с примером (индекс 1) используем example
+    if (colIndex === 1 && row.example) {
+      return row.example;
+    }
     return row.examples ?? row.example ?? row.example1 ?? row.example2 ?? "";
   }
 
