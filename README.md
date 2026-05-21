@@ -1,12 +1,37 @@
-# React + Vite
+# Learn Finnish
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MVP web application for learning the Finnish language.
 
-Currently, two official plugins are available:
+The application was created as a personal learning platform and study project. Users can study grammar, vocabulary, listening, and writing exercises. Premium lessons and subscription functionality are also supported.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
 
-## Expanding the ESLint configuration
+- React
+- Firebase
+- Firestore
+- Firebase Authentication
+- Firebase Hosting
+- Stripe
+- Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- User registration and login
+- Finnish grammar lessons
+- Vocabulary exercises
+- Listening exercises
+- Writing exercises
+- Premium subscription system
+- Multi-language interface
+
+## Live Demo
+
+https://finnish-auto-new.web.app
+
+## Github Repository
+
+https://github.com/aleksi947/finnish-auto-app
+
+## Author
+
+Aleksandr Lomakin
