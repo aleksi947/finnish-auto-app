@@ -2,7 +2,7 @@
 // grammar.scss — FIGMA/Tailwind-like
 // ============================
 
-// Палитра (под Tailwind-стиль Фигмы)
+// Palette (Figma / Tailwind style)
 $indigo-500: #667eea;
 $purple-500: #764ba2;
 $blue-50:   #E9F1FF;
@@ -20,7 +20,7 @@ $shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.08);
 $shadow-md: 0 6px 12px rgba(0, 0, 0, 0.08);
 $shadow-sm: 0 3px 8px rgba(0, 0, 0, 0.06);
 
-// Универсали
+// Utilities
 *,
 *::before,
 *::after {
@@ -74,7 +74,7 @@ $shadow-sm: 0 3px 8px rgba(0, 0, 0, 0.06);
 }
 
 // ============================
-// Блок: Грамматика (обёртка)
+// Grammar block (wrapper)
 // ============================
 .grammar-block {
   font-family: "Inter", system-ui, sans-serif;
@@ -84,7 +84,7 @@ $shadow-sm: 0 3px 8px rgba(0, 0, 0, 0.06);
   overflow-x: auto;
 
   // ----------------------------
-  // Шапка
+  // Header
   // ----------------------------
   .grammar-header {
     background: linear-gradient(135deg, $indigo-500 0%, $purple-500 100%);
@@ -116,7 +116,7 @@ $shadow-sm: 0 3px 8px rgba(0, 0, 0, 0.06);
   }
 
   // ----------------------------
-  // Блок спряжений
+  // Conjugation block
   // ----------------------------
   .conjugation-block {
     background: #f8f9fa;
@@ -185,7 +185,7 @@ $shadow-sm: 0 3px 8px rgba(0, 0, 0, 0.06);
   }
 
   // ----------------------------
-  // Важная информация
+  // Important info
   // ----------------------------
   .important-block {
     background: #e3f2fd;
@@ -216,7 +216,7 @@ $shadow-sm: 0 3px 8px rgba(0, 0, 0, 0.06);
   }
 
   // ----------------------------
-  // Примеры
+  // Examples
   // ----------------------------
   .examples-block {
     background: #f3e5f5;
@@ -256,7 +256,7 @@ $shadow-sm: 0 3px 8px rgba(0, 0, 0, 0.06);
   }
 
   // ----------------------------
-  // Как запомнить
+  // How to remember
   // ----------------------------
   .memory-block {
     background: #fff3e0;
@@ -299,7 +299,7 @@ $shadow-sm: 0 3px 8px rgba(0, 0, 0, 0.06);
   }
 
   // ----------------------------
-  // Финальная таблица
+  // Final table
   // ----------------------------
   .final-table-block {
     background: linear-gradient(135deg, $indigo-500 0%, $purple-500 100%);
@@ -350,7 +350,7 @@ $shadow-sm: 0 3px 8px rgba(0, 0, 0, 0.06);
   }
 
   // ----------------------------
-  // Подсказки и код
+  // Hints and code
   // ----------------------------
   .hint {
     background: #fff9e6;
@@ -372,7 +372,7 @@ $shadow-sm: 0 3px 8px rgba(0, 0, 0, 0.06);
   }
 
   // ----------------------------
-  // Подсветка глагольных окончаний/форм
+  // Verb ending/form highlight
   // ----------------------------
   .verb-ending {
     color: #e74c3c;
@@ -419,7 +419,7 @@ $shadow-sm: 0 3px 8px rgba(0, 0, 0, 0.06);
   }
 
   // ----------------------------
-  // Блок объяснений
+  // Explanation block
   // ----------------------------
   .explanation-block {
     background: #f8f9fa;
@@ -538,7 +538,7 @@ $shadow-sm: 0 3px 8px rgba(0, 0, 0, 0.06);
   }
 
   // ============================
-  // Адаптив
+  // Responsive
   // ============================
   @media (max-width: 768px) {
     .grammar-header,

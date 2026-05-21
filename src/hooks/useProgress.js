@@ -13,7 +13,7 @@ import {
 } from "../services/progressService";
 
 /**
- * Hook для работы с прогрессом урока
+ * Hook for lesson progress
  */
 export function useProgress(lessonId) {
   const [progress, setProgress] = useState(null);
@@ -28,9 +28,9 @@ export function useProgress(lessonId) {
 
     let unsubscribeProgress = null;
 
-    // Используем onAuthStateChanged для надежной проверки авторизации
+    // Use onAuthStateChanged for reliable auth check
     const unsubscribeAuth = auth.onAuthStateChanged((user) => {
-      // Отписываемся от предыдущей подписки если она была
+      // Unsubscribe from previous subscription if any
       if (unsubscribeProgress) {
         unsubscribeProgress();
         unsubscribeProgress = null;
@@ -47,7 +47,7 @@ export function useProgress(lessonId) {
       setError(null);
 
       try {
-        // Подписка на изменения прогресса в реальном времени
+        // Real-time progress subscription
         const progressRef = doc(db, "users", user.uid, "progress", lessonId);
         
         unsubscribeProgress = onSnapshot(
@@ -62,10 +62,10 @@ export function useProgress(lessonId) {
           },
           (err) => {
             console.error("Ошибка подписки на прогресс:", err);
-            // Если ошибка permissions, пробуем загрузить один раз через getDoc
+            // On permissions error, try one-time getDoc load
             if (err.code === "permission-denied" || err.message.includes("permissions")) {
               console.warn("Проблема с правами доступа, пробуем альтернативный способ загрузки");
-              // Загружаем один раз без подписки
+              // Load once without subscription
               getLessonProgress(user.uid, lessonId).then((progressData) => {
                 setProgress(progressData);
                 setIsLoading(false);
@@ -95,7 +95,7 @@ export function useProgress(lessonId) {
     };
   }, [lessonId]);
 
-  // Отметить упражнение как начатое
+  // Mark exercise started
   const handleMarkStarted = useCallback(
     async (sectionId, exerciseId, topicId = null) => {
       const user = auth.currentUser;
@@ -109,7 +109,7 @@ export function useProgress(lessonId) {
     [lessonId]
   );
 
-  // Отметить упражнение как завершенное
+  // Mark exercise completed
   const handleMarkCompleted = useCallback(
     async (sectionId, exerciseId, topicId = null) => {
       const user = auth.currentUser;
@@ -123,7 +123,7 @@ export function useProgress(lessonId) {
     [lessonId]
   );
 
-  // Получить статус раздела
+  // Get section status
   const getSectionStatusValue = useCallback(
     (sectionId) => {
       return getSectionStatus(progress, sectionId);
@@ -131,7 +131,7 @@ export function useProgress(lessonId) {
     [progress]
   );
 
-  // Получить статус упражнения
+  // Get exercise status
   const getExerciseStatusValue = useCallback(
     (sectionId, exerciseId, topicId = null) => {
       return getExerciseStatus(progress, sectionId, exerciseId, topicId);
@@ -139,7 +139,7 @@ export function useProgress(lessonId) {
     [progress]
   );
 
-  // Получить статус темы vocabulary
+  // Get vocabulary topic status
   const getVocabularyTopicStatusValue = useCallback(
     (topicId) => {
       return getVocabularyTopicStatus(progress, topicId);
@@ -147,7 +147,7 @@ export function useProgress(lessonId) {
     [progress]
   );
 
-  // Получить статус секции grammar
+  // Get grammar section status
   const getGrammarSectionStatusValue = useCallback(
     (grammarSectionId) => {
       return getGrammarSectionStatus(progress, grammarSectionId);

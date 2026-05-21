@@ -8,8 +8,8 @@ function ReadingMultipleChoice({ task, onComplete, onMarkStarted, onMarkComplete
   const [checked, setChecked] = useState(false);
   const [score, setScore] = useState(0);
   const [mistakes, setMistakes] = useState(0);
-  const [answers, setAnswers] = useState([]); // Массив для отслеживания правильности ответов
-  const [hasMarkedStarted, setHasMarkedStarted] = useState(false); // Флаг для отслеживания первого ответа
+  const [answers, setAnswers] = useState([]); // Array tracking answer correctness
+  const [hasMarkedStarted, setHasMarkedStarted] = useState(false); // Flag tracking first answer
 
   const totalQuestions = task.questions.length;
   const current = task.questions[currentIndex];
@@ -25,13 +25,13 @@ function ReadingMultipleChoice({ task, onComplete, onMarkStarted, onMarkComplete
 
     const isCorrect = selected === current.answer;
 
-    // Отмечаем упражнение как начатое при первом ответе
+    // Mark exercise started on first answer
     if (!hasMarkedStarted && onMarkStarted) {
       onMarkStarted();
       setHasMarkedStarted(true);
     }
 
-    // Сохраняем результат ответа
+    // Save answer result
     setAnswers((prev) => [...prev, { questionIndex: currentIndex, isCorrect }]);
 
     if (isCorrect) {
@@ -52,8 +52,8 @@ function ReadingMultipleChoice({ task, onComplete, onMarkStarted, onMarkComplete
     }
   };
 
-  // Проверяем все ли ответы правильные при завершении
-  // ВАЖНО: этот useEffect должен быть ДО любого раннего возврата
+  // Check all answers correct on finish
+  // IMPORTANT: this useEffect must run BEFORE any early return
   useEffect(() => {
     if (isFinished && answers.length === totalQuestions && totalQuestions > 0) {
       const allCorrect = answers.every(a => a.isCorrect);

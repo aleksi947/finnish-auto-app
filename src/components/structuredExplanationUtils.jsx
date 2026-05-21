@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 
-// Утилита для рендеринга markdown (жирный, курсив, код)
+// Markdown render utility (bold, italic, code)
 export const renderInlineContent = (text) => {
   if (!text) return null;
   const tokens =
@@ -51,7 +51,7 @@ export const renderInlineContent = (text) => {
   });
 };
 
-// Утилита для нормализации колонок
+// Column normalization utility
 export const normalizeColumns = (cols, lang = "ru") =>
   (cols && cols.length
     ? cols
@@ -60,46 +60,67 @@ export const normalizeColumns = (cols, lang = "ru") =>
     typeof c === "string" ? c : c?.[lang] || c?.ru || c?.en || ""
   );
 
-// Универсальный резолвер значений ячеек таблицы
+// Universal table cell value resolver
 export const cellValueByColumn = (col, row, lang = "ru", colIndex = null) => {
   const norm = (col || "").toLowerCase().trim();
   
-  // Обработка повторяющихся колонок через индекс
-  // Если колонка "Число + Финский" и это третья колонка (индекс 2), используем row.example
+  // Repeated columns by index
+  // Column "Number + Finnish" at index 2 — use row.example
   if (colIndex !== null && norm.includes("число") && norm.includes("финск")) {
     if (colIndex === 2) {
       return row.example ?? row.example1 ?? "";
     }
-    // Для первой колонки (индекс 0) используем row.form
+    // First column (index 0) — row.form
     if (colIndex === 0) {
       return row.form ?? "";
     }
   }
-  // Если колонка "Перевод" и это повторяющаяся колонка (для порядковых числительных)
-  // Проверяем только если есть translation2 (признак повторяющейся колонки)
+  // Column "Translation" as a repeated column (ordinal numerals)
+  // Only when translation2 exists (marks a repeated column)
   if (colIndex !== null && norm.includes("перевод")) {
-    // Если это четвертая колонка (индекс 3) и есть translation2, используем его
+    // Fourth column (index 3) with translation2 — use it
     if (colIndex === 3 && (row.translation2 || row.ru)) {
       return row.translation2?.ru ?? row.translation2 ?? row.ru ?? "";
     }
-    // Если это вторая колонка (индекс 1) и есть translation, используем его
+    // Second column (index 1) with translation — use it
     if (colIndex === 1 && row.translation) {
       return row.translation?.[lang] ?? row.translation?.ru ?? row.translation ?? "";
     }
-    // Если это не повторяющаяся колонка, пропускаем эту проверку и используем общую логику ниже
+    // Not a repeated column — skip and use general logic below
   }
 
-  // Специфичные проверки (должны быть первыми)
+  // Transitive/intransitive verb columns
+  // IMPORTANT: check intransitiiviverbit first because the word
+  // "intransitiiviverbit" CONTAINS substring "transitiiviverbit".
+  // Otherwise both columns would match transitiiviverbit.
+  if (
+    norm.includes("intransitiiviverbit") ||
+    norm.includes("нет объекта") ||
+    (norm.includes("непереходн") && !norm.includes("пример"))
+  ) {
+    // right column — intransitive verbs
+    return row.form ?? row.person ?? "";
+  }
+  if (
+    norm.includes("transitiiviverbit") ||
+    norm.includes("есть объект") ||
+    (norm.includes("переходн") && !norm.includes("пример"))
+  ) {
+    // left column — transitive verbs
+    return row.person ?? row.form ?? "";
+  }
+  
+  // Specific checks first
   if (norm.includes("инфинитив")) return row.base ?? row.stem ?? "";
   if (norm.includes("глагол")) return row.base ?? row.stem ?? "";
   if (norm.includes("форма") && norm.includes("minä")) return row.person ?? "";
   if (norm.includes("убираем") || (norm.includes("основа") && norm.includes("→"))) return row.ending ?? row.suffix ?? "";
   if (norm.includes("imperatiivi") || norm === "imperatiivi") return row.form ?? "";
   
-  // Postpositio (послелог)
+  // Postpositio (postposition)
   if (norm.includes("postpositio") || norm === "postpositio") return row.form ?? "";
   
-  // Таблица чередования согласных: "Сильная" и "Слабая"
+  // Consonant gradation table: "Strong" and "Weak"
   if (norm.includes("сильн")) return row.form ?? "";
   if (norm.includes("слаб")) return row.ending ?? row.suffix ?? "";
   
@@ -107,7 +128,7 @@ export const cellValueByColumn = (col, row, lang = "ru", colIndex = null) => {
   if (norm.includes("падеж")) return row.person ?? "";
   if (norm.includes("местоим")) return row.pronoun ?? row.person ?? "";
   
-  // Обработка колонок с названиями местоимений
+  // Pronoun name columns
   if (norm.includes("minä") || norm === "minä (я)") return row.pronoun ?? "";
   if (norm.includes("sinä") || norm === "sinä (ты)") return row.pronoun2 ?? "";
   if (norm.includes("hän") || norm === "hän (он/она)") return row.pronoun3 ?? "";
@@ -118,11 +139,17 @@ export const cellValueByColumn = (col, row, lang = "ru", colIndex = null) => {
   if (norm.includes("час")) return row.person ?? row.base ?? "";
   if (norm.includes("ответ")) return row.ending ?? row.form ?? "";
 
-  // Новые синонимы колонок
+  // New column synonyms
   if (norm.includes("финск")) {
     return row.example ?? row.example1 ?? row.examplePuhua ?? row.fi ?? "";
   }
   if (norm.includes("вопрос")) {
+    if ((norm.includes("ru") || norm.includes("ру")) && (row.questionRU || row.question_ru)) {
+      return row.questionRU ?? row.question_ru;
+    }
+    if ((norm.includes("fi") || norm.includes("фи")) && (row.questionFI || row.question_fi)) {
+      return row.questionFI ?? row.question_fi;
+    }
     return row.base ?? row.question ?? row.fi ?? "";
   }
   if (norm.includes("объект")) {
@@ -132,12 +159,12 @@ export const cellValueByColumn = (col, row, lang = "ru", colIndex = null) => {
     return row.note?.ru ?? row.note ?? row.comment?.ru ?? row.comment ?? "";
   }
   
-  // Перевод примера (должно быть до проверки "пример")
+  // Example translation (before "example" check)
   if (norm.includes("перевод примера")) {
     return row.note?.ru ?? row.note ?? row.comment?.ru ?? row.comment ?? "";
   }
 
-  // puhui/kysyä колонки (должны быть ДО проверки "пример")
+  // puhui/kysyä columns (before "example" check)
   if (norm.includes("puhu")) {
     return (
       row.examplePuhua ??
@@ -156,7 +183,7 @@ export const cellValueByColumn = (col, row, lang = "ru", colIndex = null) => {
     );
   }
 
-  // ei / отрицание
+  // ei / negation
   if (
     norm.includes("«ei»") ||
     norm.includes('"ei"') ||
@@ -167,7 +194,7 @@ export const cellValueByColumn = (col, row, lang = "ru", colIndex = null) => {
     return row.ei_form ?? row.particle ?? row.form ?? "";
   }
 
-  // Основа / stem / base / условие (но не "убираем n → основа")
+  // Stem / base / condition (not "remove n → stem")
   if (
     (norm.includes("основа") || norm.includes("stem") || norm.includes("base")) &&
     !norm.includes("→")
@@ -175,14 +202,26 @@ export const cellValueByColumn = (col, row, lang = "ru", colIndex = null) => {
     return row.base ?? row.stem ?? row.condition ?? row.topic ?? "";
   }
 
-  // "Пример + Перевод" - специальная колонка (должна быть до проверки просто "пример")
+  // "Example + Translation" — special column (before plain "example" check)
   if (norm.includes("пример") && norm.includes("перевод")) {
     return row.note?.ru ?? row.note ?? row.comment?.ru ?? row.comment ?? "";
   }
 
-  // Пример(ы) - но не "Пример + Перевод" и не "Пример (puhua)" / "Пример (kysyä)"
-  // Проверяем, что это не специальные колонки с puhua/kysyä
+  // Example(s) — not "Example + Translation" or "Example (puhua)" / "Example (kysyä)"
+  // Skip special puhua/kysyä columns
   if (norm.includes("пример") && !norm.includes("puhu") && !norm.includes("kysy")) {
+    // Column contains "intransitive" — use example2
+    if (norm.includes("непереходн") && row.example2) {
+      return row.example2;
+    }
+    // example2 on column index 2 or 3 — use example2
+    if (colIndex !== null && colIndex >= 2 && row.example2) {
+      return row.example2;
+    }
+    // First example column (index 1) — use example
+    if (colIndex === 1 && row.example) {
+      return row.example;
+    }
     return row.examples ?? row.example ?? row.example1 ?? row.example2 ?? "";
   }
 

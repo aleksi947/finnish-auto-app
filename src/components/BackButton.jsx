@@ -4,11 +4,11 @@ function BackButton({ label = "⬅ Назад", style = {} }) {
   const navigate = useNavigate();
 
   const defaultStyle = {
-    display: "inline-block", // ⬅️ ключевая строка
-    maxWidth: "200px", // ⬅️ ограничиваем ширину
+    display: "inline-block", // key line
+    maxWidth: "200px", // limit width
     padding: "8px 18px",
     fontSize: "14px",
-    backgroundColor: "#003E7E", // финский синий
+    backgroundColor: "#003E7E", // Finnish blue
     color: "white",
     border: "none",
     borderRadius: "8px",
@@ -16,7 +16,7 @@ function BackButton({ label = "⬅ Назад", style = {} }) {
     marginBottom: "20px",
     transition: "all 0.2s ease",
     boxShadow: "0 2px 6px rgba(0, 0, 0, 0.1)",
-    whiteSpace: "nowrap", // ⬅️ не переносить текст
+    whiteSpace: "nowrap", // no text wrap
   };
 
   const hoverStyle = {

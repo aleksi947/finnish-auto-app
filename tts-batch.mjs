@@ -25,7 +25,12 @@ if (!EMAIL || !TOKEN) {
 }
 
 // --- файл очереди находится рядом: stripe-test/tts-queue.json ---
-const QUEUE_PATH = path.join(__dirname, "tts-queue.json");
+const lang = process.argv[2] || "fi";
+
+const QUEUE_PATH = path.join(
+  __dirname,
+  lang === "en" ? "tts-queue-en.json" : "tts-queue.json"
+);
 
 // ---------- утилиты ----------
 function ensureDirSync(p) { fs.mkdirSync(p, { recursive: true }); }

@@ -1,4 +1,4 @@
-// Тестовый файл для проверки авторизации
+// Test file for auth verification
 import { initializeApp } from "firebase/app";
 import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
 import { getFunctions, httpsCallable } from "firebase/functions";
@@ -16,7 +16,7 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const functions = getFunctions(app, "us-central1");
 
-// Проверка состояния авторизации
+// Check auth state
 onAuthStateChanged(auth, (user) => {
   console.log("=== Состояние авторизации ===");
   console.log("Пользователь:", user);
@@ -27,14 +27,14 @@ onAuthStateChanged(auth, (user) => {
   }
 });
 
-// Функция для тестирования входа
+// Test sign-in
 async function testLogin(email, password) {
   try {
     console.log("=== Тестирование входа ===");
     const userCredential = await signInWithEmailAndPassword(auth, email, password);
     console.log("✅ Вход успешен:", userCredential.user.email);
     
-    // Получаем токен
+    // Get token
     const token = await userCredential.user.getIdToken(true);
     console.log("✅ Токен получен:", !!token);
     
@@ -45,7 +45,7 @@ async function testLogin(email, password) {
   }
 }
 
-// Функция для тестирования Cloud Function
+// Test Cloud Function
 async function testCloudFunction() {
   try {
     console.log("=== Тестирование Cloud Function ===");
@@ -68,7 +68,7 @@ async function testCloudFunction() {
   }
 }
 
-// Экспортируем функции для использования в консоли браузера
+// Export for browser console
 window.testAuth = {
   testLogin,
   testCloudFunction,

@@ -1,4 +1,4 @@
-// Общие стили для контента уроков (стили грамматики перенесены в grammar.scss)
+// Shared lesson content styles (grammar moved to grammar.scss)
 
 .grammar-img {
     width: 600px;
@@ -15,7 +15,7 @@
     justify-content: space-between;
     gap: 20px;
     margin-top: 20px;
-    flex-wrap: wrap; // если экран маленький — будет переход на новую строку
+    flex-wrap: wrap; // wrap on small screens
 }
 
 .question-words {

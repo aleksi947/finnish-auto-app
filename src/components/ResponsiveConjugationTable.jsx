@@ -8,7 +8,7 @@ import {
   TableRow,
 } from "./ui/table";
 
-// Парсинг HTML таблицы в массив данных
+// Parse HTML table to data array
 function parseTableFromHtml(htmlString) {
   if (!htmlString) return [];
   
@@ -20,17 +20,17 @@ function parseTableFromHtml(htmlString) {
   
   tables.forEach((table) => {
     const rows = [];
-    // Ищем tbody, если его нет - берем все tr из table (кроме заголовков)
+    // Find tbody; else all tr from table (except headers)
     const tbody = table.querySelector("tbody");
     const trs = tbody ? tbody.querySelectorAll("tr") : table.querySelectorAll("tr");
     
     trs.forEach((tr) => {
-      // Пропускаем строки заголовков (они содержат th)
+      // Skip header rows (contain th)
       const ths = tr.querySelectorAll("th");
       if (ths.length > 0) return;
       
       const tds = tr.querySelectorAll("td");
-      // Поддерживаем как 3 колонки (без окончания), так и 4 (с окончанием)
+      // Support 3 columns (no ending) or 4 (with ending)
       if (tds.length >= 3) {
         rows.push({
           person: tds[0]?.textContent.trim() || "",
@@ -49,7 +49,7 @@ function parseTableFromHtml(htmlString) {
   return result;
 }
 
-// Компонент для отображения одной таблицы
+// Single table display component
 function ConjugationTable({ data, isException = false }) {
   if (!data || data.length === 0) return null;
 
@@ -143,13 +143,13 @@ function ConjugationTable({ data, isException = false }) {
   );
 }
 
-// Главный компонент - парсит HTML и отображает таблицы
+// Parses HTML and renders tables
 export default function ResponsiveConjugationTable({ htmlContent, isException = false }) {
   if (!htmlContent) return null;
   
   const tables = parseTableFromHtml(htmlContent);
 
-  // Если таблицы не найдены, возвращаем null
+  // Return null if no tables found
   if (tables.length === 0) {
     return null;
   }

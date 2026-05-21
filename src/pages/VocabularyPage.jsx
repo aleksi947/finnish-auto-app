@@ -17,7 +17,7 @@ export default function VocabularyPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   
-  // Hook для работы с прогрессом
+  // Hook for progress tracking
   const { getVocabularyTopicStatus } = useProgress(lessonId);
 
   useEffect(() => {
@@ -53,7 +53,7 @@ export default function VocabularyPage() {
   if (error) return <p className="p-6 text-red-600">{error}</p>;
   if (!lesson) return null;
 
-  // Сортировка — алфавит первым
+  // Sort — alphabet first
   const orderedBlocks = Object.entries(lesson.vocabulary || {}).sort(
     ([a], [b]) => {
       if (lesson.vocabulary[a].title === "Aakkoset – Финский алфавит") return -1;
@@ -93,16 +93,16 @@ export default function VocabularyPage() {
 
   return (
     <div className="min-h-screen bg-[#F5F7FA]">
-      {/* Навигация */}
+      {/* Navigation */}
       <Navigation
         onNavigateHome={() => navigate("/")}
         onNavigateProfile={() => navigate("/profile")}
       />
 
-      {/* Основной контент */}
+      {/* Main content */}
       <div className="pt-32 pb-20 px-6">
         <div className="max-w-4xl mx-auto">
-          {/* Назад */}
+          {/* Back */}
           <button
             onClick={() => navigate(-1)}
             className="flex items-center gap-2 text-blue-600 hover:bg-blue-600 hover:text-white transition-all px-6 py-3 rounded-xl mb-8 group bg-blue-50"
@@ -111,10 +111,10 @@ export default function VocabularyPage() {
             <span className="text-lg">Назад</span>
           </button>
 
-          {/* Заголовок */}
+          {/* Title */}
           <h1 className="text-gray-800 mb-8 text-3xl font-semibold">Слова</h1>
 
-          {/* Список блоков */}
+          {/* Block list */}
           <div className="space-y-4">
             {orderedBlocks.map(([blockId, block]) => (
               <div
@@ -125,12 +125,12 @@ export default function VocabularyPage() {
                 className="bg-white rounded-2xl p-6 border-2 border-blue-400 hover:border-blue-500 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer group"
               >
                 <div className="flex items-center justify-between gap-6">
-                  {/* Заголовок блока */}
+                  {/* Block title */}
                   <div className="flex-1 text-xl text-gray-800 group-hover:text-blue-700 transition-colors">
                     {block.title}
                   </div>
 
-                  {/* Статус */}
+                  {/* Status */}
                   <div className="flex-shrink-0">
                     {getStatusBadge(getVocabularyTopicStatus(blockId))}
                   </div>

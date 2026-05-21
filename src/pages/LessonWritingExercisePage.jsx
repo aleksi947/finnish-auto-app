@@ -14,7 +14,7 @@ function LessonWritingExercisePage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   
-  // Hook для работы с прогрессом
+  // Hook for progress tracking
   const { markExerciseStarted, markExerciseCompleted } = useProgress(lessonId);
 
   useEffect(() => {

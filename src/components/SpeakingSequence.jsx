@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { Mic, Volume2 } from "lucide-react";
 
-/* ---------- СЛОВАРИ ЧИСЕЛ ---------- */
+/* ---------- NUMBER DICTIONARIES ---------- */
 const UNITS = {
   nolla: 0,
   yksi: 1,
@@ -51,7 +51,7 @@ const TENS = {
   yhdeksänkymmentä: 90,
 };
 
-/* ---------- УТИЛИТЫ СРАВНЕНИЯ ---------- */
+/* ---------- COMPARISON UTILITIES ---------- */
 function toNumberFi(raw) {
   if (!raw) return NaN;
   const s = String(raw)
@@ -139,7 +139,7 @@ function isCorrectAnswer(user, answerList, answerNumber) {
   return false;
 }
 
-/* ---------- КОМПОНЕНТ ---------- */
+/* ---------- COMPONENT ---------- */
 function SpeakingSequence({ task, onMarkStarted, onMarkCompleted }) {
   const [items, setItems] = useState([]);
   const [index, setIndex] = useState(0);
@@ -150,16 +150,16 @@ function SpeakingSequence({ task, onMarkStarted, onMarkCompleted }) {
   const [correctCount, setCorrectCount] = useState(0);
   const [wrongCount, setWrongCount] = useState(0);
   const [mistakes, setMistakes] = useState([]);
-  const [answers, setAnswers] = useState([]); // Массив для отслеживания правильности ответов
-  const [hasMarkedStarted, setHasMarkedStarted] = useState(false); // Флаг для отслеживания первого ответа
+  const [answers, setAnswers] = useState([]); // Array tracking answer correctness
+  const [hasMarkedStarted, setHasMarkedStarted] = useState(false); // Flag tracking first answer
 
-  // Аудио / речь
+  // Audio / speech
   const audioRef = useRef(null);
   const [speaking, setSpeaking] = useState(false);
   const recognitionRef = useRef(null);
   const isMountedRef = useRef(true);
 
-  /* --- Инициализация по task --- */
+  /* --- Init from task --- */
   useEffect(() => {
     if (!task?.items) return;
     setItems([...task.items].sort(() => Math.random() - 0.5));
@@ -175,7 +175,7 @@ function SpeakingSequence({ task, onMarkStarted, onMarkCompleted }) {
     setHasMarkedStarted(false);
   }, [task]);
 
-  /* --- Очистка при размонтировании --- */
+  /* --- Cleanup on unmount --- */
   useEffect(() => {
     return () => {
       isMountedRef.current = false;
@@ -196,11 +196,11 @@ function SpeakingSequence({ task, onMarkStarted, onMarkCompleted }) {
 
   const current = items[index];
 
-  /* ---------- Распознавание речи ---------- */
+  /* ---------- Speech recognition ---------- */
   const startListening = () => {
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SR) {
-      // не алертим пользователя, если не нужно — можно показать ненавязчивый текст
+      // optional: show subtle text instead of alerting
       setResult("⚠️ Ваш браузер не поддерживает распознавание речи.");
       return;
     }
@@ -220,13 +220,13 @@ function SpeakingSequence({ task, onMarkStarted, onMarkCompleted }) {
 
       const ok = isCorrectAnswer(transcript, answerList, current.answerNumber);
 
-      // Отмечаем упражнение как начатое при первом ответе
+      // Mark exercise started on first answer
       if (!hasMarkedStarted && onMarkStarted) {
         onMarkStarted();
         setHasMarkedStarted(true);
       }
 
-      // Сохраняем результат ответа
+      // Save answer result
       setAnswers((prev) => [...prev, { questionIndex: index, isCorrect: ok }]);
 
       if (ok) {
@@ -259,7 +259,7 @@ function SpeakingSequence({ task, onMarkStarted, onMarkCompleted }) {
     setResult("");
   };
 
-  /* ---------- Навигация по вопросам ---------- */
+  /* ---------- Question navigation ---------- */
   const handleNext = () => {
     stopSpeaking();
     setSpokenText("");
@@ -284,8 +284,8 @@ function SpeakingSequence({ task, onMarkStarted, onMarkCompleted }) {
     setHasMarkedStarted(false);
   };
 
-  // Проверяем все ли ответы правильные при завершении
-  // ВАЖНО: этот useEffect должен быть ДО любого раннего возврата
+  // Check all answers correct on finish
+  // IMPORTANT: this useEffect must run BEFORE any early return
   useEffect(() => {
     if (finished && answers.length === items.length && items.length > 0) {
       const allCorrect = answers.every(a => a.isCorrect);
@@ -295,7 +295,7 @@ function SpeakingSequence({ task, onMarkStarted, onMarkCompleted }) {
     }
   }, [finished, answers, items.length, onMarkCompleted]);
 
-  /* ---------- Озвучивание модели ответа ---------- */
+  /* ---------- Model answer playback ---------- */
   function getModelAnswerText(it) {
     if (!it) return "";
     if (it.audioText) return it.audioText;
@@ -316,7 +316,7 @@ function SpeakingSequence({ task, onMarkStarted, onMarkCompleted }) {
     setSpeaking(false);
   }
 
-  // корректный путь с учётом BASE_URL
+  // path with BASE_URL
   function resolveAudioPath(p) {
     if (!p) return "";
     try {
@@ -332,7 +332,7 @@ function SpeakingSequence({ task, onMarkStarted, onMarkCompleted }) {
   async function playModelAnswer() {
     stopSpeaking();
 
-    // 1) пробуем локальный аудиофайл
+    // 1) try local audio file
     if (current?.audioUrl) {
       try {
         if (!audioRef.current) {
@@ -342,7 +342,7 @@ function SpeakingSequence({ task, onMarkStarted, onMarkCompleted }) {
             if (isMountedRef.current) setSpeaking(false);
           };
           a.onerror = () => {
-            // молча: прерывания при навигации/размонтировании не тревожим
+            // silently ignore abort on navigation/unmount
             if (isMountedRef.current) setSpeaking(false);
           };
           audioRef.current = a;
@@ -354,7 +354,7 @@ function SpeakingSequence({ task, onMarkStarted, onMarkCompleted }) {
         await a.play();
         return;
       } catch (err) {
-        // Игнорируем системные прерывания и идём в TTS
+        // Ignore system aborts and fall back to TTS
         if (isMountedRef.current) setSpeaking(false);
       }
     }
@@ -408,7 +408,7 @@ function SpeakingSequence({ task, onMarkStarted, onMarkCompleted }) {
     window.speechSynthesis.speak(utter);
   }
 
-  /* ---------- РЕНДЕР ---------- */
+  /* ---------- RENDER ---------- */
   const totalQuestions = items.length;
   const progressPercentage = totalQuestions > 0 ? ((index + 1) / totalQuestions) * 100 : 0;
 
@@ -417,28 +417,28 @@ function SpeakingSequence({ task, onMarkStarted, onMarkCompleted }) {
     
     return (
       <div className="w-full">
-        {/* Карточка результатов */}
+        {/* Results card */}
         <div className="bg-white rounded-xl md:rounded-2xl border-2 border-[#E5E7EB] shadow-lg p-4 md:p-6 lg:p-8 mb-4 md:mb-6">
           <h3 className="text-xl md:text-2xl font-semibold text-[#1E293B] mb-4 md:mb-6 text-center">
             Результаты упражнения
           </h3>
           
-          {/* Статистика */}
+          {/* Statistics */}
           <div className="grid grid-cols-2 gap-3 md:gap-4 mb-4 md:mb-6">
-            {/* Правильные ответы */}
+            {/* Correct answers */}
             <div className="bg-green-50 border-2 border-green-200 rounded-lg md:rounded-xl p-3 md:p-4 lg:p-6 text-center">
               <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-green-600 mb-1 md:mb-2">{correctCount}</div>
               <div className="text-xs md:text-sm lg:text-lg text-green-700 font-medium">Правильных</div>
             </div>
             
-            {/* Ошибки */}
+            {/* Mistakes */}
             <div className="bg-red-50 border-2 border-red-200 rounded-lg md:rounded-xl p-3 md:p-4 lg:p-6 text-center">
               <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-red-600 mb-1 md:mb-2">{wrongCount}</div>
               <div className="text-xs md:text-sm lg:text-lg text-red-700 font-medium">Ошибок</div>
             </div>
           </div>
           
-          {/* Процент успеха */}
+          {/* Success rate */}
           <div className="mb-4 md:mb-6">
             <div className="flex items-center justify-between mb-2">
               <span className="text-base md:text-lg text-[#4A5568] font-medium">Процент успеха</span>
@@ -454,9 +454,9 @@ function SpeakingSequence({ task, onMarkStarted, onMarkCompleted }) {
             </div>
           </div>
           
-          {/* Кнопки действий */}
+          {/* Action buttons */}
           <div className="flex flex-col gap-2 md:gap-3">
-            {/* Кнопка повторить ошибки */}
+            {/* Retry mistakes button */}
             {mistakes.length > 0 && (
               <button 
                 onClick={restartMistakes}
@@ -467,7 +467,7 @@ function SpeakingSequence({ task, onMarkStarted, onMarkCompleted }) {
               </button>
             )}
             
-            {/* Кнопка завершить */}
+            {/* Finish button */}
             <button 
               onClick={() => window.history.back()}
               className={`w-full font-medium py-3 md:py-4 px-4 md:px-6 rounded-xl transition-colors duration-200 flex items-center justify-center gap-2 text-sm md:text-base active:scale-95 ${

@@ -7,7 +7,33 @@ import { onAuthStateChanged } from "firebase/auth";
 import { getLessonProgress } from "../services/progressService";
 import { Badge } from "../components/ui/badge";
 
-/* --- Level card с hover эффектом --- */
+/** English UI label for lesson list (does not modify lesson JSON). */
+function getLessonDisplayTitle(lesson) {
+  const idPart = String(lesson.id).split("-")[1];
+  const fromId =
+    idPart && !Number.isNaN(Number(idPart)) ? `Lesson ${Number(idPart)}` : lesson.id;
+
+  const localizeLessonNumber = (text) => {
+    const match = String(text).trim().match(/^Урок\s*(\d+)\s*$/i);
+    return match ? `Lesson ${match[1]}` : text;
+  };
+
+  if (typeof lesson.title === "string") {
+    return localizeLessonNumber(lesson.title);
+  }
+
+  if (lesson.title?.en) {
+    return lesson.title.en;
+  }
+
+  if (lesson.title?.ru) {
+    return localizeLessonNumber(lesson.title.ru);
+  }
+
+  return fromId;
+}
+
+/* --- Level card with hover effect --- */
 function LevelCard({ level, color, completed = 0, total = 0 }) {
   const percent = total > 0 ? Math.round((completed / total) * 100) : 0;
   const completedText =
@@ -54,7 +80,7 @@ export default function LessonsPage() {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
   const [lessons, setLessons] = useState([]);
-  const [progressMap, setProgressMap] = useState({}); // Карта прогресса: { lessonId: progress }
+  const [progressMap, setProgressMap] = useState({}); // Progress map: { lessonId: progress }
   const [openLevel, setOpenLevel] = useState(null);
   const navigate = useNavigate();
 
@@ -63,7 +89,7 @@ export default function LessonsPage() {
       setIsLoading(true);
       setError(null);
       try {
-        // Загружаем информацию о подписке (не критично, если ошибка)
+        // Load subscription info (non-critical on error)
         try {
           if (user) {
             const ref = doc(db, "subscriptions", user.uid);
@@ -73,11 +99,11 @@ export default function LessonsPage() {
             setHasSubscription(false);
           }
         } catch (subError) {
-          console.warn("Ошибка загрузки подписки:", subError);
+          console.warn("Failed to load subscription:", subError);
           setHasSubscription(false);
         }
 
-        // Загружаем уроки (критично)
+        // Load lessons (critical)
         const snap = await getDocs(collection(db, "lessons"));
         const data = snap.docs.map((d) => ({ id: d.id, ...d.data() }));
 
@@ -91,7 +117,7 @@ export default function LessonsPage() {
 
         setLessons(data);
 
-        // Загружаем прогресс всех уроков для пользователя (не критично, если ошибка)
+        // Load all lesson progress (non-critical on error)
         if (user) {
           try {
             const progressPromises = data.map(async (lesson) => {
@@ -106,13 +132,13 @@ export default function LessonsPage() {
             });
             setProgressMap(progressMapObj);
           } catch (progressError) {
-            console.warn("Ошибка загрузки прогресса:", progressError);
-            // Продолжаем работу без прогресса
+            console.warn("Failed to load progress:", progressError);
+            // Continue without progress
           }
         }
       } catch (e) {
-        console.error("Ошибка загрузки уроков:", e);
-        setError("Ошибка загрузки уроков");
+        console.error("Failed to load lessons:", e);
+        setError("Failed to load lessons");
       } finally {
         setIsLoading(false);
       }
@@ -143,7 +169,7 @@ export default function LessonsPage() {
       <div className="min-h-screen bg-[#F5F7FA]">
         <Navigation />
         <div className="px-6 pt-32">
-          <div className="mx-auto max-w-4xl rounded-2xl bg-white p-8 shadow">Загрузка…</div>
+          <div className="mx-auto max-w-4xl rounded-2xl bg-white p-8 shadow">Loading…</div>
         </div>
       </div>
     );
@@ -161,7 +187,7 @@ export default function LessonsPage() {
 
   const levels = Object.keys(grouped).sort();
   
-  // Рассчитываем количество завершенных уроков для уровня
+  // Count completed lessons for level
   const getCompletedForLevel = (level) => {
     const levelLessons = grouped[level] || [];
     return levelLessons.filter((lesson) => {
@@ -180,25 +206,25 @@ export default function LessonsPage() {
       case "not-started":
         return (
           <Badge className="bg-red-50 text-red-700 hover:bg-red-50 border-red-200 border">
-            Не начато
+            Not started
           </Badge>
         );
       case "in-progress":
         return (
           <Badge className="bg-yellow-50 text-yellow-700 hover:bg-yellow-50 border-yellow-200 border">
-            В процессе
+            In progress
           </Badge>
         );
       case "completed":
         return (
           <Badge className="bg-green-50 text-green-700 hover:bg-green-50 border-green-200 border">
-            Выполнено
+            Completed
           </Badge>
         );
       default:
         return (
           <Badge className="bg-red-50 text-red-700 hover:bg-red-50 border-red-200 border">
-            Не начато
+            Not started
           </Badge>
         );
     }
@@ -209,7 +235,7 @@ export default function LessonsPage() {
       <Navigation />
       <div className="px-6 pb-20 pt-32">
         <div className="mx-auto max-w-4xl">
-          <h1 className="mb-10 text-3xl font-semibold text-gray-800">УРОВНИ КУРСОВ</h1>
+          <h1 className="mb-10 text-3xl font-semibold text-gray-800">COURSE LEVELS</h1>
 
           <div className="space-y-6">
             {levels.map((level) => {
@@ -242,10 +268,7 @@ export default function LessonsPage() {
                       <div className="space-y-2">
                         {items.map((lesson) => {
                           const isLocked = lesson.premium && !hasSubscription;
-                          const title =
-                            typeof lesson.title === "string"
-                              ? lesson.title
-                              : lesson.title?.ru || "Без названия";
+                          const title = getLessonDisplayTitle(lesson);
                           const lessonStatus = getLessonStatus(lesson.id);
 
                           const rowClasses = isLocked
@@ -267,7 +290,7 @@ export default function LessonsPage() {
                                 }
                               }}
                             >
-                              <span>{isLocked ? `🔒 ${title} (по подписке)` : title}</span>
+                              <span>{isLocked ? `🔒 ${title} (subscription)` : title}</span>
                               {!isLocked && (
                                 <div className="flex-shrink-0">
                                   {getStatusBadge(lessonStatus)}

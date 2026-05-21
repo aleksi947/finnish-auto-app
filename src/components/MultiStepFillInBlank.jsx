@@ -32,14 +32,14 @@ export default function MultiStepFillInBlank({ exercises = [] }) {
         setStep(newStep);
         setTimeout(() => {
           setIsTransitioning(false);
-          // Плавная прокрутка к компоненту MultiStepFillInBlank, но не выше навигации
+          // Smooth scroll to MultiStepFillInBlank, not above nav
           const componentElement = document.querySelector('[data-multistep-container]');
           if (componentElement) {
             const rect = componentElement.getBoundingClientRect();
-            const navHeight = 120; // Высота навигации с отступом
+            const navHeight = 120; // Nav height with padding
             const viewportTop = window.pageYOffset;
             
-            // Прокручиваем только если компонент находится выше видимой области или слишком низко
+            // Scroll only if component is above viewport or too low
             if (rect.top < navHeight || rect.top > window.innerHeight * 0.7) {
               const elementTop = rect.top + viewportTop;
               const offsetPosition = elementTop - navHeight;
@@ -58,7 +58,7 @@ export default function MultiStepFillInBlank({ exercises = [] }) {
     if (exercise?.explanationStructured?.title?.ru) {
       return exercise.explanationStructured.title.ru.replace(/^[^\p{L}\p{N}]+/u, "").trim();
     }
-    // 1) Структурированный intro → короткий заголовок
+    // 1) Structured intro → short title
     if (exercise?.explanationStructured?.intro?.ru) {
       const intro = exercise.explanationStructured.intro.ru;
       const typeMatch = intro.match(/Глаголы\s+(\d+)-го\s+типа/);
@@ -66,7 +66,7 @@ export default function MultiStepFillInBlank({ exercises = [] }) {
       const shortTitle = intro.split(".")[0].trim();
       if (shortTitle && shortTitle.length <= 60) return shortTitle;
     }
-    // 2) HTML <h3> как раньше
+    // 2) HTML <h3> as before
     if (exercise?.explanation?.ru) {
       const h3Match = exercise.explanation.ru.match(/<h3>(.*?)<\/h3>/);
       if (h3Match) return h3Match[1].replace(/🔹\s*/g, "").trim();

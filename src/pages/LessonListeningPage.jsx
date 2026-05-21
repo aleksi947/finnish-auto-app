@@ -16,7 +16,7 @@ export default function LessonListeningPage() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
   
-  // Hook для работы с прогрессом
+  // Hook for progress tracking
   const { getExerciseStatus } = useProgress(lessonId);
 
   useEffect(() => {

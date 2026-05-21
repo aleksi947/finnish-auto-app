@@ -11,7 +11,7 @@ function shuffle(array) {
   return [...array].sort(() => Math.random() - 0.5);
 }
 
-// Извлекаем список глаголов из старого HTML-объяснения (если оно ещё используется)
+// Extract verb list from legacy HTML explanation (if still used)
 function extractVerbsFromExplanation(explanationHtml) {
   if (!explanationHtml) return [];
   let match =
@@ -107,10 +107,10 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
   const [wrongCount, setWrongCount] = useState(0);
   const [finished, setFinished] = useState(false);
   const [mistakes, setMistakes] = useState([]);
-  const [answers, setAnswers] = useState([]); // Массив для отслеживания правильности ответов
-  const [hasMarkedStarted, setHasMarkedStarted] = useState(false); // Флаг для отслеживания первого ответа
+  const [answers, setAnswers] = useState([]); // Array tracking answer correctness
+  const [hasMarkedStarted, setHasMarkedStarted] = useState(false); // Flag tracking first answer
 
-  // Для старых HTML-объяснений
+  // Legacy HTML explanations
   const exampleVerbs = extractVerbsFromExplanation(
     exercise?.explanation?.ru || ""
   );
@@ -130,7 +130,7 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
     setMistakes([]);
     setAnswers([]);
     setHasMarkedStarted(false);
-    // Уведомляем родительский компонент об общем количестве вопросов
+    // Notify parent of total question count
     if (onTotalQuestionsChange) {
       onTotalQuestionsChange(shuffled.length);
     }
@@ -144,13 +144,13 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
     const userAnswer = input.trim().toLowerCase();
     const isCorrect = userAnswer === correctAnswer;
 
-    // Отмечаем упражнение как начатое при первом ответе
+    // Mark exercise started on first answer
     if (!hasMarkedStarted && onMarkStarted) {
       onMarkStarted();
       setHasMarkedStarted(true);
     }
 
-    // Сохраняем результат ответа
+    // Save answer result
     const newAnswers = [...answers, { questionIndex: currentIndex, isCorrect }];
     setAnswers(newAnswers);
 
@@ -172,10 +172,6 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
       setWrongCount((p) => p + 1);
       setMistakes((p) => [...p, currentItem]);
     }
-
-    if (currentIndex === items.length - 1) {
-      setTimeout(() => setFinished(true), 1000);
-    }
   };
 
   const handleNext = () => {
@@ -189,8 +185,8 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
     }
   };
 
-  // Проверяем все ли ответы правильные при завершении
-  // ВАЖНО: этот useEffect должен быть ДО любого раннего возврата
+  // Check all answers correct on finish
+  // IMPORTANT: this useEffect must run BEFORE any early return
   useEffect(() => {
     if (finished && answers.length === items.length && items.length > 0) {
       const allCorrect = answers.every(a => a.isCorrect);
@@ -211,7 +207,7 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
     }
   };
 
-  // --- экран результатов ---
+  // --- results screen ---
   if (finished) {
     return (
       <div className="relative w-full max-w-[768px] mx-auto min-h-[713.78px] px-4 md:px-0">
@@ -266,19 +262,19 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
                   setMistakes([]);
                   setAnswers([]);
                   setHasMarkedStarted(false);
-                  // Уведомляем родительский компонент об изменении количества вопросов
+                  // Notify parent when question count changes
                   if (onTotalQuestionsChange) {
                     onTotalQuestionsChange(mistakes.length);
                   }
 
-                  // Скролл к упражнению после обновления состояния
+                  // Scroll to exercise after state update
                   setTimeout(() => {
                     const element = document.getElementById("exercise-start-anchor");
                     if (element) {
                       const rect = element.getBoundingClientRect();
                       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-                      const navHeight = 100; // примерная высота навбара с отступом
-                      // Скроллим так, чтобы начало упражнения было чуть ниже навбара
+                      const navHeight = 100; // approximate navbar height with padding
+                      // Scroll so exercise start sits just below navbar
                       window.scrollTo({
                         top: rect.top + scrollTop - navHeight,
                         behavior: "smooth"
@@ -324,16 +320,16 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
 
   return (
     <div className="w-full">
-        {/* Объяснение: теперь СНАЧАЛА structured, ПОТОМ fallback на HTML */}
+        {/* Explanation: structured first, then HTML fallback */}
         {(S || exercise?.explanation?.ru) && (
           <div className="mb-6">
             {/* === Structured first === */}
             {S && <StructuredExplanation structured={{...S, stageIndex}} lang="ru" />}
 
-            {/* === Fallback: старый HTML (если structured отсутствует) === */}
+            {/* === Fallback: legacy HTML (no structured) === */}
             {!S && exercise?.explanation?.ru && (
               <div className="mb-6">
-                {/* Заголовок */}
+                {/* Title */}
                 <div className="mb-4">
                   <h2 
                     id={`stage-title-${stageIndex ?? 0}`}
@@ -349,7 +345,7 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
                   </h2>
                 </div>
 
-                {/* Первый абзац */}
+                {/* First paragraph */}
                 {(() => {
                   const htmlContent = exercise?.explanation?.ru || "";
                   const firstP =
@@ -368,7 +364,7 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
                   ) : null;
                 })()}
 
-                {/* Глаголы-карточки */}
+                {/* Verb cards */}
                 {exampleVerbs.length > 0 && (
                   <div className="mb-6">
                     <div className="flex items-center gap-2 mb-3">
@@ -399,7 +395,7 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
                   </div>
                 )}
 
-                {/* Таблицы из HTML */}
+                {/* Tables from HTML */}
                 {(() => {
                   const htmlContent = exercise?.explanation?.ru || "";
                   const tables =
@@ -451,7 +447,7 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
           </div>
         )}
 
-        {/* Инструкция и упражнение */}
+        {/* Instruction and exercise */}
         <div className="w-full" id="exercise-start-anchor">
           <h3 className="text-2xl mb-6 flex items-center gap-2">
             <span>⚡</span>
@@ -531,15 +527,20 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
               >
                 ✅ Проверить ответ
               </button>
+            ) : currentIndex < items.length - 1 ? (
+              <button
+                onClick={handleNext}
+                className="flex-1 py-6 text-xl rounded-xl bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white transition-all"
+              >
+                Далее →
+              </button>
             ) : (
-              currentIndex < items.length - 1 && (
-                <button
-                  onClick={handleNext}
-                  className="flex-1 py-6 text-xl rounded-xl bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white transition-all"
-                >
-                  Далее →
-                </button>
-              )
+              <button
+                onClick={() => setFinished(true)}
+                className="flex-1 py-6 text-xl rounded-xl bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white transition-all font-medium"
+              >
+                Завершить
+              </button>
             )}
           </div>
         </div>

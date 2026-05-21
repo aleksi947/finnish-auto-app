@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import { Volume2, Pause, RotateCcw, Check } from "lucide-react";
 
-// Перемешивает массив
+// Shuffles array
 function shuffle(array) {
   return [...array].sort(() => Math.random() - 0.5);
 }
@@ -26,8 +26,8 @@ function ListeningWrite({
   const [mistakes, setMistakes] = useState([]);
   const [isPlaying, setIsPlaying] = useState(false);
   const [answeredCount, setAnsweredCount] = useState(0);
-  const [answers, setAnswers] = useState([]); // Массив для отслеживания правильности ответов
-  const [hasMarkedStarted, setHasMarkedStarted] = useState(false); // Флаг для отслеживания первого ответа
+  const [answers, setAnswers] = useState([]); // Array tracking answer correctness
+  const [hasMarkedStarted, setHasMarkedStarted] = useState(false); // Flag tracking first answer
   const audioRef = useRef(null);
 
   useEffect(() => {
@@ -54,8 +54,8 @@ function ListeningWrite({
     }
   }, [task, onQuestionChange, onTotalChange]);
 
-  // Проверяем все ли ответы правильные при завершении
-  // ВАЖНО: этот useEffect должен быть ДО любого раннего возврата
+  // Check all answers correct on finish
+  // IMPORTANT: this useEffect must run BEFORE any early return
   useEffect(() => {
     if (finished && answers.length === items.length && items.length > 0) {
       const allCorrect = answers.every(a => a.isCorrect);
@@ -107,13 +107,13 @@ function ListeningWrite({
     setChecked(true);
     setCorrectAnswer(currentItem.answers?.[0] || "");
 
-    // Отмечаем упражнение как начатое при первом ответе
+    // Mark exercise started on first answer
     if (!hasMarkedStarted && onMarkStarted) {
       onMarkStarted();
       setHasMarkedStarted(true);
     }
 
-    // Сохраняем результат ответа
+    // Save answer result
     const newAnswers = [...answers, { questionIndex: currentIndex, isCorrect: isAnswerCorrect }];
     setAnswers(newAnswers);
 
@@ -123,7 +123,7 @@ function ListeningWrite({
       setMistakes((prev) => [...prev, currentItem]);
     }
 
-    // Увеличиваем количество отвеченных вопросов и обновляем прогресс
+    // Increment answered count and update progress
     const newAnsweredCount = answeredCount + 1;
     setAnsweredCount(newAnsweredCount);
     if (onQuestionChange) {
@@ -174,28 +174,28 @@ function ListeningWrite({
     
     return (
       <div className="w-full">
-        {/* Карточка результатов */}
+        {/* Results card */}
         <div className="bg-white rounded-xl md:rounded-2xl border-2 border-[#E5E7EB] shadow-lg p-4 md:p-6 lg:p-8 mb-4 md:mb-6">
           <h3 className="text-xl md:text-2xl font-semibold text-[#1E293B] mb-4 md:mb-6 text-center">
             Результаты упражнения
           </h3>
           
-          {/* Статистика */}
+          {/* Statistics */}
           <div className="grid grid-cols-2 gap-3 md:gap-4 mb-4 md:mb-6">
-            {/* Правильные ответы */}
+            {/* Correct answers */}
             <div className="bg-green-50 border-2 border-green-200 rounded-lg md:rounded-xl p-3 md:p-4 lg:p-6 text-center">
               <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-green-600 mb-1 md:mb-2">{score}</div>
               <div className="text-xs md:text-sm lg:text-lg text-green-700 font-medium">Правильных</div>
             </div>
             
-            {/* Ошибки */}
+            {/* Mistakes */}
             <div className="bg-red-50 border-2 border-red-200 rounded-lg md:rounded-xl p-3 md:p-4 lg:p-6 text-center">
               <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-red-600 mb-1 md:mb-2">{items.length - score}</div>
               <div className="text-xs md:text-sm lg:text-lg text-red-700 font-medium">Ошибок</div>
             </div>
           </div>
           
-          {/* Процент успеха */}
+          {/* Success rate */}
           <div className="mb-4 md:mb-6">
             <div className="flex items-center justify-between mb-2">
               <span className="text-base md:text-lg text-[#4A5568] font-medium">Процент успеха</span>
@@ -211,9 +211,9 @@ function ListeningWrite({
             </div>
           </div>
           
-          {/* Кнопки действий */}
+          {/* Action buttons */}
           <div className="flex flex-col gap-2 md:gap-3">
-            {/* Кнопка повторить ошибки */}
+            {/* Retry mistakes button */}
             {mistakes.length > 0 && (
               <button 
                 onClick={restartMistakes}
@@ -224,7 +224,7 @@ function ListeningWrite({
               </button>
             )}
             
-            {/* Кнопка завершить */}
+            {/* Finish button */}
             <button 
               onClick={() => {
                 if (onComplete) {
@@ -248,7 +248,7 @@ function ListeningWrite({
 
   return (
     <div className="w-full">
-      {/* Кнопка воспроизведения аудио */}
+      {/* Play audio button */}
       <div className="flex justify-center mb-6 md:mb-8">
         <button
           onClick={handlePlay}
@@ -271,7 +271,7 @@ function ListeningWrite({
         />
       </div>
 
-      {/* Поле ввода */}
+      {/* Input field */}
       <div className="mb-4 md:mb-6">
         <div className={`
           w-full bg-white rounded-xl md:rounded-2xl border-2 transition-all duration-200
@@ -301,7 +301,7 @@ function ListeningWrite({
           />
         </div>
 
-        {/* Отображение правильного ответа при ошибке */}
+        {/* Show correct answer on mistake */}
         {checked && !isCorrect && correctAnswer && (
           <div className="mt-2 md:mt-3 px-3 py-2 md:px-4 bg-green-50 border border-green-200 rounded-lg md:rounded-xl">
             <p className="text-xs md:text-sm text-green-700 font-medium mb-1">Правильный ответ:</p>
@@ -310,7 +310,7 @@ function ListeningWrite({
         )}
       </div>
 
-      {/* Кнопка проверки или следующий вопрос */}
+      {/* Check or next question button */}
       {!checked ? (
         <button
           onClick={handleCheck}

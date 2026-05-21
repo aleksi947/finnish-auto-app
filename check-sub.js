@@ -1,7 +1,7 @@
 const admin = require("firebase-admin");
 const path = require("path");
 
-// Путь к ключу (поднимаемся на уровень выше и заходим в upload-lessons)
+// Key path (up one level into upload-lessons)
 const serviceAccountPath = path.resolve(__dirname, "../upload-lessons/serviceAccountKey.json");
 
 console.log("🔑 Используем ключ:", serviceAccountPath);
@@ -31,7 +31,7 @@ try {
       console.log(`🆔 UID: ${doc.id}`);
       console.log(JSON.stringify(data, null, 2));
       
-      // Интерпретация для отладки
+      // Debug interpretation
       if (data.active) {
           let type = "Неопределен";
           if (data.type) type = data.type;

@@ -14,7 +14,7 @@ import {
   cellValueByColumn,
 } from "./structuredExplanationUtils.jsx";
 
-// Рендеринг богатых параграфов (с поддержкой статусов, подсказок и т.д.)
+// Rich paragraph rendering (status, hints, etc.)
 const renderRichParagraph = (paragraph, idx) => {
   if (!paragraph?.trim()) return null;
   const lines = paragraph
@@ -114,7 +114,7 @@ const renderRichParagraph = (paragraph, idx) => {
   );
 };
 
-// Основной компонент для рендеринга структурированного объяснения
+// Structured explanation renderer
 export default function StructuredExplanation({ 
   structured, 
   lang = "ru",
@@ -124,7 +124,7 @@ export default function StructuredExplanation({
 
   const S = structured;
 
-  // Проверяем, есть ли хотя бы один элемент для отображения
+  // Check if anything to render
   const hasContent =
     S.title?.[lang] ||
     S.subtitle?.[lang] ||
@@ -145,7 +145,7 @@ export default function StructuredExplanation({
 
   if (!hasContent) return null;
 
-  // Обработка intro с извлечением окончаний и примеров
+  // Intro with endings and examples
   const processIntro = (introRaw) => {
     if (!introRaw?.trim()) return null;
 
@@ -156,8 +156,8 @@ export default function StructuredExplanation({
     
     if (paragraphs.length === 0) return null;
 
-    // Ищем только явные фразы типа "заканчиваются на" или "окончания:" (с двоеточием)
-    // Игнорируем просто слово "окончание" в другом контексте
+    // Match explicit phrases like "end in" or "endings:" (with colon)
+    // Ignore bare word "ending" in other contexts
     const endingsLine = paragraphs.find((block) =>
       /заканчиваются\s+на|окончания\s*:/i.test(block)
     );
@@ -204,11 +204,11 @@ export default function StructuredExplanation({
       .map((paragraph, idx) => renderRichParagraph(paragraph, idx))
       .filter(Boolean);
 
-    // Если ничего не отрендерилось, но есть текст - используем fallback
-    // Это гарантирует, что простой текст всегда будет отображен
+    // Nothing rendered but text exists — use fallback
+    // Ensures plain text is always shown
     if (renderedParagraphs.length === 0) {
       if (restParagraphs.length > 0) {
-        // Используем первый параграф из restParagraphs для fallback
+        // Use first paragraph from restParagraphs as fallback
         const fallbackText = restParagraphs[0];
         renderedParagraphs = [
           <p
@@ -219,7 +219,7 @@ export default function StructuredExplanation({
           </p>
         ];
       } else if (introRaw && introRaw.trim()) {
-        // Если restParagraphs пуст, но есть introRaw - используем его
+        // If restParagraphs empty but introRaw exists — use it
         renderedParagraphs = [
           <p
             key="intro-fallback-full"
@@ -514,7 +514,7 @@ export default function StructuredExplanation({
         );
       })()}
 
-      {/* Примеры по типам */}
+      {/* Examples by type */}
       {Array.isArray(S.examplesByType) &&
         S.examplesByType.length > 0 && (
           <div className="bg-white rounded-3xl shadow-lg border-2 border-[#3C84F8] p-6 sm:p-8">
@@ -577,7 +577,7 @@ export default function StructuredExplanation({
             <div className="flex items-center gap-2 mb-3">
               <span className="text-lg">🍃</span>
               <h4 className="text-lg font-semibold text-green-700">
-                Общие примеры
+                {S.verbsExamplesTitle?.[lang] || S.verbsExamplesTitle?.ru || "Общие примеры"}
               </h4>
             </div>
             <div className="bg-[#E9F1FF] rounded-xl p-6">
@@ -607,7 +607,7 @@ export default function StructuredExplanation({
           </div>
         )}
 
-          {/* Conjugation tables — УНИВЕРСАЛЬНЫЙ РЕНДЕРЕР */}
+          {/* Conjugation tables — universal renderer */}
           {Array.isArray(S.conjugationTables) &&
             S.conjugationTables.length > 0 && (
               <div className="space-y-6">
@@ -620,12 +620,12 @@ export default function StructuredExplanation({
                     "пример (kysyä)",
                   ]);
                   
-                  // Проверка, является ли это таблицей с порядковыми числительными
+                  // Ordinal numerals table check
                   const tableTitle = tbl.title?.[lang] || tbl.title?.ru || "";
                   const isOrdinalNumbersTable = tableTitle.includes("Порядковые числительные") || 
                     (cols.length === 4 && cols[0]?.includes("Число") && cols[1]?.includes("Перевод") && cols[2]?.includes("Число") && cols[3]?.includes("Перевод"));
                   
-                  // Если это таблица с порядковыми числительными, разделяем на две таблицы для мобильных
+                  // Ordinal numerals table — split into two tables on mobile
                   if (isOrdinalNumbersTable && cols.length === 4) {
                     const firstTwoCols = cols.slice(0, 2);
                     const lastTwoCols = cols.slice(2, 4);
@@ -639,9 +639,9 @@ export default function StructuredExplanation({
                           </span>
                         </h3>
                         
-                        {/* Мобильная версия: две таблицы */}
+                        {/* Mobile: two tables */}
                         <div className="block sm:hidden space-y-6">
-                          {/* Первая таблица: колонки 0-1 */}
+                          {/* First table: columns 0-1 */}
                           <div>
                             <Table className="w-full table-auto text-xs" wrapperClassName="overflow-visible">
                               <TableHeader>
@@ -680,7 +680,7 @@ export default function StructuredExplanation({
                             </Table>
                           </div>
                           
-                          {/* Вторая таблица: колонки 2-3 */}
+                          {/* Second table: columns 2-3 */}
                           <div>
                             <Table className="w-full table-auto text-xs" wrapperClassName="overflow-visible">
                               <TableHeader>
@@ -720,7 +720,7 @@ export default function StructuredExplanation({
                           </div>
                         </div>
                         
-                        {/* Десктопная версия: одна таблица с 4 колонками */}
+                        {/* Desktop: single 4-column table */}
                         <div className="hidden sm:block">
                           <Table
                             className="w-full table-auto text-xs sm:text-base"
@@ -777,7 +777,7 @@ export default function StructuredExplanation({
                     );
                   }
                   
-                  // Обычная таблица (не порядковые числительные)
+                  // Regular table (not ordinals)
                   return (
                 <div
                   key={i}
@@ -799,7 +799,7 @@ export default function StructuredExplanation({
                         {cols.map((col, ci) => {
                           const colStr = typeof col === "string" ? col : "";
                           const isCompact = compactHeaderSet.has(colStr.toLowerCase());
-                          // Для длинных заголовков или заголовков с кавычками используем normal-case
+                          // Long headers or quoted headers — use normal-case
                           const hasQuotes = colStr.includes('"') || colStr.includes('«') || colStr.includes('»');
                           const isLongHeader = colStr.length > 12;
                           const useNormalCase = isLongHeader || hasQuotes;
@@ -859,12 +859,14 @@ export default function StructuredExplanation({
                 <h3 className="text-2xl mb-4 flex items-center gap-2">
                   <span>📄</span>
                   <span className="text-[#1E64F0]">
-                    {(example.verb?.fi || `Пример ${idx + 1}`) +
-                      (example.verb?.[lang]
-                        ? ` (${example.verb[lang]})`
-                        : example.verb?.ru
-                        ? ` (${example.verb.ru})`
-                        : "")}
+                    {example.title?.[lang] ||
+                      example.title?.ru ||
+                      (example.verb?.fi || `Пример ${idx + 1}`) +
+                        (example.verb?.[lang]
+                          ? ` (${example.verb[lang]})`
+                          : example.verb?.ru
+                          ? ` (${example.verb.ru})`
+                          : "")}
                   </span>
                 </h3>
                 <Table
@@ -964,13 +966,13 @@ export default function StructuredExplanation({
           S.note.body?.[lang] ||
           S.note.body?.ru ||
           Array.isArray(S.note.examples)) && (
-          <div className="bg-white rounded-3xl shadow-lg border-2 border-[#3C84F8] p-6 sm:p-8">
-            <div className="bg-gradient-to-br from-[#E9F1FF] to-[#CFE0FF] rounded-2xl p-6 border-2 border-blue-300">
-              <div className="flex items-start gap-4">
-                <Lightbulb className="w-8 h-8 text-blue-600 flex-shrink-0 mt-1" />
-                <div className="flex-1">
+          <div className="bg-white rounded-3xl shadow-lg border-2 border-[#3C84F8] p-4 sm:p-6 md:p-8">
+            <div className="bg-gradient-to-br from-[#E9F1FF] to-[#CFE0FF] rounded-2xl p-4 sm:p-6 border-2 border-blue-300">
+              <div className="flex items-start gap-3 sm:gap-4">
+                <Lightbulb className="w-6 h-6 sm:w-8 sm:h-8 text-blue-600 flex-shrink-0 mt-1" />
+                <div className="flex-1 min-w-0">
                   {(S.note.title?.[lang] || S.note.title?.ru) && (
-                    <h4 className="text-2xl mb-4">
+                    <h4 className="text-lg sm:text-xl md:text-2xl mb-3 sm:mb-4 break-words">
                       {(S.note.title?.[lang] || S.note.title?.ru).replace(
                         /^[^\p{L}\p{N}]+/u,
                         ""
@@ -978,15 +980,15 @@ export default function StructuredExplanation({
                     </h4>
                   )}
                   {(S.note.body?.[lang] || S.note.body?.ru) && (
-                    <p className="text-lg mb-4">
-                      {S.note.body?.[lang] || S.note.body?.ru}
-                    </p>
+                    <div className="text-sm sm:text-base md:text-lg mb-3 sm:mb-4 leading-relaxed whitespace-pre-line break-words">
+                      {renderInlineContent(S.note.body?.[lang] || S.note.body?.ru)}
+                    </div>
                   )}
                   {Array.isArray(S.note.examples) && (
-                    <div className="bg-white rounded-xl p-4 mt-4">
-                      <ul className="space-y-2 text-lg">
+                    <div className="bg-white rounded-xl p-3 sm:p-4 mt-3 sm:mt-4">
+                      <ul className="space-y-2 text-sm sm:text-base md:text-lg">
                         {S.note.examples.map((ex, idx) => (
-                          <li key={idx}>
+                          <li key={idx} className="break-words">
                             • <strong>{ex.fi}</strong> — {ex[lang] || ex.ru}
                           </li>
                         ))}
@@ -1043,7 +1045,7 @@ export default function StructuredExplanation({
           </div>
         )}
 
-      {/* Examples (общий блок) */}
+      {/* Examples (shared block) */}
       {Array.isArray(S.examples) &&
         S.examples.length > 0 &&
         (() => {
@@ -1114,7 +1116,7 @@ export default function StructuredExplanation({
                       .map((paragraph, pIdx) => {
                         const trimmed = paragraph.trim();
                         
-                        // Если параграф начинается с маркера списка
+                        // Paragraph starts with list marker
                         if (/^[•\*\-]\s/.test(trimmed)) {
                           const lines = trimmed.split(/\n/).filter(Boolean);
                           return (
@@ -1134,7 +1136,7 @@ export default function StructuredExplanation({
                           );
                         }
                         
-                        // Если параграф содержит только одну строку и начинается с эмодзи или содержит заголовок
+                        // Single-line paragraph starting with emoji or containing a heading
                         if (trimmed.split(/\n/).length === 1 && (/^[^\p{L}\p{N}]+/u.test(trimmed) || trimmed.includes("**"))) {
                           return (
                             <p key={`summary-p-${pIdx}`} className="break-words overflow-wrap-anywhere font-semibold max-w-full">
@@ -1143,7 +1145,7 @@ export default function StructuredExplanation({
                           );
                         }
                         
-                        // Обычный параграф (может содержать несколько строк)
+                        // Regular paragraph (may be multiline)
                         const lines = trimmed.split(/\n/).filter(Boolean);
                         return (
                           <div key={`summary-p-${pIdx}`} className="space-y-2 max-w-full">

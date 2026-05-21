@@ -8,14 +8,14 @@ function VocabularyBlock({ words, lang = "ru" }) {
     }
   };
 
-  // Проверяем, есть ли хотя бы у одного слова поле "milloin"
+  // Check if any word has "milloin" field
   const hasMilloin = words.some((word) => word.milloin);
 
   return (
     <div className="w-full">
-      {/* Таблица со словами */}
+      {/* Word table */}
       <div className="bg-white border border-[#E5E7EB] rounded-2xl overflow-hidden">
-        {/* Заголовки таблицы */}
+        {/* Table headers */}
         <div className="flex items-center border-b border-[#E5E7EB] bg-white">
           <div className="flex-1 px-6 py-4">
             <span className="text-base font-bold text-[#1E293B] leading-6">Финский</span>
@@ -30,7 +30,7 @@ function VocabularyBlock({ words, lang = "ru" }) {
           )}
         </div>
 
-        {/* Список слов */}
+        {/* Word list */}
         {words.map((word, index) => (
           <div 
             key={index} 
@@ -38,7 +38,7 @@ function VocabularyBlock({ words, lang = "ru" }) {
               index === words.length - 1 ? '' : 'border-b'
             }`}
           >
-            {/* Ячейка с финским словом */}
+            {/* Finnish word cell */}
             <div className="flex-1 px-6 py-4">
               <div className="flex items-center gap-2">
                 <span className="text-base font-normal text-[#1E293B] leading-6">
@@ -56,14 +56,14 @@ function VocabularyBlock({ words, lang = "ru" }) {
               </div>
             </div>
             
-            {/* Ячейка с переводом */}
+            {/* Translation cell */}
             <div className="flex-1 px-6 py-4 border-l border-[#E5E7EB]">
               <span className="text-base font-normal text-[#1E293B] leading-6">
                 {word.translations?.[lang]}
               </span>
             </div>
             
-            {/* Ячейка с "Когда?" если есть */}
+            {/* "When?" cell if present */}
             {hasMilloin && (
               <div className="flex-1 px-6 py-4 border-l border-[#E5E7EB]">
                 <span className="text-base font-normal text-[#1E293B] leading-6">

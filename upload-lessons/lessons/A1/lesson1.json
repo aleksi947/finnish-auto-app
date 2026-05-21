@@ -13,7 +13,7 @@
   },
   "vocabulary": {
     "alphabet": {
-      "title": "Aakkoset – Финский алфавит",
+      "title": "Alphabet",
       "words": [
         { "fi": "A", "translations": { "ru": "[aa]" } },
         { "fi": "B", "translations": { "ru": "[bee]" } },
@@ -47,7 +47,7 @@
       ]
     },
     "personal": {
-      "title": "Личные местоимения",
+      "title": "Personal Pronouns",
       "words": [
         {
           "fi": "minä",
@@ -82,7 +82,7 @@
       ]
     },
     "numbers": {
-      "title": "Числа",
+      "title": "Numbers",
       "words": [
         {
           "fi": "yksi",
@@ -296,9 +296,8 @@
         }
       ]
     },
-
     "common": {
-      "title": "Общие",
+      "title": "Common Words",
       "words": [
         {
           "fi": "ja",
@@ -467,9 +466,8 @@
         }
       ]
     },
-
     "greetings": {
-      "title": "Приветствия, прощания и вежливые слова",
+      "title": "Greetings, Farewells and Polite Words",
       "words": [
         {
           "fi": "Huomenta!",
@@ -612,9 +610,8 @@
         }
       ]
     },
-
     "weekdays": {
-      "title": "Дни недели",
+      "title": "Days of the Week",
       "words": [
         {
           "fi": "maanantai",
@@ -664,7 +661,6 @@
           "translations": { "ru": "вчера", "en": "yesterday" },
           "audio": "/audio/A1-1/weekdays/eilen.mp3"
         },
-
         {
           "fi": "tänään",
           "translations": { "ru": "сегодня", "en": "today" },
@@ -1294,22 +1290,30 @@
                 {
                   "person": "koulu (школа)",
                   "form": "koulussa / koulusta",
-                  "translation": { "ru": "содержит o, u → окончания с -a: koulussa (в школе), koulusta (из школы)" }
+                  "translation": {
+                    "ru": "содержит o, u → окончания с -a: koulussa (в школе), koulusta (из школы)"
+                  }
                 },
                 {
                   "person": "metsä (лес)",
                   "form": "metsässä / metsästä",
-                  "translation": { "ru": "содержит ä → окончания с -ä: metsässä (в лесу), metsästä (из леса)" }
+                  "translation": {
+                    "ru": "содержит ä → окончания с -ä: metsässä (в лесу), metsästä (из леса)"
+                  }
                 },
                 {
                   "person": "työ (работа)",
                   "form": "työssä / työstä",
-                  "translation": { "ru": "содержит y, ö → окончания с -ä: työssä (на работе), työstä (с работы)" }
+                  "translation": {
+                    "ru": "содержит y, ö → окончания с -ä: työssä (на работе), työstä (с работы)"
+                  }
                 },
                 {
                   "person": "koira (собака)",
                   "form": "koiralla",
-                  "translation": { "ru": "содержит o, a → окончания с -a: koiralla (у собаки)" }
+                  "translation": {
+                    "ru": "содержит o, a → окончания с -a: koiralla (у собаки)"
+                  }
                 }
               ]
             }
@@ -1616,23 +1620,91 @@
       "type": "speaking-sequence",
       "description": "Произнесите числа по-фински",
       "items": [
-        { "prompt": "Скажите: ноль", "answer": ["nolla", "0"], "audioUrl": "/audio/A1-1/speaking/numbers/nolla.mp3" },
-        { "prompt": "Скажите: один", "answer": ["yksi", "1"], "audioUrl": "/audio/A1-1/speaking/numbers/yksi.mp3" },
-        { "prompt": "Скажите: два", "answer": ["kaksi", "2"], "audioUrl": "/audio/A1-1/speaking/numbers/kaksi.mp3" },
-        { "prompt": "Скажите: три", "answer": ["kolme", "3"], "audioUrl": "/audio/A1-1/speaking/numbers/kolme.mp3" },
-        { "prompt": "Скажите: четыре", "answer": ["neljä", "4"], "audioUrl": "/audio/A1-1/speaking/numbers/neljä.mp3" },
-        { "prompt": "Скажите: пять", "answer": ["viisi", "5"], "audioUrl": "/audio/A1-1/speaking/numbers/viisi.mp3" },
-        { "prompt": "Скажите: шесть", "answer": ["kuusi", "6"], "audioUrl": "/audio/A1-1/speaking/numbers/kuusi.mp3" },
-        { "prompt": "Скажите: семь", "answer": ["seitsemän", "7"], "audioUrl": "/audio/A1-1/speaking/numbers/seitsemän.mp3" },
-        { "prompt": "Скажите: восемь", "answer": ["kahdeksan", "8"], "audioUrl": "/audio/A1-1/speaking/numbers/kahdeksan.mp3" },
-        { "prompt": "Скажите: девять", "answer": ["yhdeksän", "9"], "audioUrl": "/audio/A1-1/speaking/numbers/yhdeksän.mp3" },
-        { "prompt": "Скажите: десять", "answer": ["kymmenen", "10"], "audioUrl": "/audio/A1-1/speaking/numbers/kymmenen.mp3" },
-        { "prompt": "Скажите: одиннадцать", "answer": ["yksitoista", "11"], "audioUrl": "/audio/A1-1/speaking/numbers/yksitoista.mp3" },
-        { "prompt": "Скажите: двенадцать", "answer": ["kaksitoista", "12"], "audioUrl": "/audio/A1-1/speaking/numbers/kaksitoista.mp3" },
-        { "prompt": "Скажите: тринадцать", "answer": ["kolmetoista", "13"], "audioUrl": "/audio/A1-1/speaking/numbers/kolmetoista.mp3" },
-        { "prompt": "Скажите: четырнадцать", "answer": ["neljätoista", "14"], "audioUrl": "/audio/A1-1/speaking/numbers/neljätoista.mp3" },
-        { "prompt": "Скажите: пятнадцать", "answer": ["viisitoista", "15"], "audioUrl": "/audio/A1-1/speaking/numbers/viisitoista.mp3" },
-        { "prompt": "Скажите: шестнадцать", "answer": ["kuusitoista", "16"], "audioUrl": "/audio/A1-1/speaking/numbers/kuusitoista.mp3" },
+        {
+          "prompt": "Скажите: ноль",
+          "answer": ["nolla", "0"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/nolla.mp3"
+        },
+        {
+          "prompt": "Скажите: один",
+          "answer": ["yksi", "1"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/yksi.mp3"
+        },
+        {
+          "prompt": "Скажите: два",
+          "answer": ["kaksi", "2"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kaksi.mp3"
+        },
+        {
+          "prompt": "Скажите: три",
+          "answer": ["kolme", "3"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kolme.mp3"
+        },
+        {
+          "prompt": "Скажите: четыре",
+          "answer": ["neljä", "4"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/neljä.mp3"
+        },
+        {
+          "prompt": "Скажите: пять",
+          "answer": ["viisi", "5"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/viisi.mp3"
+        },
+        {
+          "prompt": "Скажите: шесть",
+          "answer": ["kuusi", "6"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kuusi.mp3"
+        },
+        {
+          "prompt": "Скажите: семь",
+          "answer": ["seitsemän", "7"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/seitsemän.mp3"
+        },
+        {
+          "prompt": "Скажите: восемь",
+          "answer": ["kahdeksan", "8"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kahdeksan.mp3"
+        },
+        {
+          "prompt": "Скажите: девять",
+          "answer": ["yhdeksän", "9"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/yhdeksän.mp3"
+        },
+        {
+          "prompt": "Скажите: десять",
+          "answer": ["kymmenen", "10"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kymmenen.mp3"
+        },
+        {
+          "prompt": "Скажите: одиннадцать",
+          "answer": ["yksitoista", "11"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/yksitoista.mp3"
+        },
+        {
+          "prompt": "Скажите: двенадцать",
+          "answer": ["kaksitoista", "12"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kaksitoista.mp3"
+        },
+        {
+          "prompt": "Скажите: тринадцать",
+          "answer": ["kolmetoista", "13"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kolmetoista.mp3"
+        },
+        {
+          "prompt": "Скажите: четырнадцать",
+          "answer": ["neljätoista", "14"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/neljätoista.mp3"
+        },
+        {
+          "prompt": "Скажите: пятнадцать",
+          "answer": ["viisitoista", "15"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/viisitoista.mp3"
+        },
+        {
+          "prompt": "Скажите: шестнадцать",
+          "answer": ["kuusitoista", "16"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kuusitoista.mp3"
+        },
         {
           "prompt": "Скажите: семнадцать",
           "answer": ["seitsemäntoista", "17"],
@@ -1648,7 +1720,11 @@
           "answer": ["yhdeksäntoista", "19"],
           "audioUrl": "/audio/A1-1/speaking/numbers/yhdeksäntoista.mp3"
         },
-        { "prompt": "Скажите: двадцать", "answer": ["kaksikymmentä", "20"], "audioUrl": "/audio/A1-1/speaking/numbers/kaksikymmentä.mp3" },
+        {
+          "prompt": "Скажите: двадцать",
+          "answer": ["kaksikymmentä", "20"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kaksikymmentä.mp3"
+        },
         {
           "prompt": "Скажите: двадцать один",
           "answer": ["kaksikymmentäyksi", "21"],
@@ -1659,10 +1735,26 @@
           "answer": ["kaksikymmentäkaksi", "22"],
           "audioUrl": "/audio/A1-1/speaking/numbers/kaksikymmentäkaksi.mp3"
         },
-        { "prompt": "Скажите: тридцать", "answer": ["kolmekymmentä", "30"], "audioUrl": "/audio/A1-1/speaking/numbers/kolmekymmentä.mp3" },
-        { "prompt": "Скажите: сорок", "answer": ["neljäkymmentä", "40"], "audioUrl": "/audio/A1-1/speaking/numbers/neljäkymmentä.mp3" },
-        { "prompt": "Скажите: пятьдесят", "answer": ["viisikymmentä", "50"], "audioUrl": "/audio/A1-1/speaking/numbers/viisikymmentä.mp3" },
-        { "prompt": "Скажите: шестьдесят", "answer": ["kuusikymmentä", "60"], "audioUrl": "/audio/A1-1/speaking/numbers/kuusikymmentä.mp3" },
+        {
+          "prompt": "Скажите: тридцать",
+          "answer": ["kolmekymmentä", "30"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kolmekymmentä.mp3"
+        },
+        {
+          "prompt": "Скажите: сорок",
+          "answer": ["neljäkymmentä", "40"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/neljäkymmentä.mp3"
+        },
+        {
+          "prompt": "Скажите: пятьдесят",
+          "answer": ["viisikymmentä", "50"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/viisikymmentä.mp3"
+        },
+        {
+          "prompt": "Скажите: шестьдесят",
+          "answer": ["kuusikymmentä", "60"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kuusikymmentä.mp3"
+        },
         {
           "prompt": "Скажите: семьдесят",
           "answer": ["seitsemänkymmentä", "70"],
@@ -1678,18 +1770,46 @@
           "answer": ["yhdeksänkymmentä", "90"],
           "audioUrl": "/audio/A1-1/speaking/numbers/yhdeksänkymmentä.mp3"
         },
-        { "prompt": "Скажите: сто", "answer": ["sata", "100"], "audioUrl": "/audio/A1-1/speaking/numbers/sata.mp3" },
-        { "prompt": "Скажите: сто один", "answer": ["satayksi", "101"], "audioUrl": "/audio/A1-1/speaking/numbers/satayksi.mp3" },
-        { "prompt": "Скажите: двести", "answer": ["kaksisataa", "200"], "audioUrl": "/audio/A1-1/speaking/numbers/kaksisataa.mp3" },
-        { "prompt": "Скажите: триста", "answer": ["kolmesataa", "300"], "audioUrl": "/audio/A1-1/speaking/numbers/kolmesataa.mp3" },
-        { "prompt": "Скажите: тысяча", "answer": ["tuhat", "1000"], "audioUrl": "/audio/A1-1/speaking/numbers/tuhat.mp3" },
-        { "prompt": "Скажите: две тысячи", "answer": ["kaksituhatta", "2000"], "audioUrl": "/audio/A1-1/speaking/numbers/kaksituhatta.mp3" },
+        {
+          "prompt": "Скажите: сто",
+          "answer": ["sata", "100"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/sata.mp3"
+        },
+        {
+          "prompt": "Скажите: сто один",
+          "answer": ["satayksi", "101"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/satayksi.mp3"
+        },
+        {
+          "prompt": "Скажите: двести",
+          "answer": ["kaksisataa", "200"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kaksisataa.mp3"
+        },
+        {
+          "prompt": "Скажите: триста",
+          "answer": ["kolmesataa", "300"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kolmesataa.mp3"
+        },
+        {
+          "prompt": "Скажите: тысяча",
+          "answer": ["tuhat", "1000"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/tuhat.mp3"
+        },
+        {
+          "prompt": "Скажите: две тысячи",
+          "answer": ["kaksituhatta", "2000"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/kaksituhatta.mp3"
+        },
         {
           "prompt": "Скажите: пятьсот тысяч",
           "answer": ["viisisataatuhatta", "500000", "500 000"],
           "audioUrl": "/audio/A1-1/speaking/numbers/viisisataatuhatta.mp3"
         },
-        { "prompt": "Скажите: миллион", "answer": ["miljoona", "1000000"], "audioUrl": "/audio/A1-1/speaking/numbers/miljoona.mp3" },
+        {
+          "prompt": "Скажите: миллион",
+          "answer": ["miljoona", "1000000"],
+          "audioUrl": "/audio/A1-1/speaking/numbers/miljoona.mp3"
+        },
         {
           "prompt": "Скажите: два миллиона",
           "answer": ["kaksi miljoonaa", "2 miljoonaa", "2000000"],
@@ -2140,7 +2260,7 @@
       ]
     }
   ],
-  
+
   "reading": {
     "id": "read1",
     "title": "Tervetuloa kurssille!",

@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import { Volume2, Pause } from "lucide-react";
 
-// Перемешивание массива
+// Shuffle array
 function shuffle(array) {
   return [...array].sort(() => Math.random() - 0.5);
 }
@@ -23,9 +23,9 @@ function ListeningMultipleChoice({
   const [finished, setFinished] = useState(false);
   const [mistakes, setMistakes] = useState([]);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [answeredCount, setAnsweredCount] = useState(0); // Количество отвеченных вопросов
-  const [answers, setAnswers] = useState([]); // Массив для отслеживания правильности ответов
-  const [hasMarkedStarted, setHasMarkedStarted] = useState(false); // Флаг для отслеживания первого ответа
+  const [answeredCount, setAnsweredCount] = useState(0); // Answered question count
+  const [answers, setAnswers] = useState([]); // Array tracking answer correctness
+  const [hasMarkedStarted, setHasMarkedStarted] = useState(false); // Flag tracking first answer
   const audioRef = useRef(null);
 
   useEffect(() => {
@@ -41,17 +41,17 @@ function ListeningMultipleChoice({
     setAnsweredCount(0);
     setAnswers([]);
     setHasMarkedStarted(false);
-    // Устанавливаем начальный прогресс на 0 (ничего не отвечено)
+    // Initial progress = 0 (none answered)
     if (onQuestionChange) {
       onQuestionChange(0);
     }
     if (onTotalChange) {
       onTotalChange(shuffled.length);
     }
-  }, [task]); // Убрали onQuestionChange из зависимостей, чтобы избежать лишних вызовов
+  }, [task]); // Removed onQuestionChange from deps to avoid extra calls
 
-  // Проверяем все ли ответы правильные при завершении
-  // ВАЖНО: этот useEffect должен быть ДО любого раннего возврата
+  // Check all answers correct on finish
+  // IMPORTANT: this useEffect must run BEFORE any early return
   useEffect(() => {
     if (finished && answers.length === questions.length && questions.length > 0) {
       const allCorrect = answers.every(a => a.isCorrect);
@@ -90,21 +90,21 @@ function ListeningMultipleChoice({
     
     const isCorrect = index === question.answer;
     
-    // Отмечаем упражнение как начатое при первом ответе
+    // Mark exercise started on first answer
     if (!hasMarkedStarted && onMarkStarted) {
       onMarkStarted();
       setHasMarkedStarted(true);
     }
     
-    // Сохраняем результат ответа
+    // Save answer result
     const newAnswers = [...answers, { questionIndex: step, isCorrect }];
     setAnswers(newAnswers);
     
-    // Увеличиваем количество отвеченных вопросов и обновляем прогресс
+    // Increment answered count and update progress
     const newAnsweredCount = answeredCount + 1;
     setAnsweredCount(newAnsweredCount);
     
-    // Обновляем прогресс только после ответа
+    // Update progress only after answer
     if (onQuestionChange && questions.length > 0) {
       onQuestionChange(newAnsweredCount);
     }
@@ -122,7 +122,7 @@ function ListeningMultipleChoice({
       setSelected(null);
       setChecked(false);
       setIsPlaying(false);
-      // Прогресс не меняется при переходе к следующему вопросу, остается на уровне отвеченных
+      // Progress unchanged on next question — stays at answered count
     } else {
       setFinished(true);
     }
@@ -142,7 +142,7 @@ function ListeningMultipleChoice({
     setAnsweredCount(0);
     setAnswers([]);
     setHasMarkedStarted(false);
-    // Сбрасываем прогресс на 0 при повторении ошибок
+    // Reset progress to 0 when retrying mistakes
     if (onQuestionChange) {
       onQuestionChange(0);
     }
@@ -157,28 +157,28 @@ function ListeningMultipleChoice({
     
     return (
       <div className="w-full">
-        {/* Карточка результатов */}
+        {/* Results card */}
         <div className="bg-white rounded-2xl border-2 border-[#E5E7EB] shadow-lg p-8 mb-6">
           <h3 className="text-2xl font-semibold text-[#1E293B] mb-6 text-center">
             Результаты упражнения
           </h3>
           
-          {/* Статистика */}
+          {/* Statistics */}
           <div className="grid grid-cols-2 gap-4 mb-6">
-            {/* Правильные ответы */}
+            {/* Correct answers */}
             <div className="bg-green-50 border-2 border-green-200 rounded-xl p-4 md:p-6 text-center">
               <div className="text-3xl md:text-4xl font-bold text-green-600 mb-2">{score}</div>
               <div className="text-sm md:text-lg text-green-700 font-medium">Правильных</div>
             </div>
             
-            {/* Ошибки */}
+            {/* Mistakes */}
             <div className="bg-red-50 border-2 border-red-200 rounded-xl p-4 md:p-6 text-center">
               <div className="text-3xl md:text-4xl font-bold text-red-600 mb-2">{questions.length - score}</div>
               <div className="text-sm md:text-lg text-red-700 font-medium">Ошибок</div>
             </div>
           </div>
           
-          {/* Процент успеха */}
+          {/* Success rate */}
           <div className="mb-6">
             <div className="flex items-center justify-between mb-2">
               <span className="text-lg text-[#4A5568] font-medium">Процент успеха</span>
@@ -194,9 +194,9 @@ function ListeningMultipleChoice({
             </div>
           </div>
           
-          {/* Кнопки действий */}
+          {/* Action buttons */}
           <div className="flex flex-col gap-3">
-            {/* Кнопка повторить ошибки */}
+            {/* Retry mistakes button */}
             {mistakes.length > 0 && (
               <button 
                 onClick={restartMistakes}
@@ -212,7 +212,7 @@ function ListeningMultipleChoice({
               </button>
             )}
             
-            {/* Кнопка завершить */}
+            {/* Finish button */}
             <button 
               onClick={() => {
                 if (onComplete) {
@@ -241,7 +241,7 @@ function ListeningMultipleChoice({
 
   return (
     <div className="w-full">
-      {/* Кнопка воспроизведения аудио */}
+      {/* Play audio button */}
       <div className="flex justify-center mb-8">
         <button
           onClick={handlePlay}
@@ -264,7 +264,7 @@ function ListeningMultipleChoice({
         />
       </div>
 
-      {/* Варианты ответов */}
+      {/* Answer options */}
       <div className="flex flex-col gap-3 mb-6">
         {question.options.map((opt, i) => {
           const isCorrect = i === question.answer;
@@ -290,7 +290,7 @@ function ListeningMultipleChoice({
                 ${checked && !isSelected && !isCorrect ? 'cursor-not-allowed' : ''}
               `}
             >
-              {/* Радио-кнопка */}
+              {/* Radio button */}
               <div className={`
                 w-6 h-6 rounded-full border-2 flex items-center justify-center flex-shrink-0
                 ${!checked 
@@ -310,7 +310,7 @@ function ListeningMultipleChoice({
                 )}
               </div>
               
-              {/* Текст ответа */}
+              {/* Answer text */}
               <span className={`
                 text-lg text-[#1E293B] leading-[28px] text-left flex-1
                 ${isWrong ? 'line-through' : ''}
@@ -323,7 +323,7 @@ function ListeningMultipleChoice({
         })}
       </div>
 
-      {/* Кнопка "Следующий вопрос" */}
+      {/* Next question button */}
       {checked && (
         <button
           onClick={handleNext}

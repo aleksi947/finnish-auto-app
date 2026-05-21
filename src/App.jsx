@@ -50,7 +50,7 @@ function App() {
         <Route path="/subscription" element={<SubscriptionPage />} />
         <Route path="/" element={<HomePage />} />
         
-        {/* Защищенные маршруты уроков */}
+        {/* Protected lesson routes */}
         <Route element={<LessonGuard />}>
           <Route path="/lesson/:lessonId" element={<LessonOverview />} />
           <Route

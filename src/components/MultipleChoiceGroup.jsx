@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-// Перемешивание массива
+// Shuffle array
 function shuffle(array) {
   return [...array].sort(() => Math.random() - 0.5);
 }
@@ -13,11 +13,11 @@ function MultipleChoiceGroup({ exercise, section, currentQuestionIndex, onQuesti
   const [correctCount, setCorrectCount] = useState(0);
   const [wrongCount, setWrongCount] = useState(0);
   const [mistakes, setMistakes] = useState([]);
-  const [feedback, setFeedback] = useState(""); // пояснение по выбору
-  const [answers, setAnswers] = useState([]); // Массив для отслеживания правильности ответов
-  const [hasMarkedStarted, setHasMarkedStarted] = useState(false); // Флаг для отслеживания первого ответа
+  const [feedback, setFeedback] = useState(""); // feedback for selection
+  const [answers, setAnswers] = useState([]); // Array tracking answer correctness
+  const [hasMarkedStarted, setHasMarkedStarted] = useState(false); // Flag tracking first answer
 
-  // 🔹 Универсальный геттер локализованного текста (строка или {ru, fi, ...})
+  // Localized text getter (string or {ru, fi, ...})
   const t = (val) => (typeof val === "string" ? val : val?.[lang] || "");
 
   useEffect(() => {
@@ -33,26 +33,26 @@ function MultipleChoiceGroup({ exercise, section, currentQuestionIndex, onQuesti
     setFeedback("");
     setAnswers([]);
     setHasMarkedStarted(false);
-    // Устанавливаем начальный прогресс на 1
+    // Initial progress = 1
     if (onQuestionChange) {
       onQuestionChange(1);
     }
-    // Уведомляем родительский компонент об общем количестве вопросов
+    // Notify parent of total question count
     if (onTotalQuestionsChange) {
       onTotalQuestionsChange(shuffled.length);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [exercise]);
 
-  // Обновляем прогресс при изменении текущего вопроса
+  // Update progress when current question changes
   useEffect(() => {
     if (onQuestionChange && questions.length > 0) {
       onQuestionChange(current + 1);
     }
   }, [current, questions.length, onQuestionChange]);
 
-  // Проверяем все ли ответы правильные при завершении
-  // ВАЖНО: этот useEffect должен быть ДО любого раннего возврата
+  // Check all answers correct on finish
+  // IMPORTANT: this useEffect must run BEFORE any early return
   useEffect(() => {
     if (finished && answers.length === questions.length && questions.length > 0) {
       const allCorrect = answers.every(a => a.isCorrect);
@@ -74,22 +74,22 @@ function MultipleChoiceGroup({ exercise, section, currentQuestionIndex, onQuesti
 
     const isCorrect = index === currentQuestion.answer;
 
-    // Отмечаем упражнение как начатое при первом ответе
+    // Mark exercise started on first answer
     if (!hasMarkedStarted && onMarkStarted) {
       onMarkStarted();
       setHasMarkedStarted(true);
     }
 
-    // Сохраняем результат ответа
+    // Save answer result
     const newAnswers = [...answers, { questionIndex: current, isCorrect }];
     setAnswers(newAnswers);
 
-    // 1) Пробуем взять question-level feedback (локализованный)
+    // 1) Try question-level feedback (localized)
     let fb = isCorrect
       ? t(currentQuestion.feedbackCorrect)
       : t(currentQuestion.feedbackWrong);
 
-    // 2) Если ничего нет, fallback на per-option пояснения (если переданы)
+    // 2) Fallback to per-option explanations if provided
     if (!fb) {
       const optExpl = currentQuestion.explanations?.[index];
       fb = t(optExpl) || "";
@@ -110,10 +110,10 @@ function MultipleChoiceGroup({ exercise, section, currentQuestionIndex, onQuesti
       setCurrent((prev) => prev + 1);
       setSelected(null);
       setFeedback("");
-      // Прогресс обновится автоматически через useEffect при изменении current
+      // Progress updates via useEffect when current changes
     } else {
       setFinished(true);
-      // При завершении устанавливаем прогресс на максимальное значение
+      // On completion set progress to maximum
       if (onQuestionChange && questions.length > 0) {
         onQuestionChange(questions.length);
       }
@@ -133,11 +133,11 @@ function MultipleChoiceGroup({ exercise, section, currentQuestionIndex, onQuesti
     setFinished(false);
     setAnswers([]);
     setHasMarkedStarted(false);
-    // Сбрасываем прогресс на 1 при повторении ошибок
+    // Reset progress to 1 when retrying mistakes
     if (onQuestionChange) {
       onQuestionChange(1);
     }
-    // Уведомляем родительский компонент об изменении количества вопросов
+    // Notify parent when question count changes
     if (onTotalQuestionsChange) {
       onTotalQuestionsChange(reshuffled.length);
     }
@@ -149,28 +149,28 @@ function MultipleChoiceGroup({ exercise, section, currentQuestionIndex, onQuesti
     
     return (
       <div className="w-full">
-        {/* Карточка результатов */}
+        {/* Results card */}
         <div className="bg-white rounded-2xl border-2 border-[#E5E7EB] shadow-lg p-8 mb-6">
           <h3 className="text-2xl font-semibold text-[#1E293B] mb-6 text-center">
             Результаты упражнения
           </h3>
           
-          {/* Статистика */}
+          {/* Statistics */}
           <div className="grid grid-cols-2 gap-4 mb-6">
-            {/* Правильные ответы */}
+            {/* Correct answers */}
             <div className="bg-green-50 border-2 border-green-200 rounded-xl p-4 md:p-6 text-center">
               <div className="text-3xl md:text-4xl font-bold text-green-600 mb-2">{correctCount}</div>
               <div className="text-sm md:text-lg text-green-700 font-medium">Правильных</div>
             </div>
             
-            {/* Ошибки */}
+            {/* Mistakes */}
             <div className="bg-red-50 border-2 border-red-200 rounded-xl p-4 md:p-6 text-center">
               <div className="text-3xl md:text-4xl font-bold text-red-600 mb-2">{wrongCount}</div>
               <div className="text-sm md:text-lg text-red-700 font-medium">Ошибок</div>
             </div>
           </div>
           
-          {/* Процент успеха */}
+          {/* Success rate */}
           <div className="mb-6">
             <div className="flex items-center justify-between mb-2">
               <span className="text-lg text-[#4A5568] font-medium">Процент успеха</span>
@@ -186,9 +186,9 @@ function MultipleChoiceGroup({ exercise, section, currentQuestionIndex, onQuesti
             </div>
           </div>
           
-          {/* Кнопки действий */}
+          {/* Action buttons */}
           <div className="flex flex-col gap-3">
-            {/* Кнопка повторить ошибки */}
+            {/* Retry mistakes button */}
             {mistakes.length > 0 && (
               <button 
                 onClick={restartMistakes}
@@ -204,7 +204,7 @@ function MultipleChoiceGroup({ exercise, section, currentQuestionIndex, onQuesti
               </button>
             )}
             
-            {/* Кнопка завершить */}
+            {/* Finish button */}
             {onComplete && (
               <button 
                 onClick={() => onComplete && onComplete()}
@@ -226,13 +226,13 @@ function MultipleChoiceGroup({ exercise, section, currentQuestionIndex, onQuesti
 
   return (
     <div className="w-full">
-      {/* Карточка вопроса с голубым фоном */}
+      {/* Question card with blue background */}
       <div className="bg-[#EFF6FF] rounded-2xl border-2 border-[#BED5FF] p-6 md:p-7 mb-6">
-        {/* Текст вопроса */}
+        {/* Question text */}
         <p className="text-2xl text-[#1E293B] leading-[32px] mb-2">
           {currentQuestion.question.replace("___", "____")}
         </p>
-        {/* Перевод */}
+        {/* Translation */}
         {currentQuestion.translation && (
           <p className="text-lg italic text-[#4A5568] leading-[28px]">
             Перевод: {currentQuestion.translation}
@@ -240,7 +240,7 @@ function MultipleChoiceGroup({ exercise, section, currentQuestionIndex, onQuesti
         )}
       </div>
 
-      {/* Варианты ответов */}
+      {/* Answer options */}
       <div className="flex flex-col gap-3 mb-6">
         {currentQuestion.options.map((opt, i) => {
           const isCorrect = i === currentQuestion.answer;
@@ -266,7 +266,7 @@ function MultipleChoiceGroup({ exercise, section, currentQuestionIndex, onQuesti
                 ${selected !== null && !isSelected && !isCorrect ? 'cursor-not-allowed' : ''}
               `}
             >
-              {/* Радио-кнопка - круг с рамкой */}
+              {/* Radio button — circle with border */}
               <div className={`
                 w-6 h-6 rounded-full border-2 flex items-center justify-center flex-shrink-0
                 ${selected === null 
@@ -286,7 +286,7 @@ function MultipleChoiceGroup({ exercise, section, currentQuestionIndex, onQuesti
                 )}
               </div>
               
-              {/* Текст ответа */}
+              {/* Answer text */}
               <span className={`
                 text-lg text-[#1E293B] leading-[28px] text-left flex-1
                 ${isWrong ? 'line-through' : ''}
@@ -299,7 +299,7 @@ function MultipleChoiceGroup({ exercise, section, currentQuestionIndex, onQuesti
         })}
       </div>
 
-      {/* 👉 Пояснение после выбора */}
+      {/* Explanation after selection */}
       {selected !== null && feedback && (
         <div
           role="status"

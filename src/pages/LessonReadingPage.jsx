@@ -29,7 +29,7 @@ function LessonReadingPage() {
           return;
         }
 
-        // Гарантируем массив
+        // Ensure array
         setReading(Array.isArray(data.reading) ? data.reading : [data.reading]);
       } catch (err) {
         console.error(err);

@@ -1,6 +1,6 @@
 {
   "defaults": {
-    "voice": "Харри",
+    "voice": "Сельма",
     "format": "mp3",
     "speed": "1.0",
     "pitch": "0",
@@ -9,20 +9,72 @@
   },
   "items": [
     {
-      "text": "Hammaslääkäri työskentelee klinikalla.",
-      "out": "stripe-test/public/audio/A1-9/speaking/ex1/Hammaslaakari_tyoskentelee_klinikalla.mp3"
+      "text": "toimeentulotuki",
+      "out": "stripe-test/public/audio/block4/toimeentulotuki.mp3"
     },
     {
-      "text": "Siivooja siivoaa toimistossa.",
-      "out": "stripe-test/public/audio/A1-9/speaking/ex1/Siivooja_siivoaa_toimistossa.mp3"
+      "text": "harkinnanvarainen",
+      "out": "stripe-test/public/audio/block4/harkinnanvarainen.mp3"
     },
     {
-      "text": "Tiedän, että pidät kahvista.",
-      "out": "stripe-test/public/audio/A1-9/speaking/ex5/Tiedan_etta_pidat_kahvista.mp3"
+      "text": "varautuminen",
+      "out": "stripe-test/public/audio/block4/varautuminen.mp3"
     },
     {
-      "text": "Opettaja sanoo, että testi on toukokuussa.",
-      "out": "stripe-test/public/audio/A1-9/listening/ex5/Opettaja_sanoo_etta_testi_on_toukokuussa.mp3"
+      "text": "kiristys",
+      "out": "stripe-test/public/audio/block4/kiristys.mp3"
+    },
+    {
+      "text": "meno",
+      "out": "stripe-test/public/audio/block4/meno.mp3"
+    },
+    {
+      "text": "harkinta",
+      "out": "stripe-test/public/audio/block4/harkinta.mp3"
+    },
+    {
+      "text": "tiukennus",
+      "out": "stripe-test/public/audio/block4/tiukennus.mp3"
+    },
+    {
+      "text": "viive",
+      "out": "stripe-test/public/audio/block4/viive.mp3"
+    },
+    {
+      "text": "selviytymiskeino",
+      "out": "stripe-test/public/audio/block4/selviytymiskeino.mp3"
+    },
+    {
+      "text": "ehtyä",
+      "out": "stripe-test/public/audio/block4/ehtya.mp3"
+    },
+    {
+      "text": "ahdinko",
+      "out": "stripe-test/public/audio/block4/ahdinko.mp3"
+    },
+    {
+      "text": "kohdentua",
+      "out": "stripe-test/public/audio/block4/kohdentua.mp3"
+    },
+    {
+      "text": "virka",
+      "out": "stripe-test/public/audio/block4/virka.mp3"
+    },
+    {
+      "text": "varsinkin",
+      "out": "stripe-test/public/audio/block4/varsinkin.mp3"
+    },
+    {
+      "text": "raivaussiivous",
+      "out": "stripe-test/public/audio/block4/raivaussiivous.mp3"
+    },
+    {
+      "text": "ponnistaa",
+      "out": "stripe-test/public/audio/block4/ponnistaa.mp3"
+    },
+    {
+      "text": "näköpiiri",
+      "out": "stripe-test/public/audio/block4/nakopiiri.mp3"
     }
   ]
 }
