@@ -14,13 +14,13 @@ function ListeningExercisePage() {
   const [task, setTask] = useState(null);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0); // Количество отвеченных вопросов
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0); // Answered question count
   const [roundTotalQuestions, setRoundTotalQuestions] = useState(0);
   
-  // Hook для работы с прогрессом
+  // Hook for progress tracking
   const { markExerciseStarted, markExerciseCompleted } = useProgress(lessonId);
 
-  // Сбрасываем прогресс при загрузке нового задания
+  // Reset progress on new task load
   useEffect(() => {
     const total =
       task?.questions?.length || task?.items?.length || 0;
@@ -91,17 +91,17 @@ function ListeningExercisePage() {
     );
   }
 
-  // Подсчет общего количества вопросов для прогресса
+  // Total questions for progress
   const totalQuestions = roundTotalQuestions;
  
-  // Защита от некорректных значений прогресса
-  // Прогресс рассчитывается на основе отвеченных вопросов, а не текущего номера
-  // Гарантируем, что при 0 отвеченных вопросов прогресс = 0%
+  // Guard invalid progress values
+  // Progress based on answered questions, not current index
+  // Ensure 0 answered questions => 0% progress
   const progressPercentage = totalQuestions > 0 && currentQuestionIndex > 0
     ? Math.min(Math.max((currentQuestionIndex / totalQuestions) * 100, 0), 100)
     : 0;
 
-  // Принудительно устанавливаем 0% если currentQuestionIndex равен 0
+  // Force 0% when currentQuestionIndex is 0
   const finalProgressPercentage = currentQuestionIndex === 0 ? 0 : progressPercentage;
 
   return (
@@ -112,7 +112,7 @@ function ListeningExercisePage() {
       />
       <div className="pt-20 md:pt-32 pb-12 md:pb-20 px-4 md:px-6">
         <div className="max-w-4xl mx-auto relative">
-          {/* Кнопка "Назад" */}
+          {/* Back button */}
           <button
             onClick={() => navigate(-1)}
             className="absolute left-0 md:left-0 -top-10 md:-top-12 flex items-center gap-2 text-[#1E64F0] text-base md:text-lg font-normal hover:opacity-80 transition-opacity z-10 mb-6 md:mb-8"
@@ -142,11 +142,11 @@ function ListeningExercisePage() {
             <span>Назад</span>
           </button>
 
-          {/* Белая карточка с контентом */}
+          {/* White content card */}
           <div className="bg-white rounded-2xl md:rounded-3xl shadow-xl border border-gray-100 p-4 md:p-8 lg:p-12">
-            {/* Заголовок с иконкой */}
+            {/* Title with icon */}
             <div className="flex items-center gap-3 md:gap-4 mb-4 md:mb-6">
-              {/* Иконка аудирования в синем квадрате */}
+              {/* Listening icon in blue square */}
               <div className="w-[44px] h-[44px] md:w-[52px] md:h-[52px] bg-[#1471F6] rounded-[12px] md:rounded-[14px] flex items-center justify-center flex-shrink-0">
                 <svg className="w-6 h-6 md:w-7 md:h-7" viewBox="0 0 28 28" fill="none">
                   <path 
@@ -173,13 +173,13 @@ function ListeningExercisePage() {
                 </svg>
               </div>
               
-              {/* Заголовок "Аудирование" */}
+              {/* "Listening" heading */}
               <h1 className="text-2xl md:text-[36px] font-normal text-[#1E293B] leading-tight md:leading-[40px]">
                 Аудирование
               </h1>
             </div>
 
-            {/* Счетчик прогресса и прогресс-бар */}
+            {/* Progress counter and bar */}
             {totalQuestions > 0 && (
               <div className="mb-4 md:mb-6">
                 <div className="flex items-center justify-between mb-2 md:mb-3">
@@ -187,7 +187,7 @@ function ListeningExercisePage() {
                     {currentQuestionIndex} / {totalQuestions}
                   </span>
                 </div>
-                {/* Прогресс-бар - заполняется только при ответе на вопросы */}
+                {/* Progress bar — fills only when questions are answered */}
                 <div className="w-full h-2 rounded-full overflow-hidden bg-gray-200">
                   {currentQuestionIndex > 0 && finalProgressPercentage > 0 ? (
                     <div 
@@ -204,7 +204,7 @@ function ListeningExercisePage() {
               </div>
             )}
 
-            {/* Текст инструкции */}
+            {/* Instruction text */}
             <p className="text-base md:text-xl font-normal text-[#1E293B] leading-[24px] md:leading-[28px] mb-6 md:mb-8">
               {task.type === "write-group" 
                 ? "Прослушайте фразу и напишите, что вы услышали"
@@ -212,7 +212,7 @@ function ListeningExercisePage() {
               }
             </p>
 
-            {/* Компоненты упражнений */}
+            {/* Exercise components */}
             {task.type === "multiple-choice" && (
               <ListeningMultipleChoice
                 task={task}

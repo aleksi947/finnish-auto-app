@@ -23,7 +23,7 @@ function VocabularyBlockPage() {
   const [mode, setMode] = useState(""); // quiz | write | ""
   const [lessonBlock, setLessonBlock] = useState([]);
   
-  // Hook для работы с прогрессом
+  // Hook for progress tracking
   const { markExerciseStarted, markExerciseCompleted, getExerciseStatus } = useProgress(lessonId);
 
   useEffect(() => {
@@ -106,13 +106,13 @@ function VocabularyBlockPage() {
   const words = block.words;
 
   const getStatusBadge = (status) => {
-    // Для упражнений Vocabulary показываем только два статуса: "выполнено" или "не выполнено"
+    // Vocabulary exercises: only two statuses — "completed" or "not completed"
     if (status === "completed") {
       return (
         <Circle className="size-5 fill-green-500 text-green-500" />
       );
     }
-    // "not-started" и "in-progress" показываем как "не выполнено"
+    // Show "not-started" and "in-progress" as "not completed"
     return (
       <Circle className="size-5 fill-red-500 text-red-500" />
     );
@@ -126,7 +126,7 @@ function VocabularyBlockPage() {
       />
       <div className="pt-32 pb-20 px-6">
         <div className="max-w-4xl mx-auto relative">
-          {/* Кнопка "Назад" */}
+          {/* Back button */}
           <button
             onClick={() => navigate(-1)}
             className="absolute left-4 md:left-0 -top-12 flex items-center gap-2 text-[#1E64F0] text-lg font-normal hover:opacity-80 transition-opacity z-10 mb-8"
@@ -156,11 +156,11 @@ function VocabularyBlockPage() {
             <span>Назад</span>
           </button>
 
-          {/* Белая карточка с контентом */}
+          {/* White content card */}
           <div className="bg-white rounded-3xl shadow-xl border border-gray-100 p-8 md:p-12">
-            {/* Заголовок с иконкой */}
+            {/* Title with icon */}
             <div className="flex items-center gap-4 mb-6">
-              {/* Иконка словаря в синем квадрате */}
+              {/* Dictionary icon in blue square */}
               <div className="w-[72px] h-[72px] bg-[#1471F6] rounded-[14px] flex items-center justify-center flex-shrink-0">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
                   <path 
@@ -187,7 +187,7 @@ function VocabularyBlockPage() {
                 </svg>
               </div>
               
-              {/* Заголовок "Слова" */}
+              {/* "Words" heading */}
               <div className="flex-1">
                 <h1 className="text-base font-normal text-[#1E293B] leading-6 mb-1">
                   Слова
@@ -205,7 +205,7 @@ function VocabularyBlockPage() {
                 ) : (
                   <>
                     <VocabularyBlock words={words} lang={lang} />
-                    {/* Кнопки упражнений */}
+                    {/* Exercise buttons */}
                     <div className="flex flex-col sm:flex-row gap-4 mt-8">
                       <button
                         onClick={() => {

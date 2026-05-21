@@ -24,16 +24,16 @@ function HomePage() {
         <div className="relative z-10 flex h-full items-center justify-center px-4 sm:px-6 pt-20 pb-8">
           <div className="max-w-4xl text-center w-full">
             <h1 className="mb-4 sm:mb-6 text-2xl sm:text-[36px] md:text-5xl lg:text-6xl xl:text-7xl font-normal not-italic text-white leading-tight sm:leading-normal">
-              Финский до фанатизма 🇫🇮
+              Finnish to the core
             </h1>
             <p className="mx-auto mb-6 sm:mb-10 max-w-2xl text-base sm:text-lg md:text-xl lg:text-2xl text-white/95 px-2">
-              Погружение в язык каждый день — просто и эффективно
+              Immerse yourself in the language every day — simple and effective
             </p>
 
             <div className="flex flex-col items-stretch sm:items-center justify-center gap-3 sm:gap-4 px-4 sm:px-0 sm:flex-row">
               <Link to="/lessons" className="w-full sm:w-auto">
                 <Button className="w-full sm:w-auto bg-blue-600 px-6 sm:px-8 py-4 sm:py-6 text-base sm:text-lg text-white hover:bg-blue-700">
-                  🚀 Начать обучение
+                  🚀 Start learning
                 </Button>
               </Link>
               <Link to="/lessons" className="w-full sm:w-auto">
@@ -41,7 +41,7 @@ function HomePage() {
                   variant="outline"
                   className="w-full sm:w-auto border-2 border-white bg-white/10 px-6 sm:px-8 py-4 sm:py-6 text-base sm:text-lg text-white backdrop-blur-sm hover:bg-white/20"
                 >
-                  📘 Смотреть уроки
+                  📘 Browse lessons
                 </Button>
               </Link>
             </div>
@@ -54,23 +54,23 @@ function HomePage() {
         <div className="grid grid-cols-1 gap-6 sm:gap-8 md:grid-cols-3">
           <div className="text-center p-5 sm:p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
             <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">📚</div>
-            <h3 className="text-lg sm:text-xl font-semibold mb-2">Ежедневные уроки</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-2">Daily lessons</h3>
             <p className="text-sm sm:text-base text-gray-600">
-              Новый материал каждый день. Учитесь в удобном темпе.
+              New material every day. Learn at your own pace.
             </p>
           </div>
           <div className="text-center p-5 sm:p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
             <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">🎧</div>
-            <h3 className="text-lg sm:text-xl font-semibold mb-2">Аудио и практика</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-2">Audio & practice</h3>
             <p className="text-sm sm:text-base text-gray-600">
-              Слушайте носителей и тренируйте произношение.
+              Listen to native speakers and practice pronunciation.
             </p>
           </div>
           <div className="text-center p-5 sm:p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
             <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">🚀</div>
-            <h3 className="text-lg sm:text-xl font-semibold mb-2">Быстрый прогресс</h3>
+            <h3 className="text-lg sm:text-xl font-semibold mb-2">Fast progress</h3>
             <p className="text-sm sm:text-base text-gray-600">
-              Видимые результаты уже через несколько недель.
+              Visible results in just a few weeks.
             </p>
           </div>
         </div>
@@ -80,14 +80,14 @@ function HomePage() {
       <div className="bg-gradient-to-r from-blue-600 to-blue-700 py-12 sm:py-16 md:py-20">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 text-center">
           <h2 className="mb-4 sm:mb-6 text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white leading-tight px-2">
-            Готовы начать изучение финского?
+            Ready to start learning Finnish?
           </h2>
           <p className="mb-6 sm:mb-10 text-base sm:text-lg md:text-xl text-white/90 px-2">
-            Присоединяйтесь к тысячам студентов, которые уже достигли своих целей
+            Join thousands of students who have already reached their goals
           </p>
           <Link to="/lessons" className="inline-block">
             <Button size="lg" className="bg-white px-6 sm:px-8 md:px-10 py-4 sm:py-5 md:py-6 text-base sm:text-lg text-blue-700 hover:bg-gray-100 w-full sm:w-auto">
-              🚀 Начать обучение бесплатно
+              🚀 Start learning for free
             </Button>
           </Link>
         </div>
@@ -110,7 +110,7 @@ function HomePage() {
               </svg>
             </a>
           </div>
-          <p className="text-sm sm:text-base text-gray-400">© 2025 FinnishFlow. Все права защищены.</p>
+          <p className="text-sm sm:text-base text-gray-400">© 2025 FinnishFlow. All rights reserved.</p>
         </div>
       </footer>
     </div>

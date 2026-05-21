@@ -17,12 +17,12 @@ function LessonGrammarPage() {
   const [error, setError] = useState("");
   const navigate = useNavigate();
   
-  // Hook для работы с прогрессом и подпиской
+  // Hook for progress and subscription
   const { getGrammarSectionStatus } = useProgress(lessonId);
   const { hasSubscription, loading: subLoading } = useSubscription();
 
   useEffect(() => {
-    // Ждем пока загрузится информация о подписке
+    // Wait for subscription info to load
     if (subLoading) return;
 
     async function fetchGrammarSections() {
@@ -37,7 +37,7 @@ function LessonGrammarPage() {
 
         const lesson = snap.data();
         
-        // Проверка прав доступа
+        // Access check
         if (lesson.premium && !hasSubscription) {
           setError("🔒 Этот урок доступен только с Premium подпиской");
           setLoading(false);
@@ -129,14 +129,14 @@ function LessonGrammarPage() {
 
   return (
     <div className="min-h-screen bg-[#F5F7FA]">
-      {/* Навигация */}
+      {/* Navigation */}
       <Navigation
         onNavigateHome={() => navigate("/")}
         onNavigateProfile={() => navigate("/profile")}
       />
 
       <div className="pt-32 pb-20 px-6 max-w-4xl mx-auto">
-        {/* Кнопка назад */}
+        {/* Back button */}
         <button
           onClick={() => navigate(-1)}
           className="flex items-center gap-2 text-blue-600 hover:bg-blue-600 hover:text-white transition-all px-6 py-3 rounded-xl mb-8 group bg-blue-50"
@@ -145,7 +145,7 @@ function LessonGrammarPage() {
           <span className="text-lg">Назад</span>
         </button>
 
-        {/* Заголовок */}
+        {/* Title */}
         <div className="flex items-center gap-4 mb-12">
           <div className="bg-blue-500 p-4 rounded-xl">
             <Book className="size-10 text-white" />
@@ -153,7 +153,7 @@ function LessonGrammarPage() {
           <h1 className="text-3xl font-semibold text-gray-800">Грамматика</h1>
         </div>
 
-        {/* Список разделов */}
+        {/* Section list */}
         <div className="space-y-4">
           {sections.map((s) => {
             const sectionStatus = getGrammarSectionStatus(s.id);
@@ -164,12 +164,12 @@ function LessonGrammarPage() {
                 className="bg-white rounded-2xl p-6 border-2 border-blue-200 hover:border-blue-400 shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer group"
               >
                 <div className="flex items-center justify-between gap-6">
-                  {/* Название раздела */}
+                  {/* Section name */}
                   <div className="flex-1 text-xl text-gray-800 group-hover:text-blue-700 transition-colors">
                     {s.title?.[lang] || "Без названия"}
                   </div>
 
-                  {/* Статус */}
+                  {/* Status */}
                   <div className="flex-shrink-0">
                     {getStatusBadge(sectionStatus)}
                   </div>

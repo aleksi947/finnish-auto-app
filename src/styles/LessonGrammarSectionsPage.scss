@@ -1,4 +1,4 @@
-// Стили для контейнера страницы
+// Page container styles
 .grammar-page-container {
   padding: 20px;
   max-width: 900px;
@@ -9,7 +9,7 @@
   }
 }
 
-// Стили для заголовка страницы
+// Page title styles
 .grammar-header {
   margin-bottom: 32px;
   text-align: center;
@@ -34,11 +34,11 @@
   }
 }
 
-// Стили для основного контента
+// Main content styles
 .grammar-main-content {
   width: 100%;
   
-  // Улучшаем отображение HTML-контента
+  // Improve HTML content display
   h1, h2, h3, h4, h5, h6 {
     margin-top: 24px;
     margin-bottom: 16px;
@@ -59,7 +59,7 @@
     margin-bottom: 8px;
   }
 
-  // Стили для таблиц
+  // Table styles
   table {
     width: 100%;
     border-collapse: collapse;
@@ -99,7 +99,7 @@
     background-color: #f1f3f4;
   }
 
-  // Стили для блоков с подсказками
+  // Hint block styles
   div[style*="background"] {
     border-radius: 12px;
     margin: 20px 0;
@@ -110,7 +110,7 @@
     }
   }
 
-  // Стили для кнопок и ссылок
+  // Button and link styles
   a {
     color: #0077cc;
     text-decoration: none;
@@ -122,7 +122,7 @@
     }
   }
 
-  // Стили для упражнений
+  // Exercise styles
   h3 {
     color: #2c3e50;
     border-bottom: 2px solid #3498db;
@@ -130,7 +130,7 @@
     margin-top: 32px;
   }
 
-  // Стили для списков упражнений
+  // Exercise list styles
   ul:has(> li > a) {
     background: #f8f9fa;
     border-radius: 8px;
@@ -157,7 +157,7 @@
   }
 }
 
-// Стили для объяснения грамматики
+// Grammar explanation styles
 .grammar-explanation {
   margin-bottom: 32px;
   
@@ -166,7 +166,7 @@
   }
 }
 
-// Стили для примеров
+// Example styles
 .grammar-examples {
   margin-bottom: 32px;
   
@@ -175,7 +175,7 @@
   }
 }
 
-// Стили для упражнений
+// Exercise styles
 .grammar-exercises {
   margin-bottom: 32px;
   
@@ -184,7 +184,7 @@
   }
 }
 
-// Дополнительные стили для мобильных устройств
+// Extra mobile styles
 @media (max-width: 768px) {
   .grammar-main-content {
     h1, h2, h3, h4, h5, h6 {
@@ -208,7 +208,7 @@
   }
 }
 
-// Стили для таблиц глаголов (если понадобятся)
+// Verb table styles (if needed)
 .verb-conjugation {
   width: 100%;
   border-collapse: collapse;
@@ -233,7 +233,7 @@
   }
 }
 
-// Стили для подсказок
+// Hint styles
 .hint {
   margin-top: 16px;
   background: #fff6e5;
@@ -243,7 +243,7 @@
   font-size: 14px;
 }
 
-// Стили для инструкций к упражнениям
+// Exercise instruction styles
 .exercise-instruction {
   background: #f9fafe;
   border-left: 4px solid #0077cc;

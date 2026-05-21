@@ -6,7 +6,7 @@ function ListeningFillInText({ task }) {
   const [mistakes, setMistakes] = useState([]);
   const [showRetry, setShowRetry] = useState(false);
 
-  // 🔧 Функция нормализации текста
+  // Text normalization helper
   const normalize = (str) =>
     str
       .trim()

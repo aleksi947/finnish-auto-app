@@ -1,13 +1,13 @@
-require("dotenv").config(); // Загружаем .env
+require("dotenv").config(); // Load .env
 const admin = require("firebase-admin");
 const fs = require("fs");
 const path = require("path");
 
-// 🔐 Путь к секретному ключу из .env
+// Secret key path from .env
 const serviceAccountPath =
   process.env.SERVICE_ACCOUNT_PATH || "./serviceAccountKey.json";
 
-// 🔐 Проверка, существует ли ключ
+// Check key exists
 if (!fs.existsSync(serviceAccountPath)) {
   console.error(
     "❌ Файл serviceAccountKey.json не найден:",
@@ -16,14 +16,14 @@ if (!fs.existsSync(serviceAccountPath)) {
   process.exit(1);
 }
 
-// 🔐 Инициализация Firebase Admin SDK
+// Initialize Firebase Admin SDK
 admin.initializeApp({
   credential: admin.credential.cert(require(path.resolve(serviceAccountPath))),
 });
 
 const db = admin.firestore();
 
-// 📁 Базовая папка с уроками (по уровням)
+// Base lessons folder (by level)
 const basePath = path.join(__dirname, "lessons");
 
 async function uploadAllLessons() {
@@ -36,7 +36,7 @@ async function uploadAllLessons() {
     for (const file of files) {
       const fullPath = path.join(levelPath, file);
       
-      // Пропускаем директории (например, A2-1, A2-2 и т.д.)
+      // Skip directories (e.g. A2-1, A2-2)
       const stats = fs.statSync(fullPath);
       if (!stats.isFile()) {
         continue;
@@ -50,7 +50,7 @@ async function uploadAllLessons() {
         continue;
       }
 
-      const lessonId = `${level}-${match[1]}`; // Пример: A1-1, B2-3 и т.д.
+      const lessonId = `${level}-${match[1]}`; // e.g. A1-1, B2-3
 
       try {
         await db.collection("lessons").doc(lessonId).set(lessonData);

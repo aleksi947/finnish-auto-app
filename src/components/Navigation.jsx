@@ -34,10 +34,10 @@ export default function Navigation() {
   const navigate = useNavigate();
   const location = useLocation();
   
-  // Проверяем, находимся ли мы на главной странице
+  // Check if on home page
   const isHomePage = location.pathname === "/";
 
-  // следим за авторизацией
+  // watch auth state
   useEffect(() => {
     const unsub = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
@@ -48,12 +48,12 @@ export default function Navigation() {
   const handleLogout = async () => {
     try {
       await signOut(auth);
-      toast.success("🚪 Вы вышли из аккаунта");
+      toast.success("🚪 Signed out");
       setIsMenuOpen(false);
       navigate("/");
     } catch (err) {
       console.error(err);
-      toast.error("Не удалось выйти");
+      toast.error("Could not sign out");
     }
   };
 
@@ -62,10 +62,10 @@ export default function Navigation() {
     try {
       if (authMode === "login") {
         await signInWithEmailAndPassword(auth, email.trim(), password);
-        toast.success("✅ Вход выполнен");
+        toast.success("✅ Signed in successfully");
       } else {
         await createUserWithEmailAndPassword(auth, email.trim(), password);
-        toast.success("🎉 Регистрация выполнена");
+        toast.success("🎉 Registration complete");
       }
       setIsLoginOpen(false);
       setEmail("");
@@ -75,19 +75,19 @@ export default function Navigation() {
     } catch (err) {
       console.error(err);
       
-      let errorMessage = "Ошибка авторизации";
+      let errorMessage = "Authentication error";
       const errorCode = err.code;
 
       if (errorCode === "auth/invalid-credential" || errorCode === "auth/user-not-found" || errorCode === "auth/wrong-password") {
-        errorMessage = "Неверный email или пароль";
+        errorMessage = "Invalid email or password";
       } else if (errorCode === "auth/email-already-in-use") {
-        errorMessage = "Такой email уже зарегистрирован";
+        errorMessage = "This email is already registered";
       } else if (errorCode === "auth/too-many-requests") {
-        errorMessage = "Слишком много попыток. Попробуйте позже";
+        errorMessage = "Too many attempts. Try again later";
       } else if (errorCode === "auth/weak-password") {
-        errorMessage = "Пароль слишком простой (минимум 6 символов)";
+        errorMessage = "Password too weak (minimum 6 characters)";
       } else if (errorCode === "auth/invalid-email") {
-        errorMessage = "Некорректный формат email";
+        errorMessage = "Invalid email format";
       }
 
       toast.error(errorMessage);
@@ -101,7 +101,7 @@ export default function Navigation() {
         : "bg-gradient-to-r from-[#5B9BD5] to-[#4A90E2] shadow-lg shadow-blue-500/30"
     }`}>
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        {/* Логотип → главная */}
+        {/* Logo → home */}
         <Link to="/" className="flex items-center gap-2">
           <FinnishFlagLogo />
         </Link>
@@ -110,17 +110,17 @@ export default function Navigation() {
         <div className="hidden items-center gap-8 md:flex">
           <div className="flex items-center gap-6">
             <Link to="/" className="text-white/90 transition-colors hover:text-white">
-              Главная
+              Home
             </Link>
             <Link to="/lessons" className="text-white/90 transition-colors hover:text-white">
-              Уроки
+              Lessons
             </Link>
             <Link to="/profile" className="text-white/90 transition-colors hover:text-white">
-              Профиль
+              Profile
             </Link>
             
             <Link to="/subscription" className="text-white/90 transition-colors hover:text-white">
-              Подписка
+              Subscription
             </Link>
           </div>
 
@@ -142,7 +142,7 @@ export default function Navigation() {
                   setIsLoginOpen(true);
                 }}
               >
-                Войти
+                Sign in
               </Button>
             ) : (
               <Button
@@ -150,7 +150,7 @@ export default function Navigation() {
                 className="border border-white/30 bg-white/10 text-white backdrop-blur-sm hover:bg-white/20"
                 onClick={handleLogout}
               >
-                Выйти
+                Sign out
               </Button>
             )}
           </div>
@@ -168,7 +168,7 @@ export default function Navigation() {
                 setIsLoginOpen(true);
               }}
             >
-              Войти
+              Sign in
             </Button>
           ) : (
             <Button
@@ -177,7 +177,7 @@ export default function Navigation() {
               className="border border-white/30 bg-white/10 text-white backdrop-blur-sm hover:bg-white/20"
               onClick={handleLogout}
             >
-              Выйти
+              Sign out
             </Button>
           )}
 
@@ -208,28 +208,28 @@ export default function Navigation() {
               className="py-2 text-white/90 transition-colors hover:text-white"
               onClick={() => setIsMenuOpen(false)}
             >
-              Главная
+              Home
             </Link>
             <Link
               to="/lessons"
               className="py-2 text-white/90 transition-colors hover:text-white"
               onClick={() => setIsMenuOpen(false)}
             >
-              Уроки
+              Lessons
             </Link>
             <Link
               to="/profile"
               className="py-2 text-white/90 transition-colors hover:text-white"
               onClick={() => setIsMenuOpen(false)}
             >
-              Профиль
+              Profile
             </Link>
             <Link
               to="/subscription"
               className="py-2 text-white/90 transition-colors hover:text-white"
               onClick={() => setIsMenuOpen(false)}
             >
-              Подписка
+              Subscription
             </Link>
             <div className="mt-2 flex items-center gap-2 border-t border-white/20 pt-4">
               <button className="text-white transition-colors">RU</button>
@@ -247,12 +247,12 @@ export default function Navigation() {
         <DialogContent className="sm:max-w-md">
           <DialogHeader>
             <DialogTitle className="text-center text-2xl">
-              {authMode === "login" ? "Вход" : "Регистрация"}
+              {authMode === "login" ? "Sign in" : "Register"}
             </DialogTitle>
             <DialogDescription className="text-center text-sm text-gray-500">
               {authMode === "login"
-                ? "Введите свой email и пароль, чтобы войти"
-                : "Создайте аккаунт, указав email и пароль"}
+                ? "Enter your email and password to sign in"
+                : "Create an account with your email and password"}
             </DialogDescription>
           </DialogHeader>
 
@@ -271,7 +271,7 @@ export default function Navigation() {
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="password">Пароль</Label>
+              <Label htmlFor="password">Password</Label>
               <Input
                 id="password"
                 type="password"
@@ -285,30 +285,30 @@ export default function Navigation() {
             </div>
 
             <Button type="submit" className="w-full bg-blue-600 text-white hover:bg-blue-700">
-              {authMode === "login" ? "Войти" : "Зарегистрироваться"}
+              {authMode === "login" ? "Sign in" : "Register"}
             </Button>
 
             <div className="pt-2 text-center text-sm">
               {authMode === "login" ? (
                 <>
-                  Нет аккаунта?{" "}
+                  No account?{" "}
                   <button
                     type="button"
                     className="text-blue-600 hover:text-blue-700 hover:underline"
                     onClick={() => setAuthMode("register")}
                   >
-                    Регистрация
+                    Register
                   </button>
                 </>
               ) : (
                 <>
-                  Уже есть аккаунт?{" "}
+                  Already have an account?{" "}
                   <button
                     type="button"
                     className="text-blue-600 hover:text-blue-700 hover:underline"
                     onClick={() => setAuthMode("login")}
                   >
-                    Войти
+                    Sign in
                   </button>
                 </>
               )}

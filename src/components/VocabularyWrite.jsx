@@ -20,8 +20,8 @@ function VocabularyWrite({ words, lang, onFinish, onMarkStarted, onMarkCompleted
   const [inputColor, setInputColor] = useState("");
   const [mistakes, setMistakes] = useState([]);
   const [repeatingMistakes, setRepeatingMistakes] = useState(false);
-  const [answers, setAnswers] = useState([]); // Массив для отслеживания правильности ответов
-  const [hasMarkedStarted, setHasMarkedStarted] = useState(false); // Флаг для отслеживания первого ответа
+  const [answers, setAnswers] = useState([]); // Array tracking answer correctness
+  const [hasMarkedStarted, setHasMarkedStarted] = useState(false); // Flag tracking first answer
 
   useEffect(() => {
     const shuffledWords = [...words].sort(() => Math.random() - 0.5);
@@ -39,13 +39,13 @@ function VocabularyWrite({ words, lang, onFinish, onMarkStarted, onMarkCompleted
     const userAnswer = normalize(answer);
     const isCorrect = userAnswer === correctAnswer;
 
-    // Отмечаем упражнение как начатое при первом ответе
+    // Mark exercise started on first answer
     if (!hasMarkedStarted && onMarkStarted) {
       onMarkStarted();
       setHasMarkedStarted(true);
     }
 
-    // Сохраняем результат ответа
+    // Save answer result
     setAnswers((prev) => [...prev, { wordIndex: currentIndex, isCorrect }]);
 
     if (isCorrect) {
@@ -84,8 +84,8 @@ function VocabularyWrite({ words, lang, onFinish, onMarkStarted, onMarkCompleted
     setHasMarkedStarted(false);
   };
 
-  // Проверяем все ли ответы правильные при завершении
-  // ВАЖНО: этот useEffect должен быть ДО любого раннего возврата
+  // Check all answers correct on finish
+  // IMPORTANT: this useEffect must run BEFORE any early return
   useEffect(() => {
     if (currentIndex >= shuffled.length && answers.length === shuffled.length && shuffled.length > 0) {
       const allCorrect = answers.every(a => a.isCorrect);

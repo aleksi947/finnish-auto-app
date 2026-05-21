@@ -4,7 +4,7 @@ import process from "process";
 
 async function testFirebaseConnection() {
   try {
-    // Загружаем ключ
+    // Load service account key
     const serviceAccount = JSON.parse(
       await readFile("./service-account-key.json", "utf-8")
     );
@@ -13,7 +13,7 @@ async function testFirebaseConnection() {
     console.log("📧 Email:", serviceAccount.client_email);
     console.log("🏗️  Project ID:", serviceAccount.project_id);
 
-    // Инициализируем Firebase Admin
+    // Initialize Firebase Admin
     admin.initializeApp({
       credential: admin.credential.cert(serviceAccount),
       projectId: serviceAccount.project_id
@@ -23,14 +23,14 @@ async function testFirebaseConnection() {
 
     const db = admin.firestore();
     
-    // Пробуем прочитать коллекцию lessons
+    // Try reading lessons collection
     console.log("📖 Пробуем прочитать коллекцию lessons...");
     const lessonsSnapshot = await db.collection("lessons").limit(1).get();
     
     console.log("✅ Подключение к Firestore успешно!");
     console.log(`📊 Найдено документов: ${lessonsSnapshot.size}`);
 
-    // Пробуем создать тестовый документ
+    // Try creating test document
     console.log("✍️  Пробуем создать тестовый документ...");
     const testDoc = {
       test: true,
@@ -41,7 +41,7 @@ async function testFirebaseConnection() {
     await db.collection("test").doc("connection-test").set(testDoc);
     console.log("✅ Тестовый документ создан успешно!");
 
-    // Удаляем тестовый документ
+    // Delete test document
     await db.collection("test").doc("connection-test").delete();
     console.log("🗑️  Тестовый документ удален");
 

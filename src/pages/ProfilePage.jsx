@@ -18,15 +18,15 @@ const resumeUrl = import.meta.env.VITE_FUNCTIONS_STOP_SUBSCRIPTION?.replace("sto
 const ONE_TIME_PRICE_ID = "price_1SbRYLG13irHLXe7P0GM2nvC";
 
 function ProfilePage() {
-  // Используем наш обновленный хук (теперь он real-time!)
+  // Updated hook (now real-time)
   const { user, hasSubscription, subscriptionData, loading: subLoading } = useSubscription();
   
   const [lessonsCompleted, setLessonsCompleted] = useState(0);
   const [isLoadingStats, setIsLoadingStats] = useState(true);
-  const [paymentLoading, setPaymentLoading] = useState(false); // Локальный стейт для загрузки оплаты
+  const [paymentLoading, setPaymentLoading] = useState(false); // Local payment loading state
   const navigate = useNavigate();
 
-  // Загрузка статистики уроков
+  // Load lesson stats
   useEffect(() => {
     if (!user) return;
     
@@ -45,7 +45,7 @@ function ProfilePage() {
         const completedCount = completedResults.filter(Boolean).length;
         setLessonsCompleted(completedCount);
       } catch (err) {
-        console.error("Ошибка загрузки статистики:", err);
+        console.error("Failed to load statistics:", err);
         setLessonsCompleted(0);
       } finally {
         setIsLoadingStats(false);
@@ -57,13 +57,13 @@ function ProfilePage() {
 
   const handleLogout = async () => {
     await auth.signOut();
-    toast.success("🚪 Выход выполнен");
+    toast.success("🚪 Signed out");
     navigate("/");
   };
 
   const handleCancelSubscription = async () => {
-    if (!user) return toast.error("❗ Войдите в аккаунт.");
-    if (!window.confirm("Вы уверены, что хотите отменить подписку?")) return;
+    if (!user) return toast.error("❗ Please sign in to your account.");
+    if (!window.confirm("Are you sure you want to cancel your subscription?")) return;
     
     try {
       const idToken = await getIdToken(user, true);
@@ -72,16 +72,16 @@ function ProfilePage() {
         {},
         { headers: { Authorization: `Bearer ${idToken}` } }
       );
-      toast.success("📅 Подписка отменена. Доступ сохранится до конца периода.");
+      toast.success("📅 Subscription cancelled. Access remains until the end of the period.");
     } catch (err) {
-      console.error("Ошибка отмены подписки:", err);
-      toast.error("❌ Не удалось отменить подписку");
+      console.error("Subscription cancel error:", err);
+      toast.error("❌ Could not cancel subscription");
     }
   };
 
   const handleResumeSubscription = async () => {
-    if (!user) return toast.error("❗ Войдите в аккаунт.");
-    if (!window.confirm("Возобновить подписку? Списания продолжатся в обычном режиме.")) return;
+    if (!user) return toast.error("❗ Please sign in to your account.");
+    if (!window.confirm("Resume subscription? Billing will continue as usual.")) return;
 
     try {
       const idToken = await getIdToken(user, true);
@@ -90,21 +90,21 @@ function ProfilePage() {
         {},
         { headers: { Authorization: `Bearer ${idToken}` } }
       );
-      toast.success("✅ Подписка успешно возобновлена!");
+      toast.success("✅ Subscription resumed successfully!");
     } catch (err) {
-      console.error("Ошибка возобновления подписки:", err);
-      toast.error("❌ Не удалось возобновить подписку");
+      console.error("Subscription resume error:", err);
+      toast.error("❌ Could not resume subscription");
     }
   };
 
-  // Переход на страницу подписки (для ежемесячной)
+  // Go to subscription page (monthly)
   const handleSubscribe = () => {
     navigate("/subscription");
   };
 
-  // Прямая покупка разового доступа
+  // One-time access purchase
   const handleOneTimePayment = async () => {
-    if (!user) return toast.error("❗ Войдите в аккаунт.");
+    if (!user) return toast.error("❗ Please sign in to your account.");
     
     setPaymentLoading(true);
     try {
@@ -114,7 +114,7 @@ function ProfilePage() {
           priceId: ONE_TIME_PRICE_ID
       };
 
-      toast.loading("Перенаправляем на оплату...");
+      toast.loading("Redirecting to payment...");
       
       const res = await axios.post(
         startUrl,
@@ -125,24 +125,24 @@ function ProfilePage() {
       toast.dismiss();
       window.location.href = res.data.url;
     } catch (error) {
-      console.error("Ошибка при создании платежа:", error);
+      console.error("Payment creation error:", error);
       toast.dismiss();
-      toast.error("Не удалось перейти к оплате. Попробуйте позже.");
+      toast.error("Could not open payment. Try again later.");
     } finally {
         setPaymentLoading(false);
     }
   };
 
-  // Форматирование даты окончания подписки
+  // Format subscription end date
   const formatValidUntil = () => {
     if (!subscriptionData) return "—";
 
-    // Если это подписка с автопродлением
+    // Auto-renewing subscription
     if (subscriptionData.type === 'monthly') {
         if (subscriptionData.canceledAtPeriodEnd) {
-            return "Отменена (доступ до конца периода)";
+            return "Cancelled (access until period end)";
         }
-        return "Автопродление";
+        return "Auto-renewal";
     }
     
     const date = subscriptionData.validUntil || subscriptionData.endDate;
@@ -150,29 +150,29 @@ function ProfilePage() {
     if (!date) return "—";
 
     if (date?.toDate) {
-      return date.toDate().toLocaleDateString("ru-RU");
+      return date.toDate().toLocaleDateString("en-US");
     }
     if (date instanceof Date) {
-      return date.toLocaleDateString("ru-RU");
+      return date.toLocaleDateString("en-US");
     }
     return date;
   };
 
-  // Текст статуса подписки
+  // Subscription status text
   const getSubscriptionStatusText = () => {
-      if (subLoading) return "Загрузка...";
+      if (subLoading) return "Loading...";
       
-      if (!hasSubscription) return "Неактивна";
+      if (!hasSubscription) return "Inactive";
 
       if (subscriptionData?.canceledAtPeriodEnd) {
-          return <span className="text-orange-600 font-medium">Отменена</span>;
+          return <span className="text-orange-600 font-medium">Cancelled</span>;
       }
-      return <span className="text-green-600 font-medium">Активна</span>;
+      return <span className="text-green-600 font-medium">Active</span>;
   };
 
-  // Получение имени пользователя
+  // Get user display name
   const getUserName = () => {
-    return user?.displayName || user?.email?.split("@")[0] || "Пользователь";
+    return user?.displayName || user?.email?.split("@")[0] || "User";
   };
 
   if (!user && !subLoading) {
@@ -182,9 +182,9 @@ function ProfilePage() {
         <div className="pt-24 pb-12 px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-3xl shadow-lg border-2 border-[#3C84F8] p-8 sm:p-10 md:p-12">
-              <h1 className="text-4xl mb-4">Профиль</h1>
+              <h1 className="text-4xl mb-4">Profile</h1>
               <p className="text-lg text-gray-800">
-                Пожалуйста, войдите в систему для просмотра профиля.
+                Please sign in to view your profile.
               </p>
             </div>
           </div>
@@ -200,13 +200,13 @@ function ProfilePage() {
       <div className="pt-24 pb-12 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-3xl shadow-lg border-2 border-[#3C84F8] p-8 sm:p-10 md:p-12">
-            <h1 className="text-4xl mb-10 text-gray-800">Профиль</h1>
+            <h1 className="text-4xl mb-10 text-gray-800">Profile</h1>
 
             <div className="space-y-5 mb-8">
               <div className="flex items-center gap-4">
                 <User className="w-6 h-6 text-gray-500 flex-shrink-0" />
                 <p className="text-lg text-gray-800">
-                  <span className="font-semibold">Имя:</span> {getUserName()}
+                  <span className="font-semibold">Name:</span> {getUserName()}
                 </p>
               </div>
 
@@ -231,12 +231,12 @@ function ProfilePage() {
                 </div>
                 <div>
                   <p className="text-lg text-gray-800">
-                    <span className="font-semibold">Статус подписки:</span>{" "}
+                    <span className="font-semibold">Subscription status:</span>{" "}
                     {getSubscriptionStatusText()}
                   </p>
                   {hasSubscription && (
                     <p className="text-sm text-gray-500 mt-1">
-                       Тип: {subscriptionData?.type === 'monthly' ? 'Ежемесячная подписка' : (subscriptionData?.type === 'one_time' ? 'Разовый доступ' : 'Неопределен')}
+                       Type: {subscriptionData?.type === 'monthly' ? 'Monthly subscription' : (subscriptionData?.type === 'one_time' ? 'One-time access' : 'Unknown')}
                     </p>
                   )}
                 </div>
@@ -247,7 +247,7 @@ function ProfilePage() {
                   <Clock className="w-6 h-6 text-gray-500 flex-shrink-0" />
                   <p className="text-lg text-gray-800">
                     <span className="font-semibold">
-                        {subscriptionData?.type === 'monthly' && !subscriptionData?.canceledAtPeriodEnd ? 'Статус продления:' : 'Действует до:'}
+                        {subscriptionData?.type === 'monthly' && !subscriptionData?.canceledAtPeriodEnd ? 'Renewal status:' : 'Valid until:'}
                     </span>{" "}
                     {formatValidUntil()}
                   </p>
@@ -258,32 +258,32 @@ function ProfilePage() {
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
               <Button
                 onClick={() => {
-                  toast.info("Функция изменения профиля будет реализована");
+                  toast.info("Profile editing will be available soon");
                 }}
                 className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-6 text-lg rounded-xl flex items-center justify-center gap-2"
               >
                 <Pen className="w-5 h-5" />
-                Изменить профиль
+                Edit profile
               </Button>
               
-              {/* Кнопка отмены (только если активна и не отменена) */}
+              {/* Cancel button (active, not cancelled) */}
               {hasSubscription && subscriptionData?.type === 'monthly' && !subscriptionData?.canceledAtPeriodEnd && (
                 <Button
                   onClick={handleCancelSubscription}
                   variant="outline"
                   className="border-2 border-red-500 text-red-600 hover:bg-red-50 hover:text-red-700 hover:border-red-600 px-6 py-6 text-lg rounded-xl bg-white"
                 >
-                  Отменить подписку
+                  Cancel subscription
                 </Button>
               )}
 
-              {/* Кнопка ВОЗОБНОВЛЕНИЯ (только если отменена) */}
+              {/* Resume button (only if cancelled) */}
               {hasSubscription && subscriptionData?.type === 'monthly' && subscriptionData?.canceledAtPeriodEnd && (
                 <Button
                   onClick={handleResumeSubscription}
                   className="bg-green-600 hover:bg-green-700 text-white px-6 py-6 text-lg rounded-xl flex items-center justify-center gap-2"
                 >
-                  🔄 Возобновить подписку
+                  🔄 Resume subscription
                 </Button>
               )}
 
@@ -293,7 +293,7 @@ function ProfilePage() {
                     onClick={handleSubscribe}
                     className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-6 text-lg rounded-xl flex items-center justify-center gap-2 flex-1"
                     >
-                    🔥 Оформить подписку
+                    🔥 Subscribe
                     </Button>
                     
                     <Button
@@ -302,7 +302,7 @@ function ProfilePage() {
                     variant="outline"
                     className="border-2 border-blue-500 text-blue-600 hover:bg-blue-50 hover:text-blue-700 hover:border-blue-600 px-6 py-6 text-lg rounded-xl bg-white flex-1"
                     >
-                    {paymentLoading ? <Loader2 className="animate-spin" /> : "💰 Разовый платёж"}
+                    {paymentLoading ? <Loader2 className="animate-spin" /> : "💰 One-time payment"}
                     </Button>
                 </>
               )}
@@ -312,15 +312,15 @@ function ProfilePage() {
               <div className="flex items-center gap-4">
                 <BarChart3 className="w-6 h-6 text-gray-500 flex-shrink-0" />
                 <p className="text-lg text-gray-800">
-                  <span className="font-semibold">Пройдено уроков:</span>{" "}
-                  {isLoadingStats ? "Загрузка..." : lessonsCompleted}
+                  <span className="font-semibold">Lessons completed:</span>{" "}
+                  {isLoadingStats ? "Loading..." : lessonsCompleted}
                 </p>
               </div>
 
               <div className="flex items-center gap-4">
                 <Info className="w-6 h-6 text-gray-500 flex-shrink-0" />
                 <p className="text-lg text-gray-800">
-                  <span className="font-semibold">Время обучения:</span> 0 ч 0 мин
+                  <span className="font-semibold">Study time:</span> 0 h 0 min
                 </p>
               </div>
             </div>
@@ -331,7 +331,7 @@ function ProfilePage() {
                 variant="outline"
                 className="border-2 border-gray-300 text-gray-700 hover:bg-gray-50 hover:text-gray-900 hover:border-gray-400 px-6 py-6 text-lg rounded-xl bg-white w-full sm:w-auto"
               >
-                Выйти
+                Sign out
               </Button>
             </div>
           </div>

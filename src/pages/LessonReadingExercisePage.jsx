@@ -15,7 +15,7 @@ function LessonReadingExercisePage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   
-  // Hook для работы с прогрессом
+  // Hook for progress tracking
   const { markExerciseStarted, markExerciseCompleted } = useProgress(lessonId);
 
   useEffect(() => {
@@ -28,7 +28,7 @@ function LessonReadingExercisePage() {
 
         const data = snap.data();
 
-        // Гарантируем массив
+        // Ensure array
         const readings = Array.isArray(data.reading)
           ? data.reading
           : [data.reading];

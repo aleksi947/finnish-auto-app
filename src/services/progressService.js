@@ -2,7 +2,7 @@ import { doc, getDoc, setDoc, updateDoc, serverTimestamp } from "firebase/firest
 import { db } from "../firebase";
 
 /**
- * Получить прогресс урока для пользователя
+ * Get lesson progress for a user
  */
 export async function getLessonProgress(userId, lessonId) {
   try {
@@ -17,11 +17,11 @@ export async function getLessonProgress(userId, lessonId) {
       return progressSnap.data();
     }
     
-    // Возвращаем пустой прогресс если документа нет
+    // Empty progress if no document
     return null;
   } catch (error) {
-    // Если ошибка permissions, это может означать что правила не применены или документ не существует
-    // Не логируем как критическую ошибку, просто возвращаем null
+    // permissions error may mean rules not deployed or doc missing
+    // Not critical — return null
     if (error.code === "permission-denied" || error.message?.includes("permissions")) {
       console.warn("Нет доступа к прогрессу (возможно правила не применены или документ не существует):", error.message);
       return null;
@@ -32,7 +32,7 @@ export async function getLessonProgress(userId, lessonId) {
 }
 
 /**
- * Инициализировать прогресс урока (создать документ если его нет)
+ * Initialize lesson progress (create document if missing)
  */
 async function ensureProgressDoc(userId, lessonId) {
   if (!userId || !lessonId) {
@@ -53,7 +53,7 @@ async function ensureProgressDoc(userId, lessonId) {
       });
     }
   } catch (error) {
-    // Если ошибка permissions при чтении, пробуем создать документ
+    // On read permissions error, try creating document
     if (error.code === "permission-denied" || error.message?.includes("permissions")) {
       console.warn("Ошибка доступа при проверке прогресса, пробуем создать:", error.message);
       try {
@@ -76,7 +76,7 @@ async function ensureProgressDoc(userId, lessonId) {
 }
 
 /**
- * Рассчитать статус на основе статусов упражнений
+ * Compute status from exercise statuses
  */
 function calculateStatus(exerciseStatuses) {
   if (!exerciseStatuses || exerciseStatuses.length === 0) {
@@ -98,7 +98,7 @@ function calculateStatus(exerciseStatuses) {
 }
 
 /**
- * Отметить упражнение как начатое (при первом ответе)
+ * Mark exercise as started (on first answer)
  */
 export async function markExerciseStarted(userId, lessonId, sectionId, exerciseId, topicId = null) {
   try {
@@ -110,7 +110,7 @@ export async function markExerciseStarted(userId, lessonId, sectionId, exerciseI
       updatedAt: serverTimestamp(),
     };
     
-    // Инициализируем структуру раздела если её нет
+    // Init section structure if missing
     if (!progress.sections) {
       progress.sections = {};
     }
@@ -118,7 +118,7 @@ export async function markExerciseStarted(userId, lessonId, sectionId, exerciseI
       progress.sections[sectionId] = {};
     }
     
-    // Для vocabulary с темами
+    // Vocabulary with topics
     if (sectionId === "vocabulary" && topicId) {
       if (!progress.sections[sectionId].topics) {
         progress.sections[sectionId].topics = {};
@@ -133,7 +133,7 @@ export async function markExerciseStarted(userId, lessonId, sectionId, exerciseI
         progress.sections[sectionId].topics[topicId].exercises = {};
       }
       
-      // Устанавливаем статус упражнения
+      // Set exercise status
       if (!progress.sections[sectionId].topics[topicId].exercises[exerciseId]) {
         progress.sections[sectionId].topics[topicId].exercises[exerciseId] = {
           status: "in-progress",
@@ -142,16 +142,16 @@ export async function markExerciseStarted(userId, lessonId, sectionId, exerciseI
         progress.sections[sectionId].topics[topicId].exercises[exerciseId].status = "in-progress";
       }
       
-      // Пересчитываем статус темы
+      // Recompute topic status
       const topicExercises = Object.values(progress.sections[sectionId].topics[topicId].exercises);
       const topicStatuses = topicExercises.map(e => e.status);
       progress.sections[sectionId].topics[topicId].status = calculateStatus(topicStatuses);
       
       updateData[`sections.${sectionId}.topics.${topicId}`] = progress.sections[sectionId].topics[topicId];
     }
-    // Для grammar с секциями
+    // Grammar with sections
     else if (sectionId === "grammar" && topicId) {
-      // topicId здесь это sectionId грамматики
+      // topicId here is grammar sectionId
       if (!progress.sections[sectionId].sections) {
         progress.sections[sectionId].sections = {};
       }
@@ -173,14 +173,14 @@ export async function markExerciseStarted(userId, lessonId, sectionId, exerciseI
         progress.sections[sectionId].sections[topicId].exercises[exerciseId].status = "in-progress";
       }
       
-      // Пересчитываем статус секции грамматики
+      // Recompute grammar section status
       const grammarSectionExercises = Object.values(progress.sections[sectionId].sections[topicId].exercises);
       const grammarSectionStatuses = grammarSectionExercises.map(e => e.status);
       progress.sections[sectionId].sections[topicId].status = calculateStatus(grammarSectionStatuses);
       
       updateData[`sections.${sectionId}.sections.${topicId}`] = progress.sections[sectionId].sections[topicId];
     }
-    // Для остальных разделов (listening, speaking, writing, reading)
+    // Other sections (listening, speaking, writing, reading)
     else {
       if (!progress.sections[sectionId].exercises) {
         progress.sections[sectionId].exercises = {};
@@ -197,7 +197,7 @@ export async function markExerciseStarted(userId, lessonId, sectionId, exerciseI
       updateData[`sections.${sectionId}.exercises.${exerciseId}`] = progress.sections[sectionId].exercises[exerciseId];
     }
     
-    // Пересчитываем статус раздела
+    // Recompute section status
     let sectionStatuses = [];
     
     if (sectionId === "vocabulary" && progress.sections[sectionId].topics) {
@@ -212,7 +212,7 @@ export async function markExerciseStarted(userId, lessonId, sectionId, exerciseI
     progress.sections[sectionId].status = sectionStatus;
     updateData[`sections.${sectionId}.status`] = sectionStatus;
     
-    // Пересчитываем статус урока
+    // Recompute lesson status
     const lessonSectionStatuses = Object.values(progress.sections).map(s => s.status);
     const lessonStatus = calculateStatus(lessonSectionStatuses);
     updateData.status = lessonStatus;
@@ -227,7 +227,7 @@ export async function markExerciseStarted(userId, lessonId, sectionId, exerciseI
 }
 
 /**
- * Отметить упражнение как завершенное (когда все вопросы отвечены правильно)
+ * Mark exercise as completed (all questions answered correctly)
  */
 export async function markExerciseCompleted(userId, lessonId, sectionId, exerciseId, topicId = null) {
   try {
@@ -239,7 +239,7 @@ export async function markExerciseCompleted(userId, lessonId, sectionId, exercis
       updatedAt: serverTimestamp(),
     };
     
-    // Инициализируем структуру раздела если её нет
+    // Init section structure if missing
     if (!progress.sections) {
       progress.sections = {};
     }
@@ -247,7 +247,7 @@ export async function markExerciseCompleted(userId, lessonId, sectionId, exercis
       progress.sections[sectionId] = {};
     }
     
-    // Для vocabulary с темами
+    // Vocabulary with topics
     if (sectionId === "vocabulary" && topicId) {
       if (!progress.sections[sectionId].topics) {
         progress.sections[sectionId].topics = {};
@@ -262,20 +262,20 @@ export async function markExerciseCompleted(userId, lessonId, sectionId, exercis
         progress.sections[sectionId].topics[topicId].exercises = {};
       }
       
-      // Устанавливаем статус упражнения как завершенное
+      // Set exercise status to completed
       progress.sections[sectionId].topics[topicId].exercises[exerciseId] = {
         status: "completed",
         completedAt: serverTimestamp(),
       };
       
-      // Пересчитываем статус темы
+      // Recompute topic status
       const topicExercises = Object.values(progress.sections[sectionId].topics[topicId].exercises);
       const topicStatuses = topicExercises.map(e => e.status);
       progress.sections[sectionId].topics[topicId].status = calculateStatus(topicStatuses);
       
       updateData[`sections.${sectionId}.topics.${topicId}`] = progress.sections[sectionId].topics[topicId];
     }
-    // Для grammar с секциями
+    // Grammar with sections
     else if (sectionId === "grammar" && topicId) {
       if (!progress.sections[sectionId].sections) {
         progress.sections[sectionId].sections = {};
@@ -295,14 +295,14 @@ export async function markExerciseCompleted(userId, lessonId, sectionId, exercis
         completedAt: serverTimestamp(),
       };
       
-      // Пересчитываем статус секции грамматики
+      // Recompute grammar section status
       const grammarSectionExercises = Object.values(progress.sections[sectionId].sections[topicId].exercises);
       const grammarSectionStatuses = grammarSectionExercises.map(e => e.status);
       progress.sections[sectionId].sections[topicId].status = calculateStatus(grammarSectionStatuses);
       
       updateData[`sections.${sectionId}.sections.${topicId}`] = progress.sections[sectionId].sections[topicId];
     }
-    // Для остальных разделов
+    // Other sections
     else {
       if (!progress.sections[sectionId].exercises) {
         progress.sections[sectionId].exercises = {};
@@ -316,7 +316,7 @@ export async function markExerciseCompleted(userId, lessonId, sectionId, exercis
       updateData[`sections.${sectionId}.exercises.${exerciseId}`] = progress.sections[sectionId].exercises[exerciseId];
     }
     
-    // Пересчитываем статус раздела
+    // Recompute section status
     let sectionStatuses = [];
     
     if (sectionId === "vocabulary" && progress.sections[sectionId].topics) {
@@ -331,7 +331,7 @@ export async function markExerciseCompleted(userId, lessonId, sectionId, exercis
     progress.sections[sectionId].status = sectionStatus;
     updateData[`sections.${sectionId}.status`] = sectionStatus;
     
-    // Пересчитываем статус урока
+    // Recompute lesson status
     const lessonSectionStatuses = Object.values(progress.sections).map(s => s.status);
     const lessonStatus = calculateStatus(lessonSectionStatuses);
     updateData.status = lessonStatus;
@@ -346,7 +346,7 @@ export async function markExerciseCompleted(userId, lessonId, sectionId, exercis
 }
 
 /**
- * Получить статус раздела
+ * Get section status
  */
 export function getSectionStatus(progress, sectionId) {
   if (!progress || !progress.sections || !progress.sections[sectionId]) {
@@ -357,7 +357,7 @@ export function getSectionStatus(progress, sectionId) {
 }
 
 /**
- * Получить статус упражнения
+ * Get exercise status
  */
 export function getExerciseStatus(progress, sectionId, exerciseId, topicId = null) {
   if (!progress || !progress.sections || !progress.sections[sectionId]) {
@@ -366,19 +366,19 @@ export function getExerciseStatus(progress, sectionId, exerciseId, topicId = nul
   
   const section = progress.sections[sectionId];
   
-  // Для vocabulary с темами
+  // Vocabulary with topics
   if (sectionId === "vocabulary" && topicId && section.topics && section.topics[topicId]) {
     const exercise = section.topics[topicId].exercises?.[exerciseId];
     return exercise?.status || "not-started";
   }
   
-  // Для grammar с секциями
+  // Grammar with sections
   if (sectionId === "grammar" && topicId && section.sections && section.sections[topicId]) {
     const exercise = section.sections[topicId].exercises?.[exerciseId];
     return exercise?.status || "not-started";
   }
   
-  // Для остальных разделов
+  // Other sections
   if (section.exercises && section.exercises[exerciseId]) {
     return section.exercises[exerciseId].status || "not-started";
   }
@@ -387,7 +387,7 @@ export function getExerciseStatus(progress, sectionId, exerciseId, topicId = nul
 }
 
 /**
- * Получить статус темы vocabulary
+ * Get vocabulary topic status
  */
 export function getVocabularyTopicStatus(progress, topicId) {
   if (!progress || !progress.sections || !progress.sections.vocabulary || !progress.sections.vocabulary.topics) {
@@ -399,7 +399,7 @@ export function getVocabularyTopicStatus(progress, topicId) {
 }
 
 /**
- * Получить статус секции grammar
+ * Get grammar section status
  */
 export function getGrammarSectionStatus(progress, grammarSectionId) {
   if (!progress || !progress.sections || !progress.sections.grammar || !progress.sections.grammar.sections) {

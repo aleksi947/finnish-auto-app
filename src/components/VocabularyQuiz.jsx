@@ -11,8 +11,8 @@ function VocabularyQuiz({ words, lang, onFinish, onMarkStarted, onMarkCompleted 
   const [wrongCount, setWrongCount] = useState(0);
   const [mistakes, setMistakes] = useState([]);
   const [options, setOptions] = useState([]);
-  const [answers, setAnswers] = useState([]); // Массив для отслеживания правильности ответов
-  const [hasMarkedStarted, setHasMarkedStarted] = useState(false); // Флаг для отслеживания первого ответа
+  const [answers, setAnswers] = useState([]); // Array tracking answer correctness
+  const [hasMarkedStarted, setHasMarkedStarted] = useState(false); // Flag tracking first answer
 
   useEffect(() => {
     const shuffled = [...words].sort(() => Math.random() - 0.5);
@@ -45,13 +45,13 @@ function VocabularyQuiz({ words, lang, onFinish, onMarkStarted, onMarkCompleted 
     const correct = currentWord.translations[lang];
     const isCorrect = option === correct;
 
-    // Отмечаем упражнение как начатое при первом ответе
+    // Mark exercise started on first answer
     if (!hasMarkedStarted && onMarkStarted) {
       onMarkStarted();
       setHasMarkedStarted(true);
     }
 
-    // Сохраняем результат ответа
+    // Save answer result
     setAnswers((prev) => [...prev, { wordIndex: current, isCorrect }]);
 
     if (isCorrect) {
@@ -85,8 +85,8 @@ function VocabularyQuiz({ words, lang, onFinish, onMarkStarted, onMarkCompleted 
     setHasMarkedStarted(false);
   };
 
-  // Проверяем все ли ответы правильные при завершении
-  // ВАЖНО: этот useEffect должен быть ДО любого раннего возврата
+  // Check all answers correct on finish
+  // IMPORTANT: this useEffect must run BEFORE any early return
   useEffect(() => {
     if (finished && answers.length === shuffledWords.length && shuffledWords.length > 0) {
       const allCorrect = answers.every(a => a.isCorrect);

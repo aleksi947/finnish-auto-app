@@ -16,7 +16,7 @@ export default function LessonGuard() {
 
     async function checkAccess() {
       try {
-        // 1. Получаем данные урока, чтобы узнать, премиум он или нет
+        // 1. Load lesson to check if premium
         const ref = doc(db, "lessons", lessonId);
         const snap = await getDoc(ref);
 
@@ -28,7 +28,7 @@ export default function LessonGuard() {
 
         const lesson = snap.data();
 
-        // 2. Если урок премиум и нет подписки -> запретить
+        // 2. Premium lesson without subscription -> deny
         if (lesson.premium && !hasSubscription) {
           setError("Этот урок доступен только по подписке");
           setIsAllowed(false);
@@ -38,7 +38,7 @@ export default function LessonGuard() {
       } catch (e) {
         console.error(e);
         setError("Ошибка проверки доступа");
-        setIsAllowed(false); // На всякий случай блокируем при ошибке
+        setIsAllowed(false); // Block on error as fallback
       }
     }
 
@@ -79,7 +79,7 @@ export default function LessonGuard() {
     );
   }
 
-  // Если доступ разрешен, рендерим дочерние маршруты
+  // Allowed — render child routes
   return <Outlet />;
 }
 

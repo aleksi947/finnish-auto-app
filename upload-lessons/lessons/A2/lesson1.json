@@ -2602,233 +2602,2568 @@
     }
   ],
   "listening": {
-    "audioUrl": "",
-    "tasks": []
+    "tasks": [
+      {
+        "id": "a2-1-mc-ex1",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A2-1/listening/ex1/Me_saavuimme_lauantaina.mp3",
+            "options": [
+              "Me saavuimme lauantaina",
+              "Me saavuin lauantaina",
+              "Me saavuimme lauantainaissa"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex1/Viikonloppuna_me_uimme_paljon_meressä.mp3",
+            "options": [
+              "Viikonloppuna me uimme paljon meressä",
+              "Viikonloppuna me ui paljon meressä",
+              "Viikonloppuna me uimme paljon meresta"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex1/Viikonloppuna_me_otimme_aurinkoa_rannalla.mp3",
+            "options": [
+              "Viikonloppuna me otimme aurinkoa rannalla",
+              "Viikonloppuna me otti aurinkoa rannalla",
+              "Viikonloppuna me otimme aurinkoa rannassa"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex1/Maanantaina_me_ajoimme_vuokra-autolla_toiseen_kylään.mp3",
+            "options": [
+              "Maanantaina me ajoimme vuokra-autossa toiseen kylään",
+              "Maanantaina me ajoi vuokra-autolla toiseen kylään",
+              "Maanantaina me ajoimme vuokra-autolla toiseen kylään"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex1/Siellä_me_söimme_pienessä_ravintolassa_meren_rannalla.mp3",
+            "options": [
+              "Siellä me söimme pienessä ravintolassa meren rannassa",
+              "Siellä me söimme pienessa ravintolassa meren rannalla",
+              "Siellä me söimme pienessä ravintolassa meren rannalla"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex1/Me_näimme_myös_kuuluisat_vesiputoukset.mp3",
+            "options": [
+              "Me näimme myös kuuluiset vesiputoukset",
+              "Me näki myös kuuluisat vesiputoukset",
+              "Me näimme myös kuuluisat vesiputoukset"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex1/Eilen_he_halusivat_mennä_veneretkelle.mp3",
+            "options": [
+              "Eilen he halusi mennä veneretkelle",
+              "Eilen he halusivat mennä veneretkella",
+              "Eilen he halusivat mennä veneretkelle"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex1/Minä_jäin_hotelliin.mp3",
+            "options": [
+              "Minä jäi hotelliin",
+              "Minä jäin hotelliin",
+              "Minä jäin hotellissa"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex1/Me_löysimme_rantakadulta_kivan_kahvilan.mp3",
+            "options": [
+              "Me löysi rantakadulta kivan kahvilan",
+              "Me löysimme rantakadulla kivan kahvilan",
+              "Me löysimme rantakadulta kivan kahvilan"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex1/Me_söimme_siellä_isot_jäätelöannokset.mp3",
+            "options": [
+              "Me söimme siellä isossa jäätelöannokset",
+              "Me söi siellä isot jäätelöannokset",
+              "Me söimme siellä isot jäätelöannokset"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "a2-1-mc-ex2",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A2-1/listening/ex2/Minä_asuin_pienessä_asunnossa.mp3",
+            "options": [
+              "Minä asuin pienessä asunnosta",
+              "Minä asuin pienessa asunnossa",
+              "Minä asuin pienessä asunnossa"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex2/Minä_kerroin_tarinan.mp3",
+            "options": [
+              "Minä kerroin tarinasta",
+              "Minä kertoi tarinan",
+              "Minä kerroin tarinan"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex2/Minä_soitin_ystävälle.mp3",
+            "options": [
+              "Minä soitti ystävälle",
+              "Minä soitin ystävälle",
+              "Minä soitin ystävän"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex2/Minä_itkin_illalla.mp3",
+            "options": [
+              "Minä itkin illalla",
+              "Minä itki illalla",
+              "Minä itkin illassa"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex2/Minä_nukuin_hyvin.mp3",
+            "options": [
+              "Minä nukuin hyviä",
+              "Minä nukuin hyvin",
+              "Minä nukkui hyvin"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex2/Minä_kirjoitin_kirjeen.mp3",
+            "options": [
+              "Minä kirjoitin kirjeessä",
+              "Minä kirjoitin kirjeen",
+              "Minä kirjoitti kirjeen"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex2/Minä_leivoin_kakun.mp3",
+            "options": [
+              "Minä leivoin kakun",
+              "Minä leivoin kakussa",
+              "Minä leipoi kakun"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex2/Minä_uin_järvessä.mp3",
+            "options": [
+              "Minä uin järvessä",
+              "Minä uin järvessa",
+              "Minä ui järvessä"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex2/Minä_kävelin_puistossa.mp3",
+            "options": [
+              "Minä kävelin puistossa",
+              "Minä käveli puistossa",
+              "Minä kävelin puistosta"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex2/Minä_istuin_tuolilla.mp3",
+            "options": [
+              "Minä istuin tuolilla",
+              "Minä istuin tuolissa",
+              "Minä istui tuolilla"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "a2-1-mc-ex3",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A2-1/listening/ex3/Minä_pesin_astiat.mp3",
+            "options": [
+              "Minä pesin astiat",
+              "Minä pesi astiat",
+              "Minä pesin astioita"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex3/Minä_tupakoin_parvekkeella.mp3",
+            "options": [
+              "Minä tupakoi parvekkeella",
+              "Minä tupakoin parvekkeella",
+              "Minä tupakoin parvekkeessa"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex3/Minä_uskoin_ystävää.mp3",
+            "options": [
+              "Minä uskoin ystävälle",
+              "Minä uskoin ystävää",
+              "Minä uskon ystävää"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex3/Minä_pystyin_auttamaan.mp3",
+            "options": [
+              "Minä pystyi auttamaan",
+              "Minä pystyin auttamaanissa",
+              "Minä pystyin auttamaan"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex3/Minä_matkustin_junalla.mp3",
+            "options": [
+              "Minä matkustin junalla",
+              "Minä matkustin junassa",
+              "Minä matkusti junalla"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex3/Minä_ammuin_metsässä.mp3",
+            "options": [
+              "Minä ampui metsässä",
+              "Minä ammuin metsässä",
+              "Minä ammuin metsässa"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex3/Minä_leikin_kotona.mp3",
+            "options": [
+              "Minä leikin kodissa",
+              "Minä leikin kotona",
+              "Minä leikki kotona"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex3/Minä_urheilin_eilen.mp3",
+            "options": [
+              "Minä urheilin eilessä",
+              "Minä urheili eilen",
+              "Minä urheilin eilen"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex3/Minä_maksoin_kaupassa.mp3",
+            "options": [
+              "Minä maksoin kaupassa",
+              "Minä maksoi kaupassa",
+              "Minä maksoin kaupasta"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex3/Minä_nauroin_kovaa.mp3",
+            "options": [
+              "Minä nauroi kovaa",
+              "Minä nauroin kovaa",
+              "Minä nauroin kova"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": "a2-1-mc-ex4",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A2-1/listening/ex4/Minä_kannoin_laukkua.mp3",
+            "options": [
+              "Minä kannoin laukku",
+              "Minä kannoin laukkua",
+              "Minä kantoi laukkua"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex4/Minä_ratsastin_hevosella.mp3",
+            "options": [
+              "Minä ratsastin hevosella",
+              "Minä ratsastin hevosessa",
+              "Minä ratsasti hevosella"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex4/Minä_annoin_kirjan_ystävälle.mp3",
+            "options": [
+              "Minä annoin kirjan ystävälle",
+              "Minä antoi kirjan ystävälle",
+              "Minä annoin kirja ystävälle"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex4/Minä_soitin_äidille.mp3",
+            "options": [
+              "Minä soitin äidille",
+              "Minä soitin äiti",
+              "Minä soitti äidille"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex4/Minä_autoin_ystävää.mp3",
+            "options": [
+              "Minä autoin ystävää",
+              "Minä autoin ystävälle",
+              "Minä auttoi ystävää"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex4/Minä_tarkastin_vastauksen.mp3",
+            "options": [
+              "Minä tarkasti vastauksen",
+              "Minä tarkastin vastauksen",
+              "Minä tarkastin vastauksessa"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex4/Minä_jäin_kotiin.mp3",
+            "options": [
+              "Minä jäi kotiin",
+              "Minä jäin kotiin",
+              "Minä jäin kotona"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex4/Minä_sain_kirjeen.mp3",
+            "options": [
+              "Minä sain kirjeen",
+              "Minä sain kirjeessä",
+              "Minä sai kirjeen"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex4/Minä_myin_auton.mp3",
+            "options": [
+              "Minä myin autossa",
+              "Minä myin auton",
+              "Minä myi auton"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex4/Minä_toin_laukun.mp3",
+            "options": [
+              "Minä toin laukussa",
+              "Minä toin laukun",
+              "Minä toi laukun"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": "a2-1-mc-ex5",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A2-1/listening/ex5/Minä_vein_kirjan_kirjastoon.mp3",
+            "options": [
+              "Minä vei kirjan kirjastoon",
+              "Minä vein kirjan kirjastossa",
+              "Minä vein kirjan kirjastoon"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex5/Minä_löin_palloa.mp3",
+            "options": [
+              "Minä löin palloa",
+              "Minä löin pallo",
+              "Minä löi palloa"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex5/Minä_tapasin_ystävän_kaupungissa.mp3",
+            "options": [
+              "Minä tapasin ystävää kaupungissa",
+              "Minä tapasin ystävän kaupungissa",
+              "Minä tapasi ystävän kaupungissa"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex5/Minä_tilasin_pitsan.mp3",
+            "options": [
+              "Minä tilasi pitsan",
+              "Minä tilasin pitsaa",
+              "Minä tilasin pitsan"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex5/Minä_avasin_oven.mp3",
+            "options": [
+              "Minä avasin ovessa",
+              "Minä avasin oven",
+              "Minä avasi oven"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex5/Minä_pelasin_jalkapalloa.mp3",
+            "options": [
+              "Minä pelasin jalkapallo",
+              "Minä pelasin jalkapalloa",
+              "Minä pelasi jalkapalloa"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex5/Minä_ymmärsin_kaiken.mp3",
+            "options": [
+              "Minä ymmärsin kaikessa",
+              "Minä ymmärsi kaiken",
+              "Minä ymmärsin kaiken"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex5/Minä_lensin_Suomeen.mp3",
+            "options": [
+              "Minä lensin Suomeen",
+              "Minä lensin Suomessa",
+              "Minä lensi Suomeen"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex5/Minä_pyysin_appelsiinimehua.mp3",
+            "options": [
+              "Minä pyysi appelsiinimehua",
+              "Minä pyysin appelsiinimehua",
+              "Minä pyysin appelsiinimehussa"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex5/Minä_rakensin_pienen_talon.mp3",
+            "options": [
+              "Minä rakensin pienessä talon",
+              "Minä rakensi pienen talon",
+              "Minä rakensin pienen talon"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "a2-1-mc-ex6",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A2-1/listening/ex6/Me_asuimme_Suomessa.mp3",
+            "options": [
+              "Me asui Suomessa",
+              "Me asuimme Suomessa",
+              "Me asuimme Suomeen"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex6/Sinä_annoit_kirjan_ystävälle.mp3",
+            "options": [
+              "Sinä annoit kirja ystävälle",
+              "Sinä antoi kirjan ystävälle",
+              "Sinä annoit kirjan ystävälle"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex6/Sinä_itkit_eilen.mp3",
+            "options": [
+              "Sinä itki eilen",
+              "Sinä itkit eilessä",
+              "Sinä itkit eilen"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex6/Te_soititte_ystävälle.mp3",
+            "options": [
+              "Te soititte ystävän",
+              "Te soititte ystävälle",
+              "Te soitti ystävälle"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex6/Hän_uskoi_ystävää.mp3",
+            "options": [
+              "Hän uskoi ystävää",
+              "Hän uskoivat ystävää",
+              "Hän uskoi ystävälle"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex6/Minä_pidin_kirjaa_kädessä.mp3",
+            "options": [
+              "Minä pidin kirjaa kädessa",
+              "Minä piti kirjaa kädessä",
+              "Minä pidin kirjaa kädessä"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex6/Me_eksyimme_kaupungissa.mp3",
+            "options": [
+              "Me eksyi kaupungissa",
+              "Me eksyimme kaupungissa",
+              "Me eksyimme kaupungista"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex6/Hän_auttoi_ystävää.mp3",
+            "options": [
+              "Hän autoin ystävää",
+              "Hän auttoi ystävää",
+              "Hän auttoi ystävälle"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex6/Sinä_myit_polkupyörän.mp3",
+            "options": [
+              "Sinä myit polkupyörän",
+              "Sinä myit polkupyörässä",
+              "Sinä myi polkupyörän"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex6/He_veivät_laukut_kotiin.mp3",
+            "options": [
+              "He vei laukut kotiin",
+              "He veivät laukut kotona",
+              "He veivät laukut kotiin"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "a2-1-mc-ex7",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A2-1/listening/ex7/Me_opimme_paljon.mp3",
+            "options": [
+              "Me opimme paljon",
+              "Me oppi paljon",
+              "Me opimme paljo"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex7/Te_saitte_kirjeen.mp3",
+            "options": [
+              "Te sai kirjeen",
+              "Te saitte kirjeessä",
+              "Te saitte kirjeen"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex7/Minä_menin_kotiin.mp3",
+            "options": [
+              "Minä menin kotiin",
+              "Minä menin kotona",
+              "Minä meni kotiin"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex7/Hän_heräsi_aikaisin.mp3",
+            "options": [
+              "Hän heräsi aikaisin",
+              "Hän heräsivät aikaisin",
+              "Hän heräsi aikaisiin"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex7/Me_asuimme_pienessä_kaupungissa.mp3",
+            "options": [
+              "Me asuimme pienessä kaupungista",
+              "Me asuimme pienessa kaupungissa",
+              "Me asuimme pienessä kaupungissa"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex7/Sinä_annoit_rahat_ystävälle.mp3",
+            "options": [
+              "Sinä annoit rahat ystävän",
+              "Sinä antoi rahat ystävälle",
+              "Sinä annoit rahat ystävälle"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex7/Sinä_itkit_yöllä.mp3",
+            "options": [
+              "Sinä itkit yöllä",
+              "Sinä itkit yössä",
+              "Sinä itki yöllä"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex7/Te_soititte_äidille.mp3",
+            "options": [
+              "Te soitti äidille",
+              "Te soititte äiti",
+              "Te soititte äidille"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex7/Hän_uskoi_opettajaa.mp3",
+            "options": [
+              "Hän uskoivat opettajaa",
+              "Hän uskoi opettajaa",
+              "Hän uskoi opettajalle"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex7/Minä_pidin_lasta_kädestä.mp3",
+            "options": [
+              "Minä pidin lasta kädestä",
+              "Minä pidin lasta kädessä",
+              "Minä piti lasta kädestä"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "a2-1-mc-ex8",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A2-1/listening/ex8/Me_eksyimme_metsässä.mp3",
+            "options": [
+              "Me eksyi metsässä",
+              "Me eksyimme metsässä",
+              "Me eksyimme metsässa"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex8/Hän_auttoi_naapuria.mp3",
+            "options": [
+              "Hän auttoi naapurille",
+              "Hän autoin naapuria",
+              "Hän auttoi naapuria"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex8/Sinä_myit_talon.mp3",
+            "options": [
+              "Sinä myi talon",
+              "Sinä myit talossa",
+              "Sinä myit talon"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex8/He_veivät_lapset_kouluun.mp3",
+            "options": [
+              "He vei lapset kouluun",
+              "He veivät lapset kouluun",
+              "He veivät lapset koulussa"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex8/Me_opimme_uuden_sanan.mp3",
+            "options": [
+              "Me opimme uusi sanan",
+              "Me oppi uuden sanan",
+              "Me opimme uuden sanan"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex8/Te_saitte_viestin.mp3",
+            "options": [
+              "Te saitte viestin",
+              "Te sai viestin",
+              "Te saitte viestissä"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex8/Minä_menin_kauppaan.mp3",
+            "options": [
+              "Minä menin kauppaan",
+              "Minä menin kaupassa",
+              "Minä meni kauppaan"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex8/Hän_heräsi_myöhään.mp3",
+            "options": [
+              "Hän heräsi myöhassa",
+              "Hän heräsivät myöhään",
+              "Hän heräsi myöhään"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex8/Me_halusimme_lähteä_matkalle_jouluna.mp3",
+            "options": [
+              "Me halusimme lähteä matkalle jouluna",
+              "Me halusi lähteä matkalle jouluna",
+              "Me halusimme lähteä matkalla jouluna"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex8/Lomalla_minä_matkustin_Saksaan.mp3",
+            "options": [
+              "Lomalla minä matkusti Saksaan",
+              "Lomalla minä matkustin Saksassa",
+              "Lomalla minä matkustin Saksaan"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "a2-1-mc-ex9",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A2-1/listening/ex9/Minä_lähdin_Saksaan_sunnuntaina.mp3",
+            "options": [
+              "Minä lähdin Saksassa sunnuntaina",
+              "Minä lähti Saksaan sunnuntaina",
+              "Minä lähdin Saksaan sunnuntaina"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex9/Ensin_minä_ajoin_autolla_Helsingistä_erääseen_kaupunkiin.mp3",
+            "options": [
+              "Ensin minä ajoin autolla Helsingissä erääseen kaupunkiin",
+              "Ensin minä ajoi autolla Helsingistä erääseen kaupunkiin",
+              "Ensin minä ajoin autolla Helsingistä erääseen kaupunkiin"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex9/Sitten_minä_menin_sieltä_laivalla_Saksaan.mp3",
+            "options": [
+              "Sitten minä menin sieltä laivalla Saksaan",
+              "Sitten minä meni sieltä laivalla Saksaan",
+              "Sitten minä menin siellä laivalla Saksaan"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex9/Laivalla_matkustaminen_oli_helppoa.mp3",
+            "options": [
+              "Laivalla matkustaminen oli helppoa",
+              "Laivalla matkustaminen oli helppo",
+              "Laivalla matkustaminen oli helppossa"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex9/Laiva_odotti_satamassa.mp3",
+            "options": [
+              "Laiva odotti satamassa",
+              "Laiva odotti satamasta",
+              "Laiva odotan satamassa"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex9/Minä_ajoin_auton_laivaan.mp3",
+            "options": [
+              "Minä ajoi auton laivaan",
+              "Minä ajoin auton laivassa",
+              "Minä ajoin auton laivaan"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex9/Sitten_minä_kävelin_hyttiin.mp3",
+            "options": [
+              "Sitten minä kävelin hytissä",
+              "Sitten minä kävelin hyttiin",
+              "Sitten minä käveli hyttiin"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex9/Minä_kävin_laivan_ravintolassa_syömässä.mp3",
+            "options": [
+              "Minä kävi laivan ravintolassa syömässä",
+              "Minä kävin laivan ravintolassa syömässä",
+              "Minä kävin laivan ravintolasta syömässä"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex9/Minä_katsoin_ikkunasta_merta.mp3",
+            "options": [
+              "Minä katsoin ikkunasta merta",
+              "Minä katsoin ikkunassa merta",
+              "Minä katsoi ikkunasta merta"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex9/Minä_nukuin_hyvin_hytissä.mp3",
+            "options": [
+              "Minä nukuin hyvin hyttiin",
+              "Minä nukkui hyvin hytissä",
+              "Minä nukuin hyvin hytissä"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "a2-1-mc-ex10",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A2-1/listening/ex10/Seuraavana_päivänä_minä_saavuin_erääseen_kaupunkiin_Saksassa.mp3",
+            "options": [
+              "Seuraavana päivänä minä saavuimme erääseen kaupunkiin Saksassa",
+              "Seuraavana päivänä minä saavuin erääseen kaupunkiin Saksaan",
+              "Seuraavana päivänä minä saavuin erääseen kaupunkiin Saksassa"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex10/Saksassa_minä_olin_neljä_viikkoa.mp3",
+            "options": [
+              "Saksassa minä oli neljä viikkoa",
+              "Saksassa minä olin neljä viikossa",
+              "Saksassa minä olin neljä viikkoa"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex10/Minä_tarvitsin_pari_päivää.mp3",
+            "options": [
+              "Minä tarvitsin pari päivää",
+              "Minä tarvitsi pari päivää",
+              "Minä tarvitsin pari päivässä"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex10/Sitten_minä_muistin_taas_saksan_kielen.mp3",
+            "options": [
+              "Sitten minä muisti taas saksan kielen",
+              "Sitten minä muistin taas saksan kielen",
+              "Sitten minä muistin taas saksan kieli"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex10/Minä_asuin_eräässä_kaupungissa_ystävän_luona.mp3",
+            "options": [
+              "Minä asui eräässä kaupungissa ystävän luona",
+              "Minä asuin eräässä kaupungissa ystävän luona",
+              "Minä asuin eräässä kaupungissa ystävän luo"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex10/Minä_luin_paljon.mp3",
+            "options": [
+              "Minä luki paljon",
+              "Minä luin paljossa",
+              "Minä luin paljon"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex10/Minä_tapasin_ystäviä.mp3",
+            "options": [
+              "Minä tapasin ystäviä",
+              "Minä tapasi ystäviä",
+              "Minä tapasin ystävät"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex10/Minä_katselin_kaupunkia.mp3",
+            "options": [
+              "Minä katselin kaupungissa",
+              "Minä katseli kaupunkia",
+              "Minä katselin kaupunkia"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex10/Minä_urheilin_myös_vähän.mp3",
+            "options": [
+              "Minä urheilin myös vähän",
+              "Minä urheili myös vähän",
+              "Minä urheilin myös vähä"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex10/Minä_pelasin_tennistä_ystävän_kanssa.mp3",
+            "options": [
+              "Minä pelasin tennistä ystävän kanssa",
+              "Minä pelasi tennistä ystävän kanssa",
+              "Minä pelasin tennistä ystävän kansa"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "a2-1-mc-ex11",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A2-1/listening/ex11/Minä_lenkkeilin.mp3",
+            "options": [
+              "Minä lenkkeilinssä",
+              "Minä lenkkeilin",
+              "Minä lenkkeili"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex11/Yhtenä_viikonloppuna_minä_halusin_myös_matkustaa_erääseen_kaupunkiin_junalla.mp3",
+            "options": [
+              "Yhtenä viikonloppuna minä halusi myös matkustaa erääseen kaupunkiin junalla",
+              "Yhtenä viikonloppuna minä halusin myös matkustaa eräässä kaupunkiin junalla",
+              "Yhtenä viikonloppuna minä halusin myös matkustaa erääseen kaupunkiin junalla"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex11/Mutta_minä_päätin_kuitenkin_lähteä_ystävän_kanssa_toiseen_kaupunkiin.mp3",
+            "options": [
+              "Mutta minä päätin kuitenkin lähteä ystävän kanssa toisessa kaupunkiin",
+              "Mutta minä päätin kuitenkin lähteä ystävän kanssa toiseen kaupunkiin",
+              "Mutta minä päätti kuitenkin lähteä ystävän kanssa toiseen kaupunkiin"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex11/Minä_palasin_Suomeen_hyvän_loman_jälkeen.mp3",
+            "options": [
+              "Minä palasi Suomeen hyvän loman jälkeen",
+              "Minä palasin Suomessa hyvän loman jälkeen",
+              "Minä palasin Suomeen hyvän loman jälkeen"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex11/Oli_mukavaa_olla_taas_kotona.mp3",
+            "options": [
+              "Oli mukavaa olla taas kotona",
+              "Oli mukavaa olla taas kodissa",
+              "Oli mukava olla taas kotona"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex11/Hän_lähti_aikaisin_aamulla.mp3",
+            "options": [
+              "Hän lähti aikaisin aamulla",
+              "Hän lähtivät aikaisin aamulla",
+              "Hän lähti aikaisiin aamulla"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex11/Hän_pakkasi_matkalaukun.mp3",
+            "options": [
+              "Hän pakkasi matkalaukussa",
+              "Hän pakkaisi matkalaukun",
+              "Hän pakkasi matkalaukun"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex11/Hän_heräsi_kuudelta.mp3",
+            "options": [
+              "Hän heräsi kuudelta",
+              "Hän heräsivät kuudelta",
+              "Hän heräsi kuudessa"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex11/Päivä_oli_hyvä.mp3",
+            "options": ["Päivä oli hyva", "Päivä oli hyvä", "Päivä oli hyvää"],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex11/Hän_kävi_kaupassa.mp3",
+            "options": [
+              "Hän kävi kaupasta",
+              "Hän kävin kaupassa",
+              "Hän kävi kaupassa"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "a2-1-mc-ex12",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A2-1/listening/ex12/Hän_söi_ravintolassa.mp3",
+            "options": [
+              "Hän söin ravintolassa",
+              "Hän söi ravintolasta",
+              "Hän söi ravintolassa"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex12/Hän_tilasi_kahvin.mp3",
+            "options": [
+              "Hän tilaan kahvin",
+              "Hän tilasi kahvin",
+              "Hän tilasi kahvia"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex12/Hän_ajoi_töihin.mp3",
+            "options": [
+              "Hän ajoi töihin",
+              "Hän ajoi työssä",
+              "Hän ajoivat töihin"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex12/He_joivat_vettä.mp3",
+            "options": ["He joi vettä", "He joivat vesi", "He joivat vettä"],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex12/Hän_luki_kirjaa.mp3",
+            "options": [
+              "Hän luin kirjaa",
+              "Hän luki kirjan",
+              "Hän luki kirjaa"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex12/He_odottivat_bussia.mp3",
+            "options": [
+              "He odotti bussia",
+              "He odottivat bussissa",
+              "He odottivat bussia"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex12/He_veivät_lapset_päiväkotiin.mp3",
+            "options": [
+              "He veivät lapset päiväkotiin",
+              "He vei lapset päiväkotiin",
+              "He veivät lapset päiväkodissa"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex12/Hän_tapasi_ystävän.mp3",
+            "options": [
+              "Hän tapasivat ystävän",
+              "Hän tapasi ystävää",
+              "Hän tapasi ystävän"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex12/He_keskustelivat_pitkään.mp3",
+            "options": [
+              "He keskustelivat pitkään",
+              "He keskustelivat pitkä",
+              "He keskusteli pitkään"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex12/He_puhuivat_suomea.mp3",
+            "options": [
+              "He puhuivat suomea",
+              "He puhuivat suomi",
+              "He puhui suomea"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "a2-1-mc-ex13",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A2-1/listening/ex13/Hän_lensi_Ruotsiin.mp3",
+            "options": [
+              "Hän lensin Ruotsiin",
+              "Hän lensi Ruotsissa",
+              "Hän lensi Ruotsiin"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex13/Hän_tuli_kotiin_myöhään.mp3",
+            "options": [
+              "Hän tuli kotiin myöhään",
+              "Hän tuli kotona myöhään",
+              "Hän tulivat kotiin myöhään"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex13/Lomalla_on_hauskaa_ja_rentouttavaa.mp3",
+            "options": [
+              "Lomalla on hauska ja rentouttava",
+              "Lomalla on hauskassa ja rentouttavaa",
+              "Lomalla on hauskaa ja rentouttavaa"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex13/Tehdään_harjoitus.mp3",
+            "options": [
+              "Tehdään harjoituksessa",
+              "Tehdään harjoitus",
+              "Tehdään harjoitusta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex13/Mennään_elokuviin.mp3",
+            "options": [
+              "Mennään elokuviin",
+              "Mennään elokuvissa",
+              "Menee elokuviin"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex13/Kokouksessa_oli_paljon_ihmisiä.mp3",
+            "options": [
+              "Kokouksessa oli paljon ihmiset",
+              "Kokouksessa oli paljo ihmisiä",
+              "Kokouksessa oli paljon ihmisiä"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex13/Yrityksessä_työskenteli_sata_ihmistä.mp3",
+            "options": [
+              "Yrityksessä työskenteli sata ihmistä",
+              "Yrityksessä työskentelivät sata ihmistä",
+              "Yrityksessä työskenteli sataa ihmistä"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex13/Kuljetus_oli_kallis.mp3",
+            "options": [
+              "Kuljetus oli kallista",
+              "Kuljetus oli kallis",
+              "Kuljetus oli kalliissa"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex13/Rakennuksessa_oli_hiljaista.mp3",
+            "options": [
+              "Rakennuksessa oli hiljainen",
+              "Rakennuksessa oli hiljaista",
+              "Rakennuksessa oli hiljassa"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex13/Kerroksessa_oli_keittiö.mp3",
+            "options": [
+              "Kerroksessa oli keittio",
+              "Kerroksessa oli keittiössä",
+              "Kerroksessa oli keittiö"
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "id": "a2-1-mc-ex14",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A2-1/listening/ex14/Kauppakeskuksessa_oli_paljon_kauppoja.mp3",
+            "options": [
+              "Kauppakeskuksessa oli paljon kaupassa",
+              "Kauppakeskuksessa oli paljo kauppoja",
+              "Kauppakeskuksessa oli paljon kauppoja"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex14/Minä_söin_annoksen_keittoa.mp3",
+            "options": [
+              "Minä söin annos keittoa",
+              "Minä söin annoksen keittoa",
+              "Minä söi annoksen keittoa"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex14/Vihannekset_olivat_tuoreita.mp3",
+            "options": [
+              "Vihannekset olivat tuoreissa",
+              "Vihannekset olivat tuoreita",
+              "Vihannekset oli tuoreita"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex14/Juurekset_olivat_halpoja.mp3",
+            "options": [
+              "Juurekset olivat halpoja",
+              "Juurekset oli halpoja",
+              "Juurekset olivat halvassa"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex14/Yllätys_oli_mukava.mp3",
+            "options": [
+              "Yllätys oli mukava",
+              "Yllätys oli mukavaa",
+              "Yllätys oli mukavassa"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex14/Minä_olin_kaksikymmentävuotias.mp3",
+            "options": [
+              "Minä oli kaksikymmentävuotias",
+              "Minä olin kaksikymmentävuotiaassa",
+              "Minä olin kaksikymmentävuotias"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex14/Vieraat_tulivat_ajoissa.mp3",
+            "options": [
+              "Vieraat tulivat ajossa",
+              "Vieraat tuli ajoissa",
+              "Vieraat tulivat ajoissa"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex14/Olohuoneessa_oli_lämmintä.mp3",
+            "options": [
+              "Olohuoneessa oli lämmin",
+              "Olohuoneessa oli lämminta",
+              "Olohuoneessa oli lämmintä"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex14/Vuorella_oli_lunta.mp3",
+            "options": [
+              "Vuorella oli lunnassa",
+              "Vuorella oli lumi",
+              "Vuorella oli lunta"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex14/Lehdet_olivat_keltaisia.mp3",
+            "options": [
+              "Lehdet olivat keltaisia",
+              "Lehdet oli keltaisia",
+              "Lehdet olivat keltaisissa"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "a2-1-mc-ex15",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A2-1/listening/ex15/Eteisessä_oli_hiljaista.mp3",
+            "options": [
+              "Eteisessä oli hiljainen",
+              "Eteisessä oli hiljassa",
+              "Eteisessä oli hiljaista"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex15/Suuret_ikkunat_olivat_kauniit.mp3",
+            "options": [
+              "Suuret ikkunat olivat kaunista",
+              "Suuret ikkunat oli kauniit",
+              "Suuret ikkunat olivat kauniit"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex15/Valmiit_harjoitukset_olivat_helppoja.mp3",
+            "options": [
+              "Valmiit harjoitukset oli helppoja",
+              "Valmiit harjoitukset olivat helpoissa",
+              "Valmiit harjoitukset olivat helppoja"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex15/Vettä_oli_vähän.mp3",
+            "options": [
+              "Vettä oli vähän",
+              "Vettä oli vähässä",
+              "Vesi oli vähän"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex15/Ovella_seisoi_mies.mp3",
+            "options": [
+              "Ovella seisovat mies",
+              "Ovella seisoi mies",
+              "Ovessa seisoi mies"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex15/Onnea_oli_paljon.mp3",
+            "options": [
+              "Onnea oli paljon",
+              "Onnea oli paljo",
+              "Onni oli paljon"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex15/Puhelin_soi_pitkään.mp3",
+            "options": [
+              "Puhelin soivat pitkään",
+              "Puhelin soi pitkä",
+              "Puhelin soi pitkään"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex15/Tänään_minulla_oli_ihan_tavallinen_työpäivä.mp3",
+            "options": [
+              "Tänään minulla oli ihan tavallinen työpäivässä",
+              "Tänään minulla oli ihan tavallinen työpäivä",
+              "Tänään minulla oli ihan tavallisessa työpäivä"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex15/Voi!_Loma_loppuu_kohta.mp3",
+            "options": [
+              "Voi! Loma loppuu kohta",
+              "Voi! Loma loppuu kohda",
+              "Voi! Loma loppu kohta"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex15/Enää_kaksi_päivää.mp3",
+            "options": [
+              "Enää kaksi päivää",
+              "Enää kahdet päivää",
+              "Enää kaksi päivä"
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "id": "a2-1-mc-ex16",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A2-1/listening/ex16/Mitä?_Sehän_on_melkein_sata_astetta.mp3",
+            "options": [
+              "Mitä? Sehän on melkein sataa astetta",
+              "Mitä? Sehän on melkein sata asteessa",
+              "Mitä? Sehän on melkein sata astetta"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex16/Ei_vielä.mp3",
+            "options": ["Ei vielä", "En vielä", "Ei vielässä"],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex16/Hän_tulee_vasta_myöhään_illalla.mp3",
+            "options": [
+              "Hän tulee vasta myöhään illassa",
+              "Hän tulen vasta myöhään illalla",
+              "Hän tulee vasta myöhään illalla"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex16/Koska_hän_haluaa_tehdä_kaiken_itse.mp3",
+            "options": [
+              "Koska hän haluaa tehdä kaiken itse",
+              "Koska hän haluaa tehdä kaikki itse",
+              "Koska hän haluavat tehdä kaiken itse"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex16/Merivesi_on_toukokuussa_aika_kylmää.mp3",
+            "options": [
+              "Merivesi on toukokuussa aika kylmää",
+              "Merivesi on toukokuussa aika kylmä",
+              "Merivesi on toukokuussaissa aika kylmää"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex16/Mutta_kuitenkin_monet_ihmiset_uivat_meressä.mp3",
+            "options": [
+              "Mutta kuitenkin monet ihmiset ui meressä",
+              "Mutta kuitenkin monet ihmiset uivat meressä",
+              "Mutta kuitenkin monet ihmiset uivat meresta"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex16/Minä_yritän_soittaa_ystävälle.mp3",
+            "options": [
+              "Minä yritän soittaa ystävän",
+              "Minä yrittää soittaa ystävälle",
+              "Minä yritän soittaa ystävälle"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex16/Mutta_hänen_puhelin_on_koko_ajan_varattu.mp3",
+            "options": [
+              "Mutta hänen puhelin on koko ajan varattu",
+              "Mutta hänen puhelin on koko ajan varattuna",
+              "Mutta hänen puhelimensa on koko ajan varattu"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex16/Joten_minä_olen_kotona_varmaan_puoli_kymmeneltä.mp3",
+            "options": [
+              "Joten minä olen kotona varmaan puoli kymmeneltä",
+              "Joten minä olen kotona varmaan puolessa kymmeneltä",
+              "Joten minä olen kotiin varmaan puoli kymmeneltä"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex16/Itse_asiassa_sinä_voit_tuoda_auton_minun_autotalliin.mp3",
+            "options": [
+              "Itse asiassa sinä voi tuoda auton minun autotalliin",
+              "Itse asiassa sinä voit tuoda auton minun autotalliin",
+              "Itse asiassa sinä voit tuoda auton minun autotallissa"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": "a2-1-mc-ex17",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A2-1/listening/ex17/Niin_me_teemme_työt_siellä.mp3",
+            "options": [
+              "Niin me tekee työt siellä",
+              "Niin me teemme työt siellässä",
+              "Niin me teemme työt siellä"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex17/Viime_vuonna_minä_asuin_vielä_Bulgariassa.mp3",
+            "options": [
+              "Viime vuonna minä asuin vielä Bulgariassa",
+              "Viime vuonna minä asuin vielä Bulgariasta",
+              "Viime vuonna minä asui vielä Bulgariassa"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex17/Viime_talvena_minä_muutin_perheeni_kanssa_Suomeen.mp3",
+            "options": [
+              "Viime talvena minä muutin perheeni kanssa Suomeen",
+              "Viime talvena minä muutin perheeni kanssa Suomessa",
+              "Viime talvena minä muuti perheeni kanssa Suomeen"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex17/Minä_löysin_työpaikan_suomalaisessa_yrityksessä.mp3",
+            "options": [
+              "Minä löysin työpaikan suomalaisessa yrityksessa",
+              "Minä löysi työpaikan suomalaisessa yrityksessä",
+              "Minä löysin työpaikan suomalaisessa yrityksessä"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex17/Minun_vaimo_alkoi_heti_opiskella_suomen_kieltä_kurssilla.mp3",
+            "options": [
+              "Minun vaimo alkoi heti opiskella suomen kieltä kurssilla",
+              "Minun vaimo alkoi heti opiskella suomen kieli kurssilla",
+              "Minun vaimo alkoivat heti opiskella suomen kieltä kurssilla"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex17/Keväällä_lapset_menivät_suomalaiseen_päiväkotiin.mp3",
+            "options": [
+              "Keväällä lapset menivät suomalaisessa päiväkotiin",
+              "Keväällä lapset menivät suomalaiseen päiväkotiin",
+              "Keväällä lapset meni suomalaiseen päiväkotiin"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex17/He_saivat_monta_suomalaista_ystävää.mp3",
+            "options": [
+              "He sai monta suomalaista ystävää",
+              "He saivat monta suomalaista ystävää",
+              "He saivat monta suomalainen ystävää"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex17/He_leikkivät_pihalla.mp3",
+            "options": [
+              "He leikkivät pihassa",
+              "He leikkivät pihalla",
+              "He leikki pihalla"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex17/Kesällä_vaimo_tapasi_mukavan_suomalaisen_naisen.mp3",
+            "options": [
+              "Kesällä vaimo tapasi mukava suomalaisen naisen",
+              "Kesällä vaimo tapasivat mukavan suomalaisen naisen",
+              "Kesällä vaimo tapasi mukavan suomalaisen naisen"
+            ],
+            "answer": 2
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex17/Ensin_me_puhuimme_hänen_kanssa_englantia.mp3",
+            "options": [
+              "Ensin me puhui hänen kanssa englantia",
+              "Ensin me puhuimme hänen kanssa englantia",
+              "Ensin me puhuimme hän kanssa englantia"
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "id": "a2-1-mc-ex18",
+        "type": "multiple-choice",
+        "title": "🔊 Kuuntele ja valitse oikea lause",
+        "questions": [
+          {
+            "audioUrl": "/audio/A2-1/listening/ex18/Mutta_nyt_me_puhumme_suomea.mp3",
+            "options": [
+              "Mutta nyt me puhumme suomea",
+              "Mutta nyt me puhuu suomea",
+              "Mutta nyt me puhumme suomi"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex18/Viime_elokuussa_hän_auttoi_meitä.mp3",
+            "options": [
+              "Viime elokuussa hän autoin meitä",
+              "Viime elokuussa hän auttoi meitä",
+              "Viime elokuussa hän auttoi meille"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex18/Silloin_me_halusimme_löytää_uuden_asunnon.mp3",
+            "options": [
+              "Silloin me halusi löytää uuden asunnon",
+              "Silloin me halusimme löytää uuden asunnon",
+              "Silloin me halusimme löytää uusi asunnon"
+            ],
+            "answer": 1
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex18/Viime_viikolla_vaimo_pääsi_työhön_postikeskukseen.mp3",
+            "options": [
+              "Viime viikolla vaimo pääsi työhön postikeskukseen",
+              "Viime viikolla vaimo pääsin työhön postikeskukseen",
+              "Viime viikolla vaimo pääsi työssä postikeskukseen"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex18/Nyt_me_voimme_jäädä_Suomeen.mp3",
+            "options": [
+              "Nyt me voimme jäädä Suomeen",
+              "Nyt me voimme jäädä Suomessa",
+              "Nyt me voi jäädä Suomeen"
+            ],
+            "answer": 0
+          },
+          {
+            "audioUrl": "/audio/A2-1/listening/ex18/Koska_vaimolla_ja_minulla_on_työpaikka.mp3",
+            "options": [
+              "Koska vaimolla ja minulla on työpaikassa",
+              "Koska vaimolla ja minulla on työpaikka",
+              "Koska vaimolla ja minulla ovat työpaikka"
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
   },
   "writing": [
     {
-      "id": "a2-2-write-ex2",
+      "id": "1",
       "type": "translation-sequence",
       "description": "✍️ Напишите фразы на финском.",
       "items": [
         {
-          "prompt": "Я сидел",
-          "answer": ["Minä istuin", "Istuin"]
+          "prompt": "Мы приехали в субботу.",
+          "answer": ["Me saavuimme lauantaina", "Saavuimme lauantaina"]
         },
         {
-          "prompt": "Я рассказал",
-          "answer": ["Minä kerroin", "Kerroin"]
+          "prompt": "В выходные мы много плавали в море.",
+          "answer": [
+            "Viikonloppuna me uimme paljon meressä",
+            "Viikonloppuna uimme paljon meressä"
+          ]
         },
         {
-          "prompt": "Я позвонил / играл (на инструменте)",
-          "answer": ["Minä soitin", "Soitin"]
+          "prompt": "В выходные мы загорали на пляже.",
+          "answer": [
+            "Viikonloppuna me otimme aurinkoa rannalla",
+            "Viikonloppuna otimme aurinkoa rannalla"
+          ]
         },
         {
-          "prompt": "Я плакал",
-          "answer": ["Minä itkin", "Itkin"]
+          "prompt": "В понедельник мы поехали на арендованной машине в другую деревню.",
+          "answer": [
+            "Maanantaina me ajoimme vuokra-autolla toiseen kylään",
+            "Maanantaina ajoimme vuokra-autolla toiseen kylään"
+          ]
         },
         {
-          "prompt": "Я спал",
-          "answer": ["Minä nukuin", "Nukuin"]
+          "prompt": "Там мы ели в маленьком ресторане у моря.",
+          "answer": [
+            "Siellä me söimme pienessä ravintolassa meren rannalla",
+            "Siellä söimme pienessä ravintolassa meren rannalla"
+          ]
         },
         {
-          "prompt": "Я писал",
-          "answer": ["Minä kirjoitin", "Kirjoitin"]
+          "prompt": "Мы также увидели знаменитые водопады.",
+          "answer": [
+            "Me näimme myös kuuluisat vesiputoukset",
+            "Näimme myös kuuluisat vesiputoukset"
+          ]
         },
         {
-          "prompt": "Я испёк",
-          "answer": ["Minä leivoin", "Leivoin"]
+          "prompt": "Вчера они хотели пойти на прогулку на лодке.",
+          "answer": ["Eilen he halusivat mennä veneretkelle"]
         },
         {
-          "prompt": "Я плавал",
-          "answer": ["Minä uin", "Uin"]
+          "prompt": "Я осталась в отеле.",
+          "answer": ["Minä jäin hotelliin", "Jäin hotelliin"]
         },
         {
-          "prompt": "Я гулял / ходил пешком",
-          "answer": ["Minä kävelin", "Kävelin"]
+          "prompt": "Мы нашли на набережной приятное кафе.",
+          "answer": [
+            "Me löysimme rantakadulta kivan kahvilan",
+            "Löysimme rantakadulta kivan kahvilan"
+          ]
         },
         {
-          "prompt": "Я мыл / помыл",
-          "answer": ["Minä pesin", "Pesin"]
+          "prompt": "Мы съели там большие порции мороженого.",
+          "answer": [
+            "Me söimme siellä isot jäätelöannokset",
+            "Söimme siellä isot jäätelöannokset"
+          ]
         },
         {
-          "prompt": "Я курил",
-          "answer": ["Minä tupakoin", "Tupakoin"]
+          "prompt": "Я жил в маленькой квартире.",
+          "answer": [
+            "Minä asuin pienessä asunnossa",
+            "Asuin pienessä asunnossa"
+          ]
         },
         {
-          "prompt": "Я верил",
-          "answer": ["Minä uskoin", "Uskoin"]
+          "prompt": "Я рассказал историю.",
+          "answer": ["Minä kerroin tarinan", "Kerroin tarinan"]
         },
         {
-          "prompt": "Я мог / чувствовал себя хорошо",
-          "answer": ["Minä voin", "Voin"]
+          "prompt": "Я позвонил другу.",
+          "answer": ["Minä soitin ystävälle", "Soitin ystävälle"]
         },
         {
-          "prompt": "Я путешествовал",
-          "answer": ["Minä matkustin", "Matkustin"]
+          "prompt": "Я плакал вечером.",
+          "answer": ["Minä itkin illalla", "Itkin illalla"]
         },
         {
-          "prompt": "Я стрелял",
-          "answer": ["Minä ammuin", "Ammuin"]
+          "prompt": "Я спал хорошо.",
+          "answer": ["Minä nukuin hyvin", "Nukuin hyvin"]
         },
         {
-          "prompt": "Я играл",
-          "answer": ["Minä leikin", "Leikin"]
+          "prompt": "Я написал письмо.",
+          "answer": ["Minä kirjoitin kirjeen", "Kirjoitin kirjeen"]
         },
         {
-          "prompt": "Я занимался спортом",
-          "answer": ["Minä urheilin", "Urheilin"]
+          "prompt": "Я испёк пирог.",
+          "answer": ["Minä leivoin kakun", "Leivoin kakun"]
         },
         {
-          "prompt": "Я заплатил",
-          "answer": ["Minä maksoin", "Maksoin"]
+          "prompt": "Я плавал в озере.",
+          "answer": ["Minä uin järvessä", "Uin järvessä"]
         },
         {
-          "prompt": "Я смеялся",
-          "answer": ["Minä nauroin", "Nauroin"]
+          "prompt": "Я гулял в парке.",
+          "answer": ["Minä kävelin puistossa", "Kävelin puistossa"]
         },
         {
-          "prompt": "Я нёс",
-          "answer": ["Minä kannoin", "Kannoin"]
-        },
-        {
-          "prompt": "Я ездил верхом",
-          "answer": ["Minä ratsastin", "Ratsastin"]
-        },
-        {
-          "prompt": "Я дал",
-          "answer": ["Minä annoin", "Annoin"]
-        },
-        {
-          "prompt": "Я позвонил / играл (на инструменте)",
-          "answer": ["Minä soitin", "Soitin"]
-        },
-        {
-          "prompt": "Я помог",
-          "answer": ["Minä autoin", "Autoin"]
-        },
-        {
-          "prompt": "Я проверил",
-          "answer": ["Minä tarkastin", "Tarkastin"]
-        },
-        {
-          "prompt": "Я остался",
-          "answer": ["Minä jäin", "Jäin"]
-        },
-        {
-          "prompt": "Я получил",
-          "answer": ["Minä sain", "Sain"]
-        },
-        {
-          "prompt": "Я продал",
-          "answer": ["Minä myin", "Myin"]
-        },
-        {
-          "prompt": "Я принёс",
-          "answer": ["Minä toin", "Toin"]
-        },
-        {
-          "prompt": "Я отнёс / отвёз",
-          "answer": ["Minä vein", "Vein"]
-        },
-        {
-          "prompt": "Я ударил",
-          "answer": ["Minä löin", "Löin"]
-        },
-        {
-          "prompt": "Я встретил",
-          "answer": ["Minä tapasin", "Tapasin"]
-        },
-        {
-          "prompt": "Я заказал",
-          "answer": ["Minä tilasin", "Tilasin"]
-        },
-        {
-          "prompt": "Я открыл",
-          "answer": ["Minä avasin", "Avasin"]
-        },
-        {
-          "prompt": "Я играл",
-          "answer": ["Minä pelasin", "Pelasin"]
-        },
-        {
-          "prompt": "Я понял",
-          "answer": ["Minä ymmärsin", "Ymmärsin"]
-        },
-        {
-          "prompt": "Я летел",
-          "answer": ["Minä lensin", "Lensin"]
-        },
-        {
-          "prompt": "Я попросил",
-          "answer": ["Minä pyysin", "Pyysin"]
-        },
-        {
-          "prompt": "Я построил",
-          "answer": ["Minä rakensin", "Rakensin"]
+          "prompt": "Я сидел на стуле.",
+          "answer": ["Minä istuin tuolilla", "Istuin tuolilla"]
         }
       ]
     },
     {
-      "id": "a2-2-write-ex3",
+      "id": "2",
       "type": "translation-sequence",
       "description": "✍️ Напишите фразы на финском.",
       "items": [
         {
-          "prompt": "Мы жили",
-          "answer": ["Me asuimme", "Asuimme"]
+          "prompt": "Я помыл посуду.",
+          "answer": ["Minä pesin astiat", "Pesin astiat"]
         },
         {
-          "prompt": "Ты дал",
-          "answer": ["Sinä annoit", "Annoit"]
+          "prompt": "Я курил на балконе.",
+          "answer": ["Minä tupakoin parvekkeella", "Tupakoin parvekkeella"]
         },
         {
-          "prompt": "Ты плакал",
-          "answer": ["Sinä itkit", "Itkit"]
+          "prompt": "Я верил другу.",
+          "answer": ["Minä uskoin ystävää", "Uskoin ystävää"]
         },
         {
-          "prompt": "Вы позвонили / играли (на инструменте)",
-          "answer": ["Te soititte", "Soititte"]
+          "prompt": "Я мог помочь.",
+          "answer": ["Minä pystyin auttamaan", "Pystyin auttamaan"]
         },
         {
-          "prompt": "Он верил",
-          "answer": ["Hän uskoi"]
+          "prompt": "Я путешествовал поездом.",
+          "answer": ["Minä matkustin junalla", "Matkustin junalla"]
         },
         {
-          "prompt": "Я держал / мне понравилось",
-          "answer": ["Minä pidin", "Pidin"]
+          "prompt": "Я стрелял в лесу.",
+          "answer": ["Minä ammuin metsässä", "Ammuin metsässä"]
         },
         {
-          "prompt": "Мы заблудились",
-          "answer": ["Me eksyimme", "Eksyimme"]
+          "prompt": "Я играл дома.",
+          "answer": ["Minä leikin kotona", "Leikin kotona"]
         },
         {
-          "prompt": "Он помог",
-          "answer": ["Hän auttoi"]
+          "prompt": "Я занимался спортом вчера.",
+          "answer": ["Minä urheilin eilen", "Urheilin eilen"]
         },
         {
-          "prompt": "Вы продали",
-          "answer": ["Te myitte", "Myitte"]
+          "prompt": "Я заплатил в магазине.",
+          "answer": ["Minä maksoin kaupassa", "Maksoin kaupassa"]
         },
         {
-          "prompt": "Они отнесли / отвезли",
-          "answer": ["He veivät"]
+          "prompt": "Я смеялся громко.",
+          "answer": ["Minä nauroin kovaa", "Nauroin kovaa"]
         },
         {
-          "prompt": "Мы выучили / научились",
-          "answer": ["Me opimme", "Opimme"]
+          "prompt": "Я нёс сумку.",
+          "answer": ["Minä kannoin laukkua", "Kannoin laukkua"]
         },
         {
-          "prompt": "Вы получили",
-          "answer": ["Te saitte", "Saitte"]
+          "prompt": "Я ездил верхом на лошади.",
+          "answer": ["Minä ratsastin hevosella", "Ratsastin hevosella"]
         },
         {
-          "prompt": "Я пошёл",
-          "answer": ["Minä menin", "Menin"]
+          "prompt": "Я дал книгу другу.",
+          "answer": ["Minä annoin kirjan ystävälle", "Annoin kirjan ystävälle"]
         },
         {
-          "prompt": "Он проснулся",
-          "answer": ["Hän heräsi"]
+          "prompt": "Я позвонил маме.",
+          "answer": ["Minä soitin äidille", "Soitin äidille"]
+        },
+        {
+          "prompt": "Я помог другу.",
+          "answer": ["Minä autoin ystävää", "Autoin ystävää"]
+        },
+        {
+          "prompt": "Я проверил ответ.",
+          "answer": ["Minä tarkastin vastauksen", "Tarkastin vastauksen"]
+        },
+        {
+          "prompt": "Я остался дома.",
+          "answer": ["Minä jäin kotiin", "Jäin kotiin"]
+        },
+        {
+          "prompt": "Я получил письмо.",
+          "answer": ["Minä sain kirjeen", "Sain kirjeen"]
+        },
+        {
+          "prompt": "Я продал машину.",
+          "answer": ["Minä myin auton", "Myin auton"]
+        },
+        {
+          "prompt": "Я принёс сумку.",
+          "answer": ["Minä toin laukun", "Toin laukun"]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "translation-sequence",
+      "description": "✍️ Напишите фразы на финском.",
+      "items": [
+        {
+          "prompt": "Я отнёс книгу в библиотеку.",
+          "answer": ["Minä vein kirjan kirjastoon", "Vein kirjan kirjastoon"]
+        },
+        {
+          "prompt": "Я ударил мяч.",
+          "answer": ["Minä löin palloa", "Löin palloa"]
+        },
+        {
+          "prompt": "Я встретил друга в городе.",
+          "answer": [
+            "Minä tapasin ystävän kaupungissa",
+            "Tapasin ystävän kaupungissa"
+          ]
+        },
+        {
+          "prompt": "Я заказал пиццу.",
+          "answer": ["Minä tilasin pitsan", "Tilasin pitsan"]
+        },
+        {
+          "prompt": "Я открыл дверь.",
+          "answer": ["Minä avasin oven", "Avasin oven"]
+        },
+        {
+          "prompt": "Я играл в футбол.",
+          "answer": ["Minä pelasin jalkapalloa", "Pelasin jalkapalloa"]
+        },
+        {
+          "prompt": "Я понял всё.",
+          "answer": ["Minä ymmärsin kaiken", "Ymmärsin kaiken"]
+        },
+        {
+          "prompt": "Я летел в Финляндию.",
+          "answer": ["Minä lensin Suomeen", "Lensin Suomeen"]
+        },
+        {
+          "prompt": "Я попросил апельсиновый сок.",
+          "answer": ["Minä pyysin appelsiinimehua", "Pyysin appelsiinimehua"]
+        },
+        {
+          "prompt": "Я построил маленький дом.",
+          "answer": ["Minä rakensin pienen talon", "Rakensin pienen talon"]
+        },
+        {
+          "prompt": "Мы жили в Финляндии.",
+          "answer": ["Me asuimme Suomessa", "Asuimme Suomessa"]
+        },
+        {
+          "prompt": "Ты дал книгу другу.",
+          "answer": ["Sinä annoit kirjan ystävälle", "Annoit kirjan ystävälle"]
+        },
+        {
+          "prompt": "Ты плакал вчера.",
+          "answer": ["Sinä itkit eilen", "Itkit eilen"]
+        },
+        {
+          "prompt": "Вы позвонили другу.",
+          "answer": ["Te soititte ystävälle", "Soititte ystävälle"]
+        },
+        {
+          "prompt": "Он верил другу.",
+          "answer": ["Hän uskoi ystävää"]
+        },
+        {
+          "prompt": "Я держал книгу в руке.",
+          "answer": ["Minä pidin kirjaa kädessä", "Pidin kirjaa kädessä"]
+        },
+        {
+          "prompt": "Мы заблудились в городе.",
+          "answer": ["Me eksyimme kaupungissa", "Eksyimme kaupungissa"]
+        },
+        {
+          "prompt": "Он помог другу.",
+          "answer": ["Hän auttoi ystävää"]
+        },
+        {
+          "prompt": "Ты продал велосипед.",
+          "answer": ["Sinä myit polkupyörän", "Myit polkupyörän"]
+        },
+        {
+          "prompt": "Они отнесли сумки домой.",
+          "answer": ["He veivät laukut kotiin"]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "translation-sequence",
+      "description": "✍️ Напишите фразы на финском.",
+      "items": [
+        {
+          "prompt": "Мы выучили много.",
+          "answer": ["Me opimme paljon", "Opimme paljon"]
+        },
+        {
+          "prompt": "Вы получили письмо.",
+          "answer": ["Te saitte kirjeen", "Saitte kirjeen"]
+        },
+        {
+          "prompt": "Я пошёл домой.",
+          "answer": ["Minä menin kotiin", "Menin kotiin"]
+        },
+        {
+          "prompt": "Он проснулся рано.",
+          "answer": ["Hän heräsi aikaisin"]
+        },
+        {
+          "prompt": "Мы жили в маленьком городе.",
+          "answer": [
+            "Me asuimme pienessä kaupungissa",
+            "Asuimme pienessä kaupungissa"
+          ]
+        },
+        {
+          "prompt": "Ты дал деньги другу.",
+          "answer": ["Sinä annoit rahat ystävälle", "Annoit rahat ystävälle"]
+        },
+        {
+          "prompt": "Ты плакал ночью.",
+          "answer": ["Sinä itkit yöllä", "Itkit yöllä"]
+        },
+        {
+          "prompt": "Вы позвонили маме.",
+          "answer": ["Te soititte äidille", "Soititte äidille"]
+        },
+        {
+          "prompt": "Он верил учителю.",
+          "answer": ["Hän uskoi opettajaa"]
+        },
+        {
+          "prompt": "Я держал ребёнка за руку.",
+          "answer": ["Minä pidin lasta kädestä", "Pidin lasta kädestä"]
+        },
+        {
+          "prompt": "Мы заблудились в лесу.",
+          "answer": ["Me eksyimme metsässä", "Eksyimme metsässä"]
+        },
+        {
+          "prompt": "Он помог соседу.",
+          "answer": ["Hän auttoi naapuria"]
+        },
+        {
+          "prompt": "Ты продал дом.",
+          "answer": ["Sinä myit talon", "Myit talon"]
+        },
+        {
+          "prompt": "Они отвели детей в школу.",
+          "answer": ["He veivät lapset kouluun"]
+        },
+        {
+          "prompt": "Мы выучили новое слово.",
+          "answer": ["Me opimme uuden sanan", "Opimme uuden sanan"]
+        },
+        {
+          "prompt": "Вы получили сообщение.",
+          "answer": ["Te saitte viestin", "Saitte viestin"]
+        },
+        {
+          "prompt": "Я пошёл в магазин.",
+          "answer": ["Minä menin kauppaan", "Menin kauppaan"]
+        },
+        {
+          "prompt": "Он проснулся поздно.",
+          "answer": ["Hän heräsi myöhään"]
+        },
+        {
+          "prompt": "Мы хотели поехать в поездку на Рождество.",
+          "answer": [
+            "Me halusimme lähteä matkalle jouluna",
+            "Halusimme lähteä matkalle jouluna"
+          ]
+        },
+        {
+          "prompt": "В отпуск я поехал в Германию.",
+          "answer": [
+            "Lomalla minä matkustin Saksaan",
+            "Lomalla matkustin Saksaan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "type": "translation-sequence",
+      "description": "✍️ Напишите фразы на финском.",
+      "items": [
+        {
+          "prompt": "Я поехал в Германию в воскресенье.",
+          "answer": [
+            "Minä lähdin Saksaan sunnuntaina",
+            "Lähdin Saksaan sunnuntaina"
+          ]
+        },
+        {
+          "prompt": "Сначала я поехал на машине из Хельсинки в один город.",
+          "answer": [
+            "Ensin minä ajoin autolla Helsingistä erääseen kaupunkiin",
+            "Ensin ajoin autolla Helsingistä erääseen kaupunkiin"
+          ]
+        },
+        {
+          "prompt": "Потом я поехал оттуда на корабле в Германию.",
+          "answer": [
+            "Sitten minä menin sieltä laivalla Saksaan",
+            "Sitten menin sieltä laivalla Saksaan"
+          ]
+        },
+        {
+          "prompt": "Путешествовать на корабле было легко.",
+          "answer": ["Laivalla matkustaminen oli helppoa"]
+        },
+        {
+          "prompt": "Корабль ждал в порту.",
+          "answer": ["Laiva odotti satamassa"]
+        },
+        {
+          "prompt": "Я заехал на машине на корабль.",
+          "answer": ["Minä ajoin auton laivaan", "Ajoin auton laivaan"]
+        },
+        {
+          "prompt": "Потом я пошёл в каюту.",
+          "answer": ["Sitten minä kävelin hyttiin", "Sitten kävelin hyttiin"]
+        },
+        {
+          "prompt": "Я ходил в ресторан на корабле поесть.",
+          "answer": [
+            "Minä kävin laivan ravintolassa syömässä",
+            "Kävin laivan ravintolassa syömässä"
+          ]
+        },
+        {
+          "prompt": "Я смотрел на море из окна.",
+          "answer": ["Minä katsoin ikkunasta merta", "Katsoin ikkunasta merta"]
+        },
+        {
+          "prompt": "Я хорошо спал в каюте.",
+          "answer": ["Minä nukuin hyvin hytissä", "Nukuin hyvin hytissä"]
+        },
+        {
+          "prompt": "На следующий день я прибыл в один город в Германии.",
+          "answer": [
+            "Seuraavana päivänä minä saavuin erääseen kaupunkiin Saksassa",
+            "Seuraavana päivänä saavuin erääseen kaupunkiin Saksassa"
+          ]
+        },
+        {
+          "prompt": "В Германии я был четыре недели.",
+          "answer": [
+            "Saksassa minä olin neljä viikkoa",
+            "Saksassa olin neljä viikkoa"
+          ]
+        },
+        {
+          "prompt": "Мне нужно было пару дней.",
+          "answer": ["Minä tarvitsin pari päivää", "Tarvitsin pari päivää"]
+        },
+        {
+          "prompt": "Потом я снова вспомнил немецкий язык.",
+          "answer": [
+            "Sitten minä muistin taas saksan kielen",
+            "Sitten muistin taas saksan kielen"
+          ]
+        },
+        {
+          "prompt": "Я жил в одном городе у друга.",
+          "answer": [
+            "Minä asuin eräässä kaupungissa ystävän luona",
+            "Asuin eräässä kaupungissa ystävän luona"
+          ]
+        },
+        {
+          "prompt": "Я много читал.",
+          "answer": ["Minä luin paljon", "Luin paljon"]
+        },
+        {
+          "prompt": "Я встречал друзей.",
+          "answer": ["Minä tapasin ystäviä", "Tapasin ystäviä"]
+        },
+        {
+          "prompt": "Я смотрел город.",
+          "answer": ["Minä katselin kaupunkia", "Katselin kaupunkia"]
+        },
+        {
+          "prompt": "Я тоже немного занимался спортом.",
+          "answer": ["Minä urheilin myös vähän", "Urheilin myös vähän"]
+        },
+        {
+          "prompt": "Я играл в теннис с другом.",
+          "answer": [
+            "Minä pelasin tennistä ystävän kanssa",
+            "Pelasin tennistä ystävän kanssa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "translation-sequence",
+      "description": "✍️ Напишите фразы на финском.",
+      "items": [
+        {
+          "prompt": "Я бегал трусцой.",
+          "answer": ["Minä lenkkeilin", "Lenkkeilin"]
+        },
+        {
+          "prompt": "В один выходной я тоже хотел поехать в один город на поезде.",
+          "answer": [
+            "Yhtenä viikonloppuna minä halusin myös matkustaa erääseen kaupunkiin junalla",
+            "Yhtenä viikonloppuna halusin myös matkustaa erääseen kaupunkiin junalla"
+          ]
+        },
+        {
+          "prompt": "Но я всё-таки решил поехать с другом в другой город.",
+          "answer": [
+            "Mutta minä päätin kuitenkin lähteä ystävän kanssa toiseen kaupunkiin",
+            "Mutta päätin kuitenkin lähteä ystävän kanssa toiseen kaupunkiin"
+          ]
+        },
+        {
+          "prompt": "Я вернулся в Финляндию после хорошего отпуска.",
+          "answer": [
+            "Minä palasin Suomeen hyvän loman jälkeen",
+            "Palasin Suomeen hyvän loman jälkeen"
+          ]
+        },
+        {
+          "prompt": "Было приятно снова быть дома.",
+          "answer": ["Oli mukavaa olla taas kotona"]
+        },
+        {
+          "prompt": "Он уехал рано утром.",
+          "answer": ["Hän lähti aikaisin aamulla"]
+        },
+        {
+          "prompt": "Она упаковала чемодан.",
+          "answer": ["Hän pakkasi matkalaukun"]
+        },
+        {
+          "prompt": "Он проснулся в шесть.",
+          "answer": ["Hän heräsi kuudelta"]
+        },
+        {
+          "prompt": "День был хорошим.",
+          "answer": ["Päivä oli hyvä"]
+        },
+        {
+          "prompt": "Он сходил в магазин.",
+          "answer": ["Hän kävi kaupassa"]
+        },
+        {
+          "prompt": "Он поел в ресторане.",
+          "answer": ["Hän söi ravintolassa"]
+        },
+        {
+          "prompt": "Он заказал кофе.",
+          "answer": ["Hän tilasi kahvin"]
+        },
+        {
+          "prompt": "Он поехал на работу.",
+          "answer": ["Hän ajoi töihin"]
+        },
+        {
+          "prompt": "Они пили воду.",
+          "answer": ["He joivat vettä"]
+        },
+        {
+          "prompt": "Он читал книгу.",
+          "answer": ["Hän luki kirjaa"]
+        },
+        {
+          "prompt": "Они ждали автобус.",
+          "answer": ["He odottivat bussia"]
+        },
+        {
+          "prompt": "Они отвезли детей в детский сад.",
+          "answer": ["He veivät lapset päiväkotiin"]
+        },
+        {
+          "prompt": "Он встретил друга.",
+          "answer": ["Hän tapasi ystävän"]
+        },
+        {
+          "prompt": "Они разговаривали долго.",
+          "answer": ["He keskustelivat pitkään"]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "translation-sequence",
+      "description": "✍️ Напишите фразы на финском.",
+      "items": [
+        {
+          "prompt": "Они говорили по-фински.",
+          "answer": ["He puhuivat suomea"]
+        },
+        {
+          "prompt": "Он летел в Швецию.",
+          "answer": ["Hän lensi Ruotsiin"]
+        },
+        {
+          "prompt": "Он пришёл домой поздно.",
+          "answer": ["Hän tuli kotiin myöhään"]
+        },
+        {
+          "prompt": "В отпуске весело и расслабляюще.",
+          "answer": ["Lomalla on hauskaa ja rentouttavaa"]
+        },
+        {
+          "prompt": "Сделаем упражнение.",
+          "answer": ["Tehdään harjoitus"]
+        },
+        {
+          "prompt": "Пойдём в кино.",
+          "answer": ["Mennään elokuviin"]
+        },
+        {
+          "prompt": "На собрании было много людей.",
+          "answer": ["Kokouksessa oli paljon ihmisiä"]
+        },
+        {
+          "prompt": "В компании работало сто человек.",
+          "answer": ["Yrityksessä työskenteli sata ihmistä"]
+        },
+        {
+          "prompt": "Перевозка была дорогой.",
+          "answer": ["Kuljetus oli kallis"]
+        },
+        {
+          "prompt": "В здании было тихо.",
+          "answer": ["Rakennuksessa oli hiljaista"]
+        },
+        {
+          "prompt": "На этаже была кухня.",
+          "answer": ["Kerroksessa oli keittiö"]
+        },
+        {
+          "prompt": "В торговом центре было много магазинов.",
+          "answer": ["Kauppakeskuksessa oli paljon kauppoja"]
+        },
+        {
+          "prompt": "Я съел порцию супа.",
+          "answer": ["Minä söin annoksen keittoa", "Söin annoksen keittoa"]
+        },
+        {
+          "prompt": "Овощи были свежими.",
+          "answer": ["Vihannekset olivat tuoreita"]
+        },
+        {
+          "prompt": "Корнеплоды были дешёвыми.",
+          "answer": ["Juurekset olivat halpoja"]
+        },
+        {
+          "prompt": "Сюрприз был приятным.",
+          "answer": ["Yllätys oli mukava"]
+        },
+        {
+          "prompt": "Мне было двадцать лет.",
+          "answer": [
+            "Minä olin kaksikymmentävuotias",
+            "Olin kaksikymmentävuotias"
+          ]
+        },
+        {
+          "prompt": "Гости пришли вовремя.",
+          "answer": ["Vieraat tulivat ajoissa"]
+        },
+        {
+          "prompt": "В гостиной было тепло.",
+          "answer": ["Olohuoneessa oli lämmintä"]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "translation-sequence",
+      "description": "✍️ Напишите фразы на финском.",
+      "items": [
+        {
+          "prompt": "На горе был снег.",
+          "answer": ["Vuorella oli lunta"]
+        },
+        {
+          "prompt": "Листья были жёлтыми.",
+          "answer": ["Lehdet olivat keltaisia"]
+        },
+        {
+          "prompt": "В прихожей было тихо.",
+          "answer": ["Eteisessä oli hiljaista"]
+        },
+        {
+          "prompt": "Большие окна были красивые.",
+          "answer": ["Suuret ikkunat olivat kauniit"]
+        },
+        {
+          "prompt": "Готовые упражнения были лёгкими.",
+          "answer": ["Valmiit harjoitukset olivat helppoja"]
+        },
+        {
+          "prompt": "Воды было мало.",
+          "answer": ["Vettä oli vähän"]
+        },
+        {
+          "prompt": "У двери стоял мужчина.",
+          "answer": ["Ovella seisoi mies"]
+        },
+        {
+          "prompt": "Счастья было много.",
+          "answer": ["Onnea oli paljon"]
+        },
+        {
+          "prompt": "Телефон звонил долго.",
+          "answer": ["Puhelin soi pitkään"]
+        },
+        {
+          "prompt": "Сегодня у меня был совсем обычный рабочий день.",
+          "answer": ["Tänään minulla oli ihan tavallinen työpäivä"]
+        },
+        {
+          "prompt": "Ой! Отпуск скоро заканчивается!",
+          "answer": ["Voi! Loma loppuu kohta"]
+        },
+        {
+          "prompt": "Ещё два дня!",
+          "answer": ["Enää kaksi päivää"]
+        },
+        {
+          "prompt": "Что? Это ведь почти сто градусов!",
+          "answer": ["Mitä? Sehän on melkein sata astetta"]
+        },
+        {
+          "prompt": "Ещё нет.",
+          "answer": ["Ei vielä"]
+        },
+        {
+          "prompt": "Он придёт только поздно вечером.",
+          "answer": ["Hän tulee vasta myöhään illalla"]
+        },
+        {
+          "prompt": "Потому что он хочет делать всё сам.",
+          "answer": ["Koska hän haluaa tehdä kaiken itse"]
+        },
+        {
+          "prompt": "Морская вода в мае довольно холодная.",
+          "answer": ["Merivesi on toukokuussa aika kylmää"]
+        },
+        {
+          "prompt": "Но всё-таки многие люди плавают в море.",
+          "answer": ["Mutta kuitenkin monet ihmiset uivat meressä"]
+        },
+        {
+          "prompt": "Я пытаюсь позвонить подруге.",
+          "answer": [
+            "Minä yritän soittaa ystävälle",
+            "Yritän soittaa ystävälle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "translation-sequence",
+      "description": "✍️ Напишите фразы на финском.",
+      "items": [
+        {
+          "prompt": "Но её телефон всё время занят.",
+          "answer": ["Mutta hänen puhelin on koko ajan varattu"]
+        },
+        {
+          "prompt": "Поэтому я буду дома, наверное, в половине десятого.",
+          "answer": [
+            "Joten minä olen kotona varmaan puoli kymmeneltä",
+            "Joten olen kotona varmaan puoli kymmeneltä"
+          ]
+        },
+        {
+          "prompt": "Вообще-то ты можешь привезти машину в мой гараж.",
+          "answer": [
+            "Itse asiassa sinä voit tuoda auton minun autotalliin",
+            "Itse asiassa voit tuoda auton minun autotalliin"
+          ]
+        },
+        {
+          "prompt": "Тогда мы сделаем работу там.",
+          "answer": ["Niin me teemme työt siellä", "Niin teemme työt siellä"]
+        },
+        {
+          "prompt": "В прошлом году я ещё жил в Болгарии.",
+          "answer": [
+            "Viime vuonna minä asuin vielä Bulgariassa",
+            "Viime vuonna asuin vielä Bulgariassa"
+          ]
+        },
+        {
+          "prompt": "Прошлой зимой я переехал с моей семьёй в Финляндию.",
+          "answer": [
+            "Viime talvena minä muutin perheeni kanssa Suomeen",
+            "Viime talvena muutin perheeni kanssa Suomeen"
+          ]
+        },
+        {
+          "prompt": "Я нашёл рабочее место в финской компании.",
+          "answer": [
+            "Minä löysin työpaikan suomalaisessa yrityksessä",
+            "Löysin työпаikan suomalaisessa yrityksessä"
+          ]
+        },
+        {
+          "prompt": "Моя жена сразу начала учиться на курсе финского языка.",
+          "answer": ["Minun vaimo alkoi heti opiskella suomen kieltä kurssilla"]
+        },
+        {
+          "prompt": "Весной дети пошли в финский детский сад.",
+          "answer": ["Keväällä lapset menivät suomalaiseen päiväkotiin"]
+        },
+        {
+          "prompt": "Они получили много финских друзей.",
+          "answer": ["He saivat monta suomalaista ystävää"]
+        },
+        {
+          "prompt": "Они играли во дворе.",
+          "answer": ["He leikkivät pihalla"]
+        },
+        {
+          "prompt": "Летом жена встретила приятную финскую женщину.",
+          "answer": ["Kesällä vaimo tapasi mukavan suomalaisen naisen"]
+        },
+        {
+          "prompt": "Сначала мы говорили с ней по-английски.",
+          "answer": [
+            "Ensin me puhuimme hänen kanssa englantia",
+            "Ensin puhuimme hänen kanssa englantia"
+          ]
+        },
+        {
+          "prompt": "Но теперь мы говорим по-фински.",
+          "answer": ["Mutta nyt me puhumme suomea", "Mutta nyt puhumme suomea"]
+        },
+        {
+          "prompt": "В прошлом августе она помогла нам.",
+          "answer": ["Viime elokuussa hän auttoi meitä"]
+        },
+        {
+          "prompt": "Тогда мы хотели найти новую квартиру.",
+          "answer": ["Silloin me halusimme löytää uuden asunnon"]
+        },
+        {
+          "prompt": "На прошлой неделе жена устроилась на работу в почтовый центр.",
+          "answer": ["Viime viikolla vaimo pääsi työhön postikeskukseen"]
+        },
+        {
+          "prompt": "Теперь мы можем остаться в Финляндии.",
+          "answer": ["Nyt me voimme jäädä Suomeen", "Nyt voimme jäädä Suomeen"]
+        },
+        {
+          "prompt": "Потому что у жены и у меня есть рабочее место.",
+          "answer": ["Koska vaimolla ja minulla on työpaikka"]
         }
       ]
     }

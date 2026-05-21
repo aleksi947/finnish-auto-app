@@ -16,7 +16,7 @@ import { doc, getDoc } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
 import { useProgress } from "../hooks/useProgress";
 
-// Простой бэйдж без отдельного файла
+// Simple badge without separate file
 function Badge({ className = "", children }) {
   return (
     <span
@@ -27,7 +27,7 @@ function Badge({ className = "", children }) {
   );
 }
 
-const lang = "ru";
+const lang = "en";
 
 export default function LessonOverview() {
   const { lessonId } = useParams();
@@ -36,16 +36,16 @@ export default function LessonOverview() {
   const [lesson, setLesson] = useState(null);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
-  
-  // Hook для работы с прогрессом
+
+  // Hook for progress tracking
   const { getSectionStatus } = useProgress(lessonId);
 
-  // Загрузка урока + проверка подписки (логика как в старой версии)
+  // Load lesson + subscription check (legacy logic)
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (user) => {
       try {
         if (!user) {
-          setError("Вы не авторизованы");
+          setError("You are not authorized");
           setLoading(false);
           return;
         }
@@ -57,22 +57,22 @@ export default function LessonOverview() {
         const lessonRef = doc(db, "lessons", lessonId);
         const lessonSnap = await getDoc(lessonRef);
         if (!lessonSnap.exists()) {
-          setError("Урок не найден");
+          setError("Lesson not found");
           setLoading(false);
           return;
         }
 
         const data = lessonSnap.data();
         if (data.premium && !hasAccess) {
-          setError("Этот урок доступен только по подписке");
+          setError("This lesson is available only with a subscription");
           setLoading(false);
           return;
         }
 
         setLesson(data);
       } catch (err) {
-        console.error("Ошибка загрузки урока:", err);
-        setError("Ошибка загрузки");
+        console.error("Error loading lesson:", err);
+        setError("Loading error");
       } finally {
         setLoading(false);
       }
@@ -81,78 +81,79 @@ export default function LessonOverview() {
     return () => unsubscribe();
   }, [lessonId]);
 
-  // Карточки разделов как в макете
+  // Section cards per mockup
   const sections = useMemo(
     () => [
       {
         id: "vocabulary",
-        title: "Слова",
+        title: "Vocabulary",
         icon: <Book className="size-8 text-blue-600" />,
       },
       {
         id: "grammar",
-        title: "Грамматика",
+        title: "Grammar",
         icon: <FileText className="size-8 text-blue-600" />,
       },
       {
         id: "listening",
-        title: "Аудирование",
+        title: "Listening",
         icon: <Headphones className="size-8 text-blue-600" />,
       },
       {
         id: "speaking",
-        title: "Говорение",
+        title: "Speaking",
         icon: <MessageCircle className="size-8 text-blue-600" />,
       },
       {
         id: "writing",
-        title: "Письмо",
+        title: "Writing",
         icon: <PenTool className="size-8 text-blue-600" />,
       },
       {
         id: "reading",
-        title: "Чтение",
+        title: "Reading",
         icon: <BookOpen className="size-8 text-blue-600" />,
       },
     ],
-    []
+    [],
   );
 
   const getStatusBadge = (status) => {
     if (status === "not-started") {
       return (
         <Badge className="bg-red-50 text-red-700 border border-red-200">
-          Не начато
+          Not started
         </Badge>
       );
     }
     if (status === "in-progress") {
       return (
         <Badge className="bg-yellow-50 text-yellow-700 border border-yellow-200">
-          В процессе
+          In progress
         </Badge>
       );
     }
     return (
       <Badge className="bg-green-50 text-green-700 border border-green-200">
-        Выполнено
+        Completed
       </Badge>
     );
   };
 
-  // Состояния загрузки/ошибки с аккуратным оформлением
+  // Loading/error states styling
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-50">
         <Navigation />
         <div className="pt-32 px-6">
           <div className="mx-auto max-w-4xl rounded-2xl bg-white p-8 shadow">
-            Загрузка...
+            Loading...
           </div>
         </div>
       </div>
     );
   }
+
   if (error) {
     return (
       <div className="min-h-screen bg-gray-50">
@@ -165,13 +166,14 @@ export default function LessonOverview() {
       </div>
     );
   }
+
   if (!lesson) return null;
 
-  const lessonTitle = lesson.topic?.[lang] || `Урок ${lessonId}`;
+  const lessonTitle = lesson.topic?.[lang] || `Lesson ${lessonId}`;
 
   return (
     <div className="min-h-screen bg-[#F5F7FA]">
-      {/* Fixed Navigation (как в макете) */}
+      {/* Fixed Navigation (per mockup) */}
       <Navigation />
 
       {/* Main Content */}
@@ -183,7 +185,7 @@ export default function LessonOverview() {
             className="group mb-8 flex items-center gap-2 text-blue-600 transition-colors hover:text-blue-700"
           >
             <ArrowLeft className="size-5 transition-transform group-hover:-translate-x-1" />
-            <span className="text-lg">Назад к урокам</span>
+            <span className="text-lg">Back to lessons</span>
           </button>
 
           {/* Lesson Title */}
@@ -195,6 +197,7 @@ export default function LessonOverview() {
           <div className="space-y-4">
             {sections.map((section) => {
               const sectionStatus = getSectionStatus(section.id);
+
               return (
                 <Link
                   key={section.id}
@@ -202,7 +205,7 @@ export default function LessonOverview() {
                   className="group block rounded-2xl bg-white p-6 shadow-md transition-all duration-300 hover:bg-blue-50/30 hover:shadow-xl overflow-hidden"
                 >
                   <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between sm:gap-6">
-                    {/* Левый блок: иконка + заголовок */}
+                    {/* Left: icon + title */}
                     <div className="flex items-center gap-4 min-w-0">
                       <div className="flex-shrink-0">{section.icon}</div>
                       <div className="text-2xl text-gray-800 transition-colors group-hover:text-blue-700 truncate">
@@ -210,7 +213,7 @@ export default function LessonOverview() {
                       </div>
                     </div>
 
-                    {/* Правый блок: бейдж статуса */}
+                    {/* Right: status badge */}
                     <div className="sm:flex-shrink-0">
                       {getStatusBadge(sectionStatus)}
                     </div>
@@ -220,11 +223,11 @@ export default function LessonOverview() {
             })}
           </div>
 
-          {/* Дополнительная информация об уроке (если есть в БД) */}
+          {/* Extra lesson info (if in DB) */}
           {lesson.info?.overview?.[lang] && (
             <div className="mt-8 rounded-2xl bg-white p-6 shadow">
               <h3 className="mb-2 text-lg font-semibold">
-                ℹ️ Как проходить урок
+                ℹ️ How to complete this lesson
               </h3>
               <p className="text-gray-700">{lesson.info.overview[lang]}</p>
             </div>

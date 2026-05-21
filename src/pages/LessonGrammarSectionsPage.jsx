@@ -21,7 +21,7 @@ export default function LessonGrammarSectionPage() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
   
-  // Hook для работы с прогрессом
+  // Hook for progress tracking
   const { getExerciseStatus } = useProgress(lessonId);
 
   useEffect(() => {
@@ -134,13 +134,13 @@ export default function LessonGrammarSectionPage() {
     : "Типы спряжения глаголов";
 
   const getStatusBadge = (status) => {
-    // Для упражнений грамматики показываем только два статуса: "выполнено" или "не выполнено"
+    // Grammar exercises: only two statuses — "completed" or "not completed"
     if (status === "completed") {
       return (
         <Circle className="size-5 fill-green-500 text-green-500" />
       );
     }
-    // "not-started" и "in-progress" показываем как "не выполнено"
+    // Show "not-started" and "in-progress" as "not completed"
     return (
       <Circle className="size-5 fill-red-500 text-red-500" />
     );
@@ -271,7 +271,7 @@ export default function LessonGrammarSectionPage() {
       {/* Exercises */}
       {hasExercises && (
         <div className="space-y-8">
-          {/* Multi-step - объяснение теперь внутри каждого упражнения */}
+          {/* Multi-step — explanation inside each exercise */}
           {multiStepExercises.length > 0 && (
             <div>
               <MultiStepFillInBlank exercises={multiStepExercises} />

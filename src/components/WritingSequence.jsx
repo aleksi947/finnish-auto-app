@@ -1,17 +1,17 @@
 import { useState, useEffect } from "react";
 
-// Перемешивание массива
+// Shuffle array
 function shuffle(array) {
   return [...array].sort(() => Math.random() - 0.5);
 }
 
-// Нормализация строки и сравнение
+// String normalize and compare
 const isCorrect = (input, answer) => {
   const normalize = (str) =>
     (str ?? "")
       .trim()
       .toLowerCase()
-      .replace(/\.+$/, "") // убрать финальные точки для гибкости
+      .replace(/\.+$/, "") // strip trailing dots for flexibility
       .replace(/\s+/g, " ");
 
   const user = normalize(input);
@@ -37,10 +37,10 @@ function WritingSequence({ task, onMarkStarted, onMarkCompleted }) {
   const [wrongCount, setWrongCount] = useState(0);
   const [mistakes, setMistakes] = useState([]);
   const [finished, setFinished] = useState(false);
-  const [answers, setAnswers] = useState([]); // Массив для отслеживания правильности ответов
-  const [hasMarkedStarted, setHasMarkedStarted] = useState(false); // Флаг для отслеживания первого ответа
+  const [answers, setAnswers] = useState([]); // Array tracking answer correctness
+  const [hasMarkedStarted, setHasMarkedStarted] = useState(false); // Flag tracking first answer
 
-  // Новое состояние: показывать ли варианты ответов
+  // Whether to show answer choices
   const [showChoices, setShowChoices] = useState(false);
 
   useEffect(() => {
@@ -54,13 +54,13 @@ function WritingSequence({ task, onMarkStarted, onMarkCompleted }) {
     setWrongCount(0);
     setMistakes([]);
     setFinished(false);
-    setShowChoices(false); // сбрасываем список вариантов при старте/смене задания
+    setShowChoices(false); // reset choices on start/task change
     setAnswers([]);
     setHasMarkedStarted(false);
   }, [task]);
 
-  // Проверяем все ли ответы правильные при завершении
-  // ВАЖНО: этот useEffect должен быть ДО любого раннего возврата
+  // Check all answers correct on finish
+  // IMPORTANT: this useEffect must run BEFORE any early return
   useEffect(() => {
     if (finished && answers.length === items.length && items.length > 0) {
       const allCorrect = answers.every(a => a.isCorrect);
@@ -82,13 +82,13 @@ function WritingSequence({ task, onMarkStarted, onMarkCompleted }) {
   const handleCheck = () => {
     if (!current) return;
     
-    // Отмечаем упражнение как начатое при первом ответе
+    // Mark exercise started on first answer
     if (!hasMarkedStarted && onMarkStarted) {
       onMarkStarted();
       setHasMarkedStarted(true);
     }
 
-    // Сохраняем результат ответа
+    // Save answer result
     setAnswers((prev) => [...prev, { questionIndex: index, isCorrect: correct }]);
 
     if (correct) {
@@ -132,34 +132,34 @@ function WritingSequence({ task, onMarkStarted, onMarkCompleted }) {
   const totalQuestions = items.length;
   const progressPercentage = totalQuestions > 0 ? ((index + 1) / totalQuestions) * 100 : 0;
 
-  // Ранний возврат должен быть ПОСЛЕ всех хуков
+  // Early return must be AFTER all hooks
   if (finished) {
     const successRate = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
     
     return (
       <div className="w-full">
-        {/* Карточка результатов */}
+        {/* Results card */}
         <div className="bg-white rounded-xl md:rounded-2xl border-2 border-[#E5E7EB] shadow-lg p-4 md:p-6 lg:p-8 mb-4 md:mb-6">
           <h3 className="text-xl md:text-2xl font-semibold text-[#1E293B] mb-4 md:mb-6 text-center">
             Результаты упражнения
           </h3>
           
-          {/* Статистика */}
+          {/* Statistics */}
           <div className="grid grid-cols-2 gap-3 md:gap-4 mb-4 md:mb-6">
-            {/* Правильные ответы */}
+            {/* Correct answers */}
             <div className="bg-green-50 border-2 border-green-200 rounded-lg md:rounded-xl p-3 md:p-4 lg:p-6 text-center">
               <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-green-600 mb-1 md:mb-2">{correctCount}</div>
               <div className="text-xs md:text-sm lg:text-lg text-green-700 font-medium">Правильных</div>
             </div>
             
-            {/* Ошибки */}
+            {/* Mistakes */}
             <div className="bg-red-50 border-2 border-red-200 rounded-lg md:rounded-xl p-3 md:p-4 lg:p-6 text-center">
               <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-red-600 mb-1 md:mb-2">{wrongCount}</div>
               <div className="text-xs md:text-sm lg:text-lg text-red-700 font-medium">Ошибок</div>
             </div>
           </div>
           
-          {/* Процент успеха */}
+          {/* Success rate */}
           <div className="mb-4 md:mb-6">
             <div className="flex items-center justify-between mb-2">
               <span className="text-base md:text-lg text-[#4A5568] font-medium">Процент успеха</span>
@@ -175,9 +175,9 @@ function WritingSequence({ task, onMarkStarted, onMarkCompleted }) {
             </div>
           </div>
           
-          {/* Кнопки действий */}
+          {/* Action buttons */}
           <div className="flex flex-col gap-2 md:gap-3">
-            {/* Кнопка повторить ошибки */}
+            {/* Retry mistakes button */}
             {mistakes.length > 0 && (
               <button 
                 onClick={restartMistakes}
@@ -188,7 +188,7 @@ function WritingSequence({ task, onMarkStarted, onMarkCompleted }) {
               </button>
             )}
             
-            {/* Кнопка завершить */}
+            {/* Finish button */}
             <button 
               onClick={() => window.history.back()}
               className={`w-full font-medium py-3 md:py-4 px-4 md:px-6 rounded-xl transition-colors duration-200 flex items-center justify-center gap-2 text-sm md:text-base active:scale-95 ${

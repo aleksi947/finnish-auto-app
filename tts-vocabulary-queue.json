@@ -1,0 +1,772 @@
+{
+  "defaults": {
+    "voice": "Харри",
+    "format": "mp3",
+    "speed": "1.0",
+    "pitch": "0",
+    "emotion": "good",
+    "concurrency": 4
+  },
+  "items": [
+    {
+      "text": "elektroniikka",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/elektroniikka.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "työpaikka",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/tyopaikka.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "palkka",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/palkka.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "ihan",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/ihan.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "työpäivä",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/tyopaiva.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "kansio",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/kansio.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "paperi",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/paperi.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "kannettava tietokone",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/kannettava_tietokone.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "mukaan",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/mukaan.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "hissi",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/hissi.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "tavata",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/tavata.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "työkaveri",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/tyokaveri.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "esitellä",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/esitella.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "projekti",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/projekti.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "asiakas",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/asiakas.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "tyytyväinen",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/tyytyvainen.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "valmis",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/valmis.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "G + kuluttua",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/g___kuluttua.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "neuvotella",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/neuvotella.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "aikataulu",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/aikataulu.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "luvata",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/luvata.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "tiimi",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/tiimi.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "kiire",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/kiire.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "palaveri",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/palaveri.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "ravintola",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/ravintola.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "lähellä",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/lahella.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "jutella",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/jutella.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "ylityö",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/ylityo.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "jos",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/jos.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "toimisto",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/toimisto.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "hakea",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/hakea.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "automaatti",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/automaatti.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "avata",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/avata.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "pomo",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/pomo.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "saada",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/saada.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "G + mielestä",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/g___mielesta.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "puhelu",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/puhelu.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "kertoa",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/kertoa.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "tulostaa",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/tulostaa.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "kahvitauko",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/kahvitauko.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "vastata",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/vastata.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "nopeasti",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/common/nopeasti.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "työpaikka",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/tyopaikka.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "firma",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/firma.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "yritys",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/yritys.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "toimisto",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/toimisto.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "työhuone",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/tyohuone.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "neuvotteluhuone",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/neuvotteluhuone.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "neukkari",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/neukkari.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "kokous",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/kokous.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "palaveri",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/palaveri.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "neuvottelu",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/neuvottelu.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "neuvotella",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/neuvotella.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "työpäivä",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/tyopaiva.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "työaika",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/tyoaika.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "työvuoro",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/tyovuoro.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "ylityö",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/ylityo.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "palkka",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/palkka.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "työnantaja",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/tyonantaja.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "työntekijä",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/tyontekija.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "pomo",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/pomo.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "esimies",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/esimies.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "työkaveri",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/tyokaveri.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "kollega",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/kollega.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "tiimi",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/tiimi.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "asiakas",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/asiakas.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "tietokone",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/tietokone.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "kannettava tietokone",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/kannettava_tietokone.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "läppäri",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/lappari.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "hiiri",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/hiiri.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "sähköposti",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/sahkoposti.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "tulostaa",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/tulostaa.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "printata",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/printata.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "tulostin",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/tulostin.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "printteri",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/printteri.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "faksi",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/faksi.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "kopiokone",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/kopiokone.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "puhelin",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/puhelin.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "kännykkä",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/kannykka.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "sopimus",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/sopimus.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "projekti",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/projekti.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "aikataulu",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/aikataulu.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "kiire",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/kiire.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "stressi",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/stressi.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "lounastauko",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/lounastauko.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "kahvitauko",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/kahvitauko.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "ruokala",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/ruokala.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "kahviautomaatti",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/work/kahviautomaatti.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "lääkäri",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/laakari.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "sairaanhoitaja",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/sairaanhoitaja.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "hammaslääkäri",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/hammaslaakari.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "myyjä",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/myyja.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "linja-autonkuljettaja",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/linja_autonkuljettaja.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "bussikuski",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/bussikuski.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "rekkakuski",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/rekkakuski.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "taksikuski",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/taksikuski.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "automekaanikko",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/automekaanikko.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "maanviljelijä",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/maanviljelija.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "laulaja",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/laulaja.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "kirjailija",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/kirjailija.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "näyttelijä",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/nayttelija.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "urheilija",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/urheilija.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "poliisi",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/poliisi.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "palomies",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/palomies.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "pappi",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/pappi.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "yksityisyrittäjä",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/yksityisyrittaja.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "arkkitehti",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/arkkitehti.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "insinööri",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/insinoori.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "rakennusmies",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/rakennusmies.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "putkiasentaja",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/putkiasentaja.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "putkimies",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/putkimies.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "sähköasentaja",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/sahkoasentaja.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "sähkömies",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/sahkomies.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "maalari",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/maalari.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "postinjakaja",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/postinjakaja.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "vahtimestari",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/vahtimestari.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "vartija",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/vartija.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "kiinteistövälittäjä",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/kiinteistovalittaja.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "toimitusjohtaja",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/toimitusjohtaja.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "henkilöstöpäällikkö",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/henkilostopaallikko.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "assistentti",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/assistentti.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "sihteeri",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/sihteeri.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "kirjanpitäjä",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/kirjanpitaja.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "toimittaja",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/toimittaja.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "valokuvaaja",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/valokuvaaja.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "siivooja",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/siivooja.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "kampaaja",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/kampaaja.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "parturi",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/parturi.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "kosmetologi",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/kosmetologi.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "opettaja",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/opettaja.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "kokki",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/kokki.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "tarjoilija",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/tarjoilija.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "keittiöapulainen",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/keittioapulainen.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "lastentarhanopettaja",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/lastentarhanopettaja.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "lastenhoitaja",
+      "out": "stripe-test/public/audio/A1-9/vocabulary/ammatit/lastenhoitaja.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "hattara",
+      "out": "stripe-test/public/audio/block3/hattara.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "lujuus",
+      "out": "stripe-test/public/audio/block3/lujuus.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "täsmälleen",
+      "out": "stripe-test/public/audio/block3/tasmalleen.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "teettäjä",
+      "out": "stripe-test/public/audio/block3/teettaja.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "kurjuus",
+      "out": "stripe-test/public/audio/block3/kurjuus.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "pähkäillä",
+      "out": "stripe-test/public/audio/block3/pahkailla.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "pulma",
+      "out": "stripe-test/public/audio/block3/pulma.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "ääriviiva",
+      "out": "stripe-test/public/audio/block3/aariviiva.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "ylänäkymä",
+      "out": "stripe-test/public/audio/block3/ylanakyma.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "älytön",
+      "out": "stripe-test/public/audio/block3/alyton.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "suukko",
+      "out": "stripe-test/public/audio/block3/suukko.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "hassusti",
+      "out": "stripe-test/public/audio/block3/hassusti.mp3",
+      "voice": "Нора"
+    },
+    {
+      "text": "taakka",
+      "out": "stripe-test/public/audio/block3/taakka.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "hävetä",
+      "out": "stripe-test/public/audio/block3/haveta.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "kommellus",
+      "out": "stripe-test/public/audio/block3/kommellus.mp3",
+      "voice": "Сельма"
+    },
+    {
+      "text": "matkia",
+      "out": "stripe-test/public/audio/block3/matkia.mp3",
+      "voice": "Харри"
+    },
+    {
+      "text": "hävyttömästi",
+      "out": "stripe-test/public/audio/block3/havyttomasti.mp3",
+      "voice": "Харри"
+    }
+  ]
+}

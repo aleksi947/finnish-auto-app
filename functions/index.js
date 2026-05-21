@@ -7,7 +7,7 @@ admin.initializeApp();
 
 const allowedOrigins = [
   "https://finnish-auto-new.web.app",
-  "https://finnish-auto-new.firebaseapp.com", // На всякий случай
+  "https://finnish-auto-new.firebaseapp.com", // fallback URL
   "http://localhost:5173",
   "http://localhost:4173", // Vite preview
   "http://localhost:5000" // Emulators
@@ -15,7 +15,7 @@ const allowedOrigins = [
 
 const corsHandler = cors({
   origin: (origin, callback) => {
-    // Разрешаем запросы без origin (например, server-to-server) или из белого списка
+    // Allow no-origin (server-to-server) or whitelist
     if (!origin || allowedOrigins.includes(origin)) {
       callback(null, true);
     } else {
@@ -24,10 +24,10 @@ const corsHandler = cors({
   }
 });
 
-// ✅ СОЗДАНИЕ Checkout-сессии
+// Create Checkout session
 exports.startCheckoutSession = functions.https.onRequest((req, res) => {
   corsHandler(req, res, async () => {
-    // Проверяем метод запроса (на всякий случай)
+    // Check request method
     if (req.method !== "POST") {
       return res.status(405).send("Method Not Allowed");
     }
@@ -39,18 +39,18 @@ exports.startCheckoutSession = functions.https.onRequest((req, res) => {
       const decodedToken = await admin.auth().verifyIdToken(idToken);
       const uid = decodedToken.uid;
 
-      // Получаем параметры из тела запроса
-      // mode: 'subscription' (по умолчанию) или 'payment'
-      // priceId: если передан, используем его, иначе берем из конфига (дефолтная подписка)
+      // Read params from request body
+      // mode: 'subscription' (default) or 'payment'
+      // priceId from client or default subscription from config
       const { mode = "subscription", priceId } = req.body;
 
-      // Определяем ID цены.
-      // Если priceId пришел с фронтенда - берем его.
-      // Если нет - берем дефолтный ID подписки из конфига Firebase.
+      // Resolve price ID.
+      // Use priceId from frontend if provided.
+      // Else default subscription ID from Firebase config.
       const finalPriceId = priceId || functions.config().stripe.price_id;
 
       const sessionParams = {
-        mode: mode, // 'subscription' или 'payment'
+        mode: mode, // 'subscription' or 'payment'
         payment_method_types: ["card"],
         line_items: [
           {
@@ -60,14 +60,14 @@ exports.startCheckoutSession = functions.https.onRequest((req, res) => {
         ],
         metadata: { 
           uid, 
-          type: mode // Добавляем тип в метаданные, чтобы в вебхуке понимать контекст
+          type: mode // Add type to metadata for webhook context
         },
         success_url: "https://finnish-auto-new.web.app/success",
-        cancel_url: "https://finnish-auto-new.web.app/profile", // Можно поменять на /subscription если нужно
+        cancel_url: "https://finnish-auto-new.web.app/profile", // Can change to /subscription if needed
       };
 
-      // Для разовых платежей Stripe иногда требует creation of invoice_creation, но для checkout это обычно не нужно,
-      // если это не B2B. Просто создаем сессию.
+      // For one-time payments Stripe may require invoice_creation, but checkout usually does not need it,
+      // unless B2B. Just create the session.
 
       const session = await stripe.checkout.sessions.create(sessionParams);
 
@@ -80,7 +80,7 @@ exports.startCheckoutSession = functions.https.onRequest((req, res) => {
   });
 });
 
-// ✅ ОТМЕНА подписки
+// Cancel subscription
 exports.stopSubscription = functions.https.onRequest((req, res) => {
   corsHandler(req, res, async () => {
     const idToken = req.headers.authorization?.split("Bearer ")[1];
@@ -103,8 +103,8 @@ exports.stopSubscription = functions.https.onRequest((req, res) => {
         cancel_at_period_end: true,
       });
 
-      // Не меняем active на false сразу, так как она действует до конца периода
-      // Но можем пометить, что она отменена
+      // Keep active until period end
+      // Mark as cancelled
       await subRef.set({ canceledAtPeriodEnd: true }, { merge: true });
 
       res.status(200).send("Подписка отменена");
@@ -115,7 +115,7 @@ exports.stopSubscription = functions.https.onRequest((req, res) => {
   });
 });
 
-// ✅ ВОЗОБНОВЛЕНИЕ подписки
+// Resume subscription
 exports.resumeSubscription = functions.https.onRequest((req, res) => {
   corsHandler(req, res, async () => {
     const idToken = req.headers.authorization?.split("Bearer ")[1];
@@ -140,12 +140,12 @@ exports.resumeSubscription = functions.https.onRequest((req, res) => {
         return res.status(400).send("Подписка уже активна и не была отменена.");
       }
 
-      // Возобновляем в Stripe
+      // Resume in Stripe
       await stripe.subscriptions.update(subscriptionId, {
         cancel_at_period_end: false,
       });
 
-      // Обновляем Firestore
+      // Update Firestore
       await subRef.set({ canceledAtPeriodEnd: false }, { merge: true });
 
       res.status(200).send("Подписка возобновлена");
@@ -156,7 +156,7 @@ exports.resumeSubscription = functions.https.onRequest((req, res) => {
   });
 });
 
-// ✅ WEBHOOK с поддержкой rawBody
+// Webhook with rawBody support
 exports.stripeWebhook = functions.https.onRequest(async (req, res) => {
   const endpointSecret = functions.config().stripe.webhook_secret;
   const sig = req.headers["stripe-signature"];
@@ -172,7 +172,7 @@ exports.stripeWebhook = functions.https.onRequest(async (req, res) => {
   if (event.type === "checkout.session.completed") {
     const session = event.data.object;
     const uid = session.metadata.uid;
-    const mode = session.mode; // 'subscription' или 'payment'
+    const mode = session.mode; // 'subscription' or 'payment'
 
     if (uid) {
       const ref = admin.firestore().collection("subscriptions").doc(uid);
@@ -180,20 +180,20 @@ exports.stripeWebhook = functions.https.onRequest(async (req, res) => {
       let updateData = { active: true };
 
       if (mode === "subscription") {
-        // Для подписки сохраняем ID подписки
+        // Save subscription ID for subscriptions
         updateData.subscriptionId = session.subscription;
         updateData.type = 'monthly';
-        // Можно убрать поля разового платежа, если они были
+        // Clear one-time payment fields if any
         updateData.validUntil = admin.firestore.FieldValue.delete(); 
       } else if (mode === "payment") {
-        // Для разового платежа вычисляем дату окончания (текущая дата + 30 дней)
+        // One-time: expiry = now + 30 days
         const now = new Date();
         const days30 = 30 * 24 * 60 * 60 * 1000;
         const validUntilDate = new Date(now.getTime() + days30);
 
         updateData.validUntil = admin.firestore.Timestamp.fromDate(validUntilDate);
         updateData.type = 'one_time';
-        // Убираем subscriptionId, так как это не подписка
+        // Remove subscriptionId — not a subscription
         updateData.subscriptionId = admin.firestore.FieldValue.delete();
       }
 
@@ -202,10 +202,10 @@ exports.stripeWebhook = functions.https.onRequest(async (req, res) => {
     }
   }
 
-  // Обработка события, когда подписка удаляется или истекает
+  // Handle subscription deleted/expired
   if (event.type === "customer.subscription.deleted") {
     const subscription = event.data.object;
-    // Нам нужно найти пользователя с этим subscriptionId
+    // Find user by subscriptionId
     const snapshot = await admin.firestore()
       .collection("subscriptions")
       .where("subscriptionId", "==", subscription.id)

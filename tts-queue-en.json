@@ -1,0 +1,92 @@
+{
+  "defaults": {
+    "voice": "Angel",
+    "format": "mp3",
+    "speed": "1.0",
+    "pitch": "0",
+    "emotion": "good",
+    "concurrency": 4
+  },
+  "items": [
+    {
+      "text": "fog",
+      "out": "stripe-test/public/audio/en/block_en_weather/fog.mp3"
+    },
+    {
+      "text": "wet",
+      "out": "stripe-test/public/audio/en/block_en_weather/wet.mp3"
+    },
+    {
+      "text": "dry",
+      "out": "stripe-test/public/audio/en/block_en_weather/dry.mp3"
+    },
+    {
+      "text": "breeze",
+      "out": "stripe-test/public/audio/en/block_en_weather/breeze.mp3"
+    },
+    {
+      "text": "hail",
+      "out": "stripe-test/public/audio/en/block_en_weather/hail.mp3"
+    },
+    {
+      "text": "flood",
+      "out": "stripe-test/public/audio/en/block_en_weather/flood.mp3"
+    },
+    {
+      "text": "heat",
+      "out": "stripe-test/public/audio/en/block_en_weather/heat.mp3"
+    },
+    {
+      "text": "thunder",
+      "out": "stripe-test/public/audio/en/block_en_weather/thunder.mp3"
+    },
+    {
+      "text": "puddle",
+      "out": "stripe-test/public/audio/en/block_en_weather/puddle.mp3"
+    },
+    {
+      "text": "mud",
+      "out": "stripe-test/public/audio/en/block_en_weather/mud.mp3"
+    },
+    {
+      "text": "forecast",
+      "out": "stripe-test/public/audio/en/block_en_weather/forecast.mp3"
+    },
+    {
+      "text": "humidity",
+      "out": "stripe-test/public/audio/en/block_en_weather/humidity.mp3"
+    },
+    {
+      "text": "to blow",
+      "out": "stripe-test/public/audio/en/block_en_weather/to_blow.mp3"
+    },
+    {
+      "text": "to melt",
+      "out": "stripe-test/public/audio/en/block_en_weather/to_melt.mp3"
+    },
+    {
+      "text": "to pour",
+      "out": "stripe-test/public/audio/en/block_en_weather/to_pour.mp3"
+    },
+    {
+      "text": "to clear up",
+      "out": "stripe-test/public/audio/en/block_en_weather/to_clear_up.mp3"
+    },
+    {
+      "text": "to warm up",
+      "out": "stripe-test/public/audio/en/block_en_weather/to_warm_up.mp3"
+    },
+    {
+      "text": "to cool down",
+      "out": "stripe-test/public/audio/en/block_en_weather/to_cool_down.mp3"
+    },
+    {
+      "text": "blizzard",
+      "out": "stripe-test/public/audio/en/block_en_weather/blizzard.mp3"
+    },
+    {
+      "text": "lightning",
+      "out": "stripe-test/public/audio/en/block_en_weather/lightning.mp3"
+    }
+  ]
+}

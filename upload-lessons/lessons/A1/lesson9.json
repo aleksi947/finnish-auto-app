@@ -493,6 +493,7 @@
         }
       ]
     },
+
     "work": {
       "title": "В работе",
       "words": [
@@ -1153,6 +1154,223 @@
           "audio": "/audio/A1-9/vocabulary/ammatit/lastenhoitaja.mp3"
         }
       ]
+    },
+    "block3": {
+      "title": "Дополнительная лексика",
+      "words": [
+        {
+          "fi": "hattara",
+          "translations": { "ru": "сахарная вата" },
+          "example": { "fi": "Lapset söivät hattaraa." },
+          "audio": "/audio/block3/hattara.mp3"
+        },
+        {
+          "fi": "lujuus",
+          "translations": { "ru": "прочность" },
+          "example": { "fi": "Teräksen lujuus on korkea." },
+          "audio": "/audio/block3/lujuus.mp3"
+        },
+        {
+          "fi": "täsmälleen",
+          "translations": { "ru": "точно" },
+          "example": { "fi": "Mitat ovat täsmälleen 1200 mm." },
+          "audio": "/audio/block3/tasmalleen.mp3"
+        },
+        {
+          "fi": "teettäjä",
+          "translations": { "ru": "заказчик" },
+          "example": { "fi": "Teettäjä hyväksyy piirustukset." },
+          "audio": "/audio/block3/teettaja.mp3"
+        },
+        {
+          "fi": "kurjuus",
+          "translations": { "ru": "нищета, страдание" },
+          "example": { "fi": "Sota toi paljon kurjuutta." },
+          "audio": "/audio/block3/kurjuus.mp3"
+        },
+        {
+          "fi": "pähkäillä",
+          "translations": { "ru": "ломать голову, размышлять" },
+          "example": { "fi": "Oletko sä ikinä pähkäillyt tätä ongelmaa?" },
+          "audio": "/audio/block3/pahkailla.mp3"
+        },
+        {
+          "fi": "pulma",
+          "translations": { "ru": "проблема, задача" },
+          "example": { "fi": "Tämä on vaikea pulma." },
+          "audio": "/audio/block3/pulma.mp3"
+        },
+        {
+          "fi": "ääriviiva",
+          "translations": { "ru": "контур" },
+          "example": { "fi": "Piirrä kappaleen ääriviivat." },
+          "audio": "/audio/block3/aariviiva.mp3"
+        },
+        {
+          "fi": "ylänäkymä",
+          "translations": { "ru": "вид сверху" },
+          "example": { "fi": "Piirrä kappaleen ylänäkymä." },
+          "audio": "/audio/block3/ylanakyma.mp3"
+        },
+        {
+          "fi": "älytön",
+          "translations": { "ru": "глупый, безумный" },
+          "example": { "fi": "Se on älyttömän kallista." },
+          "audio": "/audio/block3/alyton.mp3"
+        },
+        {
+          "fi": "suukko",
+          "translations": { "ru": "поцелуй" },
+          "example": { "fi": "Hän antoi minulle suukon." },
+          "audio": "/audio/block3/suukko.mp3"
+        },
+        {
+          "fi": "hassusti",
+          "translations": { "ru": "странно, забавно" },
+          "example": { "fi": "Hän puhui hassusti." },
+          "audio": "/audio/block3/hassusti.mp3"
+        },
+        {
+          "fi": "taakka",
+          "translations": { "ru": "бремя" },
+          "example": { "fi": "Hän kantoi suurta taakkaa pitkään." },
+          "audio": "/audio/block3/taakka.mp3"
+        },
+        {
+          "fi": "hävetä",
+          "translations": { "ru": "стыдиться" },
+          "example": { "fi": "Hän häpeää tekoaan." },
+          "audio": "/audio/block3/haveta.mp3"
+        },
+        {
+          "fi": "kommellus",
+          "translations": { "ru": "курьёз, неловкий случай" },
+          "example": { "fi": "Hän kertoi kommelluksestaan." },
+          "audio": "/audio/block3/kommellus.mp3"
+        },
+        {
+          "fi": "matkia",
+          "translations": { "ru": "подражать" },
+          "example": { "fi": "Hän oli matkinut opettajaa." },
+          "audio": "/audio/block3/matkia.mp3"
+        },
+        {
+          "fi": "hävyttömästi",
+          "translations": { "ru": "нагло, бесстыдно" },
+          "example": { "fi": "Hän käyttäytyi hävyttömästi." },
+          "audio": "/audio/block3/havyttomasti.mp3"
+        },
+
+        {
+          "fi": "anteeksipyyntö",
+          "translations": { "ru": "извинение" },
+          "example": { "fi": "Hän esitti anteeksipyynnön virheestään." },
+          "audio": "/audio/block3/anteeksipyynto.mp3"
+        },
+        {
+          "fi": "häpeä",
+          "translations": { "ru": "стыд" },
+          "example": { "fi": "Häpeä voi estää ihmistä puhumasta avoimesti." },
+          "audio": "/audio/block3/hapea.mp3"
+        },
+        {
+          "fi": "arvella",
+          "translations": { "ru": "предполагать" },
+          "example": { "fi": "Hän arveli, että kaikki menee hyvin." },
+          "audio": "/audio/block3/arvella.mp3"
+        },
+        {
+          "fi": "aikanaan",
+          "translations": { "ru": "со временем" },
+          "example": { "fi": "Hän ymmärtää sen aikanaan." },
+          "audio": "/audio/block3/aikanaan.mp3"
+        },
+        {
+          "fi": "lukujärjestys",
+          "translations": { "ru": "расписание" },
+          "example": {
+            "fi": "Opiskelijat tarkistavat lukujärjestyksiä ennen lukukauden alkua."
+          },
+          "audio": "/audio/block3/lukujarjestys.mp3"
+        },
+        {
+          "fi": "oljenkorsi",
+          "translations": { "ru": "последняя надежда" },
+          "example": { "fi": "Hän piti tätä mahdollisuutta oljenkortenaan." },
+          "audio": "/audio/block3/oljenkorsi.mp3"
+        },
+        {
+          "fi": "piina",
+          "translations": { "ru": "мучение" },
+          "example": { "fi": "Pitkä odotus oli hänelle todellista piinaa." },
+          "audio": "/audio/block3/piina.mp3"
+        },
+        {
+          "fi": "ilahtunut",
+          "translations": { "ru": "обрадованный" },
+          "example": { "fi": "Hän oli ilahtunut uutisesta." },
+          "audio": "/audio/block3/ilahtunut.mp3"
+        },
+        {
+          "fi": "rangaista",
+          "translations": { "ru": "наказывать" },
+          "example": { "fi": "Opettaja on rankaissut oppilasta käytöksestä." },
+          "audio": "/audio/block3/rangaista.mp3"
+        },
+        {
+          "fi": "käytös",
+          "translations": { "ru": "поведение" },
+          "example": { "fi": "Häntä rankaistiin huonosta käytöksestä." },
+          "audio": "/audio/block3/kaytos.mp3"
+        },
+        {
+          "fi": "synninpäästö",
+          "translations": { "ru": "отпущение грехов" },
+          "example": { "fi": "Pappi antoi hänelle synninpäästön." },
+          "audio": "/audio/block3/synninpaasto.mp3"
+        },
+        {
+          "fi": "puida",
+          "translations": { "ru": "обсуждать, разбирать" },
+          "example": { "fi": "Asiaa puitiin pitkään kokouksessa." },
+          "audio": "/audio/block3/puida.mp3"
+        },
+        {
+          "fi": "leppoisa",
+          "translations": { "ru": "спокойный, приятный" },
+          "example": { "fi": "He viettivät päivän leppoisassa tunnelmassa." },
+          "audio": "/audio/block3/leppoisa.mp3"
+        },
+        {
+          "fi": "käsikirjoitus",
+          "translations": { "ru": "сценарий" },
+          "example": { "fi": "Hän kirjoitti käsikirjoituksen elokuvaan." },
+          "audio": "/audio/block3/kasikirjoitus.mp3"
+        }
+      ]
+    },
+    "block_en_test": {
+      "title": "English Test",
+      "words": [
+        {
+          "fi": "script",
+          "translations": { "ru": "сценарий" },
+          "example": { "fi": "He wrote a script for the movie." },
+          "audio": "/audio/en/block_test/script.mp3"
+        },
+        {
+          "fi": "decision",
+          "translations": { "ru": "решение" },
+          "example": { "fi": "It was a difficult decision." },
+          "audio": "/audio/en/block_test/decision.mp3"
+        },
+        {
+          "fi": "improve",
+          "translations": { "ru": "улучшать" },
+          "example": { "fi": "You need to improve your skills." },
+          "audio": "/audio/en/block_test/improve.mp3"
+        }
+      ]
     }
   },
   "grammar": {
@@ -1711,92 +1929,52 @@
             "questions": [
               {
                 "question": "Minä annan kirjan ___ (ystävä)",
-                "options": [
-                  "ystävä",
-                  "ystävälle",
-                  "ystävältä"
-                ],
+                "options": ["ystävä", "ystävälle", "ystävältä"],
                 "answer": 1
               },
               {
                 "question": "Minä lainaan rahaa ___ (äiti)",
-                "options": [
-                  "äidille",
-                  "äidiltä",
-                  "äitiä"
-                ],
+                "options": ["äidille", "äidiltä", "äitiä"],
                 "answer": 1
               },
               {
                 "question": "Soitan ___ (opettaja) huomenna.",
-                "options": [
-                  "opettajalle",
-                  "opettajalta",
-                  "opettajaa"
-                ],
+                "options": ["opettajalle", "opettajalta", "opettajaa"],
                 "answer": 0
               },
               {
                 "question": "Poliisi ottaa ajokortin ___ (kuski).",
-                "options": [
-                  "kuskille",
-                  "kuskilta",
-                  "kuskin"
-                ],
+                "options": ["kuskille", "kuskilta", "kuskin"],
                 "answer": 1
               },
               {
                 "question": "Hän kirjoittaa viestin ___ (pomot).",
-                "options": [
-                  "pomoille",
-                  "pomoilta",
-                  "pomot"
-                ],
+                "options": ["pomoille", "pomoilta", "pomot"],
                 "answer": 0
               },
               {
                 "question": "Otan mansikat ___ (viljelijä).",
-                "options": [
-                  "viljelijälle",
-                  "viljelijältä",
-                  "viljelijän"
-                ],
+                "options": ["viljelijälle", "viljelijältä", "viljelijän"],
                 "answer": 1
               },
               {
                 "question": "Kiitos! Onko se ___ (minä)?",
-                "options": [
-                  "minut",
-                  "minulle",
-                  "minulta"
-                ],
+                "options": ["minut", "minulle", "minulta"],
                 "answer": 1
               },
               {
                 "question": "Kysyn lupaa ___ (opettaja).",
-                "options": [
-                  "opettajalta",
-                  "opettajalle",
-                  "opettajaa"
-                ],
+                "options": ["opettajalta", "opettajalle", "opettajaa"],
                 "answer": 0
               },
               {
                 "question": "Esittelen ystäväni ___ (sinä).",
-                "options": [
-                  "sinulle",
-                  "sinulta",
-                  "sinua"
-                ],
+                "options": ["sinulle", "sinulta", "sinua"],
                 "answer": 0
               },
               {
                 "question": "Hän saa viestin ___ (Alex).",
-                "options": [
-                  "Alexilta",
-                  "Alexille",
-                  "Alexin"
-                ],
+                "options": ["Alexilta", "Alexille", "Alexin"],
                 "answer": 0
               }
             ]
@@ -1906,11 +2084,7 @@
               "title": {
                 "ru": "Склонение слова puhelin (телефон)"
               },
-              "columns": [
-                "Падеж",
-                "Форма",
-                "Перевод"
-              ],
+              "columns": ["Падеж", "Форма", "Перевод"],
               "rows": [
                 {
                   "person": "Nominatiivi\n(кто? что?)",
@@ -2075,164 +2249,92 @@
             "questions": [
               {
                 "question": "Minulla on uusi ___ (puhelin)",
-                "options": [
-                  "puhelin",
-                  "puhelinta",
-                  "puhelimen"
-                ],
+                "options": ["puhelin", "puhelinta", "puhelimen"],
                 "answer": 0
               },
               {
                 "question": "Tarvitsen uuden ___ (puhelin)",
-                "options": [
-                  "puhelin",
-                  "puhelinta",
-                  "puhelimen"
-                ],
+                "options": ["puhelin", "puhelinta", "puhelimen"],
                 "answer": 2
               },
               {
                 "question": "Minä etsin ___ (puhelin)",
-                "options": [
-                  "puhelin",
-                  "puhelinta",
-                  "puhelimen"
-                ],
+                "options": ["puhelin", "puhelinta", "puhelimen"],
                 "answer": 1
               },
               {
                 "question": "Puhelu on ___ (puhelin)",
-                "options": [
-                  "puhelimessa",
-                  "puhelimeen",
-                  "puhelimella"
-                ],
+                "options": ["puhelimessa", "puhelimeen", "puhelimella"],
                 "answer": 0
               },
               {
                 "question": "Laitan laturin ___ (puhelin)",
-                "options": [
-                  "puhelimeen",
-                  "puhelimessa",
-                  "puhelimelta"
-                ],
+                "options": ["puhelimeen", "puhelimessa", "puhelimelta"],
                 "answer": 0
               },
               {
                 "question": "Soitan ___ (puhelin)",
-                "options": [
-                  "puhelimella",
-                  "puhelimeen",
-                  "puhelimen"
-                ],
+                "options": ["puhelimella", "puhelimeen", "puhelimen"],
                 "answer": 0
               },
               {
                 "question": "Numerot ovat minun ___ (puhelin)",
-                "options": [
-                  "puhelimessa",
-                  "puhelimella",
-                  "puhelimeen"
-                ],
+                "options": ["puhelimessa", "puhelimella", "puhelimeen"],
                 "answer": 0
               },
               {
                 "question": "Tämä on minun ___ (puhelin)",
-                "options": [
-                  "puhelin",
-                  "puhelinta",
-                  "puhelimen"
-                ],
+                "options": ["puhelin", "puhelinta", "puhelimen"],
                 "answer": 0
               },
               {
                 "question": "Otan kirjan ___ (kirjain)",
-                "options": [
-                  "kirjaimelta",
-                  "kirjaimessa",
-                  "kirjaimeen"
-                ],
+                "options": ["kirjaimelta", "kirjaimessa", "kirjaimeen"],
                 "answer": 0
               },
               {
                 "question": "Kirjoitan uuden ___ (kirjain)",
-                "options": [
-                  "kirjaimen",
-                  "kirjain",
-                  "kirjainta"
-                ],
+                "options": ["kirjaimen", "kirjain", "kirjainta"],
                 "answer": 0
               },
               {
                 "question": "Avain on ___ (avain)",
-                "options": [
-                  "avaimessa",
-                  "avaimella",
-                  "avaimeen"
-                ],
+                "options": ["avaimessa", "avaimella", "avaimeen"],
                 "answer": 0
               },
               {
                 "question": "Anna minulle ___ (avain)",
-                "options": [
-                  "avain",
-                  "avaimen",
-                  "avainta"
-                ],
+                "options": ["avain", "avaimen", "avainta"],
                 "answer": 0
               },
               {
                 "question": "Tarvitsen ___ (laskin)",
-                "options": [
-                  "laskimen",
-                  "laskin",
-                  "laskinta"
-                ],
+                "options": ["laskimen", "laskin", "laskinta"],
                 "answer": 0
               },
               {
                 "question": "Laske tämä ___ (laskin)",
-                "options": [
-                  "laskimella",
-                  "laskimessa",
-                  "laskimeen"
-                ],
+                "options": ["laskimella", "laskimessa", "laskimeen"],
                 "answer": 0
               },
               {
                 "question": "Ota jäätelö ___ (pakastin)",
-                "options": [
-                  "pakastimesta",
-                  "pakastimella",
-                  "pakastimessa"
-                ],
+                "options": ["pakastimesta", "pakastimella", "pakastimessa"],
                 "answer": 0
               },
               {
                 "question": "Laita ruoka ___ (pakastin)",
-                "options": [
-                  "pakastimeen",
-                  "pakastimessa",
-                  "pakastimelta"
-                ],
+                "options": ["pakastimeen", "pakastimessa", "pakastimelta"],
                 "answer": 0
               },
               {
                 "question": "Tulosta tämä ___ (tulostin)",
-                "options": [
-                  "tulostimella",
-                  "tulostimeen",
-                  "tulostimessa"
-                ],
+                "options": ["tulostimella", "tulostimeen", "tulostimessa"],
                 "answer": 0
               },
               {
                 "question": "Paperit ovat ___ (tulostin)",
-                "options": [
-                  "tulostimessa",
-                  "tulostimella",
-                  "tulostimelta"
-                ],
+                "options": ["tulostimessa", "tulostimella", "tulostimelta"],
                 "answer": 0
               }
             ]
@@ -2463,12 +2565,7 @@
                   "title": {
                     "ru": "Склонение слова lounas (обед)"
                   },
-                  "columns": [
-                    "Падеж",
-                    "Вопросы",
-                    "Форма",
-                    "Перевод"
-                  ],
+                  "columns": ["Падеж", "Вопросы", "Форма", "Перевод"],
                   "rows": [
                     {
                       "person": "Nominatiivi",
@@ -2650,12 +2747,7 @@
                   "title": {
                     "ru": "Склонение слова kaunis (красивый)"
                   },
-                  "columns": [
-                    "Падеж",
-                    "Вопросы",
-                    "Форма",
-                    "Перевод"
-                  ],
+                  "columns": ["Падеж", "Вопросы", "Форма", "Перевод"],
                   "rows": [
                     {
                       "person": "Nominatiivi",
@@ -2822,200 +2914,112 @@
             "questions": [
               {
                 "question": "Pidän pitkästä ___ (lounas).",
-                "options": [
-                  "lounas",
-                  "lounasta",
-                  "lounaasta"
-                ],
+                "options": ["lounas", "lounasta", "lounaasta"],
                 "answer": 2
               },
               {
                 "question": "Syön ___ klo 12.",
-                "options": [
-                  "lounaan",
-                  "lounaalla",
-                  "lounaasta"
-                ],
+                "options": ["lounaan", "lounaalla", "lounaasta"],
                 "answer": 0
               },
               {
                 "question": "Tapaan ystävän ___ (lounas).",
-                "options": [
-                  "lounaalla",
-                  "lounaan",
-                  "lounasta"
-                ],
+                "options": ["lounaalla", "lounaan", "lounasta"],
                 "answer": 0
               },
               {
                 "question": "Menemme ___ (lounas).",
-                "options": [
-                  "lounaalle",
-                  "lounaasta",
-                  "lounaan"
-                ],
+                "options": ["lounaalle", "lounaasta", "lounaan"],
                 "answer": 0
               },
               {
                 "question": "Ruoka on ___ (kaunis).",
-                "options": [
-                  "kaunis",
-                  "kauniin",
-                  "kauniissa"
-                ],
+                "options": ["kaunis", "kauniin", "kauniissa"],
                 "answer": 0
               },
               {
                 "question": "Talo on todella ___ (kaunis).",
-                "options": [
-                  "kaunis",
-                  "kauniin",
-                  "kauniissa"
-                ],
+                "options": ["kaunis", "kauniin", "kauniissa"],
                 "answer": 0
               },
               {
                 "question": "Katson ___ (kaunis) taloa.",
-                "options": [
-                  "kaunista",
-                  "kauniista",
-                  "kauniilla"
-                ],
+                "options": ["kaunista", "kauniista", "kauniilla"],
                 "answer": 0
               },
               {
                 "question": "Asun ___ (kaunis) kaupungissa.",
-                "options": [
-                  "kauniissa",
-                  "kauniin",
-                  "kauniista"
-                ],
+                "options": ["kauniissa", "kauniin", "kauniista"],
                 "answer": 0
               },
               {
                 "question": "Tämä on ___ (kaunis) väri.",
-                "options": [
-                  "kaunis",
-                  "kauniin",
-                  "kauniissa"
-                ],
+                "options": ["kaunis", "kauniin", "kauniissa"],
                 "answer": 0
               },
               {
                 "question": "Rakastan ___ (kaunis) musiikkia.",
-                "options": [
-                  "kaunista",
-                  "kauniin",
-                  "kauniissa"
-                ],
+                "options": ["kaunista", "kauniin", "kauniissa"],
                 "answer": 0
               },
               {
                 "question": "Kävelen ___ (kaunis) puistossa.",
-                "options": [
-                  "kauniissa",
-                  "kauniille",
-                  "kauniilta"
-                ],
+                "options": ["kauniissa", "kauniille", "kauniilta"],
                 "answer": 0
               },
               {
                 "question": "Tämä ___ (asiakas) on uusi.",
-                "options": [
-                  "asiakas",
-                  "asiakkaan",
-                  "asiakasta"
-                ],
+                "options": ["asiakas", "asiakkaan", "asiakasta"],
                 "answer": 0
               },
               {
                 "question": "Näen monta ___ (asiakas).",
-                "options": [
-                  "asiakasta",
-                  "asiakas",
-                  "asiakkaan"
-                ],
+                "options": ["asiakasta", "asiakas", "asiakkaan"],
                 "answer": 0
               },
               {
                 "question": "Hän on ___ (eräs) henkilö.",
-                "options": [
-                  "eräs",
-                  "erästä",
-                  "erään"
-                ],
+                "options": ["eräs", "erästä", "erään"],
                 "answer": 0
               },
               {
                 "question": "Auto on liian ___ (kallis) minulle.",
-                "options": [
-                  "kallis",
-                  "kalliissa",
-                  "kalliista"
-                ],
+                "options": ["kallis", "kalliissa", "kalliista"],
                 "answer": 0
               },
               {
                 "question": "Pidän tästä ___ (patsas).",
-                "options": [
-                  "patsaasta",
-                  "patsaan",
-                  "patsasta"
-                ],
+                "options": ["patsaasta", "patsaan", "patsasta"],
                 "answer": 2
               },
               {
                 "question": "Pihalla kasvaa ___ (pensas).",
-                "options": [
-                  "pensas",
-                  "pensasta",
-                  "pensaasta"
-                ],
+                "options": ["pensas", "pensasta", "pensaasta"],
                 "answer": 0
               },
               {
                 "question": "___ (potilas) odottaa lääkäriä.",
-                "options": [
-                  "Potilas",
-                  "Potilasta",
-                  "Potilaan"
-                ],
+                "options": ["Potilas", "Potilasta", "Potilaan"],
                 "answer": 0
               },
               {
                 "question": "Olen ollut ___ (sairas) koko viikon.",
-                "options": [
-                  "sairas",
-                  "sairaana",
-                  "sairasta"
-                ],
+                "options": ["sairas", "sairaana", "sairasta"],
                 "answer": 0
               },
               {
                 "question": "Ruoka on ___ (valmis).",
-                "options": [
-                  "valmis",
-                  "valmiin",
-                  "valmiissa"
-                ],
+                "options": ["valmis", "valmiin", "valmiissa"],
                 "answer": 0
               },
               {
                 "question": "Meillä on ___ (vieras) tänään.",
-                "options": [
-                  "vieras",
-                  "vieraan",
-                  "vieraasta"
-                ],
+                "options": ["vieras", "vieraan", "vieraasta"],
                 "answer": 0
               },
               {
                 "question": "Hän on hyvin ___ (viisas).",
-                "options": [
-                  "viisas",
-                  "viisaasta",
-                  "viisaalla"
-                ],
+                "options": ["viisas", "viisaasta", "viisaalla"],
                 "answer": 0
               }
             ]
@@ -3141,20 +3145,12 @@
             },
             {
               "question": "Mihin aikaan työpäivä alkaa?",
-              "options": [
-                "Kello 7",
-                "Kello 8",
-                "Kello 9"
-              ],
+              "options": ["Kello 7", "Kello 8", "Kello 9"],
               "answer": 1
             },
             {
               "question": "Mihin aikaan työpäivä loppuu?",
-              "options": [
-                "Kello 15",
-                "Kello 16",
-                "Kello 17"
-              ],
+              "options": ["Kello 15", "Kello 16", "Kello 17"],
               "answer": 1
             },
             {
@@ -3177,38 +3173,22 @@
             },
             {
               "question": "Mihin aikaan on kahvitauko?",
-              "options": [
-                "Kello 9",
-                "Kello 10",
-                "Kello 11"
-              ],
+              "options": ["Kello 9", "Kello 10", "Kello 11"],
               "answer": 1
             },
             {
               "question": "Kuka kysyy kahvista?",
-              "options": [
-                "Pomo",
-                "Liisa",
-                "Asiakas"
-              ],
+              "options": ["Pomo", "Liisa", "Asiakas"],
               "answer": 1
             },
             {
               "question": "Mitä henkilö tulostaa aamulla?",
-              "options": [
-                "Raportin",
-                "Sopimuksen",
-                "Aikataulun"
-              ],
+              "options": ["Raportin", "Sopimuksen", "Aikataulun"],
               "answer": 1
             },
             {
               "question": "Mihin aikaan on lounas?",
-              "options": [
-                "Kello 11",
-                "Kello 12",
-                "Kello 13"
-              ],
+              "options": ["Kello 11", "Kello 12", "Kello 13"],
               "answer": 1
             },
             {
@@ -3265,47 +3245,27 @@
             },
             {
               "question": "Mitä juomaa Pekka tilaa?",
-              "options": [
-                "Maitoa",
-                "Kahvia",
-                "Teetä"
-              ],
+              "options": ["Maitoa", "Kahvia", "Teetä"],
               "answer": 1
             },
             {
               "question": "Mitä juomaa Anna tilaa?",
-              "options": [
-                "Maitoa",
-                "Kahvia",
-                "Teetä"
-              ],
+              "options": ["Maitoa", "Kahvia", "Teetä"],
               "answer": 0
             },
             {
               "question": "Mitä jälkiruokaa Pekka tilaa?",
-              "options": [
-                "Piirakkaa",
-                "Jäätelöä",
-                "Kakkua"
-              ],
+              "options": ["Piirakkaa", "Jäätelöä", "Kakkua"],
               "answer": 1
             },
             {
               "question": "Mitä jälkiruokaa Anna tilaa?",
-              "options": [
-                "Piirakkaa",
-                "Jäätelöä",
-                "Kakkua"
-              ],
+              "options": ["Piirakkaa", "Jäätelöä", "Kakkua"],
               "answer": 0
             },
             {
               "question": "Miten he maksavat?",
-              "options": [
-                "Yhdessä",
-                "Erikseen",
-                "Kortilla"
-              ],
+              "options": ["Yhdessä", "Erikseen", "Kortilla"],
               "answer": 1
             }
           ]
@@ -3321,124 +3281,83 @@
       "items": [
         {
           "prompt": "Я врач.",
-          "answer": [
-            "Minä olen lääkäri.",
-            "Olen lääkäri."
-          ]
+          "answer": ["Minä olen lääkäri.", "Olen lääkäri."]
         },
         {
           "prompt": "Мама — медсестра.",
-          "answer": [
-            "Äiti on sairaanhoitaja."
-          ]
+          "answer": ["Äiti on sairaanhoitaja."]
         },
         {
           "prompt": "Стоматолог работает в клинике.",
-          "answer": [
-            "Hammaslääkäri työskentelee klinikalla."
-          ]
+          "answer": ["Hammaslääkäri työskentelee klinikalla."]
         },
         {
           "prompt": "Продавец в магазине.",
-          "answer": [
-            "Myyjä on kaupassa."
-          ]
+          "answer": ["Myyjä on kaupassa."]
         },
         {
           "prompt": "Папа таксист.",
-          "answer": [
-            "Isä on taksikuski."
-          ]
+          "answer": ["Isä on taksikuski."]
         },
         {
           "prompt": "Автомеханик чинит машину.",
-          "answer": [
-            "Automekaanikko korjaa auton."
-          ]
+          "answer": ["Automekaanikko korjaa auton."]
         },
         {
           "prompt": "Строитель строит дом.",
-          "answer": [
-            "Rakennusmies rakentaa talon."
-          ]
+          "answer": ["Rakennusmies rakentaa talon."]
         },
         {
           "prompt": "Сантехник чинит краны.",
-          "answer": [
-            "Putkimies korjaa vesihanat."
-          ]
+          "answer": ["Putkimies korjaa vesihanat."]
         },
         {
           "prompt": "Электрик устанавливает свет.",
-          "answer": [
-            "Sähkömies asentaa valot."
-          ]
+          "answer": ["Sähkömies asentaa valot."]
         },
         {
           "prompt": "Маляр красит стену.",
-          "answer": [
-            "Maalari maalaa seinän."
-          ]
+          "answer": ["Maalari maalaa seinän."]
         },
         {
           "prompt": "Повар готовит еду.",
-          "answer": [
-            "Kokki tekee ruokaa."
-          ]
+          "answer": ["Kokki tekee ruokaa."]
         },
         {
           "prompt": "Официант приносит еду к столу.",
-          "answer": [
-            "Tarjoilija tuo ruoan pöytään."
-          ]
+          "answer": ["Tarjoilija tuo ruoan pöytään."]
         },
         {
           "prompt": "Уборщик убирает в офисе.",
-          "answer": [
-            "Siivooja siivoaa toimistossa."
-          ]
+          "answer": ["Siivooja siivoaa toimistossa."]
         },
         {
           "prompt": "Няня ухаживает за детьми.",
-          "answer": [
-            "Lastenhoitaja hoitaa lapsia."
-          ]
+          "answer": ["Lastenhoitaja hoitaa lapsia."]
         },
         {
           "prompt": "Воспитатель учит детей.",
-          "answer": [
-            "Lastentarhanopettaja opettaa lapsia."
-          ]
+          "answer": ["Lastentarhanopettaja opettaa lapsia."]
         },
         {
           "prompt": "Учитель в школе.",
-          "answer": [
-            "Opettaja on koulussa."
-          ]
+          "answer": ["Opettaja on koulussa."]
         },
         {
           "prompt": "Журналист пишет в газете.",
-          "answer": [
-            "Toimittaja kirjoittaa lehdessä."
-          ]
+          "answer": ["Toimittaja kirjoittaa lehdessä."]
         },
         {
           "prompt": "Полицейский помогает людям.",
-          "answer": [
-            "Poliisi auttaa ihmisiä."
-          ]
+          "answer": ["Poliisi auttaa ihmisiä."]
         },
         {
           "prompt": "Пожарный тушит огонь.",
-          "answer": [
-            "Palomies sammuttaa tulen."
-          ]
+          "answer": ["Palomies sammuttaa tulen."]
         },
         {
           "prompt": "Почтальон приносит письма.",
-          "answer": [
-            "Postinjakaja tuo kirjeet."
-          ]
+          "answer": ["Postinjakaja tuo kirjeet."]
         }
       ]
     },
@@ -3449,94 +3368,63 @@
       "items": [
         {
           "prompt": "Я звоню другу.",
-          "answer": [
-            "Minä soitan ystävälle.",
-            "Soitan ystävälle."
-          ]
+          "answer": ["Minä soitan ystävälle.", "Soitan ystävälle."]
         },
         {
           "prompt": "Он сообщает мне новость.",
-          "answer": [
-            "Hän kertoo minulle uutisen."
-          ]
+          "answer": ["Hän kertoo minulle uutisen."]
         },
         {
           "prompt": "Приходи к нам вечером.",
-          "answer": [
-            "Tule meille illalla."
-          ]
+          "answer": ["Tule meille illalla."]
         },
         {
           "prompt": "Он покупает подарок для Лиисы.",
-          "answer": [
-            "Hän ostaa lahjan Liisalle."
-          ]
+          "answer": ["Hän ostaa lahjan Liisalle."]
         },
         {
           "prompt": "Он спрашивает у продавца.",
-          "answer": [
-            "Hän kysyy myyjältä."
-          ]
+          "answer": ["Hän kysyy myyjältä."]
         },
         {
           "prompt": "Он платит на кассе.",
-          "answer": [
-            "Hän maksaa kassalla."
-          ]
+          "answer": ["Hän maksaa kassalla."]
         },
         {
           "prompt": "Он пишет открытку Лиисе.",
-          "answer": [
-            "Hän kirjoittaa kortin Liisalle."
-          ]
+          "answer": ["Hän kirjoittaa kortin Liisalle."]
         },
         {
           "prompt": "Он едет на автобусе.",
-          "answer": [
-            "Hän menee bussilla."
-          ]
+          "answer": ["Hän menee bussilla."]
         },
         {
           "prompt": "У Лиисы праздник.",
-          "answer": [
-            "Liisalla on juhlat."
-          ]
+          "answer": ["Liisalla on juhlat."]
         },
         {
           "prompt": "Мы говорим Лиисе “Киппис!”.",
-          "answer": [
-            "Me sanomme Liisalle “Kippis!”."
-          ]
+          "answer": ["Me sanomme Liisalle “Kippis!”."]
         },
         {
           "prompt": "Он получает подарок от друга.",
-          "answer": [
-            "Hän saa lahjan ystävältä."
-          ]
+          "answer": ["Hän saa lahjan ystävältä."]
         },
         {
           "prompt": "Он дарит мне книгу.",
-          "answer": [
-            "Hän antaa kirjan minulle."
-          ]
+          "answer": ["Hän antaa kirjan minulle."]
         },
         {
           "prompt": "Он спрашивает у учителя.",
-          "answer": [
-            "Hän kysyy opettajalta."
-          ]
+          "answer": ["Hän kysyy opettajalta."]
         },
         {
           "prompt": "Он говорит с учителем.",
-          "answer": [
-            "Hän puhuu opettajan kanssa."
-          ]
+          "answer": ["Hän puhuu opettajan kanssa."]
         },
         {
           "prompt": "Мы уходим от Лиисы домой.",
-          "answer": [
-            "Me lähdemme Liisalta kotiin."
-          ]
+          "answer": ["Me lähdemme Liisalta kotiin."]
         }
       ]
     },
@@ -3547,95 +3435,63 @@
       "items": [
         {
           "prompt": "Девочка пишет письмо бабушке.",
-          "answer": [
-            "Tyttö kirjoittaa kirjeen isoäidille."
-          ]
+          "answer": ["Tyttö kirjoittaa kirjeen isoäidille."]
         },
         {
           "prompt": "Бабушка отвечает на письмо.",
-          "answer": [
-            "Isoäiti vastaa kirjeeseen."
-          ]
+          "answer": ["Isoäiti vastaa kirjeeseen."]
         },
         {
           "prompt": "Тот молодой человек хочет новый мотоцикл.",
-          "answer": [
-            "Tuo nuori mies haluaa uuden moottoripyörän."
-          ]
+          "answer": ["Tuo nuori mies haluaa uuden moottoripyörän."]
         },
         {
           "prompt": "Мы спрашиваем у учителя.",
-          "answer": [
-            "Me kysymme opettajalta."
-          ]
+          "answer": ["Me kysymme opettajalta."]
         },
         {
           "prompt": "Он одалживает мне деньги.",
-          "answer": [
-            "Hän lainaa minulle rahaa."
-          ]
+          "answer": ["Hän lainaa minulle rahaa."]
         },
         {
           "prompt": "Начальник звонит мне из офиса.",
-          "answer": [
-            "Pomo soittaa minulle toimistosta."
-          ]
+          "answer": ["Pomo soittaa minulle toimistosta."]
         },
         {
           "prompt": "Он не покупает велосипед в магазине.",
-          "answer": [
-            "Hän ei osta pyörää kaupasta."
-          ]
+          "answer": ["Hän ei osta pyörää kaupasta."]
         },
         {
           "prompt": "Я покупаю велосипед у друга.",
-          "answer": [
-            "Minä ostan pyörän ystävältä.",
-            "Ostan pyörän ystävältä."
-          ]
+          "answer": ["Minä ostan pyörän ystävältä.", "Ostan pyörän ystävältä."]
         },
         {
           "prompt": "Они просят нас о помощи.",
-          "answer": [
-            "He pyytävät meiltä apua."
-          ]
+          "answer": ["He pyytävät meiltä apua."]
         },
         {
           "prompt": "Я говорю с другом.",
-          "answer": [
-            "Minä puhun ystävälle.",
-            "Puhun ystävälle."
-          ]
+          "answer": ["Minä puhun ystävälle.", "Puhun ystävälle."]
         },
         {
           "prompt": "Он дарит цветы маме.",
-          "answer": [
-            "Hän antaa kukkia äidille."
-          ]
+          "answer": ["Hän antaa kukkia äidille."]
         },
         {
           "prompt": "Мы на автобусной остановке.",
-          "answer": [
-            "Me olemme bussipysäkillä."
-          ]
+          "answer": ["Me olemme bussipysäkillä."]
         },
         {
           "prompt": "Учитель рассказывает историю студенту.",
-          "answer": [
-            "Opettaja kertoo tarinan opiskelijalle."
-          ]
+          "answer": ["Opettaja kertoo tarinan opiskelijalle."]
         },
         {
           "prompt": "Я беру книгу со стола.",
-          "answer": [
-            "Otan kirjan pöydältä."
-          ]
+          "answer": ["Otan kirjan pöydältä."]
         },
         {
           "prompt": "Он уходит из школы домой.",
-          "answer": [
-            "Hän lähtee koululta kotiin."
-          ]
+          "answer": ["Hän lähtee koululta kotiin."]
         }
       ]
     },
@@ -3646,105 +3502,71 @@
       "items": [
         {
           "prompt": "В магазине два продавца.",
-          "answer": [
-            "Kaupassa on kaksi myyjää."
-          ]
+          "answer": ["Kaupassa on kaksi myyjää."]
         },
         {
           "prompt": "В магазине четыре покупателя.",
-          "answer": [
-            "Kaupassa on neljä asiakasta."
-          ]
+          "answer": ["Kaupassa on neljä asiakasta."]
         },
         {
           "prompt": "Они идут на обед.",
-          "answer": [
-            "He menevät lounaalle."
-          ]
+          "answer": ["He menevät lounaalle."]
         },
         {
           "prompt": "Я не нахожу ключ.",
-          "answer": [
-            "En löydä avainta."
-          ]
+          "answer": ["En löydä avainta."]
         },
         {
           "prompt": "В тексте четыре страницы.",
-          "answer": [
-            "Tekstissä on neljä sivua."
-          ]
+          "answer": ["Tekstissä on neljä sivua."]
         },
         {
           "prompt": "Текст готов.",
-          "answer": [
-            "Teksti on valmis."
-          ]
+          "answer": ["Teksti on valmis."]
         },
         {
           "prompt": "Он умеет немного писать.",
-          "answer": [
-            "Hän osaa kirjoittaa vähän."
-          ]
+          "answer": ["Hän osaa kirjoittaa vähän."]
         },
         {
           "prompt": "Он не любит буквы.",
-          "answer": [
-            "Hän ei pidä kirjaimista."
-          ]
+          "answer": ["Hän ei pidä kirjaimista."]
         },
         {
           "prompt": "Я беру мороженое из морозилки.",
-          "answer": [
-            "Otan jäätelön pakastimesta."
-          ]
+          "answer": ["Otan jäätelön pakastimesta."]
         },
         {
           "prompt": "Гости приходят в 19:00.",
-          "answer": [
-            "Vieraat tulevat kello 19."
-          ]
+          "answer": ["Vieraat tulevat kello 19."]
         },
         {
           "prompt": "В этом принтере нет бумаги.",
-          "answer": [
-            "Tässä tulostimessa ei ole paperia."
-          ]
+          "answer": ["Tässä tulostimessa ei ole paperia."]
         },
         {
           "prompt": "Я не могу печатать.",
-          "answer": [
-            "En voi tulostaa."
-          ]
+          "answer": ["En voi tulostaa."]
         },
         {
           "prompt": "У меня новый телефон.",
-          "answer": [
-            "Minulla on uusi puhelin."
-          ]
+          "answer": ["Minulla on uusi puhelin."]
         },
         {
           "prompt": "В нём есть камера.",
-          "answer": [
-            "Siinä on kamera."
-          ]
+          "answer": ["Siinä on kamera."]
         },
         {
           "prompt": "Я хочу новый мобильный телефон.",
-          "answer": [
-            "Haluan uuden kännykän."
-          ]
+          "answer": ["Haluan uuden kännykän."]
         },
         {
           "prompt": "На работе грипп.",
-          "answer": [
-            "Työpaikalla on influenssaa."
-          ]
+          "answer": ["Työpaikalla on influenssaa."]
         },
         {
           "prompt": "Больные не приходят на работу.",
-          "answer": [
-            "Sairaat eivät tule töihin."
-          ]
+          "answer": ["Sairaat eivät tule töihin."]
         }
       ]
     },
@@ -3755,39 +3577,27 @@
       "items": [
         {
           "prompt": "Когда начинается курс, если время — восемь?",
-          "answer": [
-            "Milloin kurssi alkaa, kun kello on kahdeksan?"
-          ]
+          "answer": ["Milloin kurssi alkaa, kun kello on kahdeksan?"]
         },
         {
           "prompt": "Я не знаю, придёт ли он сегодня.",
-          "answer": [
-            "En tiedä, tuleeko hän tänään."
-          ]
+          "answer": ["En tiedä, tuleeko hän tänään."]
         },
         {
           "prompt": "Я не покупаю мороженое, потому что экономлю деньги.",
-          "answer": [
-            "En osta jäätelöä, koska säästän rahaa."
-          ]
+          "answer": ["En osta jäätelöä, koska säästän rahaa."]
         },
         {
           "prompt": "Учитель говорит, что тест завтра.",
-          "answer": [
-            "Opettaja sanoo, että testi on huomenna."
-          ]
+          "answer": ["Opettaja sanoo, että testi on huomenna."]
         },
         {
           "prompt": "Я хочу путешествовать, но у меня нет денег.",
-          "answer": [
-            "Haluan matkustaa, mutta minulla ei ole rahaa."
-          ]
+          "answer": ["Haluan matkustaa, mutta minulla ei ole rahaa."]
         },
         {
           "prompt": "Я не купаюсь в озере, потому что холодно.",
-          "answer": [
-            "En ui järvessä, koska on kylmä."
-          ]
+          "answer": ["En ui järvessä, koska on kylmä."]
         },
         {
           "prompt": "Я иду домой, потому что устал.",
@@ -3798,33 +3608,23 @@
         },
         {
           "prompt": "Я ем обед на работе, но сегодня ем дома.",
-          "answer": [
-            "Syön lounasta töissä, mutta tänään syön kotona."
-          ]
+          "answer": ["Syön lounasta töissä, mutta tänään syön kotona."]
         },
         {
           "prompt": "Я не знаю, открыт ли магазин.",
-          "answer": [
-            "En tiedä, onko kauppa auki."
-          ]
+          "answer": ["En tiedä, onko kauppa auki."]
         },
         {
           "prompt": "Я еду в город, если хорошая погода.",
-          "answer": [
-            "Ajan kaupunkiin, jos on hyvä sää."
-          ]
+          "answer": ["Ajan kaupunkiin, jos on hyvä sää."]
         },
         {
           "prompt": "Я знаю, что ты любишь кофе.",
-          "answer": [
-            "Tiedän, että pidät kahvista."
-          ]
+          "answer": ["Tiedän, että pidät kahvista."]
         },
         {
           "prompt": "Я иду в сауну, когда прихожу домой.",
-          "answer": [
-            "Menen saunaan, kun tulen kotiin."
-          ]
+          "answer": ["Menen saunaan, kun tulen kotiin."]
         }
       ]
     },
@@ -3835,57 +3635,39 @@
       "items": [
         {
           "prompt": "Я пойду домой через час.",
-          "answer": [
-            "Menen kotiin tunnin kuluttua."
-          ]
+          "answer": ["Menen kotiin tunnin kuluttua."]
         },
         {
           "prompt": "Мы поедем в отпуск через неделю.",
-          "answer": [
-            "Lähdemme lomalle viikon kuluttua."
-          ]
+          "answer": ["Lähdemme lomalle viikon kuluttua."]
         },
         {
           "prompt": "Я встречу друга через два дня.",
-          "answer": [
-            "Tapaan ystävän kahden päivän kuluttua."
-          ]
+          "answer": ["Tapaan ystävän kahden päivän kuluttua."]
         },
         {
           "prompt": "Я иду на работу после курса.",
-          "answer": [
-            "Menen töihin kurssin jälkeen."
-          ]
+          "answer": ["Menen töihin kurssin jälkeen."]
         },
         {
           "prompt": "Я ем через час / после часа.",
-          "answer": [
-            "Syön tunnin jälkeen."
-          ]
+          "answer": ["Syön tunnin jälkeen."]
         },
         {
           "prompt": "Я принимаю душ после сауны.",
-          "answer": [
-            "Käyn suihkussa saunan jälkeen."
-          ]
+          "answer": ["Käyn suihkussa saunan jälkeen."]
         },
         {
           "prompt": "Я просыпаюсь до семи.",
-          "answer": [
-            "Herään ennen seitsemää."
-          ]
+          "answer": ["Herään ennen seitsemää."]
         },
         {
           "prompt": "Я пью кофе до работы.",
-          "answer": [
-            "Juon kahvia ennen töitä."
-          ]
+          "answer": ["Juon kahvia ennen töitä."]
         },
         {
           "prompt": "Я ложусь спать до десяти.",
-          "answer": [
-            "Menen nukkumaan ennen kymmentä."
-          ]
+          "answer": ["Menen nukkumaan ennen kymmentä."]
         }
       ]
     },
@@ -3896,39 +3678,27 @@
       "items": [
         {
           "prompt": "Почти все столы заняты.",
-          "answer": [
-            "Melkein kaikki pöydät ovat varattuja."
-          ]
+          "answer": ["Melkein kaikki pöydät ovat varattuja."]
         },
         {
           "prompt": "Этот стол свободен.",
-          "answer": [
-            "Tämä pöytä on vapaa."
-          ]
+          "answer": ["Tämä pöytä on vapaa."]
         },
         {
           "prompt": "Еда вкусная.",
-          "answer": [
-            "Ruoka maistuu hyvältä."
-          ]
+          "answer": ["Ruoka maistuu hyvältä."]
         },
         {
           "prompt": "Хочу счёт сразу.",
-          "answer": [
-            "Haluan laskun saman tien."
-          ]
+          "answer": ["Haluan laskun saman tien."]
         },
         {
           "prompt": "Можно счёт, пожалуйста?",
-          "answer": [
-            "Saanko laskun, kiitos?"
-          ]
+          "answer": ["Saanko laskun, kiitos?"]
         },
         {
           "prompt": "Можно меню, пожалуйста?",
-          "answer": [
-            "Saanko ruokalistan, kiitos?"
-          ]
+          "answer": ["Saanko ruokalistan, kiitos?"]
         },
         {
           "prompt": "Салат и хлеб можно взять там, с салатного стола.",
@@ -3938,99 +3708,67 @@
         },
         {
           "prompt": "Закуска — это суп.",
-          "answer": [
-            "Alkuruoka on keitto."
-          ]
+          "answer": ["Alkuruoka on keitto."]
         },
         {
           "prompt": "Основное блюдо — рыба и картошка.",
-          "answer": [
-            "Pääruoka on kalaa ja perunoita."
-          ]
+          "answer": ["Pääruoka on kalaa ja perunoita."]
         },
         {
           "prompt": "Десерт — мороженое.",
-          "answer": [
-            "Jälkiruoka on jäätelöä."
-          ]
+          "answer": ["Jälkiruoka on jäätelöä."]
         },
         {
           "prompt": "Хочу закуску, пожалуйста.",
-          "answer": [
-            "Haluan alkuruoan, kiitos."
-          ]
+          "answer": ["Haluan alkuruoan, kiitos."]
         },
         {
           "prompt": "Основное блюдо вкусное.",
-          "answer": [
-            "Pääruoka maistuu hyvältä."
-          ]
+          "answer": ["Pääruoka maistuu hyvältä."]
         },
         {
           "prompt": "Десерт сладкий.",
-          "answer": [
-            "Jälkiruoka on makeaa."
-          ]
+          "answer": ["Jälkiruoka on makeaa."]
         },
         {
           "prompt": "Что будете заказывать?",
-          "answer": [
-            "Mitä saa olla?"
-          ]
+          "answer": ["Mitä saa olla?"]
         },
         {
           "prompt": "Я бы взял кофе.",
-          "answer": [
-            "Ottaisin kahvin."
-          ]
+          "answer": ["Ottaisin kahvin."]
         },
         {
           "prompt": "Я хотел бы суп.",
-          "answer": [
-            "Haluaisin keiton."
-          ]
+          "answer": ["Haluaisin keiton."]
         },
         {
           "prompt": "Мне салат.",
-          "answer": [
-            "Minulle salaatti."
-          ]
+          "answer": ["Minulle salaatti."]
         },
         {
           "prompt": "Вы платите вместе или отдельно?",
-          "answer": [
-            "Maksatteko yhdessä vai erikseen?"
-          ]
+          "answer": ["Maksatteko yhdessä vai erikseen?"]
         },
         {
           "prompt": "Вы платите наличными или картой?",
-          "answer": [
-            "Maksatteko käteisellä vai kortilla?"
-          ]
+          "answer": ["Maksatteko käteisellä vai kortilla?"]
         },
         {
           "prompt": "Кофе входит в стоимость обеда?",
-          "answer": [
-            "Kuuluuko kahvi lounaan hintaan?"
-          ]
+          "answer": ["Kuuluuko kahvi lounaan hintaan?"]
         },
         {
           "prompt": "Я хотел бы забронировать столик на четверых.",
-          "answer": [
-            "Haluaisin varata pöydän neljälle."
-          ]
+          "answer": ["Haluaisin varata pöydän neljälle."]
         },
         {
           "prompt": "Приятного аппетита!",
-          "answer": [
-            "Hyvää ruokahalua!"
-          ]
+          "answer": ["Hyvää ruokahalua!"]
         },
         {
           "prompt": "Спасибо за еду!",
-          "answer": [
-            "Kiitos ruoasta!"
-          ]
+          "answer": ["Kiitos ruoasta!"]
         }
       ]
     }
@@ -4044,143 +3782,102 @@
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Mina_olen_laakari.mp3",
           "prompt": "Скажите по-фински: «Я врач.»",
-          "answer": [
-            "Minä olen lääkäri.",
-            "Olen lääkäri."
-          ]
+          "answer": ["Minä olen lääkäri.", "Olen lääkäri."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Aiti_on_sairaanhoitaja.mp3",
           "prompt": "Скажите по-фински: «Мама — медсестра.»",
-          "answer": [
-            "Äiti on sairaanhoitaja."
-          ]
+          "answer": ["Äiti on sairaanhoitaja."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Hammaslaakari_tyoskentelee_klinikalla.mp3",
           "prompt": "Скажите по-фински: «Стоматолог работает в клинике.»",
-          "answer": [
-            "Hammaslääkäri työskentelee klinikalla."
-          ]
+          "answer": ["Hammaslääkäri työskentelee klinikalla."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Myyja_on_kaupassa.mp3",
           "prompt": "Скажите по-фински: «Продавец в магазине.»",
-          "answer": [
-            "Myyjä on kaupassa."
-          ]
+          "answer": ["Myyjä on kaupassa."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Isa_on_taksikuski.mp3",
           "prompt": "Скажите по-фински: «Папа — таксист.»",
-          "answer": [
-            "Isä on taksikuski."
-          ]
+          "answer": ["Isä on taksikuski."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Automekaanikko_korjaa_auton.mp3",
           "prompt": "Скажите по-фински: «Автомеханик чинит машину.»",
-          "answer": [
-            "Automekaanikko korjaa auton."
-          ]
+          "answer": ["Automekaanikko korjaa auton."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Rakennusmies_rakentaa_talon.mp3",
           "prompt": "Скажите по-фински: «Строитель строит дом.»",
-          "answer": [
-            "Rakennusmies rakentaa talon."
-          ]
+          "answer": ["Rakennusmies rakentaa talon."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Putkimies_korjaa_vesihanat.mp3",
           "prompt": "Скажите по-фински: «Сантехник чинит краны.»",
-          "answer": [
-            "Putkimies korjaa vesihanat."
-          ]
+          "answer": ["Putkimies korjaa vesihanat."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Sahkomies_asentaa_valot.mp3",
           "prompt": "Скажите по-фински: «Электрик устанавливает свет.»",
-          "answer": [
-            "Sähkömies asentaa valot."
-          ]
+          "answer": ["Sähkömies asentaa valot."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Maalari_maalaa_seinan.mp3",
           "prompt": "Скажите по-фински: «Маляр красит стену.»",
-          "answer": [
-            "Maalari maalaa seinän."
-          ]
+          "answer": ["Maalari maalaa seinän."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Kokki_tekee_ruokaa.mp3",
           "prompt": "Скажите по-фински: «Повар готовит еду.»",
-          "answer": [
-            "Kokki tekee ruokaa."
-          ]
+          "answer": ["Kokki tekee ruokaa."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Tarjoilija_tuo_ruoan_poytaan.mp3",
           "prompt": "Скажите по-фински: «Официант приносит еду к столу.»",
-          "answer": [
-            "Tarjoilija tuo ruoan pöytään."
-          ]
+          "answer": ["Tarjoilija tuo ruoan pöytään."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Siivooja_siivoaa_toimistossa.mp3",
           "prompt": "Скажите по-фински: «Уборщик убирает в офисе.»",
-          "answer": [
-            "Siivooja siivoaa toimistossa."
-          ]
+          "answer": ["Siivooja siivoaa toimistossa."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Lastenhoitaja_hoitaa_lapsia.mp3",
           "prompt": "Скажите по-фински: «Няня заботится о детях.»",
-          "answer": [
-            "Lastenhoitaja hoitaa lapsia."
-          ]
+          "answer": ["Lastenhoitaja hoitaa lapsia."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Lastentarhanopettaja_opettaa_lapsia.mp3",
           "prompt": "Скажите по-фински: «Воспитатель детсада учит детей.»",
-          "answer": [
-            "Lastentarhanopettaja opettaa lapsia."
-          ]
+          "answer": ["Lastentarhanopettaja opettaa lapsia."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Opettaja_on_koulussa.mp3",
           "prompt": "Скажите по-фински: «Учитель в школе.»",
-          "answer": [
-            "Opettaja on koulussa."
-          ]
+          "answer": ["Opettaja on koulussa."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Toimittaja_kirjoittaa_lehdessa.mp3",
           "prompt": "Скажите по-фински: «Журналист пишет в газете.»",
-          "answer": [
-            "Toimittaja kirjoittaa lehdessä."
-          ]
+          "answer": ["Toimittaja kirjoittaa lehdessä."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Poliisi_auttaa_ihmisia.mp3",
           "prompt": "Скажите по-фински: «Полицейский помогает людям.»",
-          "answer": [
-            "Poliisi auttaa ihmisiä."
-          ]
+          "answer": ["Poliisi auttaa ihmisiä."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Palomies_sammuttaa_tulen.mp3",
           "prompt": "Скажите по-фински: «Пожарный тушит огонь.»",
-          "answer": [
-            "Palomies sammuttaa tulen."
-          ]
+          "answer": ["Palomies sammuttaa tulen."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex1/Postinjakaja_tuo_kirjeet.mp3",
           "prompt": "Скажите по-фински: «Почтальон приносит письма.»",
-          "answer": [
-            "Postinjakaja tuo kirjeet."
-          ]
+          "answer": ["Postinjakaja tuo kirjeet."]
         }
       ]
     },
@@ -4192,66 +3889,47 @@
         {
           "audioUrl": "/audio/A1-9/speaking/ex2/Mina_soitan_ystavalle.mp3",
           "prompt": "Скажите по-фински: «Я звоню другу.»",
-          "answer": [
-            "Minä soitan ystävälle.",
-            "Soitan ystävälle."
-          ]
+          "answer": ["Minä soitan ystävälle.", "Soitan ystävälle."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex2/Han_kertoo_minulle_uutisen.mp3",
           "prompt": "Скажите по-фински: «Он/она рассказывает мне новость.»",
-          "answer": [
-            "Hän kertoo minulle uutisen."
-          ]
+          "answer": ["Hän kertoo minulle uutisen."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex2/Tule_meille_illalla.mp3",
           "prompt": "Скажите по-фински: «Приходи к нам вечером.»",
-          "answer": [
-            "Tule meille illalla."
-          ]
+          "answer": ["Tule meille illalla."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex2/Han_ostaa_lahjan_Liisalle.mp3",
           "prompt": "Скажите по-фински: «Он/она покупает подарок Лиизе.»",
-          "answer": [
-            "Hän ostaa lahjan Liisalle."
-          ]
+          "answer": ["Hän ostaa lahjan Liisalle."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex2/Han_kysyy_myyjalta.mp3",
           "prompt": "Скажите по-фински: «Он/она спрашивает у продавца.»",
-          "answer": [
-            "Hän kysyy myyjältä."
-          ]
+          "answer": ["Hän kysyy myyjältä."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex2/Han_maksaa_kassalla.mp3",
           "prompt": "Скажите по-фински: «Он/она платит на кассе.»",
-          "answer": [
-            "Hän maksaa kassalla."
-          ]
+          "answer": ["Hän maksaa kassalla."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex2/Han_kirjoittaa_kortin_Liisalle.mp3",
           "prompt": "Скажите по-фински: «Он/она пишет открытку Лиизе.»",
-          "answer": [
-            "Hän kirjoittaa kortin Liisalle."
-          ]
+          "answer": ["Hän kirjoittaa kortin Liisalle."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex2/Han_menee_bussilla.mp3",
           "prompt": "Скажите по-фински: «Он/она едет на автобусе.»",
-          "answer": [
-            "Hän menee bussilla."
-          ]
+          "answer": ["Hän menee bussilla."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex2/Liisalla_on_juhlat.mp3",
           "prompt": "Скажите по-фински: «У Лиизы праздник.»",
-          "answer": [
-            "Liisalla on juhlat."
-          ]
+          "answer": ["Liisalla on juhlat."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex2/Me_sanomme_Liisalle_Kippis.mp3",
@@ -4264,30 +3942,22 @@
         {
           "audioUrl": "/audio/A1-9/speaking/ex2/Han_saa_lahjan_ystavalta.mp3",
           "prompt": "Скажите по-фински: «Он/она получает подарок от друга.»",
-          "answer": [
-            "Hän saa lahjan ystävältä."
-          ]
+          "answer": ["Hän saa lahjan ystävältä."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex2/Han_antaa_kirjan_minulle.mp3",
           "prompt": "Скажите по-фински: «Он/она даёт мне книгу.»",
-          "answer": [
-            "Hän antaa kirjan minulle."
-          ]
+          "answer": ["Hän antaa kirjan minulle."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex2/Han_kysyy_opettajalta.mp3",
           "prompt": "Скажите по-фински: «Он/она спрашивает у учителя.»",
-          "answer": [
-            "Hän kysyy opettajalta."
-          ]
+          "answer": ["Hän kysyy opettajalta."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex2/Han_puhuu_opettajalle.mp3",
           "prompt": "Скажите по-фински: «Он/она говорит учителю.»",
-          "answer": [
-            "Hän puhuu opettajalle."
-          ]
+          "answer": ["Hän puhuu opettajalle."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex2/Me_lahdemme_Liisalta_kotiin.mp3",
@@ -4307,112 +3977,77 @@
         {
           "audioUrl": "/audio/A1-9/speaking/ex3/Tytto_kirjoittaa_kirjeen_isoaidille.mp3",
           "prompt": "Скажите по-фински: «Девочка пишет письмо бабушке.»",
-          "answer": [
-            "Tyttö kirjoittaa kirjeen isoäidille."
-          ]
+          "answer": ["Tyttö kirjoittaa kirjeen isoäidille."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex3/Isoaiti_vastaa_kirjeeseen.mp3",
           "prompt": "Скажите по-фински: «Бабушка отвечает на письмо.»",
-          "answer": [
-            "Isoäiti vastaa kirjeeseen."
-          ]
+          "answer": ["Isoäiti vastaa kirjeeseen."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex3/Tuo_nuori_mies_haluaa_uuden_moottoripyoran.mp3",
           "prompt": "Скажите по-фински: «Вон тот молодой мужчина хочет новый мотоцикл.»",
-          "answer": [
-            "Tuo nuori mies haluaa uuden moottoripyörän."
-          ]
+          "answer": ["Tuo nuori mies haluaa uuden moottoripyörän."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex3/Me_kysymme_opettajalta.mp3",
           "prompt": "Скажите по-фински: «Мы спрашиваем у учителя.»",
-          "answer": [
-            "Me kysymme opettajalta.",
-            "Kysymme opettajalta."
-          ]
+          "answer": ["Me kysymme opettajalta.", "Kysymme opettajalta."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex3/Han_lainaa_minulle_rahaa.mp3",
           "prompt": "Скажите по-фински: «Он/она одолжит мне денег.»",
-          "answer": [
-            "Hän lainaa minulle rahaa."
-          ]
+          "answer": ["Hän lainaa minulle rahaa."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex3/Pomo_soittaa_minulle_toimistosta.mp3",
           "prompt": "Скажите по-фински: «Начальник звонит мне из офиса.»",
-          "answer": [
-            "Pomo soittaa minulle toimistosta."
-          ]
+          "answer": ["Pomo soittaa minulle toimistosta."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex3/Han_ei_osta_pyoraa_kaupasta.mp3",
           "prompt": "Скажите по-фински: «Он/она не покупает велосипед в магазине.»",
-          "answer": [
-            "Hän ei osta pyörää kaupasta."
-          ]
+          "answer": ["Hän ei osta pyörää kaupasta."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex3/Mina_ostan_pyoran_ystavalta.mp3",
           "prompt": "Скажите по-фински: «Я покупаю велосипед у друга.»",
-          "answer": [
-            "Minä ostan pyörän ystävältä.",
-            "Ostan pyörän ystävältä."
-          ]
+          "answer": ["Minä ostan pyörän ystävältä.", "Ostan pyörän ystävältä."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex3/He_pyytavat_meilta_apua.mp3",
           "prompt": "Скажите по-фински: «Они просят у нас помощи.»",
-          "answer": [
-            "He pyytävät meiltä apua."
-          ]
+          "answer": ["He pyytävät meiltä apua."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex3/Mina_puhun_ystavalle.mp3",
           "prompt": "Скажите по-фински: «Я говорю другу.»",
-          "answer": [
-            "Minä puhun ystävälle.",
-            "Puhun ystävälle."
-          ]
+          "answer": ["Minä puhun ystävälle.", "Puhun ystävälle."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex3/Han_antaa_kukkia_aidille.mp3",
           "prompt": "Скажите по-фински: «Он/она дарит цветы маме.»",
-          "answer": [
-            "Hän antaa kukkia äidille."
-          ]
+          "answer": ["Hän antaa kukkia äidille."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex3/Me_olemme_bussipysakilla.mp3",
           "prompt": "Скажите по-фински: «Мы на автобусной остановке.»",
-          "answer": [
-            "Me olemme bussipysäkillä.",
-            "Olemme bussipysäkillä."
-          ]
+          "answer": ["Me olemme bussipysäkillä.", "Olemme bussipysäkillä."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex3/Opettaja_kertoo_tarinan_opiskelijalle.mp3",
           "prompt": "Скажите по-фински: «Учитель рассказывает историю студенту.»",
-          "answer": [
-            "Opettaja kertoo tarinan opiskelijalle."
-          ]
+          "answer": ["Opettaja kertoo tarinan opiskelijalle."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex3/Otan_kirjan_poydalta.mp3",
           "prompt": "Скажите по-фински: «Я беру книгу со стола.»",
-          "answer": [
-            "Otan kirjan pöydältä.",
-            "Minä otan kirjan pöydältä."
-          ]
+          "answer": ["Otan kirjan pöydältä.", "Minä otan kirjan pöydältä."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex3/Han_lahtee_koululta_kotiin.mp3",
           "prompt": "Скажите по-фински: «Он/она уходит из школы домой.»",
-          "answer": [
-            "Hän lähtee koululta kotiin."
-          ]
+          "answer": ["Hän lähtee koululta kotiin."]
         }
       ]
     },
@@ -4424,58 +4059,42 @@
         {
           "audioUrl": "/audio/A1-9/speaking/ex4/Kaupassa_on_kaksi_myyjaa.mp3",
           "prompt": "Скажите по-фински: «В магазине два продавца.»",
-          "answer": [
-            "Kaupassa on kaksi myyjää."
-          ]
+          "answer": ["Kaupassa on kaksi myyjää."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex4/Kaupassa_on_nelja_asiakasta.mp3",
           "prompt": "Скажите по-фински: «В магазине четыре клиента.»",
-          "answer": [
-            "Kaupassa on neljä asiakasta."
-          ]
+          "answer": ["Kaupassa on neljä asiakasta."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex4/He_menevat_lounaalle.mp3",
           "prompt": "Скажите по-фински: «Они идут на ланч.»",
-          "answer": [
-            "He menevät lounaalle."
-          ]
+          "answer": ["He menevät lounaalle."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex4/En_loyda_avainta.mp3",
           "prompt": "Скажите по-фински: «Я не нахожу ключ.»",
-          "answer": [
-            "En löydä avainta."
-          ]
+          "answer": ["En löydä avainta."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex4/Tekstissa_on_nelja_sivua.mp3",
           "prompt": "Скажите по-фински: «В тексте четыре страницы.»",
-          "answer": [
-            "Tekstissä on neljä sivua."
-          ]
+          "answer": ["Tekstissä on neljä sivua."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex4/Teksti_on_valmis.mp3",
           "prompt": "Скажите по-фински: «Текст готов.»",
-          "answer": [
-            "Teksti on valmis."
-          ]
+          "answer": ["Teksti on valmis."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex4/Han_osaa_kirjoittaa_vahan.mp3",
           "prompt": "Скажите по-фински: «Он/она умеет немного писать.»",
-          "answer": [
-            "Hän osaa kirjoittaa vähän."
-          ]
+          "answer": ["Hän osaa kirjoittaa vähän."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex4/Han_ei_pida_kirjaimista.mp3",
           "prompt": "Скажите по-фински: «Он/она не любит буквы.»",
-          "answer": [
-            "Hän ei pidä kirjaimista."
-          ]
+          "answer": ["Hän ei pidä kirjaimista."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex4/Otan_jaatelon_pakastimesta.mp3",
@@ -4488,59 +4107,42 @@
         {
           "audioUrl": "/audio/A1-9/speaking/ex4/Vieraat_tulevat_kello_19.mp3",
           "prompt": "Скажите по-фински: «Гости придут в 19:00.»",
-          "answer": [
-            "Vieraat tulevat kello 19."
-          ]
+          "answer": ["Vieraat tulevat kello 19."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex4/Tassa_tulostimessa_ei_ole_paperia.mp3",
           "prompt": "Скажите по-фински: «В этом принтере нет бумаги.»",
-          "answer": [
-            "Tässä tulostimessa ei ole paperia."
-          ]
+          "answer": ["Tässä tulostimessa ei ole paperia."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex4/En_voi_tulostaa.mp3",
           "prompt": "Скажите по-фински: «Я не могу распечатать.»",
-          "answer": [
-            "En voi tulostaa."
-          ]
+          "answer": ["En voi tulostaa."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex4/Minulla_on_uusi_puhelin.mp3",
           "prompt": "Скажите по-фински: «У меня новый телефон.»",
-          "answer": [
-            "Minulla on uusi puhelin."
-          ]
+          "answer": ["Minulla on uusi puhelin."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex4/Siina_on_kamera.mp3",
           "prompt": "Скажите по-фински: «В нём есть камера.»",
-          "answer": [
-            "Siinä on kamera."
-          ]
+          "answer": ["Siinä on kamera."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex4/Haluan_uuden_kannykan.mp3",
           "prompt": "Скажите по-фински: «Я хочу новый мобильник.»",
-          "answer": [
-            "Haluan uuden kännykän.",
-            "Minä haluan uuden kännykän."
-          ]
+          "answer": ["Haluan uuden kännykän.", "Minä haluan uuden kännykän."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex4/Tyopaikalla_on_influenssaa.mp3",
           "prompt": "Скажите по-фински: «На работе грипп (многие болеют).»",
-          "answer": [
-            "Työpaikalla on influenssaa."
-          ]
+          "answer": ["Työpaikalla on influenssaa."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex4/Sairaat_eivat_tule_toihin.mp3",
           "prompt": "Скажите по-фински: «Больные не приходят на работу.»",
-          "answer": [
-            "Sairaat eivät tule töihin."
-          ]
+          "answer": ["Sairaat eivät tule töihin."]
         }
       ]
     },
@@ -4552,30 +4154,22 @@
         {
           "audioUrl": "/audio/A1-9/speaking/ex5/Milloin_kurssi_alkaa_kun_kello_on_kahdeksan.mp3",
           "prompt": "Скажите по-фински: «Когда начинается курс, когда время восемь?»",
-          "answer": [
-            "Milloin kurssi alkaa, kun kello on kahdeksan?"
-          ]
+          "answer": ["Milloin kurssi alkaa, kun kello on kahdeksan?"]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex5/En_tieda_tuleeko_han_tanaan.mp3",
           "prompt": "Скажите по-фински: «Я не знаю, придёт ли он/она сегодня.»",
-          "answer": [
-            "En tiedä, tuleeko hän tänään."
-          ]
+          "answer": ["En tiedä, tuleeko hän tänään."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex5/En_osta_jaateloa_koska_saastan_rahaa.mp3",
           "prompt": "Скажите по-фински: «Я не покупаю мороженое, потому что коплю деньги.»",
-          "answer": [
-            "En osta jäätelöä, koska säästän rahaa."
-          ]
+          "answer": ["En osta jäätelöä, koska säästän rahaa."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex5/Opettaja_sanoo_etta_testi_on_huomenna.mp3",
           "prompt": "Скажите по-фински: «Учитель говорит, что тест завтра.»",
-          "answer": [
-            "Opettaja sanoo, että testi on huomenna."
-          ]
+          "answer": ["Opettaja sanoo, että testi on huomenna."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex5/Haluan_matkustaa_mutta_minulla_ei_ole_rahaa.mp3",
@@ -4588,9 +4182,7 @@
         {
           "audioUrl": "/audio/A1-9/speaking/ex5/En_ui_jarvessa_koska_on_kylma.mp3",
           "prompt": "Скажите по-фински: «Я не купаюсь в озере, потому что холодно.»",
-          "answer": [
-            "En ui järvessä, koska on kylmä."
-          ]
+          "answer": ["En ui järvessä, koska on kylmä."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex5/Menen_kotiin_koska_olen_vasynyt.mp3",
@@ -4611,23 +4203,17 @@
         {
           "audioUrl": "/audio/A1-9/speaking/ex5/En_tieda_onko_kauppa_auki.mp3",
           "prompt": "Скажите по-фински: «Я не знаю, открыт ли магазин.»",
-          "answer": [
-            "En tiedä, onko kauppa auki."
-          ]
+          "answer": ["En tiedä, onko kauppa auki."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex5/Ajan_kaupunkiin_jos_on_hyva_saa.mp3",
           "prompt": "Скажите по-фински: «Я поеду в город, если погода хорошая.»",
-          "answer": [
-            "Ajan kaupunkiin, jos on hyvä sää."
-          ]
+          "answer": ["Ajan kaupunkiin, jos on hyvä sää."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex5/Tiedan_etta_pidat_kahvista.mp3",
           "prompt": "Скажите по-фински: «Я знаю, что ты любишь кофе.»",
-          "answer": [
-            "Tiedän, että pidät kahvista."
-          ]
+          "answer": ["Tiedän, että pidät kahvista."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex5/Menen_saunaan_kun_tulen_kotiin.mp3",
@@ -4679,10 +4265,7 @@
         {
           "audioUrl": "/audio/A1-9/speaking/ex6/Syon_tunnin_jalkeen.mp3",
           "prompt": "Скажите по-фински: «Ем после часа / через час.»",
-          "answer": [
-            "Syön tunnin jälkeen.",
-            "Minä syön tunnin jälkeen."
-          ]
+          "answer": ["Syön tunnin jälkeen.", "Minä syön tunnin jälkeen."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex6/Kayn_suihkussa_saunan_jalkeen.mp3",
@@ -4695,10 +4278,7 @@
         {
           "audioUrl": "/audio/A1-9/speaking/ex6/Heraan_ennen_seitsemaa.mp3",
           "prompt": "Скажите по-фински: «Просыпаюсь до семи.»",
-          "answer": [
-            "Herään ennen seitsemää.",
-            "Minä herään ennen seitsemää."
-          ]
+          "answer": ["Herään ennen seitsemää.", "Minä herään ennen seitsemää."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex6/Juon_kahvia_ennen_toita.mp3",
@@ -4726,23 +4306,17 @@
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Melkein_kaikki_poydat_on_varattu.mp3",
           "prompt": "Скажите по-фински: «Почти все столы заняты.»",
-          "answer": [
-            "Melkein kaikki pöydät ovat varattuja."
-          ]
+          "answer": ["Melkein kaikki pöydät ovat varattuja."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Tama_poyta_on_vapaa.mp3",
           "prompt": "Скажите по-фински: «Этот стол свободен.»",
-          "answer": [
-            "Tämä pöytä on vapaa."
-          ]
+          "answer": ["Tämä pöytä on vapaa."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Ruoka_maistuu_hyvalta.mp3",
           "prompt": "Скажите по-фински: «Еда вкусная.»",
-          "answer": [
-            "Ruoka maistuu hyvältä."
-          ]
+          "answer": ["Ruoka maistuu hyvältä."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Haluan_laskun_saman_tien.mp3",
@@ -4755,16 +4329,12 @@
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Saanko_laskun_kiitos.mp3",
           "prompt": "Скажите по-фински: «Можно счёт, пожалуйста?»",
-          "answer": [
-            "Saanko laskun, kiitos?"
-          ]
+          "answer": ["Saanko laskun, kiitos?"]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Saanko_ruokalistan_kiitos.mp3",
           "prompt": "Скажите по-фински: «Можно меню, пожалуйста?»",
-          "answer": [
-            "Saanko ruokalistan, kiitos?"
-          ]
+          "answer": ["Saanko ruokalistan, kiitos?"]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Salaattia_ja_leipaa_voitte_hakea_tuolta_salaattipoydasta.mp3",
@@ -4776,23 +4346,17 @@
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Alkuruoka_on_keittoa.mp3",
           "prompt": "Скажите по-фински: «Закуска — это суп.»",
-          "answer": [
-            "Alkuruoka on keittoa."
-          ]
+          "answer": ["Alkuruoka on keittoa."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Paaruoka_on_kalaa_ja_perunoita.mp3",
           "prompt": "Скажите по-фински: «Основное блюдо — рыба и картошка.»",
-          "answer": [
-            "Pääruoka on kalaa ja perunoita."
-          ]
+          "answer": ["Pääruoka on kalaa ja perunoita."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Jalkiruoka_on_jaateloa.mp3",
           "prompt": "Скажите по-фински: «Десерт — мороженое.»",
-          "answer": [
-            "Jälkiruoka on jäätelöä."
-          ]
+          "answer": ["Jälkiruoka on jäätelöä."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Haluan_alkuruoan_kiitos.mp3",
@@ -4805,86 +4369,107 @@
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Paaruoka_maistuu_hyvalta.mp3",
           "prompt": "Скажите по-фински: «Основное блюдо вкусное.»",
-          "answer": [
-            "Pääruoka maistuu hyvältä."
-          ]
+          "answer": ["Pääruoka maistuu hyvältä."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Jalkiruoka_on_makeaa.mp3",
           "prompt": "Скажите по-фински: «Десерт сладкий.»",
-          "answer": [
-            "Jälkiruoka on makeaa."
-          ]
+          "answer": ["Jälkiruoka on makeaa."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Mita_saa_olla.mp3",
           "prompt": "Скажите по-фински: «Что будете заказывать?»",
-          "answer": [
-            "Mitä saa olla?"
-          ]
+          "answer": ["Mitä saa olla?"]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Ottaisin_kahvin.mp3",
           "prompt": "Скажите по-фински: «Я бы взял кофе.»",
-          "answer": [
-            "Ottaisin kahvin."
-          ]
+          "answer": ["Ottaisin kahvin."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Haluaisin_keiton.mp3",
           "prompt": "Скажите по-фински: «Я хотел бы суп.»",
-          "answer": [
-            "Haluaisin keiton."
-          ]
+          "answer": ["Haluaisin keiton."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Minulle_salaatti.mp3",
           "prompt": "Скажите по-фински: «Мне салат.»",
-          "answer": [
-            "Minulle salaatti."
-          ]
+          "answer": ["Minulle salaatti."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Maksatteko_yhdessa_vai_erikseen.mp3",
           "prompt": "Скажите по-фински: «Вы платите вместе или отдельно?»",
-          "answer": [
-            "Maksatteko yhdessä vai erikseen?"
-          ]
+          "answer": ["Maksatteko yhdessä vai erikseen?"]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Maksatteko_kateisella_vai_kortilla.mp3",
           "prompt": "Скажите по-фински: «Вы платите наличными или картой?»",
-          "answer": [
-            "Maksatteko käteisellä vai kortilla?"
-          ]
+          "answer": ["Maksatteko käteisellä vai kortilla?"]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Kuuluuko_kahvi_lounaan_hintaan.mp3",
           "prompt": "Скажите по-фински: «Кофе входит в стоимость обеда?»",
-          "answer": [
-            "Kuuluuko kahvi lounaan hintaan?"
-          ]
+          "answer": ["Kuuluuko kahvi lounaan hintaan?"]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Haluaisin_varata_poydan_neljalle.mp3",
           "prompt": "Скажите по-фински: «Я хотел бы забронировать столик на четверых.»",
-          "answer": [
-            "Haluaisin varata pöydän neljälle."
-          ]
+          "answer": ["Haluaisin varata pöydän neljälle."]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Hyvaa_ruokahalua.mp3",
           "prompt": "Скажите по-фински: «Приятного аппетита!»",
-          "answer": [
-            "Hyvää ruokahalua!"
-          ]
+          "answer": ["Hyvää ruokahalua!"]
         },
         {
           "audioUrl": "/audio/A1-9/speaking/ex7/Kiitos_ruoasta.mp3",
           "prompt": "Скажите по-фински: «Спасибо за еду!»",
+          "answer": ["Kiitos ruoasta!"]
+        }
+      ]
+    },
+    {
+      "id": "a1-9-speaking-8",
+      "type": "speaking-sequence",
+      "description": "🎤 Скажите фразы по-фински — про автоматизацию (Ex8)",
+      "items": [
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex8/Automaatio_saattaa_syrjayttaa_joitakin_tyopaikkoja.mp3",
+          "prompt": "Скажите по-фински: «Автоматизация может вытеснить некоторые рабочие места.»",
+          "answer": ["Automaatio saattaa syrjäyttää joitakin työpaikkoja."]
+        },
+
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex8/Tata_on_yleensa_pidetty_opintoja_viivastyttavana.mp3",
+          "prompt": "Скажите по-фински: «Это обычно считается фактором, замедляющим обучение.»",
           "answer": [
-            "Kiitos ruoasta!"
+            "Tätä on yleensä pidetty opintoja viivästyttävänä tekijänä."
           ]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex8/Projektin_puitteissa_tehtiin_useita_muutoksia.mp3",
+          "prompt": "Скажите по-фински: «В рамках проекта было сделано несколько изменений.»",
+          "answer": ["Projektin puitteissa tehtiin useita muutoksia."]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex8/Yhtaalta_tyo_on_mielenkiintoista_toisaalta_raskasta.mp3",
+          "prompt": "Скажите по-фински: «С одной стороны работа интересная, с другой — тяжёлая.»",
+          "answer": ["Yhtäältä työ on mielenkiintoista, toisaalta raskasta."]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex8/Taustalla_voi_olla_taloudellinen_pakko.mp3",
+          "prompt": "Скажите по-фински: «За этим может стоять финансовая необходимость.»",
+          "answer": ["Taustalla voi olla taloudellinen pakko."]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex8/Tama_kokemus_on_tarkea_tyouran_kannalta.mp3",
+          "prompt": "Скажите по-фински: «Этот опыт важен для карьеры.»",
+          "answer": ["Tämä kokemus on tärkeä työuran kannalta."]
+        },
+        {
+          "audioUrl": "/audio/A1-9/speaking/ex8/Uusi_jarjestelma_sisallytettiin_osaksi_projektia.mp3",
+          "prompt": "Скажите по-фински: «Новая система была включена в проект.»",
+          "answer": ["Uusi järjestelmä sisällytettiin osaksi projektia."]
         }
       ]
     }
@@ -5876,11 +5461,7 @@
           },
           {
             "audioUrl": "/audio/A1-9/listening/ex7/Hyvaa_ruokahalua.mp3",
-            "options": [
-              "Kiitos ruoasta!",
-              "Hyvää iltaa!",
-              "Hyvää ruokahalua!"
-            ],
+            "options": ["Kiitos ruoasta!", "Hyvää iltaa!", "Hyvää ruokahalua!"],
             "answer": 2
           },
           {
