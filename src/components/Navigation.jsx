@@ -49,12 +49,12 @@ export default function Navigation() {
   const handleLogout = async () => {
     try {
       await signOut(auth);
-      toast.success("🚪 Signed out");
+      toast.success("🚪 Вы вышли из аккаунта");
       setIsMenuOpen(false);
       navigate("/");
     } catch (err) {
       console.error(err);
-      toast.error("Could not sign out");
+      toast.error("Не удалось выйти из аккаунта");
     }
   };
 
@@ -63,10 +63,10 @@ export default function Navigation() {
     try {
       if (authMode === "login") {
         await signInWithEmailAndPassword(auth, email.trim(), password);
-        toast.success("✅ Signed in successfully");
+        toast.success("✅ Вход выполнен");
       } else {
         await createUserWithEmailAndPassword(auth, email.trim(), password);
-        toast.success("🎉 Registration complete");
+        toast.success("🎉 Регистрация завершена");
       }
       setIsLoginOpen(false);
       setEmail("");
@@ -76,19 +76,19 @@ export default function Navigation() {
     } catch (err) {
       console.error(err);
       
-      let errorMessage = "Authentication error";
+      let errorMessage = "Ошибка авторизации";
       const errorCode = err.code;
 
       if (errorCode === "auth/invalid-credential" || errorCode === "auth/user-not-found" || errorCode === "auth/wrong-password") {
-        errorMessage = "Invalid email or password";
+        errorMessage = "Неверный email или пароль";
       } else if (errorCode === "auth/email-already-in-use") {
-        errorMessage = "This email is already registered";
+        errorMessage = "Этот email уже зарегистрирован";
       } else if (errorCode === "auth/too-many-requests") {
-        errorMessage = "Too many attempts. Try again later";
+        errorMessage = "Слишком много попыток. Попробуйте позже";
       } else if (errorCode === "auth/weak-password") {
-        errorMessage = "Password too weak (minimum 6 characters)";
+        errorMessage = "Слишком простой пароль (минимум 6 символов)";
       } else if (errorCode === "auth/invalid-email") {
-        errorMessage = "Invalid email format";
+        errorMessage = "Неверный формат email";
       }
 
       toast.error(errorMessage);
@@ -111,30 +111,24 @@ export default function Navigation() {
         <div className="hidden items-center gap-8 md:flex">
           <div className="flex items-center gap-6">
             <Link to="/" className="text-white/90 transition-colors hover:text-white">
-              Home
+              Главная
             </Link>
             <Link to="/lessons" className="text-white/90 transition-colors hover:text-white">
-              Lessons
+              Уроки
             </Link>
             <Link to="/profile" className="text-white/90 transition-colors hover:text-white">
-              Profile
+              Профиль
             </Link>
             
             {SUBSCRIPTIONS_ENABLED && (
               <Link to="/subscription" className="text-white/90 transition-colors hover:text-white">
-                Subscription
+                Подписка
               </Link>
             )}
           </div>
 
           <div className="flex items-center gap-4">
-            <div className="flex items-center gap-2">
-              <button className="text-white transition-colors">RU</button>
-              <span className="text-white/50">/</span>
-              <button className="text-white/90 transition-colors hover:text-white">
-                EN
-              </button>
-            </div>
+            <span className="text-sm text-white/90">Русский</span>
 
             {!user ? (
               <Button
@@ -145,7 +139,7 @@ export default function Navigation() {
                   setIsLoginOpen(true);
                 }}
               >
-                Sign in
+                Войти
               </Button>
             ) : (
               <Button
@@ -153,7 +147,7 @@ export default function Navigation() {
                 className="border border-white/30 bg-white/10 text-white backdrop-blur-sm hover:bg-white/20"
                 onClick={handleLogout}
               >
-                Sign out
+                Выйти
               </Button>
             )}
           </div>
@@ -171,7 +165,7 @@ export default function Navigation() {
                 setIsLoginOpen(true);
               }}
             >
-              Sign in
+              Войти
             </Button>
           ) : (
             <Button
@@ -180,14 +174,14 @@ export default function Navigation() {
               className="border border-white/30 bg-white/10 text-white backdrop-blur-sm hover:bg-white/20"
               onClick={handleLogout}
             >
-              Sign out
+              Выйти
             </Button>
           )}
 
           <button
             className="p-2 text-white"
             onClick={() => setIsMenuOpen((v) => !v)}
-            aria-label="Toggle menu"
+            aria-label="Открыть меню"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -211,21 +205,21 @@ export default function Navigation() {
               className="py-2 text-white/90 transition-colors hover:text-white"
               onClick={() => setIsMenuOpen(false)}
             >
-              Home
+              Главная
             </Link>
             <Link
               to="/lessons"
               className="py-2 text-white/90 transition-colors hover:text-white"
               onClick={() => setIsMenuOpen(false)}
             >
-              Lessons
+              Уроки
             </Link>
             <Link
               to="/profile"
               className="py-2 text-white/90 transition-colors hover:text-white"
               onClick={() => setIsMenuOpen(false)}
             >
-              Profile
+              Профиль
             </Link>
             {SUBSCRIPTIONS_ENABLED && (
               <Link
@@ -233,15 +227,11 @@ export default function Navigation() {
                 className="py-2 text-white/90 transition-colors hover:text-white"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Subscription
+                Подписка
               </Link>
             )}
-            <div className="mt-2 flex items-center gap-2 border-t border-white/20 pt-4">
-              <button className="text-white transition-colors">RU</button>
-              <span className="text-white/50">/</span>
-              <button className="text-white/90 transition-colors hover:text-white">
-                EN
-              </button>
+            <div className="mt-2 border-t border-white/20 pt-4 text-white/90">
+              Русский язык
             </div>
           </div>
         </div>
@@ -252,18 +242,18 @@ export default function Navigation() {
         <DialogContent className="sm:max-w-md">
           <DialogHeader>
             <DialogTitle className="text-center text-2xl">
-              {authMode === "login" ? "Sign in" : "Register"}
+              {authMode === "login" ? "Вход" : "Регистрация"}
             </DialogTitle>
             <DialogDescription className="text-center text-sm text-gray-500">
               {authMode === "login"
-                ? "Enter your email and password to sign in"
-                : "Create an account with your email and password"}
+                ? "Введите email и пароль"
+                : "Создайте аккаунт, чтобы сохранять прогресс"}
             </DialogDescription>
           </DialogHeader>
 
           <form className="space-y-4 pt-2" onSubmit={handleAuthSubmit}>
             <div className="space-y-2">
-              <Label htmlFor="email">Email</Label>
+              <Label htmlFor="email">Электронная почта</Label>
               <Input
                 id="email"
                 type="email"
@@ -276,7 +266,7 @@ export default function Navigation() {
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="password">Password</Label>
+              <Label htmlFor="password">Пароль</Label>
               <Input
                 id="password"
                 type="password"
@@ -290,30 +280,30 @@ export default function Navigation() {
             </div>
 
             <Button type="submit" className="w-full bg-blue-600 text-white hover:bg-blue-700">
-              {authMode === "login" ? "Sign in" : "Register"}
+              {authMode === "login" ? "Войти" : "Зарегистрироваться"}
             </Button>
 
             <div className="pt-2 text-center text-sm">
               {authMode === "login" ? (
                 <>
-                  No account?{" "}
+                  Нет аккаунта?{" "}
                   <button
                     type="button"
                     className="text-blue-600 hover:text-blue-700 hover:underline"
                     onClick={() => setAuthMode("register")}
                   >
-                    Register
+                    Зарегистрироваться
                   </button>
                 </>
               ) : (
                 <>
-                  Already have an account?{" "}
+                  Уже есть аккаунт?{" "}
                   <button
                     type="button"
                     className="text-blue-600 hover:text-blue-700 hover:underline"
                     onClick={() => setAuthMode("login")}
                   >
-                    Sign in
+                    Войти
                   </button>
                 </>
               )}
