@@ -21,7 +21,7 @@ export const DialogContent = React.forwardRef(({ className, children, ...props }
       {children}
       <DialogPrimitive.Close className="absolute right-3 top-3 rounded-md p-2 text-gray-500 hover:bg-gray-100">
         <X className="h-4 w-4" />
-        <span className="sr-only">Close</span>
+        <span className="sr-only">Закрыть</span>
       </DialogPrimitive.Close>
     </DialogPrimitive.Content>
   </DialogPrimitive.Portal>
