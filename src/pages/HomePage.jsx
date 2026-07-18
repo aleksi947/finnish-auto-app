@@ -110,6 +110,12 @@ function HomePage() {
       {/* Footer */}
       <footer className="bg-gray-900 py-8 sm:py-12 text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 text-center">
+          <Link
+            to="/feedback"
+            className="mb-5 inline-block text-sm text-slate-300 transition-colors hover:text-white hover:underline sm:text-base"
+          >
+            Оставить отзыв или задать вопрос
+          </Link>
           <p className="text-sm sm:text-base text-gray-400">© 2026 FinnishFlow. Все права защищены.</p>
         </div>
       </footer>
