@@ -1,7 +1,15 @@
 import { Link } from "react-router-dom";
 import Navigation from "../components/Navigation";
 import { Button } from "../components/ui/button";
-import { Instagram, Facebook } from "lucide-react";
+
+const lessonDirections = [
+  { icon: "🗂️", title: "Новые слова", text: "Полезная лексика для повседневных ситуаций." },
+  { icon: "📘", title: "Грамматика", text: "Понятные объяснения правил на русском языке." },
+  { icon: "🎧", title: "Аудирование", text: "Задания для понимания финской речи на слух." },
+  { icon: "🎙️", title: "Говорение", text: "Практика произношения и разговорных фраз." },
+  { icon: "✍️", title: "Письмо", text: "Упражнения на составление слов и предложений." },
+  { icon: "📖", title: "Чтение", text: "Тексты и вопросы для проверки понимания." },
+];
 
 function HomePage() {
 
@@ -24,10 +32,11 @@ function HomePage() {
         <div className="relative z-10 flex h-full items-center justify-center px-4 sm:px-6 pt-20 pb-8">
           <div className="max-w-4xl text-center w-full">
             <h1 className="mb-4 sm:mb-6 text-2xl sm:text-[36px] md:text-5xl lg:text-6xl xl:text-7xl font-normal not-italic text-white leading-tight sm:leading-normal">
-              Финский язык шаг за шагом
+              Финский язык для жизни в Финляндии
             </h1>
             <p className="mx-auto mb-6 sm:mb-10 max-w-2xl text-base sm:text-lg md:text-xl lg:text-2xl text-white/95 px-2">
-              Учитесь в удобном темпе: слова, грамматика, аудирование и практика
+              Понятные объяснения на русском, слова, грамматика, аудирование и
+              разговорная практика. Курс поможет подготовиться к тесту YKI.
             </p>
 
             <div className="flex flex-col items-stretch sm:items-center justify-center gap-3 sm:gap-4 px-4 sm:px-0 sm:flex-row">
@@ -49,41 +58,46 @@ function HomePage() {
         </div>
       </div>
 
-      {/* Benefits Section */}
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-12 sm:py-16 md:py-20">
-        <div className="grid grid-cols-1 gap-6 sm:gap-8 md:grid-cols-3">
-          <div className="text-center p-5 sm:p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
-            <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">📚</div>
-            <h3 className="text-lg sm:text-xl font-semibold mb-2">Понятные уроки</h3>
-            <p className="text-sm sm:text-base text-gray-600">
-              Изучайте новые темы постепенно и в удобном для себя темпе.
+      {/* Lesson directions */}
+      <section className="bg-slate-50 py-14 sm:py-20">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6">
+          <div className="mx-auto mb-10 max-w-3xl text-center sm:mb-14">
+            <h2 className="mb-4 text-3xl font-semibold text-slate-900 sm:text-4xl">
+              Что есть внутри урока
+            </h2>
+            <p className="text-base leading-relaxed text-slate-600 sm:text-lg">
+              Каждый урок сочетает разные виды практики, чтобы вы не только
+              запоминали правила, но и учились использовать финский язык.
             </p>
           </div>
-          <div className="text-center p-5 sm:p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
-            <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">🎧</div>
-            <h3 className="text-lg sm:text-xl font-semibold mb-2">Аудио и практика</h3>
-            <p className="text-sm sm:text-base text-gray-600">
-              Слушайте финскую речь и тренируйте произношение.
-            </p>
-          </div>
-          <div className="text-center p-5 sm:p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
-            <div className="text-3xl sm:text-4xl mb-3 sm:mb-4">🚀</div>
-            <h3 className="text-lg sm:text-xl font-semibold mb-2">Видимый прогресс</h3>
-            <p className="text-sm sm:text-base text-gray-600">
-              Выполняйте упражнения и следите за своим прогрессом.
-            </p>
+
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {lessonDirections.map((direction) => (
+              <article
+                key={direction.title}
+                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:border-blue-300 hover:shadow-md"
+              >
+                <div className="mb-4 text-4xl" aria-hidden="true">
+                  {direction.icon}
+                </div>
+                <h3 className="mb-2 text-xl font-semibold text-slate-900">
+                  {direction.title}
+                </h3>
+                <p className="leading-relaxed text-slate-600">{direction.text}</p>
+              </article>
+            ))}
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Call to Action */}
       <div className="bg-gradient-to-r from-blue-600 to-blue-700 py-12 sm:py-16 md:py-20">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 text-center">
           <h2 className="mb-4 sm:mb-6 text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white leading-tight px-2">
-            Готовы начать изучать финский?
+            Начните с первого урока прямо сейчас
           </h2>
           <p className="mb-6 sm:mb-10 text-base sm:text-lg md:text-xl text-white/90 px-2">
-            Откройте первый урок и попробуйте бесплатно
+            Выберите свой уровень и занимайтесь в удобном темпе
           </p>
           <Link to="/lessons" className="inline-block">
             <Button size="lg" className="bg-white px-6 sm:px-8 md:px-10 py-4 sm:py-5 md:py-6 text-base sm:text-lg text-blue-700 hover:bg-gray-100 w-full sm:w-auto">
@@ -96,20 +110,6 @@ function HomePage() {
       {/* Footer */}
       <footer className="bg-gray-900 py-8 sm:py-12 text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 text-center">
-          <div className="mb-4 sm:mb-6 flex items-center justify-center gap-4 sm:gap-6">
-            <a href="#" className="text-gray-400 transition-colors hover:text-white" aria-label="Instagram">
-              <Instagram size={20} className="sm:w-6 sm:h-6" />
-            </a>
-            <a href="#" className="text-gray-400 transition-colors hover:text-white" aria-label="Facebook">
-              <Facebook size={20} className="sm:w-6 sm:h-6" />
-            </a>
-            <a href="#" className="text-gray-400 transition-colors hover:text-white" aria-label="TikTok">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" className="sm:w-6 sm:h-6"
-                   stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
-              </svg>
-            </a>
-          </div>
           <p className="text-sm sm:text-base text-gray-400">© 2026 FinnishFlow. Все права защищены.</p>
         </div>
       </footer>
