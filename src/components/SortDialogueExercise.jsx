@@ -1,18 +1,32 @@
 /* jshint esversion: 11 */
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { ArrowUp, ArrowDown, Check, X } from "lucide-react";
 
-function SortDialogueExercise({ task }) {
+function SortDialogueExercise({ task, onMarkStarted, onMarkCompleted }) {
   const [items, setItems] = useState(shuffle([...task.lines]));
   const [checked, setChecked] = useState(false);
+  const hasMarkedStarted = useRef(false);
 
-  const handleCheck = () => setChecked(true);
+  const markStarted = () => {
+    if (!hasMarkedStarted.current) {
+      hasMarkedStarted.current = true;
+      onMarkStarted?.();
+    }
+  };
+
+  const handleCheck = () => {
+    markStarted();
+    setChecked(true);
+    if (isCorrect) onMarkCompleted?.(true);
+  };
 
   const moveUp = (index) => {
     if (index === 0) return;
     const copy = [...items];
     [copy[index - 1], copy[index]] = [copy[index], copy[index - 1]];
     setItems(copy);
+    setChecked(false);
+    markStarted();
   };
 
   const moveDown = (index) => {
@@ -20,6 +34,8 @@ function SortDialogueExercise({ task }) {
     const copy = [...items];
     [copy[index + 1], copy[index]] = [copy[index], copy[index + 1]];
     setItems(copy);
+    setChecked(false);
+    markStarted();
   };
 
   const isCorrect =
@@ -62,15 +78,15 @@ function SortDialogueExercise({ task }) {
         ))}
       </ul>
 
-      {!checked ? (
-        <button
-          type="button"
-          onClick={handleCheck}
-          className="w-full rounded-2xl bg-[#1E64F0] px-5 py-4 text-lg font-semibold text-white shadow-lg transition hover:bg-[#1550c8]"
-        >
-          Проверить порядок
-        </button>
-      ) : (
+      <button
+        type="button"
+        onClick={handleCheck}
+        className="w-full rounded-2xl bg-[#1E64F0] px-5 py-4 text-lg font-semibold text-white shadow-lg transition hover:bg-[#1550c8]"
+      >
+        {checked ? "Проверить ещё раз" : "Проверить порядок"}
+      </button>
+
+      {checked && (
         <div
           className={`flex items-center gap-3 rounded-2xl border-2 px-5 py-4 text-lg font-semibold ${
             isCorrect

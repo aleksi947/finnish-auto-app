@@ -5,6 +5,7 @@ import ResponsiveConjugationTable from "./ResponsiveConjugationTable";
 import StructuredExplanation from "./StructuredExplanation";
 import { Input } from "./ui/Input";
 import { Progress } from "./ui/Progress";
+import { useCompletionReporter } from "../hooks/useCompletionReporter";
 
 // --- helpers ---
 function shuffle(array) {
@@ -185,16 +186,12 @@ export default function FillInBlank({ exercise, onStageComplete, onComplete, sta
     }
   };
 
-  // Check all answers correct on finish
-  // IMPORTANT: this useEffect must run BEFORE any early return
-  useEffect(() => {
-    if (finished && answers.length === items.length && items.length > 0) {
-      const allCorrect = answers.every(a => a.isCorrect);
-      if (onMarkCompleted) {
-        onMarkCompleted(allCorrect);
-      }
-    }
-  }, [finished, answers, items.length, onMarkCompleted]);
+  useCompletionReporter({
+    finished,
+    answers,
+    total: items.length,
+    onMarkCompleted,
+  });
 
   const handleKeyDown = (e) => {
     if (e.key === "Enter") {

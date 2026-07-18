@@ -129,7 +129,13 @@ function LessonReadingExercisePage() {
               )}
 
               {task.type === "sort-dialogue" && (
-                <SortDialogueExercise task={task} />
+                <SortDialogueExercise
+                  task={task}
+                  onMarkStarted={() => markExerciseStarted("reading", taskId)}
+                  onMarkCompleted={() =>
+                    markExerciseCompleted("reading", taskId)
+                  }
+                />
               )}
             </div>
           </div>

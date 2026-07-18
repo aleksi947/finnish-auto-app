@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { Mic, Volume2 } from "lucide-react";
+import { useCompletionReporter } from "../hooks/useCompletionReporter";
 
 /* ---------- NUMBER DICTIONARIES ---------- */
 const UNITS = {
@@ -284,16 +285,12 @@ function SpeakingSequence({ task, onMarkStarted, onMarkCompleted }) {
     setHasMarkedStarted(false);
   };
 
-  // Check all answers correct on finish
-  // IMPORTANT: this useEffect must run BEFORE any early return
-  useEffect(() => {
-    if (finished && answers.length === items.length && items.length > 0) {
-      const allCorrect = answers.every(a => a.isCorrect);
-      if (onMarkCompleted) {
-        onMarkCompleted(allCorrect);
-      }
-    }
-  }, [finished, answers, items.length, onMarkCompleted]);
+  useCompletionReporter({
+    finished,
+    answers,
+    total: items.length,
+    onMarkCompleted,
+  });
 
   /* ---------- Model answer playback ---------- */
   function getModelAnswerText(it) {

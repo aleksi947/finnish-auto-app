@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Input } from "./ui/Input";
 import { Button } from "./ui/button";
+import { useCompletionReporter } from "../hooks/useCompletionReporter";
 
 function normalize(text) {
   return text
@@ -84,16 +85,12 @@ function VocabularyWrite({ words, lang, onFinish, onMarkStarted, onMarkCompleted
     setHasMarkedStarted(false);
   };
 
-  // Check all answers correct on finish
-  // IMPORTANT: this useEffect must run BEFORE any early return
-  useEffect(() => {
-    if (currentIndex >= shuffled.length && answers.length === shuffled.length && shuffled.length > 0) {
-      const allCorrect = answers.every(a => a.isCorrect);
-      if (onMarkCompleted) {
-        onMarkCompleted(allCorrect);
-      }
-    }
-  }, [currentIndex, shuffled.length, answers, onMarkCompleted]);
+  useCompletionReporter({
+    finished: currentIndex >= shuffled.length,
+    answers,
+    total: shuffled.length,
+    onMarkCompleted,
+  });
 
   const handleKeyPress = (e) => {
     if (e.key === "Enter" && !showNext && answer.trim()) {

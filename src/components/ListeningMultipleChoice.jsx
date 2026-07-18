@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { Volume2, Pause } from "lucide-react";
+import { useCompletionReporter } from "../hooks/useCompletionReporter";
 
 // Shuffle array
 function shuffle(array) {
@@ -50,16 +51,12 @@ function ListeningMultipleChoice({
     }
   }, [task]); // Removed onQuestionChange from deps to avoid extra calls
 
-  // Check all answers correct on finish
-  // IMPORTANT: this useEffect must run BEFORE any early return
-  useEffect(() => {
-    if (finished && answers.length === questions.length && questions.length > 0) {
-      const allCorrect = answers.every(a => a.isCorrect);
-      if (onMarkCompleted) {
-        onMarkCompleted(allCorrect);
-      }
-    }
-  }, [finished, answers, questions.length, onMarkCompleted]);
+  useCompletionReporter({
+    finished,
+    answers,
+    total: questions.length,
+    onMarkCompleted,
+  });
 
   const question = questions[step];
 

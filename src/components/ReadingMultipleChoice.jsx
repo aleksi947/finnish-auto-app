@@ -1,6 +1,7 @@
 /* jshint esversion: 11 */
 /* jshint ignore:start */
-import { useMemo, useState, useEffect } from "react";
+import { useMemo, useState } from "react";
+import { useCompletionReporter } from "../hooks/useCompletionReporter";
 
 function ReadingMultipleChoice({ task, onComplete, onMarkStarted, onMarkCompleted }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -52,16 +53,12 @@ function ReadingMultipleChoice({ task, onComplete, onMarkStarted, onMarkComplete
     }
   };
 
-  // Check all answers correct on finish
-  // IMPORTANT: this useEffect must run BEFORE any early return
-  useEffect(() => {
-    if (isFinished && answers.length === totalQuestions && totalQuestions > 0) {
-      const allCorrect = answers.every(a => a.isCorrect);
-      if (onMarkCompleted) {
-        onMarkCompleted(allCorrect);
-      }
-    }
-  }, [isFinished, answers, totalQuestions, onMarkCompleted]);
+  useCompletionReporter({
+    finished: isFinished,
+    answers,
+    total: totalQuestions,
+    onMarkCompleted,
+  });
 
   if (isFinished) {
     return (

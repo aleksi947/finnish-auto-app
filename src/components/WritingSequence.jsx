@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useCompletionReporter } from "../hooks/useCompletionReporter";
 
 // Shuffle array
 function shuffle(array) {
@@ -59,16 +60,12 @@ function WritingSequence({ task, onMarkStarted, onMarkCompleted }) {
     setHasMarkedStarted(false);
   }, [task]);
 
-  // Check all answers correct on finish
-  // IMPORTANT: this useEffect must run BEFORE any early return
-  useEffect(() => {
-    if (finished && answers.length === items.length && items.length > 0) {
-      const allCorrect = answers.every(a => a.isCorrect);
-      if (onMarkCompleted) {
-        onMarkCompleted(allCorrect);
-      }
-    }
-  }, [finished, answers, items.length, onMarkCompleted]);
+  useCompletionReporter({
+    finished,
+    answers,
+    total: items.length,
+    onMarkCompleted,
+  });
 
   const current = items[index];
   const correctAnswers = Array.isArray(current?.answer)

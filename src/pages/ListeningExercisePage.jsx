@@ -23,7 +23,7 @@ function ListeningExercisePage() {
   // Reset progress on new task load
   useEffect(() => {
     const total =
-      task?.questions?.length || task?.items?.length || 0;
+      task?.questions?.length || task?.items?.length || task?.gaps?.length || 0;
     setRoundTotalQuestions(total);
     setCurrentQuestionIndex(0);
   }, [task]);
@@ -250,6 +250,10 @@ function ListeningExercisePage() {
                 task={task}
                 currentQuestionIndex={currentQuestionIndex}
                 onQuestionChange={setCurrentQuestionIndex}
+                onMarkStarted={() => markExerciseStarted("listening", taskId)}
+                onMarkCompleted={() =>
+                  markExerciseCompleted("listening", taskId)
+                }
               />
             )}
           </div>

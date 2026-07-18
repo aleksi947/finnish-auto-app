@@ -1,7 +1,8 @@
 import { useState, useEffect, useCallback } from "react";
-import { doc, onSnapshot } from "firebase/firestore";
+import { doc, getDoc, onSnapshot } from "firebase/firestore";
 import { db } from "../firebase";
 import { auth } from "../firebase";
+import toast from "react-hot-toast";
 import {
   getLessonProgress,
   markExerciseStarted,
@@ -11,6 +12,7 @@ import {
   getVocabularyTopicStatus,
   getGrammarSectionStatus,
 } from "../services/progressService";
+import { normalizeProgress } from "../services/progressModel";
 
 /**
  * Hook for lesson progress
@@ -49,12 +51,30 @@ export function useProgress(lessonId) {
       try {
         // Real-time progress subscription
         const progressRef = doc(db, "users", user.uid, "progress", lessonId);
+        const lessonRef = doc(db, "lessons", lessonId);
+        const lessonPromise = getDoc(lessonRef);
         
         unsubscribeProgress = onSnapshot(
           progressRef,
-          (snapshot) => {
+          async (snapshot) => {
             if (snapshot.exists()) {
-              setProgress(snapshot.data());
+              try {
+                const lessonSnapshot = await lessonPromise;
+                setProgress(
+                  lessonSnapshot.exists()
+                    ? normalizeProgress(
+                        { ...lessonSnapshot.data(), id: lessonSnapshot.id },
+                        snapshot.data(),
+                      )
+                    : snapshot.data(),
+                );
+              } catch (lessonError) {
+                console.warn(
+                  "Не удалось нормализовать прогресс по структуре урока:",
+                  lessonError,
+                );
+                setProgress(snapshot.data());
+              }
             } else {
               setProgress(null);
             }
@@ -104,7 +124,17 @@ export function useProgress(lessonId) {
         return { success: false, error: "Не авторизован" };
       }
 
-      return await markExerciseStarted(user.uid, lessonId, sectionId, exerciseId, topicId);
+      const result = await markExerciseStarted(
+        user.uid,
+        lessonId,
+        sectionId,
+        exerciseId,
+        topicId,
+      );
+      if (!result.success) {
+        toast.error("Не удалось сохранить прогресс. Попробуйте ещё раз.");
+      }
+      return result;
     },
     [lessonId]
   );
@@ -118,7 +148,17 @@ export function useProgress(lessonId) {
         return { success: false, error: "Не авторизован" };
       }
 
-      return await markExerciseCompleted(user.uid, lessonId, sectionId, exerciseId, topicId);
+      const result = await markExerciseCompleted(
+        user.uid,
+        lessonId,
+        sectionId,
+        exerciseId,
+        topicId,
+      );
+      if (!result.success) {
+        toast.error("Не удалось сохранить прогресс. Попробуйте ещё раз.");
+      }
+      return result;
     },
     [lessonId]
   );
@@ -167,4 +207,3 @@ export function useProgress(lessonId) {
     getGrammarSectionStatus: getGrammarSectionStatusValue,
   };
 }
-

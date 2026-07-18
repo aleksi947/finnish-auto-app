@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { FileText } from "lucide-react";
 import { Button } from "./ui/button";
+import { useCompletionReporter } from "../hooks/useCompletionReporter";
 
 function VocabularyQuiz({ words, lang, onFinish, onMarkStarted, onMarkCompleted }) {
   const [shuffledWords, setShuffledWords] = useState([]);
@@ -85,16 +86,12 @@ function VocabularyQuiz({ words, lang, onFinish, onMarkStarted, onMarkCompleted 
     setHasMarkedStarted(false);
   };
 
-  // Check all answers correct on finish
-  // IMPORTANT: this useEffect must run BEFORE any early return
-  useEffect(() => {
-    if (finished && answers.length === shuffledWords.length && shuffledWords.length > 0) {
-      const allCorrect = answers.every(a => a.isCorrect);
-      if (onMarkCompleted) {
-        onMarkCompleted(allCorrect);
-      }
-    }
-  }, [finished, answers, shuffledWords.length, onMarkCompleted]);
+  useCompletionReporter({
+    finished,
+    answers,
+    total: shuffledWords.length,
+    onMarkCompleted,
+  });
 
   const getOptionClassName = (option) => {
     const baseClasses = "w-full py-6 px-6 rounded-xl border-2 transition-all cursor-pointer text-center text-gray-800 text-xl";
