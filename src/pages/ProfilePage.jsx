@@ -58,13 +58,13 @@ function ProfilePage() {
 
   const handleLogout = async () => {
     await auth.signOut();
-    toast.success("🚪 Signed out");
+    toast.success("🚪 Вы вышли из аккаунта");
     navigate("/");
   };
 
   const handleCancelSubscription = async () => {
-    if (!user) return toast.error("❗ Please sign in to your account.");
-    if (!window.confirm("Are you sure you want to cancel your subscription?")) return;
+    if (!user) return toast.error("❗ Войдите в аккаунт.");
+    if (!window.confirm("Вы уверены, что хотите отменить подписку?")) return;
     
     try {
       const idToken = await getIdToken(user, true);
@@ -73,16 +73,16 @@ function ProfilePage() {
         {},
         { headers: { Authorization: `Bearer ${idToken}` } }
       );
-      toast.success("📅 Subscription cancelled. Access remains until the end of the period.");
+      toast.success("📅 Подписка отменена. Доступ сохранится до конца оплаченного периода.");
     } catch (err) {
       console.error("Subscription cancel error:", err);
-      toast.error("❌ Could not cancel subscription");
+      toast.error("❌ Не удалось отменить подписку");
     }
   };
 
   const handleResumeSubscription = async () => {
-    if (!user) return toast.error("❗ Please sign in to your account.");
-    if (!window.confirm("Resume subscription? Billing will continue as usual.")) return;
+    if (!user) return toast.error("❗ Войдите в аккаунт.");
+    if (!window.confirm("Возобновить подписку? Списание будет продолжено.")) return;
 
     try {
       const idToken = await getIdToken(user, true);
@@ -91,10 +91,10 @@ function ProfilePage() {
         {},
         { headers: { Authorization: `Bearer ${idToken}` } }
       );
-      toast.success("✅ Subscription resumed successfully!");
+      toast.success("✅ Подписка возобновлена!");
     } catch (err) {
       console.error("Subscription resume error:", err);
-      toast.error("❌ Could not resume subscription");
+      toast.error("❌ Не удалось возобновить подписку");
     }
   };
 
@@ -105,7 +105,7 @@ function ProfilePage() {
 
   // One-time access purchase
   const handleOneTimePayment = async () => {
-    if (!user) return toast.error("❗ Please sign in to your account.");
+    if (!user) return toast.error("❗ Войдите в аккаунт.");
     
     setPaymentLoading(true);
     try {
@@ -115,7 +115,7 @@ function ProfilePage() {
           priceId: ONE_TIME_PRICE_ID
       };
 
-      toast.loading("Redirecting to payment...");
+      toast.loading("Переходим к оплате...");
       
       const res = await axios.post(
         startUrl,
@@ -128,7 +128,7 @@ function ProfilePage() {
     } catch (error) {
       console.error("Payment creation error:", error);
       toast.dismiss();
-      toast.error("Could not open payment. Try again later.");
+      toast.error("Не удалось открыть оплату. Попробуйте позже.");
     } finally {
         setPaymentLoading(false);
     }
@@ -141,9 +141,9 @@ function ProfilePage() {
     // Auto-renewing subscription
     if (subscriptionData.type === 'monthly') {
         if (subscriptionData.canceledAtPeriodEnd) {
-            return "Cancelled (access until period end)";
+            return "Отменена (доступ до конца периода)";
         }
-        return "Auto-renewal";
+        return "Автоматическое продление";
     }
     
     const date = subscriptionData.validUntil || subscriptionData.endDate;
@@ -151,29 +151,29 @@ function ProfilePage() {
     if (!date) return "—";
 
     if (date?.toDate) {
-      return date.toDate().toLocaleDateString("en-US");
+      return date.toDate().toLocaleDateString("ru-RU");
     }
     if (date instanceof Date) {
-      return date.toLocaleDateString("en-US");
+      return date.toLocaleDateString("ru-RU");
     }
     return date;
   };
 
   // Subscription status text
   const getSubscriptionStatusText = () => {
-      if (subLoading) return "Loading...";
+      if (subLoading) return "Загрузка...";
       
-      if (!hasSubscription) return "Inactive";
+      if (!hasSubscription) return "Неактивна";
 
       if (subscriptionData?.canceledAtPeriodEnd) {
-          return <span className="text-orange-600 font-medium">Cancelled</span>;
+          return <span className="text-orange-600 font-medium">Отменена</span>;
       }
-      return <span className="text-green-600 font-medium">Active</span>;
+      return <span className="text-green-600 font-medium">Активна</span>;
   };
 
   // Get user display name
   const getUserName = () => {
-    return user?.displayName || user?.email?.split("@")[0] || "User";
+    return user?.displayName || user?.email?.split("@")[0] || "Пользователь";
   };
 
   if (!user && !subLoading) {
@@ -183,9 +183,9 @@ function ProfilePage() {
         <div className="pt-24 pb-12 px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-3xl shadow-lg border-2 border-[#3C84F8] p-8 sm:p-10 md:p-12">
-              <h1 className="text-4xl mb-4">Profile</h1>
+              <h1 className="text-4xl mb-4">Профиль</h1>
               <p className="text-lg text-gray-800">
-                Please sign in to view your profile.
+                Войдите в аккаунт, чтобы открыть профиль.
               </p>
             </div>
           </div>
@@ -201,20 +201,20 @@ function ProfilePage() {
       <div className="pt-24 pb-12 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-3xl shadow-lg border-2 border-[#3C84F8] p-8 sm:p-10 md:p-12">
-            <h1 className="text-4xl mb-10 text-gray-800">Profile</h1>
+            <h1 className="text-4xl mb-10 text-gray-800">Профиль</h1>
 
             <div className="space-y-5 mb-8">
               <div className="flex items-center gap-4">
                 <User className="w-6 h-6 text-gray-500 flex-shrink-0" />
                 <p className="text-lg text-gray-800">
-                  <span className="font-semibold">Name:</span> {getUserName()}
+                  <span className="font-semibold">Имя:</span> {getUserName()}
                 </p>
               </div>
 
               {SUBSCRIPTIONS_ENABLED && <div className="flex items-center gap-4">
                 <Mail className="w-6 h-6 text-gray-500 flex-shrink-0" />
                 <p className="text-lg text-gray-800">
-                  <span className="font-semibold">Email:</span> {user?.email}
+                  <span className="font-semibold">Электронная почта:</span> {user?.email}
                 </p>
               </div>}
 
@@ -232,12 +232,12 @@ function ProfilePage() {
                 </div>
                 <div>
                   <p className="text-lg text-gray-800">
-                    <span className="font-semibold">Subscription status:</span>{" "}
+                    <span className="font-semibold">Статус подписки:</span>{" "}
                     {getSubscriptionStatusText()}
                   </p>
                   {hasSubscription && (
                     <p className="text-sm text-gray-500 mt-1">
-                       Type: {subscriptionData?.type === 'monthly' ? 'Monthly subscription' : (subscriptionData?.type === 'one_time' ? 'One-time access' : 'Unknown')}
+                       Тип: {subscriptionData?.type === 'monthly' ? 'Ежемесячная подписка' : (subscriptionData?.type === 'one_time' ? 'Разовый доступ' : 'Неизвестно')}
                     </p>
                   )}
                 </div>
@@ -248,7 +248,7 @@ function ProfilePage() {
                   <Clock className="w-6 h-6 text-gray-500 flex-shrink-0" />
                   <p className="text-lg text-gray-800">
                     <span className="font-semibold">
-                        {subscriptionData?.type === 'monthly' && !subscriptionData?.canceledAtPeriodEnd ? 'Renewal status:' : 'Valid until:'}
+                        {subscriptionData?.type === 'monthly' && !subscriptionData?.canceledAtPeriodEnd ? 'Продление:' : 'Действует до:'}
                     </span>{" "}
                     {formatValidUntil()}
                   </p>
@@ -259,12 +259,12 @@ function ProfilePage() {
             <div className="flex flex-col sm:flex-row gap-4 mb-10">
               <Button
                 onClick={() => {
-                  toast.info("Profile editing will be available soon");
+                  toast.info("Редактирование профиля скоро появится");
                 }}
                 className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-6 text-lg rounded-xl flex items-center justify-center gap-2"
               >
                 <Pen className="w-5 h-5" />
-                Edit profile
+                Редактировать профиль
               </Button>
               
               {/* Cancel button (active, not cancelled) */}
@@ -274,7 +274,7 @@ function ProfilePage() {
                   variant="outline"
                   className="border-2 border-red-500 text-red-600 hover:bg-red-50 hover:text-red-700 hover:border-red-600 px-6 py-6 text-lg rounded-xl bg-white"
                 >
-                  Cancel subscription
+                  Отменить подписку
                 </Button>
               )}
 
@@ -284,7 +284,7 @@ function ProfilePage() {
                   onClick={handleResumeSubscription}
                   className="bg-green-600 hover:bg-green-700 text-white px-6 py-6 text-lg rounded-xl flex items-center justify-center gap-2"
                 >
-                  🔄 Resume subscription
+                  🔄 Возобновить подписку
                 </Button>
               )}
 
@@ -294,7 +294,7 @@ function ProfilePage() {
                     onClick={handleSubscribe}
                     className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-6 text-lg rounded-xl flex items-center justify-center gap-2 flex-1"
                     >
-                    🔥 Subscribe
+                    🔥 Оформить подписку
                     </Button>
                     
                     <Button
@@ -303,7 +303,7 @@ function ProfilePage() {
                     variant="outline"
                     className="border-2 border-blue-500 text-blue-600 hover:bg-blue-50 hover:text-blue-700 hover:border-blue-600 px-6 py-6 text-lg rounded-xl bg-white flex-1"
                     >
-                    {paymentLoading ? <Loader2 className="animate-spin" /> : "💰 One-time payment"}
+                    {paymentLoading ? <Loader2 className="animate-spin" /> : "💰 Разовая оплата"}
                     </Button>
                 </>
               )}
@@ -313,15 +313,15 @@ function ProfilePage() {
               <div className="flex items-center gap-4">
                 <BarChart3 className="w-6 h-6 text-gray-500 flex-shrink-0" />
                 <p className="text-lg text-gray-800">
-                  <span className="font-semibold">Lessons completed:</span>{" "}
-                  {isLoadingStats ? "Loading..." : lessonsCompleted}
+                  <span className="font-semibold">Пройдено уроков:</span>{" "}
+                  {isLoadingStats ? "Загрузка..." : lessonsCompleted}
                 </p>
               </div>
 
               <div className="flex items-center gap-4">
                 <Info className="w-6 h-6 text-gray-500 flex-shrink-0" />
                 <p className="text-lg text-gray-800">
-                  <span className="font-semibold">Study time:</span> 0 h 0 min
+                  <span className="font-semibold">Время обучения:</span> 0 ч 0 мин
                 </p>
               </div>
             </div>
@@ -332,7 +332,7 @@ function ProfilePage() {
                 variant="outline"
                 className="border-2 border-gray-300 text-gray-700 hover:bg-gray-50 hover:text-gray-900 hover:border-gray-400 px-6 py-6 text-lg rounded-xl bg-white w-full sm:w-auto"
               >
-                Sign out
+                Выйти
               </Button>
             </div>
           </div>
