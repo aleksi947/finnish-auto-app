@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Input } from "./ui/input";
+import { Input } from "./ui/Input";
 import { Button } from "./ui/button";
 
 function normalize(text) {
