@@ -6,7 +6,7 @@ export function FinnishFlagLogo() {
     <rect x="9" width="4" height="20" fill="#003580" />
     <rect y="8" width="28" height="4" fill="#003580" />
     </svg>
-    <span className="text-lg font-semibold text-white">Learn Finnish</span>
+    <span className="text-lg font-semibold text-white">Учим финский</span>
     </div>
     );
     }
