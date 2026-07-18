@@ -12,13 +12,9 @@ service cloud.firestore {
       // Разрешаем чтение списка для всех (для страницы /lessons)
       // ВАЖНО: Неавторизованные увидят метаданные всех уроков, но не смогут открыть премиум
       allow list: if true;
-      // Для чтения конкретного урока: бесплатные доступны всем, премиум только авторизованным с доступом
-      allow get: if resource.data.premium != true || 
-                    (request.auth != null && (
-                      request.auth.token.admin == true ||
-                      (exists(/databases/$(database)/documents/subscriptions/$(request.auth.uid)) &&
-                       get(/databases/$(database)/documents/subscriptions/$(request.auth.uid)).data.active == true)
-                    ));
+      // Открытая бета: все уроки временно доступны бесплатно.
+      // Поле premium и серверная логика подписки сохранены для будущего запуска.
+      allow get: if true;
       allow write: if request.auth != null && request.auth.token.admin == true;
     }
     
