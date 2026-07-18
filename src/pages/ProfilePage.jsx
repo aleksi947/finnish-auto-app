@@ -10,6 +10,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { getLessonProgress } from "../services/progressService";
 import { useSubscription } from "../hooks/useSubscription";
+import { SUBSCRIPTIONS_ENABLED } from "../config/features";
 
 const stopUrl = import.meta.env.VITE_FUNCTIONS_STOP_SUBSCRIPTION;
 const startUrl = import.meta.env.VITE_FUNCTIONS_START_CHECKOUT;
@@ -210,12 +211,12 @@ function ProfilePage() {
                 </p>
               </div>
 
-              <div className="flex items-center gap-4">
+              {SUBSCRIPTIONS_ENABLED && <div className="flex items-center gap-4">
                 <Mail className="w-6 h-6 text-gray-500 flex-shrink-0" />
                 <p className="text-lg text-gray-800">
                   <span className="font-semibold">Email:</span> {user?.email}
                 </p>
-              </div>
+              </div>}
 
               <div className="flex items-center gap-4">
                 <div className="flex-shrink-0">
@@ -242,7 +243,7 @@ function ProfilePage() {
                 </div>
               </div>
 
-              {hasSubscription && (
+              {SUBSCRIPTIONS_ENABLED && hasSubscription && (
                 <div className="flex items-center gap-4">
                   <Clock className="w-6 h-6 text-gray-500 flex-shrink-0" />
                   <p className="text-lg text-gray-800">
@@ -267,7 +268,7 @@ function ProfilePage() {
               </Button>
               
               {/* Cancel button (active, not cancelled) */}
-              {hasSubscription && subscriptionData?.type === 'monthly' && !subscriptionData?.canceledAtPeriodEnd && (
+              {SUBSCRIPTIONS_ENABLED && hasSubscription && subscriptionData?.type === 'monthly' && !subscriptionData?.canceledAtPeriodEnd && (
                 <Button
                   onClick={handleCancelSubscription}
                   variant="outline"
@@ -278,7 +279,7 @@ function ProfilePage() {
               )}
 
               {/* Resume button (only if cancelled) */}
-              {hasSubscription && subscriptionData?.type === 'monthly' && subscriptionData?.canceledAtPeriodEnd && (
+              {SUBSCRIPTIONS_ENABLED && hasSubscription && subscriptionData?.type === 'monthly' && subscriptionData?.canceledAtPeriodEnd && (
                 <Button
                   onClick={handleResumeSubscription}
                   className="bg-green-600 hover:bg-green-700 text-white px-6 py-6 text-lg rounded-xl flex items-center justify-center gap-2"
@@ -287,7 +288,7 @@ function ProfilePage() {
                 </Button>
               )}
 
-              {!hasSubscription && (
+              {SUBSCRIPTIONS_ENABLED && !hasSubscription && (
                 <>
                     <Button
                     onClick={handleSubscribe}

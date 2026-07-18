@@ -7,6 +7,7 @@ import { ArrowLeft, Book } from "lucide-react";
 import { Badge } from "../components/ui/badge";
 import { useProgress } from "../hooks/useProgress";
 import { useSubscription } from "../hooks/useSubscription";
+import { SUBSCRIPTIONS_ENABLED } from "../config/features";
 
 const lang = "ru";
 
@@ -38,7 +39,7 @@ function LessonGrammarPage() {
         const lesson = snap.data();
         
         // Access check
-        if (lesson.premium && !hasSubscription) {
+        if (SUBSCRIPTIONS_ENABLED && lesson.premium && !hasSubscription) {
           setError("🔒 Этот урок доступен только с Premium подпиской");
           setLoading(false);
           return;

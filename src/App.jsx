@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import SubscribeButton from "./components/SubscribeButton";
 import SuccessPage from "./pages/SuccessPage";
 import CancelPage from "./pages/CancelPage";
 import { auth } from "./firebase";
@@ -33,6 +32,7 @@ import LessonCreatePage from "./pages/admin/LessonCreatePage";
 
 import LessonGuard from "./components/LessonGuard";
 import AdminGuard from "./components/AdminGuard";
+import { SUBSCRIPTIONS_ENABLED } from "./config/features";
 
 console.log("🔥 Firestore подключён:", db);
 console.log("🔥 Firebase подключён:", auth);
@@ -41,13 +41,17 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/success" element={<SuccessPage />} />
-        <Route path="/cancel" element={<CancelPage />} />
+        {SUBSCRIPTIONS_ENABLED && (
+          <>
+            <Route path="/success" element={<SuccessPage />} />
+            <Route path="/cancel" element={<CancelPage />} />
+            <Route path="/subscription" element={<SubscriptionPage />} />
+          </>
+        )}
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/lessons" element={<LessonsPage />} />
         <Route path="/profile" element={<ProfilePage />} />
-        <Route path="/subscription" element={<SubscriptionPage />} />
         <Route path="/" element={<HomePage />} />
         
         {/* Protected lesson routes */}

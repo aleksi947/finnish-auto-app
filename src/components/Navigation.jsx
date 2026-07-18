@@ -11,7 +11,7 @@ import {
   DialogTitle,
   DialogDescription,
 } from "./ui/dialog";
-import { Input } from "./ui/input";
+import { Input } from "./ui/Input";
 import { Label } from "./ui/label";
 
 import { auth } from "../firebase";
@@ -22,6 +22,7 @@ import {
   createUserWithEmailAndPassword,
 } from "firebase/auth";
 import toast from "react-hot-toast";
+import { SUBSCRIPTIONS_ENABLED } from "../config/features";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -119,9 +120,11 @@ export default function Navigation() {
               Profile
             </Link>
             
-            <Link to="/subscription" className="text-white/90 transition-colors hover:text-white">
-              Subscription
-            </Link>
+            {SUBSCRIPTIONS_ENABLED && (
+              <Link to="/subscription" className="text-white/90 transition-colors hover:text-white">
+                Subscription
+              </Link>
+            )}
           </div>
 
           <div className="flex items-center gap-4">
@@ -224,13 +227,15 @@ export default function Navigation() {
             >
               Profile
             </Link>
-            <Link
-              to="/subscription"
-              className="py-2 text-white/90 transition-colors hover:text-white"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Subscription
-            </Link>
+            {SUBSCRIPTIONS_ENABLED && (
+              <Link
+                to="/subscription"
+                className="py-2 text-white/90 transition-colors hover:text-white"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Subscription
+              </Link>
+            )}
             <div className="mt-2 flex items-center gap-2 border-t border-white/20 pt-4">
               <button className="text-white transition-colors">RU</button>
               <span className="text-white/50">/</span>

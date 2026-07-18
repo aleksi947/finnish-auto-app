@@ -3,8 +3,8 @@ import DOMPurify from "dompurify";
 import "../styles/grammar.scss";
 import ResponsiveConjugationTable from "./ResponsiveConjugationTable";
 import StructuredExplanation from "./StructuredExplanation";
-import { Input } from "./ui/input";
-import { Progress } from "./ui/progress";
+import { Input } from "./ui/Input";
+import { Progress } from "./ui/Progress";
 
 // --- helpers ---
 function shuffle(array) {

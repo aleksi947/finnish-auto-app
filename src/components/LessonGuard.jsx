@@ -4,6 +4,7 @@ import { doc, getDoc } from "firebase/firestore";
 import { db } from "../firebase";
 import { useSubscription } from "../hooks/useSubscription";
 import Navigation from "../components/Navigation";
+import { SUBSCRIPTIONS_ENABLED } from "../config/features";
 
 export default function LessonGuard() {
   const { lessonId } = useParams();
@@ -29,7 +30,7 @@ export default function LessonGuard() {
         const lesson = snap.data();
 
         // 2. Premium lesson without subscription -> deny
-        if (lesson.premium && !hasSubscription) {
+        if (SUBSCRIPTIONS_ENABLED && lesson.premium && !hasSubscription) {
           setError("Этот урок доступен только по подписке");
           setIsAllowed(false);
         } else {
@@ -82,4 +83,3 @@ export default function LessonGuard() {
   // Allowed — render child routes
   return <Outlet />;
 }
-
