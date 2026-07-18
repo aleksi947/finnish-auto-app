@@ -11,7 +11,7 @@ import {
   DialogTitle,
   DialogDescription,
 } from "./ui/dialog";
-import { Input } from "./ui/input";
+import { Input } from "./ui/Input";
 import { Label } from "./ui/label";
 
 import { auth } from "../firebase";
