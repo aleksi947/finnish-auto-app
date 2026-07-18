@@ -28,13 +28,13 @@ export default function SubscriptionPage() {
 
   const handleSubscribe = async (type) => {
     if (!user) {
-      toast.error("Please sign in or register");
+      toast.error("Войдите или зарегистрируйтесь");
       return;
     }
 
     // Redirect to profile if active and not cancelled
     if (hasSubscription && !subscriptionData?.canceledAtPeriodEnd) {
-      toast.success("You already have an active subscription!");
+      toast.success("У вас уже есть активная подписка!");
       navigate("/profile");
       return;
     }
@@ -57,7 +57,7 @@ export default function SubscriptionPage() {
         };
       }
 
-      toast.loading("Redirecting to payment...");
+      toast.loading("Переходим к оплате...");
       
       const res = await axios.post(
         startUrl,
@@ -71,14 +71,14 @@ export default function SubscriptionPage() {
     } catch (error) {
       console.error("Payment creation error:", error);
       toast.dismiss();
-      toast.error("Could not open payment. Try again later.");
+      toast.error("Не удалось открыть оплату. Попробуйте позже.");
       setLoadingType(null);
     }
   };
 
   const handleResume = async () => {
     if (!user) return;
-    if (!window.confirm("Resume subscription? Billing will continue as usual.")) return;
+    if (!window.confirm("Возобновить подписку? Списание будет продолжено.")) return;
 
     setLoadingType('resume');
     try {
@@ -88,11 +88,11 @@ export default function SubscriptionPage() {
         {},
         { headers: { Authorization: `Bearer ${idToken}` } }
       );
-      toast.success("✅ Subscription resumed successfully!");
+      toast.success("✅ Подписка возобновлена!");
       // State updates via useSubscription after resume
     } catch (err) {
       console.error("Subscription resume error:", err);
-      toast.error("❌ Could not resume subscription");
+      toast.error("❌ Не удалось возобновить подписку");
     } finally {
       setLoadingType(null);
     }
@@ -105,7 +105,7 @@ export default function SubscriptionPage() {
     }
     
     if (!hasSubscription) {
-        return cardType === 'monthly' ? "Subscribe" : "Pay once";
+        return cardType === 'monthly' ? "Оформить подписку" : "Оплатить один раз";
     }
 
     // Subscription type detection
@@ -118,11 +118,11 @@ export default function SubscriptionPage() {
 
     if (currentType === cardType) {
         if (cardType === 'monthly' && subscriptionData?.canceledAtPeriodEnd) {
-            return "Resume subscription";
+            return "Возобновить подписку";
         }
-        return "Already active";
+        return "Уже активна";
     } else {
-        return "You already have access";
+        return "У вас уже есть доступ";
     }
   };
 
@@ -203,17 +203,17 @@ export default function SubscriptionPage() {
             className="flex items-center gap-2 px-5 py-2.5 rounded-xl border-2 border-[#1E64F0] text-[#1E64F0] hover:bg-[#1E64F0] hover:text-white transition-all mb-6 cursor-pointer"
           >
             <ArrowLeft className="w-4 h-4" />
-            <span>Back</span>
+            <span>Назад</span>
           </button>
 
           <div className="bg-white rounded-3xl shadow-lg border-2 border-[#3C84F8] p-8 sm:p-10 md:p-12">
             <div className="mb-10">
               <div className="flex items-center gap-3 mb-3">
                 <span className="text-4xl leading-none">💎</span>
-                <h1 className="text-4xl leading-none font-bold text-gray-900">Subscription</h1>
+                <h1 className="text-4xl leading-none font-bold text-gray-900">Подписка</h1>
               </div>
               <p className="text-gray-700 text-lg leading-relaxed">
-                Get full access to all lessons and new updates
+                Получите полный доступ ко всем урокам и обновлениям
               </p>
             </div>
 
@@ -221,19 +221,19 @@ export default function SubscriptionPage() {
               <div className="flex items-center gap-4">
                 <span className="text-2xl leading-none flex-shrink-0">📖</span>
                 <p className="text-lg text-gray-800 leading-tight">
-                  Access to all levels and lessons
+                  Доступ ко всем уровням и урокам
                 </p>
               </div>
               <div className="flex items-center gap-4">
                 <span className="text-2xl leading-none flex-shrink-0">🆕</span>
                 <p className="text-lg text-gray-800 leading-tight">
-                  New exercises and updates
+                  Новые упражнения и обновления
                 </p>
               </div>
               <div className="flex items-center gap-4">
                 <span className="text-2xl leading-none flex-shrink-0">⏱️</span>
                 <p className="text-lg text-gray-800 leading-tight">
-                  Unlimited access
+                  Неограниченный доступ
                 </p>
               </div>
             </div>
@@ -243,17 +243,17 @@ export default function SubscriptionPage() {
               <div className={getCardStyle('monthly')}>
                 <div className="flex items-center gap-2 mb-6">
                   <span className="text-2xl leading-none">💳</span>
-                  <h3 className="text-2xl leading-none font-semibold">Subscription</h3>
+                  <h3 className="text-2xl leading-none font-semibold">Подписка</h3>
                 </div>
                 <div className="mb-auto">
                   <div className="mb-3 flex items-baseline gap-1">
                     <span className="text-4xl font-bold text-[#1E64F0]">5,99 €</span>
-                    <span className="text-xl text-gray-600">/mo.</span>
+                    <span className="text-xl text-gray-600">/мес.</span>
                   </div>
                   <p className="text-gray-600 leading-snug">
                     {hasSubscription && subscriptionData?.type === 'monthly' && subscriptionData?.canceledAtPeriodEnd 
-                        ? "Cancelled (access until period end)"
-                        : "Auto-renewal, cancel anytime"}
+                        ? "Отменена (доступ до конца периода)"
+                        : "Автопродление, отменить можно в любое время"}
                   </p>
                 </div>
                 <Button 
@@ -273,14 +273,14 @@ export default function SubscriptionPage() {
               <div className={getCardStyle('one_time')}>
                 <div className="flex items-center gap-2 mb-6">
                   <span className="text-2xl leading-none">💰</span>
-                  <h3 className="text-2xl leading-none font-semibold">One-time payment</h3>
+                  <h3 className="text-2xl leading-none font-semibold">Разовая оплата</h3>
                 </div>
                 <div className="mb-auto">
                   <div className="mb-3 flex items-baseline gap-1">
                     <span className="text-4xl font-bold text-[#1E64F0]">5,99 €</span>
                   </div>
                   <p className="text-gray-600 leading-snug">
-                    One month of access to all lessons. Renew anytime
+                    Один месяц доступа ко всем урокам. Продлить можно в любое время
                   </p>
                 </div>
                 <Button 

@@ -27,7 +27,7 @@ function LoginPage() {
       <form onSubmit={handleLogin}>
         <input
           type="email"
-          placeholder="Email"
+          placeholder="Электронная почта"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />

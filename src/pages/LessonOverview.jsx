@@ -46,7 +46,7 @@ export default function LessonOverview() {
     const unsubscribe = onAuthStateChanged(auth, async (user) => {
       try {
         if (!user) {
-          setError("You are not authorized");
+          setError("Вы не авторизованы");
           setLoading(false);
           return;
         }
@@ -58,14 +58,14 @@ export default function LessonOverview() {
         const lessonRef = doc(db, "lessons", lessonId);
         const lessonSnap = await getDoc(lessonRef);
         if (!lessonSnap.exists()) {
-          setError("Lesson not found");
+          setError("Урок не найден");
           setLoading(false);
           return;
         }
 
         const data = lessonSnap.data();
         if (SUBSCRIPTIONS_ENABLED && data.premium && !hasAccess) {
-          setError("This lesson is available only with a subscription");
+          setError("Этот урок доступен только по подписке");
           setLoading(false);
           return;
         }
@@ -73,7 +73,7 @@ export default function LessonOverview() {
         setLesson(data);
       } catch (err) {
         console.error("Error loading lesson:", err);
-        setError("Loading error");
+        setError("Ошибка загрузки");
       } finally {
         setLoading(false);
       }
@@ -87,32 +87,32 @@ export default function LessonOverview() {
     () => [
       {
         id: "vocabulary",
-        title: "Vocabulary",
+        title: "Слова",
         icon: <Book className="size-8 text-blue-600" />,
       },
       {
         id: "grammar",
-        title: "Grammar",
+        title: "Грамматика",
         icon: <FileText className="size-8 text-blue-600" />,
       },
       {
         id: "listening",
-        title: "Listening",
+        title: "Аудирование",
         icon: <Headphones className="size-8 text-blue-600" />,
       },
       {
         id: "speaking",
-        title: "Speaking",
+        title: "Говорение",
         icon: <MessageCircle className="size-8 text-blue-600" />,
       },
       {
         id: "writing",
-        title: "Writing",
+        title: "Письмо",
         icon: <PenTool className="size-8 text-blue-600" />,
       },
       {
         id: "reading",
-        title: "Reading",
+        title: "Чтение",
         icon: <BookOpen className="size-8 text-blue-600" />,
       },
     ],
@@ -123,20 +123,20 @@ export default function LessonOverview() {
     if (status === "not-started") {
       return (
         <Badge className="bg-red-50 text-red-700 border border-red-200">
-          Not started
+          Не начато
         </Badge>
       );
     }
     if (status === "in-progress") {
       return (
         <Badge className="bg-yellow-50 text-yellow-700 border border-yellow-200">
-          In progress
+          В процессе
         </Badge>
       );
     }
     return (
       <Badge className="bg-green-50 text-green-700 border border-green-200">
-        Completed
+        Завершено
       </Badge>
     );
   };
@@ -148,7 +148,7 @@ export default function LessonOverview() {
         <Navigation />
         <div className="pt-32 px-6">
           <div className="mx-auto max-w-4xl rounded-2xl bg-white p-8 shadow">
-            Loading...
+            Загрузка...
           </div>
         </div>
       </div>
@@ -170,7 +170,7 @@ export default function LessonOverview() {
 
   if (!lesson) return null;
 
-  const lessonTitle = lesson.topic?.[lang] || `Lesson ${lessonId}`;
+  const lessonTitle = lesson.topic?.[lang] || `Урок ${lessonId}`;
 
   return (
     <div className="min-h-screen bg-[#F5F7FA]">
@@ -186,7 +186,7 @@ export default function LessonOverview() {
             className="group mb-8 flex items-center gap-2 text-blue-600 transition-colors hover:text-blue-700"
           >
             <ArrowLeft className="size-5 transition-transform group-hover:-translate-x-1" />
-            <span className="text-lg">Back to lessons</span>
+            <span className="text-lg">Назад к урокам</span>
           </button>
 
           {/* Lesson Title */}

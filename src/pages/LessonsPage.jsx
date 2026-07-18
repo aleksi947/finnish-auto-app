@@ -12,23 +12,23 @@ import { SUBSCRIPTIONS_ENABLED } from "../config/features";
 function getLessonDisplayTitle(lesson) {
   const idPart = String(lesson.id).split("-")[1];
   const fromId =
-    idPart && !Number.isNaN(Number(idPart)) ? `Lesson ${Number(idPart)}` : lesson.id;
+    idPart && !Number.isNaN(Number(idPart)) ? `Урок ${Number(idPart)}` : lesson.id;
 
   const localizeLessonNumber = (text) => {
     const match = String(text).trim().match(/^Урок\s*(\d+)\s*$/i);
-    return match ? `Lesson ${match[1]}` : text;
+    return match ? `Урок ${match[1]}` : text;
   };
 
   if (typeof lesson.title === "string") {
     return localizeLessonNumber(lesson.title);
   }
 
-  if (lesson.title?.en) {
-    return lesson.title.en;
-  }
-
   if (lesson.title?.ru) {
     return localizeLessonNumber(lesson.title.ru);
+  }
+
+  if (lesson.title?.en) {
+    return localizeLessonNumber(lesson.title.en);
   }
 
   return fromId;
@@ -38,7 +38,7 @@ function getLessonDisplayTitle(lesson) {
 function LevelCard({ level, color, completed = 0, total = 0 }) {
   const percent = total > 0 ? Math.round((completed / total) * 100) : 0;
   const completedText =
-    total > 0 && completed >= total ? "Completed" : `${completed} / ${total} • ${percent}%`;
+    total > 0 && completed >= total ? "Завершено" : `${completed} / ${total} • ${percent}%`;
 
   return (
     <div
@@ -59,13 +59,13 @@ function LevelCard({ level, color, completed = 0, total = 0 }) {
             className={`h-2 rounded-full transition-all duration-300`}
             style={{
               width: `${Math.min(percent, 100)}%`,
-              backgroundColor: completedText === "Completed" ? "#2E7D32" : "#3B82F6",
+              backgroundColor: completedText === "Завершено" ? "#2E7D32" : "#3B82F6",
             }}
           />
         </div>
         <div
           className={`w-28 text-right text-sm ${
-            completedText === "Completed" ? "text-green-700" : "text-gray-500"
+            completedText === "Завершено" ? "text-green-700" : "text-gray-500"
           }`}
         >
           {completedText}
@@ -139,7 +139,7 @@ export default function LessonsPage() {
         }
       } catch (e) {
         console.error("Failed to load lessons:", e);
-        setError("Failed to load lessons");
+        setError("Не удалось загрузить уроки");
       } finally {
         setIsLoading(false);
       }
@@ -170,7 +170,7 @@ export default function LessonsPage() {
       <div className="min-h-screen bg-[#F5F7FA]">
         <Navigation />
         <div className="px-6 pt-32">
-          <div className="mx-auto max-w-4xl rounded-2xl bg-white p-8 shadow">Loading…</div>
+          <div className="mx-auto max-w-4xl rounded-2xl bg-white p-8 shadow">Загрузка…</div>
         </div>
       </div>
     );
@@ -207,25 +207,25 @@ export default function LessonsPage() {
       case "not-started":
         return (
           <Badge className="bg-red-50 text-red-700 hover:bg-red-50 border-red-200 border">
-            Not started
+            Не начато
           </Badge>
         );
       case "in-progress":
         return (
           <Badge className="bg-yellow-50 text-yellow-700 hover:bg-yellow-50 border-yellow-200 border">
-            In progress
+            В процессе
           </Badge>
         );
       case "completed":
         return (
           <Badge className="bg-green-50 text-green-700 hover:bg-green-50 border-green-200 border">
-            Completed
+            Завершено
           </Badge>
         );
       default:
         return (
           <Badge className="bg-red-50 text-red-700 hover:bg-red-50 border-red-200 border">
-            Not started
+            Не начато
           </Badge>
         );
     }
@@ -236,7 +236,7 @@ export default function LessonsPage() {
       <Navigation />
       <div className="px-6 pb-20 pt-32">
         <div className="mx-auto max-w-4xl">
-          <h1 className="mb-10 text-3xl font-semibold text-gray-800">COURSE LEVELS</h1>
+          <h1 className="mb-10 text-3xl font-semibold text-gray-800">УРОВНИ КУРСА</h1>
 
           <div className="space-y-6">
             {levels.map((level) => {
@@ -292,7 +292,7 @@ export default function LessonsPage() {
                                 }
                               }}
                             >
-                              <span>{isLocked ? `🔒 ${title} (subscription)` : title}</span>
+                              <span>{isLocked ? `🔒 ${title} (по подписке)` : title}</span>
                               {!isLocked && (
                                 <div className="flex-shrink-0">
                                   {getStatusBadge(lessonStatus)}
