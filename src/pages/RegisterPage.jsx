@@ -27,7 +27,7 @@ function RegisterPage() {
       <form onSubmit={handleRegister}>
         <input
           type="email"
-          placeholder="Email"
+          placeholder="Электронная почта"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
