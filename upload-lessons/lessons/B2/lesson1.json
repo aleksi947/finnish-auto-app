@@ -2,7 +2,7 @@
   "id": "B2-1",
   "level": "B2",
   "title": "Глава 1",
-  "premium": false,
+  "premium": true,
   "goal": {
     "ru": "",
     "fi": ""
