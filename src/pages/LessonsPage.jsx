@@ -6,6 +6,7 @@ import { doc, getDoc, collection, getDocs } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
 import { getLessonProgress } from "../services/progressService";
 import { Badge } from "../components/ui/badge";
+import { SUBSCRIPTIONS_ENABLED } from "../config/features";
 
 /** English UI label for lesson list (does not modify lesson JSON). */
 function getLessonDisplayTitle(lesson) {
@@ -267,7 +268,8 @@ export default function LessonsPage() {
                     <div className="mt-4 rounded-2xl bg-white p-4 shadow">
                       <div className="space-y-2">
                         {items.map((lesson) => {
-                          const isLocked = lesson.premium && !hasSubscription;
+                          const isLocked =
+                            SUBSCRIPTIONS_ENABLED && lesson.premium && !hasSubscription;
                           const title = getLessonDisplayTitle(lesson);
                           const lessonStatus = getLessonStatus(lesson.id);
 
