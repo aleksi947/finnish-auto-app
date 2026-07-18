@@ -21,7 +21,7 @@ function ReadingTextCard({ title = "Текст для чтения", text = "" }
         }}
       >
         <h3 style={{ display: "flex", alignItems: "center", gap: 8 }}>
-          <span role="img" aria-label="book">
+          <span role="img" aria-label="книга">
             📘
           </span>{" "}
           {title}
