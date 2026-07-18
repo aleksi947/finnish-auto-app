@@ -11,6 +11,7 @@ import {
   PenTool,
 } from "lucide-react";
 import Navigation from "../components/Navigation";
+import { SUBSCRIPTIONS_ENABLED } from "../config/features";
 import { db, auth } from "../firebase";
 import { doc, getDoc } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
@@ -63,7 +64,7 @@ export default function LessonOverview() {
         }
 
         const data = lessonSnap.data();
-        if (data.premium && !hasAccess) {
+        if (SUBSCRIPTIONS_ENABLED && data.premium && !hasAccess) {
           setError("This lesson is available only with a subscription");
           setLoading(false);
           return;
