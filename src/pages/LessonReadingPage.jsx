@@ -5,6 +5,7 @@ import { db } from "../firebase";
 import Navigation from "../components/Navigation";
 import ReadingContent from "../components/ReadingContent";
 import { ArrowLeft, BookOpen } from "lucide-react";
+import { useProgress } from "../hooks/useProgress";
 
 function LessonReadingPage() {
   const { lessonId } = useParams();
@@ -12,6 +13,13 @@ function LessonReadingPage() {
   const [reading, setReading] = useState([]);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
+  const { getExerciseStatus } = useProgress(lessonId);
+
+  const statusText = (status) => {
+    if (status === "completed") return "Выполнено";
+    if (status === "in-progress") return "В процессе";
+    return "Не начато";
+  };
 
   useEffect(() => {
     async function load() {
@@ -154,6 +162,11 @@ function LessonReadingPage() {
                             </p>
                           )}
                         </div>
+                        <span className="flex-shrink-0 text-sm text-slate-500">
+                          {statusText(
+                            getExerciseStatus("reading", task.id),
+                          )}
+                        </span>
                       </div>
                     </Link>
                   ))}

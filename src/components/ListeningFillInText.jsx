@@ -1,10 +1,16 @@
 import { useState } from "react";
 
-function ListeningFillInText({ task }) {
+function ListeningFillInText({
+  task,
+  onQuestionChange,
+  onMarkStarted,
+  onMarkCompleted,
+}) {
   const [inputs, setInputs] = useState(Array(task.gaps.length).fill(""));
   const [checked, setChecked] = useState(false);
   const [mistakes, setMistakes] = useState([]);
   const [showRetry, setShowRetry] = useState(false);
+  const [hasMarkedStarted, setHasMarkedStarted] = useState(false);
 
   // Text normalization helper
   const normalize = (str) =>
@@ -20,6 +26,11 @@ function ListeningFillInText({ task }) {
   };
 
   const handleCheck = () => {
+    if (!hasMarkedStarted) {
+      onMarkStarted?.();
+      setHasMarkedStarted(true);
+    }
+
     const wrong = [];
     task.gaps.forEach((gap, i) => {
       if (normalize(inputs[i]) !== normalize(gap)) {
@@ -29,6 +40,11 @@ function ListeningFillInText({ task }) {
     setMistakes(wrong);
     setChecked(true);
     setShowRetry(wrong.length > 0);
+    onQuestionChange?.(task.gaps.length);
+
+    if (wrong.length === 0) {
+      onMarkCompleted?.(true);
+    }
   };
 
   const handleRetry = () => {
