@@ -29,6 +29,8 @@ import LessonAdminPage from "./pages/LessonAdminPage";
 import LessonEditPage from "./pages/LessonEditPage";
 import LessonEditorPage from "./pages/admin/LessonEditorPage";
 import LessonCreatePage from "./pages/admin/LessonCreatePage";
+import FeedbackPage from "./pages/FeedbackPage";
+import FeedbackAdminPage from "./pages/admin/FeedbackAdminPage";
 
 import LessonGuard from "./components/LessonGuard";
 import AdminGuard from "./components/AdminGuard";
@@ -52,6 +54,7 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/lessons" element={<LessonsPage />} />
         <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/feedback" element={<FeedbackPage />} />
         <Route path="/" element={<HomePage />} />
         
         {/* Protected lesson routes */}
@@ -118,6 +121,7 @@ function App() {
             element={<LessonEditorPage />}
           />
           <Route path="/admin/lessons/new" element={<LessonCreatePage />} />
+          <Route path="/admin/feedback" element={<FeedbackAdminPage />} />
         </Route>
       </Routes>
     </Router>

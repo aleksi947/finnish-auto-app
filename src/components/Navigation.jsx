@@ -119,6 +119,9 @@ export default function Navigation() {
             <Link to="/profile" className="text-white/90 transition-colors hover:text-white">
               Профиль
             </Link>
+            <Link to="/feedback" className="text-white/90 transition-colors hover:text-white">
+              Обратная связь
+            </Link>
             
             {SUBSCRIPTIONS_ENABLED && (
               <Link to="/subscription" className="text-white/90 transition-colors hover:text-white">
@@ -220,6 +223,13 @@ export default function Navigation() {
               onClick={() => setIsMenuOpen(false)}
             >
               Профиль
+            </Link>
+            <Link
+              to="/feedback"
+              className="py-2 text-white/90 transition-colors hover:text-white"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Обратная связь
             </Link>
             {SUBSCRIPTIONS_ENABLED && (
               <Link

@@ -2,8 +2,97 @@ const functions = require("firebase-functions");
 const admin = require("firebase-admin");
 const stripe = require("stripe")(functions.config().stripe.secret);
 const cors = require("cors");
+const crypto = require("crypto");
 
 admin.initializeApp();
+
+const FEEDBACK_LIMIT = 5;
+const FEEDBACK_WINDOW_MS = 60 * 60 * 1000;
+
+function cleanText(value, maxLength) {
+  return typeof value === "string" ? value.trim().slice(0, maxLength) : "";
+}
+
+function isValidEmail(value) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+}
+
+// Public feedback endpoint. Direct client writes to Firestore stay disabled.
+exports.submitFeedback = functions.https.onCall(async (data, context) => {
+  const type = data?.type === "question" ? "question" : "review";
+  const name = cleanText(data?.name, 80);
+  const email = cleanText(data?.email, 254).toLowerCase();
+  const subject = cleanText(data?.subject, 120);
+  const message = cleanText(data?.message, 2000);
+  const website = cleanText(data?.website, 200);
+  const privacyAccepted = data?.privacyAccepted === true;
+  const rating = Number(data?.rating);
+
+  // Honeypot: return success without saving bot submissions.
+  if (website) return { ok: true };
+
+  if (!privacyAccepted) {
+    throw new functions.https.HttpsError("failed-precondition", "Consent is required");
+  }
+  if (message.length < 10) {
+    throw new functions.https.HttpsError("invalid-argument", "Message is too short");
+  }
+  if (email && !isValidEmail(email)) {
+    throw new functions.https.HttpsError("invalid-argument", "Invalid email");
+  }
+  if (type === "question" && (!email || subject.length < 3)) {
+    throw new functions.https.HttpsError(
+      "invalid-argument",
+      "Email and subject are required for questions"
+    );
+  }
+  if (type === "review" && (!Number.isInteger(rating) || rating < 1 || rating > 5)) {
+    throw new functions.https.HttpsError("invalid-argument", "Rating must be between 1 and 5");
+  }
+
+  const rawIp = context.rawRequest?.ip || "unknown";
+  const ipHash = crypto.createHash("sha256").update(rawIp).digest("hex");
+  const rateRef = admin.firestore().collection("feedbackRateLimits").doc(ipHash);
+  const now = Date.now();
+
+  await admin.firestore().runTransaction(async (transaction) => {
+    const snapshot = await transaction.get(rateRef);
+    const current = snapshot.exists ? snapshot.data() : null;
+    const windowStart = current?.windowStart?.toMillis?.() || 0;
+    const inCurrentWindow = now - windowStart < FEEDBACK_WINDOW_MS;
+    const count = inCurrentWindow ? Number(current?.count || 0) : 0;
+
+    if (count >= FEEDBACK_LIMIT) {
+      throw new functions.https.HttpsError(
+        "resource-exhausted",
+        "Too many feedback submissions"
+      );
+    }
+
+    transaction.set(rateRef, {
+      count: count + 1,
+      windowStart: inCurrentWindow
+        ? current.windowStart
+        : admin.firestore.Timestamp.fromMillis(now),
+      updatedAt: admin.firestore.FieldValue.serverTimestamp(),
+    });
+  });
+
+  const feedbackRef = admin.firestore().collection("feedback").doc();
+  await feedbackRef.set({
+    type,
+    name: name || null,
+    email: email || null,
+    subject: type === "question" ? subject : null,
+    message,
+    rating: type === "review" ? rating : null,
+    status: "new",
+    userId: context.auth?.uid || null,
+    createdAt: admin.firestore.FieldValue.serverTimestamp(),
+  });
+
+  return { ok: true, id: feedbackRef.id };
+});
 
 const allowedOrigins = [
   "https://finnish-auto-new.web.app",

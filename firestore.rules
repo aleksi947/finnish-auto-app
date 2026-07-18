@@ -37,5 +37,17 @@ service cloud.firestore {
       // Изменять подписку может только сервер (Cloud Functions), который игнорирует эти правила
       allow write: if false;
     }
+
+    // 4. ОБРАТНАЯ СВЯЗЬ
+    // Создание выполняется только через Cloud Function с проверкой данных и лимитом.
+    match /feedback/{feedbackId} {
+      allow create: if false;
+      allow read, update, delete: if request.auth != null && request.auth.token.admin == true;
+    }
+
+    // Техническая коллекция ограничения частоты отправки доступна только серверу.
+    match /feedbackRateLimits/{rateLimitId} {
+      allow read, write: if false;
+    }
   }
 }
