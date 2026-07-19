@@ -31,6 +31,7 @@ import LessonEditorPage from "./pages/admin/LessonEditorPage";
 import LessonCreatePage from "./pages/admin/LessonCreatePage";
 import FeedbackPage from "./pages/FeedbackPage";
 import FeedbackAdminPage from "./pages/admin/FeedbackAdminPage";
+import AuthDialogProvider from "./components/AuthDialogProvider";
 
 import LessonGuard from "./components/LessonGuard";
 import AdminGuard from "./components/AdminGuard";
@@ -42,7 +43,8 @@ console.log("🔥 Firebase подключён:", auth);
 function App() {
   return (
     <Router>
-      <Routes>
+      <AuthDialogProvider>
+        <Routes>
         {SUBSCRIPTIONS_ENABLED && (
           <>
             <Route path="/success" element={<SuccessPage />} />
@@ -123,7 +125,8 @@ function App() {
           <Route path="/admin/lessons/new" element={<LessonCreatePage />} />
           <Route path="/admin/feedback" element={<FeedbackAdminPage />} />
         </Route>
-      </Routes>
+        </Routes>
+      </AuthDialogProvider>
     </Router>
   );
 }

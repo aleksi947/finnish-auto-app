@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Navigation from "../components/Navigation";
-import { db, auth } from "../firebase";
+import { db } from "../firebase";
 import { doc, getDoc, collection, getDocs } from "firebase/firestore";
-import { onAuthStateChanged } from "firebase/auth";
 import { getLessonProgress } from "../services/progressService";
 import { Badge } from "../components/ui/badge";
 import { SUBSCRIPTIONS_ENABLED } from "../config/features";
+import { useAuthDialog } from "../hooks/useAuthDialog";
 
 /** English UI label for lesson list (does not modify lesson JSON). */
 function getLessonDisplayTitle(lesson) {
@@ -84,9 +84,13 @@ export default function LessonsPage() {
   const [progressMap, setProgressMap] = useState({}); // Progress map: { lessonId: progress }
   const [openLevel, setOpenLevel] = useState(null);
   const navigate = useNavigate();
+  const { user, authLoading, openAuth } = useAuthDialog();
 
   useEffect(() => {
-    const unsub = onAuthStateChanged(auth, async (user) => {
+    if (authLoading) return undefined;
+    let cancelled = false;
+
+    async function loadLessons() {
       setIsLoading(true);
       setError(null);
       try {
@@ -116,6 +120,7 @@ export default function LessonsPage() {
           return Number(na) - Number(nb);
         });
 
+        if (cancelled) return;
         setLessons(data);
 
         // Load all lesson progress (non-critical on error)
@@ -131,21 +136,27 @@ export default function LessonsPage() {
             progressResults.forEach(({ lessonId, progress }) => {
               progressMapObj[lessonId] = progress;
             });
-            setProgressMap(progressMapObj);
+            if (!cancelled) setProgressMap(progressMapObj);
           } catch (progressError) {
             console.warn("Failed to load progress:", progressError);
             // Continue without progress
           }
+        } else {
+          setProgressMap({});
         }
       } catch (e) {
         console.error("Failed to load lessons:", e);
-        setError("Не удалось загрузить уроки");
+        if (!cancelled) setError("Не удалось загрузить уроки");
       } finally {
-        setIsLoading(false);
+        if (!cancelled) setIsLoading(false);
       }
-    });
-    return () => unsub();
-  }, []);
+    }
+
+    loadLessons();
+    return () => {
+      cancelled = true;
+    };
+  }, [authLoading, user]);
 
   const grouped = useMemo(() => {
     const g = {};
@@ -200,6 +211,20 @@ export default function LessonsPage() {
   const getLessonStatus = (lessonId) => {
     const progress = progressMap[lessonId];
     return progress?.status || "not-started";
+  };
+
+  const openLesson = (lesson) => {
+    const isLocked =
+      SUBSCRIPTIONS_ENABLED && lesson.premium && !hasSubscription;
+    if (isLocked) return;
+
+    const target = `/lesson/${lesson.id}`;
+    if (!user) {
+      openAuth({ mode: "register", reason: "lesson", returnTo: target });
+      return;
+    }
+
+    navigate(target);
   };
 
   const getStatusBadge = (status) => {
@@ -281,14 +306,13 @@ export default function LessonsPage() {
                             <div
                               key={lesson.id}
                               className={`rounded-lg border border-transparent px-4 py-3 transition-all duration-300 flex items-center justify-between gap-4 ${rowClasses}`}
-                              onClick={() => {
-                                if (!isLocked) navigate(`/lesson/${lesson.id}`);
-                              }}
+                              onClick={() => openLesson(lesson)}
                               role="button"
                               tabIndex={0}
                               onKeyDown={(e) => {
                                 if (!isLocked && (e.key === "Enter" || e.key === " ")) {
-                                  navigate(`/lesson/${lesson.id}`);
+                                  e.preventDefault();
+                                  openLesson(lesson);
                                 }
                               }}
                             >
