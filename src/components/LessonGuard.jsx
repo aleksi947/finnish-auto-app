@@ -6,6 +6,7 @@ import { useSubscription } from "../hooks/useSubscription";
 import Navigation from "../components/Navigation";
 import { SUBSCRIPTIONS_ENABLED } from "../config/features";
 import { useAuthDialog } from "../hooks/useAuthDialog";
+import { isLessonPublished } from "../utils/lessonVisibility";
 
 export default function LessonGuard() {
   const { lessonId } = useParams();
@@ -61,6 +62,13 @@ export default function LessonGuard() {
         }
 
         const lesson = snap.data();
+
+        if (!isLessonPublished(lesson)) {
+          setError("Этот урок пока не опубликован");
+          setDenialReason("lesson");
+          setIsAllowed(false);
+          return;
+        }
 
         // 2. Premium lesson without subscription -> deny
         if (SUBSCRIPTIONS_ENABLED && lesson.premium && !hasSubscription) {
@@ -153,17 +161,30 @@ export default function LessonGuard() {
         <Navigation />
         <div className="pt-32 px-6 max-w-4xl mx-auto text-center">
           <div className="bg-white p-8 rounded-2xl shadow-lg border border-red-100">
-            <div className="text-5xl mb-4">🔒</div>
-            <h2 className="text-2xl font-bold text-gray-800 mb-4">Доступ ограничен</h2>
+            <div className="text-5xl mb-4">
+              {denialReason === "subscription" ? "🔒" : "📘"}
+            </div>
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              {denialReason === "subscription"
+                ? "Доступ ограничен"
+                : "Урок недоступен"}
+            </h2>
             <p className="text-gray-600 mb-8 text-lg">
               {error || "Для доступа к этому уроку требуется подписка"}
             </p>
-            <a
-              href="/profile"
+            <button
+              type="button"
+              onClick={() =>
+                navigate(
+                  denialReason === "subscription" ? "/profile" : "/lessons",
+                )
+              }
               className="inline-block bg-blue-600 text-white px-8 py-3 rounded-xl font-semibold hover:bg-blue-700 transition-colors shadow-lg shadow-blue-500/30"
             >
-              Перейти в профиль
-            </a>
+              {denialReason === "subscription"
+                ? "Перейти в профиль"
+                : "Вернуться к урокам"}
+            </button>
           </div>
         </div>
       </div>
