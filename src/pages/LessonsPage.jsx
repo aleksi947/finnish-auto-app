@@ -7,6 +7,7 @@ import { getLessonProgress } from "../services/progressService";
 import { Badge } from "../components/ui/badge";
 import { SUBSCRIPTIONS_ENABLED } from "../config/features";
 import { useAuthDialog } from "../hooks/useAuthDialog";
+import { isLessonPublished } from "../utils/lessonVisibility";
 
 /** English UI label for lesson list (does not modify lesson JSON). */
 function getLessonDisplayTitle(lesson) {
@@ -110,7 +111,9 @@ export default function LessonsPage() {
 
         // Load lessons (critical)
         const snap = await getDocs(collection(db, "lessons"));
-        const data = snap.docs.map((d) => ({ id: d.id, ...d.data() }));
+        const data = snap.docs
+          .map((d) => ({ id: d.id, ...d.data() }))
+          .filter(isLessonPublished);
 
         data.sort((a, b) => {
           const [la, na] = String(a.id).split("-");
