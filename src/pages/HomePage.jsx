@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Navigation from "../components/Navigation";
 import { Button } from "../components/ui/button";
+import { useAuthDialog } from "../hooks/useAuthDialog";
 
 const lessonDirections = [
   { icon: "🗂️", title: "Новые слова", text: "Полезная лексика для повседневных ситуаций." },
@@ -12,6 +13,21 @@ const lessonDirections = [
 ];
 
 function HomePage() {
+  const navigate = useNavigate();
+  const { user, authLoading, openAuth } = useAuthDialog();
+
+  const startFirstLesson = () => {
+    if (user) {
+      navigate("/lesson/A1-1");
+      return;
+    }
+
+    openAuth({
+      mode: "register",
+      reason: "lesson",
+      returnTo: "/lesson/A1-1",
+    });
+  };
 
   return (
     <div className="min-h-screen bg-white">
@@ -40,11 +56,14 @@ function HomePage() {
             </p>
 
             <div className="flex flex-col items-stretch sm:items-center justify-center gap-3 sm:gap-4 px-4 sm:px-0 sm:flex-row">
-              <Link to="/lessons" className="w-full sm:w-auto">
-                <Button className="w-full sm:w-auto bg-blue-600 px-6 sm:px-8 py-4 sm:py-6 text-base sm:text-lg text-white hover:bg-blue-700">
-                  🚀 Начать обучение
-                </Button>
-              </Link>
+              <Button
+                type="button"
+                disabled={authLoading}
+                onClick={startFirstLesson}
+                className="w-full sm:w-auto bg-blue-600 px-6 sm:px-8 py-4 sm:py-6 text-base sm:text-lg text-white hover:bg-blue-700"
+              >
+                🚀 Начать обучение
+              </Button>
               <Link to="/lessons" className="w-full sm:w-auto">
                 <Button
                   variant="outline"
@@ -99,11 +118,15 @@ function HomePage() {
           <p className="mb-6 sm:mb-10 text-base sm:text-lg md:text-xl text-white/90 px-2">
             Выберите свой уровень и занимайтесь в удобном темпе
           </p>
-          <Link to="/lessons" className="inline-block">
-            <Button size="lg" className="bg-white px-6 sm:px-8 md:px-10 py-4 sm:py-5 md:py-6 text-base sm:text-lg text-blue-700 hover:bg-gray-100 w-full sm:w-auto">
-              🚀 Начать бесплатно
-            </Button>
-          </Link>
+          <Button
+            type="button"
+            size="lg"
+            disabled={authLoading}
+            onClick={startFirstLesson}
+            className="bg-white px-6 sm:px-8 md:px-10 py-4 sm:py-5 md:py-6 text-base sm:text-lg text-blue-700 hover:bg-gray-100 w-full sm:w-auto"
+          >
+            🚀 Начать бесплатно
+          </Button>
         </div>
       </div>
 
