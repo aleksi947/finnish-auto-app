@@ -11,13 +11,1581 @@
     "ru": "Ресторан",
     "fi": "Ravintola"
   },
-  "vocabulary": [
-    {
-      "fi": "ravintola",
-      "translations": { "ru": "ресторан", "en": "restaurant" }
+  "vocabulary": {
+    "environment": {
+      "title": "Экология и устойчивый образ жизни",
+      "words": [
+        {
+          "fi": "ympäristönsuojelu",
+          "translations": {
+            "ru": "защита окружающей среды"
+          },
+          "example": {
+            "fi": "Ympäristönsuojelu kuuluu kaikille.",
+            "ru": "Защита окружающей среды касается всех."
+          }
+        },
+        {
+          "fi": "kestävä kehitys",
+          "translations": {
+            "ru": "устойчивое развитие"
+          },
+          "example": {
+            "fi": "Kaupunki tukee kestävää kehitystä.",
+            "ru": "Город поддерживает устойчивое развитие."
+          }
+        },
+        {
+          "fi": "ilmastonmuutos",
+          "translations": {
+            "ru": "изменение климата"
+          },
+          "example": {
+            "fi": "Ilmastonmuutos vaikuttaa Suomen talviin.",
+            "ru": "Изменение климата влияет на зимы в Финляндии."
+          }
+        },
+        {
+          "fi": "saaste",
+          "translations": {
+            "ru": "загрязнение; загрязняющее вещество"
+          },
+          "example": {
+            "fi": "Liikenne aiheuttaa saasteita.",
+            "ru": "Транспорт вызывает загрязнение."
+          }
+        },
+        {
+          "fi": "saastunut",
+          "translations": {
+            "ru": "загрязнённый"
+          },
+          "example": {
+            "fi": "Järven vesi on saastunut.",
+            "ru": "Вода в озере загрязнена."
+          }
+        },
+        {
+          "fi": "ekologinen",
+          "translations": {
+            "ru": "экологичный"
+          },
+          "example": {
+            "fi": "Pyöräily on ekologinen tapa liikkua.",
+            "ru": "Велосипед — экологичный способ передвижения."
+          }
+        },
+        {
+          "fi": "ympäristöystävällinen",
+          "translations": {
+            "ru": "экологичный, безопасный для природы"
+          },
+          "example": {
+            "fi": "Valitsimme ympäristöystävällisen tuotteen.",
+            "ru": "Мы выбрали экологичный товар."
+          }
+        },
+        {
+          "fi": "epäekologinen",
+          "translations": {
+            "ru": "неэкологичный"
+          },
+          "example": {
+            "fi": "Turha autoilu on epäekologista.",
+            "ru": "Ненужные поездки на машине неэкологичны."
+          }
+        },
+        {
+          "fi": "kestävä",
+          "translations": {
+            "ru": "устойчивый; долговечный"
+          },
+          "example": {
+            "fi": "Tarvitsemme kestäviä ratkaisuja.",
+            "ru": "Нам нужны устойчивые решения."
+          }
+        },
+        {
+          "fi": "elämäntapa",
+          "translations": {
+            "ru": "образ жизни"
+          },
+          "example": {
+            "fi": "Hänellä on terveellinen elämäntapa.",
+            "ru": "У него здоровый образ жизни."
+          }
+        },
+        {
+          "fi": "luonnonmukainen",
+          "translations": {
+            "ru": "натуральный, органический"
+          },
+          "example": {
+            "fi": "Tuote on valmistettu luonnonmukaisesti.",
+            "ru": "Товар произведён натуральным способом."
+          }
+        },
+        {
+          "fi": "luomu",
+          "translations": {
+            "ru": "органический, био"
+          },
+          "example": {
+            "fi": "Ostan usein luomua.",
+            "ru": "Я часто покупаю органические продукты."
+          }
+        },
+        {
+          "fi": "luomuruoka",
+          "translations": {
+            "ru": "органическая еда"
+          },
+          "example": {
+            "fi": "Luomuruoka voi olla hieman kalliimpaa.",
+            "ru": "Органическая еда может быть немного дороже."
+          }
+        },
+        {
+          "fi": "lähiruoka",
+          "translations": {
+            "ru": "местная еда, продукты местного производства"
+          },
+          "example": {
+            "fi": "Lähiruoka tulee läheltä kuluttajaa.",
+            "ru": "Местная еда поступает от производителей поблизости."
+          }
+        },
+        {
+          "fi": "reilun kaupan tuote",
+          "translations": {
+            "ru": "товар справедливой торговли"
+          },
+          "example": {
+            "fi": "Kahvi on reilun kaupan tuote.",
+            "ru": "Этот кофе — товар справедливой торговли."
+          }
+        },
+        {
+          "fi": "kotimainen",
+          "translations": {
+            "ru": "отечественный, произведённый в Финляндии"
+          },
+          "example": {
+            "fi": "Suosin kotimaisia tuotteita.",
+            "ru": "Я предпочитаю финские товары."
+          }
+        },
+        {
+          "fi": "ulkomainen",
+          "translations": {
+            "ru": "иностранный, зарубежный"
+          },
+          "example": {
+            "fi": "Tämä on ulkomainen tuote.",
+            "ru": "Это зарубежный товар."
+          }
+        },
+        {
+          "fi": "hyödyllinen",
+          "translations": {
+            "ru": "полезный"
+          },
+          "example": {
+            "fi": "Tämä neuvo on hyödyllinen.",
+            "ru": "Этот совет полезный."
+          }
+        },
+        {
+          "fi": "hyödytön",
+          "translations": {
+            "ru": "бесполезный"
+          },
+          "example": {
+            "fi": "Rikkinäinen laite on hyödytön.",
+            "ru": "Сломанное устройство бесполезно."
+          }
+        },
+        {
+          "fi": "tarpeellinen",
+          "translations": {
+            "ru": "необходимый"
+          },
+          "example": {
+            "fi": "Korjaus on tarpeellinen.",
+            "ru": "Ремонт необходим."
+          }
+        },
+        {
+          "fi": "tarpeeton",
+          "translations": {
+            "ru": "ненужный"
+          },
+          "example": {
+            "fi": "Vältä tarpeetonta kulutusta.",
+            "ru": "Избегай ненужного потребления."
+          }
+        },
+        {
+          "fi": "turha",
+          "translations": {
+            "ru": "ненужный, напрасный"
+          },
+          "example": {
+            "fi": "Älä osta turhaa tavaraa.",
+            "ru": "Не покупай ненужные вещи."
+          }
+        },
+        {
+          "fi": "säästäväinen",
+          "translations": {
+            "ru": "экономный, бережливый"
+          },
+          "example": {
+            "fi": "Säästäväinen ihminen suunnittelee ostoksensa.",
+            "ru": "Бережливый человек планирует покупки."
+          }
+        },
+        {
+          "fi": "tuhlaavainen",
+          "translations": {
+            "ru": "расточительный"
+          },
+          "example": {
+            "fi": "Hän ei ole tuhlaavainen.",
+            "ru": "Он не расточительный."
+          }
+        },
+        {
+          "fi": "terveellinen",
+          "translations": {
+            "ru": "полезный для здоровья"
+          },
+          "example": {
+            "fi": "Kasvisruoka voi olla terveellistä.",
+            "ru": "Растительная пища может быть полезной."
+          }
+        },
+        {
+          "fi": "liikkuminen",
+          "translations": {
+            "ru": "передвижение; физическая активность"
+          },
+          "example": {
+            "fi": "Julkinen liikenne helpottaa liikkumista.",
+            "ru": "Общественный транспорт облегчает передвижение."
+          }
+        },
+        {
+          "fi": "autoilu",
+          "translations": {
+            "ru": "передвижение на автомобиле"
+          },
+          "example": {
+            "fi": "Vähennän autoilua kesällä.",
+            "ru": "Летом я меньше езжу на машине."
+          }
+        },
+        {
+          "fi": "julkinen liikenne",
+          "translations": {
+            "ru": "общественный транспорт"
+          },
+          "example": {
+            "fi": "Käytän julkista liikennettä työmatkoilla.",
+            "ru": "Я пользуюсь общественным транспортом по дороге на работу."
+          }
+        }
+      ]
     },
-    { "fi": "ruokalista", "translations": { "ru": "меню", "en": "menu" } }
-  ],
+    "recycling": {
+      "title": "Переработка и отходы",
+      "words": [
+        {
+          "fi": "kierrätys",
+          "translations": {
+            "ru": "переработка, вторичное использование"
+          },
+          "example": {
+            "fi": "Kierrätys säästää luonnonvaroja.",
+            "ru": "Переработка экономит природные ресурсы."
+          }
+        },
+        {
+          "fi": "kierrättää",
+          "translations": {
+            "ru": "перерабатывать; сдавать на переработку"
+          },
+          "example": {
+            "fi": "Kierrätämme lasin ja metallin.",
+            "ru": "Мы сдаём стекло и металл на переработку."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "lajittelu",
+          "translations": {
+            "ru": "сортировка"
+          },
+          "example": {
+            "fi": "Jätteiden lajittelu on helppoa.",
+            "ru": "Сортировать отходы легко."
+          }
+        },
+        {
+          "fi": "lajitella",
+          "translations": {
+            "ru": "сортировать"
+          },
+          "example": {
+            "fi": "Lajittelen jätteet kotona.",
+            "ru": "Я сортирую отходы дома."
+          },
+          "grammar": "verbi (3)"
+        },
+        {
+          "fi": "roska",
+          "translations": {
+            "ru": "мусор, отдельный предмет мусора"
+          },
+          "example": {
+            "fi": "Kadulla oli paljon roskia.",
+            "ru": "На улице было много мусора."
+          }
+        },
+        {
+          "fi": "roskat",
+          "translations": {
+            "ru": "мусор"
+          },
+          "example": {
+            "fi": "Vien roskat illalla.",
+            "ru": "Я вынесу мусор вечером."
+          }
+        },
+        {
+          "fi": "roskis",
+          "translations": {
+            "ru": "мусорное ведро, мусорка"
+          },
+          "example": {
+            "fi": "Paperi ei kuulu tähän roskikseen.",
+            "ru": "Бумага не относится к этой мусорке."
+          }
+        },
+        {
+          "fi": "jäte",
+          "translations": {
+            "ru": "отход — отходы"
+          },
+          "example": {
+            "fi": "Kaikki jätteet eivät kuulu samaan astiaan.",
+            "ru": "Не все отходы относятся к одному контейнеру."
+          },
+          "grammar": "monikko: jätteet"
+        },
+        {
+          "fi": "biojäte",
+          "translations": {
+            "ru": "биоотходы"
+          },
+          "example": {
+            "fi": "Banaaninkuoret ovat biojätettä.",
+            "ru": "Банановая кожура относится к биоотходам."
+          }
+        },
+        {
+          "fi": "sekajäte",
+          "translations": {
+            "ru": "смешанные отходы"
+          },
+          "example": {
+            "fi": "Likainen pakkaus voi olla sekajätettä.",
+            "ru": "Грязная упаковка может относиться к смешанным отходам."
+          }
+        },
+        {
+          "fi": "energiajäte",
+          "translations": {
+            "ru": "энергетические отходы"
+          },
+          "example": {
+            "fi": "Tarkista, kerätäänkö kunnassasi energiajätettä.",
+            "ru": "Проверь, собирают ли в твоём муниципалитете энергетические отходы."
+          }
+        },
+        {
+          "fi": "pahvipakkaus",
+          "translations": {
+            "ru": "картонная упаковка"
+          },
+          "example": {
+            "fi": "Taita pahvipakkaus ennen lajittelua.",
+            "ru": "Сложи картонную упаковку перед сортировкой."
+          }
+        },
+        {
+          "fi": "lasipurkki",
+          "translations": {
+            "ru": "стеклянная банка"
+          },
+          "example": {
+            "fi": "Tyhjä lasipurkki kuuluu lasinkeräykseen.",
+            "ru": "Пустая стеклянная банка относится к сбору стекла."
+          }
+        },
+        {
+          "fi": "lasinkeräys",
+          "translations": {
+            "ru": "сбор стекла"
+          },
+          "example": {
+            "fi": "Lasinkeräys on kaupan vieressä.",
+            "ru": "Контейнер для стекла находится рядом с магазином."
+          }
+        },
+        {
+          "fi": "paperinkeräys",
+          "translations": {
+            "ru": "сбор бумаги"
+          },
+          "example": {
+            "fi": "Sanomalehdet viedään paperinkeräykseen.",
+            "ru": "Газеты относят в контейнер для бумаги."
+          }
+        },
+        {
+          "fi": "metallinkeräys",
+          "translations": {
+            "ru": "сбор металла"
+          },
+          "example": {
+            "fi": "Säilyketölkki kuuluu metallinkeräykseen.",
+            "ru": "Консервная банка относится к сбору металла."
+          }
+        },
+        {
+          "fi": "jäteastia",
+          "translations": {
+            "ru": "мусорный контейнер"
+          },
+          "example": {
+            "fi": "Taloyhtiössä on useita jäteastioita.",
+            "ru": "У жилого дома есть несколько мусорных контейнеров."
+          }
+        },
+        {
+          "fi": "jätekatos",
+          "translations": {
+            "ru": "площадка, навес для мусорных контейнеров"
+          },
+          "example": {
+            "fi": "Jätekatos on pihan reunalla.",
+            "ru": "Площадка для контейнеров находится на краю двора."
+          }
+        },
+        {
+          "fi": "kaatopaikka",
+          "translations": {
+            "ru": "свалка"
+          },
+          "example": {
+            "fi": "Jätettä päätyy yhä kaatopaikalle.",
+            "ru": "Отходы всё ещё попадают на свалку."
+          }
+        },
+        {
+          "fi": "banaaninkuoret",
+          "translations": {
+            "ru": "банановая кожура"
+          },
+          "example": {
+            "fi": "Laita banaaninkuoret biojätteeseen.",
+            "ru": "Положи банановую кожуру в биоотходы."
+          }
+        },
+        {
+          "fi": "pullo",
+          "translations": {
+            "ru": "бутылка"
+          },
+          "example": {
+            "fi": "Palauta pullo kauppaan.",
+            "ru": "Верни бутылку в магазин."
+          }
+        },
+        {
+          "fi": "pantti",
+          "translations": {
+            "ru": "залоговая стоимость тары"
+          },
+          "example": {
+            "fi": "Pullosta saa pantin takaisin.",
+            "ru": "За бутылку возвращают залог."
+          }
+        },
+        {
+          "fi": "palauttaa",
+          "translations": {
+            "ru": "возвращать"
+          },
+          "example": {
+            "fi": "Palautan tölkit automaattiin.",
+            "ru": "Я сдаю банки в автомат."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "kerätä",
+          "translations": {
+            "ru": "собирать"
+          },
+          "example": {
+            "fi": "Keräämme paperia erikseen.",
+            "ru": "Мы собираем бумагу отдельно."
+          },
+          "grammar": "verbi (4)"
+        },
+        {
+          "fi": "päätyä",
+          "translations": {
+            "ru": "попадать, оказываться куда-либо"
+          },
+          "example": {
+            "fi": "Muovi päätyi sekajätteeseen.",
+            "ru": "Пластик попал в смешанные отходы."
+          },
+          "grammar": "verbi (1) + MIHIN"
+        },
+        {
+          "fi": "heittää roskiin",
+          "translations": {
+            "ru": "выбрасывать"
+          },
+          "example": {
+            "fi": "Älä heitä paristoja roskiin.",
+            "ru": "Не выбрасывай батарейки в обычный мусор."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "laittaa",
+          "translations": {
+            "ru": "класть, помещать"
+          },
+          "example": {
+            "fi": "Laita kansi kiinni.",
+            "ru": "Закрой крышку."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "loput",
+          "translations": {
+            "ru": "остальное, оставшиеся"
+          },
+          "example": {
+            "fi": "Loput roskat ovat sekajätettä.",
+            "ru": "Остальной мусор относится к смешанным отходам."
+          }
+        }
+      ]
+    },
+    "energy_home": {
+      "title": "Энергия, вода и домашнее хозяйство",
+      "words": [
+        {
+          "fi": "energia",
+          "translations": {
+            "ru": "энергия"
+          },
+          "example": {
+            "fi": "Koti kuluttaa energiaa talvella.",
+            "ru": "Зимой дом потребляет энергию."
+          }
+        },
+        {
+          "fi": "sähkö",
+          "translations": {
+            "ru": "электричество"
+          },
+          "example": {
+            "fi": "Säästämme sähköä joka päivä.",
+            "ru": "Мы ежедневно экономим электричество."
+          }
+        },
+        {
+          "fi": "sähkönkulutus",
+          "translations": {
+            "ru": "потребление электричества"
+          },
+          "example": {
+            "fi": "Sähkönkulutus laski viime vuonna.",
+            "ru": "В прошлом году потребление электричества снизилось."
+          }
+        },
+        {
+          "fi": "vedenkulutus",
+          "translations": {
+            "ru": "потребление воды"
+          },
+          "example": {
+            "fi": "Lyhyt suihku vähentää vedenkulutusta.",
+            "ru": "Короткий душ снижает потребление воды."
+          }
+        },
+        {
+          "fi": "kuluttaa",
+          "translations": {
+            "ru": "потреблять, расходовать"
+          },
+          "example": {
+            "fi": "Vanha pakastin kuluttaa paljon sähköä.",
+            "ru": "Старая морозильная камера потребляет много электричества."
+          },
+          "grammar": "verbi (1) + P"
+        },
+        {
+          "fi": "kuluttaja",
+          "translations": {
+            "ru": "потребитель"
+          },
+          "example": {
+            "fi": "Kuluttaja voi vertailla tuotteita.",
+            "ru": "Потребитель может сравнивать товары."
+          }
+        },
+        {
+          "fi": "säästää",
+          "translations": {
+            "ru": "экономить, сохранять"
+          },
+          "example": {
+            "fi": "Uusi laite säästää energiaa.",
+            "ru": "Новое устройство экономит энергию."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "vähentää",
+          "translations": {
+            "ru": "уменьшать, сокращать"
+          },
+          "example": {
+            "fi": "Haluamme vähentää jätteen määrää.",
+            "ru": "Мы хотим уменьшить количество отходов."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "huonelämpötila",
+          "translations": {
+            "ru": "температура в помещении"
+          },
+          "example": {
+            "fi": "Sopiva huonelämpötila on noin 21 astetta.",
+            "ru": "Подходящая температура в помещении — около 21 градуса."
+          }
+        },
+        {
+          "fi": "lämmityskulut",
+          "translations": {
+            "ru": "расходы на отопление"
+          },
+          "example": {
+            "fi": "Lämmityskulut kasvavat talvella.",
+            "ru": "Зимой расходы на отопление растут."
+          }
+        },
+        {
+          "fi": "sähkölasku",
+          "translations": {
+            "ru": "счёт за электричество"
+          },
+          "example": {
+            "fi": "Sähkölasku oli tässä kuussa pienempi.",
+            "ru": "В этом месяце счёт за электричество был меньше."
+          }
+        },
+        {
+          "fi": "pakastin",
+          "translations": {
+            "ru": "морозильная камера"
+          },
+          "example": {
+            "fi": "Pakastin kannattaa sulattaa säännöllisesti.",
+            "ru": "Морозильную камеру стоит регулярно размораживать."
+          }
+        },
+        {
+          "fi": "astianpesukone",
+          "translations": {
+            "ru": "посудомоечная машина"
+          },
+          "example": {
+            "fi": "Käynnistä astianpesukone vasta täytenä.",
+            "ru": "Запускай посудомоечную машину только полной."
+          }
+        },
+        {
+          "fi": "kylpyamme",
+          "translations": {
+            "ru": "ванна"
+          },
+          "example": {
+            "fi": "Suihku kuluttaa yleensä vähemmän vettä kuin kylpyamme.",
+            "ru": "Душ обычно расходует меньше воды, чем ванна."
+          }
+        },
+        {
+          "fi": "kodinkone",
+          "translations": {
+            "ru": "бытовой прибор"
+          },
+          "example": {
+            "fi": "Tarkista kodinkoneen energialuokka.",
+            "ru": "Проверь класс энергопотребления прибора."
+          }
+        },
+        {
+          "fi": "elektroniikkalaite",
+          "translations": {
+            "ru": "электронное устройство"
+          },
+          "example": {
+            "fi": "Sammuta elektroniikkalaite käytön jälkeen.",
+            "ru": "Выключай электронное устройство после использования."
+          }
+        },
+        {
+          "fi": "sytyttää valot",
+          "translations": {
+            "ru": "включать свет"
+          },
+          "example": {
+            "fi": "Sytytä valot vasta kun niitä tarvitaan.",
+            "ru": "Включай свет только тогда, когда он нужен."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "sammuttaa valot",
+          "translations": {
+            "ru": "выключать свет"
+          },
+          "example": {
+            "fi": "Sammuta valot, kun lähdet.",
+            "ru": "Выключи свет, когда уходишь."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "käynnistää",
+          "translations": {
+            "ru": "запускать, включать"
+          },
+          "example": {
+            "fi": "Käynnistän koneen aamulla.",
+            "ru": "Я запускаю машину утром."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "olla käytössä",
+          "translations": {
+            "ru": "использоваться, быть в эксплуатации"
+          },
+          "example": {
+            "fi": "Laite on käytössä päivittäin.",
+            "ru": "Устройство используется ежедневно."
+          },
+          "grammar": "verbi (3)"
+        },
+        {
+          "fi": "ottaa käyttöön",
+          "translations": {
+            "ru": "вводить в эксплуатацию, начинать использовать"
+          },
+          "example": {
+            "fi": "Otimme uuden järjestelmän käyttöön.",
+            "ru": "Мы начали использовать новую систему."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "laskea",
+          "translations": {
+            "ru": "снижаться; считать"
+          },
+          "example": {
+            "fi": "Vedenkulutus laski kymmenen prosenttia.",
+            "ru": "Потребление воды снизилось на десять процентов."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "pienentää",
+          "translations": {
+            "ru": "уменьшать"
+          },
+          "example": {
+            "fi": "Voimme pienentää laskua säästämällä.",
+            "ru": "Мы можем уменьшить счёт, если будем экономить."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "pudotus",
+          "translations": {
+            "ru": "снижение, падение"
+          },
+          "example": {
+            "fi": "Kulutuksessa näkyi selvä pudotus.",
+            "ru": "В потреблении было заметно явное снижение."
+          }
+        },
+        {
+          "fi": "säästyä",
+          "translations": {
+            "ru": "экономиться, сохраняться"
+          },
+          "example": {
+            "fi": "Energiaa säästyy, kun lämpötilaa lasketaan.",
+            "ru": "Энергия экономится, когда температуру снижают."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "sopiva",
+          "translations": {
+            "ru": "подходящий"
+          },
+          "example": {
+            "fi": "Valitse sopiva lämpötila.",
+            "ru": "Выбери подходящую температуру."
+          }
+        },
+        {
+          "fi": "tiivis",
+          "translations": {
+            "ru": "герметичный, плотный"
+          },
+          "example": {
+            "fi": "Uusi ikkuna on tiivis.",
+            "ru": "Новое окно герметичное."
+          }
+        },
+        {
+          "fi": "täynnä",
+          "translations": {
+            "ru": "полный, заполненный"
+          },
+          "example": {
+            "fi": "Kone on nyt täynnä.",
+            "ru": "Машина сейчас заполнена."
+          }
+        }
+      ]
+    },
+    "actions": {
+      "title": "Действия и полезное управление",
+      "words": [
+        {
+          "fi": "olla kiinnostunut",
+          "translations": {
+            "ru": "интересоваться чем-либо"
+          },
+          "example": {
+            "fi": "Olen kiinnostunut kierrätyksestä.",
+            "ru": "Я интересуюсь переработкой отходов."
+          },
+          "grammar": "+ sta/stä"
+        },
+        {
+          "fi": "yrittää",
+          "translations": {
+            "ru": "пытаться, стараться"
+          },
+          "example": {
+            "fi": "Yritän säästää vettä.",
+            "ru": "Я стараюсь экономить воду."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "elää",
+          "translations": {
+            "ru": "жить"
+          },
+          "example": {
+            "fi": "Haluamme elää kestävämmin.",
+            "ru": "Мы хотим жить более экологично."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "miettiä",
+          "translations": {
+            "ru": "обдумывать, размышлять"
+          },
+          "example": {
+            "fi": "Mietin uusia tapoja säästää.",
+            "ru": "Я обдумываю новые способы экономии."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "ihmetellä",
+          "translations": {
+            "ru": "удивляться; недоумевать"
+          },
+          "example": {
+            "fi": "Ihmettelen, miksi astioita on näin monta.",
+            "ru": "Я недоумеваю, почему контейнеров так много."
+          },
+          "grammar": "verbi (3)"
+        },
+        {
+          "fi": "neuvoa",
+          "translations": {
+            "ru": "советовать, инструктировать"
+          },
+          "example": {
+            "fi": "Voitko neuvoa minua lajittelussa?",
+            "ru": "Можешь подсказать мне, как сортировать отходы?"
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "tarkistaa",
+          "translations": {
+            "ru": "проверять"
+          },
+          "example": {
+            "fi": "Tarkista laitteen kunto.",
+            "ru": "Проверь состояние устройства."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "kasvaa",
+          "translations": {
+            "ru": "расти, увеличиваться"
+          },
+          "example": {
+            "fi": "Energian hinta kasvaa.",
+            "ru": "Цена энергии растёт."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "huomata",
+          "translations": {
+            "ru": "замечать"
+          },
+          "example": {
+            "fi": "Huomasin virheen laskussa.",
+            "ru": "Я заметил ошибку в счёте."
+          },
+          "grammar": "verbi (4)"
+        },
+        {
+          "fi": "pitää mukana",
+          "translations": {
+            "ru": "иметь при себе, брать с собой"
+          },
+          "example": {
+            "fi": "Pidän kangaskassia mukana.",
+            "ru": "Я ношу с собой тканевую сумку."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "suunnitella",
+          "translations": {
+            "ru": "планировать"
+          },
+          "example": {
+            "fi": "Suunnittelemme keittiön remonttia.",
+            "ru": "Мы планируем ремонт кухни."
+          },
+          "grammar": "verbi (3)"
+        },
+        {
+          "fi": "remontoida",
+          "translations": {
+            "ru": "ремонтировать"
+          },
+          "example": {
+            "fi": "Vanha asunto remontoidaan keväällä.",
+            "ru": "Старую квартиру отремонтируют весной."
+          },
+          "grammar": "verbi (2)"
+        },
+        {
+          "fi": "kokeilla",
+          "translations": {
+            "ru": "пробовать"
+          },
+          "example": {
+            "fi": "Kokeile energiansäästötilaa.",
+            "ru": "Попробуй режим энергосбережения."
+          },
+          "grammar": "verbi (3)"
+        },
+        {
+          "fi": "siirtää",
+          "translations": {
+            "ru": "перемещать, переносить"
+          },
+          "example": {
+            "fi": "Siirrä astia lähemmäs ovea.",
+            "ru": "Перемести контейнер ближе к двери."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "ommella",
+          "translations": {
+            "ru": "шить"
+          },
+          "example": {
+            "fi": "Hän ompeli vanhasta paidasta kassin.",
+            "ru": "Она сшила сумку из старой рубашки."
+          },
+          "grammar": "verbi (3)"
+        },
+        {
+          "fi": "opetella",
+          "translations": {
+            "ru": "учиться делать что-либо"
+          },
+          "example": {
+            "fi": "Opettelen lajittelemaan jätteet oikein.",
+            "ru": "Я учусь правильно сортировать отходы."
+          },
+          "grammar": "verbi (3) + maan/mään"
+        },
+        {
+          "fi": "käyttää",
+          "translations": {
+            "ru": "использовать что-либо"
+          },
+          "example": {
+            "fi": "Käytän samaa kangaskassia pitkään.",
+            "ru": "Я долго использую одну и ту же тканевую сумку."
+          },
+          "grammar": "verbi (1) + P"
+        },
+        {
+          "fi": "tottua",
+          "translations": {
+            "ru": "привыкать к чему-либо"
+          },
+          "example": {
+            "fi": "Totuin uuteen järjestelmään nopeasti.",
+            "ru": "Я быстро привык к новой системе."
+          },
+          "grammar": "verbi (1) + ILL"
+        },
+        {
+          "fi": "koskea",
+          "translations": {
+            "ru": "касаться; относиться к чему-либо"
+          },
+          "example": {
+            "fi": "Sääntö koskee kaikkia asukkaita.",
+            "ru": "Правило касается всех жильцов."
+          },
+          "grammar": "verbi (1) + P"
+        },
+        {
+          "fi": "poistua",
+          "translations": {
+            "ru": "уходить, удаляться"
+          },
+          "example": {
+            "fi": "Sammuta valot ennen kuin poistut.",
+            "ru": "Выключи свет перед уходом."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "riittää",
+          "translations": {
+            "ru": "быть достаточным, хватать"
+          },
+          "example": {
+            "fi": "Yksi astia ei riitä.",
+            "ru": "Одного контейнера недостаточно."
+          },
+          "grammar": "verbi (1)"
+        },
+        {
+          "fi": "kannattaa",
+          "translations": {
+            "ru": "кому-либо стоит что-либо сделать"
+          },
+          "example": {
+            "fi": "Sinun kannattaa sammuttaa laitteet yöksi.",
+            "ru": "Тебе стоит выключать устройства на ночь."
+          },
+          "grammar": "G + verbi (1)"
+        },
+        {
+          "fi": "ennen",
+          "translations": {
+            "ru": "до, перед чем-либо"
+          },
+          "example": {
+            "fi": "Sammuta valot ennen lähtöä.",
+            "ru": "Выключи свет перед уходом."
+          },
+          "grammar": "+ partitiivi"
+        }
+      ]
+    },
+    "daily_life": {
+      "title": "Жильё, покупки и повседневные предметы",
+      "words": [
+        {
+          "fi": "soluasunto",
+          "translations": {
+            "ru": "квартира с отдельными комнатами и общей кухней"
+          },
+          "example": {
+            "fi": "Opiskelija asuu soluasunnossa.",
+            "ru": "Студент живёт в квартире с общей кухней."
+          }
+        },
+        {
+          "fi": "kirpputori",
+          "translations": {
+            "ru": "блошиный рынок, комиссионный магазин"
+          },
+          "example": {
+            "fi": "Vein vanhat vaatteet kirpputorille.",
+            "ru": "Я отнёс старую одежду на блошиный рынок."
+          }
+        },
+        {
+          "fi": "mainosposti",
+          "translations": {
+            "ru": "рекламная почта"
+          },
+          "example": {
+            "fi": "En halua mainospostia.",
+            "ru": "Я не хочу получать рекламную почту."
+          }
+        },
+        {
+          "fi": "postiluukku",
+          "translations": {
+            "ru": "почтовая щель в двери"
+          },
+          "example": {
+            "fi": "Lehti tuli postiluukusta.",
+            "ru": "Газета пришла через почтовую щель."
+          }
+        },
+        {
+          "fi": "lappu",
+          "translations": {
+            "ru": "записка, листок"
+          },
+          "example": {
+            "fi": "Ovessa oli pieni lappu.",
+            "ru": "На двери была небольшая записка."
+          }
+        },
+        {
+          "fi": "määrä",
+          "translations": {
+            "ru": "количество"
+          },
+          "example": {
+            "fi": "Jätteen määrä väheni.",
+            "ru": "Количество отходов уменьшилось."
+          }
+        },
+        {
+          "fi": "kangaskassi",
+          "translations": {
+            "ru": "тканевая сумка"
+          },
+          "example": {
+            "fi": "Otan kauppaan oman kangaskassin.",
+            "ru": "Я беру в магазин свою тканевую сумку."
+          }
+        },
+        {
+          "fi": "tyyny",
+          "translations": {
+            "ru": "подушка"
+          },
+          "example": {
+            "fi": "Vanha tyyny voidaan kierrättää.",
+            "ru": "Старую подушку можно сдать на переработку."
+          }
+        },
+        {
+          "fi": "huutokauppa",
+          "translations": {
+            "ru": "аукцион"
+          },
+          "example": {
+            "fi": "Ostin tuolin huutokaupasta.",
+            "ru": "Я купил стул на аукционе."
+          }
+        },
+        {
+          "fi": "kotisivu",
+          "translations": {
+            "ru": "веб-сайт, домашняя страница"
+          },
+          "example": {
+            "fi": "Lisätiedot löytyvät kotisivulta.",
+            "ru": "Дополнительная информация находится на сайте."
+          }
+        },
+        {
+          "fi": "nälkäinen",
+          "translations": {
+            "ru": "голодный"
+          },
+          "example": {
+            "fi": "Olen nälkäinen työpäivän jälkeen.",
+            "ru": "После рабочего дня я голоден."
+          }
+        },
+        {
+          "fi": "kaikenlainen",
+          "translations": {
+            "ru": "всевозможный, всякого рода"
+          },
+          "example": {
+            "fi": "Kirpputorilla on kaikenlaista tavaraa.",
+            "ru": "На барахолке есть самые разные вещи."
+          }
+        },
+        {
+          "fi": "vaihtelu",
+          "translations": {
+            "ru": "разнообразие, смена"
+          },
+          "example": {
+            "fi": "Ruokavaliossa tarvitaan vaihtelua.",
+            "ru": "В рационе необходимо разнообразие."
+          }
+        },
+        {
+          "fi": "kolmihenkinen",
+          "translations": {
+            "ru": "состоящий из трёх человек"
+          },
+          "example": {
+            "fi": "Olemme kolmihenkinen perhe.",
+            "ru": "Наша семья состоит из трёх человек."
+          }
+        },
+        {
+          "fi": "neuvoja",
+          "translations": {
+            "ru": "консультант, советник"
+          },
+          "example": {
+            "fi": "Energianeuvoja auttaa asukkaita.",
+            "ru": "Консультант по энергии помогает жильцам."
+          }
+        },
+        {
+          "fi": "hieno",
+          "translations": {
+            "ru": "прекрасный, отличный"
+          },
+          "example": {
+            "fi": "Se on hieno idea.",
+            "ru": "Это отличная идея."
+          }
+        },
+        {
+          "fi": "aikaa vievä",
+          "translations": {
+            "ru": "трудоёмкий, занимающий много времени"
+          },
+          "example": {
+            "fi": "Remontti on aikaa vievä projekti.",
+            "ru": "Ремонт — трудоёмкий проект."
+          }
+        },
+        {
+          "fi": "vinkki",
+          "translations": {
+            "ru": "совет, подсказка"
+          },
+          "example": {
+            "fi": "Sain ystävältä hyvän vinkin.",
+            "ru": "Я получил хороший совет от друга."
+          }
+        },
+        {
+          "fi": "neuvo",
+          "translations": {
+            "ru": "совет, инструкция"
+          },
+          "example": {
+            "fi": "Kiitos hyvästä neuvosta.",
+            "ru": "Спасибо за хороший совет."
+          }
+        },
+        {
+          "fi": "hankala",
+          "translations": {
+            "ru": "сложный, неудобный"
+          },
+          "example": {
+            "fi": "Uusi sääntö tuntuu hankalalta.",
+            "ru": "Новое правило кажется сложным."
+          }
+        },
+        {
+          "fi": "sellainen",
+          "translations": {
+            "ru": "такой"
+          },
+          "example": {
+            "fi": "Tarvitsen sellaisen astian.",
+            "ru": "Мне нужен такой контейнер."
+          }
+        },
+        {
+          "fi": "oikein",
+          "translations": {
+            "ru": "правильно; действительно"
+          },
+          "example": {
+            "fi": "Lajittele jätteet oikein.",
+            "ru": "Сортируй отходы правильно."
+          }
+        }
+      ]
+    },
+    "linking_words": {
+      "title": "Связующие и уточняющие слова",
+      "words": [
+        {
+          "fi": "esimerkiksi",
+          "translations": {
+            "ru": "например"
+          },
+          "example": {
+            "fi": "Voit säästää energiaa esimerkiksi laskemalla lämpötilaa.",
+            "ru": "Энергию можно экономить, например снизив температуру."
+          }
+        },
+        {
+          "fi": "jatkuvasti",
+          "translations": {
+            "ru": "постоянно"
+          },
+          "example": {
+            "fi": "Kulutus ei voi kasvaa jatkuvasti.",
+            "ru": "Потребление не может расти постоянно."
+          }
+        },
+        {
+          "fi": "huomattavasti",
+          "translations": {
+            "ru": "значительно, заметно"
+          },
+          "example": {
+            "fi": "Uusi laite kuluttaa huomattavasti vähemmän.",
+            "ru": "Новое устройство потребляет значительно меньше."
+          }
+        },
+        {
+          "fi": "erityisesti",
+          "translations": {
+            "ru": "особенно"
+          },
+          "example": {
+            "fi": "Säästä energiaa erityisesti talvella.",
+            "ru": "Экономь энергию особенно зимой."
+          }
+        },
+        {
+          "fi": "toivottavasti",
+          "translations": {
+            "ru": "надеюсь; будем надеяться"
+          },
+          "example": {
+            "fi": "Toivottavasti lasku pienenee.",
+            "ru": "Надеюсь, счёт уменьшится."
+          }
+        },
+        {
+          "fi": "sen sijaan",
+          "translations": {
+            "ru": "вместо этого"
+          },
+          "example": {
+            "fi": "Älä aja autolla, vaan kävele sen sijaan.",
+            "ru": "Не езди на машине, а вместо этого ходи пешком."
+          }
+        },
+        {
+          "fi": "useammin",
+          "translations": {
+            "ru": "чаще"
+          },
+          "example": {
+            "fi": "Käyn kirpputorilla useammin kuin ennen.",
+            "ru": "Я хожу на барахолку чаще, чем раньше."
+          }
+        },
+        {
+          "fi": "muutama",
+          "translations": {
+            "ru": "несколько"
+          },
+          "example": {
+            "fi": "Tässä on muutama helppo vinkki.",
+            "ru": "Вот несколько простых советов."
+          }
+        },
+        {
+          "fi": "lisäksi",
+          "translations": {
+            "ru": "кроме того, дополнительно"
+          },
+          "example": {
+            "fi": "Lisäksi voimme vähentää vedenkulutusta.",
+            "ru": "Кроме того, мы можем сократить потребление воды."
+          }
+        },
+        {
+          "fi": "vasta",
+          "translations": {
+            "ru": "только, лишь"
+          },
+          "example": {
+            "fi": "Käynnistä kone vasta kun se on täynnä.",
+            "ru": "Запускай машину только тогда, когда она заполнена."
+          }
+        },
+        {
+          "fi": "lopuksi",
+          "translations": {
+            "ru": "в конце, напоследок"
+          },
+          "example": {
+            "fi": "Lopuksi tarkistamme tulokset.",
+            "ru": "В конце мы проверим результаты."
+          }
+        },
+        {
+          "fi": "vähintään",
+          "translations": {
+            "ru": "как минимум"
+          },
+          "example": {
+            "fi": "Nuku vähintään seitsemän tuntia.",
+            "ru": "Спи не менее семи часов."
+          }
+        },
+        {
+          "fi": "jopa",
+          "translations": {
+            "ru": "даже; вплоть до"
+          },
+          "example": {
+            "fi": "Voit säästää jopa sata euroa.",
+            "ru": "Можно сэкономить даже сто евро."
+          }
+        },
+        {
+          "fi": "jotta",
+          "translations": {
+            "ru": "чтобы"
+          },
+          "example": {
+            "fi": "Sulje ovi, jotta lämpö ei karkaa.",
+            "ru": "Закрой дверь, чтобы тепло не уходило."
+          }
+        },
+        {
+          "fi": "pian",
+          "translations": {
+            "ru": "скоро"
+          },
+          "example": {
+            "fi": "Uusi keräyspiste avataan pian.",
+            "ru": "Новый пункт сбора скоро откроют."
+          }
+        },
+        {
+          "fi": "sekä … että",
+          "translations": {
+            "ru": "как … так и; и … и"
+          },
+          "example": {
+            "fi": "Kierrätän sekä paperin että lasin.",
+            "ru": "Я сдаю на переработку как бумагу, так и стекло."
+          }
+        },
+        {
+          "fi": "ei kuitenkaan",
+          "translations": {
+            "ru": "однако не; всё же не"
+          },
+          "example": {
+            "fi": "Ratkaisu on hyvä, mutta ei kuitenkaan halpa.",
+            "ru": "Решение хорошее, однако недешёвое."
+          }
+        },
+        {
+          "fi": "Totta kai.",
+          "translations": {
+            "ru": "Конечно."
+          },
+          "example": {
+            "fi": "Totta kai voin auttaa.",
+            "ru": "Конечно, я могу помочь."
+          }
+        },
+        {
+          "fi": "sitä varten",
+          "translations": {
+            "ru": "для этого"
+          },
+          "example": {
+            "fi": "Keittiössä on oma astia biojätettä varten.",
+            "ru": "На кухне есть отдельный контейнер для биоотходов."
+          }
+        },
+        {
+          "fi": "kuulostaa",
+          "translations": {
+            "ru": "звучать, казаться каким-либо"
+          },
+          "example": {
+            "fi": "Suunnitelma kuulostaa hyvältä.",
+            "ru": "План звучит хорошо."
+          },
+          "grammar": "verbi (1) + lta/ltä"
+        },
+        {
+          "fi": "Onnea matkaan!",
+          "translations": {
+            "ru": "Счастливого пути!; Удачи!"
+          },
+          "example": {
+            "fi": "Onnea matkaan ja turvallista matkaa!",
+            "ru": "Счастливого пути и безопасной дороги!"
+          }
+        }
+      ]
+    }
+  },
   "grammar": {
     "title": {
       "ru": "Как вежливо заказать",
