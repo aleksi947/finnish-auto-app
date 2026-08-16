@@ -1588,16 +1588,1793 @@
   },
   "grammar": {
     "title": {
-      "ru": "Как вежливо заказать",
-      "fi": "Kuinka tilata kohteliaasti"
+      "ru": "Грамматика: условное наклонение и образование слов",
+      "fi": "Kielioppi: konditionaali ja sananmuodostus"
     },
-    "examples": [
+    "sections": [
       {
-        "fi": "Saisinko kahvia?",
-        "translations": {
-          "ru": "Можно мне кофе?",
-          "en": "Could I get some coffee?"
-        }
+        "id": "konditionaali-preesens",
+        "title": {
+          "ru": "Условное наклонение настоящего времени",
+          "fi": "Konditionaali preesens"
+        },
+        "goal": {
+          "ru": "Научиться говорить о возможных действиях, условиях, желаниях и вежливых просьбах.",
+          "fi": "Opitaan puhumaan mahdollisista tilanteista, toiveista ja kohteliaista pyynnöistä."
+        },
+        "examples": [
+          {
+            "fi": "Voisitko sammuttaa valot?",
+            "translations": {
+              "ru": "Ты мог бы выключить свет?"
+            }
+          },
+          {
+            "fi": "Menisimme bussilla.",
+            "translations": {
+              "ru": "Мы бы поехали на автобусе."
+            }
+          },
+          {
+            "fi": "Jos lajittelisin tarkemmin, sekajätettä syntyisi vähemmän.",
+            "translations": {
+              "ru": "Если бы я сортировал тщательнее, смешанных отходов было бы меньше."
+            }
+          },
+          {
+            "fi": "Olisipa minulla enemmän aikaa!",
+            "translations": {
+              "ru": "Вот бы у меня было больше времени!"
+            }
+          }
+        ],
+        "explanationStructured": {
+          "title": {
+            "ru": "Когда нужен konditionaali"
+          },
+          "intro": {
+            "ru": "Условное наклонение с показателем **-isi-** обозначает действие, которое произошло бы при определённом условии. Оно также используется для вежливых просьб, предложений, желаний и мягких советов."
+          },
+          "important": {
+            "title": {
+              "ru": "Главная формула"
+            },
+            "body": {
+              "ru": "основа глагола + -isi- + личное окончание"
+            }
+          }
+        },
+        "exercises": [
+          {
+            "id": "konditionaali-preesens-formation",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Образование формы на -isi-"
+              },
+              "intro": {
+                "ru": "Добавьте к основе глагола показатель **-isi-** и личное окончание.\n\nУдобная подсказка для многих глаголов: возьмите форму **he** в настоящем времени, уберите **-vat/-vät** и добавьте **-isi-**."
+              },
+              "conjugationExamples": [
+                {
+                  "title": {
+                    "ru": "Гласные o, ö, u, y сохраняются"
+                  },
+                  "rows": [
+                    {
+                      "base": "sano-",
+                      "form": "sanoisin",
+                      "ru": "я бы сказал"
+                    },
+                    {
+                      "base": "puhu-",
+                      "form": "puhuisin",
+                      "ru": "я бы говорил"
+                    },
+                    {
+                      "base": "kysy-",
+                      "form": "kysyisin",
+                      "ru": "я бы спросил"
+                    }
+                  ],
+                  "hint": "Перед -isi- гласные o, ö, u и y остаются."
+                },
+                {
+                  "title": {
+                    "ru": "Изменения в основе"
+                  },
+                  "rows": [
+                    {
+                      "base": "lukea",
+                      "form": "lukisin",
+                      "ru": "я бы читал"
+                    },
+                    {
+                      "base": "saada",
+                      "form": "saisin",
+                      "ru": "я бы получил"
+                    },
+                    {
+                      "base": "syödä",
+                      "form": "söisin",
+                      "ru": "я бы ел"
+                    },
+                    {
+                      "base": "tuoda",
+                      "form": "toisin",
+                      "ru": "я бы принёс"
+                    },
+                    {
+                      "base": "viedä",
+                      "form": "veisin",
+                      "ru": "я бы отнёс"
+                    }
+                  ],
+                  "hint": "e и i могут исчезать, долгая гласная сокращается, а дифтонги yö/uo/ie меняются на öi/oi/ei."
+                }
+              ],
+              "important": {
+                "title": {
+                  "ru": "Тип 4"
+                },
+                "body": {
+                  "ru": "haluta → haluaisin, pelata → pelaisin, herätä → heräisin"
+                }
+              }
+            },
+            "instruction": {
+              "ru": "Допишите условную форму глагола. Введите только пропущенную часть."
+            },
+            "items": [
+              {
+                "sentence": "Minä kulutta___ vähemmän sähköä. (kuluttaa)",
+                "answer": "isin",
+                "translation": "Я бы потреблял меньше электричества.",
+                "feedbackCorrect": "✅ Верно! kulutta- + isi + n = kuluttaisin.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: isin. kulutta- + isi + n = kuluttaisin."
+              },
+              {
+                "sentence": "Sinä lajittel___ jätteet tarkemmin. (lajitella)",
+                "answer": "isit",
+                "translation": "Ты бы сортировал отходы тщательнее.",
+                "feedbackCorrect": "✅ Верно! lajittele- теряет e перед -isi-: lajittelisit.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: isit. lajittele- теряет e перед -isi-: lajittelisit."
+              },
+              {
+                "sentence": "Hän men___ bussilla töihin. (mennä)",
+                "answer": "isi",
+                "translation": "Он поехал бы на работу на автобусе.",
+                "feedbackCorrect": "✅ Верно! mennä → menisi.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: isi. mennä → menisi."
+              },
+              {
+                "sentence": "Me osta___ uuden pakastimen. (ostaa)",
+                "answer": "isimme",
+                "translation": "Мы купили бы новую морозильную камеру.",
+                "feedbackCorrect": "✅ Верно! osta- + isi + mme = ostaisimme.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: isimme. osta- + isi + mme = ostaisimme."
+              },
+              {
+                "sentence": "Te sammutta___ valot ajoissa. (sammuttaa)",
+                "answer": "isitte",
+                "translation": "Вы бы вовремя выключили свет.",
+                "feedbackCorrect": "✅ Верно! sammutta- + isi + tte = sammuttaisitte.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: isitte. sammutta- + isi + tte = sammuttaisitte."
+              },
+              {
+                "sentence": "He säästä___ enemmän vettä. (säästää)",
+                "answer": "isivät",
+                "translation": "Они экономили бы больше воды.",
+                "feedbackCorrect": "✅ Верно! säästä- + isi + vät = säästäisivät.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: isivät. säästä- + isi + vät = säästäisivät."
+              },
+              {
+                "sentence": "Minä kysy___ neuvoa naapurilta. (kysyä)",
+                "answer": "isin",
+                "translation": "Я бы спросил совета у соседа.",
+                "feedbackCorrect": "✅ Верно! Гласная y сохраняется: kysyisin.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: isin. Гласная y сохраняется: kysyisin."
+              },
+              {
+                "sentence": "Hän to___ oman pullon mukaan. (tuoda)",
+                "answer": "isi",
+                "translation": "Он принёс бы свою бутылку.",
+                "feedbackCorrect": "✅ Верно! tuoda → toisi.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: isi. tuoda → toisi."
+              }
+            ]
+          },
+          {
+            "id": "konditionaali-preesens-persons",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Личные и отрицательные формы"
+              },
+              "intro": {
+                "ru": "В положительной форме после **-isi-** добавляется личное окончание. В отрицательной форме личное окончание получает отрицательный глагол: **en, et, ei, emme, ette, eivät**. Основной глагол остаётся в форме на **-isi**."
+              },
+              "conjugationTables": [
+                {
+                  "title": {
+                    "ru": "Глагол tehdä — делать"
+                  },
+                  "columns": [
+                    "Лицо",
+                    "Утвердительная форма",
+                    "Отрицательная форма",
+                    "Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "person": "minä",
+                      "form": "tekisin",
+                      "ei_form": "en tekisi",
+                      "ru": "я бы сделал / не сделал"
+                    },
+                    {
+                      "person": "sinä",
+                      "form": "tekisit",
+                      "ei_form": "et tekisi",
+                      "ru": "ты бы сделал / не сделал"
+                    },
+                    {
+                      "person": "hän",
+                      "form": "tekisi",
+                      "ei_form": "ei tekisi",
+                      "ru": "он(а) бы сделал(а) / не сделал(а)"
+                    },
+                    {
+                      "person": "me",
+                      "form": "tekisimme",
+                      "ei_form": "emme tekisi",
+                      "ru": "мы бы сделали / не сделали"
+                    },
+                    {
+                      "person": "te",
+                      "form": "tekisitte",
+                      "ei_form": "ette tekisi",
+                      "ru": "вы бы сделали / не сделали"
+                    },
+                    {
+                      "person": "he",
+                      "form": "tekisivät",
+                      "ei_form": "eivät tekisi",
+                      "ru": "они бы сделали / не сделали"
+                    }
+                  ]
+                }
+              ],
+              "important": {
+                "title": {
+                  "ru": "Отрицание"
+                },
+                "body": {
+                  "ru": "Не добавляйте личное окончание к основному глаголу: emme tekisi, а не emme tekisimme."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "Допишите правильную форму. Введите только пропущенную часть."
+            },
+            "items": [
+              {
+                "sentence": "Minä ___ ostaisi turhaa tavaraa.",
+                "answer": "en",
+                "translation": "Я не покупал бы ненужные вещи.",
+                "feedbackCorrect": "✅ Верно! С minä используется en.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: en. С minä используется en."
+              },
+              {
+                "sentence": "Sinä ___ käyttäisi niin paljon vettä.",
+                "answer": "et",
+                "translation": "Ты не использовал бы столько воды.",
+                "feedbackCorrect": "✅ Верно! С sinä используется et.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: et. С sinä используется et."
+              },
+              {
+                "sentence": "Hän ___ heittäisi paristoja roskiin.",
+                "answer": "ei",
+                "translation": "Он не выбрасывал бы батарейки в мусор.",
+                "feedbackCorrect": "✅ Верно! С hän используется ei.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: ei. С hän используется ei."
+              },
+              {
+                "sentence": "Me ___ ajaisi autolla joka päivä.",
+                "answer": "emme",
+                "translation": "Мы не ездили бы на машине каждый день.",
+                "feedbackCorrect": "✅ Верно! С me используется emme.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: emme. С me используется emme."
+              },
+              {
+                "sentence": "Te ___ käynnistäisi konetta vajaana.",
+                "answer": "ette",
+                "translation": "Вы не запускали бы машину неполной.",
+                "feedbackCorrect": "✅ Верно! С te используется ette.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: ette. С te используется ette."
+              },
+              {
+                "sentence": "He ___ ostaisi tarpeettomia tuotteita.",
+                "answer": "eivät",
+                "translation": "Они не покупали бы ненужные товары.",
+                "feedbackCorrect": "✅ Верно! С he используется eivät.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: eivät. С he используется eivät."
+              }
+            ]
+          },
+          {
+            "id": "konditionaali-preesens-choice",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "Выберите форму, которая подходит по смыслу и лицу."
+            },
+            "questions": [
+              {
+                "question": "___ sinä sulkea ikkunan?",
+                "translation": "Ты мог бы закрыть окно?",
+                "options": [
+                  "Voisitko",
+                  "Voisitteko",
+                  "Voisinko"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! С sinä используется voisitko."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. С sinä используется voisitko."
+                }
+              },
+              {
+                "question": "Jos me ___ enemmän, roskaa olisi vähemmän.",
+                "translation": "Если бы мы больше перерабатывали, мусора было бы меньше.",
+                "options": [
+                  "kierrättäisimme",
+                  "kierrättäisitte",
+                  "kierrättäisivät"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! Подлежащее me требует окончания -isimme."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. Подлежащее me требует окончания -isimme."
+                }
+              },
+              {
+                "question": "Minä ___ kupin teetä.",
+                "translation": "Я бы взял чашку чая.",
+                "options": [
+                  "ottaisin",
+                  "ottaisit",
+                  "ottaisi"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! С minä используется окончание -isin."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. С minä используется окончание -isin."
+                }
+              },
+              {
+                "question": "He ___ turhia tavaroita.",
+                "translation": "Они не покупали бы ненужные вещи.",
+                "options": [
+                  "eivät ostaisi",
+                  "emme ostaisi",
+                  "ette ostaisi"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! С he отрицание начинается с eivät."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. С he отрицание начинается с eivät."
+                }
+              },
+              {
+                "question": "___ tämä ratkaisu halvempi?",
+                "translation": "Было бы это решение дешевле?",
+                "options": [
+                  "Olisiko",
+                  "Olisitko",
+                  "Olisivatko"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! Подлежащее tämä требует формы olisi + -ko."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. Подлежащее tämä требует формы olisi + -ko."
+                }
+              },
+              {
+                "question": "Sinun ___ tarkistaa sähkönkulutus.",
+                "translation": "Тебе стоило бы проверить потребление электричества.",
+                "options": [
+                  "kannattaisi",
+                  "kannattaisit",
+                  "kannattaisimme"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! В конструкции G + kannattaa используется безличная форма kannattaisi."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. В конструкции G + kannattaa используется безличная форма kannattaisi."
+                }
+              }
+            ]
+          },
+          {
+            "id": "konditionaali-preesens-translation",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "Переведите предложение. Введите полный ответ без точки."
+            },
+            "items": [
+              {
+                "sentence": "Я бы чаще ходил на блошиный рынок. → ___",
+                "answer": "Kävisin useammin kirpputorilla",
+                "translation": "Kävisin useammin kirpputorilla.",
+                "feedbackCorrect": "✅ Верно! käydä → kävisi; minä → kävisin.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: Kävisin useammin kirpputorilla. käydä → kävisi; minä → kävisin."
+              },
+              {
+                "sentence": "Ты мог бы выключить свет? → ___",
+                "answer": "Voisitko sammuttaa valot?",
+                "translation": "Voisitko sammuttaa valot?",
+                "feedbackCorrect": "✅ Верно! Вежливый вопрос образуется с voisitko.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: Voisitko sammuttaa valot?. Вежливый вопрос образуется с voisitko."
+              },
+              {
+                "sentence": "Мы бы сортировали бумагу и стекло отдельно. → ___",
+                "answer": "Lajittelisimme paperin ja lasin erikseen",
+                "translation": "Lajittelisimme paperin ja lasin erikseen.",
+                "feedbackCorrect": "✅ Верно! С me используется окончание -isimme.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: Lajittelisimme paperin ja lasin erikseen. С me используется окончание -isimme."
+              },
+              {
+                "sentence": "Они не покупали бы ненужные вещи. → ___",
+                "answer": "He eivät ostaisi turhia tavaroita",
+                "translation": "He eivät ostaisi turhia tavaroita.",
+                "feedbackCorrect": "✅ Верно! Отрицательная форма he: eivät ostaisi.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: He eivät ostaisi turhia tavaroita. Отрицательная форма he: eivät ostaisi."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "konditionaali-perfekti",
+        "title": {
+          "ru": "Перфект условного наклонения",
+          "fi": "Konditionaali perfekti"
+        },
+        "goal": {
+          "ru": "Научиться говорить о прошлом, которое могло бы произойти, но не произошло.",
+          "fi": "Opitaan puhumaan menneestä tilanteesta, joka olisi voinut tapahtua."
+        },
+        "examples": [
+          {
+            "fi": "Jos olisin tiennyt asiasta, olisin tullut aikaisemmin.",
+            "translations": {
+              "ru": "Если бы я знал об этом, я бы пришёл раньше."
+            }
+          },
+          {
+            "fi": "Olisimme voineet säästää enemmän vettä.",
+            "translations": {
+              "ru": "Мы могли бы сэкономить больше воды."
+            }
+          },
+          {
+            "fi": "Sinun olisi pitänyt tarkistaa ohje.",
+            "translations": {
+              "ru": "Тебе следовало проверить инструкцию."
+            }
+          }
+        ],
+        "explanationStructured": {
+          "title": {
+            "ru": "Нереальное действие в прошлом"
+          },
+          "intro": {
+            "ru": "Перфект условного наклонения описывает действие, которое **могло бы произойти в прошлом**, но не произошло. Форма часто выражает сожаление, объяснение, предположение или совет задним числом."
+          },
+          "important": {
+            "title": {
+              "ru": "Формула"
+            },
+            "body": {
+              "ru": "olisi- + причастие на -nut/-nyt или -neet"
+            }
+          }
+        },
+        "exercises": [
+          {
+            "id": "konditionaali-perfekti-positive",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Положительные формы"
+              },
+              "intro": {
+                "ru": "С **minä, sinä, hän** используется причастие единственного числа на **-nut/-nyt**. С **me, te, he** используется причастие множественного числа на **-neet**."
+              },
+              "conjugationTables": [
+                {
+                  "title": {
+                    "ru": "Глагол tehdä — делать"
+                  },
+                  "columns": [
+                    "Лицо",
+                    "Форма",
+                    "Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "person": "minä",
+                      "form": "olisin tehnyt",
+                      "ru": "я бы сделал"
+                    },
+                    {
+                      "person": "sinä",
+                      "form": "olisit tehnyt",
+                      "ru": "ты бы сделал"
+                    },
+                    {
+                      "person": "hän",
+                      "form": "olisi tehnyt",
+                      "ru": "он(а) бы сделал(а)"
+                    },
+                    {
+                      "person": "me",
+                      "form": "olisimme tehneet",
+                      "ru": "мы бы сделали"
+                    },
+                    {
+                      "person": "te",
+                      "form": "olisitte tehneet",
+                      "ru": "вы бы сделали"
+                    },
+                    {
+                      "person": "he",
+                      "form": "olisivat tehneet",
+                      "ru": "они бы сделали"
+                    }
+                  ]
+                }
+              ],
+              "important": {
+                "title": {
+                  "ru": "Согласование"
+                },
+                "body": {
+                  "ru": "Вспомогательный глагол согласуется с лицом, а причастие — с числом."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "Допишите обе части формы. Введите текст без лишней пунктуации."
+            },
+            "items": [
+              {
+                "sentence": "Minä ___ vähemmän sähköä. (kuluttaa)",
+                "answer": "olisin kuluttanut",
+                "translation": "Я бы потреблял меньше электричества.",
+                "feedbackCorrect": "✅ Верно! minä → olisin; единственное число → kuluttanut.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: olisin kuluttanut. minä → olisin; единственное число → kuluttanut."
+              },
+              {
+                "sentence": "Sinä ___ paperin erikseen. (lajitella)",
+                "answer": "olisit lajitellut",
+                "translation": "Ты бы отсортировал бумагу отдельно.",
+                "feedbackCorrect": "✅ Верно! sinä → olisit; lajitella → lajitellut.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: olisit lajitellut. sinä → olisit; lajitella → lajitellut."
+              },
+              {
+                "sentence": "Hän ___ pullot kauppaan. (palauttaa)",
+                "answer": "olisi palauttanut",
+                "translation": "Он вернул бы бутылки в магазин.",
+                "feedbackCorrect": "✅ Верно! hän → olisi; palauttaa → palauttanut.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: olisi palauttanut. hän → olisi; palauttaa → palauttanut."
+              },
+              {
+                "sentence": "Me ___ bussilla. (mennä)",
+                "answer": "olisimme menneet",
+                "translation": "Мы поехали бы на автобусе.",
+                "feedbackCorrect": "✅ Верно! me → olisimme; множественное число → menneet.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: olisimme menneet. me → olisimme; множественное число → menneet."
+              },
+              {
+                "sentence": "Te ___ laitteen ajoissa. (sammuttaa)",
+                "answer": "olisitte sammuttaneet",
+                "translation": "Вы вовремя выключили бы прибор.",
+                "feedbackCorrect": "✅ Верно! te → olisitte; множественное число → sammuttaneet.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: olisitte sammuttaneet. te → olisitte; множественное число → sammuttaneet."
+              },
+              {
+                "sentence": "He ___ uuden järjestelmän. (kokeilla)",
+                "answer": "olisivat kokeilleet",
+                "translation": "Они попробовали бы новую систему.",
+                "feedbackCorrect": "✅ Верно! he → olisivat; множественное число → kokeilleet.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: olisivat kokeilleet. he → olisivat; множественное число → kokeilleet."
+              }
+            ]
+          },
+          {
+            "id": "konditionaali-perfekti-negative",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Отрицательные формы"
+              },
+              "intro": {
+                "ru": "В отрицании используется отрицательный глагол **en/et/ei/emme/ette/eivät**, затем неизменяемая форма **olisi** и причастие.\n\nПримеры: en olisi tehnyt, emme olisi tehneet."
+              },
+              "conjugationTables": [
+                {
+                  "title": {
+                    "ru": "Отрицание"
+                  },
+                  "columns": [
+                    "Лицо",
+                    "Отрицательная форма",
+                    "Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "person": "minä",
+                      "ei_form": "en olisi ostanut",
+                      "ru": "я бы не купил"
+                    },
+                    {
+                      "person": "sinä",
+                      "ei_form": "et olisi ostanut",
+                      "ru": "ты бы не купил"
+                    },
+                    {
+                      "person": "hän",
+                      "ei_form": "ei olisi ostanut",
+                      "ru": "он(а) бы не купил(а)"
+                    },
+                    {
+                      "person": "me",
+                      "ei_form": "emme olisi ostaneet",
+                      "ru": "мы бы не купили"
+                    },
+                    {
+                      "person": "te",
+                      "ei_form": "ette olisi ostaneet",
+                      "ru": "вы бы не купили"
+                    },
+                    {
+                      "person": "he",
+                      "ei_form": "eivät olisi ostaneet",
+                      "ru": "они бы не купили"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruction": {
+              "ru": "Допишите отрицательную форму целиком."
+            },
+            "items": [
+              {
+                "sentence": "Minä ___ tätä ilman neuvoa. (tehdä)",
+                "answer": "en olisi tehnyt",
+                "translation": "Я не сделал бы этого без совета.",
+                "feedbackCorrect": "✅ Верно! minä → en olisi tehnyt.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: en olisi tehnyt. minä → en olisi tehnyt."
+              },
+              {
+                "sentence": "Me ___ niin paljon vettä. (käyttää)",
+                "answer": "emme olisi käyttäneet",
+                "translation": "Мы не использовали бы столько воды.",
+                "feedbackCorrect": "✅ Верно! me → emme olisi käyttäneet.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: emme olisi käyttäneet. me → emme olisi käyttäneet."
+              },
+              {
+                "sentence": "Hän ___ virhettä. (huomata)",
+                "answer": "ei olisi huomannut",
+                "translation": "Он не заметил бы ошибку.",
+                "feedbackCorrect": "✅ Верно! hän → ei olisi huomannut.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: ei olisi huomannut. hän → ei olisi huomannut."
+              },
+              {
+                "sentence": "He ___ turhaa tavaraa. (ostaa)",
+                "answer": "eivät olisi ostaneet",
+                "translation": "Они не купили бы ненужные вещи.",
+                "feedbackCorrect": "✅ Верно! he → eivät olisi ostaneet.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: eivät olisi ostaneet. he → eivät olisi ostaneet."
+              }
+            ]
+          },
+          {
+            "id": "konditionaali-perfekti-choice",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "Выберите грамматически правильную форму."
+            },
+            "questions": [
+              {
+                "question": "Jos ___ eilen, olisin auttanut.",
+                "translation": "Если бы я знал вчера, я бы помог.",
+                "options": [
+                  "olisin tiennyt",
+                  "tietäisin",
+                  "olen tiennyt"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! Речь идёт о нереальном прошлом: olisin tiennyt."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. Речь идёт о нереальном прошлом: olisin tiennyt."
+                }
+              },
+              {
+                "question": "Me ___ enemmän energiaa.",
+                "translation": "Мы сэкономили бы больше энергии.",
+                "options": [
+                  "olisimme säästäneet",
+                  "olisimme säästänyt",
+                  "säästäisimme eilen"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! С me причастие стоит во множественном числе: säästäneet."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. С me причастие стоит во множественном числе: säästäneet."
+                }
+              },
+              {
+                "question": "Hän ___ paristoja roskiin.",
+                "translation": "Он не выбросил бы батарейки в мусор.",
+                "options": [
+                  "ei olisi heittänyt",
+                  "ei olisin heittänyt",
+                  "ei olisi heittäneet"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! Правильно: ei olisi + причастие единственного числа."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. Правильно: ei olisi + причастие единственного числа."
+                }
+              },
+              {
+                "question": "Te ___ kysyä neuvoa.",
+                "translation": "Вы могли бы спросить совета.",
+                "options": [
+                  "olisitte voineet",
+                  "olisi voinut",
+                  "olisitte voinut"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! С te: olisitte voineet."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. С te: olisitte voineet."
+                }
+              },
+              {
+                "question": "He ___ uutta pakastinta.",
+                "translation": "Они не купили бы новую морозильную камеру.",
+                "options": [
+                  "eivät olisi ostaneet",
+                  "eivät olisivat ostaneet",
+                  "ei olisi ostanut"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! С he: eivät olisi ostaneet."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. С he: eivät olisi ostaneet."
+                }
+              },
+              {
+                "question": "___, jos olisit ehtinyt?",
+                "translation": "Ты бы пришёл, если бы успел?",
+                "options": [
+                  "Olisitko tullut",
+                  "Tulisitko tullut",
+                  "Oletko tullut"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! Вопрос в перфекте условного наклонения: olisitko tullut."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. Вопрос в перфекте условного наклонения: olisitko tullut."
+                }
+              }
+            ]
+          },
+          {
+            "id": "konditionaali-perfekti-translation",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "Переведите предложение. Введите полный ответ без точки."
+            },
+            "items": [
+              {
+                "sentence": "Если бы я знал, я бы принёс стеклянные банки. → ___",
+                "answer": "Jos olisin tiennyt, olisin tuonut lasipurkit",
+                "translation": "Jos olisin tiennyt, olisin tuonut lasipurkit.",
+                "feedbackCorrect": "✅ Верно! Обе части относятся к нереальному прошлому.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: Jos olisin tiennyt, olisin tuonut lasipurkit. Обе части относятся к нереальному прошлому."
+              },
+              {
+                "sentence": "Мы могли бы использовать меньше воды. → ___",
+                "answer": "Olisimme voineet käyttää vähemmän vettä",
+                "translation": "Olisimme voineet käyttää vähemmän vettä.",
+                "feedbackCorrect": "✅ Верно! С me используется olisimme voineet.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: Olisimme voineet käyttää vähemmän vettä. С me используется olisimme voineet."
+              },
+              {
+                "sentence": "Он не купил бы такой дорогой прибор. → ___",
+                "answer": "Hän ei olisi ostanut niin kallista laitetta",
+                "translation": "Hän ei olisi ostanut niin kallista laitetta.",
+                "feedbackCorrect": "✅ Верно! Отрицательная форма: ei olisi ostanut.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: Hän ei olisi ostanut niin kallista laitetta. Отрицательная форма: ei olisi ostanut."
+              },
+              {
+                "sentence": "Тебе следовало выключить свет. → ___",
+                "answer": "Sinun olisi pitänyt sammuttaa valot",
+                "translation": "Sinun olisi pitänyt sammuttaa valot.",
+                "feedbackCorrect": "✅ Верно! G + olisi pitänyt + инфинитив.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: Sinun olisi pitänyt sammuttaa valot. G + olisi pitänyt + инфинитив."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "adjektiivit-ton-llinen",
+        "title": {
+          "ru": "Прилагательные с -ton/-tön и -llinen",
+          "fi": "Adjektiivit: -ton/-tön ja -llinen"
+        },
+        "goal": {
+          "ru": "Научиться образовывать и склонять прилагательные со значением отсутствия или наличия свойства.",
+          "fi": "Opitaan muodostamaan ja taivuttamaan -ton/-tön- ja -llinen-adjektiiveja."
+        },
+        "examples": [
+          {
+            "fi": "Juon sokeritonta kahvia.",
+            "translations": {
+              "ru": "Я пью кофе без сахара."
+            }
+          },
+          {
+            "fi": "Palvelu on maksullinen.",
+            "translations": {
+              "ru": "Услуга платная."
+            }
+          },
+          {
+            "fi": "Valitse ympäristöystävällinen tuote.",
+            "translations": {
+              "ru": "Выбери экологичный товар."
+            }
+          },
+          {
+            "fi": "Vältä tarpeetonta kulutusta.",
+            "translations": {
+              "ru": "Избегай ненужного потребления."
+            }
+          }
+        ],
+        "explanationStructured": {
+          "title": {
+            "ru": "Два способа образовать прилагательное"
+          },
+          "intro": {
+            "ru": "Суффикс **-ton/-tön** обычно означает отсутствие: sokeriton — без сахара. Суффикс **-llinen** часто обозначает наличие свойства или связь с исходным словом: maksullinen — платный."
+          },
+          "important": {
+            "title": {
+              "ru": "Запоминайте основу"
+            },
+            "body": {
+              "ru": "При склонении -ton/-tön меняется на -ttoma/-ttömä, а -llinen склоняется как слова на -nen."
+            }
+          }
+        },
+        "exercises": [
+          {
+            "id": "adjektiivit-formation",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Образование прилагательных"
+              },
+              "intro": {
+                "ru": "Выберите суффикс по значению. **-ton/-tön** = без чего-либо. **-llinen** = имеющий свойство или связанный с чем-либо. Вариант -ton или -tön выбирается по гармонии гласных."
+              },
+              "conjugationTables": [
+                {
+                  "title": {
+                    "ru": "Суффикс -ton/-tön"
+                  },
+                  "columns": [
+                    "Основа",
+                    "Форма",
+                    "Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "base": "sokeri",
+                      "form": "sokeriton",
+                      "ru": "без сахара"
+                    },
+                    {
+                      "base": "työ",
+                      "form": "työtön",
+                      "ru": "безработный"
+                    },
+                    {
+                      "base": "asunto",
+                      "form": "asunnoton",
+                      "ru": "бездомный"
+                    },
+                    {
+                      "base": "hyöty",
+                      "form": "hyödytön",
+                      "ru": "бесполезный"
+                    },
+                    {
+                      "base": "päästö",
+                      "form": "päästötön",
+                      "ru": "без выбросов"
+                    }
+                  ]
+                },
+                {
+                  "title": {
+                    "ru": "Суффикс -llinen"
+                  },
+                  "columns": [
+                    "Основа",
+                    "Форма",
+                    "Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "base": "maksu",
+                      "form": "maksullinen",
+                      "ru": "платный"
+                    },
+                    {
+                      "base": "onni",
+                      "form": "onnellinen",
+                      "ru": "счастливый"
+                    },
+                    {
+                      "base": "lukko",
+                      "form": "lukollinen",
+                      "ru": "с замком"
+                    },
+                    {
+                      "base": "vaara",
+                      "form": "vaarallinen",
+                      "ru": "опасный"
+                    },
+                    {
+                      "base": "terveys",
+                      "form": "terveellinen",
+                      "ru": "полезный для здоровья"
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruction": {
+              "ru": "Образуйте прилагательное. Введите слово целиком."
+            },
+            "items": [
+              {
+                "sentence": "sokeri → ___ (без сахара)",
+                "answer": "sokeriton",
+                "translation": "без сахара",
+                "feedbackCorrect": "✅ Верно! sokeri + -ton = sokeriton.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: sokeriton. sokeri + -ton = sokeriton."
+              },
+              {
+                "sentence": "työ → ___ (безработный)",
+                "answer": "työtön",
+                "translation": "безработный",
+                "feedbackCorrect": "✅ Верно! По гармонии гласных используется -tön.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: työtön. По гармонии гласных используется -tön."
+              },
+              {
+                "sentence": "asunto → ___ (бездомный)",
+                "answer": "asunnoton",
+                "translation": "бездомный",
+                "feedbackCorrect": "✅ Верно! asunto → asunnoton.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: asunnoton. asunto → asunnoton."
+              },
+              {
+                "sentence": "hyöty → ___ (бесполезный)",
+                "answer": "hyödytön",
+                "translation": "бесполезный",
+                "feedbackCorrect": "✅ Верно! hyöty → hyödytön.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: hyödytön. hyöty → hyödytön."
+              },
+              {
+                "sentence": "päästö → ___ (без выбросов)",
+                "answer": "päästötön",
+                "translation": "без выбросов",
+                "feedbackCorrect": "✅ Верно! päästö → päästötön.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: päästötön. päästö → päästötön."
+              },
+              {
+                "sentence": "maksu → ___ (платный)",
+                "answer": "maksullinen",
+                "translation": "платный",
+                "feedbackCorrect": "✅ Верно! maksu → maksullinen.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: maksullinen. maksu → maksullinen."
+              },
+              {
+                "sentence": "onni → ___ (счастливый)",
+                "answer": "onnellinen",
+                "translation": "счастливый",
+                "feedbackCorrect": "✅ Верно! onni → onnellinen.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: onnellinen. onni → onnellinen."
+              },
+              {
+                "sentence": "vaara → ___ (опасный)",
+                "answer": "vaarallinen",
+                "translation": "опасный",
+                "feedbackCorrect": "✅ Верно! vaara → vaarallinen.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: vaarallinen. vaara → vaarallinen."
+              }
+            ]
+          },
+          {
+            "id": "adjektiivit-declension",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Склонение новых прилагательных"
+              },
+              "intro": {
+                "ru": "При склонении **-ton/-tön → -ttoma/-ttömä**: rasvaton → rasvattoman. Слова на **-llinen** склоняются как слова на -nen: maksullinen → maksullisen."
+              },
+              "conjugationTables": [
+                {
+                  "title": {
+                    "ru": "rasvaton — обезжиренный"
+                  },
+                  "columns": [
+                    "Падеж",
+                    "Форма",
+                    "Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "person": "NOM",
+                      "form": "rasvaton",
+                      "ru": "без жира"
+                    },
+                    {
+                      "person": "GEN",
+                      "form": "rasvattoman",
+                      "ru": "безжирового"
+                    },
+                    {
+                      "person": "PART",
+                      "form": "rasvatonta",
+                      "ru": "безжирового (партитив)"
+                    },
+                    {
+                      "person": "INE",
+                      "form": "rasvattomassa",
+                      "ru": "в безжировом"
+                    },
+                    {
+                      "person": "MON NOM",
+                      "form": "rasvattomat",
+                      "ru": "безжировые"
+                    },
+                    {
+                      "person": "MON PART",
+                      "form": "rasvattomia",
+                      "ru": "безжировых"
+                    }
+                  ]
+                },
+                {
+                  "title": {
+                    "ru": "Отдельный тип lämmin"
+                  },
+                  "columns": [
+                    "Падеж",
+                    "Форма",
+                    "Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "person": "NOM",
+                      "form": "lämmin",
+                      "ru": "тёплый"
+                    },
+                    {
+                      "person": "GEN",
+                      "form": "lämpimän",
+                      "ru": "тёплого"
+                    },
+                    {
+                      "person": "PART",
+                      "form": "lämmintä",
+                      "ru": "тёплого (партитив)"
+                    },
+                    {
+                      "person": "INE",
+                      "form": "lämpimässä",
+                      "ru": "в тёплом"
+                    },
+                    {
+                      "person": "MON PART",
+                      "form": "lämpimiä",
+                      "ru": "тёплых"
+                    }
+                  ]
+                }
+              ],
+              "important": {
+                "title": {
+                  "ru": "Слово lämmin"
+                },
+                "body": {
+                  "ru": "lämmin не относится к суффиксам -ton/-tön или -llinen. Это отдельный тип с основой lämpimä-."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "Поставьте слово в нужную форму. Введите слово целиком."
+            },
+            "items": [
+              {
+                "sentence": "Juon ___ kahvia. (sokeriton, PART)",
+                "answer": "sokeritonta",
+                "translation": "Я пью кофе без сахара.",
+                "feedbackCorrect": "✅ Верно! -ton → -tonta в партитиве.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: sokeritonta. -ton → -tonta в партитиве."
+              },
+              {
+                "sentence": "Vältä ___ kulutusta. (tarpeeton, PART)",
+                "answer": "tarpeetonta",
+                "translation": "Избегай ненужного потребления.",
+                "feedbackCorrect": "✅ Верно! tarpeeton → tarpeetonta.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: tarpeetonta. tarpeeton → tarpeetonta."
+              },
+              {
+                "sentence": "Puhumme ___ palvelun hinnasta. (maksullinen, GEN)",
+                "answer": "maksullisen",
+                "translation": "Мы говорим о цене платной услуги.",
+                "feedbackCorrect": "✅ Верно! -llinen → -llisen в генитиве.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: maksullisen. -llinen → -llisen в генитиве."
+              },
+              {
+                "sentence": "Hän asuu ___ talossa. (ympäristöystävällinen, INE)",
+                "answer": "ympäristöystävällisessä",
+                "translation": "Он живёт в экологичном доме.",
+                "feedbackCorrect": "✅ Верно! -llinen → -llisessä в инессиве.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: ympäristöystävällisessä. -llinen → -llisessä в инессиве."
+              },
+              {
+                "sentence": "Kaupunki auttaa ___ ihmisiä. (asunnoton, MON PART)",
+                "answer": "asunnottomia",
+                "translation": "Город помогает бездомным людям.",
+                "feedbackCorrect": "✅ Верно! asunnoton → asunnottomia.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: asunnottomia. asunnoton → asunnottomia."
+              },
+              {
+                "sentence": "Valitsimme ___ vaihtoehdon. (päästötön, GEN)",
+                "answer": "päästöttömän",
+                "translation": "Мы выбрали вариант без выбросов.",
+                "feedbackCorrect": "✅ Верно! päästötön → päästöttömän.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: päästöttömän. päästötön → päästöttömän."
+              },
+              {
+                "sentence": "Ruoka pysyy ___ laatikossa. (lämmin, INE)",
+                "answer": "lämpimässä",
+                "translation": "Еда остаётся в тёплом контейнере.",
+                "feedbackCorrect": "✅ Верно! lämmin имеет основу lämpimä-.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: lämpimässä. lämmin имеет основу lämpimä-."
+              },
+              {
+                "sentence": "Tarvitsemme ___ vaatteita. (lämmin, MON PART)",
+                "answer": "lämpimiä",
+                "translation": "Нам нужна тёплая одежда.",
+                "feedbackCorrect": "✅ Верно! Множественный партитив: lämpimiä.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: lämpimiä. Множественный партитив: lämpimiä."
+              }
+            ]
+          },
+          {
+            "id": "adjektiivit-choice",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "Выберите правильное значение выделенного прилагательного."
+            },
+            "questions": [
+              {
+                "question": "Tämä juoma on alkoholiton.",
+                "translation": "Какое значение у слова alkoholiton?",
+                "options": [
+                  "безалкогольный",
+                  "алкогольный",
+                  "платный"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! -ton выражает отсутствие: без алкоголя."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. -ton выражает отсутствие: без алкоголя."
+                }
+              },
+              {
+                "question": "Palvelu on maksullinen.",
+                "translation": "Какое значение у слова maksullinen?",
+                "options": [
+                  "платный",
+                  "бесплатный",
+                  "бесполезный"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! maksu — плата; maksullinen — платный."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. maksu — плата; maksullinen — платный."
+                }
+              },
+              {
+                "question": "Ratkaisu on hyödytön.",
+                "translation": "Какое значение у слова hyödytön?",
+                "options": [
+                  "бесполезный",
+                  "полезный",
+                  "безопасный"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! hyöty — польза; hyödytön — без пользы."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. hyöty — польза; hyödytön — без пользы."
+                }
+              },
+              {
+                "question": "Hän on onnellinen.",
+                "translation": "Какое значение у слова onnellinen?",
+                "options": [
+                  "счастливый",
+                  "опасный",
+                  "безработный"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! onni — счастье; onnellinen — счастливый."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. onni — счастье; onnellinen — счастливый."
+                }
+              },
+              {
+                "question": "Valitsimme päästöttömän auton.",
+                "translation": "Какое значение у формы päästöttömän?",
+                "options": [
+                  "без выбросов",
+                  "без замка",
+                  "без сахара"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! päästö — выброс; päästötön — без выбросов."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. päästö — выброс; päästötön — без выбросов."
+                }
+              },
+              {
+                "question": "Tämä ruoka on terveellistä.",
+                "translation": "Какое значение у слова terveellistä?",
+                "options": [
+                  "полезная для здоровья",
+                  "платная",
+                  "ненужная"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! terveellinen — полезный для здоровья."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. terveellinen — полезный для здоровья."
+                }
+              }
+            ]
+          },
+          {
+            "id": "adjektiivit-translation",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "Переведите выделенное понятие одним финским словом."
+            },
+            "items": [
+              {
+                "sentence": "кофе без сахара → ___ kahvi",
+                "answer": "sokeriton",
+                "translation": "sokeriton kahvi",
+                "feedbackCorrect": "✅ Верно! sokeri + -ton = sokeriton.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: sokeriton. sokeri + -ton = sokeriton."
+              },
+              {
+                "sentence": "платная услуга → ___ palvelu",
+                "answer": "maksullinen",
+                "translation": "maksullinen palvelu",
+                "feedbackCorrect": "✅ Верно! maksu → maksullinen.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: maksullinen. maksu → maksullinen."
+              },
+              {
+                "sentence": "ненужная покупка → ___ ostos",
+                "answer": "tarpeeton",
+                "translation": "tarpeeton ostos",
+                "feedbackCorrect": "✅ Верно! tarve → tarpeeton.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: tarpeeton. tarve → tarpeeton."
+              },
+              {
+                "sentence": "экологичный товар → ___ tuote",
+                "answer": "ympäristöystävällinen",
+                "translation": "ympäristöystävällinen tuote",
+                "feedbackCorrect": "✅ Верно! Устойчивое сложное прилагательное: ympäristöystävällinen.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: ympäristöystävällinen. Устойчивое сложное прилагательное: ympäristöystävällinen."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "adverbit-sti",
+        "title": {
+          "ru": "Наречия с -sti",
+          "fi": "Adverbit: -sti"
+        },
+        "goal": {
+          "ru": "Научиться образовывать наречия и отличать их от прилагательных.",
+          "fi": "Opitaan muodostamaan -sti-adverbeja ja erottamaan ne adjektiiveista."
+        },
+        "examples": [
+          {
+            "fi": "Gepardi juoksee nopeasti.",
+            "translations": {
+              "ru": "Гепард бежит быстро."
+            }
+          },
+          {
+            "fi": "Anna laulaa kauniisti.",
+            "translations": {
+              "ru": "Анна красиво поёт."
+            }
+          },
+          {
+            "fi": "Hän lajittelee jätteet huolellisesti.",
+            "translations": {
+              "ru": "Он тщательно сортирует отходы."
+            }
+          },
+          {
+            "fi": "Toivottavasti seuraava lasku on pienempi.",
+            "translations": {
+              "ru": "Надеюсь, следующий счёт будет меньше."
+            }
+          }
+        ],
+        "explanationStructured": {
+          "title": {
+            "ru": "Millainen? или miten?"
+          },
+          "intro": {
+            "ru": "Прилагательное отвечает на вопрос **millainen? — какой?** и описывает предмет или человека. Наречие отвечает на вопрос **miten? — как?** и описывает действие, признак или всё предложение."
+          },
+          "important": {
+            "title": {
+              "ru": "Основное правило"
+            },
+            "body": {
+              "ru": "Чаще всего наречие образуется от основы прилагательного с помощью окончания -sti."
+            }
+          }
+        },
+        "exercises": [
+          {
+            "id": "adverbit-formation",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Образование наречия"
+              },
+              "intro": {
+                "ru": "Добавьте **-sti** к основе прилагательного. Конечная -a/-ä часто исчезает, а -nen меняется на -se-. Некоторые слова имеют особую форму."
+              },
+              "conjugationTables": [
+                {
+                  "title": {
+                    "ru": "Прилагательное → наречие"
+                  },
+                  "columns": [
+                    "Основа",
+                    "Форма",
+                    "Перевод"
+                  ],
+                  "rows": [
+                    {
+                      "base": "nopea",
+                      "form": "nopeasti",
+                      "ru": "быстро"
+                    },
+                    {
+                      "base": "jatkuva",
+                      "form": "jatkuvasti",
+                      "ru": "постоянно"
+                    },
+                    {
+                      "base": "kaunis",
+                      "form": "kauniisti",
+                      "ru": "красиво"
+                    },
+                    {
+                      "base": "ystävällinen",
+                      "form": "ystävällisesti",
+                      "ru": "дружелюбно"
+                    },
+                    {
+                      "base": "ekologinen",
+                      "form": "ekologisesti",
+                      "ru": "экологично"
+                    },
+                    {
+                      "base": "huomattava",
+                      "form": "huomattavasti",
+                      "ru": "значительно"
+                    },
+                    {
+                      "base": "erityinen",
+                      "form": "erityisesti",
+                      "ru": "особенно"
+                    },
+                    {
+                      "base": "hyvä",
+                      "form": "hyvin",
+                      "ru": "хорошо (особая форма)"
+                    }
+                  ]
+                }
+              ],
+              "important": {
+                "title": {
+                  "ru": "Наречия не склоняются"
+                },
+                "body": {
+                  "ru": "Форма остаётся неизменной: nopeasti, ekologisesti, huomattavasti."
+                }
+              }
+            },
+            "instruction": {
+              "ru": "Преобразуйте прилагательное в наречие. Введите слово целиком."
+            },
+            "items": [
+              {
+                "sentence": "nopea → ___",
+                "answer": "nopeasti",
+                "translation": "быстро",
+                "feedbackCorrect": "✅ Верно! nopea → nopeasti.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: nopeasti. nopea → nopeasti."
+              },
+              {
+                "sentence": "kaunis → ___",
+                "answer": "kauniisti",
+                "translation": "красиво",
+                "feedbackCorrect": "✅ Верно! kaunis → kauniisti.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: kauniisti. kaunis → kauniisti."
+              },
+              {
+                "sentence": "ystävällinen → ___",
+                "answer": "ystävällisesti",
+                "translation": "дружелюбно",
+                "feedbackCorrect": "✅ Верно! -nen → -se- + -sti.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: ystävällisesti. -nen → -se- + -sti."
+              },
+              {
+                "sentence": "ekologinen → ___",
+                "answer": "ekologisesti",
+                "translation": "экологично",
+                "feedbackCorrect": "✅ Верно! -nen → -se- + -sti.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: ekologisesti. -nen → -se- + -sti."
+              },
+              {
+                "sentence": "jatkuva → ___",
+                "answer": "jatkuvasti",
+                "translation": "постоянно",
+                "feedbackCorrect": "✅ Верно! Конечная -a исчезает.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: jatkuvasti. Конечная -a исчезает."
+              },
+              {
+                "sentence": "huomattava → ___",
+                "answer": "huomattavasti",
+                "translation": "значительно",
+                "feedbackCorrect": "✅ Верно! Конечная -a исчезает.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: huomattavasti. Конечная -a исчезает."
+              },
+              {
+                "sentence": "erityinen → ___",
+                "answer": "erityisesti",
+                "translation": "особенно",
+                "feedbackCorrect": "✅ Верно! -nen → -se- + -sti.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: erityisesti. -nen → -se- + -sti."
+              },
+              {
+                "sentence": "huolellinen → ___",
+                "answer": "huolellisesti",
+                "translation": "тщательно",
+                "feedbackCorrect": "✅ Верно! -nen → -se- + -sti.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: huolellisesti. -nen → -se- + -sti."
+              }
+            ]
+          },
+          {
+            "id": "adverbit-adjective-or-adverb",
+            "type": "fill-in-the-blank",
+            "multiStep": true,
+            "explanationStructured": {
+              "title": {
+                "ru": "Прилагательное или наречие"
+              },
+              "intro": {
+                "ru": "После **olla** часто нужен признак предмета: laite on hiljainen. После глагола действия используется наречие: laite toimii hiljaisesti."
+              },
+              "examplesByType": [
+                {
+                  "title": {
+                    "ru": "Прилагательное: millainen?"
+                  },
+                  "examples": [
+                    {
+                      "fi": "Gepardi on nopea eläin.",
+                      "ru": "Гепард — быстрое животное."
+                    },
+                    {
+                      "fi": "Tämä ohje on selkeä.",
+                      "ru": "Эта инструкция понятная."
+                    }
+                  ]
+                },
+                {
+                  "title": {
+                    "ru": "Наречие: miten?"
+                  },
+                  "examples": [
+                    {
+                      "fi": "Gepardi juoksee nopeasti.",
+                      "ru": "Гепард бежит быстро."
+                    },
+                    {
+                      "fi": "Hän selitti asian selkeästi.",
+                      "ru": "Он объяснил дело ясно."
+                    }
+                  ]
+                }
+              ]
+            },
+            "instruction": {
+              "ru": "Допишите подходящую форму слова в скобках."
+            },
+            "items": [
+              {
+                "sentence": "Uusi pakastin on ___. (energiatehokas)",
+                "answer": "energiatehokas",
+                "translation": "Новая морозильная камера энергоэффективная.",
+                "feedbackCorrect": "✅ Верно! После olla описываем предмет прилагательным.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: energiatehokas. После olla описываем предмет прилагательным."
+              },
+              {
+                "sentence": "Uusi pakastin toimii ___. (energiatehokas)",
+                "answer": "energiatehokkaasti",
+                "translation": "Новая морозильная камера работает энергоэффективно.",
+                "feedbackCorrect": "✅ Верно! Глагол toimii описывается наречием.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: energiatehokkaasti. Глагол toimii описывается наречием."
+              },
+              {
+                "sentence": "Hän lajittelee jätteet ___. (huolellinen)",
+                "answer": "huolellisesti",
+                "translation": "Он тщательно сортирует отходы.",
+                "feedbackCorrect": "✅ Верно! Действие lajittelee описывается наречием.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: huolellisesti. Действие lajittelee описывается наречием."
+              },
+              {
+                "sentence": "Tämä ohje on ___. (selkeä)",
+                "answer": "selkeä",
+                "translation": "Эта инструкция понятная.",
+                "feedbackCorrect": "✅ Верно! После olla нужен признак.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: selkeä. После olla нужен признак."
+              },
+              {
+                "sentence": "Neuvoja selitti asian ___. (selkeä)",
+                "answer": "selkeästi",
+                "translation": "Консультант ясно объяснил дело.",
+                "feedbackCorrect": "✅ Верно! Действие selitti описывается наречием.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: selkeästi. Действие selitti описывается наречием."
+              },
+              {
+                "sentence": "Hän matkustaa ___. (ekologinen)",
+                "answer": "ekologisesti",
+                "translation": "Он путешествует экологично.",
+                "feedbackCorrect": "✅ Верно! Действие matkustaa описывается наречием.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: ekologisesti. Действие matkustaa описывается наречием."
+              }
+            ]
+          },
+          {
+            "id": "adverbit-choice",
+            "type": "multiple-choice-group",
+            "instruction": {
+              "ru": "Выберите форму, которая подходит к предложению."
+            },
+            "questions": [
+              {
+                "question": "Uusi pakastin on ___.",
+                "translation": "Новая морозильная камера энергоэффективная.",
+                "options": [
+                  "energiatehokas",
+                  "energiatehokkaasti",
+                  "energiatehokasta"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! После olla нужен признак в основной форме."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. После olla нужен признак в основной форме."
+                }
+              },
+              {
+                "question": "Uusi pakastin toimii ___.",
+                "translation": "Новая морозильная камера работает энергоэффективно.",
+                "options": [
+                  "energiatehokkaasti",
+                  "energiatehokas",
+                  "energiatehokkaan"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! Глагол toimii описывается наречием."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. Глагол toimii описывается наречием."
+                }
+              },
+              {
+                "question": "Hän lajittelee jätteet ___.",
+                "translation": "Он тщательно сортирует отходы.",
+                "options": [
+                  "huolellisesti",
+                  "huolellinen",
+                  "huolellisen"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! На вопрос miten? отвечает huolellisesti."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. На вопрос miten? отвечает huolellisesti."
+                }
+              },
+              {
+                "question": "Tämä ohje on ___.",
+                "translation": "Эта инструкция понятная.",
+                "options": [
+                  "selkeä",
+                  "selkeästi",
+                  "selkeän"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! После olla используется прилагательное selkeä."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. После olla используется прилагательное selkeä."
+                }
+              },
+              {
+                "question": "Neuvoja selitti asian ___.",
+                "translation": "Консультант ясно объяснил дело.",
+                "options": [
+                  "selkeästi",
+                  "selkeä",
+                  "selkeää"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! Действие selitti описывается наречием selkeästi."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. Действие selitti описывается наречием selkeästi."
+                }
+              },
+              {
+                "question": "Vedenkulutus laski ___.",
+                "translation": "Потребление воды значительно снизилось.",
+                "options": [
+                  "huomattavasti",
+                  "huomattava",
+                  "huomattavan"
+                ],
+                "answer": 0,
+                "feedbackCorrect": {
+                  "ru": "✅ Верно! Глагол laski описывается наречием huomattavasti."
+                },
+                "feedbackWrong": {
+                  "ru": "❌ Неверно. Глагол laski описывается наречием huomattavasti."
+                }
+              }
+            ]
+          },
+          {
+            "id": "adverbit-translation",
+            "type": "fill-in-the-blank",
+            "instruction": {
+              "ru": "Переведите предложение. Введите полный ответ без точки."
+            },
+            "items": [
+              {
+                "sentence": "Она сортирует отходы тщательно. → ___",
+                "answer": "Hän lajittelee jätteet huolellisesti",
+                "translation": "Hän lajittelee jätteet huolellisesti.",
+                "feedbackCorrect": "✅ Верно! huolellinen → huolellisesti.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: Hän lajittelee jätteet huolellisesti. huolellinen → huolellisesti."
+              },
+              {
+                "sentence": "Этот прибор работает тихо. → ___",
+                "answer": "Tämä laite toimii hiljaisesti",
+                "translation": "Tämä laite toimii hiljaisesti.",
+                "feedbackCorrect": "✅ Верно! hiljainen → hiljaisesti.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: Tämä laite toimii hiljaisesti. hiljainen → hiljaisesti."
+              },
+              {
+                "sentence": "Потребление электричества значительно уменьшилось. → ___",
+                "answer": "Sähkönkulutus väheni huomattavasti",
+                "translation": "Sähkönkulutus väheni huomattavasti.",
+                "feedbackCorrect": "✅ Верно! huomattavasti = значительно.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: Sähkönkulutus väheni huomattavasti. huomattavasti = значительно."
+              },
+              {
+                "sentence": "Мы стараемся жить экологично. → ___",
+                "answer": "Yritämme elää ekologisesti",
+                "translation": "Yritämme elää ekologisesti.",
+                "feedbackCorrect": "✅ Верно! ekologinen → ekologisesti.",
+                "feedbackWrong": "❌ Пока неверно. Правильный ответ: Yritämme elää ekologisesti. ekologinen → ekologisesti."
+              }
+            ]
+          }
+        ]
       }
     ]
   },
